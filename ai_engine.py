@@ -7,21 +7,24 @@ import re
 # Load API Key
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY")
 
-# --- RELIABLE FREE MODEL LIST ---
+# --- RELIABLE FREE MODELS (No 404s) ---
 MODELS_TO_TRY = [
-    "google/gemini-2.0-flash-exp:free",         # Best Quality
-    "meta-llama/llama-3.2-3b-instruct:free",    # Most Reliable
+    "google/gemini-2.0-flash-exp:free",         # Fast & Smart
+    "meta-llama/llama-3.2-3b-instruct:free",    # Very Reliable
     "microsoft/phi-3-medium-128k-instruct:free",# Backup
     "huggingfaceh4/zephyr-7b-beta:free",        # Fallback
 ]
 
 def extract_json(text):
-    """Finds JSON inside text if the AI talks too much."""
+    """Clean JSON from AI chatter."""
     try:
+        # Look for ```json ... ```
         match = re.search(r'```json\s*(\{.*?\})\s*```', text, re.DOTALL)
         if match: return json.loads(match.group(1))
+        # Look for { ... }
         match = re.search(r'(\{.*\})', text, re.DOTALL)
         if match: return json.loads(match.group(1))
+        # Try raw
         return json.loads(text)
     except:
         return None
@@ -48,6 +51,7 @@ def ask_ai(prompt, system_instruction="You are a helpful AI assistant."):
                 {"role": "user", "content": prompt}
             ],
             "temperature": 0.8
+            # REMOVED response_format to prevent 400 Errors
         }
         
         try:
