@@ -30,7 +30,6 @@ def render(plan):
     with open(plan, 'r') as f: data = json.load(f)
     print(f"📼 Rendering {data['file_name']}...")
     
-    # 1. Validate Assets
     cards = []
     for c in data['card_images']:
         path = os.path.join(ASSETS, c)
@@ -38,10 +37,9 @@ def render(plan):
         else: print(f"❌ Missing: {path}")
     
     if not cards:
-        print("❌ FATAL: No cards found.")
+        print("❌ FATAL: No cards found. Stopping.")
         sys.exit(1)
 
-    # 2. Audio
     tts = gTTS(data['script_text'], lang='en', tld='com')
     tts.save("voice.mp3")
     voice = AudioFileClip("voice.mp3")
@@ -53,11 +51,9 @@ def render(plan):
         bg = afx.audio_loop(bg, duration=duration).volumex(0.15)
         audio = CompositeAudioClip([voice, bg])
 
-    # 3. Visuals
     bg_clip = ColorClip((1080, 1920), (15,5,25), duration=duration)
     clips = [bg_clip]
     
-    # Card Timing: Intro 3s -> Cards
     intro = 3.0
     time_per_card = (duration - intro) / len(cards)
     
@@ -66,7 +62,6 @@ def render(plan):
         img = img.set_start(intro + i*time_per_card).set_duration(time_per_card).crossfadein(0.5)
         clips.append(zoom(img))
 
-    # 4. Text
     font_use = FONT if os.path.exists(FONT) else 'DejaVu-Sans-Bold'
     try:
         title = TextClip(data['title'].upper(), fontsize=60, color='#FFD700', font=font_use, size=(900, None), method='caption')
