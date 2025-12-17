@@ -2,24 +2,40 @@ import os
 import json
 import requests
 import time
-import sys
+import re
 
-# Load API Key from GitHub Secrets
+# Load API Key
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY")
 
-# --- UPDATED FREE MODEL LIST (More Reliable) ---
+# --- SAFEST FREE MODEL LIST (No 404s) ---
 MODELS_TO_TRY = [
-    "google/gemini-2.0-flash-lite-preview-02-05:free", # Newest Google model
-    "deepseek/deepseek-r1:free",                       # Very smart, currently free
-    "meta-llama/llama-3.3-70b-instruct:free",          # High quality Llama
-    "qwen/qwen-2.5-coder-32b-instruct:free",           # Good fallback
-    "google/gemini-2.0-pro-exp-02-05:free"             # Powerful Google fallback
+    "google/gemini-2.0-flash-exp:free",         # Often busy, but best
+    "meta-llama/llama-3.2-3b-instruct:free",    # Very reliable
+    "microsoft/phi-3-medium-128k-instruct:free",# Good fallback
+    "huggingfaceh4/zephyr-7b-beta:free",        # Classic fallback
+    "mistralai/mistral-7b-instruct:free"        # Standard fallback
 ]
 
+def extract_json(text):
+    """
+    Extracts JSON from text if the AI adds extra words.
+    """
+    try:
+        # Try to find JSON block between ```json and ```
+        match = re.search(r'```json\s*(\{.*?\})\s*```', text, re.DOTALL)
+        if match:
+            return json.loads(match.group(1))
+        
+        # Try to find just the first { and last }
+        match = re.search(r'(\{.*\})', text, re.DOTALL)
+        if match:
+            return json.loads(match.group(1))
+            
+        return json.loads(text) # Try raw
+    except:
+        return None
+
 def ask_ai(prompt, system_instruction="You are a helpful AI assistant."):
-    """
-    Sends a prompt to OpenRouter with robust failover.
-    """
     if not OPENROUTER_API_KEY:
         print("❌ CRITICAL ERROR: OPENROUTER_API_KEY is missing.")
         return None
@@ -43,12 +59,11 @@ def ask_ai(prompt, system_instruction="You are a helpful AI assistant."):
                 {"role": "system", "content": system_instruction},
                 {"role": "user", "content": prompt}
             ],
-            "temperature": 0.85, # Slightly higher for creativity
-            "response_format": { "type": "json_object" } 
+            "temperature": 0.8,
+            # REMOVED 'response_format' to fix Error 400
         }
         
         try:
-            # Increased timeout to 45s for deepseek
             response = requests.post(url, headers=headers, json=payload, timeout=45)
             
             if response.status_code == 200:
@@ -56,16 +71,15 @@ def ask_ai(prompt, system_instruction="You are a helpful AI assistant."):
                 if 'choices' in data and len(data['choices']) > 0:
                     raw_content = data['choices'][0]['message']['content']
                     
-                    # Clean markdown if model adds it (```json ...)
-                    clean_content = raw_content.replace('```json', '').replace('```', '').strip()
+                    # Manual Cleanup using our helper function
+                    clean_json = extract_json(raw_content)
                     
-                    try:
-                        return json.loads(clean_content)
-                    except json.JSONDecodeError:
-                        print(f"⚠️ Model {model} returned bad JSON. Retrying...")
+                    if clean_json:
+                        return clean_json
+                    else:
+                        print(f"⚠️ Model {model} returned invalid JSON structure. Retrying...")
                         continue
             
-            # If we get here, it failed
             print(f"⚠️ Model {model} failed (Status: {response.status_code}). Switching...")
             time.sleep(2) 
 
