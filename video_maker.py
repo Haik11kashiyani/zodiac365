@@ -1,11 +1,12 @@
 import json
 import os
 import sys
-import math
 from moviepy.config import change_settings
 from moviepy.editor import *
 import moviepy.audio.fx.all as afx
 from gtts import gTTS
+from PIL import Image
+import numpy as np
 
 # --- CONFIGURATION ---
 ASSETS_DIR = "assets/tarot_cards"
@@ -18,7 +19,7 @@ if os.name == 'posix':
     change_settings({"IMAGEMAGICK_BINARY": "/usr/bin/convert"})
 
 def zoom_in_effect(clip, zoom_ratio=0.04):
-    """Adds a slow zoom-in effect to images (Ken Burns effect)"""
+    """Adds a cinematic slow zoom-in effect"""
     def effect(get_frame, t):
         img = clip.get_frame(t)
         h, w = img.shape[:2]
@@ -28,9 +29,6 @@ def zoom_in_effect(clip, zoom_ratio=0.04):
         x1 = x_center - new_w // 2
         y1 = y_center - new_h // 2
         
-        # Crop center to zoom
-        import numpy as np
-        from PIL import Image
         pil_img = Image.fromarray(img)
         pil_img = pil_img.crop((x1, y1, x1 + new_w, y1 + new_h))
         pil_img = pil_img.resize((w, h), Image.LANCZOS)
@@ -52,7 +50,7 @@ def create_video_from_plan(plan_file):
     tts.save(voice_path)
     
     voice_clip = AudioFileClip(voice_path)
-    total_duration = voice_clip.duration + 2
+    total_duration = voice_clip.duration + 2 # Add buffer
     
     # Background Music
     if os.path.exists(MUSIC_PATH):
@@ -62,73 +60,81 @@ def create_video_from_plan(plan_file):
         else:
             bg_music = bg_music.subclip(0, total_duration)
         
-        bg_music = bg_music.volumex(0.15) # Low volume
+        bg_music = bg_music.volumex(0.15) # Low volume (15%)
         final_audio = CompositeAudioClip([voice_clip, bg_music])
     else:
+        print("⚠️ Music missing, using voice only.")
         final_audio = voice_clip
 
-    # 3. DYNAMIC VISUALS
-    # We want a dark animated background, but a color clip works for now.
-    bg_clip = ColorClip(size=(1080, 1920), color=(10, 5, 20), duration=total_duration)
+    # 3. VISUALS (Cards with Zoom)
+    # Background (Dark Mystical Purple)
+    bg_clip = ColorClip(size=(1080, 1920), color=(15, 5, 25), duration=total_duration)
     
     card_files = data['card_images']
     card_clips = []
     
-    # Timing Strategy:
-    # 0-3s: Intro (Title)
-    # 3s - End: Cards Cycle
+    # Logic: Title for 3s, then Cards
     intro_duration = 3.0
     remaining_time = total_duration - intro_duration
     time_per_card = remaining_time / len(card_files)
+    
+    print(f"🎴 Animating {len(card_files)} cards...")
     
     for i, card_filename in enumerate(card_files):
         img_path = os.path.join(ASSETS_DIR, card_filename)
         
         if not os.path.exists(img_path):
+            print(f"⚠️ Missing asset: {img_path}")
             continue
 
-        # Create Image
         start_time = intro_duration + (i * time_per_card)
         
+        # Load Image -> Resize -> Set Position -> Apply Zoom
         img = ImageClip(img_path).resize(width=950).set_position("center")
         img = img.set_start(start_time).set_duration(time_per_card)
-        img = img.crossfadein(0.5) # Smooth fade
+        img = img.crossfadein(0.5)
         
-        # Add Slide Up Animation (Manual 'set_position')
-        # We simulate a "Pop Up" by starting slightly lower
-        # (This is hard in basic MoviePy, so we stick to Fade + Zoom for reliability)
+        # Apply Cinematic Zoom
+        img = zoom_in_effect(img, zoom_ratio=0.04)
         
         card_clips.append(img)
 
-    # 4. TEXT OVERLAYS (The "Viral" Part)
+    # 4. TEXT OVERLAYS (The Viral Hook)
     
-    # A. MAIN TITLE (Only for first 3 seconds)
-    if os.path.exists(FONT_PATH):
-        font_use = os.path.abspath(FONT_PATH)
-    else:
-        font_use = 'DejaVu-Sans-Bold'
+    # Check Font
+    font_use = os.path.abspath(FONT_PATH) if os.path.exists(FONT_PATH) else 'DejaVu-Sans-Bold'
 
-    title_clip = TextClip(
-        data['title'].upper(), # Make it UPPERCASE for impact
-        fontsize=70, 
-        color='#FFD700', # Gold
-        font=font_use,
-        size=(900, None), 
-        method='caption'
-    ).set_position(('center', 400)).set_start(0).set_duration(3).crossfadeout(0.5)
+    # A. TITLE (First 3 Seconds ONLY)
+    try:
+        title_clip = TextClip(
+            data['title'].upper(), 
+            fontsize=65, 
+            color='#FFD700', # Gold
+            font=font_use,
+            size=(900, None), 
+            method='caption'
+        ).set_position(('center', 400)).set_start(0).set_duration(3).crossfadeout(0.5)
+    except Exception as e:
+        print(f"⚠️ Title Text Failed: {e}")
+        title_clip = None
 
-    # B. "LISTEN CLOSELY" (Call to action at the end)
-    cta_clip = TextClip(
-        "Claim This Energy 👇", 
-        fontsize=50, 
-        color='white', 
-        font=font_use,
-        size=(900, None),
-        method='caption'
-    ).set_position(('center', 1500)).set_start(total_duration - 4).set_duration(4).crossfadein(1)
+    # B. CTA (Last 4 Seconds)
+    try:
+        cta_clip = TextClip(
+            "Claim This Energy 👇", 
+            fontsize=50, 
+            color='white', 
+            font=font_use,
+            size=(900, None),
+            method='caption'
+        ).set_position(('center', 1500)).set_start(total_duration - 4).set_duration(4).crossfadein(1)
+    except:
+        cta_clip = None
 
     # 5. ASSEMBLE
-    layers = [bg_clip] + card_clips + [title_clip, cta_clip]
+    layers = [bg_clip] + card_clips
+    if title_clip: layers.append(title_clip)
+    if cta_clip: layers.append(cta_clip)
     
     final_video = CompositeVideoClip(layers).set_audio(final_audio)
     
@@ -138,7 +144,6 @@ def create_video_from_plan(plan_file):
     
     output_filename = os.path.join(OUTPUT_DIR, data['file_name'])
     
-    # 'ultrafast' for testing, 'medium' for production quality
     final_video.write_videofile(
         output_filename, 
         fps=24, 
@@ -157,5 +162,5 @@ if __name__ == "__main__":
         latest = max(files, key=os.path.getctime)
         create_video_from_plan(latest)
     else:
-        print("❌ No plan file found.")
+        print("❌ No plan file found. Run generator first.")
         sys.exit(1)
