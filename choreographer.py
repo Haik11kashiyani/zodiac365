@@ -16,43 +16,42 @@ def polish_script(plan_file):
 
     # 2. THE DIRECTOR'S PROMPT
     prompt = f"""
-    You are a Master Viral Video Director for YouTube Shorts (Zodiac/Tarot Niche).
-    I have a draft script. It is too boring. I need you to "Spike the Dopamine".
+    You are a Master Viral Video Director for YouTube Shorts.
+    Reword this script to be 'Dark, Mystical, and Urgent'.
     
     CURRENT DRAFT:
     Title: {draft['title']}
     Script: {draft['script_text']}
-    Cards: {draft.get('card_names', 'Unknown Cards')}
     
-    YOUR TASK:
-    1. HOOK (0-3s): Rewrite the first sentence. It MUST stop the scroll. Use phrases like "Stop scrolling", "The universe has a warning", "Your ex is thinking about you".
-    2. BODY: Keep the meaning, but make it punchy. Short sentences. Remove fluff.
-    3. ENDING: Add a 'Hypnotic CTA'. Example: "To claim this energy, tap follow and comment 'So Mote It Be'."
-    4. TONE: Dark, Mystical, 8th House, Scorpionic.
-    5. TITLE: Write a clickbait title in UPPERCASE (Max 6 words).
+    INSTRUCTIONS:
+    1. Output strictly JSON.
+    2. HOOK: Rewrite the first sentence to be a scroll-stopper.
+    3. ENDING: Add a CTA "Comment So Mote It Be".
+    4. TITLE: Clickbait title, UPPERCASE.
     
-    OUTPUT FORMAT (Strict JSON):
+    OUTPUT FORMAT:
+    ```json
     {{
-        "title": "NEW VIRAL TITLE",
-        "script_text": "New viral script text...",
-        "visual_notes": "Specific mood instructions"
+        "title": "NEW TITLE",
+        "script_text": "New script...",
+        "visual_notes": "Mood notes"
     }}
+    ```
     """
     
     print("🎬 Polishing script with AI Director...")
-    polished_data = ask_ai(prompt, system_instruction="You are a Viral Content Editor. You hate boring content.")
+    # System instruction emphasizes JSON to help the simpler models
+    polished_data = ask_ai(prompt, system_instruction="You are a Viral Editor. You respond ONLY in valid JSON.")
     
     if polished_data:
-        # 3. MERGE & UPDATE
         print(f"✨ Original Title: {draft['title']}")
-        print(f"🚀 New Viral Title: {polished_data['title']}")
+        print(f"🚀 New Viral Title: {polished_data.get('title', 'NO TITLE')}")
         
-        # Update the draft with new creative text
-        draft['title'] = polished_data['title']
-        draft['script_text'] = polished_data['script_text']
+        # Update draft safely
+        draft['title'] = polished_data.get('title', draft['title'])
+        draft['script_text'] = polished_data.get('script_text', draft['script_text'])
         draft['choreography_notes'] = polished_data.get('visual_notes', '')
         
-        # Save it back to the same file (Overwrite)
         with open(plan_file, 'w', encoding='utf-8') as f:
             json.dump(draft, f, indent=4)
             
@@ -61,10 +60,9 @@ def polish_script(plan_file):
         print("⚠️ Choreographer failed (AI Error). Keeping original draft.")
 
 if __name__ == "__main__":
-    # Find the newest plan file
     files = [f for f in os.listdir('.') if f.startswith('plan_tarot') and f.endswith('.json')]
     if files:
         latest = max(files, key=os.path.getctime)
         polish_script(latest)
     else:
-        print("❌ No plan file found to polish.")
+        print("❌ No plan file found.")
