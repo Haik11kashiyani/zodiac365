@@ -7,27 +7,30 @@ def polish_script(plan_file):
     print(f"🧐 Choreographer is reviewing: {plan_file}")
     
     # 1. READ THE DRAFT
-    with open(plan_file, 'r', encoding='utf-8') as f:
-        draft = json.load(f)
+    try:
+        with open(plan_file, 'r', encoding='utf-8') as f:
+            draft = json.load(f)
+    except Exception as e:
+        print(f"❌ Error reading plan file: {e}")
+        return
 
     # 2. THE DIRECTOR'S PROMPT
     # We ask the AI to act like a Video Editor/Director
     prompt = f"""
-    You are a Master Viral Video Choreographer for YouTube Shorts.
-    I have a draft script for a Tarot reading video. It is too boring.
-    
-    YOUR JOB: Reword the script to make it 'Dark, Mystical, and High-Retention'.
+    You are a Master Viral Video Director for YouTube Shorts (Zodiac/Tarot Niche).
+    I have a draft script. It is too boring. I need you to "Spike the Dopamine".
     
     CURRENT DRAFT:
     Title: {draft['title']}
     Script: {draft['script_text']}
-    Cards: {draft['card_names']}
+    Cards: {draft.get('card_names', 'Unknown Cards')}
     
-    INSTRUCTIONS:
-    1. HOOK (0-3s): Rewrite the first sentence to be a "Scroll Stopper". (e.g., "Do NOT scroll past this...", "Your enemies are watching...")
-    2. PACING: Remove fluff words. Make it sound punchy like a TikTok narration.
-    3. TONE: The tone must be 'Urgent' and '8th House Scorpionic'.
-    4. TITLE: Write a new Clickbait Title (Max 6 words, UPPERCASE).
+    YOUR TASK:
+    1. HOOK (0-3s): Rewrite the first sentence. It MUST stop the scroll. Use phrases like "Stop scrolling", "The universe has a warning", "Your ex is thinking about you".
+    2. BODY: Keep the meaning, but make it punchy. Short sentences.
+    3. ENDING: Add a 'Hypnotic CTA'. Example: "To claim this energy, tap follow and comment 'So Mote It Be'."
+    4. TONE: Dark, Mystical, 8th House, Scorpionic.
+    5. TITLE: Write a clickbait title in UPPERCASE (Max 6 words).
     
     OUTPUT FORMAT (Strict JSON):
     {{
@@ -42,18 +45,21 @@ def polish_script(plan_file):
     
     if polished_data:
         # 3. MERGE & UPDATE
-        # We keep the technical file names (cards/audio) but update the creative text
+        print(f"✨ Original Title: {draft['title']}")
+        print(f"🚀 New Viral Title: {polished_data['title']}")
+        
+        # Update the draft with new creative text
         draft['title'] = polished_data['title']
         draft['script_text'] = polished_data['script_text']
         draft['choreography_notes'] = polished_data.get('visual_notes', '')
         
-        # Save it back to the same file (Overwrite with better version)
+        # Save it back to the same file (Overwrite)
         with open(plan_file, 'w', encoding='utf-8') as f:
             json.dump(draft, f, indent=4)
             
-        print(f"✨ Script Polished! New Title: {draft['title']}")
+        print("✅ Script updated successfully.")
     else:
-        print("⚠️ Choreographer failed. Using original draft.")
+        print("⚠️ Choreographer failed (AI Error). Keeping original draft.")
 
 if __name__ == "__main__":
     # Find the newest plan file
@@ -62,4 +68,4 @@ if __name__ == "__main__":
         latest = max(files, key=os.path.getctime)
         polish_script(latest)
     else:
-        print("❌ No plan to polish.")
+        print("❌ No plan file found to polish.")
