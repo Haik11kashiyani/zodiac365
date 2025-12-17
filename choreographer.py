@@ -8,14 +8,13 @@ def polish(plan_file):
     
     prompt = f"""
     Rewrite this YouTube Shorts script to be VIRAL, DARK, and URGENT.
-    
     Title: {draft['title']}
     Script: {draft['script_text']}
     
     OUTPUT JSON ONLY:
     {{
         "title": "NEW VIRAL TITLE (UPPERCASE)",
-        "script_text": "Stop scrolling! [New Hook]... [Punchy Body]... [Hypnotic CTA]",
+        "script_text": "Stop scrolling! [Hook]... [Punchy Body]... [Hypnotic CTA]",
         "visual_notes": "Scorpionic vibe"
     }}
     """
