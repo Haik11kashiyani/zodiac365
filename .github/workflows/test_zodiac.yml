@@ -1,7 +1,7 @@
 name: Test Zodiac Pipeline
 
 on:
-  workflow_dispatch: # Manual Button
+  workflow_dispatch:
 
 jobs:
   build-video:
@@ -15,7 +15,6 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y imagemagick
-          # FIX: Allow ImageMagick to write text
           sudo sed -i 's/none/read,write/g' /etc/ImageMagick-6/policy.xml
 
       - name: Set up Python
@@ -26,23 +25,23 @@ jobs:
       - name: Install Dependencies
         run: pip install -r requirements.txt
 
-      - name: 1. Download Assets (Cards)
+      - name: 1. Download Assets
         run: python setup_assets.py
         
-      - name: 2. Download Extras (Music/Fonts)
+      - name: 2. Download Extras
         run: python setup_extras.py
 
-      - name: 3. Generate Draft Plan (The Writer)
+      - name: 3. Generate Draft (Writer)
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: python generator_tarot.py
 
-      - name: 4. Polish Script (The Choreographer)
+      - name: 4. Polish Script (Choreographer)
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: python choreographer.py
 
-      - name: 5. Create Video (The Director)
+      - name: 5. Create Video (Director)
         run: python video_maker.py
 
       - name: Upload Result
