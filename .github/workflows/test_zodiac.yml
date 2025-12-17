@@ -1,51 +1,48 @@
 name: Test Zodiac Pipeline
 
-on:
-  workflow_dispatch:
+on: workflow_dispatch
 
 jobs:
   build-video:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout Code
-        uses: actions/checkout@v3
-
-      - name: Install System Libraries
+      - uses: actions/checkout@v3
+      
+      - name: Install Libraries
         run: |
           sudo apt-get update
           sudo apt-get install -y imagemagick
           sudo sed -i 's/none/read,write/g' /etc/ImageMagick-6/policy.xml
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
+      - uses: actions/setup-python@v4
         with:
           python-version: '3.9'
 
-      - name: Install Dependencies
-        run: pip install -r requirements.txt
+      - run: pip install -r requirements.txt
 
       - name: 1. Download Assets
         run: python setup_assets.py
-        
+
       - name: 2. Download Extras
         run: python setup_extras.py
+        
+      - name: DEBUG - Check Assets
+        run: ls -R assets/
 
-      - name: 3. Generate Draft (Writer)
+      - name: 3. Generate Draft
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: python generator_tarot.py
 
-      - name: 4. Polish Script (Choreographer)
+      - name: 4. Polish Script
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: python choreographer.py
 
-      - name: 5. Create Video (Director)
+      - name: 5. Create Video
         run: python video_maker.py
 
-      - name: Upload Result
-        uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v4
         with:
           name: viral-tarot-video
           path: output_videos/*.mp4
