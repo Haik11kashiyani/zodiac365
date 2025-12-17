@@ -2,11 +2,11 @@ import os
 import json
 import random
 import datetime
+import sys
 from ai_engine import ask_ai
 
 # --- CONFIGURATION ---
 # Full 78 Card Mapping (Name -> Filename)
-# m=Major, w=Wands, c=Cups, s=Swords, p=Pentacles
 TAROT_DECK = {
     # MAJOR ARCANA
     "The Fool": "m00.jpg", "The Magician": "m01.jpg", "The High Priestess": "m02.jpg",
@@ -17,28 +17,28 @@ TAROT_DECK = {
     "The Devil": "m15.jpg", "The Tower": "m16.jpg", "The Star": "m17.jpg",
     "The Moon": "m18.jpg", "The Sun": "m19.jpg", "Judgement": "m20.jpg", "The World": "m21.jpg",
 
-    # WANDS (Fire - Passion, Action)
+    # WANDS
     "Ace of Wands": "w01.jpg", "Two of Wands": "w02.jpg", "Three of Wands": "w03.jpg",
     "Four of Wands": "w04.jpg", "Five of Wands": "w05.jpg", "Six of Wands": "w06.jpg",
     "Seven of Wands": "w07.jpg", "Eight of Wands": "w08.jpg", "Nine of Wands": "w09.jpg",
     "Ten of Wands": "w10.jpg", "Page of Wands": "w11.jpg", "Knight of Wands": "w12.jpg",
     "Queen of Wands": "w13.jpg", "King of Wands": "w14.jpg",
 
-    # CUPS (Water - Emotions, Love)
+    # CUPS
     "Ace of Cups": "c01.jpg", "Two of Cups": "c02.jpg", "Three of Cups": "c03.jpg",
     "Four of Cups": "c04.jpg", "Five of Cups": "c05.jpg", "Six of Cups": "c06.jpg",
     "Seven of Cups": "c07.jpg", "Eight of Cups": "c08.jpg", "Nine of Cups": "c09.jpg",
     "Ten of Cups": "c10.jpg", "Page of Cups": "c11.jpg", "Knight of Cups": "c12.jpg",
     "Queen of Cups": "c13.jpg", "King of Cups": "c14.jpg",
 
-    # SWORDS (Air - Intellect, Conflict)
+    # SWORDS
     "Ace of Swords": "s01.jpg", "Two of Swords": "s02.jpg", "Three of Swords": "s03.jpg",
     "Four of Swords": "s04.jpg", "Five of Swords": "s05.jpg", "Six of Swords": "s06.jpg",
     "Seven of Swords": "s07.jpg", "Eight of Swords": "s08.jpg", "Nine of Swords": "s09.jpg",
     "Ten of Swords": "s10.jpg", "Page of Swords": "s11.jpg", "Knight of Swords": "s12.jpg",
     "Queen of Swords": "s13.jpg", "King of Swords": "s14.jpg",
 
-    # PENTACLES (Earth - Money, Career)
+    # PENTACLES
     "Ace of Pentacles": "p01.jpg", "Two of Pentacles": "p02.jpg", "Three of Pentacles": "p03.jpg",
     "Four of Pentacles": "p04.jpg", "Five of Pentacles": "p05.jpg", "Six of Pentacles": "p06.jpg",
     "Seven of Pentacles": "p07.jpg", "Eight of Pentacles": "p08.jpg", "Nine of Pentacles": "p09.jpg",
@@ -111,9 +111,15 @@ def generate_tarot_reading(date_str):
         print(f"✅ Tarot Plan Saved: {filename}")
         return filename
     else:
-        print("❌ Failed to generate Tarot reading.")
-        return None
+        # IMPORTANT: This allows GitHub Actions to catch the failure
+        print("❌ FATAL ERROR: Could not generate Tarot Plan. AI connection failed.")
+        sys.exit(1)
 
 if __name__ == "__main__":
     today = datetime.datetime.now().date()
-    generate_tarot_reading(str(today))
+    # If this function returns None or fails, we exit with error code 1
+    try:
+        generate_tarot_reading(str(today))
+    except Exception as e:
+        print(f"❌ Script Crashed: {e}")
+        sys.exit(1)
