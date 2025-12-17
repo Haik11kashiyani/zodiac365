@@ -4,32 +4,27 @@ import datetime
 import sys
 from ai_engine import ask_ai
 
-# Map Card Names to File Names (Must match setup_assets.py)
+# MAP CARD NAMES TO FILES
 TAROT_DECK = {}
-# Major Arcana
 majors = ["The Fool", "The Magician", "The High Priestess", "The Empress", "The Emperor", "The Hierophant", "The Lovers", "The Chariot", "Strength", "The Hermit", "Wheel of Fortune", "Justice", "The Hanged Man", "Death", "Temperance", "The Devil", "The Tower", "The Star", "The Moon", "The Sun", "Judgement", "The World"]
 for i, name in enumerate(majors): TAROT_DECK[name] = f"m{i:02d}.jpg"
-# Minor Arcana (Simple mapping for now)
+
 suits = {"Wands": "w", "Cups": "c", "Swords": "s", "Pentacles": "p"}
+ranks = ["Ace", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Page", "Knight", "Queen", "King"]
+
 for s_name, s_code in suits.items():
-    TAROT_DECK[f"Ace of {s_name}"] = f"{s_code}01.jpg"
-    TAROT_DECK[f"Two of {s_name}"] = f"{s_code}02.jpg"
-    # ... (Logic implies random selection works from keys)
+    for i, r_name in enumerate(ranks):
+        num = i + 1
+        TAROT_DECK[f"{r_name} of {s_name}"] = f"{s_code}{num:02d}.jpg"
 
 def generate_reading(date_str):
     print(f"🔮 Generating Plan for {date_str}...")
-    
-    # Pick 3 Random Cards
-    keys = list(TAROT_DECK.keys())
-    # Add some minors manually to list if needed, or just stick to Majors for safety
-    # For this full code, let's just use Majors + Aces to ensure files exist
-    cards = random.sample(keys, 3)
+    cards = random.sample(list(TAROT_DECK.keys()), 3)
     files = [TAROT_DECK[c] for c in cards]
     
     prompt = f"""
     You are a Mystic. Date: {date_str}.
     Cards: {cards[0]}, {cards[1]}, {cards[2]}.
-    
     Write a 60s YouTube Short Script.
     OUTPUT JSON ONLY:
     {{
