@@ -15,7 +15,6 @@ def polish_script(plan_file):
         return
 
     # 2. THE DIRECTOR'S PROMPT
-    # We ask the AI to act like a Video Editor/Director
     prompt = f"""
     You are a Master Viral Video Director for YouTube Shorts (Zodiac/Tarot Niche).
     I have a draft script. It is too boring. I need you to "Spike the Dopamine".
@@ -27,7 +26,7 @@ def polish_script(plan_file):
     
     YOUR TASK:
     1. HOOK (0-3s): Rewrite the first sentence. It MUST stop the scroll. Use phrases like "Stop scrolling", "The universe has a warning", "Your ex is thinking about you".
-    2. BODY: Keep the meaning, but make it punchy. Short sentences.
+    2. BODY: Keep the meaning, but make it punchy. Short sentences. Remove fluff.
     3. ENDING: Add a 'Hypnotic CTA'. Example: "To claim this energy, tap follow and comment 'So Mote It Be'."
     4. TONE: Dark, Mystical, 8th House, Scorpionic.
     5. TITLE: Write a clickbait title in UPPERCASE (Max 6 words).
