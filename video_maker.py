@@ -30,6 +30,7 @@ def render(plan):
     with open(plan, 'r') as f: data = json.load(f)
     print(f"📼 Rendering {data['file_name']}...")
     
+    # 1. Assets Check
     cards = []
     for c in data['card_images']:
         path = os.path.join(ASSETS, c)
@@ -37,20 +38,33 @@ def render(plan):
         else: print(f"❌ Missing: {path}")
     
     if not cards:
-        print("❌ FATAL: No cards found. Stopping.")
+        print("❌ FATAL: No cards found.")
         sys.exit(1)
 
+    # 2. Audio (Voice + FAIL-SAFE Music)
     tts = gTTS(data['script_text'], lang='en', tld='com')
     tts.save("voice.mp3")
     voice = AudioFileClip("voice.mp3")
     duration = voice.duration + 2
     
     audio = voice
+    
+    # --- MUSIC LOADING (Protected) ---
     if os.path.exists(MUSIC):
-        bg = AudioFileClip(MUSIC)
-        bg = afx.audio_loop(bg, duration=duration).volumex(0.15)
-        audio = CompositeAudioClip([voice, bg])
+        try:
+            print("🎵 Loading Background Music...")
+            bg = AudioFileClip(MUSIC)
+            bg = afx.audio_loop(bg, duration=duration).volumex(0.15)
+            audio = CompositeAudioClip([voice, bg])
+            print("✅ Music mixed successfully.")
+        except Exception as e:
+            print(f"⚠️ Music file is corrupt or unreadable. Skipping music. Error: {e}")
+            # Fallback: Just use voice, do not crash.
+            audio = voice
+    else:
+        print("⚠️ No music file found. Using voice only.")
 
+    # 3. Visuals
     bg_clip = ColorClip((1080, 1920), (15,5,25), duration=duration)
     clips = [bg_clip]
     
@@ -62,6 +76,7 @@ def render(plan):
         img = img.set_start(intro + i*time_per_card).set_duration(time_per_card).crossfadein(0.5)
         clips.append(zoom(img))
 
+    # 4. Text
     font_use = FONT if os.path.exists(FONT) else 'DejaVu-Sans-Bold'
     try:
         title = TextClip(data['title'].upper(), fontsize=60, color='#FFD700', font=font_use, size=(900, None), method='caption')
@@ -75,7 +90,12 @@ def render(plan):
 
     final = CompositeVideoClip(clips).set_audio(audio)
     if not os.path.exists(OUTPUT): os.makedirs(OUTPUT)
+    
+    # Render
     final.write_videofile(os.path.join(OUTPUT, data['file_name']), fps=24, preset='ultrafast', threads=4)
+    
+    # Cleanup
+    if os.path.exists("voice.mp3"): os.remove("voice.mp3")
 
 if __name__ == "__main__":
     files = [f for f in os.listdir('.') if f.startswith('plan_tarot')]
