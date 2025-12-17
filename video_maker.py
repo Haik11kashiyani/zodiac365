@@ -8,6 +8,12 @@ from gtts import gTTS
 from PIL import Image
 import numpy as np
 
+# --- CRITICAL FIX FOR PILLOW 10.0.0+ ---
+# MoviePy uses 'ANTIALIAS' which was removed. We restore it here.
+if not hasattr(Image, 'ANTIALIAS'):
+    Image.ANTIALIAS = Image.LANCZOS
+# ---------------------------------------
+
 if os.name == 'posix': change_settings({"IMAGEMAGICK_BINARY": "/usr/bin/convert"})
 
 ASSETS = "assets/tarot_cards"
@@ -41,15 +47,13 @@ def render(plan):
         print("❌ FATAL: No cards found.")
         sys.exit(1)
 
-    # 2. Audio (Voice + FAIL-SAFE Music)
+    # 2. Audio (Protected)
     tts = gTTS(data['script_text'], lang='en', tld='com')
     tts.save("voice.mp3")
     voice = AudioFileClip("voice.mp3")
     duration = voice.duration + 2
     
     audio = voice
-    
-    # --- MUSIC LOADING (Protected) ---
     if os.path.exists(MUSIC):
         try:
             print("🎵 Loading Background Music...")
@@ -57,13 +61,9 @@ def render(plan):
             bg = afx.audio_loop(bg, duration=duration).volumex(0.15)
             audio = CompositeAudioClip([voice, bg])
             print("✅ Music mixed successfully.")
-        except Exception as e:
-            print(f"⚠️ Music file is corrupt or unreadable. Skipping music. Error: {e}")
-            # Fallback: Just use voice, do not crash.
-            audio = voice
-    else:
-        print("⚠️ No music file found. Using voice only.")
-
+        except:
+            print("⚠️ Music failed. Skipping.")
+    
     # 3. Visuals
     bg_clip = ColorClip((1080, 1920), (15,5,25), duration=duration)
     clips = [bg_clip]
@@ -91,10 +91,7 @@ def render(plan):
     final = CompositeVideoClip(clips).set_audio(audio)
     if not os.path.exists(OUTPUT): os.makedirs(OUTPUT)
     
-    # Render
     final.write_videofile(os.path.join(OUTPUT, data['file_name']), fps=24, preset='ultrafast', threads=4)
-    
-    # Cleanup
     if os.path.exists("voice.mp3"): os.remove("voice.mp3")
 
 if __name__ == "__main__":
