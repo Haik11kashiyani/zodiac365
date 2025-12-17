@@ -25,9 +25,6 @@ jobs:
 
       - name: 2. Download Extras
         run: python setup_extras.py
-        
-      - name: DEBUG - Check Assets
-        run: ls -R assets/
 
       - name: 3. Generate Draft
         env:
