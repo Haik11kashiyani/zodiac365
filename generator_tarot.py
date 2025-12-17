@@ -19,12 +19,15 @@ for s_name, s_code in suits.items():
 
 def generate_reading(date_str):
     print(f"🔮 Generating Plan for {date_str}...")
-    cards = random.sample(list(TAROT_DECK.keys()), 3)
-    files = [TAROT_DECK[c] for c in cards]
+    
+    # Pick 3 Random Cards
+    card_names = random.sample(list(TAROT_DECK.keys()), 3)
+    card_files = [TAROT_DECK[name] for name in card_names]
     
     prompt = f"""
     You are a Mystic. Date: {date_str}.
-    Cards: {cards[0]}, {cards[1]}, {cards[2]}.
+    Cards: {card_names[0]}, {card_names[1]}, {card_names[2]}.
+    
     Write a 60s YouTube Short Script.
     OUTPUT JSON ONLY:
     {{
@@ -35,12 +38,15 @@ def generate_reading(date_str):
     """
     
     data = ask_ai(prompt, "Return valid JSON.")
-    if not data: sys.exit(1)
+    
+    if not data:
+        print("❌ AI Failed to generate script.")
+        sys.exit(1)
     
     data["type"] = "TAROT"
     data["file_name"] = f"final_tarot_{date_str}.mp4"
-    data["card_images"] = files
-    data["card_names"] = cards
+    data["card_images"] = card_files
+    data["card_names"] = card_names
     
     with open(f"plan_tarot_{date_str}.json", "w") as f:
         json.dump(data, f, indent=4)
