@@ -3,9 +3,7 @@ from moviepy.config import change_settings
 from moviepy.editor import *
 from PIL import Image
 
-# Force absolute path for the primary font
-FONT_PATH = os.path.abspath("assets/fonts/Cinzel-Bold.ttf")
-
+# Prevent Pillow 'ANTIALIAS' errors
 if not hasattr(Image, 'ANTIALIAS'): Image.ANTIALIAS = Image.LANCZOS
 if os.name == 'posix': change_settings({"IMAGEMAGICK_BINARY": "/usr/bin/convert"})
 
@@ -13,6 +11,7 @@ def render(plan_file):
     with open(plan_file, 'r') as f: data = json.load(f)
     print(f"📼 Rendering {data['file_name']}...")
 
+    # Neural Voice Generation
     subprocess.run(["edge-tts", "--voice", "en-US-ChristopherNeural", "--text", data['script_text'], "--write-media", "v.mp3"])
     voice = AudioFileClip("v.mp3")
     duration = voice.duration + 1
@@ -25,20 +24,20 @@ def render(plan_file):
             img = ImageClip(path).resize(width=1080).set_pos("center").set_duration(duration).crossfadein(1)
             clips.append(img)
 
-    # Determine which font to use based on file availability
-    final_font = FONT_PATH if os.path.exists(FONT_PATH) else "DejaVu-Sans-Bold"
-
+    # Use the system-registered name "Cinzel-Bold"
+    # Fallback to "DejaVu-Sans-Bold" if the custom install fails
+    primary_font = "Cinzel-Bold"
+    
     for ol in data.get('overlays', []):
         try:
-            txt = TextClip(ol['text'].upper(), fontsize=80, color='gold', font=final_font, stroke_color='black', stroke_width=2)
+            txt = TextClip(ol['text'].upper(), fontsize=80, color='gold', font=primary_font, stroke_color='black', stroke_width=2)
         except:
-            # Emergency Fallback to system font if ImageMagick still rejects the .ttf
             txt = TextClip(ol['text'].upper(), fontsize=80, color='gold', font="DejaVu-Sans-Bold")
             
         start = 0 if ol['time'] == 'start' else (duration/2 if ol['time'] == 'middle' else duration-4)
         clips.append(txt.set_pos('center').set_start(start).set_duration(3).crossfadein(0.5))
 
-    website = TextClip("thezodiacvault.kesug.com", fontsize=45, color='cyan', font=final_font).set_pos(('center', 1650)).set_duration(duration)
+    website = TextClip("thezodiacvault.kesug.com", fontsize=45, color='cyan', font=primary_font).set_pos(('center', 1650)).set_duration(duration)
     clips.append(website)
 
     final = CompositeVideoClip(clips).set_audio(CompositeAudioClip([voice, AudioFileClip("assets/music/mystical_bg.mp3").volumex(0.12).set_duration(duration)]))
