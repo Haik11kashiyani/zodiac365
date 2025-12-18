@@ -1,9 +1,9 @@
-name: Test Zodiac Pipeline
+name: Zodiac Empire Automation
 on: workflow_dispatch
 jobs:
-  build-video:
+  run-empire:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v3
       - name: System Libs
@@ -17,14 +17,12 @@ jobs:
       - run: pip install -r requirements.txt
       - run: python setup_assets.py
       - run: python setup_extras.py
-      - name: Run Pipeline
-        env:
+      - env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: |
-          python generator_tarot.py
-          python choreographer.py
+          python master_brain.py
           python video_maker.py
       - uses: actions/upload-artifact@v4
         with:
-          name: viral-tarot-video
+          name: daily-videos
           path: output_videos/*.mp4
