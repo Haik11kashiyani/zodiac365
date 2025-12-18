@@ -12,7 +12,7 @@ def extract_json(text):
         return json.loads(text)
     except: return None
 
-def ask_ai(prompt, sys_msg="You are a helpful AI."):
+def ask_ai(prompt, sys_msg="You are a mystical astrological expert."):
     if not OPENROUTER_API_KEY: return None
     url = "https://openrouter.ai/api/v1/chat/completions"
     headers = {"Authorization": f"Bearer {OPENROUTER_API_KEY}", "Content-Type": "application/json"}
