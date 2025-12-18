@@ -6,6 +6,7 @@ def polish(plan_file):
     print(f"🎬 Polishing {plan_file}...")
     with open(plan_file, 'r') as f: draft = json.load(f)
     
+    # UPDATED PROMPT: Specific CTA for Website
     prompt = f"""
     Rewrite this YouTube Shorts script to be VIRAL, DARK, and URGENT.
     Title: {draft['title']}
@@ -13,17 +14,17 @@ def polish(plan_file):
     
     MANDATORY:
     1. Start with a "Stop Scrolling" Hook.
-    2. End with a spoken CTA: "To claim this energy, comment So Mote It Be."
-    3. Generate 3 short Text Overlays (Max 3 words).
+    2. End with this EXACT spoken CTA: "For your full personal reading, visit the link in bio or the zodiac vault dot kesug dot com."
+    3. Generate 3 short Text Overlays (Max 3 words) for the screen.
     
     OUTPUT JSON ONLY:
     {{
         "title": "NEW VIRAL TITLE (UPPERCASE)",
-        "script_text": "Stop scrolling! [Hook]... [Body]... To claim this energy, comment So Mote It Be.",
+        "script_text": "Stop scrolling! [Hook]... [Body]... For your full personal reading, visit the link in bio or the zodiac vault dot kesug dot com.",
         "overlays": [
             {{"text": "DON'T IGNORE", "time": "start"}},
             {{"text": "BIG CHANGE COMING", "time": "middle"}},
-            {{"text": "CLAIM NOW", "time": "end"}}
+            {{"text": "LINK IN BIO", "time": "end"}}
         ]
     }}
     """
