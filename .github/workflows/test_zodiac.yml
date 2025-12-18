@@ -9,13 +9,15 @@ jobs:
       - name: Install System Libs
         run: |
           sudo apt-get update
-          # Install ghostscript and gsfonts to support font rendering
+          # Install ghostscript and gsfonts which are required for Freetype font rendering
           sudo apt-get install -y imagemagick ghostscript gsfonts
           
-          # FIX: Force ImageMagick to allow reading local font files
-          # This removes the security restriction that blocks font access
+          # FORCE FIX: Completely remove the restrictive security policy lines
+          # This is more reliable than 'sed' replacement on some Ubuntu versions
+          sudo sed -i '/<policy domain="path" rights="none" pattern="@\*"\/>/d' /etc/ImageMagick-6/policy.xml
+          
+          # Ensure general read/write permissions are active
           sudo sed -i 's/rights="none" pattern="@\*"/rights="read|write" pattern="@\*"/g' /etc/ImageMagick-6/policy.xml
-          sudo sed -i 's/none/read,write/g' /etc/ImageMagick-6/policy.xml
 
       - uses: actions/setup-python@v4
         with:
