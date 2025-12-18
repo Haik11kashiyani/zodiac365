@@ -1,8 +1,6 @@
 import os, json, requests, time, re
 
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY")
-
-# Reliable 2025 Free Models
 MODELS_TO_TRY = [
     "google/gemini-2.0-flash-lite-preview-02-05:free",
     "meta-llama/llama-3.3-70b-instruct:free",
@@ -22,11 +20,10 @@ def ask_ai(prompt, system_instruction="You are a helpful AI assistant."):
     if not OPENROUTER_API_KEY: return None
     url = "https://openrouter.ai/api/v1/chat/completions"
     headers = {"Authorization": f"Bearer {OPENROUTER_API_KEY}", "Content-Type": "application/json"}
-
     for model in MODELS_TO_TRY:
         try:
             payload = {"model": model, "messages": [{"role": "system", "content": system_instruction}, {"role": "user", "content": prompt}], "temperature": 0.8}
-            r = requests.post(url, headers=headers, json=payload, timeout=30)
+            r = requests.post(url, headers=headers, json=payload, timeout=45)
             if r.status_code == 200:
                 clean = extract_json(r.json()['choices'][0]['message']['content'])
                 if clean: return clean
