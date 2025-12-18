@@ -1,14 +1,25 @@
-import json, random, datetime, sys
+import json, os
 from ai_engine import ask_ai
-MAJORS = ["The Fool", "The Magician", "The High Priestess", "The Empress", "The Emperor", "The Hierophant", "The Lovers", "The Chariot", "Strength", "The Hermit", "Wheel of Fortune", "Justice", "The Hanged Man", "Death", "Temperance", "The Devil", "The Tower", "The Star", "The Moon", "The Sun", "Judgement", "The World"]
 
-def generate_reading(date_str):
-    indices = random.sample(range(22), 3)
-    files = [f"assets/tarot_cards/m{i:02d}.jpg" for i in indices]
-    prompt = f"Date: {date_str}. Cards: {[MAJORS[i] for i in indices]}. Write 60s viral script. OUTPUT JSON with 'script_text', 'title'."
-    data = ask_ai(prompt)
-    if not data: return
-    data.update({"type": "tarot", "images": files, "file_name": f"final_tarot_{date_str}.mp4"})
-    with open(f"plan_tarot_{date_str}.json", "w") as f: json.dump(data, f, indent=4)
+def polish(plan_file):
+    print(f"🎬 Directing {plan_file}...")
+    with open(plan_file, 'r') as f: draft = json.load(f)
+    
+    prompt = f"""
+    Optimize for Viral Retention. 
+    Script: {draft.get('script_text', '')}
+    
+    RULES:
+    1. Start with an urgent Hook.
+    2. Mention 'thezodiacvault.kesug.com' as the place for personal readings.
+    3. Output 3 dynamic text 'overlays' for the screen.
+    
+    JSON keys: 'script_text', 'title', 'overlays' (list of {{'text': '', 'time': 'start/middle/end'}})
+    """
+    new_data = ask_ai(prompt)
+    if new_data:
+        draft.update(new_data)
+        with open(plan_file, 'w') as f: json.dump(draft, f, indent=4)
 
-if __name__ == "__main__": generate_reading(str(datetime.date.today()))
+if __name__ == "__main__":
+    for f in [f for f in os.listdir('.') if f.startswith('plan_')]: polish(f)
