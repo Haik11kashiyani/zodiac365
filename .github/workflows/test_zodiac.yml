@@ -9,9 +9,11 @@ jobs:
       - name: Install System Libs
         run: |
           sudo apt-get update
-          # Added ghostscript and gsfonts for font rendering support
+          # Install ghostscript and gsfonts to support font rendering
           sudo apt-get install -y imagemagick ghostscript gsfonts
-          # Fix security policy to allow reading/writing local font files
+          
+          # FIX: Force ImageMagick to allow reading local font files
+          # This removes the security restriction that blocks font access
           sudo sed -i 's/rights="none" pattern="@\*"/rights="read|write" pattern="@\*"/g' /etc/ImageMagick-6/policy.xml
           sudo sed -i 's/none/read,write/g' /etc/ImageMagick-6/policy.xml
 
