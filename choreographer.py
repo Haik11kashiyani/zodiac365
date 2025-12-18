@@ -18,7 +18,6 @@ def polish(plan_file):
         "visual_notes": "Scorpionic vibe"
     }}
     """
-    
     new_data = ask_ai(prompt, "Return valid JSON.")
     if new_data:
         draft.update(new_data)
