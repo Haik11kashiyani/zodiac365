@@ -4,19 +4,16 @@ import datetime
 import sys
 from ai_engine import ask_ai
 
-# EXACT MAPPING to match setup_assets.py
 TAROT_DECK = {}
-# Majors (m00-m21)
+# Majors
 majors = ["The Fool", "The Magician", "The High Priestess", "The Empress", "The Emperor", "The Hierophant", "The Lovers", "The Chariot", "Strength", "The Hermit", "Wheel of Fortune", "Justice", "The Hanged Man", "Death", "Temperance", "The Devil", "The Tower", "The Star", "The Moon", "The Sun", "Judgement", "The World"]
 for i, name in enumerate(majors): TAROT_DECK[name] = f"m{i:02d}.jpg"
-
-# Minors (w01-w14, etc)
+# Minors
 suits = {"Wands": "w", "Cups": "c", "Swords": "s", "Pentacles": "p"}
 ranks = ["Ace", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Page", "Knight", "Queen", "King"]
 for s_name, s_code in suits.items():
     for i, r_name in enumerate(ranks):
-        num = i + 1
-        TAROT_DECK[f"{r_name} of {s_name}"] = f"{s_code}{num:02d}.jpg"
+        TAROT_DECK[f"{r_name} of {s_name}"] = f"{s_code}{i+1:02d}.jpg"
 
 def generate_reading(date_str):
     print(f"🔮 Generating Plan for {date_str}...")
@@ -30,10 +27,9 @@ def generate_reading(date_str):
     {{
         "title": "UPPERCASE CLICKBAIT TITLE",
         "script_text": "Hook... Body... CTA...",
-        "visual_notes": "Mood"
+        "visual_notes": "Dark mood"
     }}
     """
-    
     data = ask_ai(prompt, "Return valid JSON.")
     if not data: sys.exit(1)
     
