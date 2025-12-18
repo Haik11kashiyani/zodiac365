@@ -6,7 +6,6 @@ import re
 
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY")
 
-# High-Quality Free Models
 MODELS_TO_TRY = [
     "google/gemini-2.0-flash-lite-preview-02-05:free",
     "google/gemini-2.0-pro-exp-02-05:free",
@@ -15,7 +14,6 @@ MODELS_TO_TRY = [
 ]
 
 def extract_json(text):
-    """Clean JSON from AI chatter."""
     try:
         match = re.search(r'```json\s*(\{.*?\})\s*```', text, re.DOTALL)
         if match: return json.loads(match.group(1))
@@ -32,13 +30,12 @@ def ask_ai(prompt, system_instruction="You are a helpful AI assistant."):
     url = "https://openrouter.ai/api/v1/chat/completions"
     headers = {"Authorization": f"Bearer {OPENROUTER_API_KEY}", "Content-Type": "application/json", "HTTP-Referer": "https://github.com/ZodiacVault", "X-Title": "Zodiac Automation"}
 
-    for attempt in range(2): # Retry loop
+    for attempt in range(2):
         for model in MODELS_TO_TRY:
             print(f"📡 Connecting to: {model}...")
             try:
                 payload = {"model": model, "messages": [{"role": "system", "content": system_instruction}, {"role": "user", "content": prompt}], "temperature": 0.85}
                 r = requests.post(url, headers=headers, json=payload, timeout=45)
-                
                 if r.status_code == 200:
                     data = r.json()
                     if 'choices' in data:
@@ -47,10 +44,7 @@ def ask_ai(prompt, system_instruction="You are a helpful AI assistant."):
                 elif r.status_code == 429:
                     print(f"⚠️ {model} Busy. Waiting...")
                     time.sleep(5)
-                else:
-                    print(f"⚠️ {model} Error {r.status_code}")
-            except Exception as e:
-                print(f"⚠️ Error: {e}")
+            except Exception as e: print(f"⚠️ Error: {e}")
             time.sleep(1)
 
     print("❌ FATAL: All AI models failed.")
