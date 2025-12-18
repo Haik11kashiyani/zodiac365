@@ -24,15 +24,13 @@ def generate_image(prompt, filename):
     for attempt in range(1, 4):
         try:
             print(f"🎨 Painting: {filename} (Attempt {attempt}/3)...")
-            # User-Agent prevents 403 blocks
             headers = {'User-Agent': 'Mozilla/5.0'}
-            # 60s timeout for slow generations
             r = requests.get(url, headers=headers, timeout=60)
             
             if r.status_code == 200:
                 with open(save_path, 'wb') as f: f.write(r.content)
                 print(f"✅ Saved: {filename}")
-                time.sleep(2) # 2s Pause to be polite
+                time.sleep(2) # Pause to prevent blocking
                 return True
             elif r.status_code == 429:
                 print("⚠️ Rate Limited. Sleeping 10s...")
@@ -48,32 +46,26 @@ def generate_image(prompt, filename):
     return False
 
 def main():
-    if not os.path.exists(ASSET_DIR):
-        os.makedirs(ASSET_DIR)
+    if not os.path.exists(ASSET_DIR): os.makedirs(ASSET_DIR)
 
-    # List of all 78 Cards
     cards = []
     majors = ["The Fool", "The Magician", "The High Priestess", "The Empress", "The Emperor", "The Hierophant", "The Lovers", "The Chariot", "Strength", "The Hermit", "Wheel of Fortune", "Justice", "The Hanged Man", "Death", "Temperance", "The Devil", "The Tower", "The Star", "The Moon", "The Sun", "Judgement", "The World"]
     for i, name in enumerate(majors): cards.append((name, f"m{i:02d}.jpg"))
 
     suits = {"Wands": "w", "Cups": "c", "Swords": "s", "Pentacles": "p"}
     ranks = ["Ace", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Page", "Knight", "Queen", "King"]
-    
     for s_name, s_code in suits.items():
         for i, r_name in enumerate(ranks):
             cards.append((f"{r_name} of {s_name}", f"{s_code}{i+1:02d}.jpg"))
 
     success = 0
     print(f"🚀 Verifying {len(cards)} AI Images...")
-    
     for name, filename in cards:
-        if generate_image(name, filename):
-            success += 1
+        if generate_image(name, filename): success += 1
     
     print(f"📊 Gallery Status: {success}/{len(cards)} ready.")
     
-    # LOWER THRESHOLD: If we have at least 60 cards, let it pass. 
-    # We don't want to block the whole build for 1-2 missing cards.
+    # Allow passing if most cards are there (prevents total block)
     if success < 60:
         print("❌ CRITICAL: Too many assets missing. Pipeline stopped.")
         sys.exit(1)
