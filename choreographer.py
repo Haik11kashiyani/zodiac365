@@ -11,18 +11,24 @@ def polish(plan_file):
     Title: {draft['title']}
     Script: {draft['script_text']}
     
+    Also, generate 3 Short Text Overlays (Max 3 words) to flash on screen to keep attention.
+    
     OUTPUT JSON ONLY:
     {{
         "title": "NEW VIRAL TITLE (UPPERCASE)",
         "script_text": "Stop scrolling! [Hook]... [Punchy Body]... [Hypnotic CTA]",
-        "visual_notes": "Scorpionic vibe"
+        "overlays": [
+            {{"text": "DON'T IGNORE", "time": "start"}},
+            {{"text": "BIG CHANGE COMING", "time": "middle"}},
+            {{"text": "CLAIM NOW", "time": "end"}}
+        ]
     }}
     """
     new_data = ask_ai(prompt, "Return valid JSON.")
     if new_data:
         draft.update(new_data)
         with open(plan_file, 'w') as f: json.dump(draft, f, indent=4)
-        print("✨ Script Polished.")
+        print("✨ Script Polished with Dynamic Overlays.")
 
 if __name__ == "__main__":
     files = [f for f in os.listdir('.') if f.startswith('plan_tarot')]
