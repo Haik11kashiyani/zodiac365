@@ -11,12 +11,15 @@ def polish(plan_file):
     Title: {draft['title']}
     Script: {draft['script_text']}
     
-    Also, generate 3 Short Text Overlays (Max 3 words) to flash on screen to keep attention.
+    MANDATORY:
+    1. Start with a "Stop Scrolling" Hook.
+    2. End with a spoken CTA: "To claim this energy, comment So Mote It Be."
+    3. Generate 3 short Text Overlays (Max 3 words).
     
     OUTPUT JSON ONLY:
     {{
         "title": "NEW VIRAL TITLE (UPPERCASE)",
-        "script_text": "Stop scrolling! [Hook]... [Punchy Body]... [Hypnotic CTA]",
+        "script_text": "Stop scrolling! [Hook]... [Body]... To claim this energy, comment So Mote It Be.",
         "overlays": [
             {{"text": "DON'T IGNORE", "time": "start"}},
             {{"text": "BIG CHANGE COMING", "time": "middle"}},
@@ -28,7 +31,7 @@ def polish(plan_file):
     if new_data:
         draft.update(new_data)
         with open(plan_file, 'w') as f: json.dump(draft, f, indent=4)
-        print("✨ Script Polished with Dynamic Overlays.")
+        print("✨ Script Polished.")
 
 if __name__ == "__main__":
     files = [f for f in os.listdir('.') if f.startswith('plan_tarot')]
