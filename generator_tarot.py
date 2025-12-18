@@ -5,10 +5,8 @@ import sys
 from ai_engine import ask_ai
 
 TAROT_DECK = {}
-# Majors
 majors = ["The Fool", "The Magician", "The High Priestess", "The Empress", "The Emperor", "The Hierophant", "The Lovers", "The Chariot", "Strength", "The Hermit", "Wheel of Fortune", "Justice", "The Hanged Man", "Death", "Temperance", "The Devil", "The Tower", "The Star", "The Moon", "The Sun", "Judgement", "The World"]
 for i, name in enumerate(majors): TAROT_DECK[name] = f"m{i:02d}.jpg"
-# Minors
 suits = {"Wands": "w", "Cups": "c", "Swords": "s", "Pentacles": "p"}
 ranks = ["Ace", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Page", "Knight", "Queen", "King"]
 for s_name, s_code in suits.items():
@@ -25,7 +23,7 @@ def generate_reading(date_str):
     Write a 60s YouTube Short Script.
     OUTPUT JSON ONLY:
     {{
-        "title": "UPPERCASE CLICKBAIT TITLE",
+        "title": "UPPERCASE TITLE",
         "script_text": "Hook... Body... CTA...",
         "visual_notes": "Dark mood"
     }}
