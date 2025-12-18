@@ -1,7 +1,7 @@
 name: Test Zodiac Pipeline
 
 on:
-  workflow_dispatch: # This enables the button
+  workflow_dispatch:
 
 jobs:
   build-video:
@@ -15,7 +15,6 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y imagemagick
-          # FIX: Allow ImageMagick to write text (Security Policy Fix)
           sudo sed -i 's/none/read,write/g' /etc/ImageMagick-6/policy.xml
 
       - name: Set up Python
@@ -26,7 +25,7 @@ jobs:
       - name: Install Dependencies
         run: pip install -r requirements.txt
 
-      - name: 1. Generate AI Art (Takes ~5 mins first time)
+      - name: 1. Generate AI Art (Resumes previous progress)
         run: python setup_assets.py
 
       - name: 2. Download Extras
@@ -37,7 +36,7 @@ jobs:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: python generator_tarot.py
 
-      - name: 4. Polish (Dynamic Text)
+      - name: 4. Polish (Dynamic Text + Website CTA)
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: python choreographer.py
