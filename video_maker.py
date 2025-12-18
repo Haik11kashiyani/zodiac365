@@ -9,6 +9,7 @@ from PIL import Image
 import numpy as np
 
 if not hasattr(Image, 'ANTIALIAS'): Image.ANTIALIAS = Image.LANCZOS
+
 if os.name == 'posix': change_settings({"IMAGEMAGICK_BINARY": "/usr/bin/convert"})
 
 ASSETS = "assets/tarot_cards"
@@ -79,17 +80,21 @@ def render(plan):
         # Title
         clips.append(text_gen(data['title'], 70, '#FFD700', 300, 0, 3.5))
         
-        # Dynamic Overlays from Choreographer
+        # Dynamic Overlays
         overlays = data.get('overlays', [])
         for ol in overlays:
             txt = ol.get('text', '')
             tm = ol.get('time', 'middle')
             
             if tm == 'start': start, dur = 0.5, 3
-            elif tm == 'end': start, dur = duration-5, 5
-            else: start, dur = duration/2, 4 # middle
+            elif tm == 'end': continue 
+            else: start, dur = duration/2, 4
             
             clips.append(text_gen(txt, 60, 'white', 1400, start, dur))
+        
+        # UPDATED VISUAL CTA: Website Address
+        # Show "THEZODIACVAULT.KESUG.COM" for last 5 seconds
+        clips.append(text_gen("thezodiacvault.kesug.com", 50, '#00FFFF', 1500, duration-5, 5))
             
     except Exception as e: print(f"Text Error: {e}")
 
