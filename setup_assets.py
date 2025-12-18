@@ -20,11 +20,11 @@ def generate_image(prompt, save_dir, filename):
     except: return False
 
 def main():
-    # Tarot
+    # 78 Tarot Cards
     for i, n in enumerate(["The Fool", "The Magician", "The High Priestess", "The Empress", "The Emperor", "The Hierophant", "The Lovers", "The Chariot", "Strength", "The Hermit", "Wheel of Fortune", "Justice", "The Hanged Man", "Death", "Temperance", "The Devil", "The Tower", "The Star", "The Moon", "The Sun", "Judgement", "The World"]):
         generate_image(f"Tarot {n}", os.path.join(ASSETS, "tarot_cards"), f"m{i:02d}.jpg")
-    # Zodiac
+    # 12 Zodiac Signs
     for s in ["Aries", "Taurus", "Gemini", "Cancer", "Leo", "Virgo", "Libra", "Scorpio", "Sagittarius", "Capricorn", "Aquarius", "Pisces"]:
-        generate_image(f"Zodiac {s} God", os.path.join(ASSETS, "zodiac_signs"), f"{s}.jpg")
+        generate_image(f"Zodiac {s} deity", os.path.join(ASSETS, "zodiac_signs"), f"{s}.jpg")
 
 if __name__ == "__main__": main()
