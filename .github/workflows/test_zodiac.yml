@@ -6,11 +6,15 @@ jobs:
     timeout-minutes: 25
     steps:
       - uses: actions/checkout@v3
-      - name: System Libs
+      - name: Install System Libs
         run: |
           sudo apt-get update
-          sudo apt-get install -y imagemagick
+          # Added ghostscript and gsfonts for font rendering support
+          sudo apt-get install -y imagemagick ghostscript gsfonts
+          # Fix security policy to allow reading/writing local font files
+          sudo sed -i 's/rights="none" pattern="@\*"/rights="read|write" pattern="@\*"/g' /etc/ImageMagick-6/policy.xml
           sudo sed -i 's/none/read,write/g' /etc/ImageMagick-6/policy.xml
+
       - uses: actions/setup-python@v4
         with:
           python-version: '3.9'
