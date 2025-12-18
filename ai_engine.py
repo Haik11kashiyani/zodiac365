@@ -1,7 +1,8 @@
 import os, json, requests, time, re
 
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY")
-MODELS = ["google/gemini-2.0-flash-lite-preview-02-05:free", "meta-llama/llama-3.3-70b-instruct:free", "google/gemini-2.0-flash-exp:free"]
+# Using reliable free models to ensure zero-cost operation
+MODELS = ["google/gemini-2.0-flash-lite-preview-02-05:free", "meta-llama/llama-3.3-70b-instruct:free"]
 
 def extract_json(text):
     try:
