@@ -6,7 +6,7 @@ import re
 
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY")
 
-# Newest models
+# High-Quality Free Models
 MODELS_TO_TRY = [
     "google/gemini-2.0-flash-lite-preview-02-05:free",
     "google/gemini-2.0-pro-exp-02-05:free",
@@ -15,6 +15,7 @@ MODELS_TO_TRY = [
 ]
 
 def extract_json(text):
+    """Clean JSON from AI chatter."""
     try:
         match = re.search(r'```json\s*(\{.*?\})\s*```', text, re.DOTALL)
         if match: return json.loads(match.group(1))
@@ -31,14 +32,12 @@ def ask_ai(prompt, system_instruction="You are a helpful AI assistant."):
     url = "https://openrouter.ai/api/v1/chat/completions"
     headers = {"Authorization": f"Bearer {OPENROUTER_API_KEY}", "Content-Type": "application/json", "HTTP-Referer": "https://github.com/ZodiacVault", "X-Title": "Zodiac Automation"}
 
-    # RETRY LOOP (2 Attempts per model)
-    for attempt in range(2):
-        print(f"🔄 Attempt {attempt+1}...")
+    for attempt in range(2): # Retry loop
         for model in MODELS_TO_TRY:
-            print(f"📡 Connecting to {model}...")
+            print(f"📡 Connecting to: {model}...")
             try:
                 payload = {"model": model, "messages": [{"role": "system", "content": system_instruction}, {"role": "user", "content": prompt}], "temperature": 0.85}
-                r = requests.post(url, headers=headers, json=payload, timeout=30)
+                r = requests.post(url, headers=headers, json=payload, timeout=45)
                 
                 if r.status_code == 200:
                     data = r.json()
@@ -46,12 +45,12 @@ def ask_ai(prompt, system_instruction="You are a helpful AI assistant."):
                         clean = extract_json(data['choices'][0]['message']['content'])
                         if clean: return clean
                 elif r.status_code == 429:
-                    print("⚠️ Busy (429). Waiting 5s...")
+                    print(f"⚠️ {model} Busy. Waiting...")
                     time.sleep(5)
                 else:
-                    print(f"⚠️ Error {r.status_code}")
+                    print(f"⚠️ {model} Error {r.status_code}")
             except Exception as e:
-                print(f"⚠️ Exception: {e}")
+                print(f"⚠️ Error: {e}")
             time.sleep(1)
 
     print("❌ FATAL: All AI models failed.")
