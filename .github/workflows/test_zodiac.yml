@@ -8,22 +8,21 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       
-      - name: Install Libraries
+      - name: Install Libs
         run: |
           sudo apt-get update
           sudo apt-get install -y imagemagick
           sudo sed -i 's/none/read,write/g' /etc/ImageMagick-6/policy.xml
 
       - uses: actions/setup-python@v4
-        with:
-          python-version: '3.9'
+        with: python-version: '3.9'
 
       - run: pip install -r requirements.txt
 
-      - name: 1. Download Assets
+      - name: 1. Generate AI Art (Takes 5-10 mins first time)
         run: python setup_assets.py
 
-      - name: 2. Download Extras
+      - name: 2. Extras
         run: python setup_extras.py
 
       - name: 3. Generate Draft
@@ -31,7 +30,7 @@ jobs:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: python generator_tarot.py
 
-      - name: 4. Polish Script
+      - name: 4. Polish (Dynamic Text)
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: python choreographer.py
