@@ -4,41 +4,32 @@ import datetime
 import sys
 from ai_engine import ask_ai
 
-TAROT_DECK = {}
-majors = ["The Fool", "The Magician", "The High Priestess", "The Empress", "The Emperor", "The Hierophant", "The Lovers", "The Chariot", "Strength", "The Hermit", "Wheel of Fortune", "Justice", "The Hanged Man", "Death", "Temperance", "The Devil", "The Tower", "The Star", "The Moon", "The Sun", "Judgement", "The World"]
-for i, name in enumerate(majors): TAROT_DECK[name] = f"m{i:02d}.jpg"
-suits = {"Wands": "w", "Cups": "c", "Swords": "s", "Pentacles": "p"}
-ranks = ["Ace", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Page", "Knight", "Queen", "King"]
-for s_name, s_code in suits.items():
-    for i, r_name in enumerate(ranks):
-        TAROT_DECK[f"{r_name} of {s_name}"] = f"{s_code}{i+1:02d}.jpg"
+# Use Major Arcana only for guaranteed high-quality renders
+TAROT_DECK = {
+    "The Fool": "m00.jpg", "The Magician": "m01.jpg", "The High Priestess": "m02.jpg",
+    "The Empress": "m03.jpg", "The Emperor": "m04.jpg", "The Hierophant": "m05.jpg",
+    "The Lovers": "m06.jpg", "The Chariot": "m07.jpg", "Strength": "m08.jpg",
+    "The Hermit": "m09.jpg", "Wheel of Fortune": "m10.jpg", "Justice": "m11.jpg",
+    "The Hanged Man": "m12.jpg", "Death": "m13.jpg", "Temperance": "m14.jpg",
+    "The Devil": "m15.jpg", "The Tower": "m16.jpg", "The Star": "m17.jpg",
+    "The Moon": "m18.jpg", "The Sun": "m19.jpg", "Judgement": "m20.jpg",
+    "The World": "m21.jpg"
+}
 
 def generate_reading(date_str):
     print(f"🔮 Generating Plan for {date_str}...")
-    cards = random.sample(list(TAROT_DECK.keys()), 3)
-    files = [TAROT_DECK[c] for c in cards]
+    selected_names = random.sample(list(TAROT_DECK.keys()), 3)
+    selected_files = [TAROT_DECK[name] for name in selected_names]
     
-    prompt = f"""
-    You are a Mystic. Date: {date_str}. Cards: {cards}.
-    Write a 60s YouTube Short Script.
-    OUTPUT JSON ONLY:
-    {{
-        "title": "UPPERCASE TITLE",
-        "script_text": "Hook... Body... CTA...",
-        "visual_notes": "Dark mood"
-    }}
-    """
-    data = ask_ai(prompt, "Return valid JSON.")
-    if not data: sys.exit(1)
+    prompt = f"Date: {date_str}. Cards: {selected_names}. Write a 60s viral mystical script."
+    data = ask_ai(prompt, "Output JSON ONLY.")
     
-    data["type"] = "TAROT"
-    data["file_name"] = f"final_tarot_{date_str}.mp4"
-    data["card_images"] = files
-    data["card_names"] = cards
-    
-    with open(f"plan_tarot_{date_str}.json", "w") as f:
-        json.dump(data, f, indent=4)
-    print("✅ Plan Generated.")
+    if data:
+        data["card_images"] = selected_files
+        data["file_name"] = f"final_tarot_{date_str}.mp4"
+        with open(f"plan_tarot_{date_str}.json", "w") as f:
+            json.dump(data, f)
+        print("✅ Plan Ready.")
 
 if __name__ == "__main__":
     generate_reading(str(datetime.date.today()))
