@@ -5,28 +5,29 @@ SIGNS = ["Aries", "Taurus", "Gemini", "Cancer", "Leo", "Virgo", "Libra", "Scorpi
 
 def run_empire():
     today = datetime.date.today()
-    day, month = today.day, today.month
-    
-    # 1. ALWAYS Daily Tarot
+    print(f"🚀 TRIGGERING ALL CHANNELS FOR ULTIMATE TEST...")
+
+    # 1. Daily Tarot Reading
     generator_tarot.generate_reading(str(today))
 
-    # 2. STRATEGY Logic
-    if month == 1 and day <= 12: # Jan Grand Opening
-        target = SIGNS[day-1]
-        generator_zodiac.generate_zodiac_video('monthly', target, "January 2026")
-        generator_zodiac.generate_zodiac_video('yearly', target, "2026")
-    elif day <= 12: # Monthly Pulse
-        generator_zodiac.generate_zodiac_video('monthly', SIGNS[day-1], today.strftime("%B %Y"))
-    elif day == 13: # NEW: The Wildcard Day
-        # The system thinks of something new every month on the 13th
-        topics = ["Mercury Retrograde", "Full Moon Ritual", "Black Moon Lilith", "Numerology 8", "Evil Eye Protection"]
-        generator_zodiac.generate_zodiac_video('special', random.choice(topics), str(today))
-    else: # Library Build
-        mode = 'birthday' if day % 2 == 0 else 'compatibility'
-        target = today.strftime("%B %d") if mode == 'birthday' else f"{random.choice(SIGNS)} vs {random.choice(SIGNS)}"
-        generator_zodiac.generate_zodiac_video(mode, target, str(today))
+    # 2. Daily Birthday Secret
+    generator_zodiac.generate_zodiac_video('birthday', today.strftime("%B %d"), str(today))
+
+    # 3. Random Compatibility Battle (Viral VS)
+    s1, s2 = random.sample(SIGNS, 2)
+    generator_zodiac.generate_zodiac_video('compatibility', f"{s1} vs {s2}", str(today))
+
+    # 4. Monthly & Yearly Forecasts (Based on Current Sign)
+    current_sign = SIGNS[(today.month - 1)]
+    generator_zodiac.generate_zodiac_video('monthly', current_sign, today.strftime("%B %Y"))
+    generator_zodiac.generate_zodiac_video('yearly', current_sign, "2026")
+
+    # 5. THE AI WILDCARD (The AI thinks and creates its own topic)
+    wildcard_topics = ["Mercury Retrograde Warning", "Full Moon Money Ritual", "Dark Side of the Zodiac", "The 13th Sign Secret"]
+    generator_zodiac.generate_zodiac_video('special', random.choice(wildcard_topics), str(today))
 
 if __name__ == "__main__":
     run_empire()
+    # Step 3: Polish all plans for maximum "Human Feel"
     for f in [f for f in os.listdir('.') if f.startswith('plan_')]:
         choreographer.polish(f)
