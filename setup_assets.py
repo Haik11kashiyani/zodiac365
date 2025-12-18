@@ -1,74 +1,55 @@
 import os
 import requests
+import time
 import sys
+from urllib.parse import quote
 
-# --- CONFIGURATION ---
 ASSET_DIR = "assets/tarot_cards"
-# The "Sacred Texts" Archive (Never deletes files)
-BASE_URL = "https://www.sacred-texts.com/tarot/pkt/img/"
+BASE_URL = "https://image.pollinations.ai/prompt/"
+STYLE = "mystical tarot card, dark fantasy art, golden intricate details, glowing magic, 8k resolution, cinematic lighting, masterpiece, vertical ratio"
 
-# MAPPING: Sacred Texts Name -> Our Name
-# They use 'cuac' for Ace of Cups, we need 'c01'
-SUIT_MAP = {'wa': 'w', 'cu': 'c', 'sw': 's', 'pe': 'p'}
-RANK_MAP = {
-    'ac': '01', '02': '02', '03': '03', '04': '04', '05': '05', 
-    '06': '06', '07': '07', '08': '08', '09': '09', '10': '10', 
-    'pa': '11', 'kn': '12', 'qu': '13', 'ki': '14'
-}
+def generate_image(prompt, filename):
+    save_path = os.path.join(ASSET_DIR, filename)
+    # Skip if file exists and is valid (>10KB)
+    if os.path.exists(save_path) and os.path.getsize(save_path) > 10000:
+        return True
 
-def download_file(url, save_path):
-    # Fake a browser to avoid blocks
-    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
+    full_prompt = quote(f"{prompt}, {STYLE}")
+    url = f"{BASE_URL}{full_prompt}?width=1080&height=1920&nologo=true&model=flux"
+    
+    print(f"🎨 Painting: {prompt}...")
     try:
-        r = requests.get(url, headers=headers, timeout=15)
+        r = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'}, timeout=60)
         if r.status_code == 200:
-            with open(save_path, 'wb') as f:
-                f.write(r.content)
+            with open(save_path, 'wb') as f: f.write(r.content)
+            time.sleep(1) # Polite delay
             return True
-        else:
-            print(f"❌ HTTP {r.status_code} for {url}")
-    except Exception as e:
-        print(f"❌ Error: {e}")
+    except: pass
     return False
 
 def main():
-    if not os.path.exists(ASSET_DIR):
-        os.makedirs(ASSET_DIR)
-        print(f"📂 Created {ASSET_DIR}")
-
-    print("🚀 Downloading Assets from Sacred Texts...")
-    success_count = 0
+    if not os.path.exists(ASSET_DIR): os.makedirs(ASSET_DIR)
     
-    # 1. MAJOR ARCANA (ar00.jpg -> m00.jpg)
-    for i in range(22):
-        src_name = f"ar{i:02d}.jpg"
-        dst_name = f"m{i:02d}.jpg"
-        
-        save_path = os.path.join(ASSET_DIR, dst_name)
-        if not os.path.exists(save_path):
-            if download_file(BASE_URL + src_name, save_path):
-                success_count += 1
-        else:
-            success_count += 1
+    # Generate List of Cards
+    cards = []
+    majors = ["The Fool", "The Magician", "The High Priestess", "The Empress", "The Emperor", "The Hierophant", "The Lovers", "The Chariot", "Strength", "The Hermit", "Wheel of Fortune", "Justice", "The Hanged Man", "Death", "Temperance", "The Devil", "The Tower", "The Star", "The Moon", "The Sun", "Judgement", "The World"]
+    for i, name in enumerate(majors): cards.append((name, f"m{i:02d}.jpg"))
 
-    # 2. MINOR ARCANA (cuac.jpg -> c01.jpg)
-    for src_suit, dst_suit in SUIT_MAP.items():
-        for src_rank, dst_rank in RANK_MAP.items():
-            src_name = f"{src_suit}{src_rank}.jpg"
-            dst_name = f"{dst_suit}{dst_rank}.jpg"
-            
-            save_path = os.path.join(ASSET_DIR, dst_name)
-            if not os.path.exists(save_path):
-                if download_file(BASE_URL + src_name, save_path):
-                    success_count += 1
-            else:
-                success_count += 1
-
-    print(f"✅ Assets Ready: {success_count}/78")
+    suits = {"Wands": "w", "Cups": "c", "Swords": "s", "Pentacles": "p"}
+    ranks = ["Ace", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Page", "Knight", "Queen", "King"]
     
-    # CRITICAL CHECK
-    if success_count < 70:
-        print("❌ FATAL: Assets failed to download.")
+    for s_name, s_code in suits.items():
+        for i, r_name in enumerate(ranks):
+            cards.append((f"{r_name} of {s_name}", f"{s_code}{i+1:02d}.jpg"))
+
+    success = 0
+    print(f"🚀 Generating {len(cards)} AI Images...")
+    for name, filename in cards:
+        if generate_image(name, filename): success += 1
+    
+    print(f"✅ Art Ready: {success}/{len(cards)}")
+    if success < 70:
+        print("❌ CRITICAL: AI Art generation failed.")
         sys.exit(1)
 
 if __name__ == "__main__":
