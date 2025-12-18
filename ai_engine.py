@@ -1,14 +1,9 @@
-import os
-import json
-import requests
-import time
-import re
+import os, json, requests, time, re
 
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY")
 
 MODELS_TO_TRY = [
     "google/gemini-2.0-flash-lite-preview-02-05:free",
-    "google/gemini-2.0-pro-exp-02-05:free",
     "meta-llama/llama-3.3-70b-instruct:free",
     "google/gemini-2.0-flash-exp:free"
 ]
@@ -23,29 +18,17 @@ def extract_json(text):
     except: return None
 
 def ask_ai(prompt, system_instruction="You are a helpful AI assistant."):
-    if not OPENROUTER_API_KEY:
-        print("❌ CRITICAL: OPENROUTER_API_KEY is missing.")
-        return None
-
+    if not OPENROUTER_API_KEY: return None
     url = "https://openrouter.ai/api/v1/chat/completions"
-    headers = {"Authorization": f"Bearer {OPENROUTER_API_KEY}", "Content-Type": "application/json", "HTTP-Referer": "https://github.com/ZodiacVault", "X-Title": "Zodiac Automation"}
+    headers = {"Authorization": f"Bearer {OPENROUTER_API_KEY}", "Content-Type": "application/json"}
 
-    for attempt in range(2):
-        for model in MODELS_TO_TRY:
-            print(f"📡 Connecting to: {model}...")
-            try:
-                payload = {"model": model, "messages": [{"role": "system", "content": system_instruction}, {"role": "user", "content": prompt}], "temperature": 0.85}
-                r = requests.post(url, headers=headers, json=payload, timeout=45)
-                if r.status_code == 200:
-                    data = r.json()
-                    if 'choices' in data:
-                        clean = extract_json(data['choices'][0]['message']['content'])
-                        if clean: return clean
-                elif r.status_code == 429:
-                    print(f"⚠️ {model} Busy. Waiting...")
-                    time.sleep(5)
-            except Exception as e: print(f"⚠️ Error: {e}")
-            time.sleep(1)
-
-    print("❌ FATAL: All AI models failed.")
+    for model in MODELS_TO_TRY:
+        try:
+            payload = {"model": model, "messages": [{"role": "system", "content": system_instruction}, {"role": "user", "content": prompt}], "temperature": 0.8}
+            r = requests.post(url, headers=headers, json=payload, timeout=30)
+            if r.status_code == 200:
+                clean = extract_json(r.json()['choices'][0]['message']['content'])
+                if clean: return clean
+            time.sleep(2)
+        except: continue
     return None
