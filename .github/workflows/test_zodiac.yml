@@ -1,28 +1,35 @@
 name: Test Zodiac Pipeline
 
-on: workflow_dispatch
+on:
+  workflow_dispatch: # This enables the button
 
 jobs:
   build-video:
     runs-on: ubuntu-latest
+    
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout Code
+        uses: actions/checkout@v3
       
-      - name: Install Libs
+      - name: Install System Libs
         run: |
           sudo apt-get update
           sudo apt-get install -y imagemagick
+          # FIX: Allow ImageMagick to write text (Security Policy Fix)
           sudo sed -i 's/none/read,write/g' /etc/ImageMagick-6/policy.xml
 
-      - uses: actions/setup-python@v4
-        with: python-version: '3.9'
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
 
-      - run: pip install -r requirements.txt
+      - name: Install Dependencies
+        run: pip install -r requirements.txt
 
-      - name: 1. Generate AI Art (Takes 5-10 mins first time)
+      - name: 1. Generate AI Art (Takes ~5 mins first time)
         run: python setup_assets.py
 
-      - name: 2. Extras
+      - name: 2. Download Extras
         run: python setup_extras.py
 
       - name: 3. Generate Draft
@@ -38,7 +45,8 @@ jobs:
       - name: 5. Create Video
         run: python video_maker.py
 
-      - uses: actions/upload-artifact@v4
+      - name: Upload Result
+        uses: actions/upload-artifact@v4
         with:
           name: viral-tarot-video
           path: output_videos/*.mp4
