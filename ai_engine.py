@@ -2,6 +2,7 @@ import os, json, requests, time, re
 
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY")
 
+# Reliable 2025 Free Models
 MODELS_TO_TRY = [
     "google/gemini-2.0-flash-lite-preview-02-05:free",
     "meta-llama/llama-3.3-70b-instruct:free",
