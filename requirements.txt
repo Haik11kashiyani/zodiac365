@@ -1,6 +1,6 @@
 google-generativeai
 moviepy==1.0.3
-gTTS
+edge-tts
 pillow
 requests
 numpy
