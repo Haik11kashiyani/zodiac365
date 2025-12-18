@@ -1,37 +1,56 @@
-import json, os, sys, subprocess
+import json, os, subprocess
 from moviepy.config import change_settings
 from moviepy.editor import *
-import moviepy.audio.fx.all as afx
 from PIL import Image
-import numpy as np
 
-# Fix for the 2025 Pillow 'ANTIALIAS' error
 if not hasattr(Image, 'ANTIALIAS'): Image.ANTIALIAS = Image.LANCZOS
 if os.name == 'posix': change_settings({"IMAGEMAGICK_BINARY": "/usr/bin/convert"})
 
-def render(plan):
-    with open(plan, 'r') as f: data = json.load(f)
-    # Generating high-emotion human voice
+def render(plan_file):
+    with open(plan_file, 'r') as f: data = json.load(f)
+    print(f"📼 Rendering {data['file_name']}...")
+
     subprocess.run(["edge-tts", "--voice", "en-US-ChristopherNeural", "--text", data['script_text'], "--write-media", "v.mp3"])
-    
     voice = AudioFileClip("v.mp3")
     duration = voice.duration + 2
-    bg_music = AudioFileClip("assets/music/mystical_bg.mp3").volumex(0.15).set_duration(duration)
     
-    clips = [ColorClip((1080, 1920), (15,5,25), duration=duration)]
-    for i, img_path in enumerate(data['card_images']):
-        full_path = os.path.join("assets/tarot_cards", img_path)
-        if os.path.exists(full_path):
-            img = ImageClip(full_path).resize(width=950).set_pos("center").set_start(3 + i*5).set_duration(5).crossfadein(0.5)
+    # Background
+    clips = [ColorClip((1080, 1920), (5, 5, 10), duration=duration)]
+    
+    # LAYOUT LOGIC
+    images = data.get('images', [])
+    
+    if data.get('type') == 'tarot':
+        # 3 Cards Layout
+        for i, path in enumerate(images):
+            if os.path.exists(path):
+                img = ImageClip(path).resize(width=900).set_pos("center").set_start(2 + i*5).set_duration(5).crossfadein(0.5)
+                clips.append(img)
+                
+    elif data.get('type') == 'compatibility':
+        # Split Screen Layout (VS)
+        if len(images) >= 2 and os.path.exists(images[0]) and os.path.exists(images[1]):
+            img1 = ImageClip(images[0]).resize(width=540).set_pos(('left', 'center')).set_duration(duration)
+            img2 = ImageClip(images[1]).resize(width=540).set_pos(('right', 'center')).set_duration(duration)
+            clips.append(img1)
+            clips.append(img2)
+            
+            vs_text = TextClip("VS", fontsize=100, color='red', font="assets/fonts/Cinzel-Bold.ttf").set_pos('center').set_duration(duration)
+            clips.append(vs_text)
+            
+    else:
+        # Single Hero Image (Monthly/Yearly/Zodiac)
+        if images and os.path.exists(images[0]):
+            img = ImageClip(images[0]).resize(width=1080).set_pos("center").set_duration(duration).crossfadein(1)
             clips.append(img)
 
-    # Branded Website Overlay
-    cta = TextClip("thezodiacvault.kesug.com", fontsize=50, color='cyan', font="assets/fonts/Cinzel-Bold.ttf", size=(900, None), method='caption')
+    # CTA
+    cta = TextClip("thezodiacvault.kesug.com", fontsize=45, color='cyan', font="assets/fonts/Cinzel-Bold.ttf", method='caption', size=(900, None))
     clips.append(cta.set_pos(('center', 1600)).set_start(duration-5).set_duration(5))
 
-    final = CompositeVideoClip(clips).set_audio(CompositeAudioClip([voice, bg_music]))
+    final = CompositeVideoClip(clips).set_audio(CompositeAudioClip([voice, AudioFileClip("assets/music/mystical_bg.mp3").volumex(0.15).set_duration(duration)]))
     final.write_videofile(os.path.join("output_videos", data['file_name']), fps=24, preset='ultrafast')
 
 if __name__ == "__main__":
-    files = [f for f in os.listdir('.') if f.startswith('plan_tarot')]
-    if files: render(max(files, key=os.path.getctime))
+    files = [f for f in os.listdir('.') if f.startswith('plan_')]
+    for f in files: render(f)
