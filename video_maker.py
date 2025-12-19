@@ -1,4 +1,4 @@
-import json, os, subprocess, random
+import json, os, subprocess, random, re
 from moviepy.config import change_settings
 from moviepy.editor import *
 import moviepy.video.fx.all as vfx
@@ -11,14 +11,20 @@ FONT_PATH = "Cinzel-Bold"
 if not hasattr(Image, 'ANTIALIAS'): Image.ANTIALIAS = Image.LANCZOS
 if os.name == 'posix': change_settings({"IMAGEMAGICK_BINARY": "/usr/bin/convert"})
 
+def clean_filename(filename):
+    """Removes illegal characters like : ? < > | * for GitHub/Windows compatibility."""
+    return re.sub(r'[\\/*?:"<>|]', "", filename)
+
 def apply_smooth_zoom(clip, duration):
-    """Fixed Ken Burns Engine: Smoothly zooms from 1.0x to 1.1x."""
-    # Logic: resize(lambda t: 1 + 0.1 * (t/duration))
+    """Titan Engine: Smoothly zooms from 1.0x to 1.08x for professional motion."""
     return clip.resize(lambda t: 1 + 0.08 * (t/duration)).set_duration(duration)
 
 def render(plan_file):
     with open(plan_file, 'r') as f: data = json.load(f)
-    print(f"🔱 TITAN 2.0 RENDERING: {data['file_name']}")
+    # Sanitize the filename immediately
+    safe_title = clean_filename(data['title']).replace(" ", "_")
+    output_name = f"{safe_title}.mp4"
+    print(f"🔱 TITAN 2.1 RENDERING: {output_name}")
 
     # 1. Generate High-Emotion Voice (Neural Christopher)
     subprocess.run(["edge-tts", "--voice", "en-US-ChristopherNeural", "--text", data['script_text'], "--write-media", "v.mp3"])
@@ -43,10 +49,8 @@ def render(plan_file):
                 clips.append(img_clip)
 
     # 4. KINETIC TYPOGRAPHY (Word-by-Word Professional Sync)
-    # This splits the script into small, readable chunks for the screen
-    full_text = data['script_text']
-    words = full_text.split()
-    chunk_size = 2 # 2 words at a time is the current TikTok 'Peak' standard
+    words = data['script_text'].split()
+    chunk_size = 2 # TikTok 'Peak' standard
     chunks = [" ".join(words[i:i+chunk_size]) for i in range(0, len(words), chunk_size)]
     
     chunk_duration = duration / len(chunks)
@@ -54,9 +58,7 @@ def render(plan_file):
         txt = TextClip(chunk.upper(), fontsize=110, color='#FFD700', font=FONT_PATH, 
                        stroke_color='black', stroke_width=4, method='caption', size=(950, None))
         
-        # Animation: Scale up slightly and fade in
         txt = txt.set_start(i * chunk_duration).set_duration(chunk_duration).set_pos(('center', 1000))
-        # FIXED: Removed the faulty lambda opacity to prevent the TypeError crash
         txt = txt.fadein(0.2).resize(lambda t: 1 + 0.05 * t)
         clips.append(txt)
 
@@ -66,7 +68,6 @@ def render(plan_file):
 
     # 6. Final Master Mix
     final = CompositeVideoClip(clips).set_audio(CompositeAudioClip([voice, music]))
-    output_name = data['title'].replace(" ", "_") + ".mp4"
     final.write_videofile(os.path.join("output_videos", output_name), fps=24, preset='ultrafast', threads=4)
 
 if __name__ == "__main__":
