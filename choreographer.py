@@ -3,26 +3,22 @@ from ai_engine import ask_ai
 
 def polish(plan_file):
     with open(plan_file, 'r') as f: draft = json.load(f)
+    print(f"🎬 MASTER DIRECTING: {plan_file}...")
     
     prompt = f"""
-    You are a Viral Video Director. 
-    Rewrite this script for a TikTok/Reels audience. 
+    You are a viral YouTube Shorts director. 
+    Rewrite this {draft.get('type', 'astrology')} script for MAXIMUM RETENTION.
     
     Original: {draft.get('script_text', '')}
     
-    DIRECTOR'S REQUIREMENTS:
-    1. Start with a SHOCKING HOOK. (e.g., 'STOP! The universe has a secret for you...')
-    2. Use short, high-energy sentences.
-    3. Include 5 specific 'Visual Beats' for the editor.
+    INSTRUCTIONS:
+    1. The first sentence MUST be a shocking pattern interrupt (e.g. 'Wait! Don't scroll yet.').
+    2. Use urgent, fast-paced language.
+    3. Include 5 specific keywords for the editor to highlight.
     
-    OUTPUT JSON ONLY:
-    {{
-        "title": "ULTIMATE TITLE",
-        "script_text": "Clean, high-energy script here...",
-        "beats": ["BEAT 1", "BEAT 2", "BEAT 3", "BEAT 4", "BEAT 5"]
-    }}
+    OUTPUT JSON ONLY with keys 'script_text' and 'title'.
     """
-    new_data = ask_ai(prompt, sys_msg="You are a viral content choreographer.")
+    new_data = ask_ai(prompt, sys_msg="You are a viral content director.")
     if new_data:
         draft.update(new_data)
         with open(plan_file, 'w') as f: json.dump(draft, f, indent=4)
