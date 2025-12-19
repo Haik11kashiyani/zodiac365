@@ -1,71 +1,75 @@
 import json, os, subprocess, random
 from moviepy.config import change_settings
 from moviepy.editor import *
+import moviepy.video.fx.all as vfx
 from PIL import Image
 import numpy as np
 
-# System Font Fix
-FONT_PATH = "Cinzel-Bold" # Uses the system-registered font from our last fix
+# System Font Fix from our previous session
+FONT_PATH = "Cinzel-Bold" 
 
 if not hasattr(Image, 'ANTIALIAS'): Image.ANTIALIAS = Image.LANCZOS
 if os.name == 'posix': change_settings({"IMAGEMAGICK_BINARY": "/usr/bin/convert"})
 
-def create_particles(duration):
-    """Creates a mystical moving gold dust overlay."""
-    def make_frame(t):
-        frame = np.zeros((1920, 1080, 3), dtype=np.uint8)
-        for _ in range(15):
-            x = int(540 + 400 * np.sin(t + random.random()))
-            y = int(960 + 800 * np.cos(t * 0.5 + random.random()))
-            frame[y-5:y+5, x-5:x+5] = [255, 215, 0] # Gold particles
-        return frame
-    return VideoClip(make_frame, duration=duration).set_opacity(0.3)
+def apply_ken_burns(clip, duration):
+    """Adds a cinematic zoom-in effect to static images."""
+    return clip.resize(lambda t: 1 + 0.04 * t).set_duration(duration)
 
 def render(plan_file):
     with open(plan_file, 'r') as f: data = json.load(f)
-    print(f"🎬 ULTIMATE RENDER: {data['file_name']}")
+    print(f"🔱 TITAN RENDERING: {data['file_name']}")
 
-    # 1. High-Emotion Neural Voice
+    # 1. Generate High-Emotion Voice
     subprocess.run(["edge-tts", "--voice", "en-US-ChristopherNeural", "--text", data['script_text'], "--write-media", "v.mp3"])
     voice = AudioFileClip("v.mp3")
     duration = voice.duration + 1.5
     
-    # 2. Cinematic Base Layer
+    # 2. Base Cinematic Layers
+    # Dark background + Mystical Music
     bg = ColorClip((1080, 1920), (10, 5, 20), duration=duration)
-    clips = [bg, create_particles(duration)]
+    music = AudioFileClip("assets/music/mystical_bg.mp3").volumex(0.15).set_duration(duration)
     
-    # 3. Dynamic Visuals (Ken Burns Effect)
+    clips = [bg]
+    
+    # 3. Dynamic Image Layer (The 'Video' Feel)
     imgs = data.get('images', [])
     if imgs:
+        num_imgs = len(imgs)
+        time_per_img = duration / num_imgs
         for i, path in enumerate(imgs):
             if os.path.exists(path):
-                img = ImageClip(path).resize(width=1150).set_pos("center")
-                # Add slow zoom-in
-                img = img.resize(lambda t: 1 + 0.03*t).set_start(0.5 + i*4).set_duration(duration - 1).crossfadein(1)
-                clips.append(img)
+                img_clip = ImageClip(path).resize(width=1100).set_pos("center")
+                # Apply the Motion Engine
+                img_clip = apply_ken_burns(img_clip, time_per_img)
+                img_clip = img_clip.set_start(i * time_per_img).crossfadein(1).crossfadeout(1)
+                clips.append(img_clip)
 
-    # 4. Kinetic Subtitles (Peak Level Typography)
-    for i, ol in enumerate(data.get('overlays', [])):
-        txt_val = ol['text'].upper()
-        # Create a gold text with a deep shadow
-        txt = TextClip(txt_val, fontsize=90, color='#FFD700', font=FONT_PATH, stroke_color='black', stroke_width=3, method='caption', size=(900, None))
-        
-        # Staggered timing based on the list
-        start_time = (duration / len(data['overlays'])) * i
-        txt = txt.set_pos(('center', 800)).set_start(start_time).set_duration(3).crossfadein(0.3)
+    # 4. KINETIC SUBTITLES (Peak Level Typography)
+    # We split the script into punchy segments for the screen
+    words = data['script_text'].split()
+    group_size = 3 # 3 words at a time for maximum 'viral' retention
+    segments = [" ".join(words[i:i+group_size]) for i in range(0, len(words), group_size)]
+    
+    seg_duration = duration / len(segments)
+    for i, seg in enumerate(segments):
+        txt = TextClip(seg.upper(), fontsize=100, color='#FFD700', font=FONT_PATH, 
+                       stroke_color='black', stroke_width=3, method='caption', size=(950, None))
+        txt = txt.set_start(i * seg_duration).set_duration(seg_duration).set_pos(('center', 1000))
+        # Add a slight pop-in animation
+        txt = txt.resize(lambda t: 1 + 0.1 * t).set_opacity(lambda t: min(1, 5*t))
         clips.append(txt)
 
-    # 5. Permanent Brand Overlay
-    brand = TextClip("thezodiacvault.kesug.com", fontsize=40, color='cyan', font=FONT_PATH).set_pos(('center', 1700)).set_duration(duration).set_opacity(0.7)
-    clips.append(brand)
+    # 5. Professional Branding Overlay
+    website = TextClip("thezodiacvault.kesug.com", fontsize=40, color='cyan', font=FONT_PATH)
+    clips.append(website.set_pos(('center', 1750)).set_duration(duration).set_opacity(0.6))
 
-    # 6. Final Audio Mix
-    music = AudioFileClip("assets/music/mystical_bg.mp3").volumex(0.15).set_duration(duration)
-    final_audio = CompositeAudioClip([voice, music])
-
-    final = CompositeVideoClip(clips).set_audio(final_audio)
-    final.write_videofile(os.path.join("output_videos", data['title'].replace(" ", "_") + ".mp4"), fps=24, preset='ultrafast', threads=4)
+    # 6. Final Export
+    final = CompositeVideoClip(clips).set_audio(CompositeAudioClip([voice, music]))
+    output_path = os.path.join("output_videos", data['title'].replace(" ", "_") + ".mp4")
+    final.write_videofile(output_path, fps=24, preset='ultrafast', threads=4)
 
 if __name__ == "__main__":
     if not os.path.exists("output_videos"): os.makedirs("output_videos")
-    for f in [f for f in os.listdir('.') if f.startswith('plan_')]: render(f)
+    # Render every plan generated by the Master Brain
+    plans = [f for f in os.listdir('.') if f.startswith('plan_')]
+    for p in plans: render(p)
