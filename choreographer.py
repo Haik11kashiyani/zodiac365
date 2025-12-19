@@ -12,9 +12,9 @@ def polish(plan_file):
     Original: {draft.get('script_text', '')}
     
     INSTRUCTIONS:
-    1. The first sentence MUST be a shocking pattern interrupt (e.g. 'Wait! Don't scroll yet.').
-    2. Use urgent, fast-paced language.
-    3. Include 5 specific keywords for the editor to highlight.
+    1. The first sentence MUST be a shocking pattern interrupt.
+    2. TITLE: Create a catchy title WITHOUT using colons (:), question marks (?), or slashes (/).
+    3. Use urgent, fast-paced language.
     
     OUTPUT JSON ONLY with keys 'script_text' and 'title'.
     """
