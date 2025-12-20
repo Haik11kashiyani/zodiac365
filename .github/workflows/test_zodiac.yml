@@ -3,7 +3,7 @@ on: workflow_dispatch
 jobs:
   run-empire:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 360
     steps:
       - uses: actions/checkout@v3
       - name: Install System Libs
