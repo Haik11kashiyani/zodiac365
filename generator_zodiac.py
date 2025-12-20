@@ -6,6 +6,19 @@ def load_config():
         return json.load(f)
 
 def generate_zodiac_video(mode, target, date_str):
+    # Safe filename: replace spaces and slashes
+    safe_target = target.replace(' ', '_').replace('/', '-')
+    filename = f"plan_{mode}_{safe_target}.json"
+
+    # 1. CHECK FOR MANUAL OVERRIDE (If file is pending, don't overwrite)
+    if os.path.exists(filename):
+        try:
+            with open(filename, 'r') as f: existing = json.load(f)
+            if existing.get('status') == 'pending' and existing.get('active', True):
+                print(f"✋ MANUAL OVERRIDE FOUND: {filename} is pending. Skipping AI generation.")
+                return True
+        except: pass
+
     print(f"🔮 Drafting {mode.upper()} for {target}...")
     config = load_config()
     prompts = config.get("prompts", {})
@@ -33,10 +46,6 @@ def generate_zodiac_video(mode, target, date_str):
 
     data = ask_ai(prompt + " JSON ONLY with 'script_text' and 'title'.")
     if not data: return False
-    
-    # Safe filename: replace spaces and slashes
-    safe_target = target.replace(' ', '_').replace('/', '-')
-    filename = f"plan_{mode}_{safe_target}.json"
     
     data.update({
         'type': mode, 
