@@ -3,47 +3,47 @@ from moviepy.config import change_settings
 from moviepy.editor import *
 from PIL import Image
 
-# Use the System-Registered Name fixed in our YAML
+# System Font Name
 FONT_NAME = "Cinzel-Bold" 
 
 if not hasattr(Image, 'ANTIALIAS'): Image.ANTIALIAS = Image.LANCZOS
 if os.name == 'posix': change_settings({"IMAGEMAGICK_BINARY": "/usr/bin/convert"})
 
 def clean_speech(text):
+    """Strips hashtags and AI artifacts so the voice is purely human."""
     return re.sub(r'[#\*]', '', text).strip()
 
 def apply_camera_motion(clip, duration, index):
-    """God-Level Motion: Alternates between 4 different cinematic paths."""
+    """God-Level Motion: Alternates Zoom-In, Pull-Out, and Subtle Pan."""
     paths = [
-        lambda t: 1 + 0.1 * (t/duration),    # Zoom In
-        lambda t: 1.1 - 0.1 * (t/duration),  # Pull Out
-        lambda t: 1.05                       # Static Scale
+        lambda t: 1 + 0.1 * (t/duration), 
+        lambda t: 1.1 - 0.1 * (t/duration),
+        lambda t: 1.05
     ]
     return clip.resize(paths[index % len(paths)]).set_duration(duration)
 
 def render(plan_file):
     with open(plan_file, 'r') as f: data = json.load(f)
     safe_title = re.sub(r'[\\/*?:"<>|]', "", data['title']).replace(" ", "_")
-    print(f"🔱 RENDERING: {safe_title}")
+    print(f"🔱 GOD-MODE RENDERING: {safe_title}")
 
-    # 1. Slowed Human Voice (-10% for authority)
+    # 1. Aura Voice (Slowed to -10% for deep human feeling)
     txt = clean_speech(data['script_text'])
     subprocess.run(["edge-tts", "--voice", "en-US-ChristopherNeural", "--rate=-10%", "--text", txt, "--write-media", "v.mp3"])
     voice = AudioFileClip("v.mp3")
-    duration = voice.duration + 1.0
+    duration = voice.duration + 1.2
     
-    # 2. Random Music Selection
-    music_files = [f for f in os.listdir("assets/music") if f.endswith(".mp3")]
-    music_track = random.choice(music_files) if music_files else "mystical_main.mp3"
+    # 2. Dynamic Audio Atmosphere
+    music_track = random.choice([m for m in os.listdir("assets/music") if m.endswith(".mp3")])
     music = AudioFileClip(os.path.join("assets/music", music_track)).volumex(0.12).set_duration(duration)
     
     clips = [ColorClip((1080, 1920), (10, 5, 20), duration=duration)]
     
-    # 3. Visual Slicing Engine (Fixes 'One Image' issue)
+    # 3. Visual Slicing Engine (No more static images)
     imgs = data.get('images', [])
-    if not imgs: imgs = [os.path.join("assets/zodiac_signs", "Aries.jpg")]
+    if not imgs: imgs = ["assets/zodiac_signs/Pisces.jpg"]
     
-    # Create 4 motion slices even if we only have one image
+    # Create 4 motion slices regardless of image count
     num_slices = 4 if len(imgs) == 1 else len(imgs)
     slice_dur = duration / num_slices
     for i in range(num_slices):
@@ -53,10 +53,9 @@ def render(plan_file):
             c = apply_camera_motion(c, slice_dur, i).set_start(i * slice_dur).crossfadein(0.5)
             clips.append(c)
 
-    # 4. Kinetic Typography (Small, Proper Subtitles)
+    # 4. Micro-Typography (Kinetic word bursts)
     words = txt.split()
-    chunk_size = 2 # Best for modern retention
-    chunks = [" ".join(words[i:i+chunk_size]) for i in range(0, len(words), chunk_size)]
+    chunks = [" ".join(words[i:i+2]) for i in range(0, len(words), 2)]
     chunk_dur = duration / len(chunks)
     
     for i, chunk in enumerate(chunks):
@@ -65,10 +64,6 @@ def render(plan_file):
         t_clip = t_clip.set_start(i * chunk_dur).set_duration(chunk_dur).set_pos(('center', 1150))
         t_clip = t_clip.fadein(0.1).resize(lambda t: 1 + 0.02 * t)
         clips.append(t_clip)
-
-    # 5. Final Brand
-    brand = TextClip("thezodiacvault.kesug.com", fontsize=35, color='cyan', font=FONT_NAME)
-    clips.append(brand.set_pos(('center', 1780)).set_duration(duration).set_opacity(0.6))
 
     final = CompositeVideoClip(clips).set_audio(CompositeAudioClip([voice, music]))
     final.write_videofile(os.path.join("output_videos", f"{safe_title}.mp4"), fps=24, preset='ultrafast')
