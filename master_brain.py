@@ -5,16 +5,7 @@ with open("config.json", "r") as f:
 
 SIGNS = ["Aries", "Taurus", "Gemini", "Cancer", "Leo", "Virgo", "Libra", "Scorpio", "Sagittarius", "Capricorn", "Aquarius", "Pisces"]
 
-def clean_workspace():
-    """Removes old plan plans to prevent duplicate video generation."""
-    files = glob.glob("plan_*.json")
-    for f in files:
-        try: os.remove(f)
-        except: pass
-    print(f"🧹 Cleaned {len(files)} old plans.")
-
 def run_empire():
-    clean_workspace()
     today = datetime.date.today()
     print(f"🚀 GENERATING EMPIRE CONTENT FOR {today}...")
 

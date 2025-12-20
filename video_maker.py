@@ -29,6 +29,12 @@ def render(plan_file):
     safe_title = re.sub(r'[\\/*?:"<>|]', "", data['title']).replace(" ", "_")
     print(f"🔱 GOD-MODE RENDERING: {safe_title}")
 
+    
+    # Check if already rendered
+    if data.get('rendered', False):
+        print(f"⏭️ Skipping {safe_title} (Already Rendered)")
+        return
+
     # 1. Aura Voice Logic
     txt = clean_speech(data['script_text'])
     tts_engine = config.get("tts_engine", "edge")
@@ -84,6 +90,11 @@ def render(plan_file):
 
     final = CompositeVideoClip(clips).set_audio(CompositeAudioClip([voice, music]))
     final.write_videofile(os.path.join("output_videos", f"{safe_title}.mp4"), fps=24, preset='ultrafast')
+
+    # Mark as rendered
+    data['rendered'] = True
+    with open(plan_file, 'w') as f: json.dump(data, f, indent=4)
+    print(f"✅ Marked {safe_title} as RENDERED.")
 
 if __name__ == "__main__":
     if not os.path.exists("output_videos"): os.makedirs("output_videos")

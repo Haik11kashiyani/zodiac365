@@ -38,6 +38,12 @@ def generate_zodiac_video(mode, target, date_str):
     safe_target = target.replace(' ', '_').replace('/', '-')
     filename = f"plan_{mode}_{safe_target}.json"
     
-    data.update({'type': mode, 'images': [i for i in imgs if i], 'file_name': filename})
+    data.update({
+        'type': mode, 
+        'images': [i for i in imgs if i], 
+        'file_name': filename,
+        'rendered': False
+    })
+    
     with open(filename, "w") as f: json.dump(data, f, indent=4)
     return True
