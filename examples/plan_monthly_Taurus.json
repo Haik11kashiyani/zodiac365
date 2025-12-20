@@ -5,5 +5,7 @@
     "images": [
         "assets/zodiac_signs/Taurus.jpg"
     ],
-    "file_name": "plan_monthly_Taurus.json"
+    "file_name": "plan_monthly_Taurus.json",
+    "active": true,
+    "status": "pending"
 }

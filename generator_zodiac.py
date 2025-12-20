@@ -42,8 +42,8 @@ def generate_zodiac_video(mode, target, date_str):
         'type': mode, 
         'images': [i for i in imgs if i], 
         'file_name': filename,
-        'rendered': False
+        'active': True,
+        'status': 'pending'
     })
-    
     with open(filename, "w") as f: json.dump(data, f, indent=4)
     return True

@@ -6,5 +6,7 @@
         "assets/zodiac_signs/Leo.jpg",
         "assets/zodiac_signs/Virgo.jpg"
     ],
-    "file_name": "plan_compatibility_Leo_vs_Virgo.json"
+    "file_name": "plan_compatibility_Leo_vs_Virgo.json",
+    "active": true,
+    "status": "pending"
 }

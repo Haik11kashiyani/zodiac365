@@ -29,12 +29,6 @@ def render(plan_file):
     safe_title = re.sub(r'[\\/*?:"<>|]', "", data['title']).replace(" ", "_")
     print(f"🔱 GOD-MODE RENDERING: {safe_title}")
 
-    
-    # Check if already rendered
-    if data.get('rendered', False):
-        print(f"⏭️ Skipping {safe_title} (Already Rendered)")
-        return
-
     # 1. Aura Voice Logic
     txt = clean_speech(data['script_text'])
     tts_engine = config.get("tts_engine", "edge")
@@ -91,11 +85,31 @@ def render(plan_file):
     final = CompositeVideoClip(clips).set_audio(CompositeAudioClip([voice, music]))
     final.write_videofile(os.path.join("output_videos", f"{safe_title}.mp4"), fps=24, preset='ultrafast')
 
-    # Mark as rendered
-    data['rendered'] = True
-    with open(plan_file, 'w') as f: json.dump(data, f, indent=4)
-    print(f"✅ Marked {safe_title} as RENDERED.")
-
 if __name__ == "__main__":
     if not os.path.exists("output_videos"): os.makedirs("output_videos")
-    for p in [f for f in os.listdir('.') if f.startswith('plan_')]: render(p)
+    
+    plan_files = [f for f in os.listdir('.') if f.startswith('plan_') and f.endswith('.json')]
+    print(f"📂 Found {len(plan_files)} plans. Checking status...")
+
+    for p in plan_files:
+        try:
+            with open(p, 'r') as f: data = json.load(f)
+            
+            # CHECK FLAGS
+            if not data.get('active', True): 
+                print(f"⏭️ SKIPPING (Inactive): {p}")
+                continue
+            if data.get('status') == 'done':
+                print(f"✅ SKIPPING (Already Done): {p}")
+                continue
+
+            # RENDER
+            render(p)
+
+            # UPDATE STATUS
+            data['status'] = 'done'
+            with open(p, 'w') as f: json.dump(data, f, indent=4)
+            print(f"💾 Marked {p} as DONE.")
+            
+        except Exception as e:
+            print(f"❌ Error processing {p}: {e}")

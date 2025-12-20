@@ -5,5 +5,7 @@
     "images": [
         "assets/zodiac_signs/Aries.jpg"
     ],
-    "file_name": "plan_daily_Aries.json"
+    "file_name": "plan_daily_Aries.json",
+    "active": true,
+    "status": "pending"
 }
