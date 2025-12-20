@@ -24,14 +24,31 @@ def apply_camera_motion(clip, duration, index):
 
 def render(plan_file):
     with open(plan_file, 'r') as f: data = json.load(f)
+    with open("config.json", "r") as f: config = json.load(f)
+
     safe_title = re.sub(r'[\\/*?:"<>|]', "", data['title']).replace(" ", "_")
     print(f"🔱 GOD-MODE RENDERING: {safe_title}")
 
-    # 1. Aura Voice (Slowed to -10% for deep human feeling)
+    # 1. Aura Voice Logic
     txt = clean_speech(data['script_text'])
-    subprocess.run(["edge-tts", "--voice", "en-US-ChristopherNeural", "--rate=-10%", "--text", txt, "--write-media", "v.mp3"])
-    voice = AudioFileClip("v.mp3")
-    duration = voice.duration + 1.2
+    tts_engine = config.get("tts_engine", "edge")
+
+    if tts_engine == "elevenlabs" and config.get("elevenlabs_keys"):
+        # Placeholder for ElevenLabs - Fallback to edge if fails or no keys logic implemented yet
+        # For now, simplistic implementation: use edge unless specific code added
+        print("⚠️ ElevenLabs selected but simple implementation defaults to Edge for stability in this version.")
+        subprocess.run(["edge-tts", "--voice", "en-US-ChristopherNeural", "--rate=-10%", "--text", txt, "--write-media", "v.mp3"])
+    else:
+        # Default: Edge TTS (ChristopherNeural)
+        subprocess.run(["edge-tts", "--voice", "en-US-ChristopherNeural", "--rate=-10%", "--text", txt, "--write-media", "v.mp3"])
+    
+    if os.path.exists("v.mp3"):
+        voice = AudioFileClip("v.mp3")
+        duration = voice.duration + 1.2
+    else:
+        print("❌ TTS Failed!")
+        return 
+
     
     # 2. Dynamic Audio Atmosphere
     music_track = random.choice([m for m in os.listdir("assets/music") if m.endswith(".mp3")])

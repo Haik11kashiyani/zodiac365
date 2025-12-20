@@ -1,24 +1,43 @@
 import json, sys, os
 from ai_engine import ask_ai
 
+def load_config():
+    with open("config.json", "r") as f:
+        return json.load(f)
+
 def generate_zodiac_video(mode, target, date_str):
     print(f"🔮 Drafting {mode.upper()} for {target}...")
+    config = load_config()
+    prompts = config.get("prompts", {})
     imgs = []
+
     if mode == 'compatibility':
         s1, s2 = target.split(' vs ')
         imgs = [f"assets/zodiac_signs/{s1}.jpg", f"assets/zodiac_signs/{s2}.jpg"]
-        prompt = f"Viral compatibility script for {s1} and {s2}. Cover Love and Secrets."
+        prompt = prompts.get("compatibility", "").format(sign1=s1, sign2=s2)
     elif mode == 'special':
-        # NEW: The Wildcard Logic
-        prompt = f"Generate a viral 1-minute occult secret video about {target} (e.g. Mercury Retrograde, Crystal Healing, or Moon Phase)."
-        imgs = [] # Will use default mystical background
+        # The wild card
+        prompt = prompts.get("special", "").format(topic=target)
+        imgs = [] 
+    elif mode == 'birthday':
+        prompt = prompts.get("birthday", "").format(sign=target, date=date_str)
+        imgs = [f"assets/zodiac_signs/{target}.jpg"]
+    elif mode == 'yearly':
+        prompt = prompts.get("yearly", "").format(sign=target)
+        imgs = [f"assets/zodiac_signs/{target}.jpg"]
     else:
-        imgs = [f"assets/zodiac_signs/{target}.jpg" if mode != 'birthday' else ""]
-        prompt = f"Viral {mode} prediction/secret for {target}."
+        # Default Daily/Monthly
+        prompt_template = prompts.get(mode, prompts.get("daily"))
+        prompt = prompt_template.format(sign=target, date=date_str)
+        imgs = [f"assets/zodiac_signs/{target}.jpg"]
 
     data = ask_ai(prompt + " JSON ONLY with 'script_text' and 'title'.")
     if not data: return False
     
-    data.update({'type': mode, 'images': [i for i in imgs if i], 'file_name': f"plan_{mode}_{target.replace(' ', '_')}.json"})
-    with open(data['file_name'], "w") as f: json.dump(data, f, indent=4)
+    # Safe filename: replace spaces and slashes
+    safe_target = target.replace(' ', '_').replace('/', '-')
+    filename = f"plan_{mode}_{safe_target}.json"
+    
+    data.update({'type': mode, 'images': [i for i in imgs if i], 'file_name': filename})
+    with open(filename, "w") as f: json.dump(data, f, indent=4)
     return True

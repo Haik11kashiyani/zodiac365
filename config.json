@@ -1,0 +1,13 @@
+{
+    "tts_engine": "edge",
+    "elevenlabs_keys": [],
+    "max_chars_per_key": 9500,
+    "prompts": {
+        "daily": "Viral daily horoscope for {sign} for {date}. predicting love, luck, and money. High energy, mystical tone. Under 140 words.",
+        "monthly": "Viral monthly horoscope for {sign} for {date}. Cover key dates for love and career. Mystical and warning tone. Under 160 words.",
+        "yearly": "Viral 2026 yearly horoscope for {sign}. A grand overview of destiny, karma, and major life changes. Mystical and epic tone. Under 200 words.",
+        "compatibility": "Viral love compatibility between {sign1} and {sign2}. Focus on chemistry, tension, and long-term potential. Under 140 words.",
+        "birthday": "Special birthday message for {sign} born on {date}. The spiritual significance of this solar return. Blessings and warnings. Under 140 words.",
+        "special": "Viral occult or astrological secret about {topic}. Deep, mysterious, and engaging. Under 140 words."
+    }
+}
