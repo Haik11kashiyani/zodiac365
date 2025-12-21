@@ -51,21 +51,26 @@ def add_ssml_emotion(text):
     return ' '.join(words)
 
 def create_vignette(width, height):
-    """Creates a vignette overlay image."""
+    """Creates a vignette overlay image using fast numpy operations."""
+    import numpy as np
+    
+    # Create coordinate grids
+    x = np.linspace(-1, 1, width)
+    y = np.linspace(-1, 1, height)
+    X, Y = np.meshgrid(x, y)
+    
+    # Calculate radial distance from center
+    R = np.sqrt(X**2 + Y**2)
+    
+    # Create vignette effect (dark at edges)
+    # Start darkening from radius 0.7, full dark at 1.4
+    vignette = np.clip((R - 0.7) / 0.7, 0, 1) * 150
+    vignette = vignette.astype(np.uint8)
+    
+    # Create RGBA image
     img = Image.new('RGBA', (width, height), (0, 0, 0, 0))
-    draw = ImageDraw.Draw(img)
-    
-    # Create radial gradient for vignette
-    center_x, center_y = width // 2, height // 2
-    max_radius = math.sqrt(center_x**2 + center_y**2)
-    
-    for y in range(height):
-        for x in range(width):
-            distance = math.sqrt((x - center_x)**2 + (y - center_y)**2)
-            # Start darkening from 60% of the way to the edge
-            if distance > max_radius * 0.6:
-                alpha = int(min(255, (distance - max_radius * 0.6) / (max_radius * 0.4) * 180))
-                img.putpixel((x, y), (0, 0, 0, alpha))
+    alpha_channel = Image.fromarray(vignette)
+    img.putalpha(alpha_channel)
     
     vignette_path = "temp_vignette.png"
     img.save(vignette_path)
@@ -93,35 +98,21 @@ def apply_camera_motion(clip, duration, index):
         return clip.resize(lambda t: 1.05 + 0.05 * math.sin(t * 0.5)).set_duration(duration)
 
 def create_animated_subtitle(text, start_time, duration, accent_color, width=1000):
-    """Creates premium animated subtitle with pop-in effect."""
-    # Clean the text
+    """Creates premium animated subtitle with glow effect."""
     text = text.upper().strip()
     
-    # Create the text clip with shadow effect
-    shadow = TextClip(
-        text, fontsize=90, color='black', font=FONT_NAME,
-        stroke_color='black', stroke_width=4, method='caption', size=(width, None)
-    ).set_opacity(0.6).set_position(lambda t: ('center', 1160 + 3))
-    
+    # Simple but effective subtitle with stroke
     main_text = TextClip(
-        text, fontsize=90, color=accent_color, font=FONT_NAME,
-        stroke_color='black', stroke_width=2, method='caption', size=(width, None)
-    ).set_position(('center', 1160))
+        text, fontsize=85, color=accent_color, font=FONT_NAME,
+        stroke_color='black', stroke_width=4, method='caption', size=(width, None)
+    )
     
-    # Combine shadow and main text
-    subtitle = CompositeVideoClip([shadow, main_text], size=(1080, 1920))
+    # Position and timing
+    main_text = main_text.set_position(('center', 1150))
+    main_text = main_text.set_start(start_time).set_duration(duration)
+    main_text = main_text.crossfadein(0.1).crossfadeout(0.1)
     
-    # Apply pop-in animation
-    def scale_func(t):
-        if t < 0.1:
-            return 0.8 + (0.2 * (t / 0.1))  # Scale from 0.8 to 1.0
-        return 1.0
-    
-    subtitle = subtitle.resize(scale_func)
-    subtitle = subtitle.set_start(start_time).set_duration(duration)
-    subtitle = subtitle.crossfadein(0.08).crossfadeout(0.08)
-    
-    return subtitle
+    return main_text
 
 # ═══════════════════════════════════════════════════════════════════════════════
 # MAIN RENDER FUNCTION
