@@ -30,23 +30,22 @@ jobs:
           sudo cp assets/fonts/Montserrat-Bold.ttf /usr/share/fonts/truetype/custom/
           sudo fc-cache -f -v
           
-      - env:
+      - name: Generate Scripts
+        env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: |
-          echo "=== RUNNING MASTER BRAIN ==="
           python master_brain.py
-          echo ""
-          echo "=== GENERATED PLAN FILES ==="
-          ls -la plan_*.json 2>/dev/null || echo "No plan files found!"
-          echo ""
-          echo "=== RUNNING VIDEO MAKER ==="
+          echo "=== Generated plan files ==="
+          ls -la plan_*.json || echo "No plan files found!"
+          
+      - name: Render Videos
+        run: |
+          echo "=== Starting video rendering ==="
           python video_maker.py
-          echo ""
-          echo "=== OUTPUT VIDEOS ==="
-          ls -la output_videos/ 2>/dev/null || echo "No output_videos folder!"
+          echo "=== Checking output ==="
+          ls -la output_videos/ || echo "No output_videos directory!"
           
       - uses: actions/upload-artifact@v4
-        if: always()
         with:
           name: daily-videos
           path: output_videos/*.mp4
