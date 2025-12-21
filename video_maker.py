@@ -140,12 +140,12 @@ def render(plan_file):
     
     print(f"   Voice: {voice} | Rate: {rate}")
     
-    # Generate with edge-tts (simple and reliable)
+    # Generate with edge-tts (use = syntax to avoid shell issues with negative values)
     try:
         result = subprocess.run([
             "edge-tts", 
             "--voice", voice, 
-            "--rate", rate,
+            f"--rate={rate}",
             "--text", txt, 
             "--write-media", "v.mp3"
         ], capture_output=True, text=True, timeout=120)
