@@ -33,9 +33,21 @@ jobs:
       - env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: |
+          echo "=== RUNNING MASTER BRAIN ==="
           python master_brain.py
+          echo ""
+          echo "=== GENERATED PLAN FILES ==="
+          ls -la plan_*.json 2>/dev/null || echo "No plan files found!"
+          echo ""
+          echo "=== RUNNING VIDEO MAKER ==="
           python video_maker.py
+          echo ""
+          echo "=== OUTPUT VIDEOS ==="
+          ls -la output_videos/ 2>/dev/null || echo "No output_videos folder!"
+          
       - uses: actions/upload-artifact@v4
+        if: always()
         with:
           name: daily-videos
           path: output_videos/*.mp4
+          if-no-files-found: warn
