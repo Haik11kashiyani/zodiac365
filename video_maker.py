@@ -264,35 +264,47 @@ def render(plan_file):
     clips.append(vignette)
     
     # ═══════════════════════════════════════════════════════════════════════════
-    # 4. SYNCED SUBTITLES
+    # 4. SUBTITLES - Simple and reliable
     # ═══════════════════════════════════════════════════════════════════════════
     
-    for start, end, text in subtitles:
-        sub_duration = end - start
-        if sub_duration < 0.1 or not text:
-            continue
+    # Create subtitles from the speech text (4 words per chunk)
+    subtitle_text = clean_subtitle(txt)
+    words = subtitle_text.split()
+    chunk_size = 4
+    chunks = [' '.join(words[i:i+chunk_size]) for i in range(0, len(words), chunk_size)]
+    
+    if chunks:
+        # Calculate timing based on voice duration
+        voice_duration = voice_clip.duration
+        chunk_dur = voice_duration / len(chunks)
         
-        # Create clean subtitle with high contrast
-        try:
-            sub_clip = TextClip(
-                text.upper(),
-                fontsize=80,
-                color='white',
-                font=FONT_NAME,
-                stroke_color='black',
-                stroke_width=4,
-                method='caption',
-                size=(950, None)
-            )
+        print(f"   📝 Creating {len(chunks)} subtitles")
+        
+        for i, chunk in enumerate(chunks):
+            if not chunk.strip():
+                continue
             
-            sub_clip = sub_clip.set_position(('center', 1100))
-            sub_clip = sub_clip.set_start(start).set_duration(sub_duration)
-            sub_clip = sub_clip.crossfadein(0.05).crossfadeout(0.05)
+            start_time = i * chunk_dur
             
-            clips.append(sub_clip)
-        except Exception as e:
-            print(f"   ⚠️ Subtitle error: {e}")
-            continue
+            try:
+                sub_clip = TextClip(
+                    chunk.upper(),
+                    fontsize=70,
+                    color='white',
+                    font=FONT_NAME,
+                    stroke_color='black',
+                    stroke_width=5,
+                    method='caption',
+                    size=(900, None)
+                )
+                
+                sub_clip = sub_clip.set_position(('center', 1100))
+                sub_clip = sub_clip.set_start(start_time).set_duration(chunk_dur)
+                sub_clip = sub_clip.crossfadein(0.1).crossfadeout(0.1)
+                
+                clips.append(sub_clip)
+            except Exception as e:
+                print(f"   ⚠️ Subtitle {i} error: {e}")
     
     # ═══════════════════════════════════════════════════════════════════════════
     # 5. FINAL COMPOSITION
