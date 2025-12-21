@@ -24,9 +24,10 @@ jobs:
       
       - name: System Font Integration
         run: |
-          # Register the font with the Linux OS
+          # Register fonts with the Linux OS
           sudo mkdir -p /usr/share/fonts/truetype/custom
           sudo cp assets/fonts/Cinzel-Bold.ttf /usr/share/fonts/truetype/custom/
+          sudo cp assets/fonts/Montserrat-Bold.ttf /usr/share/fonts/truetype/custom/
           sudo fc-cache -f -v
           
       - env:
