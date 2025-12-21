@@ -136,22 +136,26 @@ def render(plan_file):
     
     # Select random voice for variety
     voice = random.choice(VOICE_POOL)
-    rate = random.choice(["-5%", "-8%", "-10%", "-12%"])
-    pitch = random.choice(["+0Hz", "+5Hz", "-5Hz"])
+    rate = random.choice(["-5%", "-8%", "-10%"])
     
-    print(f"   Voice: {voice} | Rate: {rate} | Pitch: {pitch}")
+    print(f"   Voice: {voice} | Rate: {rate}")
     
-    # Generate with edge-tts (SSML support is limited, but rate/pitch work)
-    subprocess.run([
-        "edge-tts", 
-        "--voice", voice, 
-        "--rate", rate,
-        "--pitch", pitch,
-        "--text", txt, 
-        "--write-media", "v.mp3"
-    ], capture_output=True)
+    # Generate with edge-tts (simple and reliable)
+    try:
+        result = subprocess.run([
+            "edge-tts", 
+            "--voice", voice, 
+            "--rate", rate,
+            "--text", txt, 
+            "--write-media", "v.mp3"
+        ], capture_output=True, text=True, timeout=120)
+        
+        if result.returncode != 0:
+            print(f"   ⚠️ TTS Error: {result.stderr}")
+    except Exception as e:
+        print(f"   ⚠️ TTS Exception: {e}")
     
-    if not os.path.exists("v.mp3"):
+    if not os.path.exists("v.mp3") or os.path.getsize("v.mp3") < 1000:
         print("❌ TTS Failed!")
         return False
     
