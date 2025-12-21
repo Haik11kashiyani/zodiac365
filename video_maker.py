@@ -1,118 +1,157 @@
 import json, os, subprocess, random, re, math
 from moviepy.config import change_settings
 from moviepy.editor import *
-from PIL import Image, ImageDraw
+from PIL import Image
+import numpy as np
 
 # ═══════════════════════════════════════════════════════════════════════════════
-# PREMIUM VIDEO MAKER v2.0 - Viral-Ready YouTube Shorts
+# PREMIUM VIDEO MAKER v3.0 - Synced Subtitles & Dynamic Visuals
 # ═══════════════════════════════════════════════════════════════════════════════
 
-# Font Configuration
-FONT_NAME = "Montserrat-Bold"  # Premium subtitle font
-TITLE_FONT = "Cinzel-Bold"     # Title font
+FONT_NAME = "Montserrat-Bold"
 
 # Voice Pool for variety
 VOICE_POOL = [
-    "en-US-ChristopherNeural",  # Deep, authoritative
-    "en-US-GuyNeural",          # Warm, friendly
-    "en-US-DavisNeural",        # Calm, mystical
+    "en-US-ChristopherNeural",
+    "en-US-GuyNeural",
+    "en-US-DavisNeural",
 ]
 
-# Color Palettes by video type
-COLOR_THEMES = {
-    "daily": {"overlay": (75, 0, 130, 40), "accent": "#FFD700"},      # Purple + Gold
-    "monthly": {"overlay": (0, 77, 77, 40), "accent": "#00CED1"},     # Teal + Cyan
-    "yearly": {"overlay": (139, 69, 19, 40), "accent": "#FFD700"},    # Bronze + Gold
-    "compatibility": {"overlay": (128, 0, 32, 40), "accent": "#FF69B4"}, # Burgundy + Pink
-    "birthday": {"overlay": (255, 105, 180, 30), "accent": "#FFFFFF"}, # Pink + White
-    "special": {"overlay": (25, 25, 112, 40), "accent": "#E6E6FA"},   # Midnight + Lavender
-}
+# All zodiac images for variety
+ALL_ZODIAC_IMAGES = [
+    "assets/zodiac_signs/Aries.jpg", "assets/zodiac_signs/Taurus.jpg",
+    "assets/zodiac_signs/Gemini.jpg", "assets/zodiac_signs/Cancer.jpg",
+    "assets/zodiac_signs/Leo.jpg", "assets/zodiac_signs/Virgo.jpg",
+    "assets/zodiac_signs/Libra.jpg", "assets/zodiac_signs/Scorpio.jpg",
+    "assets/zodiac_signs/Sagittarius.jpg", "assets/zodiac_signs/Capricorn.jpg",
+    "assets/zodiac_signs/Aquarius.jpg", "assets/zodiac_signs/Pisces.jpg"
+]
 
 if not hasattr(Image, 'ANTIALIAS'): Image.ANTIALIAS = Image.LANCZOS
 if os.name == 'posix': change_settings({"IMAGEMAGICK_BINARY": "/usr/bin/convert"})
 
 # ═══════════════════════════════════════════════════════════════════════════════
-# HELPER FUNCTIONS
+# TEXT CLEANING - Remove all artifacts
 # ═══════════════════════════════════════════════════════════════════════════════
 
 def clean_speech(text):
-    """Strips hashtags and AI artifacts for clean speech."""
-    return re.sub(r'[#\*]', '', text).strip()
+    """Aggressively clean text for TTS - remove all artifacts."""
+    # Remove JSON-like patterns
+    text = re.sub(r'\{[^}]*\}', '', text)
+    text = re.sub(r'\[[^\]]*\]', '', text)
+    # Remove hashtags, asterisks, colons followed by text
+    text = re.sub(r'[#\*]', '', text)
+    text = re.sub(r':\s*', '. ', text)  # Replace : with period
+    # Remove quotes
+    text = re.sub(r'["""\'\'`]', '', text)
+    # Remove URLs
+    text = re.sub(r'http\S+', '', text)
+    # Remove extra whitespace
+    text = re.sub(r'\s+', ' ', text)
+    return text.strip()
 
-def add_ssml_emotion(text):
-    """Adds SSML tags for emotional, human-like speech."""
-    # Add pauses after sentences
-    text = re.sub(r'([.!?])\s+', r'\1<break time="400ms"/> ', text)
-    # Add emphasis to key words (randomly select some capitalized words)
-    words = text.split()
-    for i, word in enumerate(words):
-        if word.isupper() and len(word) > 2 and random.random() > 0.5:
-            words[i] = f'<emphasis level="strong">{word}</emphasis>'
-    return ' '.join(words)
+def clean_subtitle(text):
+    """Clean text for subtitles - even more aggressive."""
+    text = clean_speech(text)
+    # Remove any remaining special characters except basic punctuation
+    text = re.sub(r'[^\w\s.,!?-]', '', text)
+    return text.strip()
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# VIGNETTE EFFECT
+# ═══════════════════════════════════════════════════════════════════════════════
 
 def create_vignette(width, height):
-    """Creates a vignette overlay image using fast numpy operations."""
-    import numpy as np
-    
-    # Create coordinate grids
+    """Creates a vignette overlay using numpy."""
     x = np.linspace(-1, 1, width)
     y = np.linspace(-1, 1, height)
     X, Y = np.meshgrid(x, y)
-    
-    # Calculate radial distance from center
     R = np.sqrt(X**2 + Y**2)
-    
-    # Create vignette effect (dark at edges)
-    # Start darkening from radius 0.7, full dark at 1.4
-    vignette = np.clip((R - 0.7) / 0.7, 0, 1) * 150
+    vignette = np.clip((R - 0.6) / 0.8, 0, 1) * 180
     vignette = vignette.astype(np.uint8)
-    
-    # Create RGBA image
     img = Image.new('RGBA', (width, height), (0, 0, 0, 0))
     alpha_channel = Image.fromarray(vignette)
     img.putalpha(alpha_channel)
-    
-    vignette_path = "temp_vignette.png"
-    img.save(vignette_path)
-    return vignette_path
+    path = "temp_vignette.png"
+    img.save(path)
+    return path
 
-def apply_camera_motion(clip, duration, index):
-    """Enhanced camera motion with more variety."""
-    motion_type = index % 5
+# ═══════════════════════════════════════════════════════════════════════════════
+# DYNAMIC CAMERA MOTION - More dramatic
+# ═══════════════════════════════════════════════════════════════════════════════
+
+def apply_camera_motion(clip, duration, motion_type):
+    """Apply dramatic camera motion to an image clip."""
+    w, h = clip.size
     
-    if motion_type == 0:  # Zoom In
-        return clip.resize(lambda t: 1 + 0.15 * (t/duration)).set_duration(duration)
-    elif motion_type == 1:  # Zoom Out
-        return clip.resize(lambda t: 1.15 - 0.15 * (t/duration)).set_duration(duration)
-    elif motion_type == 2:  # Pan Left to Right
+    if motion_type == 0:  # Dramatic Zoom In
+        def zoom(t):
+            progress = t / duration
+            return 1 + 0.25 * progress  # 25% zoom
+        return clip.resize(zoom).set_duration(duration)
+    
+    elif motion_type == 1:  # Dramatic Zoom Out
+        def zoom(t):
+            progress = t / duration
+            return 1.25 - 0.25 * progress
+        return clip.resize(zoom).set_duration(duration)
+    
+    elif motion_type == 2:  # Ken Burns Left-to-Right
         def pos(t):
             progress = t / duration
-            return (-50 + progress * 100, 'center')
+            return (-100 + 200 * progress, 'center')
         return clip.set_position(pos).set_duration(duration)
-    elif motion_type == 3:  # Pan Right to Left
+    
+    elif motion_type == 3:  # Ken Burns Top-to-Bottom
         def pos(t):
             progress = t / duration
-            return (50 - progress * 100, 'center')
+            return ('center', -100 + 200 * progress)
         return clip.set_position(pos).set_duration(duration)
-    else:  # Subtle zoom with hold
-        return clip.resize(lambda t: 1.05 + 0.05 * math.sin(t * 0.5)).set_duration(duration)
+    
+    elif motion_type == 4:  # Zoom + Rotate feeling (zoom with drift)
+        def transform(t):
+            progress = t / duration
+            scale = 1.1 + 0.1 * math.sin(progress * math.pi)
+            return scale
+        return clip.resize(transform).set_duration(duration)
+    
+    else:  # Subtle pulse
+        def pulse(t):
+            return 1.05 + 0.03 * math.sin(t * 2)
+        return clip.resize(pulse).set_duration(duration)
 
-def create_animated_subtitle(text, start_time, duration, accent_color, width=1000):
-    """Creates premium animated subtitle with glow effect."""
-    text = text.upper().strip()
+# ═══════════════════════════════════════════════════════════════════════════════
+# PARSE SRT SUBTITLES
+# ═══════════════════════════════════════════════════════════════════════════════
+
+def parse_vtt(vtt_path):
+    """Parse VTT subtitle file into list of (start, end, text) tuples."""
+    subtitles = []
+    if not os.path.exists(vtt_path):
+        return subtitles
     
-    # Simple but effective subtitle with stroke
-    main_text = TextClip(
-        text, fontsize=85, color=accent_color, font=FONT_NAME,
-        stroke_color='black', stroke_width=4, method='caption', size=(width, None)
-    )
+    with open(vtt_path, 'r', encoding='utf-8') as f:
+        content = f.read()
     
-    # Position and timing
-    main_text = main_text.set_position(('center', 1150))
-    main_text = main_text.set_start(start_time).set_duration(duration)
-    main_text = main_text.crossfadein(0.1).crossfadeout(0.1)
+    # Match VTT time format: 00:00:00.000 --> 00:00:00.000
+    pattern = r'(\d{2}:\d{2}:\d{2}\.\d{3})\s*-->\s*(\d{2}:\d{2}:\d{2}\.\d{3})\s*\n(.+?)(?=\n\n|\Z)'
+    matches = re.findall(pattern, content, re.DOTALL)
     
-    return main_text
+    for start_str, end_str, text in matches:
+        # Parse time
+        def parse_time(t):
+            parts = t.split(':')
+            h, m = int(parts[0]), int(parts[1])
+            s, ms = parts[2].split('.')
+            return h * 3600 + m * 60 + int(s) + int(ms) / 1000
+        
+        start = parse_time(start_str)
+        end = parse_time(end_str)
+        clean_text = clean_subtitle(text.strip())
+        if clean_text:
+            subtitles.append((start, end, clean_text))
+    
+    return subtitles
 
 # ═══════════════════════════════════════════════════════════════════════════════
 # MAIN RENDER FUNCTION
@@ -120,38 +159,34 @@ def create_animated_subtitle(text, start_time, duration, accent_color, width=100
 
 def render(plan_file):
     with open(plan_file, 'r') as f: data = json.load(f)
-    with open("config.json", "r") as f: config = json.load(f)
 
-    safe_title = re.sub(r'[\\/*?:"<>|]', "", data['title']).replace(" ", "_")
+    safe_title = re.sub(r'[\\/*?:"<>|]', "", data['title']).replace(" ", "_")[:50]
     video_type = data.get('type', 'daily')
-    theme = COLOR_THEMES.get(video_type, COLOR_THEMES['daily'])
     
-    print(f"🔱 PREMIUM RENDERING: {safe_title}")
-    print(f"   Theme: {video_type} | Accent: {theme['accent']}")
+    print(f"🔱 RENDERING: {safe_title}")
 
     # ═══════════════════════════════════════════════════════════════════════════
-    # 1. EMOTIONAL VOICE GENERATION
+    # 1. GENERATE VOICE WITH SUBTITLES
     # ═══════════════════════════════════════════════════════════════════════════
     txt = clean_speech(data['script_text'])
-    
-    # Select random voice for variety
     voice = random.choice(VOICE_POOL)
     rate = random.choice(["-5%", "-8%", "-10%"])
     
     print(f"   Voice: {voice} | Rate: {rate}")
     
-    # Generate with edge-tts (use = syntax to avoid shell issues with negative values)
+    # Generate voice AND subtitles
     try:
         result = subprocess.run([
             "edge-tts", 
             "--voice", voice, 
             f"--rate={rate}",
             "--text", txt, 
-            "--write-media", "v.mp3"
+            "--write-media", "v.mp3",
+            "--write-subtitles", "v.vtt"
         ], capture_output=True, text=True, timeout=120)
         
         if result.returncode != 0:
-            print(f"   ⚠️ TTS Error: {result.stderr}")
+            print(f"   ⚠️ TTS Error: {result.stderr[:200]}")
     except Exception as e:
         print(f"   ⚠️ TTS Exception: {e}")
     
@@ -160,152 +195,160 @@ def render(plan_file):
         return False
     
     voice_clip = AudioFileClip("v.mp3")
-    duration = voice_clip.duration + 1.5  # Extra time for outro
+    duration = voice_clip.duration + 0.5
+    
+    # Parse synced subtitles
+    subtitles = parse_vtt("v.vtt")
+    print(f"   📝 Parsed {len(subtitles)} subtitle chunks")
     
     # ═══════════════════════════════════════════════════════════════════════════
-    # 2. BACKGROUND MUSIC (Lower volume for voice prominence)
+    # 2. BACKGROUND MUSIC
     # ═══════════════════════════════════════════════════════════════════════════
     music_files = [m for m in os.listdir("assets/music") if m.endswith(".mp3")]
     if music_files:
-        music_track = random.choice(music_files)
-        music = AudioFileClip(os.path.join("assets/music", music_track))
-        music = music.volumex(0.08).set_duration(duration)  # Lower volume
+        music = AudioFileClip(os.path.join("assets/music", random.choice(music_files)))
+        music = music.volumex(0.08).set_duration(duration)
     else:
         music = None
     
     # ═══════════════════════════════════════════════════════════════════════════
-    # 3. VISUAL COMPOSITION
+    # 3. DYNAMIC VISUALS - Multiple images with dramatic motion
     # ═══════════════════════════════════════════════════════════════════════════
     clips = []
     
-    # Base dark background
-    base = ColorClip((1080, 1920), (8, 8, 20), duration=duration)
+    # Dark base
+    base = ColorClip((1080, 1920), (5, 5, 15), duration=duration)
     clips.append(base)
     
-    # Main images with camera motion
-    imgs = data.get('images', [])
-    if not imgs: imgs = ["assets/zodiac_signs/Pisces.jpg"]
+    # Get images - use provided + random extras for variety
+    main_imgs = data.get('images', [])
+    if not main_imgs:
+        main_imgs = [random.choice(ALL_ZODIAC_IMAGES)]
     
-    num_slices = max(4, len(imgs))
-    slice_dur = duration / num_slices
+    # Add 2-3 random extra images for visual variety
+    extra_imgs = random.sample([i for i in ALL_ZODIAC_IMAGES if i not in main_imgs], 
+                               min(3, len(ALL_ZODIAC_IMAGES) - len(main_imgs)))
+    all_imgs = main_imgs + extra_imgs
+    random.shuffle(all_imgs)
     
-    for i in range(num_slices):
-        img_path = imgs[i % len(imgs)]
-        if os.path.exists(img_path):
-            img_clip = ImageClip(img_path).resize(width=1200)
-            img_clip = img_clip.set_position('center')
-            img_clip = apply_camera_motion(img_clip, slice_dur, i)
-            img_clip = img_clip.set_start(i * slice_dur)
+    # Create 5-6 segments with different images
+    num_segments = min(6, len(all_imgs) + 2)
+    segment_dur = duration / num_segments
+    
+    for i in range(num_segments):
+        img_path = all_imgs[i % len(all_imgs)]
+        if not os.path.exists(img_path):
+            continue
             
-            # Smooth transitions
-            if i > 0:
-                img_clip = img_clip.crossfadein(0.4)
-            if i < num_slices - 1:
-                img_clip = img_clip.crossfadeout(0.4)
-            
-            clips.append(img_clip)
+        img_clip = ImageClip(img_path).resize(height=2200)  # Oversized for motion
+        img_clip = img_clip.set_position('center')
+        
+        # Apply random dramatic motion
+        motion_type = random.randint(0, 5)
+        img_clip = apply_camera_motion(img_clip, segment_dur, motion_type)
+        img_clip = img_clip.set_start(i * segment_dur)
+        
+        # Crossfade transitions
+        if i > 0:
+            img_clip = img_clip.crossfadein(0.5)
+        
+        clips.append(img_clip)
     
-    # Color overlay for theme
-    overlay_color = theme['overlay']
-    overlay = ColorClip((1080, 1920), overlay_color[:3], duration=duration)
-    overlay = overlay.set_opacity(overlay_color[3] / 255)
+    # Add dark overlay for text readability
+    overlay = ColorClip((1080, 1920), (0, 0, 0), duration=duration).set_opacity(0.3)
     clips.append(overlay)
     
-    # Vignette effect
+    # Add vignette
     vignette_path = create_vignette(1080, 1920)
     vignette = ImageClip(vignette_path).set_duration(duration)
     clips.append(vignette)
     
     # ═══════════════════════════════════════════════════════════════════════════
-    # 4. PREMIUM ANIMATED SUBTITLES
+    # 4. SYNCED SUBTITLES
     # ═══════════════════════════════════════════════════════════════════════════
-    words = txt.split()
-    # Create chunks of 3-4 words
-    chunk_size = 3
-    chunks = [' '.join(words[i:i+chunk_size]) for i in range(0, len(words), chunk_size)]
     
-    # Calculate timing (leave 0.5s at start and end)
-    subtitle_duration = duration - 1.0
-    chunk_dur = subtitle_duration / len(chunks)
-    
-    for i, chunk in enumerate(chunks):
-        start_time = 0.5 + (i * chunk_dur)
-        sub_clip = create_animated_subtitle(
-            chunk, 
-            start_time, 
-            chunk_dur, 
-            theme['accent'],
-            width=950
-        )
-        clips.append(sub_clip)
+    for start, end, text in subtitles:
+        sub_duration = end - start
+        if sub_duration < 0.1 or not text:
+            continue
+        
+        # Create clean subtitle with high contrast
+        try:
+            sub_clip = TextClip(
+                text.upper(),
+                fontsize=80,
+                color='white',
+                font=FONT_NAME,
+                stroke_color='black',
+                stroke_width=4,
+                method='caption',
+                size=(950, None)
+            )
+            
+            sub_clip = sub_clip.set_position(('center', 1100))
+            sub_clip = sub_clip.set_start(start).set_duration(sub_duration)
+            sub_clip = sub_clip.crossfadein(0.05).crossfadeout(0.05)
+            
+            clips.append(sub_clip)
+        except Exception as e:
+            print(f"   ⚠️ Subtitle error: {e}")
+            continue
     
     # ═══════════════════════════════════════════════════════════════════════════
     # 5. FINAL COMPOSITION
     # ═══════════════════════════════════════════════════════════════════════════
     
-    # Combine all visuals
     final_video = CompositeVideoClip(clips, size=(1080, 1920))
     
-    # Combine audio
+    # Audio mix
     audio_clips = [voice_clip]
     if music:
         audio_clips.append(music)
-    final_audio = CompositeAudioClip(audio_clips)
+    final_video = final_video.set_audio(CompositeAudioClip(audio_clips))
     
-    # Set audio
-    final_video = final_video.set_audio(final_audio)
+    # Fade out
+    final_video = final_video.fadeout(0.3)
     
-    # Apply fade out at the end
-    final_video = final_video.fadeout(0.5)
-    
-    # Write output (30fps for smoother feel)
+    # Write output
     output_path = os.path.join("output_videos", f"{safe_title}.mp4")
-    final_video.write_videofile(
-        output_path, 
-        fps=30, 
-        preset='ultrafast',
-        audio_codec='aac'
-    )
+    final_video.write_videofile(output_path, fps=30, preset='ultrafast', audio_codec='aac')
     
     # Cleanup
-    if os.path.exists("v.mp3"): os.remove("v.mp3")
-    if os.path.exists("temp_vignette.png"): os.remove("temp_vignette.png")
+    for f in ["v.mp3", "v.vtt", "temp_vignette.png"]:
+        if os.path.exists(f): os.remove(f)
     
-    print(f"✅ PREMIUM VIDEO COMPLETE: {output_path}")
+    print(f"✅ DONE: {output_path}")
     return True
 
 # ═══════════════════════════════════════════════════════════════════════════════
-# MAIN EXECUTION
+# MAIN
 # ═══════════════════════════════════════════════════════════════════════════════
 
 if __name__ == "__main__":
     if not os.path.exists("output_videos"): os.makedirs("output_videos")
     
     plan_files = [f for f in os.listdir('.') if f.startswith('plan_') and f.endswith('.json')]
-    print(f"📂 Found {len(plan_files)} plans. Processing...")
+    print(f"📂 Found {len(plan_files)} plans")
 
     for p in plan_files:
         try:
             with open(p, 'r') as f: data = json.load(f)
             
-            # Check flags
             if not data.get('active', True): 
-                print(f"⏭️ SKIPPING (Inactive): {p}")
+                print(f"⏭️ SKIP (Inactive): {p}")
                 continue
             if data.get('status') == 'done':
-                print(f"✅ SKIPPING (Already Done): {p}")
+                print(f"✅ SKIP (Done): {p}")
                 continue
 
-            # Render
             success = render(p)
 
-            # Update status
             if success:
                 data['status'] = 'done'
                 with open(p, 'w') as f: json.dump(data, f, indent=4)
-                print(f"💾 Marked {p} as DONE.")
+                print(f"💾 Marked {p} as DONE")
             
         except Exception as e:
-            print(f"❌ Error processing {p}: {e}")
+            print(f"❌ Error {p}: {e}")
             import traceback
             traceback.print_exc()
