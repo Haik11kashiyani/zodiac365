@@ -191,11 +191,8 @@ def render(plan_file):
         music = music.volumex(0.08).set_duration(duration) # Slight boost to 0.08
         audio_clips.append(music)
     
-    # SFX
-    whoosh_path = "assets/sfx/whoosh.mp3"
-    riser_path = "assets/sfx/riser.mp3"
-    
-    whoosh = AudioFileClip(whoosh_path).volumex(0.4) if os.path.exists(whoosh_path) else None
+    # SFX - Removed as per request (Silent delivery)
+    whoosh = None  # Disabled
     
     # 3. VISUALS
     clips = []
@@ -227,9 +224,7 @@ def render(plan_file):
         if i > 0: img_clip = img_clip.crossfadein(0.3)
         clips.append(img_clip)
         
-        # Audio Whoosh on cut
-        if i > 0 and whoosh:
-            audio_clips.append(whoosh.set_start(i * seg_dur))
+        # Audio Whoosh removed
 
     # Overlays
     # Particle/Noise
@@ -255,6 +250,9 @@ def render(plan_file):
     if chunks:
         chunk_dur = voice_clip.duration / len(chunks)
         
+        # FIXED POSITIONING
+        BOX_Y_START = 1250
+        
         for i, chunk in enumerate(chunks):
             if not chunk.strip(): continue
             start = i * chunk_dur
@@ -263,13 +261,22 @@ def render(plan_file):
             wrapped = wrap_text_dynamic(chunk.upper(), max_char=18)
             num_lines = wrapped.count('\n') + 1
             
-            # Dynamic Box Height
-            box_h = 140 if num_lines == 1 else 220
+            # Dynamic Box Height - adjusted for padding
+            # 1 line ~70px height, 2 lines ~140px. 
+            # Box needs padding: 140 for 1 line is generous (35px padding top/bottom)
+            box_h = 160 if num_lines == 1 else 240 # Slight increase for "unside" breathing room
             box_path = create_glow_box(1080, 1920, box_height=box_h)
             
             bg = ImageClip(box_path).set_start(start).set_duration(chunk_dur)
             bg = bg.crossfadein(0.05).crossfadeout(0.05)
             clips.append(bg)
+            
+            # Text Centering Logic
+            # Box starts at BOX_Y_START (1250).
+            # Center of box is 1250 + box_h/2.
+            # TextClip 'center' anchor is usually the center of the text bounding box.
+            # So we place the text CENTER at the BOX CENTER.
+            center_y = BOX_Y_START + (box_h // 2)
             
             txt_clip = TextClip(
                 wrapped, 
@@ -280,9 +287,13 @@ def render(plan_file):
                 stroke_width=3,
                 method='caption',
                 align='center',
-                size=(900, None)
+                size=(900, None) # Let height adapt
             )
-            txt_clip = txt_clip.set_position(('center', 1280 + (10 if num_lines==1 else 0)))
+            # Set position to center of screen x, and calculate y
+            # 'center' for Y means the center of the clip is at Y.
+            txt_clip = txt_clip.set_position(('center', center_y - (txt_clip.h // 2) - 10)) 
+            # Subtracted 10 just to tweak visual center as font baseline varies
+            
             txt_clip = txt_clip.set_start(start).set_duration(chunk_dur)
             clips.append(txt_clip)
 
