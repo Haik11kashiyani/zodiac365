@@ -266,6 +266,18 @@ def render(plan_file):
     header_clip = header_clip.set_start(0).set_duration(duration)
     clips.append(header_clip)
     
+    # PRE-GENERATE SUBTITLE BOXES (Avoids Disk I/O in loop)
+    box_1line_path = create_glow_box(1080, 1920, box_height=180)
+    # Rename to keep safe
+    if os.path.exists(box_1line_path):
+        os.rename(box_1line_path, "temp_box_1.png")
+        box_1line_path = "temp_box_1.png"
+        
+    box_2line_path = create_glow_box(1080, 1920, box_height=280)
+    if os.path.exists(box_2line_path):
+        os.rename(box_2line_path, "temp_box_2.png")
+        box_2line_path = "temp_box_2.png"
+
     # 4. SUBTITLES
     subtitle_text = clean_subtitle(txt)
     words = subtitle_text.split()
@@ -286,14 +298,11 @@ def render(plan_file):
             wrapped = wrap_text_dynamic(chunk.upper(), max_char=18)
             num_lines = wrapped.count('\n') + 1
             
-            # Dynamic Box Height - adjusted for MORE padding
-            # FONT 55 approx 60px height. 
-            # 1 line box = 180 (60 text + 60 top + 60 bot)
-            # 2 lines box = 280
+            # Use cached box
             box_h = 180 if num_lines == 1 else 280 
-            box_path = create_glow_box(1080, 1920, box_height=box_h)
+            current_box_path = "temp_box_1.png" if num_lines == 1 else "temp_box_2.png"
             
-            bg = ImageClip(box_path).set_start(start).set_duration(chunk_dur)
+            bg = ImageClip(current_box_path).set_start(start).set_duration(chunk_dur)
             bg = bg.crossfadein(0.05).crossfadeout(0.05)
             clips.append(bg)
             
@@ -326,10 +335,11 @@ def render(plan_file):
     final = final.fadeout(0.5)
     
     output_path = os.path.join("output_videos", f"{safe_title}.mp4")
-    final.write_videofile(output_path, fps=30, preset='ultrafast', audio_codec='aac')
+    # OPTIMIZATION: threads=4, fps=24
+    final.write_videofile(output_path, fps=24, threads=4, preset='ultrafast', audio_codec='aac')
     
     # cleanup
-    for f in ["v.mp3", "temp_vignette.png", "temp_sub_box.png", "temp_particles.png"]:
+    for f in ["v.mp3", "temp_vignette.png", "temp_sub_box.png", "temp_particles.png", "temp_box_1.png", "temp_box_2.png"]:
         if os.path.exists(f): os.remove(f)
     return True
 
