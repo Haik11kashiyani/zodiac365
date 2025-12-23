@@ -241,6 +241,31 @@ def render(plan_file):
     vignette = ImageClip(vignette_path).set_duration(duration)
     clips.append(vignette)
     
+    # HEADER OVERLAY (Context)
+    header_text = f"{data.get('target', 'ZODIAC').upper()}"
+    if 'date' in data and data['type'] == 'daily':
+        header_text += f" • {data['date']}"
+    elif data['type'] == 'monthly':
+        # Try to extract month year if possible, or just say MONTHLY
+        header_text += " • MONTHLY FORECAST"
+    elif data['type'] == 'yearly':
+        header_text += " • 2026 PREDICTION"
+    elif data['type'] == 'compatibility':
+        header_text = data.get('target', 'COMPATIBILITY').upper()
+        
+    header_clip = TextClip(
+        header_text, 
+        fontsize=40, 
+        color='white', 
+        font=FONT_NAME,
+        method='label',
+        align='center',
+        kerning=3 # Spaced out for cinematic look
+    )
+    header_clip = header_clip.set_position(('center', 150)).set_opacity(0.8)
+    header_clip = header_clip.set_start(0).set_duration(duration)
+    clips.append(header_clip)
+    
     # 4. SUBTITLES
     subtitle_text = clean_subtitle(txt)
     words = subtitle_text.split()
@@ -261,10 +286,11 @@ def render(plan_file):
             wrapped = wrap_text_dynamic(chunk.upper(), max_char=18)
             num_lines = wrapped.count('\n') + 1
             
-            # Dynamic Box Height - adjusted for padding
-            # 1 line ~70px height, 2 lines ~140px. 
-            # Box needs padding: 140 for 1 line is generous (35px padding top/bottom)
-            box_h = 160 if num_lines == 1 else 240 # Slight increase for "unside" breathing room
+            # Dynamic Box Height - adjusted for MORE padding
+            # FONT 55 approx 60px height. 
+            # 1 line box = 180 (60 text + 60 top + 60 bot)
+            # 2 lines box = 280
+            box_h = 180 if num_lines == 1 else 280 
             box_path = create_glow_box(1080, 1920, box_height=box_h)
             
             bg = ImageClip(box_path).set_start(start).set_duration(chunk_dur)
@@ -274,25 +300,22 @@ def render(plan_file):
             # Text Centering Logic
             # Box starts at BOX_Y_START (1250).
             # Center of box is 1250 + box_h/2.
-            # TextClip 'center' anchor is usually the center of the text bounding box.
-            # So we place the text CENTER at the BOX CENTER.
             center_y = BOX_Y_START + (box_h // 2)
             
             txt_clip = TextClip(
                 wrapped, 
-                fontsize=70, 
+                fontsize=55,  # Reduced from 70
                 color='yellow', 
                 font=FONT_NAME,
                 stroke_color='black', 
-                stroke_width=3,
+                stroke_width=2, # Reduced stroke bit
                 method='caption',
                 align='center',
-                size=(900, None) # Let height adapt
+                size=(900, None) 
             )
             # Set position to center of screen x, and calculate y
             # 'center' for Y means the center of the clip is at Y.
-            txt_clip = txt_clip.set_position(('center', center_y - (txt_clip.h // 2) - 10)) 
-            # Subtracted 10 just to tweak visual center as font baseline varies
+            txt_clip = txt_clip.set_position(('center', center_y - (txt_clip.h // 2) - 5)) 
             
             txt_clip = txt_clip.set_start(start).set_duration(chunk_dur)
             clips.append(txt_clip)
