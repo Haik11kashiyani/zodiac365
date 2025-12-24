@@ -213,42 +213,35 @@ def render(plan_file):
         img_clip = img_clip.set_position('center')
         
         # "ALIVE" Cinematic Motion Logic
-        # We cycle through different complex movements to keep engagement high
         m_type = i % 4
         
-        # 1. BREATHING ZOOM (The "Pulse")
-        # Slowly scales up and down like a heartbeat.
+        # 1. BREATHING ZOOM (The "Pulse") - VISIBLE SPEED
+        # Cycle is now 3 seconds (t * 2) roughly.
         if m_type == 0: 
-            img_clip = img_clip.resize(lambda t: 1.1 + 0.08 * math.sin(2 * math.pi * t / (seg_dur * 2)))
+            img_clip = img_clip.resize(lambda t: 1.05 + 0.10 * math.sin(t * 2.0))
             
         # 2. SLOW ORBIT (Horizontal Drift)
-        # Pans slightly left to right to reveal the image
         elif m_type == 1:
-            # Requires image to be wider than screen, which it is (height=2300 resizes width proportionally)
-            # Center is roughly x= -500 to 0 depending on aspect ratio. 
-            # We drift x by 100 pixels over the duration.
-            img_clip = img_clip.resize(height=2400) # Slightly larger to allow room to pan
+            img_clip = img_clip.resize(height=2400) 
             def pan_func(t):
-                x_start = -200
-                return (x_start + 60 * t, 'center') # Pan right 60px/sec
+                # Move -300 to right + 75px/s
+                return (-300 + 75 * t, 'center') 
             img_clip = img_clip.set_position(pan_func)
 
         # 3. DRAMATIC ZOOM IN (Ken Burns)
-        # Classic documentary style. Starts normal, pushes in.
         elif m_type == 2:
-            img_clip = img_clip.resize(lambda t: 1.05 + 0.15 * (t / seg_dur))
+            img_clip = img_clip.resize(lambda t: 1.0 + 0.20 * (t / seg_dur))
 
         # 4. HOVER & SHIFT
-        # Subtle vertical and scale shift
         else:
-             img_clip = img_clip.resize(lambda t: 1.1)
+             img_clip = img_clip.resize(lambda t: 1.15)
              def hover_func(t):
-                 return ('center', -200 + 20 * math.sin(t)) # Subtle vertical float
+                 return ('center', -200 + 40 * math.sin(t * 1.5)) 
              img_clip = img_clip.set_position(hover_func)
         
         # Determine strict duration
         img_clip = img_clip.set_start(i * seg_dur).set_duration(seg_dur)
-        if i > 0: img_clip = img_clip.crossfadein(0.5) # Smoother transitions
+        if i > 0: img_clip = img_clip.crossfadein(0.5) 
         clips.append(img_clip)
         
         # Audio Whoosh removed
@@ -283,11 +276,12 @@ def render(plan_file):
     title_clip = title_clip.set_position(('center', 150))
     
     # 2. Sub Title (The Context) - GOLD & SPACED
+    # 2. Sub Title (The Context) - GOLD & SPACED
     sub_text = "FORECAST"
-    if 'date' in data and data['type'] == 'daily':
-        # Include Date for Daily videos as requested
-        # Now uses 'date' from data if available, or fallback
-        sub_text = f"{data.get('date', 'TODAY')} • DAILY"
+    if data['type'] == 'daily':
+        # FIXED: Check daily type FIRST, then handle date
+        date_str = data.get('date', 'TODAY')
+        sub_text = f"{date_str} • DAILY"
     elif data['type'] == 'monthly':
         sub_text = "THIS MONTH"
     elif data['type'] == 'yearly':
@@ -297,7 +291,7 @@ def render(plan_file):
         
     sub_clip = TextClip(
         sub_text,
-        fontsize=30, # Slightly smaller to fit date
+        fontsize=30, 
         color='#FFD700', # Gold
         font="Arial-Bold",
         kerning=3, 
@@ -320,8 +314,8 @@ def render(plan_file):
     
     if chunks:
         chunk_dur = voice_clip.duration / len(chunks)
-        # MOVED DOWN to 1600 (Bottom Third)
-        BOX_Y_START = 1600 
+        # MOVED DOWN to 1680 (VERY LOW)
+        BOX_Y_START = 1680 
         
         for i, chunk in enumerate(chunks):
             if not chunk.strip(): continue
