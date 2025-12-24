@@ -286,9 +286,8 @@ def render(plan_file):
     sub_text = "FORECAST"
     if 'date' in data and data['type'] == 'daily':
         # Include Date for Daily videos as requested
-        # data['date'] is typically "YYYY-MM-DD" or similar, let's trust the input or format lightly if needed
-        # Assuming data['date'] is readable.
-        sub_text = f"{data['date']} • DAILY"
+        # Now uses 'date' from data if available, or fallback
+        sub_text = f"{data.get('date', 'TODAY')} • DAILY"
     elif data['type'] == 'monthly':
         sub_text = "THIS MONTH"
     elif data['type'] == 'yearly':
@@ -321,8 +320,8 @@ def render(plan_file):
     
     if chunks:
         chunk_dur = voice_clip.duration / len(chunks)
-        # MOVED DOWN as requested (was 1250)
-        BOX_Y_START = 1450 
+        # MOVED DOWN to 1600 (Bottom Third)
+        BOX_Y_START = 1600 
         
         for i, chunk in enumerate(chunks):
             if not chunk.strip(): continue
