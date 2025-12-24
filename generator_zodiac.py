@@ -49,6 +49,8 @@ def generate_zodiac_video(mode, target, date_str):
     
     data.update({
         'type': mode, 
+        'target': target, # Ensure target is saved
+        'date': date_str, # CRITICAL FIX: Save the date!
         'images': [i for i in imgs if i], 
         'file_name': filename,
         'active': True,
