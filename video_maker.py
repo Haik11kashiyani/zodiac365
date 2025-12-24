@@ -212,16 +212,43 @@ def render(plan_file):
         img_clip = ImageClip(img_path).resize(height=2300)
         img_clip = img_clip.set_position('center')
         
-        # Motion
-        m_type = i % 5
-        if m_type == 0: img_clip = img_clip.resize(lambda t: 1+0.1*t/seg_dur)
-        elif m_type == 1: img_clip = img_clip.resize(lambda t: 1.1-0.1*t/seg_dur)
-        elif m_type == 2: img_clip = img_clip.set_position(lambda t: (-50+100*t/seg_dur, 'center'))
-        elif m_type == 3: img_clip = img_clip.resize(lambda t: 1.05+0.03*math.sin(t*2))
-        else: img_clip = img_clip.resize(lambda t: 1.1) 
+        # "ALIVE" Cinematic Motion Logic
+        # We cycle through different complex movements to keep engagement high
+        m_type = i % 4
         
+        # 1. BREATHING ZOOM (The "Pulse")
+        # Slowly scales up and down like a heartbeat.
+        if m_type == 0: 
+            img_clip = img_clip.resize(lambda t: 1.1 + 0.08 * math.sin(2 * math.pi * t / (seg_dur * 2)))
+            
+        # 2. SLOW ORBIT (Horizontal Drift)
+        # Pans slightly left to right to reveal the image
+        elif m_type == 1:
+            # Requires image to be wider than screen, which it is (height=2300 resizes width proportionally)
+            # Center is roughly x= -500 to 0 depending on aspect ratio. 
+            # We drift x by 100 pixels over the duration.
+            img_clip = img_clip.resize(height=2400) # Slightly larger to allow room to pan
+            def pan_func(t):
+                x_start = -200
+                return (x_start + 60 * t, 'center') # Pan right 60px/sec
+            img_clip = img_clip.set_position(pan_func)
+
+        # 3. DRAMATIC ZOOM IN (Ken Burns)
+        # Classic documentary style. Starts normal, pushes in.
+        elif m_type == 2:
+            img_clip = img_clip.resize(lambda t: 1.05 + 0.15 * (t / seg_dur))
+
+        # 4. HOVER & SHIFT
+        # Subtle vertical and scale shift
+        else:
+             img_clip = img_clip.resize(lambda t: 1.1)
+             def hover_func(t):
+                 return ('center', -200 + 20 * math.sin(t)) # Subtle vertical float
+             img_clip = img_clip.set_position(hover_func)
+        
+        # Determine strict duration
         img_clip = img_clip.set_start(i * seg_dur).set_duration(seg_dur)
-        if i > 0: img_clip = img_clip.crossfadein(0.3)
+        if i > 0: img_clip = img_clip.crossfadein(0.5) # Smoother transitions
         clips.append(img_clip)
         
         # Audio Whoosh removed
