@@ -258,20 +258,12 @@ def render(plan_file):
     # 2. Sub Title (The Context) - GOLD & SPACED
     sub_text = "FORECAST"
     if 'date' in data and data['type'] == 'daily':
-        # User requested specific DATE visibility if good idea.
-        # "JAN 24 • TODAY" serves both clarity and context.
-        try:
-            # clean date string if needed, assuming format "YYYY-MM-DD" or similar text
-            dt_str = data['date']
-            sub_text = f"{dt_str.upper()}" 
-        except:
-            sub_text = "TODAY'S MESSAGE"
+        # Include Date for Daily videos as requested
+        # data['date'] is typically "YYYY-MM-DD" or similar, let's trust the input or format lightly if needed
+        # Assuming data['date'] is readable.
+        sub_text = f"{data['date']} • DAILY"
     elif data['type'] == 'monthly':
         sub_text = "THIS MONTH"
-    elif data['type'] == 'yearly':
-        sub_text = "2026 PREDICTION"
-    elif data['type'] == 'compatibility':
-        sub_text = "COMPATIBILITY"
     elif data['type'] == 'yearly':
         sub_text = "2026 PREDICTION"
     elif data['type'] == 'compatibility':
@@ -279,10 +271,10 @@ def render(plan_file):
         
     sub_clip = TextClip(
         sub_text,
-        fontsize=35,
+        fontsize=30, # Slightly smaller to fit date
         color='#FFD700', # Gold
         font="Arial-Bold",
-        kerning=5, 
+        kerning=3, 
         align='center'
     )
     # Position sub-title slightly below main title
@@ -297,12 +289,13 @@ def render(plan_file):
     # 4. SUBTITLES (Refined: Smaller & Cleaner)
     subtitle_text = clean_subtitle(txt)
     words = subtitle_text.split()
-    chunk_size = 5 # Slightly more words per line since font is smaller
+    chunk_size = 5 
     chunks = [' '.join(words[i:i+chunk_size]) for i in range(0, len(words), chunk_size)]
     
     if chunks:
         chunk_dur = voice_clip.duration / len(chunks)
-        BOX_Y_START = 1450 # Lowered as requested (was 1250) 
+        # MOVED DOWN as requested (was 1250)
+        BOX_Y_START = 1450 
         
         for i, chunk in enumerate(chunks):
             if not chunk.strip(): continue
