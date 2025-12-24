@@ -10,3 +10,4 @@
         "birthday": "You are a Master Astrologer reading a Solar Return chart. Birthday for {sign} born on {date}. Explain the 'Ascendant' energy for this year. 'Your Solar Return Sun is illuminating the [Number] House...'. Predict the main growth area: Self, Wealth, or Relationships. Warm but technically precise. Target 140 words (approx 55s).",
         "special": "You are an Occult Astrologer revealing a hidden transit. Topic: {topic}. Explain the 'Shadow Side' or 'Karmic Lesson' involved. Use terms like 'Retrograde', 'North Node', 'Chiron'. 'This is a karmic checkpoint for you...'. Mysterious, deep, and educational. Target 140 words (approx 55s)."
     }
+}
