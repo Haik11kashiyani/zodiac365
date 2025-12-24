@@ -241,91 +241,88 @@ def render(plan_file):
     vignette = ImageClip(vignette_path).set_duration(duration)
     clips.append(vignette)
     
-    # HEADER OVERLAY (Context)
-    header_text = f"{data.get('target', 'ZODIAC').upper()}"
-    if 'date' in data and data['type'] == 'daily':
-        header_text += f" • {data['date']}"
-    elif data['type'] == 'monthly':
-        # Try to extract month year if possible, or just say MONTHLY
-        header_text += " • MONTHLY FORECAST"
-    elif data['type'] == 'yearly':
-        header_text += " • 2026 PREDICTION"
-    elif data['type'] == 'compatibility':
-        header_text = data.get('target', 'COMPATIBILITY').upper()
-        
-    header_clip = TextClip(
-        header_text, 
-        fontsize=40, 
-        color='white', 
-        font=FONT_NAME,
-        method='label',
-        align='center',
-        kerning=3 # Spaced out for cinematic look
+    # PREMIUM HEADER OVERLAY ("Viral" Style)
+    # 1. Main Title (The Sign or Topic) - BIG & BOLD
+    title_text = data.get('target', 'ZODIAC').upper()
+    title_clip = TextClip(
+        title_text,
+        fontsize=75,
+        color='white',
+        font="Arial-Black", # Thick font if available
+        stroke_color='black',
+        stroke_width=2,
+        align='center'
     )
-    header_clip = header_clip.set_position(('center', 150)).set_opacity(0.8)
-    header_clip = header_clip.set_start(0).set_duration(duration)
-    clips.append(header_clip)
+    title_clip = title_clip.set_position(('center', 150))
     
-    # PRE-GENERATE SUBTITLE BOXES (Avoids Disk I/O in loop)
-    box_1line_path = create_glow_box(1080, 1920, box_height=180)
-    # Rename to keep safe
-    if os.path.exists(box_1line_path):
-        os.rename(box_1line_path, "temp_box_1.png")
-        box_1line_path = "temp_box_1.png"
+    # 2. Sub Title (The Context) - GOLD & SPACED
+    sub_text = "FORECAST"
+    if 'date' in data and data['type'] == 'daily':
+        sub_text = "TODAY'S MESSAGE" 
+    elif data['type'] == 'monthly':
+        sub_text = "THIS MONTH"
+    elif data['type'] == 'yearly':
+        sub_text = "2026 PREDICTION"
+    elif data['type'] == 'compatibility':
+        sub_text = "COMPATIBILITY"
         
-    box_2line_path = create_glow_box(1080, 1920, box_height=280)
-    if os.path.exists(box_2line_path):
-        os.rename(box_2line_path, "temp_box_2.png")
-        box_2line_path = "temp_box_2.png"
+    sub_clip = TextClip(
+        sub_text,
+        fontsize=35,
+        color='#FFD700', # Gold
+        font="Arial-Bold",
+        kerning=5, 
+        align='center'
+    )
+    # Position sub-title slightly below main title
+    sub_clip = sub_clip.set_position(('center', 150 + title_clip.h + 10))
+    
+    # Add both to clips
+    title_clip = title_clip.set_start(0).set_duration(duration)
+    sub_clip = sub_clip.set_start(0).set_duration(duration)
+    clips.append(title_clip)
+    clips.append(sub_clip)
 
-    # 4. SUBTITLES
+    # 4. SUBTITLES (Refined: Smaller & Cleaner)
     subtitle_text = clean_subtitle(txt)
     words = subtitle_text.split()
-    chunk_size = 4
+    chunk_size = 5 # Slightly more words per line since font is smaller
     chunks = [' '.join(words[i:i+chunk_size]) for i in range(0, len(words), chunk_size)]
     
     if chunks:
         chunk_dur = voice_clip.duration / len(chunks)
-        
-        # FIXED POSITIONING
-        BOX_Y_START = 1250
+        BOX_Y_START = 1250 
         
         for i, chunk in enumerate(chunks):
             if not chunk.strip(): continue
             start = i * chunk_dur
             
-            # WRAPPED TEXT
-            wrapped = wrap_text_dynamic(chunk.upper(), max_char=18)
+            wrapped = wrap_text_dynamic(chunk.upper(), max_char=24) # More chars allowed per line
             num_lines = wrapped.count('\n') + 1
             
-            # Use cached box
-            box_h = 180 if num_lines == 1 else 280 
-            current_box_path = "temp_box_1.png" if num_lines == 1 else "temp_box_2.png"
+            box_h = 130 if num_lines == 1 else 210
             
-            bg = ImageClip(current_box_path).set_start(start).set_duration(chunk_dur)
+            # Create fresh box
+            box_path = create_glow_box(1080, 1920, box_height=box_h)
+            
+            bg = ImageClip(box_path).set_start(start).set_duration(chunk_dur)
             bg = bg.crossfadein(0.05).crossfadeout(0.05)
             clips.append(bg)
             
-            # Text Centering Logic
-            # Box starts at BOX_Y_START (1250).
-            # Center of box is 1250 + box_h/2.
             center_y = BOX_Y_START + (box_h // 2)
             
             txt_clip = TextClip(
                 wrapped, 
-                fontsize=55,  # Reduced from 70
+                fontsize=40,  # SMALLER
                 color='yellow', 
                 font=FONT_NAME,
                 stroke_color='black', 
-                stroke_width=2, # Reduced stroke bit
+                stroke_width=1, 
                 method='caption',
                 align='center',
                 size=(900, None) 
             )
-            # Set position to center of screen x, and calculate y
-            # 'center' for Y means the center of the clip is at Y.
             txt_clip = txt_clip.set_position(('center', center_y - (txt_clip.h // 2) - 5)) 
-            
             txt_clip = txt_clip.set_start(start).set_duration(chunk_dur)
             clips.append(txt_clip)
 
