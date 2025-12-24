@@ -258,9 +258,20 @@ def render(plan_file):
     # 2. Sub Title (The Context) - GOLD & SPACED
     sub_text = "FORECAST"
     if 'date' in data and data['type'] == 'daily':
-        sub_text = "TODAY'S MESSAGE" 
+        # User requested specific DATE visibility if good idea.
+        # "JAN 24 • TODAY" serves both clarity and context.
+        try:
+            # clean date string if needed, assuming format "YYYY-MM-DD" or similar text
+            dt_str = data['date']
+            sub_text = f"{dt_str.upper()}" 
+        except:
+            sub_text = "TODAY'S MESSAGE"
     elif data['type'] == 'monthly':
         sub_text = "THIS MONTH"
+    elif data['type'] == 'yearly':
+        sub_text = "2026 PREDICTION"
+    elif data['type'] == 'compatibility':
+        sub_text = "COMPATIBILITY"
     elif data['type'] == 'yearly':
         sub_text = "2026 PREDICTION"
     elif data['type'] == 'compatibility':
@@ -291,7 +302,7 @@ def render(plan_file):
     
     if chunks:
         chunk_dur = voice_clip.duration / len(chunks)
-        BOX_Y_START = 1250 
+        BOX_Y_START = 1450 # Lowered as requested (was 1250) 
         
         for i, chunk in enumerate(chunks):
             if not chunk.strip(): continue
