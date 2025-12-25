@@ -350,8 +350,8 @@ def render(plan_file):
     
     if chunks:
         chunk_dur = voice_clip.duration / len(chunks)
-        # MOVED DOWN to 1680 (VERY LOW)
-        BOX_Y_START = 1680 
+        # MOVED UP SLIGHTLY
+        BOX_Y_START = 1450 
         
         for i, chunk in enumerate(chunks):
             if not chunk.strip(): continue
