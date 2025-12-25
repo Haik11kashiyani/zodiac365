@@ -80,14 +80,14 @@ def create_particle_overlay(width, height):
     img.save(path)
     return path
 
-def create_glow_box(width, height, box_width=900, box_height=150):
+def create_glow_box(width, height, y_start, box_width=900, box_height=150):
     """Create a box for subtitles."""
     img = Image.new('RGBA', (width, height), (0, 0, 0, 0))
     draw = ImageDraw.Draw(img)
     
     # Coordinates
     x1 = (width - box_width) // 2
-    y1 = 1250
+    y1 = y_start
     x2 = x1 + box_width
     y2 = y1 + box_height
     
@@ -215,29 +215,65 @@ def render(plan_file):
         # "ALIVE" Cinematic Motion Logic
         m_type = i % 4
         
-        # 1. BREATHING ZOOM (The "Pulse") - VISIBLE SPEED
-        # Cycle is now 3 seconds (t * 2) roughly.
+        # Base resize to ensure coverage
+        # Default height 2300 gives (2300/1920)*1080 approx 1293 width.
+        # Screen width 1080. Surplus ~213px. Safe drift +/- 100px.
+        
+        # 1. BREATHING PULSE (The "Pulse")
         if m_type == 0: 
-            img_clip = img_clip.resize(lambda t: 1.05 + 0.10 * math.sin(t * 2.0))
+            # Heartbeat rhythm: fast expansion, slow contraction
+            img_clip = img_clip.resize(height=2300)
+            img_clip = img_clip.resize(lambda t: 1.0 + 0.08 * math.sin(t * 3.5))
+            img_clip = img_clip.set_position('center')
             
-        # 2. SLOW ORBIT (Horizontal Drift)
+        # 2. CINEMATIC PAN (Safe Linear Move)
         elif m_type == 1:
-            img_clip = img_clip.resize(height=2400) 
+            img_clip = img_clip.resize(height=2400) # Bigger for more pan room
+            # Width approx 1350. Limit +/- 130
             def pan_func(t):
-                # Move -300 to right + 75px/s
-                return (-300 + 75 * t, 'center') 
-            img_clip = img_clip.set_position(pan_func)
+                 # Smooth ease-in-out drift
+                 p = (math.sin(t * 0.5) + 1) / 2 # 0 to 1
+                 x_offset = -120 + (240 * p) # -120 to +120
+                 return ('center', 'center') # MoviePy set_position is tricky with centers in func
+            
+            # Simple linear that is SAFE
+            # X center is 540. We want to move from 440 to 640 (offset -100 to +100)
+            # Img width ~1350. Half is 675. 
+            # TopLeft X needed for Center X=540 is 540-675 = -135.
+            # We want to vary X from -235 to -35.
+            
+            # Let's use standard 'center' anchor but offset relative to it?
+            # Easier: Use fixed resize and compute top-left manually
+            img_w = 1080 * (2400/1920) # ~1350
+            start_x = (1080 - img_w) / 2 # Center
+            
+            def pan_safe(t):
+                # Move left to right slowly
+                current_x = start_x - 100 + (20 * t) 
+                return (current_x, 'center')
+            img_clip = img_clip.set_position(pan_safe)
 
-        # 3. DRAMATIC ZOOM IN (Ken Burns)
+        # 3. ORBIT (Circular/Elliptical Drift)
         elif m_type == 2:
-            img_clip = img_clip.resize(lambda t: 1.0 + 0.20 * (t / seg_dur))
+            img_clip = img_clip.resize(height=2500)
+            # Lots of room.
+            img_w = 1080 * (2500/1920) # ~1400
+            base_x = (1080 - img_w) / 2
+            base_y = (1920 - 2500) / 2
+            
+            def orbit_func(t):
+                # Small circle movement
+                x_off = 40 * math.cos(t)
+                y_off = 40 * math.sin(t)
+                return (base_x + x_off, base_y + y_off)
+            img_clip = img_clip.set_position(orbit_func)
 
-        # 4. HOVER & SHIFT
+        # 4. DRAMATIC ZOOM (Ken Burns)
         else:
-             img_clip = img_clip.resize(lambda t: 1.15)
-             def hover_func(t):
-                 return ('center', -200 + 40 * math.sin(t * 1.5)) 
-             img_clip = img_clip.set_position(hover_func)
+             img_clip = img_clip.resize(height=2300)
+             img_clip = img_clip.set_position('center')
+             # Start at 1.0, zoom in to 1.15
+             img_clip = img_clip.resize(lambda t: 1.0 + 0.15 * (t / seg_dur))
         
         # Determine strict duration
         img_clip = img_clip.set_start(i * seg_dur).set_duration(seg_dur)
@@ -327,7 +363,8 @@ def render(plan_file):
             box_h = 130 if num_lines == 1 else 210
             
             # Create fresh box
-            box_path = create_glow_box(1080, 1920, box_height=box_h)
+            # Pass Y_START primarily
+            box_path = create_glow_box(1080, 1920, y_start=BOX_Y_START, box_height=box_h)
             
             bg = ImageClip(box_path).set_start(start).set_duration(chunk_dur)
             bg = bg.crossfadein(0.05).crossfadeout(0.05)
