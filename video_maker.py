@@ -156,8 +156,8 @@ def get_relevant_images(data):
 # RENDER
 # ═══════════════════════════════════════════════════════════════════════════════
 
-def render(plan_file):
-    with open(plan_file, 'r') as f: data = json.load(f)
+def render(data):
+    # with open(plan_file, 'r') as f: data = json.load(f) # REMOVED: Data passed directly
     safe_title = re.sub(r'[\\/*?:"<>|]', "", data['title']).replace(" ", "_")[:50]
     print(f"🔱 RENDERING: {safe_title}")
 
@@ -219,12 +219,13 @@ def render(plan_file):
         # Default height 2300 gives (2300/1920)*1080 approx 1293 width.
         # Screen width 1080. Surplus ~213px. Safe drift +/- 100px.
         
-        # 1. BREATHING PULSE (The "Pulse")
+        # 1. SLOW ZOOM OUT (Documentary Style)
         if m_type == 0: 
-            # Heartbeat rhythm: fast expansion, slow contraction
+            # Start zoomed in (1.2) and slowly drift out to 1.0
+            # High quality, professional look.
             img_clip = img_clip.resize(height=2300)
-            img_clip = img_clip.resize(lambda t: 1.0 + 0.08 * math.sin(t * 3.5))
             img_clip = img_clip.set_position('center')
+            img_clip = img_clip.resize(lambda t: 1.2 - 0.05 * (t / seg_dur))
             
         # 2. CINEMATIC PAN (Safe Linear Move)
         elif m_type == 1:
@@ -403,12 +404,41 @@ def render(plan_file):
 
 if __name__ == "__main__":
     if not os.path.exists("output_videos"): os.makedirs("output_videos")
-    plan_files = [f for f in os.listdir('.') if f.startswith('plan_') and f.endswith('.json')]
+    plan_files = [f for f in os.listdir('examples') if f.startswith('plan_') and f.endswith('.json')]
+    # Also check root for backward compatibility
+    plan_files.extend([f for f in os.listdir('.') if f.startswith('plan_') and f.endswith('.json')])
+    
     for p in plan_files:
+        path = p if os.path.exists(p) else os.path.join('examples', p)
+        if not os.path.exists(path): continue
+        
         try:
-            with open(p, 'r') as f: data = json.load(f)
-            if not data.get('active', True) or data.get('status') == 'done': continue
-            if render(p):
-                data['status'] = 'done'
-                with open(p, 'w') as f: json.dump(data, f, indent=4)
-        except Exception as e: print(e)
+            with open(path, 'r', encoding='utf-8') as f: 
+                content = json.load(f)
+            
+            # Normalize to list to support BATCH processing
+            if isinstance(content, list):
+                plans = content
+            else:
+                plans = [content]
+            
+            any_processed = False
+            for data in plans:
+                if not data.get('active', True) or data.get('status') == 'done': continue
+                
+                print(f"Processing: {data.get('title', 'Unknown')}")
+                if render(data): # Render now accepts dictionary directly, check generic render change if needed
+                    data['status'] = 'done'
+                    any_processed = True
+            
+            # Save back updated statuses (for both list and single dict)
+            if any_processed:
+                with open(path, 'w', encoding='utf-8') as f: 
+                    if isinstance(content, list):
+                        json.dump(plans, f, indent=4)
+                    else:
+                        # If origin was single dict, save as single dict (or should we upgrade to list? lets keep origin format)
+                        json.dump(plans[0], f, indent=4)
+                        
+        except Exception as e: 
+            print(f"Error processing {p}: {e}")
