@@ -7,3 +7,6 @@ numpy
 opencv-python
 imageio[pyav]
 imageio[ffmpeg]
+google-auth-oauthlib
+google-auth-httplib2
+google-api-python-client

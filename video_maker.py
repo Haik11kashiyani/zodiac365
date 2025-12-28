@@ -13,6 +13,13 @@ except ImportError:
     generate_content = None
     print("⚠️ Generator not found. Auto-update disabled.")
 
+# Import uploader
+try:
+    from youtube_uploader import upload_video
+except ImportError:
+    upload_video = None
+    print("⚠️ YouTube Uploader not found. Auto-upload disabled.")
+
 # ═══════════════════════════════════════════════════════════════════════════════
 # WESTERN VIRAL VIDEO MAKER v5.0
 # Fixes: Subtitle Overflow, Random Images, Voice Emotion
@@ -419,14 +426,21 @@ def render(data):
     out_dir = os.path.join(base_dir, "output_videos")
     if not os.path.exists(out_dir): os.makedirs(out_dir)
     
-    output_path = os.path.join(out_dir, f"{safe_title}.mp4")
-    # OPTIMIZATION: threads=4, fps=24
-    final.write_videofile(output_path, fps=24, threads=4, preset='ultrafast', audio_codec='aac')
+    output_file = os.path.join(out_dir, f"{safe_title}.mp4")
+    # OPTIMIZATION: threads=4, fps=24    
+    final_video.write_videofile(
+        output_file, 
+        fps=30, 
+        codec='libx264', 
+        audio_codec='aac',
+        threads=4, 
+        preset='medium'
+    )
     
-    # cleanup
+    # Cleanup
     for f in ["v.mp3", "temp_vignette.png", "temp_sub_box.png", "temp_particles.png", "temp_box_1.png", "temp_box_2.png"]:
         if os.path.exists(f): os.remove(f)
-    return True
+    return output_file
 
 
 def check_freshness_and_update(data):
@@ -521,11 +535,21 @@ if __name__ == "__main__":
                 
                 if data.get('status') == 'done': continue
                 
+                
                 print(f"Processing: {data.get('title', 'Unknown')}")
-                if render(data): # Render now accepts dictionary directly
+                video_path = render(data)
+                if video_path: 
                     data['status'] = 'done'
                     any_processed = True
                     file_updated = True
+                    
+                    # UPLOAD LOGIC
+                    if upload_video and not data.get('uploaded', False):
+                        if upload_video(video_path, data):
+                            data['uploaded'] = True
+                            print("🚀 Video Uploaded & Marked as Completed.")
+                        else:
+                            print("⚠️ Upload skipped or failed.")
             
             # Save back updated statuses AND content
             if file_updated:

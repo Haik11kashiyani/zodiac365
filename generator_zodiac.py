@@ -32,7 +32,17 @@ def generate_content(mode, target, date_str):
         prompt = prompt_template.format(sign=target, date=date_str)
         imgs = [f"assets/zodiac_signs/{target}.jpg"]
 
-    data = ask_ai(prompt + " JSON ONLY with 'script_text' and 'title'.")
+    prompt_suffix = """
+    
+    Respond in JSON ONLY with the following keys:
+    - 'script_text': The spoken word script (approx 40-50 secs).
+    - 'title': Internal title.
+    - 'youtube_title': A viral, click-bait style YouTube Short title (max 80 chars). Exclude hashtags.
+    - 'youtube_description': A 3-line engaging description. Exclude hashtags.
+    - 'youtube_tags': A list of 10-15 high volume viral tags.
+    """
+    
+    data = ask_ai(prompt + prompt_suffix)
     if not data: return None
     
     data.update({
