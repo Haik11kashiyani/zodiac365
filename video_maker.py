@@ -3,6 +3,15 @@ from moviepy.config import change_settings
 from moviepy.editor import *
 from PIL import Image, ImageDraw, ImageFilter, ImageEnhance
 import numpy as np
+from datetime import datetime
+
+# Import generator for auto-updates (Ensure path is correct)
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+try:
+    from generator_zodiac import generate_content
+except ImportError:
+    generate_content = None
+    print("⚠️ Generator not found. Auto-update disabled.")
 
 # ═══════════════════════════════════════════════════════════════════════════════
 # WESTERN VIRAL VIDEO MAKER v5.0
@@ -419,6 +428,56 @@ def render(data):
         if os.path.exists(f): os.remove(f)
     return True
 
+
+def check_freshness_and_update(data):
+    """Check if data is stale and regenerate if needed."""
+    if not generate_content: return False, data
+    
+    # Defaults
+    now = datetime.now()
+    is_stale = False
+    mode = data.get('type', 'daily')
+    target = data.get('target', 'Aries')
+    current_date_str = data.get('date', '')
+    
+    # 1. Daily Check
+    if mode == 'daily':
+        # Expected format: "Jan 05" (or "Jan 5")
+        # Let's check against today's formatted date
+        today_str = now.strftime("%b %d") # e.g. Dec 28
+        # Simple match check
+        if current_date_str != today_str and current_date_str != "TODAY":
+            print(f"🔄 STALE CONTENT DETECTED: {target} (Date: {current_date_str} vs {today_str})")
+            is_stale = True
+            
+    # 2. Monthly Check
+    elif mode == 'monthly':
+        cur_month = now.strftime("%B") # December
+        # If "December" not in title or text, might be old?
+        # Better: use a stored 'month' field if we had one, otherwise simplistic check
+        # Assuming we don't store separate month field yet, skipping unless explicit
+        pass
+        
+    # Regenerate if stale
+    if is_stale:
+        print(f"♻️  Auto-Generating new content for {target}...")
+        try:
+            today_str = now.strftime("%b %d")
+            new_data = generate_content(mode, target, today_str)
+            if new_data:
+                # Merge new data into old object to keep other fields (like images?)
+                # Actually, generator returns full valid object with images.
+                # We should update keys.
+                data.update(new_data)
+                # Reset status to ensure render
+                data['status'] = 'pending'
+                print("✅ Content Updated Successfully!")
+                return True, data
+        except Exception as e:
+            print(f"❌ Generation Failed: {e}")
+            
+    return False, data
+
 if __name__ == "__main__":
     # Ensure robust pathing regardless of CWD
     BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -448,21 +507,32 @@ if __name__ == "__main__":
                 plans = [content]
             
             any_processed = False
-            for data in plans:
-                if not data.get('active', True) or data.get('status') == 'done': continue
+            file_updated = False
+            
+            for i, data in enumerate(plans):
+                if not data.get('active', True): continue
+                
+                # AUTO-UPDATE CHECK
+                updated, new_data = check_freshness_and_update(data)
+                if updated:
+                    plans[i] = new_data
+                    file_updated = True
+                    # If updated, it comes back as 'pending', so it will fall through to render below
+                
+                if data.get('status') == 'done': continue
                 
                 print(f"Processing: {data.get('title', 'Unknown')}")
-                if render(data): # Render now accepts dictionary directly, check generic render change if needed
+                if render(data): # Render now accepts dictionary directly
                     data['status'] = 'done'
                     any_processed = True
+                    file_updated = True
             
-            # Save back updated statuses (for both list and single dict)
-            if any_processed:
+            # Save back updated statuses AND content
+            if file_updated:
                 with open(path, 'w', encoding='utf-8') as f: 
                     if isinstance(content, list):
                         json.dump(plans, f, indent=4)
                     else:
-                        # If origin was single dict, save as single dict (or should we upgrade to list? lets keep origin format)
                         json.dump(plans[0], f, indent=4)
                         
         except Exception as e: 
