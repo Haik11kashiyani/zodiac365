@@ -2,7 +2,7 @@ name: Zodiac Daily Automation
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Runs daily at Midnight UTC
+    - cron: '0 0 * * * # Runs daily at Midnight UTC
   workflow_dispatch:      # Allows manual trigger
 
 jobs:
@@ -32,7 +32,7 @@ jobs:
           pip install -r requirements.txt
           pip install edge-tts google-auth-oauthlib google-api-python-client
 
-      - name: inject-secrets
+      - name: inject-secret
         env:
           YOUTUBE_TOKEN: ${{ secrets.YOUTUBE_TOKEN }}
         run: |
@@ -44,6 +44,8 @@ jobs:
         env:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}  # For Gemini Generation
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }} # Optional, priority
+          YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
         run: |
           echo "🚀 Starting Video Production..."
           python video_maker.py

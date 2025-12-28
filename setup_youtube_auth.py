@@ -26,13 +26,30 @@ def setup_auth(client_secret_file='client_secret.json'):
             print("🔄 Refreshing expired token...")
             creds.refresh(Request())
         else:
-            if not os.path.exists(client_secret_file):
-                print(f"❌ Error: {client_secret_file} not found! Please place your client secret json here.")
-                print("   (Download it from Google Cloud Console > APIs & Services > Credentials)")
-                return
+            # Check for Environment Variables (Secrets)
+            client_id = os.environ.get('YOUTUBE_CLIENT_ID')
+            client_secret = os.environ.get('YOUTUBE_CLIENT_SECRET')
 
-            print("🚀 Launching browser for login...")
-            flow = InstalledAppFlow.from_client_secrets_file(client_secret_file, SCOPES)
+            if client_id and client_secret:
+                print("🔐 Using Client Secrets from Environment Variables...")
+                client_config = {
+                    "installed": {
+                        "client_id": client_id,
+                        "client_secret": client_secret,
+                        "redirect_uris": ["http://localhost"],
+                        "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+                        "token_uri": "https://oauth2.googleapis.com/token"
+                    }
+                }
+                flow = InstalledAppFlow.from_client_config(client_config, SCOPES)
+            elif not os.path.exists(client_secret_file):
+                print(f"❌ Error: {client_secret_file} not found AND no Env Vars set.")
+                print("   Set YOUTUBE_CLIENT_ID and YOUTUBE_CLIENT_SECRET or provide json file.")
+                return
+            else:
+                print(f"🚀 Launching browser for login using {client_secret_file}...")
+                flow = InstalledAppFlow.from_client_secrets_file(client_secret_file, SCOPES)
+            
             creds = flow.run_local_server(port=0)
             
         # Save the credentials for the next run
