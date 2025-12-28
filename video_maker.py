@@ -169,10 +169,22 @@ def render(data):
     print(f"   Voice: {voice}")
     
     try:
-        subprocess.run([
-            "edge-tts", "--voice", voice, f"--rate={rate}",
-            "--text", txt, "--write-media", "v.mp3"
-        ], capture_output=True, text=True, timeout=120)
+        # FIX: Call via python module to avoid Windows PATH issues with 'edge-tts' exe
+        cmd = [
+            sys.executable, "-m", "edge_tts",
+            "--voice", voice,
+            f"--rate={rate}",
+            "--text", txt,
+            "--write-media", "v.mp3"
+        ]
+        
+        # Windows-specific: Hide console window
+        startupinfo = None
+        if os.name == 'nt':
+            startupinfo = subprocess.STARTUPINFO()
+            startupinfo.dwFlags |= subprocess.STARTF_USESHOWWINDOW
+            
+        subprocess.run(cmd, capture_output=True, text=True, timeout=120, startupinfo=startupinfo)
     except Exception as e:
         print(f"   ⚠️ TTS Error: {e}")
         return False
@@ -393,7 +405,12 @@ def render(data):
     final = final.set_audio(CompositeAudioClip(audio_clips))
     final = final.fadeout(0.5)
     
-    output_path = os.path.join("output_videos", f"{safe_title}.mp4")
+    # PATH FIX: Use absolute path for output to avoid CWD issues
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    out_dir = os.path.join(base_dir, "output_videos")
+    if not os.path.exists(out_dir): os.makedirs(out_dir)
+    
+    output_path = os.path.join(out_dir, f"{safe_title}.mp4")
     # OPTIMIZATION: threads=4, fps=24
     final.write_videofile(output_path, fps=24, threads=4, preset='ultrafast', audio_codec='aac')
     
@@ -403,13 +420,21 @@ def render(data):
     return True
 
 if __name__ == "__main__":
-    if not os.path.exists("output_videos"): os.makedirs("output_videos")
-    plan_files = [f for f in os.listdir('examples') if f.startswith('plan_') and f.endswith('.json')]
-    # Also check root for backward compatibility
-    plan_files.extend([f for f in os.listdir('.') if f.startswith('plan_') and f.endswith('.json')])
+    # Ensure robust pathing regardless of CWD
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+    EXAMPLES_DIR = os.path.join(BASE_DIR, 'examples')
+    OUTPUT_DIR = os.path.join(BASE_DIR, 'output_videos')
     
-    for p in plan_files:
-        path = p if os.path.exists(p) else os.path.join('examples', p)
+    if not os.path.exists(OUTPUT_DIR): os.makedirs(OUTPUT_DIR)
+    
+    plan_files = []
+    if os.path.exists(EXAMPLES_DIR):
+        plan_files.extend([os.path.join(EXAMPLES_DIR, f) for f in os.listdir(EXAMPLES_DIR) if f.startswith('plan_') and f.endswith('.json')])
+    
+    # Also check current directory for backward compatibility
+    plan_files.extend([os.path.abspath(f) for f in os.listdir('.') if f.startswith('plan_') and f.endswith('.json')])
+    
+    for path in plan_files:
         if not os.path.exists(path): continue
         
         try:

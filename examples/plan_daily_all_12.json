@@ -1,0 +1,146 @@
+[
+    {
+        "script_text": "Aries, today is a day of opportunities! The stars align to bring you...",
+        "title": "Aries Daily Horoscope \u2648",
+        "target": "ARIES",
+        "type": "daily",
+        "images": [
+            "assets/zodiac_signs/Aries.jpg"
+        ],
+        "active": true,
+        "status": "pending",
+        "date": "TODAY"
+    },
+    {
+        "script_text": "Taurus, today is a day of opportunities! The stars align to bring you...",
+        "title": "Taurus Daily Horoscope \u2649",
+        "target": "TAURUS",
+        "type": "daily",
+        "images": [
+            "assets/zodiac_signs/Taurus.jpg"
+        ],
+        "active": true,
+        "status": "pending",
+        "date": "TODAY"
+    },
+    {
+        "script_text": "Gemini, today is a day of opportunities! The stars align to bring you...",
+        "title": "Gemini Daily Horoscope \u264a",
+        "target": "GEMINI",
+        "type": "daily",
+        "images": [
+            "assets/zodiac_signs/Gemini.jpg"
+        ],
+        "active": true,
+        "status": "pending",
+        "date": "TODAY"
+    },
+    {
+        "script_text": "Cancer, today is a day of opportunities! The stars align to bring you...",
+        "title": "Cancer Daily Horoscope \u264b",
+        "target": "CANCER",
+        "type": "daily",
+        "images": [
+            "assets/zodiac_signs/Cancer.jpg"
+        ],
+        "active": true,
+        "status": "pending",
+        "date": "TODAY"
+    },
+    {
+        "script_text": "Leo, today is a day of opportunities! The stars align to bring you...",
+        "title": "Leo Daily Horoscope \u264c",
+        "target": "LEO",
+        "type": "daily",
+        "images": [
+            "assets/zodiac_signs/Leo.jpg"
+        ],
+        "active": true,
+        "status": "pending",
+        "date": "TODAY"
+    },
+    {
+        "script_text": "Virgo, today is a day of opportunities! The stars align to bring you...",
+        "title": "Virgo Daily Horoscope \u264d",
+        "target": "VIRGO",
+        "type": "daily",
+        "images": [
+            "assets/zodiac_signs/Virgo.jpg"
+        ],
+        "active": true,
+        "status": "pending",
+        "date": "TODAY"
+    },
+    {
+        "script_text": "Libra, today is a day of opportunities! The stars align to bring you...",
+        "title": "Libra Daily Horoscope \u264e",
+        "target": "LIBRA",
+        "type": "daily",
+        "images": [
+            "assets/zodiac_signs/Libra.jpg"
+        ],
+        "active": true,
+        "status": "pending",
+        "date": "TODAY"
+    },
+    {
+        "script_text": "Scorpio, today is a day of opportunities! The stars align to bring you...",
+        "title": "Scorpio Daily Horoscope \u264f",
+        "target": "SCORPIO",
+        "type": "daily",
+        "images": [
+            "assets/zodiac_signs/Scorpio.jpg"
+        ],
+        "active": true,
+        "status": "pending",
+        "date": "TODAY"
+    },
+    {
+        "script_text": "Sagittarius, today is a day of opportunities! The stars align to bring you...",
+        "title": "Sagittarius Daily Horoscope \u2650",
+        "target": "SAGITTARIUS",
+        "type": "daily",
+        "images": [
+            "assets/zodiac_signs/Sagittarius.jpg"
+        ],
+        "active": true,
+        "status": "pending",
+        "date": "TODAY"
+    },
+    {
+        "script_text": "Capricorn, today is a day of opportunities! The stars align to bring you...",
+        "title": "Capricorn Daily Horoscope \u2651",
+        "target": "CAPRICORN",
+        "type": "daily",
+        "images": [
+            "assets/zodiac_signs/Capricorn.jpg"
+        ],
+        "active": true,
+        "status": "pending",
+        "date": "TODAY"
+    },
+    {
+        "script_text": "Aquarius, today is a day of opportunities! The stars align to bring you...",
+        "title": "Aquarius Daily Horoscope \u2652",
+        "target": "AQUARIUS",
+        "type": "daily",
+        "images": [
+            "assets/zodiac_signs/Aquarius.jpg"
+        ],
+        "active": true,
+        "status": "pending",
+        "date": "TODAY"
+    },
+    {
+        "script_text": "Pisces, today is a day of opportunities! The stars align to bring you...",
+        "title": "Pisces Daily Horoscope \u2653",
+        "target": "PISCES",
+        "type": "daily",
+        "images": [
+            "assets/zodiac_signs/Pisces.jpg"
+        ],
+        "active": true,
+        "status": "pending",
+        "date": "TODAY"
+    }
+]

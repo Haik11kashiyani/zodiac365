@@ -1,0 +1,26 @@
+[
+    {
+        "script_text": "Happy Birthday Aries! The sun shines bright on your special day...",
+        "title": "Happy Birthday Aries! ♈🎂",
+        "target": "Aries",
+        "type": "birthday",
+        "date": "TODAY",
+        "images": [
+            "assets/zodiac_signs/Aries.jpg"
+        ],
+        "active": true,
+        "status": "pending"
+    },
+    {
+        "script_text": "Happy Birthday Taurus! Your reliable nature is celebrated today...",
+        "title": "Happy Birthday Taurus! ♉🎂",
+        "target": "Taurus",
+        "type": "birthday",
+        "date": "TODAY",
+        "images": [
+            "assets/zodiac_signs/Taurus.jpg"
+        ],
+        "active": true,
+        "status": "pending"
+    }
+]
