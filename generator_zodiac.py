@@ -1,5 +1,8 @@
-import json, sys, os
+import json, sys, os, datetime
 from ai_engine import ask_ai
+
+# Force UTF-8 for Windows Consoles
+sys.stdout.reconfigure(encoding='utf-8')
 
 def load_config():
     with open("config.json", "r") as f:
@@ -26,24 +29,40 @@ def generate_content(mode, target, date_str):
     elif mode == 'yearly':
         prompt = prompts.get("yearly", "").format(sign=target)
         imgs = [f"assets/zodiac_signs/{target}.jpg"]
+    elif mode == 'weekly':
+        prompt = prompts.get("weekly", prompts.get("daily")).format(sign=target, date=date_str)
+        imgs = [f"assets/zodiac_signs/{target}.jpg"]
     else:
         # Default Daily/Monthly
         prompt_template = prompts.get(mode, prompts.get("daily"))
         prompt = prompt_template.format(sign=target, date=date_str)
         imgs = [f"assets/zodiac_signs/{target}.jpg"]
 
-    prompt_suffix = """
+    today_context = datetime.date.today().strftime("%B %d, %Y")
+    
+    prompt_suffix = f"""
+    
+    CONTEXT: Today is {today_context}. Use this to find trending keywords if relevant.
     
     Respond in JSON ONLY with the following keys:
-    - 'script_text': The spoken word script (approx 40-50 secs).
+    - 'script_text': The spoken word script (approx 40-50 secs). Engaging, mystical, direct.
     - 'title': Internal title.
-    - 'youtube_title': A viral, click-bait style YouTube Short title (max 80 chars). Exclude hashtags.
-    - 'youtube_description': A 3-line engaging description. Exclude hashtags.
-    - 'youtube_tags': A list of 10-15 high volume viral tags.
+    - 'youtube_title': A viral, click-bait style YouTube Short title (max 80 chars). MUST INCLUDE '#shorts'.
+    - 'youtube_description': A 3-line engaging description with questions to drive comments. Include 3-4 hashtags in the text.
+    - 'youtube_tags': A list of 15-20 high volume viral tags. Mix broad (e.g., #astrology) and specific/trending (e.g., #manifestation, #{target}).
+    
+    STRICT RULES:
+    1. 'youtube_title' MUST end with #shorts
+    2. Make it CLICKBAIT. High emotion.
     """
     
     data = ask_ai(prompt + prompt_suffix)
     if not data: return None
+    
+    # ENFORCE #SHORTS
+    if 'youtube_title' in data:
+        if '#shorts' not in data['youtube_title'].lower():
+            data['youtube_title'] += " #shorts"
     
     data.update({
         'type': mode, 

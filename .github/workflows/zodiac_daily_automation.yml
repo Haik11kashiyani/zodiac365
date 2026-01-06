@@ -2,7 +2,8 @@ name: Zodiac Daily Automation
 
 on:
   schedule:
-    - cron: '0 0 * * * # Runs daily at Midnight UTC
+    - cron: '0 12 * * *'  # Daily Shorts: 12:00 UTC (5:30 PM IST)
+    - cron: '0 23 * * 0'  # Weekly Forecast: 23:00 UTC Sun (4:30 AM IST Mon)
   workflow_dispatch:      # Allows manual trigger
 
 jobs:
@@ -48,6 +49,24 @@ jobs:
           YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
         run: |
           echo "🚀 Starting Video Production..."
+          
+          # Logic to determine mode based on time OR manual trigger
+          current_hour=$(date -u +%H)
+          echo "Unknown time (UTC): $current_hour"
+          
+          if [ "$current_hour" -eq "12" ]; then
+             echo "🌞 Triggering DAILY Mode"
+             python master_brain.py --mode daily
+          elif [ "$current_hour" -eq "23" ]; then
+             echo "📅 Triggering WEEKLY Mode"
+             python master_brain.py --mode weekly
+          else
+             # Default fallback for manual dispatch or other times
+             echo "⚡ Manual/Fallback: Running ALL"
+             python master_brain.py --mode all
+          fi
+          
+          # Always run the video maker to process whatever plan files exist
           python video_maker.py
 
       - name: Commit & Push Updates
@@ -60,5 +79,5 @@ jobs:
           git add token.json # If token refreshed
           
           # Commit if changes exist
-          git commit -m "🤖 Auto-Update: Daily Horoscope & Upload Status" || echo "No changes to commit"
+          git commit -m "🤖 Auto-Update: Horoscope Content & Upload Status" || echo "No changes to commit"
           git push

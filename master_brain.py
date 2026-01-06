@@ -1,4 +1,7 @@
-import datetime, random, generator_zodiac, generator_tarot, json, os
+import datetime, random, generator_zodiac, generator_tarot, json, os, sys
+
+# Force UTF-8 for Windows Consoles
+sys.stdout.reconfigure(encoding='utf-8')
 
 with open("config.json", "r") as f:
     CONFIG = json.load(f)
@@ -13,39 +16,61 @@ def clean_workspace():
         except: pass
     print(f"🧹 Cleaned {len(files)} old plans.")
 
-def run_empire():
-    # clean_workspace() REMOVED by user request. Using 'active/status' flags instead.
-    today = datetime.date.today()
-    print(f"🚀 GENERATING EMPIRE CONTENT FOR {today}...")
+import argparse
 
-    # 1. Daily Videos (ALWAYS 12)
+def generate_daily(today):
     print("--- 🌞 GENERATING DAILY VIDEOS ---")
     for sign in SIGNS:
         generator_zodiac.generate_zodiac_video('daily', sign, today.strftime("%B %d, %Y"))
-
-    # 2. Wildcard Special (ALWAYS 1)
+    
+    # Wildcard Special (Daily Only)
     print("--- 🃏 GENERATING WILDCARD VIDEO ---")
     if random.choice([True, False]):
-        # VS Battle
         s1, s2 = random.sample(SIGNS, 2)
         generator_zodiac.generate_zodiac_video('compatibility', f"{s1} vs {s2}", str(today))
     else:
-        # Birthday or Topic
         topics = ["Mercury Retrograde", "Full Moon Ritual", "Lucky Numbers", "Spirit Animals"]
         generator_zodiac.generate_zodiac_video('special', random.choice(topics), str(today))
 
-    # 3. Monthly & Yearly Staggered Release (Days 1-12)
-    day_of_month = today.day
-    if 1 <= day_of_month <= 12:
-        target_sign = SIGNS[day_of_month - 1] # Day 1 = Aries (0), Day 12 = Pisces (11)
-        
-        print(f"--- 📅 GENERATING MONTHLY CONTENT FOR {target_sign.upper()} ---")
-        # Monthly Video
-        generator_zodiac.generate_zodiac_video('monthly', target_sign, today.strftime("%B %Y"))
-        
-        # Yearly Video (Only in January)
-        if today.month == 1:
-            print(f"--- 🎆 GENERATING YEARLY CONTENT FOR {target_sign.upper()} ---")
-            generator_zodiac.generate_zodiac_video('yearly', target_sign, "2026")
+def generate_weekly(today):
+    print("--- 📅 GENERATING WEEKLY FORECASTS ---")
+    # Calculate next week range (starting tomorrow if run today, or just "This Week")
+    # Assuming "Weekly" means the upcoming week.
+    start_of_week = today
+    end_of_week = today + datetime.timedelta(days=6)
+    date_range = f"{start_of_week.strftime('%b %d')} - {end_of_week.strftime('%b %d')}"
+    
+    for sign in SIGNS:
+        generator_zodiac.generate_zodiac_video('weekly', sign, date_range)
+
+def run_empire():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--mode", choices=['daily', 'weekly', 'all'], default='all', help="Generation mode")
+    args = parser.parse_args()
+
+    today = datetime.date.today()
+    print(f"🚀 GENERATING EMPIRE CONTENT FOR {today} (Mode: {args.mode.upper()})...")
+
+    if args.mode in ['daily', 'all']:
+        # Delayed Start Check: Jan 9, 2026 (Friday)
+        start_date = datetime.date(2026, 1, 9)
+        if today < start_date:
+            print(f"⏳ Automation Standby: Daily content is scheduled to start on {start_date}. Today is {today}. Skipping.")
+        else:
+            generate_daily(today)
+            
+            # Monthly/Yearly Logic (Staggered Daily)
+            day_of_month = today.day
+            if 1 <= day_of_month <= 12:
+                target_sign = SIGNS[day_of_month - 1] 
+                print(f"--- 📅 GENERATING MONTHLY CONTENT FOR {target_sign.upper()} ---")
+                generator_zodiac.generate_zodiac_video('monthly', target_sign, today.strftime("%B %Y"))
+                
+                if today.month == 1:
+                    print(f"--- 🎆 GENERATING YEARLY CONTENT FOR {target_sign.upper()} ---")
+                    generator_zodiac.generate_zodiac_video('yearly', target_sign, "2026")
+
+    if args.mode in ['weekly', 'all']:
+        generate_weekly(today)
 
 if __name__ == "__main__": run_empire()
