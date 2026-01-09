@@ -213,9 +213,13 @@ def render(data):
 
     # 2. AUDIO MIX
     audio_clips = [voice_clip]
-    music_files = [m for m in os.listdir("assets/music") if m.endswith(".mp3")]
+    music_dir = "assets/music"
+    music_files = []
+    if os.path.exists(music_dir):
+        music_files = [m for m in os.listdir(music_dir) if m.endswith(".mp3")]
+    
     if music_files:
-        music = AudioFileClip(os.path.join("assets/music", random.choice(music_files)))
+        music = AudioFileClip(os.path.join(music_dir, random.choice(music_files)))
         music = music.volumex(0.08).set_duration(duration) # Slight boost to 0.08
         audio_clips.append(music)
     
@@ -560,4 +564,4 @@ if __name__ == "__main__":
                         json.dump(plans[0], f, indent=4)
                         
         except Exception as e: 
-            print(f"Error processing {p}: {e}")
+            print(f"Error processing {path}: {e}")
