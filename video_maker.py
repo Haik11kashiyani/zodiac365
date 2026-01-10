@@ -432,7 +432,7 @@ def render(data):
     
     output_file = os.path.join(out_dir, f"{safe_title}.mp4")
     # OPTIMIZATION: threads=4, fps=24    
-    final_video.write_videofile(
+    final.write_videofile(
         output_file, 
         fps=30, 
         codec='libx264', 
