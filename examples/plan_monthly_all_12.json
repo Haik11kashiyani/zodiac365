@@ -8,7 +8,7 @@
             "assets/zodiac_signs/Aries.jpg"
         ],
         "active": true,
-        "status": "pending"
+        "status": "done"
     },
     {
         "script_text": "Taurus, this month brings transformation and growth...",
@@ -19,7 +19,7 @@
             "assets/zodiac_signs/Taurus.jpg"
         ],
         "active": true,
-        "status": "pending"
+        "status": "done"
     },
     {
         "script_text": "Gemini, this month brings transformation and growth...",
@@ -30,7 +30,7 @@
             "assets/zodiac_signs/Gemini.jpg"
         ],
         "active": true,
-        "status": "pending"
+        "status": "done"
     },
     {
         "script_text": "Cancer, this month brings transformation and growth...",
@@ -41,7 +41,7 @@
             "assets/zodiac_signs/Cancer.jpg"
         ],
         "active": true,
-        "status": "pending"
+        "status": "done"
     },
     {
         "script_text": "Leo, this month brings transformation and growth...",
@@ -52,7 +52,7 @@
             "assets/zodiac_signs/Leo.jpg"
         ],
         "active": true,
-        "status": "pending"
+        "status": "done"
     },
     {
         "script_text": "Virgo, this month brings transformation and growth...",
@@ -63,7 +63,7 @@
             "assets/zodiac_signs/Virgo.jpg"
         ],
         "active": true,
-        "status": "pending"
+        "status": "done"
     },
     {
         "script_text": "Libra, this month brings transformation and growth...",
@@ -74,7 +74,7 @@
             "assets/zodiac_signs/Libra.jpg"
         ],
         "active": true,
-        "status": "pending"
+        "status": "done"
     },
     {
         "script_text": "Scorpio, this month brings transformation and growth...",
@@ -85,7 +85,7 @@
             "assets/zodiac_signs/Scorpio.jpg"
         ],
         "active": true,
-        "status": "pending"
+        "status": "done"
     },
     {
         "script_text": "Sagittarius, this month brings transformation and growth...",
@@ -96,7 +96,7 @@
             "assets/zodiac_signs/Sagittarius.jpg"
         ],
         "active": true,
-        "status": "pending"
+        "status": "done"
     },
     {
         "script_text": "Capricorn, this month brings transformation and growth...",
@@ -129,6 +129,6 @@
             "assets/zodiac_signs/Pisces.jpg"
         ],
         "active": true,
-        "status": "pending"
+        "status": "done"
     }
 ]

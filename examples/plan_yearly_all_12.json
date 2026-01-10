@@ -8,7 +8,7 @@
             "assets/zodiac_signs/Aries.jpg"
         ],
         "active": true,
-        "status": "pending"
+        "status": "done"
     },
     {
         "script_text": "Taurus, 2026 is your year of power! Prepare for...",
@@ -19,7 +19,7 @@
             "assets/zodiac_signs/Taurus.jpg"
         ],
         "active": true,
-        "status": "pending"
+        "status": "done"
     },
     {
         "script_text": "Gemini, 2026 is your year of power! Prepare for...",
@@ -30,7 +30,7 @@
             "assets/zodiac_signs/Gemini.jpg"
         ],
         "active": true,
-        "status": "pending"
+        "status": "done"
     },
     {
         "script_text": "Cancer, 2026 is your year of power! Prepare for...",
@@ -41,7 +41,7 @@
             "assets/zodiac_signs/Cancer.jpg"
         ],
         "active": true,
-        "status": "pending"
+        "status": "done"
     },
     {
         "script_text": "Leo, 2026 is your year of power! Prepare for...",
@@ -74,7 +74,7 @@
             "assets/zodiac_signs/Libra.jpg"
         ],
         "active": true,
-        "status": "pending"
+        "status": "done"
     },
     {
         "script_text": "Scorpio, 2026 is your year of power! Prepare for...",
@@ -85,7 +85,7 @@
             "assets/zodiac_signs/Scorpio.jpg"
         ],
         "active": true,
-        "status": "pending"
+        "status": "done"
     },
     {
         "script_text": "Sagittarius, 2026 is your year of power! Prepare for...",
@@ -96,7 +96,7 @@
             "assets/zodiac_signs/Sagittarius.jpg"
         ],
         "active": true,
-        "status": "pending"
+        "status": "done"
     },
     {
         "script_text": "Capricorn, 2026 is your year of power! Prepare for...",
@@ -107,7 +107,7 @@
             "assets/zodiac_signs/Capricorn.jpg"
         ],
         "active": true,
-        "status": "pending"
+        "status": "done"
     },
     {
         "script_text": "Aquarius, 2026 is your year of power! Prepare for...",
@@ -118,7 +118,7 @@
             "assets/zodiac_signs/Aquarius.jpg"
         ],
         "active": true,
-        "status": "pending"
+        "status": "done"
     },
     {
         "script_text": "Pisces, 2026 is your year of power! Prepare for...",
@@ -129,6 +129,6 @@
             "assets/zodiac_signs/Pisces.jpg"
         ],
         "active": true,
-        "status": "pending"
+        "status": "done"
     }
 ]

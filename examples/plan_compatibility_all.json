@@ -1,7 +1,7 @@
 [
     {
         "script_text": "Aries and Leo, a fire match made in heaven!",
-        "title": "Aries vs Leo Compatibility 🔥",
+        "title": "Aries vs Leo Compatibility \ud83d\udd25",
         "target": "Aries vs Leo",
         "type": "compatibility",
         "images": [
@@ -9,11 +9,11 @@
             "assets/zodiac_signs/Leo.jpg"
         ],
         "active": true,
-        "status": "pending"
+        "status": "done"
     },
     {
         "script_text": "Taurus and Virgo, an earth bond that lasts forever.",
-        "title": "Taurus vs Virgo Compatibility 🌍",
+        "title": "Taurus vs Virgo Compatibility \ud83c\udf0d",
         "target": "Taurus vs Virgo",
         "type": "compatibility",
         "images": [
@@ -21,6 +21,6 @@
             "assets/zodiac_signs/Virgo.jpg"
         ],
         "active": true,
-        "status": "pending"
+        "status": "done"
     }
 ]
