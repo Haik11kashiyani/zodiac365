@@ -76,7 +76,7 @@ jobs:
           
           # Add all JSONs that might have updated
           git add examples/*.json
-          git add token.json # If token refreshed
+          git add examples/*.json
           
           # Commit if changes exist
           git commit -m "🤖 Auto-Update: Horoscope Content & Upload Status" || echo "No changes to commit"

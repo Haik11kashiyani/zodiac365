@@ -2,6 +2,10 @@ import os
 import requests
 import time
 import shutil
+import sys
+
+# Force UTF-8
+sys.stdout.reconfigure(encoding='utf-8')
 
 # --- CONFIGURATION ---
 ASSET_DIR = "assets/zodiac_signs"
