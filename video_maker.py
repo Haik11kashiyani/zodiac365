@@ -1,4 +1,4 @@
-import json, os, subprocess, random, re, math, textwrap
+import json, os, subprocess, random, re, math, textwrap, sys
 from moviepy.config import change_settings
 from moviepy.editor import *
 from PIL import Image, ImageDraw, ImageFilter, ImageEnhance
@@ -534,10 +534,25 @@ if __name__ == "__main__":
                 updated, new_data = check_freshness_and_update(data)
                 if updated:
                     plans[i] = new_data
+                    data = new_data  # CRITICAL FIX: Update local reference too!
                     file_updated = True
                     # If updated, it comes back as 'pending', so it will fall through to render below
                 
-                if data.get('status') == 'done': continue
+                if data.get('status') == 'done': 
+                    # Check if already rendered but NOT uploaded - retry upload
+                    if upload_video and not data.get('uploaded', False):
+                        # Try to find the output video file
+                        safe_title = re.sub(r'[\\/*?:"<>|]', "", data.get('title', 'Unknown')).replace(" ", "_")[:50]
+                        output_file = os.path.join(OUTPUT_DIR, f"{safe_title}.mp4")
+                        if os.path.exists(output_file):
+                            print(f"🔄 Retrying upload for: {data.get('title', 'Unknown')}")
+                            if upload_video(output_file, data):
+                                data['uploaded'] = True
+                                file_updated = True
+                                print("🚀 Video Uploaded & Marked as Completed.")
+                            else:
+                                print("⚠️ Upload retry failed.")
+                    continue
                 
                 
                 print(f"Processing: {data.get('title', 'Unknown')}")
@@ -548,6 +563,7 @@ if __name__ == "__main__":
                     file_updated = True
                     
                     # UPLOAD LOGIC
+                    print(f"📤 Attempting upload... (upload_video available: {upload_video is not None})")
                     if upload_video and not data.get('uploaded', False):
                         if upload_video(video_path, data):
                             data['uploaded'] = True

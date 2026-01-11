@@ -10,16 +10,22 @@ SCOPES = ['https://www.googleapis.com/auth/youtube.upload']
 
 def get_authenticated_service():
     token_file = os.path.join(os.path.dirname(__file__), 'token.json')
+    print(f"🔍 Looking for token at: {token_file}")
+    
     if not os.path.exists(token_file):
         print("⚠️ No token.json found. Cannot upload to YouTube.")
         return None
 
     try:
         with open(token_file, 'r') as token:
-            creds = Credentials.from_authorized_user_info(json.load(token), SCOPES)
+            token_data = json.load(token)
+            print(f"✅ Token loaded. Keys present: {list(token_data.keys())}")
+            creds = Credentials.from_authorized_user_info(token_data, SCOPES)
         return googleapiclient.discovery.build('youtube', 'v3', credentials=creds)
     except Exception as e:
         print(f"❌ Error loading YouTube token: {e}")
+        import traceback
+        traceback.print_exc()
         return None
 
 def generate_metadata(data):

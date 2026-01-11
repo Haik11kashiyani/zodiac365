@@ -2,8 +2,8 @@ name: Zodiac Daily Automation
 
 on:
   schedule:
-    - cron: '0 12 * * *'  # Daily Shorts: 12:00 UTC (5:30 PM IST)
-    - cron: '0 23 * * 0'  # Weekly Forecast: 23:00 UTC Sun (4:30 AM IST Mon)
+    - cron: '0 9 * * *'   # Daily Shorts: 9:00 UTC (2:30 PM IST) - starts early so videos ready by ~12:00 UTC
+    - cron: '0 20 * * 0'  # Weekly Forecast: 20:00 UTC Sun (1:30 AM IST Mon) - starts early
   workflow_dispatch:      # Allows manual trigger
 
 jobs:
@@ -54,10 +54,10 @@ jobs:
           current_hour=$(date -u +%H)
           echo "Unknown time (UTC): $current_hour"
           
-          if [ "$current_hour" -eq "12" ]; then
+          if [ "$current_hour" -eq "9" ]; then
              echo "🌞 Triggering DAILY Mode"
              python master_brain.py --mode daily
-          elif [ "$current_hour" -eq "23" ]; then
+          elif [ "$current_hour" -eq "20" ]; then
              echo "📅 Triggering WEEKLY Mode"
              python master_brain.py --mode weekly
           else
