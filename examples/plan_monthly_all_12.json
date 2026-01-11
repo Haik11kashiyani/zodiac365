@@ -107,7 +107,7 @@
             "assets/zodiac_signs/Capricorn.jpg"
         ],
         "active": true,
-        "status": "pending"
+        "status": "done"
     },
     {
         "script_text": "Aquarius, this month brings transformation and growth...",
@@ -118,7 +118,7 @@
             "assets/zodiac_signs/Aquarius.jpg"
         ],
         "active": true,
-        "status": "pending"
+        "status": "done"
     },
     {
         "script_text": "Pisces, this month brings transformation and growth...",
