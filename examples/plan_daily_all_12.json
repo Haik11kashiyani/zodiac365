@@ -32,8 +32,9 @@
             "assets/zodiac_signs/Gemini.jpg"
         ],
         "active": true,
-        "status": "pending",
-        "date": "TODAY"
+        "status": "done",
+        "date": "TODAY",
+        "uploaded": true
     },
     {
         "script_text": "Cancer, the Moon enters fellow water sign Scorpio today, igniting your house of creativity, romance, and joy. After a few days of focusing on home life, the stars are giving you permission to express your passions. If you've been working on a creative project, a breakthrough is likely today. In romance, don't be afraid to show your deeper side. Your magnetic energy is high, attracting people who appreciate your authentic soul. Follow your heart\u2014it knows the way.",
@@ -44,8 +45,9 @@
             "assets/zodiac_signs/Cancer.jpg"
         ],
         "active": true,
-        "status": "pending",
-        "date": "TODAY"
+        "status": "done",
+        "date": "TODAY",
+        "uploaded": true
     },
     {
         "script_text": "Leo, your focus shifts toward your inner sanctum today as the Moon moves into Scorpio. You may feel a strong urge to protect your privacy or spend quality time with family. While your work life is busy with the Capricorn stellium, your heart is calling you home. Use this energy to strengthen your emotional foundation. A conversation with a parent or elder could reveal a family secret or a piece of wisdom that helps you feel more secure.",
@@ -80,7 +82,7 @@
             "assets/zodiac_signs/Libra.jpg"
         ],
         "active": true,
-        "status": "pending",
+        "status": "done",
         "date": "TODAY"
     },
     {
