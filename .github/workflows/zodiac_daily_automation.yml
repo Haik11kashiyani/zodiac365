@@ -43,21 +43,7 @@ jobs:
           
           # Validate token.json
           echo "🔍 Validating token.json..."
-          python -c "
-import json
-try:
-    with open('token.json', 'r') as f:
-        data = json.load(f)
-    print(f'✅ Token JSON is valid. Keys: {list(data.keys())}')
-    required = ['token', 'refresh_token']
-    missing = [k for k in required if k not in data]
-    if missing:
-        print(f'⚠️ Missing keys: {missing}')
-    else:
-        print('✅ All required keys present!')
-except Exception as e:
-    print(f'❌ Token JSON invalid: {e}')
-          "
+          python -c "import json; f=open('token.json'); d=json.load(f); print('✅ Token Keys:', list(d.keys())); print('Has refresh_token:', 'refresh_token' in d)"
 
       - name: Run Video Automation
         env:
