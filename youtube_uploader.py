@@ -4,23 +4,60 @@ import datetime
 import googleapiclient.discovery
 import googleapiclient.errors
 from google.oauth2.credentials import Credentials
+from google.auth.transport.requests import Request
 from googleapiclient.http import MediaFileUpload
 
 SCOPES = ['https://www.googleapis.com/auth/youtube.upload']
 
 def get_authenticated_service():
+    """
+    Authenticate with YouTube API using token.json or environment variables.
+    Supports automatic token refresh using CLIENT_ID and CLIENT_SECRET.
+    """
     token_file = os.path.join(os.path.dirname(__file__), 'token.json')
     print(f"🔍 Looking for token at: {token_file}")
+    
+    # Get client credentials from environment (for token refresh)
+    client_id = os.environ.get('YOUTUBE_CLIENT_ID')
+    client_secret = os.environ.get('YOUTUBE_CLIENT_SECRET')
     
     if not os.path.exists(token_file):
         print("⚠️ No token.json found. Cannot upload to YouTube.")
         return None
 
     try:
-        with open(token_file, 'r') as token:
-            token_data = json.load(token)
+        with open(token_file, 'r') as f:
+            token_data = json.load(f)
             print(f"✅ Token loaded. Keys present: {list(token_data.keys())}")
-            creds = Credentials.from_authorized_user_info(token_data, SCOPES)
+        
+        # Add client_id and client_secret if not in token (needed for refresh)
+        if client_id and 'client_id' not in token_data:
+            token_data['client_id'] = client_id
+        if client_secret and 'client_secret' not in token_data:
+            token_data['client_secret'] = client_secret
+            
+        creds = Credentials.from_authorized_user_info(token_data, SCOPES)
+        
+        # Check if token is expired and refresh if possible
+        if creds and creds.expired and creds.refresh_token:
+            print("🔄 Token expired, attempting refresh...")
+            try:
+                creds.refresh(Request())
+                print("✅ Token refreshed successfully!")
+                
+                # Save refreshed token back to file
+                with open(token_file, 'w') as f:
+                    json.dump({
+                        'token': creds.token,
+                        'refresh_token': creds.refresh_token,
+                        'token_uri': creds.token_uri,
+                        'client_id': creds.client_id,
+                        'client_secret': creds.client_secret,
+                        'scopes': list(creds.scopes)
+                    }, f)
+            except Exception as refresh_error:
+                print(f"⚠️ Token refresh failed: {refresh_error}")
+        
         return googleapiclient.discovery.build('youtube', 'v3', credentials=creds)
     except Exception as e:
         print(f"❌ Error loading YouTube token: {e}")
