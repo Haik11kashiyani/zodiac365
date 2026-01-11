@@ -37,13 +37,13 @@ jobs:
         env:
           YOUTUBE_TOKEN: ${{ secrets.YOUTUBE_TOKEN }}
         run: |
-          # Write the token.json from secrets
-          echo "$YOUTUBE_TOKEN" > token.json
-          echo "✅ token.json injected"
+          # Write the token.json from secrets using printf to preserve JSON
+          printf '%s' "$YOUTUBE_TOKEN" > token.json
+          echo "✅ token.json injected ($(wc -c < token.json) bytes)"
           
-          # Validate token.json
+          # Validate token.json (non-fatal - just for debugging)
           echo "🔍 Validating token.json..."
-          python -c "import json; f=open('token.json'); d=json.load(f); print('✅ Token Keys:', list(d.keys())); print('Has refresh_token:', 'refresh_token' in d)"
+          python -c "import json; f=open('token.json'); d=json.load(f); print('✅ Token Keys:', list(d.keys())); print('Has refresh_token:', 'refresh_token' in d)" || echo "⚠️ Token validation failed - check secret format"
 
       - name: Run Video Automation
         env:
