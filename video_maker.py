@@ -16,9 +16,15 @@ except ImportError:
 # Import uploader
 try:
     from youtube_uploader import upload_video
-except ImportError:
+    print("✅ YouTube Uploader imported successfully!")
+except ImportError as e:
     upload_video = None
-    print("⚠️ YouTube Uploader not found. Auto-upload disabled.")
+    print(f"⚠️ YouTube Uploader not found. Auto-upload disabled. Error: {e}")
+except Exception as e:
+    upload_video = None
+    print(f"❌ Error importing YouTube Uploader: {e}")
+    import traceback
+    traceback.print_exc()
 
 # ═══════════════════════════════════════════════════════════════════════════════
 # WESTERN VIRAL VIDEO MAKER v5.0
