@@ -187,12 +187,21 @@ def get_relevant_images(data):
                 # NEW: Check for DIRECTORY of images first
                 sign_dir = os.path.join("assets", "zodiac_signs", sign)
                 if os.path.isdir(sign_dir):
-                    # Pick random image from directory
-                    possible = [os.path.join(sign_dir, f) for f in os.listdir(sign_dir) if f.endswith(('.jpg', '.png'))]
+                    # Pick MULTIPLE images from directory deterministically based on date
+                    # This ensures "according to script/day" consistency rather than pure random noise
+                    possible = sorted([os.path.join(sign_dir, f) for f in os.listdir(sign_dir) if f.endswith(('.jpg', '.png'))])
+                    
                     if possible:
-                         selected = random.choice(possible)
-                         print(f"✅ Using Random Local Asset from Folder: {selected}")
-                         valid_images.append(selected)
+                         # Use Day of Year as seed so it's consistent for the whole day, but changes daily
+                         day_of_year = datetime.now().timetuple().tm_yday
+                         rng = random.Random(day_of_year)
+                         
+                         # Select up to 5 unique images for the different segments
+                         count = min(5, len(possible))
+                         selected = rng.sample(possible, k=count)
+                         
+                         print(f"✅ Using {count} Local Assets from Folder (Day Seed: {day_of_year})")
+                         valid_images.extend(selected)
                          break
                 
                 # OLD: Fallback to single file reference if valid
