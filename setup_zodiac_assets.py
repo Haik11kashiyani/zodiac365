@@ -4,8 +4,8 @@ import time
 import shutil
 import sys
 
-# Force UTF-8
-sys.stdout.reconfigure(encoding='utf-8')
+# Force UTF-8 (Removed as it causes issues in some shells)
+# sys.stdout.reconfigure(encoding='utf-8')
 
 # --- CONFIGURATION ---
 ASSET_DIR = "assets/zodiac_signs"
@@ -48,8 +48,9 @@ def generate_and_download(sign, index):
     
     print(f"🎨 Painting {sign} #{index+1}...")
     
+    print(f"   Requesting {url}...")
     try:
-        response = requests.get(url, stream=True, timeout=30)
+        response = requests.get(url, stream=True, timeout=5)
         if response.status_code == 200:
             with open(save_path, 'wb') as f:
                 response.raw.decode_content = True
