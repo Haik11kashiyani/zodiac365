@@ -80,3 +80,6 @@ def main():
 
     print("\n🎉 All 120 Zodiac Assets Generated & Downloaded.")
 
+if __name__ == "__main__":
+    main()
+
