@@ -3,6 +3,8 @@ import requests
 import time
 import shutil
 import sys
+import urllib3
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # Force UTF-8 (Removed as it causes issues in some shells)
 # sys.stdout.reconfigure(encoding='utf-8')
@@ -49,17 +51,27 @@ def generate_and_download(sign, index):
     print(f"🎨 Painting {sign} #{index+1}...")
     
     print(f"   Requesting {url}...")
-    try:
-        response = requests.get(url, stream=True, timeout=60)
-        if response.status_code == 200:
-            with open(save_path, 'wb') as f:
-                response.raw.decode_content = True
-                shutil.copyfileobj(response.raw, f)
-            print(f"✅ Saved: {save_path}")
-        else:
-            print(f"❌ Failed to generate {sign} #{index+1}")
-    except Exception as e:
-        print(f"❌ Error: {e}")
+    
+    # Retry logic
+    headers = {'User-Agent': 'Mozilla/5.0'}
+    for attempt in range(3):
+        try:
+            # Disable SSL verify because this free API triggers occasional weird SSL errors
+            response = requests.get(url, stream=True, timeout=60, headers=headers, verify=False)
+            if response.status_code == 200:
+                with open(save_path, 'wb') as f:
+                    response.raw.decode_content = True
+                    shutil.copyfileobj(response.raw, f)
+                print(f"✅ Saved: {save_path}")
+                return # Success, exit function
+            else:
+                print(f"   Attempt {attempt+1}: Status {response.status_code}")
+        except Exception as e:
+            print(f"   Attempt {attempt+1} Error: {e}")
+        
+        time.sleep(2) # Wait before retry
+        
+    print(f"❌ Failed to generate {sign} #{index+1} after 3 attempts")
         
     # Respect the server
     time.sleep(1)
