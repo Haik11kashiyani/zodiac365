@@ -150,29 +150,59 @@ def get_relevant_images(data):
         if sign in title or sign in fname:
             found_signs.append(path)
     
-    # Use found signs first
-    images = []
-    if found_signs:
-        images.extend(found_signs)
-        # Duplicate for length if needed, or add related tarot cards?
-        # Let's add Tarot cards as fallback/variety
+    # VALIDATION & FALLBACK LOGIC
+    valid_images = []
     
-    # Fallback to provided images in data
-    if not images:
-        images = data.get('images', [])
-    
-    # If still empty, randomly pick ONE sign (risky but better than crash)
-    if not images:
-        images = [random.choice(list(ZODIAC_SIGNS.values()))]
+    # 1. Validate Generated/Found Images
+    all_candidates = images + data.get('images', []) 
+    # Deduplicate preserving order
+    unique_candidates = []
+    seen = set()
+    for img in all_candidates:
+        if img not in seen:
+            unique_candidates.append(img)
+            seen.add(img)
+
+    for img_path in unique_candidates:
+        if not os.path.exists(img_path): continue
         
-    # Add generic "mystical" tarot cards for variety (never other signs)
-    tarot_dir = "assets/tarot_cards"
-    if os.path.exists(tarot_dir):
-        tarot_cards = [os.path.join(tarot_dir, f) for f in os.listdir(tarot_dir) if f.endswith('.jpg')]
-        if tarot_cards:
-            images.extend(random.sample(tarot_cards, min(3, len(tarot_cards))))
+        # Check for "Fake/Error" images (usually small files < 5KB are error texts)
+        try:
+            file_size = os.path.getsize(img_path)
+            if file_size < 5000: # < 5KB is typically a text error response
+                print(f"⚠️ Skipping invalid/small image: {img_path} ({file_size} bytes)")
+                continue
             
-    return images
+            # Optional: Check dimensions if needed, but size is usually enough for these APIs
+            valid_images.append(img_path)
+        except:
+            continue
+            
+    # 2. If no valid images, FORCE FALLBACK to Local Sign Asset
+    if not valid_images:
+        print("⚠️ No valid generated images found. Switching to Local Assets.")
+        for sign, path in ZODIAC_SIGNS.items():
+            # Check if sign name is in target/title
+            if sign.upper() in title.upper() or sign.upper() in target.upper():
+                if os.path.exists(path):
+                    print(f"✅ Using Local Asset: {path}")
+                    valid_images.append(path)
+                    break 
+    
+    # 3. Final Fallback (Random Tarot or Sign)
+    if not valid_images:
+        # Check tarot
+        tarot_dir = "assets/tarot_cards"
+        if os.path.exists(tarot_dir):
+            tarot_cards = [os.path.join(tarot_dir, f) for f in os.listdir(tarot_dir) if f.endswith('.jpg')]
+            if tarot_cards:
+                valid_images.extend(random.sample(tarot_cards, min(3, len(tarot_cards))))
+        
+        # Absolute last resort
+        if not valid_images:
+             valid_images = [random.choice(list(ZODIAC_SIGNS.values()))]
+
+    return valid_images
 
 # ═══════════════════════════════════════════════════════════════════════════════
 # RENDER
@@ -343,12 +373,14 @@ def render(data):
         title_text,
         fontsize=75,
         color='white',
-        font="Arial-Black", # Thick font if available
+        font="Arial-Black", 
         stroke_color='black',
-        stroke_width=2,
+        stroke_width=4, # Thicker stroke
         align='center'
     )
     title_clip = title_clip.set_position(('center', 150))
+    # Add shadow for better visibility
+    # (Shadow logic can be complex in moviepy, sticking to strong stroke for now)
     
     # 2. Sub Title (The Context) - GOLD & SPACED
     # 2. Sub Title (The Context) - GOLD & SPACED
@@ -403,24 +435,26 @@ def render(data):
             
             # Create fresh box
             # Pass Y_START primarily
-            box_path = create_glow_box(1080, 1920, y_start=BOX_Y_START, box_height=box_h)
+            # box_path = create_glow_box(1080, 1920, y_start=BOX_Y_START, box_height=box_h)
             
-            bg = ImageClip(box_path).set_start(start).set_duration(chunk_dur)
-            bg = bg.crossfadein(0.05).crossfadeout(0.05)
-            clips.append(bg)
+            # bg = ImageClip(box_path).set_start(start).set_duration(chunk_dur)
+            # bg = bg.crossfadein(0.05).crossfadeout(0.05)
+            # clips.append(bg)
             
             center_y = BOX_Y_START + (box_h // 2)
             
+            # IMPROVED SUBTITLE: Yellow text on semi-transparent Black Box
             txt_clip = TextClip(
                 wrapped, 
-                fontsize=40,  # SMALLER
+                fontsize=40, 
                 color='yellow', 
                 font=FONT_NAME,
                 stroke_color='black', 
-                stroke_width=1, 
+                stroke_width=2, 
                 method='caption',
                 align='center',
-                size=(900, None) 
+                size=(900, None),
+                bg_color='rgba(0,0,0,0.6)' # Semi-transparent black background
             )
             txt_clip = txt_clip.set_position(('center', center_y - (txt_clip.h // 2) - 5)) 
             txt_clip = txt_clip.set_start(start).set_duration(chunk_dur)
