@@ -1,6 +1,6 @@
 [
     {
-        "script_text": "Aries, as the Moon shifts into Scorpio today, your focus dives deep into shared resources and personal transformation. With the Sun and Mars fueling your career sector, you have the stamina to close a complex deal or uncover a hidden professional opportunity. Trust your investigative instincts\u2014if something feels off, dig deeper. This isn't a day for surface-level talk. Harness your intensity to solve a long-standing mystery and watch your professional influence rise by sunset.",
+        "script_text": "Aries, today’s Scorpio Moon invites you to look beneath the surface of your professional partnerships. With a powerhouse of planets in Capricorn, your career is entering a phase of intense transformation. Trust the gut feelings you get during meetings today. You are being asked to merge your bold ambition with a deeper level of strategy. Secure your resources, focus on the 'why' behind your goals, and let your intuition lead you to a major breakthrough by nightfall.",
         "title": "Aries Daily Horoscope \u2648",
         "target": "ARIES",
         "type": "daily",
@@ -8,11 +8,11 @@
             "assets/zodiac_signs/Aries.jpg"
         ],
         "active": true,
-        "status": "done",
+        "status": "pending",
         "date": "TODAY"
     },
     {
-        "script_text": "Taurus, the Moon moves into your opposite sign of Scorpio today, putting a powerful spotlight on your closest relationships. You may feel a pull toward deeper intimacy or a need to resolve a lingering conflict. While the Capricorn energy encourages you to look at the big picture, the Scorpio Moon demands emotional honesty. Don't shy away from the 'real' conversations. A moment of vulnerability today will strengthen your bonds more than any grand gesture ever could.",
+        "script_text": "Taurus, the Scorpio Moon is highlighting your seventh house of partnerships today, demanding total honesty. As the Capricorn Sun and Mars support your long-term vision, you are finding that the right alliances are key to your success. Don't settle for surface-level agreements; dive deep into the details of your commitments. A breakthrough in a romantic or business relationship is likely if you lead with your heart. Trust the process of connection—true stability is built on transparency.",
         "title": "Taurus Daily Horoscope \u2649",
         "target": "TAURUS",
         "type": "daily",
@@ -20,11 +20,11 @@
             "assets/zodiac_signs/Taurus.jpg"
         ],
         "active": true,
-        "status": "done",
+        "status": "pending",
         "date": "TODAY"
     },
     {
-        "script_text": "Gemini, your daily routine gets a dose of Scorpio intensity today. It\u2019s the perfect time to declutter your workspace or dive into a research project that requires laser-like focus. With your ruler Mercury in Capricorn, your thinking is grounded and practical. Use this combination to tackle your most difficult tasks first. Pay close attention to your health and hydration today\u2014your body is processing a lot of mental energy. Stay disciplined, and you'll end the day feeling incredibly productive.",
+        "script_text": "Gemini, productivity is your middle name today! The Scorpio Moon gives you a laser-like focus on your daily habits and health routines. While Mercury in Capricorn keeps your mind on big-picture goals, today is about the small, intense improvements that lead to massive results. Analyze your workflow and eliminate what isn't serving you. Your ability to solve complex problems is at an all-time high this afternoon. Stay disciplined, stay hydrated, and watch your efficiency soar to new heights.",
         "title": "Gemini Daily Horoscope \u264a",
         "target": "GEMINI",
         "type": "daily",
@@ -32,12 +32,11 @@
             "assets/zodiac_signs/Gemini.jpg"
         ],
         "active": true,
-        "status": "done",
-        "date": "TODAY",
-        "uploaded": true
+        "status": "pending",
+        "date": "TODAY"
     },
     {
-        "script_text": "Cancer, the Moon enters fellow water sign Scorpio today, igniting your house of creativity, romance, and joy. After a few days of focusing on home life, the stars are giving you permission to express your passions. If you've been working on a creative project, a breakthrough is likely today. In romance, don't be afraid to show your deeper side. Your magnetic energy is high, attracting people who appreciate your authentic soul. Follow your heart\u2014it knows the way.",
+        "script_text": "Cancer, today is a day of deep creative and romantic resonance. With the Moon in fellow water sign Scorpio, your intuition and passions are perfectly aligned. The Capricorn energy across the sky is grounding your relationships, making this an ideal time for a serious conversation about the future. If you are an artist, your work today will have a powerful, magnetic quality. Don't be afraid to show the world your intensity. Your vulnerability is currently your greatest source of strength.",
         "title": "Cancer Daily Horoscope \u264b",
         "target": "CANCER",
         "type": "daily",
@@ -45,12 +44,11 @@
             "assets/zodiac_signs/Cancer.jpg"
         ],
         "active": true,
-        "status": "done",
-        "date": "TODAY",
-        "uploaded": true
+        "status": "pending",
+        "date": "TODAY"
     },
     {
-        "script_text": "Leo, your focus shifts toward your inner sanctum today as the Moon moves into Scorpio. You may feel a strong urge to protect your privacy or spend quality time with family. While your work life is busy with the Capricorn stellium, your heart is calling you home. Use this energy to strengthen your emotional foundation. A conversation with a parent or elder could reveal a family secret or a piece of wisdom that helps you feel more secure.",
+        "script_text": "Leo, your focus remains on your home and inner emotional world today. The Scorpio Moon is asking you to heal a past wound or reinforce your family foundations. While your work life is demanding with the Capricorn stellium, the stars suggest that your true power today comes from your private life. Take a moment to declutter your personal space—it will clear your mind for the big professional moves you have planned for later this week. Trust your inner sanctuary.",
         "title": "Leo Daily Horoscope \u264c",
         "target": "LEO",
         "type": "daily",
@@ -58,11 +56,11 @@
             "assets/zodiac_signs/Leo.jpg"
         ],
         "active": true,
-        "status": "done",
+        "status": "pending",
         "date": "TODAY"
     },
     {
-        "script_text": "Virgo, your words carry a heavy weight today as the Moon enters your communication sector. You have the ability to see right through people\u2019s intentions, making it a brilliant day for negotiations or high-stakes meetings. The Capricorn Sun and Mars are supporting your creative self-expression, so don't be afraid to speak your truth with authority. Just remember to use your power wisely\u2014a kind word can be just as transformative as a sharp one. Trust your intellect today.",
+        "script_text": "Virgo, your mind is a powerful investigative tool today. The Scorpio Moon in your communication sector makes you the ultimate detective. Whether you are learning a new skill or negotiating a contract, you will see the truths that others miss. Use this edge to your advantage in your creative projects, which are highly favored by the Capricorn Sun. Speak with authority and don't be afraid to ask the hard questions. Your intellectual depth is your most valuable asset today.",
         "title": "Virgo Daily Horoscope \u264d",
         "target": "VIRGO",
         "type": "daily",
@@ -70,11 +68,11 @@
             "assets/zodiac_signs/Virgo.jpg"
         ],
         "active": true,
-        "status": "done",
+        "status": "pending",
         "date": "TODAY"
     },
     {
-        "script_text": "Libra, after a busy few days with the Moon in your sign, the energy shifts toward your finances and personal values. The Scorpio Moon encourages you to take a hard look at your budget and your long-term security. With the Capricorn stellium grounding your home life, it\u2019s a great day to make a major purchase or investment in your property. Don't settle for 'good enough'\u2014look for quality and longevity. Your worth is increasing, so start acting like it.",
+        "script_text": "Libra, today is all about your self-worth and financial strategy. The Scorpio Moon encourages you to take a deep look at your resources. Are you being compensated fairly for your intense efforts? With the Capricorn energy grounding your home and family life, you have the support needed to make a bold financial move. Don't rush into a purchase; instead, research the long-term value. Your intuition regarding money is incredibly sharp right now—listen to it and build your empire.",
         "title": "Libra Daily Horoscope \u264e",
         "target": "LIBRA",
         "type": "daily",
@@ -82,11 +80,11 @@
             "assets/zodiac_signs/Libra.jpg"
         ],
         "active": true,
-        "status": "done",
+        "status": "pending",
         "date": "TODAY"
     },
     {
-        "script_text": "Scorpio, the Moon enters your sign today, amplifying your natural magnetism and intuition to an all-time high. You are in your element, and people can feel your quiet power. While the Capricorn stellium sharpens your communication, don't feel the need to reveal all your secrets just yet. Your silence is your greatest tool for negotiation today. Trust your first impression of someone new; your gut is rarely wrong. Own your space and lead with your soul today.",
+        "script_text": "Scorpio, the Moon is still in your sign today, and it’s forming a beautiful trine to Saturn. This is your moment of maximum influence. You have the emotional depth and the practical discipline to manifest a long-term dream. While others may feel overwhelmed by the intensity, you are in your element. Use this magnetic energy to lead a project or deepen a connection. You are the master of your fate today. Own your power, trust your gut, and lead.",
         "title": "Scorpio Daily Horoscope \u264f",
         "target": "SCORPIO",
         "type": "daily",
@@ -94,11 +92,11 @@
             "assets/zodiac_signs/Scorpio.jpg"
         ],
         "active": true,
-        "status": "done",
+        "status": "pending",
         "date": "TODAY"
     },
     {
-        "script_text": "Sagittarius, the universe is asking you to go within today as the Moon enters your 12th house of the subconscious. You might feel a bit more introverted than usual, and that is perfectly okay. Use this quiet energy to process the major career moves you've been making. Your intuition is shouting right now\u2014pay attention to your dreams and gut feelings. A financial realization may come while you are in a quiet moment. Recharge your batteries; your season of action is coming.",
+        "script_text": "Sagittarius, the universe is guiding you through a period of quiet transformation. With the Moon in your 12th house, your subconscious is incredibly active. Use this day for spiritual practice or deep research. While your financial sector is busy with Capricorn planets, your best ideas will come during moments of solitude. Don't ignore a recurring dream or a sudden 'hunch' today. By retreating slightly, you are actually gaining the perspective needed to conquer your next big goal. Peace is power.",
         "title": "Sagittarius Daily Horoscope \u2650",
         "target": "SAGITTARIUS",
         "type": "daily",
@@ -106,11 +104,11 @@
             "assets/zodiac_signs/Sagittarius.jpg"
         ],
         "active": true,
-        "status": "done",
+        "status": "pending",
         "date": "TODAY"
     },
     {
-        "script_text": "Capricorn, you are the powerhouse of the zodiac right now, but today the Scorpio Moon shifts your focus toward your social circles and community. You are realizing that you don't have to climb the mountain alone. Reach out to a mentor or a group of like-minded peers who share your vision. A collaborative effort today could lead to a major breakthrough in your long-term goals. Your influence is at a peak\u2014use it to inspire others while you secure your legacy.",
+        "script_text": "Capricorn, your social influence is peaking today! As the Scorpio Moon activates your 11th house of community, you are the person everyone wants to talk to. Your natural authority is softened by a touch of mystery, making you incredibly persuasive. This is the perfect day to pitch an idea or seek support for a cause you believe in. Align your personal ambitions with the needs of the group. When you help others win, your own victory becomes inevitable and lasting.",
         "title": "Capricorn Daily Horoscope \u2651",
         "target": "CAPRICORN",
         "type": "daily",
@@ -118,11 +116,11 @@
             "assets/zodiac_signs/Capricorn.jpg"
         ],
         "active": true,
-        "status": "done",
+        "status": "pending",
         "date": "TODAY"
     },
     {
-        "script_text": "Aquarius, the Moon enters your career sector today, bringing intensity and focus to your professional life. You are being called to step into a leadership role or complete a high-stakes project. With the Capricorn energy working behind the scenes, you have the secret wisdom needed to succeed. Don't worry about the public's opinion\u2014focus on the results. A supervisor or person of authority is watching you closely today; show them your depth and your dedication to the long game.",
+        "script_text": "Aquarius, the spotlight is on your career and your legacy today. The Scorpio Moon in your 10th house demands that you bring your full intensity to your professional goals. With the Capricorn energy working in your house of secrets, you may have an 'ace up your sleeve' that nobody expects. Use your strategic mind to navigate office politics and stay focused on the end game. A significant person in authority is noticing your depth and dedication—keep pushing for greatness.",
         "title": "Aquarius Daily Horoscope \u2652",
         "target": "AQUARIUS",
         "type": "daily",
@@ -130,11 +128,11 @@
             "assets/zodiac_signs/Aquarius.jpg"
         ],
         "active": true,
-        "status": "done",
+        "status": "pending",
         "date": "TODAY"
     },
     {
-        "script_text": "Pisces, your perspective is expanding today as the Moon moves into fellow water sign Scorpio. You are craving deep wisdom and new experiences. It\u2019s a brilliant day for study, teaching, or spiritual exploration. With the Capricorn stellium supporting your social life, a friend might introduce you to a philosophy or travel opportunity that changes your world-view. Trust your intuition when it comes to long-distance matters. You are evolving, Pisces\u2014allow yourself to dream bigger than ever before.",
+        "script_text": "Pisces, today your mind is expanding in powerful new directions. The Scorpio Moon forms a supportive trine to Saturn in your sign, giving you the discipline to turn a philosophical idea into a reality. Whether you are studying, traveling, or teaching, you are doing so with a level of depth that inspires others. Your social circles in Capricorn are providing the structure you need to succeed. Trust your vision, Pisces. You are building something meaningful that will stand the test of time.",
         "title": "Pisces Daily Horoscope \u2653",
         "target": "PISCES",
         "type": "daily",
@@ -142,7 +140,7 @@
             "assets/zodiac_signs/Pisces.jpg"
         ],
         "active": true,
-        "status": "done",
+        "status": "pending",
         "date": "TODAY"
     }
 ]
