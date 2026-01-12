@@ -64,11 +64,34 @@ def generate_and_download(sign, index):
     # Respect the server
     time.sleep(1)
 
+def organize_legacy_assets():
+    """Moves old single files (Aries.jpg) into their new folders (Aries/Aries_legacy.jpg)"""
+    print("\n🧹 Organizing legacy assets...")
+    for sign in SIGNS:
+        legacy_file = os.path.join(ASSET_DIR, f"{sign}.jpg")
+        sign_dir = os.path.join(ASSET_DIR, sign)
+        
+        if not os.path.exists(sign_dir):
+            os.makedirs(sign_dir)
+            
+        if os.path.exists(legacy_file):
+            new_path = os.path.join(sign_dir, f"{sign}_legacy.jpg")
+            if not os.path.exists(new_path):
+                print(f"📦 Moving {legacy_file} -> {new_path}")
+                shutil.move(legacy_file, new_path)
+            else:
+                print(f"⚠️  Legacy file already exists in folder, removing duplicate: {legacy_file}")
+                os.remove(legacy_file)
+    print("✨ Cleanup complete.\n")
+
 def main():
     # 1. Create Base Directory
     if not os.path.exists(ASSET_DIR):
         os.makedirs(ASSET_DIR)
         print(f"📂 Created directory: {ASSET_DIR}")
+        
+    # 2. Cleanup Old Files
+    organize_legacy_assets()
 
     print("🚀 Starting Zodiac Asset Expansion (10 images per sign)...")
     print("This will generate 120 unique images. Please be patient.")
