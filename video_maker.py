@@ -154,7 +154,7 @@ def get_relevant_images(data):
     valid_images = []
     
     # 1. Validate Generated/Found Images
-    all_candidates = images + data.get('images', []) 
+    all_candidates = found_signs + data.get('images', []) 
     # Deduplicate preserving order
     unique_candidates = []
     seen = set()
