@@ -28,28 +28,34 @@ STYLES = [
     "cosmic nebula background, stardust, constellation lines"
 ]
 
-def generate_and_download(sign, index):
+# SEMANTIC THEMES for context-aware fallbacks
+THEMES = {
+    "Love": "romantic atmosphere, glowing red hearts, soft pink lighting, emotional connection, roses",
+    "Career": "wealth, gold coins, luxurious office, success, stack of money, business growth, golden glow",
+    "Health": "vitality, nature, meditating, green glowing aura, healing energy, organic, peaceful forest",
+    "Travel": "adventure, majestic mountains, vintage world map, compass, airplane, scenic view, wanderlust"
+}
+
+def generate_and_download_variant(sign, suffix, prompt_detail):
     sign_dir = os.path.join(ASSET_DIR, sign)
     if not os.path.exists(sign_dir):
         os.makedirs(sign_dir)
         
-    filename = f"{sign}_{index}.jpg"
+    filename = f"{sign}_{suffix}.jpg"
     save_path = os.path.join(sign_dir, filename)
     
     if os.path.exists(save_path):
         print(f"⚡ Skipping {filename} (Exists)")
         return
 
-    # Pick a style based on index to get variety
-    style = STYLES[index % len(STYLES)]
-    seed = int(time.time()) + index # Random seed
+    # Construct Prompt
+    # e.g. "Aries zodiac sign, romantic atmosphere..., 8k, hyperrealistic"
+    full_prompt = f"{sign} zodiac sign, {prompt_detail}, 8k, hyperrealistic, masterpiece"
+    seed = int(time.time()) + len(suffix) # Random seed variant
     
-    prompt = f"{sign} zodiac sign, {style}, seed-{seed}"
-    # Pollinations: Free AI Image Generator
-    url = f"https://image.pollinations.ai/prompt/{prompt}?width=1080&height=1920&nologo=true&seed={seed}"
+    url = f"https://image.pollinations.ai/prompt/{full_prompt}?width=1080&height=1920&nologo=true&seed={seed}"
     
-    print(f"🎨 Painting {sign} #{index+1}...")
-    
+    print(f"🎨 Painting {sign} [{suffix}]...")
     print(f"   Requesting {url}...")
     
     # Retry logic
@@ -63,15 +69,24 @@ def generate_and_download(sign, index):
                     response.raw.decode_content = True
                     shutil.copyfileobj(response.raw, f)
                 print(f"✅ Saved: {save_path}")
-                return # Success, exit function
+                return # Success
             else:
                 print(f"   Attempt {attempt+1}: Status {response.status_code}")
         except Exception as e:
             print(f"   Attempt {attempt+1} Error: {e}")
         
-        time.sleep(2) # Wait before retry
+        time.sleep(2)
         
-    print(f"❌ Failed to generate {sign} #{index+1} after 3 attempts")
+    print(f"❌ Failed to generate {sign} [{suffix}]")
+
+
+def generate_and_download(sign, index):
+    # Wrapper for old numbered style
+    style = STYLES[index % len(STYLES)]
+    seed = int(time.time()) + index
+    prompt = f"{style}, seed-{seed}"
+    generate_and_download_variant(sign, str(index), prompt)
+
         
     # Respect the server
     time.sleep(1)
@@ -112,6 +127,10 @@ def main():
         print(f"\n🔮 Processing {sign}...")
         for i in range(10): # 10 images per sign
             generate_and_download(sign, i)
+            
+        # Themed Generation
+        for theme_name, theme_prompt in THEMES.items():
+            generate_and_download_variant(sign, theme_name, theme_prompt)
 
     print("\n🎉 All 120 Zodiac Assets Generated & Downloaded.")
 

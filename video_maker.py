@@ -181,14 +181,43 @@ def get_relevant_images(data):
     # 2. If no valid images, FORCE FALLBACK to Local Sign Asset
     if not valid_images:
         print("⚠️ No valid generated images found. Switching to Local Assets.")
+        
+        # KEYWORD ANALYSIS FOR THEME
+        # Keywords to match the new THEMES in setup_zodiac_assets.py
+        script_text = data.get('script_text', '').lower() + " " + data.get('title', '').lower()
+        detected_theme = None
+        
+        if any(w in script_text for w in ['love', 'romance', 'partner', 'heart', 'relationship', 'dating', 'marriage', 'soulmate']):
+            detected_theme = "Love"
+        elif any(w in script_text for w in ['money', 'job', 'work', 'finance', 'career', 'wealth', 'business', 'success']):
+            detected_theme = "Career"
+        elif any(w in script_text for w in ['health', 'energy', 'wellness', 'sick', 'healing', 'body', 'mind']):
+            detected_theme = "Health"
+        elif any(w in script_text for w in ['travel', 'trip', 'journey', 'foreign', 'abroad', 'moving', 'adventure']):
+            detected_theme = "Travel"
+            
+        if detected_theme:
+            print(f"🧠 Context Detected: {detected_theme}")
+        
         for sign, path_or_name in ZODIAC_SIGNS.items():
             # Check if sign name is in target/title
             if sign.upper() in title.upper() or sign.upper() in target.upper():
                 # NEW: Check for DIRECTORY of images first
                 sign_dir = os.path.join("assets", "zodiac_signs", sign)
                 if os.path.isdir(sign_dir):
-                    # Pick MULTIPLE images from directory deterministically based on date
-                    # This ensures "according to script/day" consistency rather than pure random noise
+                    # 1. Try to find THEMED image first (e.g. Aries_Love.jpg)
+                    if detected_theme:
+                        themed_path = os.path.join(sign_dir, f"{sign}_{detected_theme}.jpg")
+                        if os.path.exists(themed_path):
+                            print(f"✅ Using THEMED Local Asset: {themed_path}")
+                            # If we have a theme, usage of just one PERFECT image is often better than random mix
+                            # But we can mix it with others if needed. For now, let's use it as primary.
+                            valid_images.append(themed_path)
+                    
+                    # 2. Pick MULTIPLE images from directory deterministically based on date (Generic Fallback)
+                    # If we found a themed one, we can add generics to fill the rest of the video segments?
+                    # Yes, logic below extends valid_images.
+                    
                     possible = sorted([os.path.join(sign_dir, f) for f in os.listdir(sign_dir) if f.endswith(('.jpg', '.png'))])
                     
                     if possible:
@@ -196,12 +225,13 @@ def get_relevant_images(data):
                          day_of_year = datetime.now().timetuple().tm_yday
                          rng = random.Random(day_of_year)
                          
-                         # Select up to 5 unique images for the different segments
-                         count = min(5, len(possible))
-                         selected = rng.sample(possible, k=count)
+                         # Select up to 4 unique images (leaving room for themed one if exists)
+                         count_needed = 5 - len(valid_images)
+                         if count_needed > 0:
+                             selected = rng.sample(possible, k=min(count_needed, len(possible)))
+                             print(f"✅ Using {len(selected)} Generic Assets to fill video")
+                             valid_images.extend(selected)
                          
-                         print(f"✅ Using {count} Local Assets from Folder (Day Seed: {day_of_year})")
-                         valid_images.extend(selected)
                          break
                 
                 # OLD: Fallback to single file reference if valid
