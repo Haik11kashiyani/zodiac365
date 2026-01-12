@@ -554,10 +554,33 @@ def check_freshness_and_update(data):
         # Expected format: "Jan 05" (or "Jan 5")
         # Let's check against today's formatted date
         today_str = now.strftime("%b %d") # e.g. Dec 28
-        # Simple match check
-        if current_date_str != today_str and current_date_str != "TODAY":
-            print(f"🔄 STALE CONTENT DETECTED: {target} (Date: {current_date_str} vs {today_str})")
-            is_stale = True
+        
+        # SMART DATE CHECK: Allow Future Dates (Pre-generation)
+        is_stale = False
+        if current_date_str == "TODAY":
+            pass # Always fresh if explicitly marked TODAY (dynamic)
+        elif current_date_str != today_str:
+            # If mismatch, check if it's strictly in the PAST
+            try:
+                # Parse "Jan 13" with current year
+                # strptime defaults to 1900, so we need to add year logic if verifying strictly
+                # Simple Hack: compare string equality first (done above).
+                # If distinct, assume stale UNLESS it looks like future?
+                
+                # Robust Parse
+                dt_cur = datetime.strptime(f"{current_date_str} {now.year}", "%b %d %Y")
+                dt_today = datetime.strptime(f"{today_str} {now.year}", "%b %d %Y")
+                
+                if dt_cur < dt_today:
+                     print(f"🔄 STALE (Past) CONTENT DETECTED: {target} (Date: {current_date_str})")
+                     is_stale = True
+                else:
+                     print(f"📅 FUTURE CONTENT DETECTED: {target} (Date: {current_date_str}). Keeping.")
+                     is_stale = False
+            except:
+                # If parse fails (formatting issue), default to strict equality check (STALE)
+                print(f"⚠️ Date Parse Failed for '{current_date_str}'. resetting.")
+                is_stale = True
             
     # 2. Monthly Check
     elif mode == 'monthly':
