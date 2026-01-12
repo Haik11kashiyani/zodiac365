@@ -181,12 +181,24 @@ def get_relevant_images(data):
     # 2. If no valid images, FORCE FALLBACK to Local Sign Asset
     if not valid_images:
         print("⚠️ No valid generated images found. Switching to Local Assets.")
-        for sign, path in ZODIAC_SIGNS.items():
+        for sign, path_or_name in ZODIAC_SIGNS.items():
             # Check if sign name is in target/title
             if sign.upper() in title.upper() or sign.upper() in target.upper():
-                if os.path.exists(path):
-                    print(f"✅ Using Local Asset: {path}")
-                    valid_images.append(path)
+                # NEW: Check for DIRECTORY of images first
+                sign_dir = os.path.join("assets", "zodiac_signs", sign)
+                if os.path.isdir(sign_dir):
+                    # Pick random image from directory
+                    possible = [os.path.join(sign_dir, f) for f in os.listdir(sign_dir) if f.endswith(('.jpg', '.png'))]
+                    if possible:
+                         selected = random.choice(possible)
+                         print(f"✅ Using Random Local Asset from Folder: {selected}")
+                         valid_images.append(selected)
+                         break
+                
+                # OLD: Fallback to single file reference if valid
+                if os.path.exists(path_or_name):
+                    print(f"✅ Using Local Asset File: {path_or_name}")
+                    valid_images.append(path_or_name)
                     break 
     
     # 3. Final Fallback (Random Tarot or Sign)

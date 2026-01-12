@@ -16,24 +16,37 @@ SIGNS = [
     "Libra", "Scorpio", "Sagittarius", "Capricorn", "Aquarius", "Pisces"
 ]
 
-def generate_and_download(sign, filename, is_dark_side=False):
-    # Construct a Prompt for the Free AI
-    if is_dark_side:
-        prompt = f"scary evil dark {sign} zodiac sign, horror theme, red eyes, smoke, 8k wallpaper"
-        save_path = os.path.join(ASSET_DIR, f"{filename}_dark.jpg")
-    else:
-        prompt = f"{THEME} {sign} symbol, majesty, epic composition"
-        save_path = os.path.join(ASSET_DIR, f"{filename}.jpg")
-    
-    # Pollinations.ai URL (Free, No Key Needed)
-    # We encode the prompt into the URL
-    url = f"https://image.pollinations.ai/prompt/{prompt}?width=1080&height=1920&nologo=true"
+
+# Valid Styles for variety
+STYLES = [
+    "cinematic lighting, 8k, hyperrealistic",
+    "mystical, glowing runes, dark background, ethereal",
+    "oil painting style, masterpiece, intricate details",
+    "digital art, fantasy concept art, trending on artstation",
+    "cosmic nebula background, stardust, constellation lines"
+]
+
+def generate_and_download(sign, index):
+    sign_dir = os.path.join(ASSET_DIR, sign)
+    if not os.path.exists(sign_dir):
+        os.makedirs(sign_dir)
+        
+    filename = f"{sign}_{index}.jpg"
+    save_path = os.path.join(sign_dir, filename)
     
     if os.path.exists(save_path):
-        print(f"⚡ Skipping {save_path} (Exists)")
+        print(f"⚡ Skipping {filename} (Exists)")
         return
 
-    print(f"🎨 Painting {sign} ({'Dark' if is_dark_side else 'Normal'})...")
+    # Pick a style based on index to get variety
+    style = STYLES[index % len(STYLES)]
+    seed = int(time.time()) + index # Random seed
+    
+    prompt = f"{sign} zodiac sign, {style}, seed-{seed}"
+    # Pollinations: Free AI Image Generator
+    url = f"https://image.pollinations.ai/prompt/{prompt}?width=1080&height=1920&nologo=true&seed={seed}"
+    
+    print(f"🎨 Painting {sign} #{index+1}...")
     
     try:
         response = requests.get(url, stream=True, timeout=30)
@@ -43,30 +56,26 @@ def generate_and_download(sign, filename, is_dark_side=False):
                 shutil.copyfileobj(response.raw, f)
             print(f"✅ Saved: {save_path}")
         else:
-            print(f"❌ Failed to generate {sign}")
+            print(f"❌ Failed to generate {sign} #{index+1}")
     except Exception as e:
         print(f"❌ Error: {e}")
         
     # Respect the server
-    time.sleep(2)
+    time.sleep(1)
 
 def main():
-    # 1. Create Directory
+    # 1. Create Base Directory
     if not os.path.exists(ASSET_DIR):
         os.makedirs(ASSET_DIR)
         print(f"📂 Created directory: {ASSET_DIR}")
 
-    print("🚀 Starting Zodiac Art Generation...")
+    print("🚀 Starting Zodiac Asset Expansion (10 images per sign)...")
+    print("This will generate 120 unique images. Please be patient.")
 
     for sign in SIGNS:
-        # Generate Standard Image (For Predictions/Compatibility)
-        generate_and_download(sign, sign, is_dark_side=False)
-        
-        # Generate Dark Side Image (For Phase 3: Dark Truths)
-        generate_and_download(sign, sign, is_dark_side=True)
+        print(f"\n🔮 Processing {sign}...")
+        for i in range(10): # 10 images per sign
+            generate_and_download(sign, i)
 
-    print("\n🎉 All 24 Zodiac Assets Generated & Downloaded.")
-    print("👉 Now commit and push the 'assets' folder to GitHub.")
+    print("\n🎉 All 120 Zodiac Assets Generated & Downloaded.")
 
-if __name__ == "__main__":
-    main()
