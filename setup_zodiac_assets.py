@@ -50,7 +50,7 @@ def generate_and_download(sign, index):
     
     print(f"   Requesting {url}...")
     try:
-        response = requests.get(url, stream=True, timeout=5)
+        response = requests.get(url, stream=True, timeout=60)
         if response.status_code == 200:
             with open(save_path, 'wb') as f:
                 response.raw.decode_content = True
