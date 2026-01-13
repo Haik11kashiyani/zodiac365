@@ -11,6 +11,13 @@ try:
     from generator_zodiac import generate_content
 except ImportError:
     generate_content = None
+
+try:
+    import video_sourcer
+except ImportError:
+    video_sourcer = None
+
+# Import uploader
     print("⚠️ Generator not found. Auto-update disabled.")
 
 # Import uploader
@@ -79,6 +86,35 @@ def clean_subtitle(text):
     t = clean_speech(text)
     t = re.sub(r'[^\w\s.,!?-]', '', t)
     return t.strip()
+
+def create_cinematic_overlay(width, height):
+    """Creates a professional bottom-shadow gradient for text readability."""
+    # Create a gradient mask
+    # Top 60% transparent, Bottom 40% fades to black
+    
+    # We can use a simple ColorClip with opacity, but a gradient is 'Pro'.
+    # Since creating a gradient alpha mask in moviepy/numpy manually is verbose,
+    # let's stick to a reliable semi-transparent black ColorClip at the bottom for now,
+    # or generate a PNG.
+    
+    # High-End: Solid Black bar with low opacity is "Netflix Style" for subtitles.
+    # Gradient is better. Let's create a PNG on the fly using Pillow.
+    
+    path = "temp_cinematic_overlay.png" # Changed filename to avoid conflict with old vignette
+    if os.path.exists(path): return path
+    
+    img = Image.new('RGBA', (width, height), (0,0,0,0))
+    draw = ImageDraw.Draw(img)
+    
+    # Gradient from Y=60% to 100%
+    start_y = int(height * 0.6)
+    for y in range(start_y, height):
+        # Alpha 0 to 220
+        alpha = int((y - start_y) / (height - start_y) * 220)
+        draw.line([(0, y), (width, y)], fill=(0, 0, 0, alpha))
+        
+    img.save(path)
+    return path
 
 def wrap_text_dynamic(text, max_char=20):
     """Wrap text to ensure it fits."""
@@ -295,7 +331,7 @@ def render(data):
         return False
         
     voice_clip = AudioFileClip("v.mp3")
-    duration = voice_clip.duration + 1.0
+    total_dur = voice_clip.duration + 1.0 # Renamed for clarity
 
     # 2. AUDIO MIX
     audio_clips = [voice_clip]
@@ -306,115 +342,149 @@ def render(data):
     
     if music_files:
         music = AudioFileClip(os.path.join(music_dir, random.choice(music_files)))
-        music = music.volumex(0.08).set_duration(duration) # Slight boost to 0.08
+        music = music.volumex(0.08).set_duration(total_dur) # Slight boost to 0.08
         audio_clips.append(music)
     
     # SFX - Removed as per request (Silent delivery)
     whoosh = None  # Disabled
     
     # 3. VISUALS
-    clips = []
-    base = ColorClip((1080, 1920), (5, 5, 10), duration=duration)
-    clips.append(base)
+    # --- VISUALS ---
+    # Try Video Background First (If Pexels Key exists)
+    video_bg_path = None
+    if os.environ.get("PEXELS_API_KEY") and video_sourcer: # Ensure video_sourcer is imported
+        target_sign = data.get('target', 'Aries')
+        video_bg_path = video_sourcer.get_smart_video_background(data, target_sign) # Assuming this function exists in video_sourcer
     
-    # Images
-    images = get_relevant_images(data)
-    # Ensure we cycle through them
-    num_segments = 5
-    seg_dur = duration / num_segments
+    main_visual_clip = None
     
-    for i in range(num_segments):
-        img_path = images[i % len(images)]
-        if not os.path.exists(img_path): continue
+    if video_bg_path and os.path.exists(video_bg_path):
+        print(f"🎬 Using Video Background: {video_bg_path}")
+        # Create Loop
+        bg_clip = VideoFileClip(video_bg_path, audio=False)
         
-        img_clip = ImageClip(img_path).resize(height=2300)
-        img_clip = img_clip.set_position('center')
-        
-        # "ALIVE" Cinematic Motion Logic
-        m_type = i % 4
-        
-        # Base resize to ensure coverage
-        # Default height 2300 gives (2300/1920)*1080 approx 1293 width.
-        # Screen width 1080. Surplus ~213px. Safe drift +/- 100px.
-        
-        # 1. SLOW ZOOM OUT (Documentary Style)
-        if m_type == 0: 
-            # Start zoomed in (1.2) and slowly drift out to 1.0
-            # High quality, professional look.
-            img_clip = img_clip.resize(height=2300)
-            img_clip = img_clip.set_position('center')
-            img_clip = img_clip.resize(lambda t: 1.2 - 0.05 * (t / seg_dur))
-            
-        # 2. CINEMATIC PAN (Safe Linear Move)
-        elif m_type == 1:
-            img_clip = img_clip.resize(height=2400) # Bigger for more pan room
-            # Width approx 1350. Limit +/- 130
-            def pan_func(t):
-                 # Smooth ease-in-out drift
-                 p = (math.sin(t * 0.5) + 1) / 2 # 0 to 1
-                 x_offset = -120 + (240 * p) # -120 to +120
-                 return ('center', 'center') # MoviePy set_position is tricky with centers in func
-            
-            # Simple linear that is SAFE
-            # X center is 540. We want to move from 440 to 640 (offset -100 to +100)
-            # Img width ~1350. Half is 675. 
-            # TopLeft X needed for Center X=540 is 540-675 = -135.
-            # We want to vary X from -235 to -35.
-            
-            # Let's use standard 'center' anchor but offset relative to it?
-            # Easier: Use fixed resize and compute top-left manually
-            img_w = 1080 * (2400/1920) # ~1350
-            start_x = (1080 - img_w) / 2 # Center
-            
-            def pan_safe(t):
-                # Move left to right slowly
-                current_x = start_x - 100 + (20 * t) 
-                return (current_x, 'center')
-            img_clip = img_clip.set_position(pan_safe)
-
-        # 3. ORBIT (Circular/Elliptical Drift)
-        elif m_type == 2:
-            img_clip = img_clip.resize(height=2500)
-            # Lots of room.
-            img_w = 1080 * (2500/1920) # ~1400
-            base_x = (1080 - img_w) / 2
-            base_y = (1920 - 2500) / 2
-            
-            def orbit_func(t):
-                # Small circle movement
-                x_off = 40 * math.cos(t)
-                y_off = 40 * math.sin(t)
-                return (base_x + x_off, base_y + y_off)
-            img_clip = img_clip.set_position(orbit_func)
-
-        # 4. DRAMATIC ZOOM (Ken Burns)
+        # PRO LOOPING
+        # If video is shorter than audio, loop it.
+        # If longer, subclip.
+        if bg_clip.duration < total_dur:
+            bg_clip = vfx.loop(bg_clip, duration=total_dur + 1.0)
         else:
-             img_clip = img_clip.resize(height=2300)
-             img_clip = img_clip.set_position('center')
-             # Start at 1.0, zoom in to 1.15
-             img_clip = img_clip.resize(lambda t: 1.0 + 0.15 * (t / seg_dur))
+            bg_clip = bg_clip.subclip(0, total_dur + 1.0)
+            
+        bg_clip = bg_clip.resize(height=1920).set_position("center")
+        main_visual_clip = bg_clip
         
-        # Determine strict duration
-        img_clip = img_clip.set_start(i * seg_dur).set_duration(seg_dur)
-        if i > 0: img_clip = img_clip.crossfadein(0.5) 
-        clips.append(img_clip)
+    else:
+        # FALLBACK TO IMAGES (Your existing logic)
+        images = get_relevant_images(data)
+        if not images:
+             print("❌ CRITICAL: No visuals found.")
+             return None
+             
+        # Create Image Clips (Ken Burns etc)
+        image_clips = []
+        base = ColorClip((1080, 1920), (5, 5, 10), duration=total_dur)
+        image_clips.append(base)
         
-        # Audio Whoosh removed
+        # Calculate segments
+        num_segments = 5
+        seg_dur = total_dur / num_segments
+        
+        for i in range(num_segments):
+            img_path = images[i % len(images)]
+            if not os.path.exists(img_path): continue
+            
+            img_clip = ImageClip(img_path).resize(height=2300)
+            img_clip = img_clip.set_position('center')
+            
+            # "ALIVE" Cinematic Motion Logic
+            m_type = i % 4
+            
+            # Base resize to ensure coverage
+            # Default height 2300 gives (2300/1920)*1080 approx 1293 width.
+            # Screen width 1080. Surplus ~213px. Safe drift +/- 100px.
+            
+            # 1. SLOW ZOOM OUT (Documentary Style)
+            if m_type == 0: 
+                # Start zoomed in (1.2) and slowly drift out to 1.0
+                # High quality, professional look.
+                img_clip = img_clip.resize(height=2300)
+                img_clip = img_clip.set_position('center')
+                img_clip = img_clip.resize(lambda t: 1.2 - 0.05 * (t / seg_dur))
+                
+            # 2. CINEMATIC PAN (Safe Linear Move)
+            elif m_type == 1:
+                img_clip = img_clip.resize(height=2400) # Bigger for more pan room
+                # Width approx 1350. Limit +/- 130
+                def pan_func(t):
+                     # Smooth ease-in-out drift
+                     p = (math.sin(t * 0.5) + 1) / 2 # 0 to 1
+                     x_offset = -120 + (240 * p) # -120 to +120
+                     return ('center', 'center') # MoviePy set_position is tricky with centers in func
+                
+                # Simple linear that is SAFE
+                # X center is 540. We want to move from 440 to 640 (offset -100 to +100)
+                # Img width ~1350. Half is 675. 
+                # TopLeft X needed for Center X=540 is 540-675 = -135.
+                # We want to vary X from -235 to -35.
+                
+                # Let's use standard 'center' anchor but offset relative to it?
+                # Easier: Use fixed resize and compute top-left manually
+                img_w = 1080 * (2400/1920) # ~1350
+                start_x = (1080 - img_w) / 2 # Center
+                
+                def pan_safe(t):
+                    # Move left to right slowly
+                    current_x = start_x - 100 + (20 * t) 
+                    return (current_x, 'center')
+                img_clip = img_clip.set_position(pan_safe)
 
-    # Overlays
+            # 3. ORBIT (Circular/Elliptical Drift)
+            elif m_type == 2:
+                img_clip = img_clip.resize(height=2500)
+                # Lots of room.
+                img_w = 1080 * (2500/1920) # ~1400
+                base_x = (1080 - img_w) / 2
+                base_y = (1920 - 2500) / 2
+                
+                def orbit_func(t):
+                    # Small circle movement
+                    x_off = 40 * math.cos(t)
+                    y_off = 40 * math.sin(t)
+                    return (base_x + x_off, base_y + y_off)
+                img_clip = img_clip.set_position(orbit_func)
+
+            # 4. DRAMATIC ZOOM (Ken Burns)
+            else:
+                 img_clip = img_clip.resize(height=2300)
+                 img_clip = img_clip.set_position('center')
+                 # Start at 1.0, zoom in to 1.15
+                 img_clip = img_clip.resize(lambda t: 1.0 + 0.15 * (t / seg_dur))
+            
+            # Determine strict duration
+            img_clip = img_clip.set_start(i * seg_dur).set_duration(seg_dur)
+            if i > 0: img_clip = img_clip.crossfadein(0.5) 
+            image_clips.append(img_clip)
+            
+            # Audio Whoosh removed
+        main_visual_clip = concatenate_videoclips(image_clips, method="compose")
+
+    # Overlays (applied on top of main_visual_clip)
+    overlay_clips = []
+
     # Particle/Noise
     particle_path = create_particle_overlay(1080, 1920)
-    particles = ImageClip(particle_path).set_duration(duration).set_opacity(0.15)
-    clips.append(particles)
+    particles = ImageClip(particle_path).set_duration(total_dur).set_opacity(0.15)
+    overlay_clips.append(particles)
     
     # Dark Overlay for text
-    overlay = ColorClip((1080, 1920), (0,0,0), duration=duration).set_opacity(0.3)
-    clips.append(overlay)
+    overlay = ColorClip((1080, 1920), (0,0,0), duration=total_dur).set_opacity(0.3)
+    overlay_clips.append(overlay)
     
-    # Vignette
-    vignette_path = create_vignette(1080, 1920)
-    vignette = ImageClip(vignette_path).set_duration(duration)
-    clips.append(vignette)
+    # Vignette (old one, if still desired)
+    # vignette_path = create_vignette(1080, 1920)
+    # vignette = ImageClip(vignette_path).set_duration(total_dur)
+    # overlay_clips.append(vignette)
     
     # PREMIUM HEADER OVERLAY ("Viral" Style)
     # 1. Main Title (The Sign or Topic) - BIG & BOLD
@@ -432,7 +502,6 @@ def render(data):
     # Add shadow for better visibility
     # (Shadow logic can be complex in moviepy, sticking to strong stroke for now)
     
-    # 2. Sub Title (The Context) - GOLD & SPACED
     # 2. Sub Title (The Context) - GOLD & SPACED
     sub_text = "FORECAST"
     if data['type'] == 'daily':
@@ -457,11 +526,11 @@ def render(data):
     # Position sub-title slightly below main title
     sub_clip = sub_clip.set_position(('center', 150 + title_clip.h + 10))
     
-    # Add both to clips
-    title_clip = title_clip.set_start(0).set_duration(duration)
-    sub_clip = sub_clip.set_start(0).set_duration(duration)
-    clips.append(title_clip)
-    clips.append(sub_clip)
+    # Add both to overlay_clips
+    title_clip = title_clip.set_start(0).set_duration(total_dur)
+    sub_clip = sub_clip.set_start(0).set_duration(total_dur)
+    overlay_clips.append(title_clip)
+    overlay_clips.append(sub_clip)
 
     # 4. SUBTITLES (Refined: Smaller & Cleaner)
     subtitle_text = clean_subtitle(txt)
@@ -483,14 +552,6 @@ def render(data):
             
             box_h = 130 if num_lines == 1 else 210
             
-            # Create fresh box
-            # Pass Y_START primarily
-            # box_path = create_glow_box(1080, 1920, y_start=BOX_Y_START, box_height=box_h)
-            
-            # bg = ImageClip(box_path).set_start(start).set_duration(chunk_dur)
-            # bg = bg.crossfadein(0.05).crossfadeout(0.05)
-            # clips.append(bg)
-            
             center_y = BOX_Y_START + (box_h // 2)
             
             # IMPROVED SUBTITLE: Yellow text on semi-transparent Black Box
@@ -508,12 +569,21 @@ def render(data):
             )
             txt_clip = txt_clip.set_position(('center', center_y - (txt_clip.h // 2) - 5)) 
             txt_clip = txt_clip.set_start(start).set_duration(chunk_dur)
-            clips.append(txt_clip)
+            overlay_clips.append(txt_clip)
 
-    # 5. FINAL
-    final = CompositeVideoClip(clips, size=(1080, 1920))
-    final = final.set_audio(CompositeAudioClip(audio_clips))
-    final = final.fadeout(0.5)
+    # --- ASSEMBLE ---
+    # Add Cinematic Overlay (Pro Readability)
+    cinematic_overlay_path = create_cinematic_overlay(1080, 1920)
+    cinematic_overlay_clip = ImageClip(cinematic_overlay_path).set_duration(total_dur)
+    overlay_clips.append(cinematic_overlay_clip)
+
+    # Combine all overlays into a single overlay composite
+    all_overlays = CompositeVideoClip(overlay_clips, size=(1080, 1920)).set_duration(total_dur)
+
+    # Final composition: main visual + all overlays
+    final_video = CompositeVideoClip([main_visual_clip, all_overlays], size=(1080, 1920))
+    final_video = final_video.set_audio(CompositeAudioClip(audio_clips)).set_duration(total_dur)
+    final_video = final_video.fadeout(0.5)
     
     # PATH FIX: Use absolute path for output to avoid CWD issues
     base_dir = os.path.dirname(os.path.abspath(__file__))
