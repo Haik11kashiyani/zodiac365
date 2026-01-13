@@ -136,3 +136,91 @@ def get_video_background(script_text, sign, theme=None):
         return random.choice(cached_files)
 
     return None
+
+def get_b_roll_sequence(script_text, sign, count=3):
+    """
+    Returns a LIST of video paths for dynamic scene changing.
+    Analyses script for multiple keywords if possible.
+    """
+    videos = []
+    
+    # 1. Determine Categories based on script analysis
+    categories = []
+    script_lower = script_text.lower()
+    
+    if any(w in script_lower for w in ['love', 'romance', 'partner', 'heart']): categories.append("Love")
+    if any(w in script_lower for w in ['money', 'wealth', 'career', 'job']): categories.append("Career")
+    if any(w in script_lower for w in ['health', 'healing', 'energy']): categories.append("Health")
+    if any(w in script_lower for w in ['travel', 'trip', 'adventure']): categories.append("Travel")
+    
+    # Fill remaining slots with Element or General Zodiac
+    element_map = {
+        "Aries":"Fire", "Leo":"Fire", "Sagittarius":"Fire",
+        "Taurus":"Nature", "Virgo":"Nature", "Capricorn":"Nature",
+        "Gemini":"Clouds", "Libra":"Clouds", "Aquarius":"Galaxy",
+        "Cancer":"Ocean", "Scorpio":"Dark Water", "Pisces":"Ocean"
+    }
+    
+    base_element = element_map.get(sign, "Galaxy")
+    
+    # Construct sequence strategy
+    # If we have a theme, maybe: [Theme, Element, Theme] or [Element, Theme, Element]
+    # Let's try to get unique videos.
+    
+    target_queries = []
+    
+    # Scene 1: Hook (Element or Abstract)
+    target_queries.append(f"{base_element} aesthetic vertical")
+    
+    # Scene 2: Theme Main (if exists)
+    if categories:
+        cat = categories[0]
+        if cat == 'Love': target_queries.append("romantic vertical")
+        elif cat == 'Career': target_queries.append("luxury gold vertical")
+        elif cat == 'Health': target_queries.append("peaceful nature vertical")
+        elif cat == 'Travel': target_queries.append("travel adventure vertical")
+    else:
+        target_queries.append(f"{sign} zodiac vertical")
+        
+    # Scene 3: Element Variation or Second Theme
+    if len(categories) > 1:
+        cat = categories[1]
+        target_queries.append(f"{cat} aesthetic vertical")
+    else:
+        target_queries.append(f"mystical {base_element} vertical")
+        
+    # Ensure we have enough queries
+    while len(target_queries) < count:
+        target_queries.append(f"abstract particle vertical")
+
+    # Fetch
+    used_ids = set()
+    for q in target_queries[:count]:
+        hits = search_pexel_video(q, per_page=5)
+        found = False
+        for hit in hits:
+            if hit['id'] not in used_ids:
+                fname = f"v_{hit['id']}.mp4"
+                # Save dir based on query/category approximation or just 'mixed'
+                # Simplest is to just use 'b_roll_cache'
+                save_dir = ensure_cache_dir("mixed_b_roll")
+                save_path = os.path.join(save_dir, fname)
+                
+                if download_video(hit['url'], save_path):
+                    videos.append(save_path)
+                    used_ids.add(hit['id'])
+                    found = True
+                    break
+        
+        if not found:
+            # Fallback to local element cache if search fails
+            # (Reusing get_video_background logic internally or simplifying)
+            fallback = get_video_background(script_text, sign) # This tries cache
+            if fallback and fallback not in videos:
+                videos.append(fallback)
+    
+    # If we still don't have enough, pad with duplicates (better than crash) or single video
+    if not videos:
+        return None
+        
+    return videos

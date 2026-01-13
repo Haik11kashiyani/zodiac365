@@ -351,28 +351,55 @@ def render(data):
     # 3. VISUALS
     # --- VISUALS ---
     # Try Video Background First (If Pexels Key exists)
-    video_bg_path = None
-    if os.environ.get("PEXELS_API_KEY") and video_sourcer: # Ensure video_sourcer is imported
+    video_bg_paths = []
+    
+    if os.environ.get("PEXELS_API_KEY") and video_sourcer: 
         target_sign = data.get('target', 'Aries')
-        video_bg_path = video_sourcer.get_smart_video_background(data, target_sign) # Assuming this function exists in video_sourcer
+        # Request 3 Scenes for a standard short
+        video_bg_paths = video_sourcer.get_b_roll_sequence(data.get('script_text', '') + " " + data.get('title', ''), target_sign, count=3)
     
     main_visual_clip = None
     
-    if video_bg_path and os.path.exists(video_bg_path):
-        print(f"🎬 Using Video Background: {video_bg_path}")
-        # Create Loop
-        bg_clip = VideoFileClip(video_bg_path, audio=False)
+    if video_bg_paths:
+        print(f"🎬 Using Multi-Scene Video Sequence: {len(video_bg_paths)} clips")
+        video_clips = []
         
-        # PRO LOOPING
-        # If video is shorter than audio, loop it.
-        # If longer, subclip.
-        if bg_clip.duration < total_dur:
-            bg_clip = vfx.loop(bg_clip, duration=total_dur + 1.0)
-        else:
-            bg_clip = bg_clip.subclip(0, total_dur + 1.0)
+        # Calculate duration per clip to fill total_dur
+        # But we want to preserve flow. 
+        # Divide total duration equally
+        part_dur = total_dur / len(video_bg_paths)
+        
+        for i, v_path in enumerate(video_bg_paths):
+            if not os.path.exists(v_path): continue
             
-        bg_clip = bg_clip.resize(height=1920).set_position("center")
-        main_visual_clip = bg_clip
+            clip = VideoFileClip(v_path, audio=False)
+            
+            # Resize / Crop to filling vertical
+            # Assuming vertical source (checked in sourcer), just ensure height 1920
+            if clip.h != 1920:
+                clip = clip.resize(height=1920)
+            if clip.w < 1080:
+                # If width is too small after height resize (rare for HD), resize by width
+                clip = clip.resize(width=1080)
+            
+            clip = clip.set_position("center")
+            
+            # Loop loop if source is too short for its part
+            if clip.duration < part_dur:
+                 clip = vfx.loop(clip, duration=part_dur + 1.0)
+            else:
+                 clip = clip.subclip(0, part_dur + 1.0) # Buffer
+                 
+            clip = clip.set_duration(part_dur)
+            clip = clip.set_start(i * part_dur)
+            
+            # Crossfade
+            if i > 0:
+                clip = clip.crossfadein(1.0) # 1 second smooth dissolve
+            
+            video_clips.append(clip)
+            
+        main_visual_clip = CompositeVideoClip(video_clips, size=(1080, 1920)).set_duration(total_dur)
         
     else:
         # FALLBACK TO IMAGES (Your existing logic)
