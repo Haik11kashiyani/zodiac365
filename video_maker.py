@@ -139,121 +139,120 @@ def create_vignette(width, height):
 # ═══════════════════════════════════════════════════════════════════════════════
 
 def get_relevant_images(data):
-    """Find images that actually match the sign/topic."""
+    """
+    SMART IMAGE SELECTOR v2.0
+    - Analyzes script content for themes (Love, Career, Health, Travel)
+    - Tracks usage in image_usage.json to avoid repetition
+    - Prioritizes themed images, then least-used general images
+    - Guarantees no image repeats within a single video
+    """
     title = data.get('title', '')
-    target = data.get('target', '') # Might not exist in json, checking title/file_name
-    fname = data.get('file_name', '')
+    target = data.get('target', '')
+    script_text = data.get('script_text', '').lower() + " " + title.lower()
     
-    # Identify sign
-    found_signs = []
-    for sign, path in ZODIAC_SIGNS.items():
-        if sign in title or sign in fname:
-            found_signs.append(path)
+    # --- 1. DETECT SIGN ---
+    detected_sign = None
+    for sign in ZODIAC_SIGNS.keys():
+        if sign.upper() in title.upper() or sign.upper() in target.upper():
+            detected_sign = sign
+            break
     
-    # VALIDATION & FALLBACK LOGIC
-    valid_images = []
+    if not detected_sign:
+        print("⚠️ No sign detected, using fallback")
+        detected_sign = "Aries"  # Default fallback
     
-    # 1. Validate Generated/Found Images
-    all_candidates = found_signs + data.get('images', []) 
-    # Deduplicate preserving order
-    unique_candidates = []
-    seen = set()
-    for img in all_candidates:
-        if img not in seen:
-            unique_candidates.append(img)
-            seen.add(img)
-
-    for img_path in unique_candidates:
-        if not os.path.exists(img_path): continue
-        
-        # Check for "Fake/Error" images (usually small files < 5KB are error texts)
-        try:
-            file_size = os.path.getsize(img_path)
-            if file_size < 5000: # < 5KB is typically a text error response
-                print(f"⚠️ Skipping invalid/small image: {img_path} ({file_size} bytes)")
-                continue
-            
-            # Optional: Check dimensions if needed, but size is usually enough for these APIs
-            valid_images.append(img_path)
-        except:
-            continue
-            
-    # 2. If no valid images, FORCE FALLBACK to Local Sign Asset
-    if not valid_images:
-        print("⚠️ No valid generated images found. Switching to Local Assets.")
-        
-        # KEYWORD ANALYSIS FOR THEME
-        # Keywords to match the new THEMES in setup_zodiac_assets.py
-        script_text = data.get('script_text', '').lower() + " " + data.get('title', '').lower()
-        detected_theme = None
-        
-        if any(w in script_text for w in ['love', 'romance', 'partner', 'heart', 'relationship', 'dating', 'marriage', 'soulmate']):
-            detected_theme = "Love"
-        elif any(w in script_text for w in ['money', 'job', 'work', 'finance', 'career', 'wealth', 'business', 'success']):
-            detected_theme = "Career"
-        elif any(w in script_text for w in ['health', 'energy', 'wellness', 'sick', 'healing', 'body', 'mind']):
-            detected_theme = "Health"
-        elif any(w in script_text for w in ['travel', 'trip', 'journey', 'foreign', 'abroad', 'moving', 'adventure']):
-            detected_theme = "Travel"
-            
-        if detected_theme:
-            print(f"🧠 Context Detected: {detected_theme}")
-        
-        for sign, path_or_name in ZODIAC_SIGNS.items():
-            # Check if sign name is in target/title
-            if sign.upper() in title.upper() or sign.upper() in target.upper():
-                # NEW: Check for DIRECTORY of images first
-                sign_dir = os.path.join("assets", "zodiac_signs", sign)
-                if os.path.isdir(sign_dir):
-                    # 1. Try to find THEMED image first (e.g. Aries_Love.jpg)
-                    if detected_theme:
-                        themed_path = os.path.join(sign_dir, f"{sign}_{detected_theme}.jpg")
-                        if os.path.exists(themed_path):
-                            print(f"✅ Using THEMED Local Asset: {themed_path}")
-                            # If we have a theme, usage of just one PERFECT image is often better than random mix
-                            # But we can mix it with others if needed. For now, let's use it as primary.
-                            valid_images.append(themed_path)
-                    
-                    # 2. Pick MULTIPLE images from directory deterministically based on date (Generic Fallback)
-                    # If we found a themed one, we can add generics to fill the rest of the video segments?
-                    # Yes, logic below extends valid_images.
-                    
-                    possible = sorted([os.path.join(sign_dir, f) for f in os.listdir(sign_dir) if f.endswith(('.jpg', '.png'))])
-                    
-                    if possible:
-                         # Use Day of Year as seed so it's consistent for the whole day, but changes daily
-                         day_of_year = datetime.now().timetuple().tm_yday
-                         rng = random.Random(day_of_year)
-                         
-                         # Select up to 4 unique images (leaving room for themed one if exists)
-                         count_needed = 5 - len(valid_images)
-                         if count_needed > 0:
-                             selected = rng.sample(possible, k=min(count_needed, len(possible)))
-                             print(f"✅ Using {len(selected)} Generic Assets to fill video")
-                             valid_images.extend(selected)
-                         
-                         break
-                
-                # OLD: Fallback to single file reference if valid
-                if os.path.exists(path_or_name):
-                    print(f"✅ Using Local Asset File: {path_or_name}")
-                    valid_images.append(path_or_name)
-                    break 
+    # --- 2. DETECT THEME FROM SCRIPT KEYWORDS ---
+    THEME_KEYWORDS = {
+        "Love": ['love', 'romance', 'partner', 'heart', 'relationship', 'dating', 'marriage', 'soulmate', 'attraction', 'affection'],
+        "Career": ['money', 'job', 'work', 'finance', 'career', 'wealth', 'business', 'success', 'promotion', 'income', 'investment'],
+        "Health": ['health', 'energy', 'wellness', 'sick', 'healing', 'body', 'mind', 'vitality', 'exercise', 'meditation'],
+        "Travel": ['travel', 'trip', 'journey', 'foreign', 'abroad', 'moving', 'adventure', 'vacation', 'explore', 'destination']
+    }
     
-    # 3. Final Fallback (Random Tarot or Sign)
-    if not valid_images:
-        # Check tarot
-        tarot_dir = "assets/tarot_cards"
-        if os.path.exists(tarot_dir):
-            tarot_cards = [os.path.join(tarot_dir, f) for f in os.listdir(tarot_dir) if f.endswith('.jpg')]
-            if tarot_cards:
-                valid_images.extend(random.sample(tarot_cards, min(3, len(tarot_cards))))
-        
-        # Absolute last resort
-        if not valid_images:
-             valid_images = [random.choice(list(ZODIAC_SIGNS.values()))]
-
-    return valid_images
+    detected_theme = None
+    for theme, keywords in THEME_KEYWORDS.items():
+        if any(kw in script_text for kw in keywords):
+            detected_theme = theme
+            print(f"🧠 Script Theme Detected: {detected_theme}")
+            break
+    
+    # --- 3. LOAD USAGE TRACKER ---
+    tracker_path = os.path.join(os.path.dirname(__file__), "image_usage.json")
+    try:
+        with open(tracker_path, 'r') as f:
+            usage_tracker = json.load(f)
+    except:
+        usage_tracker = {}
+    
+    # --- 4. GET ALL AVAILABLE IMAGES FOR THIS SIGN ---
+    sign_dir = os.path.join(os.path.dirname(__file__), "assets", "zodiac_signs", detected_sign)
+    all_images = []
+    
+    if os.path.isdir(sign_dir):
+        all_images = sorted([
+            os.path.join(sign_dir, f) 
+            for f in os.listdir(sign_dir) 
+            if f.endswith(('.jpg', '.png')) and os.path.getsize(os.path.join(sign_dir, f)) > 5000
+        ])
+    
+    if not all_images:
+        print(f"❌ No images found for {detected_sign}, using legacy path")
+        legacy_path = f"assets/zodiac_signs/{detected_sign}.jpg"
+        if os.path.exists(legacy_path):
+            return [legacy_path]
+        return [list(ZODIAC_SIGNS.values())[0]]
+    
+    print(f"📂 Found {len(all_images)} images for {detected_sign}")
+    
+    # --- 5. PRIORITIZE THEMED IMAGES ---
+    themed_images = []
+    general_images = []
+    
+    for img in all_images:
+        filename = os.path.basename(img)
+        if detected_theme and detected_theme in filename:
+            themed_images.append(img)
+        else:
+            general_images.append(img)
+    
+    # --- 6. SORT BY USAGE (LEAST USED FIRST) ---
+    def get_usage_count(img_path):
+        return usage_tracker.get(img_path, 0)
+    
+    themed_images.sort(key=get_usage_count)
+    general_images.sort(key=get_usage_count)
+    
+    # --- 7. SELECT IMAGES (5 needed for typical video) ---
+    selected = []
+    num_needed = 5
+    
+    # First: Pick themed images (if available)
+    for img in themed_images:
+        if len(selected) >= num_needed:
+            break
+        if img not in selected:
+            selected.append(img)
+            print(f"✅ Selected THEMED: {os.path.basename(img)} (used {get_usage_count(img)}x)")
+    
+    # Then: Fill with least-used general images
+    for img in general_images:
+        if len(selected) >= num_needed:
+            break
+        if img not in selected:
+            selected.append(img)
+            print(f"✅ Selected GENERAL: {os.path.basename(img)} (used {get_usage_count(img)}x)")
+    
+    # --- 8. UPDATE USAGE TRACKER ---
+    for img in selected:
+        usage_tracker[img] = usage_tracker.get(img, 0) + 1
+    
+    try:
+        with open(tracker_path, 'w') as f:
+            json.dump(usage_tracker, f, indent=2)
+    except Exception as e:
+        print(f"⚠️ Could not save usage tracker: {e}")
+    
+    return selected
 
 # ═══════════════════════════════════════════════════════════════════════════════
 # RENDER

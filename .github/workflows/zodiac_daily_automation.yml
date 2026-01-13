@@ -2,16 +2,16 @@ name: Zodiac Daily Automation
 
 on:
   schedule:
-    - cron: '0 9 * * *'   # Daily Shorts: 9:00 UTC (2:30 PM IST) - starts early so videos ready by ~12:00 UTC
-    - cron: '0 20 * * 0'  # Weekly Forecast: 20:00 UTC Sun (1:30 AM IST Mon) - starts early
-  workflow_dispatch:      # Allows manual trigger
+    - cron: "0 9 * * *" # Daily Shorts: 9:00 UTC (2:30 PM IST) - starts early so videos ready by ~12:00 UTC
+    - cron: "0 20 * * 0" # Weekly Forecast: 20:00 UTC Sun (1:30 AM IST Mon) - starts early
+  workflow_dispatch: # Allows manual trigger
 
 jobs:
   daily-zodiac-production:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # Crucial for committing back updated JSONs
-      
+      contents: write # Crucial for committing back updated JSONs
+
     steps:
       - name: Checkout Code
         uses: actions/checkout@v3
@@ -26,7 +26,7 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.10'
+          python-version: "3.10"
 
       - name: Install Python Libraries
         run: |
@@ -40,24 +40,24 @@ jobs:
           # Write the token.json from secrets using printf to preserve JSON
           printf '%s' "$YOUTUBE_TOKEN" > token.json
           echo "✅ token.json injected ($(wc -c < token.json) bytes)"
-          
+
           # Validate token.json (non-fatal - just for debugging)
           echo "🔍 Validating token.json..."
           python -c "import json; f=open('token.json'); d=json.load(f); print('✅ Token Keys:', list(d.keys())); print('Has refresh_token:', 'refresh_token' in d)" || echo "⚠️ Token validation failed - check secret format"
 
       - name: Run Video Automation
         env:
-          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}  # For Gemini Generation
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }} # For Gemini Generation
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }} # Optional, priority
           YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
           YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
         run: |
           echo "🚀 Starting Video Production..."
-          
+
           # Logic to determine mode based on time OR manual trigger
           current_hour=$(date -u +%H)
           echo "Unknown time (UTC): $current_hour"
-          
+
           if [ "$current_hour" -eq "9" ]; then
              echo "🌞 Triggering DAILY Mode"
              python master_brain.py --mode daily
@@ -69,7 +69,7 @@ jobs:
              echo "⚡ Manual/Fallback: Running ALL"
              python master_brain.py --mode all
           fi
-          
+
           # Always run the video maker to process whatever plan files exist
           python video_maker.py
 
@@ -77,11 +77,11 @@ jobs:
         run: |
           git config --global user.name "Zodiac Bot"
           git config --global user.email "bot@zodiac365.com"
-          
+
           # Add all JSONs that might have updated
           git add examples/*.json
-          git add examples/*.json
-          
+          git add image_usage.json || true
+
           # Commit if changes exist
           git commit -m "🤖 Auto-Update: Horoscope Content & Upload Status" || echo "No changes to commit"
           git push
