@@ -6,7 +6,7 @@ on:
     - cron: "0 20 * * 0" # Weekly Forecast: 20:00 UTC Sun (1:30 AM IST Mon) - starts early
   workflow_dispatch: # Allows manual trigger
 
-jobs:
+jobs
   daily-zodiac-production:
     runs-on: ubuntu-latest
     permissions:
