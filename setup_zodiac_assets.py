@@ -120,19 +120,19 @@ def main():
     # 2. Cleanup Old Files
     organize_legacy_assets()
 
-    print("🚀 Starting Zodiac Asset Expansion (10 images per sign)...")
-    print("This will generate 120 unique images. Please be patient.")
+    print("🚀 Starting Zodiac Asset Expansion (50 images per sign)...")
+    print("This will generate 600 unique images. Please be patient.")
 
     for sign in SIGNS:
         print(f"\n🔮 Processing {sign}...")
-        for i in range(10): # 10 images per sign
+        for i in range(46): # 46 numbered + 4 themed = 50 images per sign
             generate_and_download(sign, i)
             
         # Themed Generation
         for theme_name, theme_prompt in THEMES.items():
             generate_and_download_variant(sign, theme_name, theme_prompt)
 
-    print("\n🎉 All 120 Zodiac Assets Generated & Downloaded.")
+    print("\n🎉 All 600 Zodiac Assets Generated & Downloaded (50 per sign).")
 
 if __name__ == "__main__":
     main()
