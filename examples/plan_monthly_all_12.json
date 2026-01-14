@@ -1,6 +1,6 @@
 [
     {
-        "script_text": "Aries, this month brings transformation and growth...",
+        "script_text": "",
         "title": "Aries Monthly Forecast \u2648",
         "target": "ARIES",
         "type": "monthly",
@@ -8,10 +8,12 @@
             "assets/zodiac_signs/Aries.jpg"
         ],
         "active": true,
-        "status": "done"
+        "status": "pending",
+        "uploaded": false,
+        "date": "January 2026"
     },
     {
-        "script_text": "Taurus, this month brings transformation and growth...",
+        "script_text": "",
         "title": "Taurus Monthly Forecast \u2649",
         "target": "TAURUS",
         "type": "monthly",
@@ -19,10 +21,12 @@
             "assets/zodiac_signs/Taurus.jpg"
         ],
         "active": true,
-        "status": "done"
+        "status": "pending",
+        "uploaded": false,
+        "date": "January 2026"
     },
     {
-        "script_text": "Gemini, this month brings transformation and growth...",
+        "script_text": "",
         "title": "Gemini Monthly Forecast \u264a",
         "target": "GEMINI",
         "type": "monthly",
@@ -30,10 +34,12 @@
             "assets/zodiac_signs/Gemini.jpg"
         ],
         "active": true,
-        "status": "done"
+        "status": "pending",
+        "uploaded": false,
+        "date": "January 2026"
     },
     {
-        "script_text": "Cancer, this month brings transformation and growth...",
+        "script_text": "",
         "title": "Cancer Monthly Forecast \u264b",
         "target": "CANCER",
         "type": "monthly",
@@ -41,10 +47,12 @@
             "assets/zodiac_signs/Cancer.jpg"
         ],
         "active": true,
-        "status": "done"
+        "status": "pending",
+        "uploaded": false,
+        "date": "January 2026"
     },
     {
-        "script_text": "Leo, this month brings transformation and growth...",
+        "script_text": "",
         "title": "Leo Monthly Forecast \u264c",
         "target": "LEO",
         "type": "monthly",
@@ -52,10 +60,12 @@
             "assets/zodiac_signs/Leo.jpg"
         ],
         "active": true,
-        "status": "done"
+        "status": "pending",
+        "uploaded": false,
+        "date": "January 2026"
     },
     {
-        "script_text": "Virgo, this month brings transformation and growth...",
+        "script_text": "",
         "title": "Virgo Monthly Forecast \u264d",
         "target": "VIRGO",
         "type": "monthly",
@@ -63,10 +73,12 @@
             "assets/zodiac_signs/Virgo.jpg"
         ],
         "active": true,
-        "status": "done"
+        "status": "pending",
+        "uploaded": false,
+        "date": "January 2026"
     },
     {
-        "script_text": "Libra, this month brings transformation and growth...",
+        "script_text": "",
         "title": "Libra Monthly Forecast \u264e",
         "target": "LIBRA",
         "type": "monthly",
@@ -74,10 +86,12 @@
             "assets/zodiac_signs/Libra.jpg"
         ],
         "active": true,
-        "status": "done"
+        "status": "pending",
+        "uploaded": false,
+        "date": "January 2026"
     },
     {
-        "script_text": "Scorpio, this month brings transformation and growth...",
+        "script_text": "",
         "title": "Scorpio Monthly Forecast \u264f",
         "target": "SCORPIO",
         "type": "monthly",
@@ -85,10 +99,12 @@
             "assets/zodiac_signs/Scorpio.jpg"
         ],
         "active": true,
-        "status": "done"
+        "status": "pending",
+        "uploaded": false,
+        "date": "January 2026"
     },
     {
-        "script_text": "Sagittarius, this month brings transformation and growth...",
+        "script_text": "",
         "title": "Sagittarius Monthly Forecast \u2650",
         "target": "SAGITTARIUS",
         "type": "monthly",
@@ -96,10 +112,12 @@
             "assets/zodiac_signs/Sagittarius.jpg"
         ],
         "active": true,
-        "status": "done"
+        "status": "pending",
+        "uploaded": false,
+        "date": "January 2026"
     },
     {
-        "script_text": "Capricorn, this month brings transformation and growth...",
+        "script_text": "",
         "title": "Capricorn Monthly Forecast \u2651",
         "target": "CAPRICORN",
         "type": "monthly",
@@ -107,10 +125,12 @@
             "assets/zodiac_signs/Capricorn.jpg"
         ],
         "active": true,
-        "status": "done"
+        "status": "pending",
+        "uploaded": false,
+        "date": "January 2026"
     },
     {
-        "script_text": "Aquarius, this month brings transformation and growth...",
+        "script_text": "",
         "title": "Aquarius Monthly Forecast \u2652",
         "target": "AQUARIUS",
         "type": "monthly",
@@ -118,10 +138,12 @@
             "assets/zodiac_signs/Aquarius.jpg"
         ],
         "active": true,
-        "status": "done"
+        "status": "pending",
+        "uploaded": false,
+        "date": "January 2026"
     },
     {
-        "script_text": "Pisces, this month brings transformation and growth...",
+        "script_text": "",
         "title": "Pisces Monthly Forecast \u2653",
         "target": "PISCES",
         "type": "monthly",
@@ -129,6 +151,8 @@
             "assets/zodiac_signs/Pisces.jpg"
         ],
         "active": true,
-        "status": "done"
+        "status": "pending",
+        "uploaded": false,
+        "date": "January 2026"
     }
 ]

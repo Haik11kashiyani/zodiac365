@@ -1,6 +1,6 @@
 [
     {
-        "script_text": "Aries, 2026 is your year of power! Prepare for...",
+        "script_text": "",
         "title": "Aries 2026 Prediction \u2648",
         "target": "ARIES",
         "type": "yearly",
@@ -8,10 +8,12 @@
             "assets/zodiac_signs/Aries.jpg"
         ],
         "active": true,
-        "status": "done"
+        "status": "pending",
+        "uploaded": false,
+        "date": "2026"
     },
     {
-        "script_text": "Taurus, 2026 is your year of power! Prepare for...",
+        "script_text": "",
         "title": "Taurus 2026 Prediction \u2649",
         "target": "TAURUS",
         "type": "yearly",
@@ -19,10 +21,12 @@
             "assets/zodiac_signs/Taurus.jpg"
         ],
         "active": true,
-        "status": "done"
+        "status": "pending",
+        "uploaded": false,
+        "date": "2026"
     },
     {
-        "script_text": "Gemini, 2026 is your year of power! Prepare for...",
+        "script_text": "",
         "title": "Gemini 2026 Prediction \u264a",
         "target": "GEMINI",
         "type": "yearly",
@@ -30,10 +34,12 @@
             "assets/zodiac_signs/Gemini.jpg"
         ],
         "active": true,
-        "status": "done"
+        "status": "pending",
+        "uploaded": false,
+        "date": "2026"
     },
     {
-        "script_text": "Cancer, 2026 is your year of power! Prepare for...",
+        "script_text": "",
         "title": "Cancer 2026 Prediction \u264b",
         "target": "CANCER",
         "type": "yearly",
@@ -41,10 +47,12 @@
             "assets/zodiac_signs/Cancer.jpg"
         ],
         "active": true,
-        "status": "done"
+        "status": "pending",
+        "uploaded": false,
+        "date": "2026"
     },
     {
-        "script_text": "Leo, 2026 is your year of power! Prepare for...",
+        "script_text": "",
         "title": "Leo 2026 Prediction \u264c",
         "target": "LEO",
         "type": "yearly",
@@ -52,10 +60,12 @@
             "assets/zodiac_signs/Leo.jpg"
         ],
         "active": true,
-        "status": "done"
+        "status": "pending",
+        "uploaded": false,
+        "date": "2026"
     },
     {
-        "script_text": "Virgo, 2026 is your year of power! Prepare for...",
+        "script_text": "",
         "title": "Virgo 2026 Prediction \u264d",
         "target": "VIRGO",
         "type": "yearly",
@@ -63,10 +73,12 @@
             "assets/zodiac_signs/Virgo.jpg"
         ],
         "active": true,
-        "status": "done"
+        "status": "pending",
+        "uploaded": false,
+        "date": "2026"
     },
     {
-        "script_text": "Libra, 2026 is your year of power! Prepare for...",
+        "script_text": "",
         "title": "Libra 2026 Prediction \u264e",
         "target": "LIBRA",
         "type": "yearly",
@@ -74,10 +86,12 @@
             "assets/zodiac_signs/Libra.jpg"
         ],
         "active": true,
-        "status": "done"
+        "status": "pending",
+        "uploaded": false,
+        "date": "2026"
     },
     {
-        "script_text": "Scorpio, 2026 is your year of power! Prepare for...",
+        "script_text": "",
         "title": "Scorpio 2026 Prediction \u264f",
         "target": "SCORPIO",
         "type": "yearly",
@@ -85,10 +99,12 @@
             "assets/zodiac_signs/Scorpio.jpg"
         ],
         "active": true,
-        "status": "done"
+        "status": "pending",
+        "uploaded": false,
+        "date": "2026"
     },
     {
-        "script_text": "Sagittarius, 2026 is your year of power! Prepare for...",
+        "script_text": "",
         "title": "Sagittarius 2026 Prediction \u2650",
         "target": "SAGITTARIUS",
         "type": "yearly",
@@ -96,10 +112,12 @@
             "assets/zodiac_signs/Sagittarius.jpg"
         ],
         "active": true,
-        "status": "done"
+        "status": "pending",
+        "uploaded": false,
+        "date": "2026"
     },
     {
-        "script_text": "Capricorn, 2026 is your year of power! Prepare for...",
+        "script_text": "",
         "title": "Capricorn 2026 Prediction \u2651",
         "target": "CAPRICORN",
         "type": "yearly",
@@ -107,10 +125,12 @@
             "assets/zodiac_signs/Capricorn.jpg"
         ],
         "active": true,
-        "status": "done"
+        "status": "pending",
+        "uploaded": false,
+        "date": "2026"
     },
     {
-        "script_text": "Aquarius, 2026 is your year of power! Prepare for...",
+        "script_text": "",
         "title": "Aquarius 2026 Prediction \u2652",
         "target": "AQUARIUS",
         "type": "yearly",
@@ -118,10 +138,12 @@
             "assets/zodiac_signs/Aquarius.jpg"
         ],
         "active": true,
-        "status": "done"
+        "status": "pending",
+        "uploaded": false,
+        "date": "2026"
     },
     {
-        "script_text": "Pisces, 2026 is your year of power! Prepare for...",
+        "script_text": "",
         "title": "Pisces 2026 Prediction \u2653",
         "target": "PISCES",
         "type": "yearly",
@@ -129,6 +151,8 @@
             "assets/zodiac_signs/Pisces.jpg"
         ],
         "active": true,
-        "status": "done"
+        "status": "pending",
+        "uploaded": false,
+        "date": "2026"
     }
 ]

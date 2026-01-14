@@ -645,8 +645,16 @@ def check_freshness_and_update(data):
     target = data.get('target', 'Aries')
     current_date_str = data.get('date', '')
     
+    target = data.get('target', 'Aries')
+    current_date_str = data.get('date', '')
+    
+    # 0. Empty Content Check (Force Regenerate if text missing)
+    if not data.get('script_text'):
+        print(f"⚠️ Missing script text for {target}. Marking as STALE.")
+        is_stale = True
+    
     # 1. Daily Check
-    if mode == 'daily':
+    elif mode == 'daily':
         # Expected format: "Jan 05" (or "Jan 5")
         # Let's check against today's formatted date
         today_str = now.strftime("%b %d") # e.g. Dec 28
