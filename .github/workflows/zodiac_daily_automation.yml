@@ -4,7 +4,7 @@ on:
   schedule:
     - cron: "0 9 * * *" # Daily Shorts: 9:00 UTC (2:30 PM IST) - starts early so videos ready by ~12:00 UTC
     - cron: "0 20 * * 0" # Weekly Forecast: 20:00 UTC Sun (1:30 AM IST Mon) - starts early
-  workflow_dispatch: # Allows manual trigger
+  workflow_dispatch: {} # Allows manual trigger
 
 jobs:
   daily-zodiac-production:
@@ -50,7 +50,7 @@ jobs:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }} # For Gemini Generation
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }} # Optional, priority
           YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
-          YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+
           YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
         run: |
