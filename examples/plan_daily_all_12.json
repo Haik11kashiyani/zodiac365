@@ -1,110 +1,117 @@
 [
     {
-        "title": "Aries Daily Horoscope ♈",
+        "title": "Aries Daily Horoscope \u2648",
         "target": "ARIES",
         "type": "daily",
         "date": "TODAY",
         "active": true,
-        "status": "pending",
-        "script_text": "Aries, I know the mountain you’re climbing has felt steep lately. But today, the universe is handing you a golden bridge. That big, bold dream you’ve been sheltering? It finally has a practical path forward. You don't have to force it today; just follow the spark of hope that’s lighting up your career path. Trust that your hard work hasn't gone unnoticed. You are being guided toward a version of success that actually feels like home."
+        "status": "done",
+        "script_text": "Aries, I know the mountain you\u2019re climbing has felt steep lately. But today, the universe is handing you a golden bridge. That big, bold dream you\u2019ve been sheltering? It finally has a practical path forward. You don't have to force it today; just follow the spark of hope that\u2019s lighting up your career path. Trust that your hard work hasn't gone unnoticed. You are being guided toward a version of success that actually feels like home.",
+        "uploaded": true
     },
     {
-        "title": "Taurus Daily Horoscope ♉",
+        "title": "Taurus Daily Horoscope \u2649",
         "target": "TAURUS",
         "type": "daily",
         "date": "TODAY",
         "active": true,
         "status": "pending",
-        "script_text": "Taurus, you’ve been carrying a lot of worry about your security and the future. Today, I want you to take a deep breath and look at how much you’ve already survived. Your intuition is whispering a solution to a financial or emotional burden today—listen to it. You are shedding the old 'lack' mindset and stepping into a space of deserving. You are worthy of abundance, and today, the stars are conspiring to show you exactly how to claim it."
+        "script_text": "Taurus, you\u2019ve been carrying a lot of worry about your security and the future. Today, I want you to take a deep breath and look at how much you\u2019ve already survived. Your intuition is whispering a solution to a financial or emotional burden today\u2014listen to it. You are shedding the old 'lack' mindset and stepping into a space of deserving. You are worthy of abundance, and today, the stars are conspiring to show you exactly how to claim it."
     },
     {
-        "title": "Gemini Daily Horoscope ♊",
+        "title": "Gemini Daily Horoscope \u264a",
         "target": "GEMINI",
         "type": "daily",
         "date": "TODAY",
         "active": true,
-        "status": "pending",
-        "script_text": "Gemini, it’s okay to admit that you can’t do everything alone. Today, the stars are bringing a beautiful sense of connection into your life. A conversation with a partner or a dear friend might provide the exact piece of the puzzle you’ve been missing. You are being seen and heard in ways that matter. Let someone walk beside you today. Your path feels so much lighter when you realize you are part of a team that truly cares for you."
+        "status": "done",
+        "script_text": "Gemini, it\u2019s okay to admit that you can\u2019t do everything alone. Today, the stars are bringing a beautiful sense of connection into your life. A conversation with a partner or a dear friend might provide the exact piece of the puzzle you\u2019ve been missing. You are being seen and heard in ways that matter. Let someone walk beside you today. Your path feels so much lighter when you realize you are part of a team that truly cares for you.",
+        "uploaded": true
     },
     {
-        "title": "Cancer Daily Horoscope ♋",
+        "title": "Cancer Daily Horoscope \u264b",
         "target": "CANCER",
         "type": "daily",
         "date": "TODAY",
         "active": true,
         "status": "pending",
-        "script_text": "Cancer, you’ve been feeling the weight of your 'to-do' list like a heavy cloak. But today, there is a shift in the air. You’ll find a sudden burst of energy and a sense of joy in the small things. This isn't just about being productive; it’s about finding your rhythm again. When you care for your environment, you are caring for your soul. Take pride in your progress today, no matter how small. You are building a life of meaning, step by steady step."
+        "script_text": "Cancer, you\u2019ve been feeling the weight of your 'to-do' list like a heavy cloak. But today, there is a shift in the air. You\u2019ll find a sudden burst of energy and a sense of joy in the small things. This isn't just about being productive; it\u2019s about finding your rhythm again. When you care for your environment, you are caring for your soul. Take pride in your progress today, no matter how small. You are building a life of meaning, step by steady step."
     },
     {
-        "title": "Leo Daily Horoscope ♌",
+        "title": "Leo Daily Horoscope \u264c",
         "target": "LEO",
         "type": "daily",
         "date": "TODAY",
         "active": true,
         "status": "pending",
-        "script_text": "Leo, I know you’ve been dimming your light lately to make others feel comfortable, but today the universe is asking you to shine. Your creativity and your heart are your greatest gifts. Don’t be afraid to share a passion project or an honest feeling. When you lead with your authentic self, you give others permission to do the same. Today is about joy—pure and simple. Follow what makes your heart beat faster and trust that your light is needed."
+        "script_text": "Leo, I know you\u2019ve been dimming your light lately to make others feel comfortable, but today the universe is asking you to shine. Your creativity and your heart are your greatest gifts. Don\u2019t be afraid to share a passion project or an honest feeling. When you lead with your authentic self, you give others permission to do the same. Today is about joy\u2014pure and simple. Follow what makes your heart beat faster and trust that your light is needed."
     },
     {
-        "title": "Virgo Daily Horoscope ♍",
+        "title": "Virgo Daily Horoscope \u264d",
         "target": "VIRGO",
         "type": "daily",
         "date": "TODAY",
         "active": true,
-        "status": "pending",
-        "script_text": "Virgo, you spend so much time fixing things for everyone else. Today, the stars are inviting you to fix a space for yourself. Whether it’s a corner of your home or a quiet hour in your day, you need a sanctuary. You are realizing that your external success depends on your internal peace. Trust your instincts when it comes to family or home matters today. You are deepening your roots so that you can grow even higher. Be kind to your heart."
+        "status": "done",
+        "script_text": "Virgo, you spend so much time fixing things for everyone else. Today, the stars are inviting you to fix a space for yourself. Whether it\u2019s a corner of your home or a quiet hour in your day, you need a sanctuary. You are realizing that your external success depends on your internal peace. Trust your instincts when it comes to family or home matters today. You are deepening your roots so that you can grow even higher. Be kind to your heart.",
+        "uploaded": true
     },
     {
-        "title": "Libra Daily Horoscope ♎",
+        "title": "Libra Daily Horoscope \u264e",
         "target": "LIBRA",
         "type": "daily",
         "date": "TODAY",
         "active": true,
         "status": "pending",
-        "script_text": "Libra, the static in your mind is finally clearing today. You’ve been struggling to find the right words or the right decision, but the 'Golden Bridge' aspect today brings a moment of pure clarity. Reach out and connect—a simple message or a short walk could spark the inspiration you’ve been waiting for. You are moving from confusion into a space of gentle understanding. Trust that the universe is helping you communicate your truth with grace and power."
+        "script_text": "Libra, the static in your mind is finally clearing today. You\u2019ve been struggling to find the right words or the right decision, but the 'Golden Bridge' aspect today brings a moment of pure clarity. Reach out and connect\u2014a simple message or a short walk could spark the inspiration you\u2019ve been waiting for. You are moving from confusion into a space of gentle understanding. Trust that the universe is helping you communicate your truth with grace and power."
     },
     {
-        "title": "Scorpio Daily Horoscope ♏",
+        "title": "Scorpio Daily Horoscope \u264f",
         "target": "SCORPIO",
         "type": "daily",
         "date": "TODAY",
         "active": true,
-        "status": "pending",
-        "script_text": "Scorpio, you are often your own toughest critic, but today I want you to look at your reflection with pride. You are building a secure empire, not just financially, but emotionally. Today’s energy helps you see your own value more clearly. Don't settle for crumbs when you've worked for the whole table. Trust your gut regarding a financial move or a new opportunity. You are being rewarded for your depth and your dedication. Prosperity is finding its way to you."
+        "status": "done",
+        "script_text": "Scorpio, you are often your own toughest critic, but today I want you to look at your reflection with pride. You are building a secure empire, not just financially, but emotionally. Today\u2019s energy helps you see your own value more clearly. Don't settle for crumbs when you've worked for the whole table. Trust your gut regarding a financial move or a new opportunity. You are being rewarded for your depth and your dedication. Prosperity is finding its way to you.",
+        "uploaded": true
     },
     {
-        "title": "Sagittarius Daily Horoscope ♐",
+        "title": "Sagittarius Daily Horoscope \u2650",
         "target": "SAGITTARIUS",
         "type": "daily",
         "date": "TODAY",
         "active": true,
-        "status": "pending",
-        "script_text": "Sagittarius, the Moon is still in your sign today, and it’s whispering that your big, beautiful dreams are actually possible. You’ve been feeling a bit restricted by responsibilities lately, but today those duties and your dreams are finally working together. Don’t hide your optimism; it’s your greatest superpower. A realization this afternoon gives you the green light to take a bold step forward. Trust your wings, Sagittarius. You were born to fly, and the wind is at your back."
+        "status": "done",
+        "script_text": "Sagittarius, the Moon is still in your sign today, and it\u2019s whispering that your big, beautiful dreams are actually possible. You\u2019ve been feeling a bit restricted by responsibilities lately, but today those duties and your dreams are finally working together. Don\u2019t hide your optimism; it\u2019s your greatest superpower. A realization this afternoon gives you the green light to take a bold step forward. Trust your wings, Sagittarius. You were born to fly, and the wind is at your back.",
+        "uploaded": true
     },
     {
-        "title": "Capricorn Daily Horoscope ♑",
+        "title": "Capricorn Daily Horoscope \u2651",
         "target": "CAPRICORN",
         "type": "daily",
         "date": "TODAY",
         "active": true,
-        "status": "pending",
-        "script_text": "Capricorn, I know you feel like you have to have all the answers right now, but today is about trusting the mystery. Your intuition is trying to tell you something important about your career path. Take a moment to step away from the spreadsheets and listen. You are preparing for a major breakthrough, and the 'Golden Bridge' energy is helping you bridge the gap between where you are and where you want to be. You are doing enough. You ARE enough."
+        "status": "done",
+        "script_text": "Capricorn, I know you feel like you have to have all the answers right now, but today is about trusting the mystery. Your intuition is trying to tell you something important about your career path. Take a moment to step away from the spreadsheets and listen. You are preparing for a major breakthrough, and the 'Golden Bridge' energy is helping you bridge the gap between where you are and where you want to be. You are doing enough. You ARE enough.",
+        "uploaded": true
     },
     {
-        "title": "Aquarius Daily Horoscope ♒",
+        "title": "Aquarius Daily Horoscope \u2652",
         "target": "AQUARIUS",
         "type": "daily",
         "date": "TODAY",
         "active": true,
         "status": "pending",
-        "script_text": "Aquarius, sometimes being the visionary can feel a bit lonely. But today, the stars are bringing your tribe closer to you. You’ll find that your unique ideas are finding a home in the hearts of others. Reach out to your community or a group of friends—their support will be the catalyst for the change you’re seeking. You don’t have to carry the future on your own. Together, you are building something that matters. Stay open to the magic of connection."
+        "script_text": "Aquarius, sometimes being the visionary can feel a bit lonely. But today, the stars are bringing your tribe closer to you. You\u2019ll find that your unique ideas are finding a home in the hearts of others. Reach out to your community or a group of friends\u2014their support will be the catalyst for the change you\u2019re seeking. You don\u2019t have to carry the future on your own. Together, you are building something that matters. Stay open to the magic of connection."
     },
     {
-        "title": "Pisces Daily Horoscope ♓",
+        "title": "Pisces Daily Horoscope \u2653",
         "target": "PISCES",
         "type": "daily",
         "date": "TODAY",
         "active": true,
-        "status": "pending",
-        "script_text": "Pisces, you’ve been working so hard in the shadows, and today, a little bit of that light is finally spilling over. Your professional life is reaching a beautiful turning point. Trust that your intuition is your best career advisor. If a move feels right in your soul, it’s probably the right move for your life. You are bridging the gap between your spiritual values and your outer success. Believe in your vision, Pisces. The world is finally starting to see what I see in you."
+        "status": "done",
+        "script_text": "Pisces, you\u2019ve been working so hard in the shadows, and today, a little bit of that light is finally spilling over. Your professional life is reaching a beautiful turning point. Trust that your intuition is your best career advisor. If a move feels right in your soul, it\u2019s probably the right move for your life. You are bridging the gap between your spiritual values and your outer success. Believe in your vision, Pisces. The world is finally starting to see what I see in you.",
+        "uploaded": true
     }
 ]
