@@ -2,9 +2,9 @@ name: Zodiac Daily Automation
 
 on:
   schedule:
-    - cron: "0 9 * * *" # Daily Shorts: 9:00 UTC (2:30 PM IST) - starts early so videos ready by ~12:00 UTC
-    - cron: "0 20 * * 0" # Weekly Forecast: 20:00 UTC Sun (1:30 AM IST Mon) - starts early
-  workflow_dispatch: {} # Allows manual trigger
+    - cron: "0 9 * * *"
+    - cron: "0 20 * * 0"
+  workflow_dispatch:
 
 jobs:
   daily-zodiac-production:
