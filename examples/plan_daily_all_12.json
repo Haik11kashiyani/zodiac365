@@ -1,146 +1,110 @@
 [
     {
-        "script_text": "Aries, the stars are handing you a golden bridge today. With the Moon in Sagittarius sextiling the Sun in your career sector, your big ideas finally have a practical path to reality. It’s a day for high-level thinking—don't get bogged down in the small stuff. A professional opportunity involving travel or teaching might surface this afternoon. Trust your gut and act with confidence. Your fire is burning bright, and the world is taking notice of your visionary leadership.",
-        "title": "Aries Daily Horoscope \u2648",
+        "title": "Aries Daily Horoscope ♈",
         "target": "ARIES",
         "type": "daily",
-        "images": [
-            "assets/zodiac_signs/Aries.jpg"
-        ],
+        "date": "TODAY",
         "active": true,
         "status": "pending",
-        "date": "TODAY"
+        "script_text": "Aries, I know the mountain you’re climbing has felt steep lately. But today, the universe is handing you a golden bridge. That big, bold dream you’ve been sheltering? It finally has a practical path forward. You don't have to force it today; just follow the spark of hope that’s lighting up your career path. Trust that your hard work hasn't gone unnoticed. You are being guided toward a version of success that actually feels like home."
     },
     {
-        "script_text": "Taurus, your intuition regarding money and shared resources is razor-sharp today. The Sagittarius Moon encourages you to look for growth, while the Capricorn Sun provides the stability you crave. It’s a powerful day for negotiating a deal or restructuring a debt. In your personal life, a deep conversation helps clear the air and build a stronger foundation for the future. Trust the process of transformation; you are shedding old skins to make room for a much wealthier version of yourself.",
-        "title": "Taurus Daily Horoscope \u2649",
+        "title": "Taurus Daily Horoscope ♉",
         "target": "TAURUS",
         "type": "daily",
-        "images": [
-            "assets/zodiac_signs/Taurus.jpg"
-        ],
+        "date": "TODAY",
         "active": true,
         "status": "pending",
-        "date": "TODAY"
+        "script_text": "Taurus, you’ve been carrying a lot of worry about your security and the future. Today, I want you to take a deep breath and look at how much you’ve already survived. Your intuition is whispering a solution to a financial or emotional burden today—listen to it. You are shedding the old 'lack' mindset and stepping into a space of deserving. You are worthy of abundance, and today, the stars are conspiring to show you exactly how to claim it."
     },
     {
-        "script_text": "Gemini, the focus is on your partnerships today, and the energy is incredibly supportive. Someone in your circle might offer a perspective that changes your entire game plan for the month. With the Moon in your opposite sign, you are learning through the eyes of others. Don’t be afraid to collaborate or seek advice. A balance between your curiosity and your long-term goals is finally within reach. Stay open to a surprise invitation this evening—it could lead to a brilliant alliance.",
-        "title": "Gemini Daily Horoscope \u264a",
+        "title": "Gemini Daily Horoscope ♊",
         "target": "GEMINI",
         "type": "daily",
-        "images": [
-            "assets/zodiac_signs/Gemini.jpg"
-        ],
+        "date": "TODAY",
         "active": true,
         "status": "pending",
-        "date": "TODAY"
+        "script_text": "Gemini, it’s okay to admit that you can’t do everything alone. Today, the stars are bringing a beautiful sense of connection into your life. A conversation with a partner or a dear friend might provide the exact piece of the puzzle you’ve been missing. You are being seen and heard in ways that matter. Let someone walk beside you today. Your path feels so much lighter when you realize you are part of a team that truly cares for you."
     },
     {
-        "script_text": "Cancer, your productivity is through the roof today. The Sagittarius Moon brings a sense of joy to your daily tasks, while the Capricorn Sun helps you stay focused on your primary objectives. If you’ve been procrastinating on a health goal or a work project, today provides the perfect surge of energy to get it done. You are finding that when you organize your environment, your mind follows suit. Stay active, keep your spirits high, and enjoy the satisfaction of a job well done.",
-        "title": "Cancer Daily Horoscope \u264b",
+        "title": "Cancer Daily Horoscope ♋",
         "target": "CANCER",
         "type": "daily",
-        "images": [
-            "assets/zodiac_signs/Cancer.jpg"
-        ],
+        "date": "TODAY",
         "active": true,
         "status": "pending",
-        "date": "TODAY"
+        "script_text": "Cancer, you’ve been feeling the weight of your 'to-do' list like a heavy cloak. But today, there is a shift in the air. You’ll find a sudden burst of energy and a sense of joy in the small things. This isn't just about being productive; it’s about finding your rhythm again. When you care for your environment, you are caring for your soul. Take pride in your progress today, no matter how small. You are building a life of meaning, step by steady step."
     },
     {
-        "script_text": "Leo, romance and creativity are calling your name! The Sagittarius Moon is lighting up your house of joy, making you feel more vibrant and expressive than you have in weeks. This is an ideal day to share your heart or launch a creative passion project. Your magnetic energy is grounded by the Capricorn Sun, ensuring that your fun today leads to lasting results tomorrow. Don't dim your light for anyone; the world is ready to be inspired by your unique brand of magic.",
-        "title": "Leo Daily Horoscope \u264c",
+        "title": "Leo Daily Horoscope ♌",
         "target": "LEO",
         "type": "daily",
-        "images": [
-            "assets/zodiac_signs/Leo.jpg"
-        ],
+        "date": "TODAY",
         "active": true,
         "status": "pending",
-        "date": "TODAY"
+        "script_text": "Leo, I know you’ve been dimming your light lately to make others feel comfortable, but today the universe is asking you to shine. Your creativity and your heart are your greatest gifts. Don’t be afraid to share a passion project or an honest feeling. When you lead with your authentic self, you give others permission to do the same. Today is about joy—pure and simple. Follow what makes your heart beat faster and trust that your light is needed."
     },
     {
-        "script_text": "Virgo, today is about finding peace in your personal space. The Sagittarius Moon encourages you to expand your home life, perhaps through redecorating or a family gathering, while the Capricorn Sun supports your creative expression. You are realizing that a stable home base is the secret to your professional success. Trust your instincts when it comes to domestic matters. A moment of quiet reflection this evening will bring a major realization about your future. Your roots are strong, and you are ready to grow.",
-        "title": "Virgo Daily Horoscope \u264d",
+        "title": "Virgo Daily Horoscope ♍",
         "target": "VIRGO",
         "type": "daily",
-        "images": [
-            "assets/zodiac_signs/Virgo.jpg"
-        ],
+        "date": "TODAY",
         "active": true,
         "status": "pending",
-        "date": "TODAY"
+        "script_text": "Virgo, you spend so much time fixing things for everyone else. Today, the stars are inviting you to fix a space for yourself. Whether it’s a corner of your home or a quiet hour in your day, you need a sanctuary. You are realizing that your external success depends on your internal peace. Trust your instincts when it comes to family or home matters today. You are deepening your roots so that you can grow even higher. Be kind to your heart."
     },
     {
-        "script_text": "Libra, your communication skills are your greatest asset today. The Sagittarius Moon makes you a persuasive and charming speaker, while the Capricorn Sun ensures your message is practical and well-received. It’s an excellent day for meetings, writing, or learning something new. You are building bridges between your big ideas and your home life. A neighbor or sibling might have a piece of information that solves a problem you’ve been dwelling on. Stay curious and keep the conversation flowing—you are on a roll!",
-        "title": "Libra Daily Horoscope \u264e",
+        "title": "Libra Daily Horoscope ♎",
         "target": "LIBRA",
         "type": "daily",
-        "images": [
-            "assets/zodiac_signs/Libra.jpg"
-        ],
+        "date": "TODAY",
         "active": true,
         "status": "pending",
-        "date": "TODAY"
+        "script_text": "Libra, the static in your mind is finally clearing today. You’ve been struggling to find the right words or the right decision, but the 'Golden Bridge' aspect today brings a moment of pure clarity. Reach out and connect—a simple message or a short walk could spark the inspiration you’ve been waiting for. You are moving from confusion into a space of gentle understanding. Trust that the universe is helping you communicate your truth with grace and power."
     },
     {
-        "script_text": "Scorpio, your focus is on abundance and self-worth today. The Sagittarius Moon encourages you to look for new income streams, while the Capricorn Sun helps you communicate your value to the world. You have the discipline to turn a small idea into a significant financial gain. Don’t settle for less than you deserve. Your intuition regarding investments is peaked, so trust your gut but stay grounded in the facts. You are building a secure empire, one strategic move at a time. Prosperity is yours.",
-        "title": "Scorpio Daily Horoscope \u264f",
+        "title": "Scorpio Daily Horoscope ♏",
         "target": "SCORPIO",
         "type": "daily",
-        "images": [
-            "assets/zodiac_signs/Scorpio.jpg"
-        ],
+        "date": "TODAY",
         "active": true,
         "status": "pending",
-        "date": "TODAY"
+        "script_text": "Scorpio, you are often your own toughest critic, but today I want you to look at your reflection with pride. You are building a secure empire, not just financially, but emotionally. Today’s energy helps you see your own value more clearly. Don't settle for crumbs when you've worked for the whole table. Trust your gut regarding a financial move or a new opportunity. You are being rewarded for your depth and your dedication. Prosperity is finding its way to you."
     },
     {
-        "script_text": "Sagittarius, the Moon is still shining in your sign today, and it’s making a beautiful connection to the Sun. This is your moment of maximum clarity. You are able to see exactly how your personal dreams fit into your long-term career goals. Don’t hide your light—share your vision with authority. People are drawn to your optimism and your truth. A financial realization this afternoon gives you the green light for a bold new adventure. Your path is clear; keep moving forward with joy.",
-        "title": "Sagittarius Daily Horoscope \u2650",
+        "title": "Sagittarius Daily Horoscope ♐",
         "target": "SAGITTARIUS",
         "type": "daily",
-        "images": [
-            "assets/zodiac_signs/Sagittarius.jpg"
-        ],
+        "date": "TODAY",
         "active": true,
         "status": "pending",
-        "date": "TODAY"
+        "script_text": "Sagittarius, the Moon is still in your sign today, and it’s whispering that your big, beautiful dreams are actually possible. You’ve been feeling a bit restricted by responsibilities lately, but today those duties and your dreams are finally working together. Don’t hide your optimism; it’s your greatest superpower. A realization this afternoon gives you the green light to take a bold step forward. Trust your wings, Sagittarius. You were born to fly, and the wind is at your back."
     },
     {
-        "script_text": "Capricorn, you are the powerhouse of the zodiac, but today’s energy is more about strategy than speed. With the Moon in your sector of intuition, your subconscious is feeding you brilliant ideas for your professional life. Take time for solitude and meditation. You are preparing for a major breakthrough, and the quiet work you do now is essential. Trust the messages you receive in your dreams or during a quiet walk. You are working from the inside out, and the results will be magnificent.",
-        "title": "Capricorn Daily Horoscope \u2651",
+        "title": "Capricorn Daily Horoscope ♑",
         "target": "CAPRICORN",
         "type": "daily",
-        "images": [
-            "assets/zodiac_signs/Capricorn.jpg"
-        ],
+        "date": "TODAY",
         "active": true,
         "status": "pending",
-        "date": "TODAY"
+        "script_text": "Capricorn, I know you feel like you have to have all the answers right now, but today is about trusting the mystery. Your intuition is trying to tell you something important about your career path. Take a moment to step away from the spreadsheets and listen. You are preparing for a major breakthrough, and the 'Golden Bridge' energy is helping you bridge the gap between where you are and where you want to be. You are doing enough. You ARE enough."
     },
     {
-        "script_text": "Aquarius, your social life is a source of great inspiration today. The Sagittarius Moon brings exciting new people into your orbit, while the Capricorn Sun helps you filter those connections into your long-term goals. It’s a brilliant day for networking or launching a community project. You are finding your tribe and realizing that your unique visions are shared by others. Stay open to a group collaboration—it could be the catalyst for the change you’ve been working toward. Your future is looking brighter by the minute.",
-        "title": "Aquarius Daily Horoscope \u2652",
+        "title": "Aquarius Daily Horoscope ♒",
         "target": "AQUARIUS",
         "type": "daily",
-        "images": [
-            "assets/zodiac_signs/Aquarius.jpg"
-        ],
+        "date": "TODAY",
         "active": true,
         "status": "pending",
-        "date": "TODAY"
+        "script_text": "Aquarius, sometimes being the visionary can feel a bit lonely. But today, the stars are bringing your tribe closer to you. You’ll find that your unique ideas are finding a home in the hearts of others. Reach out to your community or a group of friends—their support will be the catalyst for the change you’re seeking. You don’t have to carry the future on your own. Together, you are building something that matters. Stay open to the magic of connection."
     },
     {
-        "script_text": "Pisces, your career is reaching a beautiful high point today. The Sagittarius Moon shines on your public status, while the Capricorn Sun supports your network and social circles. You have the respect of your peers and the vision to lead. If you’ve been waiting for a sign to step into the spotlight, this is it. Your intuition is guiding your professional moves, helping you make choices that are both profitable and meaningful. Believe in your worth and let your success be your loudest statement.",
-        "title": "Pisces Daily Horoscope \u2653",
+        "title": "Pisces Daily Horoscope ♓",
         "target": "PISCES",
         "type": "daily",
-        "images": [
-            "assets/zodiac_signs/Pisces.jpg"
-        ],
+        "date": "TODAY",
         "active": true,
         "status": "pending",
-        "date": "TODAY"
+        "script_text": "Pisces, you’ve been working so hard in the shadows, and today, a little bit of that light is finally spilling over. Your professional life is reaching a beautiful turning point. Trust that your intuition is your best career advisor. If a move feels right in your soul, it’s probably the right move for your life. You are bridging the gap between your spiritual values and your outer success. Believe in your vision, Pisces. The world is finally starting to see what I see in you."
     }
 ]
