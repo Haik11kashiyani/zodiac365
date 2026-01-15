@@ -15,8 +15,9 @@
         "type": "daily",
         "date": "TODAY",
         "active": true,
-        "status": "pending",
-        "script_text": "Taurus, you\u2019ve been carrying a lot of worry about your security and the future. Today, I want you to take a deep breath and look at how much you\u2019ve already survived. Your intuition is whispering a solution to a financial or emotional burden today\u2014listen to it. You are shedding the old 'lack' mindset and stepping into a space of deserving. You are worthy of abundance, and today, the stars are conspiring to show you exactly how to claim it."
+        "status": "done",
+        "script_text": "Taurus, you\u2019ve been carrying a lot of worry about your security and the future. Today, I want you to take a deep breath and look at how much you\u2019ve already survived. Your intuition is whispering a solution to a financial or emotional burden today\u2014listen to it. You are shedding the old 'lack' mindset and stepping into a space of deserving. You are worthy of abundance, and today, the stars are conspiring to show you exactly how to claim it.",
+        "uploaded": true
     },
     {
         "title": "Gemini Daily Horoscope \u264a",
@@ -34,8 +35,9 @@
         "type": "daily",
         "date": "TODAY",
         "active": true,
-        "status": "pending",
-        "script_text": "Cancer, you\u2019ve been feeling the weight of your 'to-do' list like a heavy cloak. But today, there is a shift in the air. You\u2019ll find a sudden burst of energy and a sense of joy in the small things. This isn't just about being productive; it\u2019s about finding your rhythm again. When you care for your environment, you are caring for your soul. Take pride in your progress today, no matter how small. You are building a life of meaning, step by steady step."
+        "status": "done",
+        "script_text": "Cancer, you\u2019ve been feeling the weight of your 'to-do' list like a heavy cloak. But today, there is a shift in the air. You\u2019ll find a sudden burst of energy and a sense of joy in the small things. This isn't just about being productive; it\u2019s about finding your rhythm again. When you care for your environment, you are caring for your soul. Take pride in your progress today, no matter how small. You are building a life of meaning, step by steady step.",
+        "uploaded": true
     },
     {
         "title": "Leo Daily Horoscope \u264c",
@@ -62,8 +64,9 @@
         "type": "daily",
         "date": "TODAY",
         "active": true,
-        "status": "pending",
-        "script_text": "Libra, the static in your mind is finally clearing today. You\u2019ve been struggling to find the right words or the right decision, but the 'Golden Bridge' aspect today brings a moment of pure clarity. Reach out and connect\u2014a simple message or a short walk could spark the inspiration you\u2019ve been waiting for. You are moving from confusion into a space of gentle understanding. Trust that the universe is helping you communicate your truth with grace and power."
+        "status": "done",
+        "script_text": "Libra, the static in your mind is finally clearing today. You\u2019ve been struggling to find the right words or the right decision, but the 'Golden Bridge' aspect today brings a moment of pure clarity. Reach out and connect\u2014a simple message or a short walk could spark the inspiration you\u2019ve been waiting for. You are moving from confusion into a space of gentle understanding. Trust that the universe is helping you communicate your truth with grace and power.",
+        "uploaded": true
     },
     {
         "title": "Scorpio Daily Horoscope \u264f",
@@ -101,8 +104,9 @@
         "type": "daily",
         "date": "TODAY",
         "active": true,
-        "status": "pending",
-        "script_text": "Aquarius, sometimes being the visionary can feel a bit lonely. But today, the stars are bringing your tribe closer to you. You\u2019ll find that your unique ideas are finding a home in the hearts of others. Reach out to your community or a group of friends\u2014their support will be the catalyst for the change you\u2019re seeking. You don\u2019t have to carry the future on your own. Together, you are building something that matters. Stay open to the magic of connection."
+        "status": "done",
+        "script_text": "Aquarius, sometimes being the visionary can feel a bit lonely. But today, the stars are bringing your tribe closer to you. You\u2019ll find that your unique ideas are finding a home in the hearts of others. Reach out to your community or a group of friends\u2014their support will be the catalyst for the change you\u2019re seeking. You don\u2019t have to carry the future on your own. Together, you are building something that matters. Stay open to the magic of connection.",
+        "uploaded": true
     },
     {
         "title": "Pisces Daily Horoscope \u2653",
