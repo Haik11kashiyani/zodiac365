@@ -1,118 +1,110 @@
 [
     {
-        "title": "Aries Daily Horoscope \u2648",
+        "title": "Aries Daily Horoscope ♈",
         "target": "ARIES",
         "type": "daily",
         "date": "TODAY",
         "active": true,
-        "status": "done",
-        "script_text": "Aries, I know you\u2019re used to charging forward, but today the air feels thick with expectation. With the Moon joining the stellium in your career sector, you might feel like you're carrying the weight of the world. It\u2019s okay to admit you\u2019re tired. You don't have to prove your worth through constant action. True strength today is found in your resilience and your ability to stay grounded when the pressure rises. Breathe deep; you are doing enough.",
-        "uploaded": true
+        "status": "pending",
+        "script_text": "Aries, even the bravest warriors need to lay down their shields. With the Moon fading into the darkness before tomorrow’s New Moon, you might feel a sudden drop in your usual fire. Please don't mistake this for a loss of momentum. You are simply being asked to recharge. Let go of the need to be 'productive' for just one day. Your only job today is to breathe and let the week’s stress fall away. You’re coming home to yourself."
     },
     {
-        "title": "Taurus Daily Horoscope \u2649",
+        "title": "Taurus Daily Horoscope ♉",
         "target": "TAURUS",
         "type": "daily",
         "date": "TODAY",
         "active": true,
         "status": "pending",
-        "script_text": "Taurus, the world feels very serious today, and for a soul that craves comfort and beauty, that can be draining. You\u2019re being asked to look at the big picture, but don't let the vastness of your goals overwhelm you. You are a master of steady progress. Trust the foundations you\u2019ve built. If you feel a bit disconnected or lonely in your pursuit of excellence, remember that your spirit needs nourishment too. Find a moment of quiet peace today."
+        "script_text": "Taurus, I know you’ve been carrying heavy thoughts about your future lately. Today, the universe is inviting you to set those bags down. You don’t need to have the next five years figured out by tonight. Find comfort in the small things—the warmth of a blanket or the silence of a quiet room. You are safe, and you are doing enough. Allow your mind to rest so that your heart can begin to dream again. Tomorrow is a new start."
     },
     {
-        "title": "Gemini Daily Horoscope \u264a",
+        "title": "Gemini Daily Horoscope ♊",
         "target": "GEMINI",
         "type": "daily",
         "date": "TODAY",
         "active": true,
-        "status": "done",
-        "script_text": "Gemini, you are navigating some very deep waters right now. The heavy Capricorn energy is pulling your focus toward things that aren't easily fixed with a quick conversation. If you feel a sense of internal 'heaviness,' know that it is simply the process of transformation. You are shedding old versions of yourself to make room for more power. Be patient with your heart today. You don't need to explain your mood to anyone. Just allow yourself to feel.",
-        "uploaded": true
+        "status": "pending",
+        "script_text": "Gemini, the mental chatter might feel a bit louder today as we approach the New Moon. If you’re feeling a little overwhelmed by your own thoughts, I want you to know it’s okay to unplug. You don't have to respond to every message or solve every puzzle today. Give your beautiful mind a break from the noise. In the silence, you’ll find the clarity you’ve been seeking. Trust that the answers will find you when you stop chasing them so hard."
     },
     {
-        "title": "Cancer Daily Horoscope \u264b",
+        "title": "Cancer Daily Horoscope ♋",
         "target": "CANCER",
         "type": "daily",
         "date": "TODAY",
         "active": true,
-        "status": "done",
-        "script_text": "Cancer, the focus is on your relationships today, but it might feel more like a duty than a joy. You may feel like others are leaning on you more than usual, or perhaps they seem a bit distant. Please don't take it personally; the stars are making everyone a bit more guarded. Protect your sensitive heart by setting a few gentle boundaries. You are the nurturer of the zodiac, but today, make sure you are at the top of your own list.",
-        "uploaded": true
+        "status": "pending",
+        "script_text": "Cancer, you are so good at taking care of the world, but today the world needs to wait. Your heart is feeling extra tender as the lunar cycle ends. It’s okay to pull back into your shell and prioritize your own peace. You aren't being selfish; you are being sustainable. Wrap yourself in the same kindness you give to others so freely. Let go of any guilt you’re carrying. You are loved for who you are, not just for what you do."
     },
     {
-        "title": "Leo Daily Horoscope \u264c",
+        "title": "Leo Daily Horoscope ♌",
         "target": "LEO",
         "type": "daily",
         "date": "TODAY",
         "active": true,
         "status": "pending",
-        "script_text": "Leo, I know you thrive on warmth and applause, but today\u2019s energy is more about the quiet work behind the scenes. If you feel like a cog in a machine, take a moment to remember the value of your contribution. You are building something lasting through your daily discipline. Don't let the lack of immediate recognition dampen your fire. Your light is still there; it's just being used to fuel your long-term legacy right now. Keep going; I see you."
+        "script_text": "Leo, I know it’s hard for you to be still when you feel you should be shining. But even the stars are hidden during the dark of the Moon. Today is your permission slip to be 'off-duty.' You don't have to perform or be the source of strength for everyone else. Honor your tiredness. There is a deep, quiet power in resting your spirit. By allowing yourself to recharge today, you ensure your light will be brighter than ever tomorrow. Be gentle with yourself."
     },
     {
-        "title": "Virgo Daily Horoscope \u264d",
+        "title": "Virgo Daily Horoscope ♍",
         "target": "VIRGO",
         "type": "daily",
         "date": "TODAY",
         "active": true,
-        "status": "done",
-        "script_text": "Virgo, today the stars are asking you to find joy within a structure. It might feel like your creative sparks are being weighed down by 'real world' concerns. Try not to let perfectionism steal your happiness. You are allowed to create something just for the sake of it, even if it doesn't serve a 'purpose' yet. Be gentle with your expectations of yourself. You are a human being, not a productivity app. Give yourself permission to play today.",
-        "uploaded": true
+        "status": "pending",
+        "script_text": "Virgo, that list of things you haven't finished? It can wait. Your inner critic might be whispering that you’re falling behind, but I’m here to tell you that rest is a vital part of your work. Today is for clearing the emotional clutter. Forgive yourself for not being perfect. You have done so much this week, and your soul needs a moment to catch up. Focus on what makes you feel peaceful, not what makes you feel productive. You’ve earned this quiet."
     },
     {
-        "title": "Libra Daily Horoscope \u264e",
+        "title": "Libra Daily Horoscope ♎",
         "target": "LIBRA",
         "type": "daily",
         "date": "TODAY",
         "active": true,
-        "status": "done",
-        "script_text": "Libra, home should be your soft place to land, but today it might feel like a place of responsibility and old patterns. If you\u2019re feeling the weight of family expectations, remember that you are allowed to define your own peace. You don't have to fix everything for everyone. Take a moment to ground yourself in your own space. Your internal balance is more important than external harmony today. Breathe through the tension; it is only temporary.",
-        "uploaded": true
+        "status": "pending",
+        "script_text": "Libra, you often find your balance by adjusting to others, but today I want you to find balance within yourself. If the world feels a bit too loud or demanding, it’s okay to retreat to your sanctuary. You don’t have to keep the peace for everyone else today. Let go of the need to please. In the stillness of your own company, you’ll find the equilibrium you’ve been searching for. Your peace is worth protecting. Just be, and let that be enough."
     },
     {
-        "title": "Scorpio Daily Horoscope \u264f",
+        "title": "Scorpio Daily Horoscope ♏",
         "target": "SCORPIO",
         "type": "daily",
         "date": "TODAY",
         "active": true,
-        "status": "done",
-        "script_text": "Scorpio, your mind is working overtime today, and the intensity can be exhausting. You\u2019re seeing the truth in every situation, but that level of clarity can sometimes feel lonely. Try to soften your internal dialogue. Not everything is a problem to be solved or a secret to be uncovered. Sometimes, it's enough just to observe. Your words have extra weight today, so use them with kindness\u2014especially when you\u2019re talking to yourself. You are safe and you are wise.",
-        "uploaded": true
+        "status": "pending",
+        "script_text": "Scorpio, you are comfortable in the shadows, but today the shadows might feel a little heavier than usual. You’re processing deep emotions and preparing for a personal reset. If you feel more introverted, honor that need for privacy. You are doing the quiet work of releasing old hurts and outdated patterns. You don't need to explain your process to anyone. Trust your internal transformation. You are becoming a lighter version of yourself with every breath you take. Stay soft today."
     },
     {
-        "title": "Sagittarius Daily Horoscope \u2650",
+        "title": "Sagittarius Daily Horoscope ♐",
         "target": "SAGITTARIUS",
         "type": "daily",
         "date": "TODAY",
         "active": true,
-        "status": "done",
-        "script_text": "Sagittarius, the focus on finances and stability today might feel a bit suffocating for your adventurous soul. I know you want to run, but there is a special kind of freedom that comes from having a solid foundation. Think of today\u2019s discipline as the anchor that allows your kite to fly higher later. If you\u2019re feeling anxious about your worth, look at how far you\u2019ve come. You are building security so that your future self can be even more free.",
-        "uploaded": true
+        "status": "pending",
+        "script_text": "Sagittarius, your arrow can’t always be in flight. Today, the universe is asking you to lower your bow and rest your gaze. The focus on responsibilities has been intense, and it’s okay if you feel a little drained. Think of today as a spiritual pit stop. You aren't losing time; you are gathering the strength for your next big adventure. Take a moment to appreciate how far you’ve come. Your future is bright, but your present deserves some quiet care, too."
     },
     {
-        "title": "Capricorn Daily Horoscope \u2651",
+        "title": "Capricorn Daily Horoscope ♑",
         "target": "CAPRICORN",
         "type": "daily",
         "date": "TODAY",
         "active": true,
         "status": "pending",
-        "script_text": "Capricorn, with so much energy in your sign, you are the pillar everyone is leaning on. But even a pillar needs support. You might feel like you can\u2019t show any weakness right now, but I want you to know that your vulnerability is actually a strength. You are doing an incredible job, but you are also allowed to be tired. Take off the armor for a little while this evening. You\u2019ve earned the right to just be yourself, without the titles or the tasks."
+        "script_text": "Capricorn, as the Moon fades in your sign, you might feel the weight of your crown more than usual. You’ve been the pillar of strength for so long. Today, I want you to remember that it’s okay to be human. You don't have to carry every burden alone. Tomorrow is your New Moon—your fresh start—but today is for letting go of the old armor. Give yourself permission to feel, to rest, and to just exist. You are valued for your heart, not just your hustle."
     },
     {
-        "title": "Aquarius Daily Horoscope \u2652",
+        "title": "Aquarius Daily Horoscope ♒",
         "target": "AQUARIUS",
         "type": "daily",
         "date": "TODAY",
         "active": true,
         "status": "pending",
-        "script_text": "Aquarius, you are in a deeply internal phase right now, and it can feel like you\u2019re living in a different world than everyone else. If you feel more sensitive or introverted today, honor that. You are processing deep shifts in your subconscious. You don't have to be 'on' for the world today. Your power is growing in the quiet. Trust that even when it looks like nothing is happening, your soul is doing the most important work of all. Rest well."
+        "script_text": "Aquarius, you’re often living in the future, but today the stars are pulling you back into the quiet of the present. Your intuition is very active right now, whispering truths you might have been too busy to hear. Honor your need for solitude. You aren't being distant; you are simply recalibrating your soul. Trust the shifts happening in the background of your life. You are preparing for a massive breakthrough, but for today, the most revolutionary thing you can do is rest."
     },
     {
-        "title": "Pisces Daily Horoscope \u2653",
+        "title": "Pisces Daily Horoscope ♓",
         "target": "PISCES",
         "type": "daily",
         "date": "TODAY",
         "active": true,
-        "status": "done",
-        "script_text": "Pisces, you are so attuned to the feelings of others that today\u2019s heavy collective energy might feel like a storm you have to navigate. It\u2019s a day for finding your 'tribe'\u2014those few people who really see you and make you feel grounded. Don't feel like you have to be everything to everyone. Your empathy is a gift, but don't let it drain you. Seek out the stability of a true friend and remember that your dreams are protected by the structures you're building.",
-        "uploaded": true
+        "status": "pending",
+        "script_text": "Pisces, you are the most sensitive soul in the zodiac, and today the energy of the world might feel a little overwhelming. If you feel like you’re carrying everyone else’s emotions, please take a moment to ground yourself. Visualize yourself letting go of what isn't yours to carry. You need your energy for your own dreams. Seek out the comfort of water or music, and let it wash away the week’s heaviness. You are safe, you are protected, and you are deeply loved."
     }
 ]
