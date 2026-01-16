@@ -1,0 +1,43 @@
+[
+    {
+        "comment": "--- DAILY TEMPLATE ---",
+        "title": "Aries Daily Horoscope",
+        "target": "ARIES",
+        "type": "daily",
+        "date": "TODAY",
+        "status": "pending",
+        "active": true,
+        "script_text": "" 
+    },
+    {
+        "comment": "--- MONTHLY TEMPLATE ---",
+        "title": "Taurus Monthly Forecast",
+        "target": "TAURUS",
+        "type": "monthly",
+        "date": "February 2026",
+        "status": "pending",
+        "active": true,
+        "script_text": ""
+    },
+    {
+        "comment": "--- YEARLY TEMPLATE ---",
+        "title": "Gemini 2026 Prediction",
+        "target": "GEMINI",
+        "type": "yearly",
+        "date": "2026",
+        "status": "pending",
+        "active": true,
+        "script_text": ""
+    },
+    {
+        "comment": "--- MANUAL SCRIPT EXAMPLE (If you write it yourself) ---",
+        "title": "Cancer Special Message",
+        "target": "CANCER",
+        "type": "special",
+        "date": "TODAY",
+        "status": "pending",
+        "active": true,
+        "script_text": "Cancer, today brings a wave of clarity...",
+        "images": ["assets/zodiac_signs/Cancer.jpg"]
+    }
+]
