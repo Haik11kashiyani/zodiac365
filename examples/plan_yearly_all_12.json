@@ -46,8 +46,8 @@
             "assets/zodiac_signs/TAURUS.jpg"
         ],
         "active": true,
-        "status": "pending",
-        "uploaded": false,
+        "status": "done",
+        "uploaded": true,
         "date": "Jan 16",
         "youtube_title": "TAURUS Destiny Upgraded 2026: Pluto in Aquarius Sparks Unstoppable Change #shorts",
         "youtube_description": "Will you break free from old limits and claim new heights in 2026? Taurus, join the revolution! Revealed: achievable goals, hidden alliances, and soul-renewing opportunities. Comment below your biggest fears or expectations\u2014your cosmic number is on the rise! #cosmic2026 #astrology #TAURUS #transit",
@@ -70,7 +70,11 @@
             "#zodiac",
             "#dreams",
             "#visionary",
-            "# destiny"
+            "# destiny",
+            "shorts",
+            "viral",
+            "astrology",
+            "taurus"
         ]
     },
     {
@@ -423,8 +427,8 @@
             "assets/zodiac_signs/PISCES.jpg"
         ],
         "active": true,
-        "status": "pending",
-        "uploaded": false,
+        "status": "done",
+        "uploaded": true,
         "date": "Jan 16",
         "youtube_title": "Pisces 2026 Horoscope: This IS Your Destiny Transformation! #shorts",
         "youtube_description": "Will the universe change your life in 2026?!\nAre you ready to break free from the past and become a world-shaping visionary?\nWhich chakra is awakening this year? \ud83e\ude90\u2728\n#PISCES #Astrology #2026Horoscope #Destiny",
@@ -443,7 +447,11 @@
             "#CareerChange",
             "#SpiritualAwakening",
             "#FuturePrediction",
-            "#Eclipse"
+            "#Eclipse",
+            "shorts",
+            "viral",
+            "astrology",
+            "pisces"
         ]
     }
 ]

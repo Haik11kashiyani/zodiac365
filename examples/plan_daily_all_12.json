@@ -1,110 +1,118 @@
 [
     {
-        "title": "Aries Daily Horoscope ♈",
+        "title": "Aries Daily Horoscope \u2648",
         "target": "ARIES",
         "type": "daily",
         "date": "TODAY",
         "active": true,
-        "status": "pending",
-        "script_text": "Aries, as the Sun enters Aquarius today, you’ll feel a weight lifting off your chest. The heavy focus on your career is softening, making room for your social life and your biggest dreams. I know you’ve felt a bit isolated lately, but today the universe reminds you that you don't have to carry the torch alone. Reach out to your tribe. There is so much magic in collaboration. You are finding your people, and together, you are going to change the world."
+        "status": "done",
+        "script_text": "Aries, as the Sun enters Aquarius today, you\u2019ll feel a weight lifting off your chest. The heavy focus on your career is softening, making room for your social life and your biggest dreams. I know you\u2019ve felt a bit isolated lately, but today the universe reminds you that you don't have to carry the torch alone. Reach out to your tribe. There is so much magic in collaboration. You are finding your people, and together, you are going to change the world.",
+        "uploaded": true
     },
     {
-        "title": "Taurus Daily Horoscope ♉",
+        "title": "Taurus Daily Horoscope \u2649",
         "target": "TAURUS",
         "type": "daily",
         "date": "TODAY",
         "active": true,
-        "status": "pending",
-        "script_text": "Taurus, the Sun moves to the top of your chart today, shining a bright light on your professional path. I know change can be scary for your steady heart, but this shift is inviting you to lead in a way only you can. You don't have to follow the old rules anymore. Trust your unique vision. Even if you feel a bit exposed in the spotlight, know that your authenticity is your greatest strength. Step into your power; we are all waiting to see you shine."
+        "status": "done",
+        "script_text": "Taurus, the Sun moves to the top of your chart today, shining a bright light on your professional path. I know change can be scary for your steady heart, but this shift is inviting you to lead in a way only you can. You don't have to follow the old rules anymore. Trust your unique vision. Even if you feel a bit exposed in the spotlight, know that your authenticity is your greatest strength. Step into your power; we are all waiting to see you shine.",
+        "uploaded": true
     },
     {
-        "title": "Gemini Daily Horoscope ♊",
+        "title": "Gemini Daily Horoscope \u264a",
         "target": "GEMINI",
         "type": "daily",
         "date": "TODAY",
         "active": true,
-        "status": "pending",
-        "script_text": "Gemini, the horizon is expanding for you today. As the Sun enters Aquarius, your thirst for wisdom and adventure is finally being quenched. If you’ve felt stuck in the mundane details of life, today is your breakout moment. I see you craving more meaning, more depth, and more freedom. Trust that inner nudge to explore something new—whether it's a book, a class, or a conversation. Your mind is a beautiful landscape; allow it to wander today. The truth is out there."
+        "status": "done",
+        "script_text": "Gemini, the horizon is expanding for you today. As the Sun enters Aquarius, your thirst for wisdom and adventure is finally being quenched. If you\u2019ve felt stuck in the mundane details of life, today is your breakout moment. I see you craving more meaning, more depth, and more freedom. Trust that inner nudge to explore something new\u2014whether it's a book, a class, or a conversation. Your mind is a beautiful landscape; allow it to wander today. The truth is out there.",
+        "uploaded": true
     },
     {
-        "title": "Cancer Daily Horoscope ♋",
+        "title": "Cancer Daily Horoscope \u264b",
         "target": "CANCER",
         "type": "daily",
         "date": "TODAY",
         "active": true,
         "status": "pending",
-        "script_text": "Cancer, today marks the beginning of a deep, transformative journey for you. As the Sun moves into your eighth house, the focus shifts to intimacy and shared resources. I know these 'deep waters' can feel intimidating, but you are a natural swimmer in the realm of emotion. Use today to have the honest conversations you’ve been putting off. You are healing old wounds and learning to trust again. You are safe to be vulnerable. The strength you find in others will surprise you."
+        "script_text": "Cancer, today marks the beginning of a deep, transformative journey for you. As the Sun moves into your eighth house, the focus shifts to intimacy and shared resources. I know these 'deep waters' can feel intimidating, but you are a natural swimmer in the realm of emotion. Use today to have the honest conversations you\u2019ve been putting off. You are healing old wounds and learning to trust again. You are safe to be vulnerable. The strength you find in others will surprise you."
     },
     {
-        "title": "Leo Daily Horoscope ♌",
+        "title": "Leo Daily Horoscope \u264c",
         "target": "LEO",
         "type": "daily",
         "date": "TODAY",
         "active": true,
-        "status": "pending",
-        "script_text": "Leo, the Sun enters your opposite sign today, putting a warm spotlight on your relationships. After a month of focusing on your own routine, it’s time to see yourself through the eyes of those you love. I know you love to lead, but today is about partnership and balance. If a connection has felt strained, use this new energy to find common ground. You are learning that your light shines even brighter when it’s reflected in someone else’s eyes. Love is your mission today."
+        "status": "done",
+        "script_text": "Leo, the Sun enters your opposite sign today, putting a warm spotlight on your relationships. After a month of focusing on your own routine, it\u2019s time to see yourself through the eyes of those you love. I know you love to lead, but today is about partnership and balance. If a connection has felt strained, use this new energy to find common ground. You are learning that your light shines even brighter when it\u2019s reflected in someone else\u2019s eyes. Love is your mission today.",
+        "uploaded": true
     },
     {
-        "title": "Virgo Daily Horoscope ♍",
+        "title": "Virgo Daily Horoscope \u264d",
         "target": "VIRGO",
         "type": "daily",
         "date": "TODAY",
         "active": true,
-        "status": "pending",
-        "script_text": "Virgo, today the Sun enters Aquarius, bringing a fresh perspective to your daily life and well-being. If you’ve been feeling bogged down by chores and duties, this shift helps you find smarter, more innovative ways to manage your world. I know you strive for perfection, but today, try to strive for 'flow' instead. Listen to what your body is telling you. A small change in your routine could spark a huge boost in your spirit. You are worth the extra care you give to everyone else."
+        "status": "done",
+        "script_text": "Virgo, today the Sun enters Aquarius, bringing a fresh perspective to your daily life and well-being. If you\u2019ve been feeling bogged down by chores and duties, this shift helps you find smarter, more innovative ways to manage your world. I know you strive for perfection, but today, try to strive for 'flow' instead. Listen to what your body is telling you. A small change in your routine could spark a huge boost in your spirit. You are worth the extra care you give to everyone else.",
+        "uploaded": true
     },
     {
-        "title": "Libra Daily Horoscope ♎",
+        "title": "Libra Daily Horoscope \u264e",
         "target": "LIBRA",
         "type": "daily",
         "date": "TODAY",
         "active": true,
-        "status": "pending",
-        "script_text": "Libra, your heart is finally getting a chance to dance! As the Sun enters Aquarius, your sector of creativity, romance, and joy is lit up like a neon sign. After a heavy month focusing on home and roots, it’s time to express yourself. I see your creative spark returning. Don't worry about being practical today; just worry about being happy. Whether it’s a hobby, a crush, or a creative project, follow the fun. You deserve to feel light, bright, and utterly inspired."
+        "status": "done",
+        "script_text": "Libra, your heart is finally getting a chance to dance! As the Sun enters Aquarius, your sector of creativity, romance, and joy is lit up like a neon sign. After a heavy month focusing on home and roots, it\u2019s time to express yourself. I see your creative spark returning. Don't worry about being practical today; just worry about being happy. Whether it\u2019s a hobby, a crush, or a creative project, follow the fun. You deserve to feel light, bright, and utterly inspired.",
+        "uploaded": true
     },
     {
-        "title": "Scorpio Daily Horoscope ♏",
+        "title": "Scorpio Daily Horoscope \u264f",
         "target": "SCORPIO",
         "type": "daily",
         "date": "TODAY",
         "active": true,
         "status": "pending",
-        "script_text": "Scorpio, the Sun moves into your fourth house today, drawing your focus back to your sanctuary and your roots. I know you’ve been busy out in the world, but your soul is calling you home. This is a time for finding belonging—not just in a house, but within yourself. If there have been family tensions, the Aquarius Sun helps you look at them with a more objective, healing lens. Create a space that reflects the real you. Your inner peace is the source of all your power."
+        "script_text": "Scorpio, the Sun moves into your fourth house today, drawing your focus back to your sanctuary and your roots. I know you\u2019ve been busy out in the world, but your soul is calling you home. This is a time for finding belonging\u2014not just in a house, but within yourself. If there have been family tensions, the Aquarius Sun helps you look at them with a more objective, healing lens. Create a space that reflects the real you. Your inner peace is the source of all your power."
     },
     {
-        "title": "Sagittarius Daily Horoscope ♐",
+        "title": "Sagittarius Daily Horoscope \u2650",
         "target": "SAGITTARIUS",
         "type": "daily",
         "date": "TODAY",
         "active": true,
         "status": "pending",
-        "script_text": "Sagittarius, your world is about to get a lot busier—and a lot more interesting! The Sun moves into your communication sector today, sparking your curiosity and your social life. I know you’ve been feeling a bit quiet lately, but today your voice returns. Share your ideas, write that message, or just take a drive to somewhere new. You are the messenger of the zodiac right now. Your words have the power to inspire others and clear the air. Speak your truth with a smile."
+        "script_text": "Sagittarius, your world is about to get a lot busier\u2014and a lot more interesting! The Sun moves into your communication sector today, sparking your curiosity and your social life. I know you\u2019ve been feeling a bit quiet lately, but today your voice returns. Share your ideas, write that message, or just take a drive to somewhere new. You are the messenger of the zodiac right now. Your words have the power to inspire others and clear the air. Speak your truth with a smile."
     },
     {
-        "title": "Capricorn Daily Horoscope ♑",
+        "title": "Capricorn Daily Horoscope \u2651",
         "target": "CAPRICORN",
         "type": "daily",
         "date": "TODAY",
         "active": true,
         "status": "pending",
-        "script_text": "Capricorn, as the Sun leaves your sign today, take a deep breath and feel the release of pressure. You’ve done the hard work of self-reflection, and now it’s time to enjoy the fruits of your labor. Your focus shifts to your self-worth and your resources. I want you to realize that you are valuable simply because you exist, not just for what you produce. Treat yourself to something that makes you feel secure and stable today. You’ve earned the right to relax into your abundance."
+        "script_text": "Capricorn, as the Sun leaves your sign today, take a deep breath and feel the release of pressure. You\u2019ve done the hard work of self-reflection, and now it\u2019s time to enjoy the fruits of your labor. Your focus shifts to your self-worth and your resources. I want you to realize that you are valuable simply because you exist, not just for what you produce. Treat yourself to something that makes you feel secure and stable today. You\u2019ve earned the right to relax into your abundance."
     },
     {
-        "title": "Aquarius Daily Horoscope ♒",
+        "title": "Aquarius Daily Horoscope \u2652",
         "target": "AQUARIUS",
         "type": "daily",
         "date": "TODAY",
         "active": true,
-        "status": "pending",
-        "script_text": "Aquarius, happy birthday season! The Sun enters your sign today, and the world is finally vibrating at your frequency. If you’ve felt misunderstood or out of place lately, that ends now. This is your personal new year. I see your vitality returning and your vision clearing. Don't be afraid to be your most unique, eccentric self. The world needs your innovation and your heart more than ever. Own your space, trust your genius, and prepare for a brilliant year ahead."
+        "status": "done",
+        "script_text": "Aquarius, happy birthday season! The Sun enters your sign today, and the world is finally vibrating at your frequency. If you\u2019ve felt misunderstood or out of place lately, that ends now. This is your personal new year. I see your vitality returning and your vision clearing. Don't be afraid to be your most unique, eccentric self. The world needs your innovation and your heart more than ever. Own your space, trust your genius, and prepare for a brilliant year ahead.",
+        "uploaded": true
     },
     {
-        "title": "Pisces Daily Horoscope ♓",
+        "title": "Pisces Daily Horoscope \u2653",
         "target": "PISCES",
         "type": "daily",
         "date": "TODAY",
         "active": true,
-        "status": "pending",
-        "script_text": "Pisces, as the Sun moves into Aquarius, you are entering your most spiritual and reflective time of the year. This is the month before your birthday—a time for closure and healing. I know you feel the world’s emotions deeply, but today I want you to focus on your own inner peace. Your intuition is at an all-time high. Trust the whispers of your soul. You are clearing out the old to make room for your new cycle next month. Rest, dream, and know that you are deeply held."
+        "status": "done",
+        "script_text": "Pisces, as the Sun moves into Aquarius, you are entering your most spiritual and reflective time of the year. This is the month before your birthday\u2014a time for closure and healing. I know you feel the world\u2019s emotions deeply, but today I want you to focus on your own inner peace. Your intuition is at an all-time high. Trust the whispers of your soul. You are clearing out the old to make room for your new cycle next month. Rest, dream, and know that you are deeply held.",
+        "uploaded": true
     }
 ]
