@@ -300,8 +300,8 @@
             "assets/zodiac_signs/SAGITTARIUS.jpg"
         ],
         "active": true,
-        "status": "pending",
-        "uploaded": false,
+        "status": "done",
+        "uploaded": true,
         "date": "Jan 16",
         "youtube_title": "Sagittarius SECRET January 2026 Fortune Shocking! \u26a1\ufe0f #shorts",
         "youtube_description": "\ud83d\udd2e How will Jupiter guide your month? Share your insights below!\n\ud83d\udcab Which hidden blessing is waiting for you? Drop a comment!\n\u2728 Which tarot card speaks to you? #Sagittarius #Astrology #January2026 #Divination",
@@ -323,7 +323,11 @@
             "#shorts",
             "#fyp",
             "#viral",
-            "#cosmicguidance"
+            "#cosmicguidance",
+            "shorts",
+            "viral",
+            "astrology",
+            "sagittarius"
         ]
     },
     {
