@@ -196,7 +196,9 @@ def get_b_roll_sequence(script_text, sign, count=3):
     # Fetch
     used_ids = set()
     for q in target_queries[:count]:
-        hits = search_pexel_video(q, per_page=5)
+        hits = search_pexel_video(q, per_page=15) # Increased per_page for more variety
+        random.shuffle(hits) # RANDOMIZE SELECTION to avoid always picking top 1
+        
         found = False
         for hit in hits:
             if hit['id'] not in used_ids:

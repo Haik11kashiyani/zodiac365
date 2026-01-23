@@ -80,8 +80,13 @@ jobs:
           git config --global user.name "Zodiac Bot"
           git config --global user.email "bot@zodiac365.com"
 
+          # Pull latest changes to avoid conflicts
+          git pull --rebase origin main || echo "Rebase failed (or no remote changes), continuing..."
+
           # Add all JSONs that might have updated
           git add examples/*.json
+          # Ensure image_usage.json exists before adding or ignore if missing
+          touch image_usage.json 
           git add image_usage.json || true
 
           # Commit if changes exist
