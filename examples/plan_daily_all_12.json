@@ -1,119 +1,110 @@
 [
     {
-        "title": "Aries Daily Horoscope \u2648",
+        "title": "Aries Daily Horoscope ♈ - January 25, 2026",
         "target": "ARIES",
         "type": "daily",
         "date": "TODAY",
         "active": true,
         "status": "pending",
-        "script_text": "Aries, the high-octane energy of the last two days is beginning to settle. You\u2019ve made your point and started the engine, but today the stars ask: what\u2019s the next practical step? I know you hate to slow down, but there\u2019s a quiet strength in steady progress. Take a breath and look at your resources. You don\u2019t have to do it all in a day. Trust that the seeds you\u2019ve planted are already starting to grow. You are safe to rest."
+        "script_text": "Aries, I know you usually want to conquer the world by noon, but today the stars are inviting you to just enjoy it. With the Moon in steady Taurus, your focus shifts to your physical comfort and your sense of security. If you’ve been worrying about money or 'enoughness,' take a breath. You have everything you need right now. Treat your body with kindness today—eat well, rest long, and remember that you don't have to be 'on' to be worthy."
     },
     {
-        "title": "Taurus Daily Horoscope \u2649",
+        "title": "Taurus Daily Horoscope ♉ - January 25, 2026",
         "target": "TAURUS",
         "type": "daily",
         "date": "TODAY",
         "active": true,
         "status": "pending",
-        "script_text": "Taurus, you can feel the shift coming. As the Moon prepares to enter your sign, your world starts to feel a bit more aligned. If the morning feels chaotic, don't let it shake your peace. By this afternoon, you\u2019ll find your rhythm again. Use this energy to reconnect with your senses\u2014a good meal, a walk in nature, or a moment of silence. You are the anchor for those around you today. Your stability is your greatest superpower. Stay grounded."
+        "script_text": "Taurus, the Moon is home in your sign today, and it’s shining just for you. This is your day for ultimate self-care. If you’ve been carrying the emotional weight for others, today is the day to set it down. Surround yourself with things that feel, smell, and taste good. You are the anchor of the zodiac, but even an anchor needs to rest in the sand sometimes. Honor your needs without apology. You are deeply loved and exactly where you belong."
     },
     {
-        "title": "Gemini Daily Horoscope \u264a",
+        "title": "Gemini Daily Horoscope ♊ - January 25, 2026",
         "target": "GEMINI",
         "type": "daily",
         "date": "TODAY",
         "active": true,
-        "status": "done",
-        "script_text": "Gemini, your social life has been buzzing, but today you might feel a sudden need to pull back and process everything. I know you love to stay connected, but your mind needs a break from the static. It\u2019s okay to go quiet for a few hours. You\u2019re synthesizing some big ideas about your future, and that requires a little solitude. Trust your inner voice over the noise of the crowd. You aren't missing out; you\u2019re just tuning in to yourself."
+        "status": "pending",
+        "script_text": "Gemini, your mind is usually a fast-moving river, but today it slows into a peaceful lake. The Taurus Moon is highlighting your need for spiritual rest. If you feel a bit more introverted than usual, honor that quiet. You are processing deep shifts behind the scenes. Trust the dreams you have today; they are grounded in a truth your waking mind might miss. Find a sanctuary in your own thoughts and let the world spin without you for a while."
     },
     {
-        "title": "Cancer Daily Horoscope \u264b",
+        "title": "Cancer Daily Horoscope ♋ - January 25, 2026",
         "target": "CANCER",
         "type": "daily",
         "date": "TODAY",
         "active": true,
-        "status": "done",
-        "script_text": "Cancer, the pressure you\u2019ve felt in your career or public life is starting to ease into something more manageable. You\u2019ve shown the world what you\u2019re made of, and now it\u2019s time to look at who is standing by your side. Reach out to a friend who makes you feel seen. Today is about community and shared goals. You don\u2019t have to be the leader every single second. Let yourself be a part of the circle. You are deeply valued and loved.",
-        "uploaded": true
+        "status": "pending",
+        "script_text": "Cancer, today is about the family you choose. The Taurus Moon brings a sense of loyalty and warmth to your friendships and community. I see you finding deep comfort in a shared meal or a long, steady conversation. You don't need excitement today; you need connection. Lean into the people who have stood by you through it all. You are realizing that you are part of a beautiful, grounded circle. Your heart is safe here."
     },
     {
-        "title": "Leo Daily Horoscope \u264c",
+        "title": "Leo Daily Horoscope ♌ - January 25, 2026",
         "target": "LEO",
         "type": "daily",
         "date": "TODAY",
         "active": true,
-        "status": "done",
-        "script_text": "Leo, your vision for the future is big and bright, but today the stars are nudging you to look at the 'how.' I know you have the passion, but do you have the plan? Don't let the details dampen your spirit\u2014think of them as the stairs that lead to your throne. A conversation with someone you respect could provide a missing piece of the puzzle. Stay open to feedback. Your wisdom is growing, and your legacy is being built with every thoughtful choice.",
-        "uploaded": true
+        "status": "pending",
+        "script_text": "Leo, you’ve been working so hard to build your legacy, but today the stars ask you to enjoy the view. Your career and public life are illuminated by a steady, successful light. If you’ve felt a bit of 'imposter syndrome' lately, the Taurus Moon reminds you that your success is built on a solid foundation of hard work. Take a moment to acknowledge how far you’ve come. You don't have to roar today to be seen. Your quiet confidence is enough."
     },
     {
-        "title": "Virgo Daily Horoscope \u264d",
+        "title": "Virgo Daily Horoscope ♍ - January 25, 2026",
         "target": "VIRGO",
         "type": "daily",
         "date": "TODAY",
         "active": true,
-        "status": "done",
-        "script_text": "Virgo, you\u2019ve been doing some heavy emotional lifting lately, and today you start to see the results. A sense of peace is returning to your deeper world. If you\u2019ve been worried about a financial matter or a shared responsibility, a solution is starting to form. Trust the process of transformation. You are shedding old skin and becoming more resilient. Take a moment to acknowledge how much you\u2019ve healed. You are stronger and wiser than you were just a week ago.",
-        "uploaded": true
+        "status": "pending",
+        "script_text": "Virgo, your wisdom is your sanctuary today. The Taurus Moon encourages you to expand your horizons in a grounded way. Whether it’s reading a book that feeds your soul or taking a slow walk in a new place, follow the call of your curiosity. You are finding that the more you learn, the more peaceful you feel. Don't over-analyze the path forward—just enjoy the walk. The universe is providing you with the clarity you’ve been seeking. Trust the journey."
     },
     {
-        "title": "Libra Daily Horoscope \u264e",
+        "title": "Libra Daily Horoscope ♎ - January 25, 2026",
         "target": "LIBRA",
         "type": "daily",
         "date": "TODAY",
         "active": true,
-        "status": "done",
-        "script_text": "Libra, the focus is still on your connections, but the energy is shifting from 'conflict' to 'comfort.' If you had a difficult talk recently, today is for the healing that follows. You are learning that true harmony isn't about avoiding tension\u2014it's about working through it. Be honest with your needs. You'll find that the people who truly matter are willing to meet you halfway. Your relationships are becoming more solid and authentic. Trust the love that surrounds you today.",
-        "uploaded": true
+        "status": "pending",
+        "script_text": "Libra, today is about deep roots and deeper trust. The Taurus Moon is moving through your house of intimacy and shared resources, making it a perfect day for soul-level connection. If you’ve been holding back your true feelings, today you find the strength to be vulnerable. You are learning that real intimacy isn't just about the pretty moments—it's about the steady, reliable ones. Trust the bonds you’ve built. You are more supported than you realize."
     },
     {
-        "title": "Scorpio Daily Horoscope \u264f",
+        "title": "Scorpio Daily Horoscope ♏ - January 25, 2026",
         "target": "SCORPIO",
         "type": "daily",
         "date": "TODAY",
         "active": true,
-        "status": "done",
-        "script_text": "Scorpio, your daily grind is starting to feel a bit more rewarding today. You\u2019ve put in the work to organize your life, and now you\u2019re seeing the benefits of that discipline. If you\u2019ve been feeling physically tired, listen to your body\u2019s call for rest this evening. You are building a life of purpose, but you can\u2019t do that if your tank is empty. Reward yourself for your small wins. You are making incredible progress, even on the days it feels slow.",
-        "uploaded": true
+        "status": "pending",
+        "script_text": "Scorpio, the focus is squarely on your heart’s partnerships today. As the Moon moves through your opposite sign, Taurus, you are seeing the value of loyalty over drama. If a relationship has felt rocky, today provides the grounded energy needed to smooth things over. You don't need to dig for secrets today; just enjoy the presence of those you love. Your intensity is softening into a beautiful, steady glow. Let yourself be loved for exactly who you are."
     },
     {
-        "title": "Sagittarius Daily Horoscope \u2650",
+        "title": "Sagittarius Daily Horoscope ♐ - January 25, 2026",
         "target": "SAGITTARIUS",
         "type": "daily",
         "date": "TODAY",
         "active": true,
-        "status": "done",
-        "script_text": "Sagittarius, the fiery spark of joy you\u2019ve felt lately is grounding into something more lasting. You\u2019re realizing that your happiness doesn\u2019t have to be a fleeting moment\u2014it can be a foundation. If you started a creative project or a new romance, today is a great day to nourish it. You don't need to chase the next big thrill. Find the magic in what you\u2019ve already started. Your heart is full, and your spirit is steady. Enjoy the beauty of the present.",
-        "uploaded": true
+        "status": "pending",
+        "script_text": "Sagittarius, I know you love the chase, but today is about the ritual. The Taurus Moon is highlighting your daily habits and your health. Find adventure in the small things—a perfect cup of tea, a stretch, or organizing your space. You are realizing that a stable routine isn't a cage; it’s the foundation that allows you to fly. Take care of your 'temple' today. When your body feels grounded, your spirit feels free to dream even bigger."
     },
     {
-        "title": "Capricorn Daily Horoscope \u2651",
+        "title": "Capricorn Daily Horoscope ♑ - January 25, 2026",
         "target": "CAPRICORN",
         "type": "daily",
         "date": "TODAY",
         "active": true,
-        "status": "done",
-        "script_text": "Capricorn, your focus remains close to home today, but the mood is becoming much more peaceful. If there\u2019s been restlessness in your living space or with family, you\u2019ll find it easier to find common ground this afternoon. You are the architect of your own sanctuary. Focus on what makes you feel secure and settled. You\u2019ve spent so much time building for the future; today, allow yourself to actually enjoy the home you\u2019ve created. You deserve this comfort.",
-        "uploaded": true
+        "status": "pending",
+        "script_text": "Capricorn, joy is a serious business today! The Taurus Moon is lighting up your house of creativity and pleasure. After weeks of hard work, the universe is giving you permission to just have fun. Whether it’s a hobby, a game, or time with children, let your 'inner child' lead the way. You don't have to build a mountain today; you just have to enjoy the one you’re standing on. Your happiness is a vital part of your success. Let it flow."
     },
     {
-        "title": "Aquarius Daily Horoscope \u2652",
+        "title": "Aquarius Daily Horoscope ♒ - January 25, 2026",
         "target": "AQUARIUS",
         "type": "daily",
         "date": "TODAY",
         "active": true,
-        "status": "done",
-        "script_text": "Aquarius, your mind is still buzzing with ideas, but today you have the ability to explain them in a way that truly connects with others. If you\u2019ve felt misunderstood, try sharing your thoughts again this afternoon\u2014people are more receptive now. Your voice has a calming authority today. Use it to build bridges or to help someone who is struggling with their own clarity. You are a natural teacher, and your perspective is the gift the world needs right now.",
-        "uploaded": true
+        "status": "pending",
+        "script_text": "Aquarius, even a revolutionary needs a home base. Today the Sun in your sign and the Moon in Taurus are asking you to focus on your sanctuary. What makes you feel safe? Spend time in your own space, surrounded by the things and people that ground you. You are building a new future, but that future needs deep roots. Take a moment to appreciate your family and your foundations. When your home is at peace, your vision for the world becomes clearer."
     },
     {
-        "title": "Pisces Daily Horoscope \u2653",
+        "title": "Pisces Daily Horoscope ♓ - January 25, 2026",
         "target": "PISCES",
         "type": "daily",
         "date": "TODAY",
         "active": true,
-        "status": "done",
-        "script_text": "Pisces, today is about honoring your worth in very practical ways. You\u2019ve had the big visions, and now you\u2019re figuring out how to make them sustainable. If you\u2019ve been worried about money or resources, take a deep breath. A more grounded, stable energy is coming your way. You are learning to value your time and your energy just as much as your dreams. Trust that the universe provides for those who honor themselves. You are deserving of abundance and peace.",
-        "uploaded": true
+        "status": "pending",
+        "script_text": "Pisces, your words carry the weight of a warm hug today. The Taurus Moon in your communication sector helps you express your deep feelings in a way that is practical and comforting to others. If a friend is struggling, your steady presence is exactly what they need. You don't have to fix the world today; just be a kind neighbor and a good listener. Your empathy is grounded in a beautiful, earthy wisdom. Speak your truth gently; the world is listening."
     }
 ]
