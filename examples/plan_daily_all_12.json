@@ -1,110 +1,118 @@
 [
     {
-        "title": "Aries Daily Horoscope ♈ - January 27, 2026",
+        "title": "Aries Daily Horoscope \u2648 - January 27, 2026",
         "target": "ARIES",
         "type": "daily",
         "date": "TODAY",
         "active": true,
-        "status": "pending",
-        "script_text": "Aries, today feels like a fresh breeze blowing through a dusty room. With the Moon and Sun dancing in air signs, your social life and your big ideas are finally syncing up. If you’ve been looking for a sign to start that podcast, write that email, or pitch that plan, this is it. Your words have a magnetic quality today. Don't be surprised if a casual chat leads to a major breakthrough. Trust your curiosity; it’s leading you straight to your next adventure."
+        "status": "done",
+        "script_text": "Aries, today feels like a fresh breeze blowing through a dusty room. With the Moon and Sun dancing in air signs, your social life and your big ideas are finally syncing up. If you\u2019ve been looking for a sign to start that podcast, write that email, or pitch that plan, this is it. Your words have a magnetic quality today. Don't be surprised if a casual chat leads to a major breakthrough. Trust your curiosity; it\u2019s leading you straight to your next adventure."
     },
     {
-        "title": "Taurus Daily Horoscope ♉ - January 27, 2026",
+        "title": "Taurus Daily Horoscope \u2649 - January 27, 2026",
         "target": "TAURUS",
         "type": "daily",
         "date": "TODAY",
         "active": true,
-        "status": "pending",
-        "script_text": "Taurus, your practical mind is meeting some truly innovative ideas today. While the world feels fast-paced, you are finding clever ways to make your resources work harder for you. A sudden insight regarding your finances or your self-worth could change your entire week. Don't be afraid to try a new method or a digital tool to simplify your life. You are realizing that stability doesn't have to be boring. Embrace the 'new' while keeping your feet on the ground."
+        "status": "done",
+        "script_text": "Taurus, your practical mind is meeting some truly innovative ideas today. While the world feels fast-paced, you are finding clever ways to make your resources work harder for you. A sudden insight regarding your finances or your self-worth could change your entire week. Don't be afraid to try a new method or a digital tool to simplify your life. You are realizing that stability doesn't have to be boring. Embrace the 'new' while keeping your feet on the ground.",
+        "uploaded": true
     },
     {
-        "title": "Gemini Daily Horoscope ♊ - January 27, 2026",
+        "title": "Gemini Daily Horoscope \u264a - January 27, 2026",
         "target": "GEMINI",
         "type": "daily",
         "date": "TODAY",
         "active": true,
-        "status": "pending",
-        "script_text": "Gemini, the Moon is in your sign today, and it’s singing in harmony with the Aquarius Sun. This is one of your best days of the month! Your mental clarity is peaking, and your charm is through the roof. If there was ever a time to advocate for yourself or your vision, it is now. You are seeing the big picture and the tiny details all at once. Shine your light brightly today. You aren't just part of the conversation—you are the one leading it."
+        "status": "done",
+        "script_text": "Gemini, the Moon is in your sign today, and it\u2019s singing in harmony with the Aquarius Sun. This is one of your best days of the month! Your mental clarity is peaking, and your charm is through the roof. If there was ever a time to advocate for yourself or your vision, it is now. You are seeing the big picture and the tiny details all at once. Shine your light brightly today. You aren't just part of the conversation\u2014you are the one leading it.",
+        "uploaded": true
     },
     {
-        "title": "Cancer Daily Horoscope ♋ - January 27, 2026",
+        "title": "Cancer Daily Horoscope \u264b - January 27, 2026",
         "target": "CANCER",
         "type": "daily",
         "date": "TODAY",
         "active": true,
-        "status": "pending",
-        "script_text": "Cancer, while the world is busy talking, your soul is busy dreaming. The air energy today is helping you put words to feelings that are usually hard to describe. You might have a 'eureka' moment during a quiet walk or a meditation. Trust the downloads you’re receiving from your subconscious. You are clearing out mental clutter and making room for a massive shift in your perspective. You don't have to explain your process to anyone today. Just trust the silence."
+        "status": "done",
+        "script_text": "Cancer, while the world is busy talking, your soul is busy dreaming. The air energy today is helping you put words to feelings that are usually hard to describe. You might have a 'eureka' moment during a quiet walk or a meditation. Trust the downloads you\u2019re receiving from your subconscious. You are clearing out mental clutter and making room for a massive shift in your perspective. You don't have to explain your process to anyone today. Just trust the silence.",
+        "uploaded": true
     },
     {
-        "title": "Leo Daily Horoscope ♌ - January 27, 2026",
+        "title": "Leo Daily Horoscope \u264c - January 27, 2026",
         "target": "LEO",
         "type": "daily",
         "date": "TODAY",
         "active": true,
-        "status": "pending",
-        "script_text": "Leo, your heart is finding its tribe today. The harmony between the Sun and Moon is lighting up your social connections and your future hopes. A conversation with a friend or a mentor could spark a creative fire that you haven't felt in weeks. Don't play it safe with your dreams today—voice them! You’ll find that people are more than willing to help you build your kingdom. Your enthusiasm is your greatest asset. Share it generously and watch the magic happen."
+        "status": "done",
+        "script_text": "Leo, your heart is finding its tribe today. The harmony between the Sun and Moon is lighting up your social connections and your future hopes. A conversation with a friend or a mentor could spark a creative fire that you haven't felt in weeks. Don't play it safe with your dreams today\u2014voice them! You\u2019ll find that people are more than willing to help you build your kingdom. Your enthusiasm is your greatest asset. Share it generously and watch the magic happen.",
+        "uploaded": true
     },
     {
-        "title": "Virgo Daily Horoscope ♍ - January 27, 2026",
+        "title": "Virgo Daily Horoscope \u264d - January 27, 2026",
         "target": "VIRGO",
         "type": "daily",
         "date": "TODAY",
         "active": true,
-        "status": "pending",
-        "script_text": "Virgo, your career path is looking brighter and more intellectual today. You have the ability to solve a complex problem with a simple, innovative idea. People in positions of power are noticing your unique perspective. If you have a suggestion for how to make things run smoother, speak up! Your words carry weight today. You are bridging the gap between 'what is' and 'what could be.' Trust your professional instincts—they are sharper than ever."
+        "status": "done",
+        "script_text": "Virgo, your career path is looking brighter and more intellectual today. You have the ability to solve a complex problem with a simple, innovative idea. People in positions of power are noticing your unique perspective. If you have a suggestion for how to make things run smoother, speak up! Your words carry weight today. You are bridging the gap between 'what is' and 'what could be.' Trust your professional instincts\u2014they are sharper than ever.",
+        "uploaded": true
     },
     {
-        "title": "Libra Daily Horoscope ♎ - January 27, 2026",
+        "title": "Libra Daily Horoscope \u264e - January 27, 2026",
         "target": "LIBRA",
         "type": "daily",
         "date": "TODAY",
         "active": true,
-        "status": "pending",
-        "script_text": "Libra, your spirit is soaring today! The double-air energy is perfect for your balanced soul. You are finding beauty in new ideas and meaning in unexpected places. If you’ve been feeling a bit bored, today brings a shift in perspective that feels like an adventure. Reach out to someone from a different background or dive into a topic that challenges your mind. Your world is getting bigger, and it’s about time. Follow the light of your curiosity."
+        "status": "done",
+        "script_text": "Libra, your spirit is soaring today! The double-air energy is perfect for your balanced soul. You are finding beauty in new ideas and meaning in unexpected places. If you\u2019ve been feeling a bit bored, today brings a shift in perspective that feels like an adventure. Reach out to someone from a different background or dive into a topic that challenges your mind. Your world is getting bigger, and it\u2019s about time. Follow the light of your curiosity.",
+        "uploaded": true
     },
     {
-        "title": "Scorpio Daily Horoscope ♏ - January 27, 2026",
+        "title": "Scorpio Daily Horoscope \u264f - January 27, 2026",
         "target": "SCORPIO",
         "type": "daily",
         "date": "TODAY",
         "active": true,
         "status": "pending",
-        "script_text": "Scorpio, today is about deep insights and psychological breakthroughs. The harmony in the skies is helping you look at your shadows with a lighter heart. You are realizing that understanding your past is the key to unlocking your future. A conversation about shared finances or deep emotions will go much more smoothly than expected. Don't be afraid to ask the hard questions—the truth is actually very liberating today. You are transforming your mindset from the inside out."
+        "script_text": "Scorpio, today is about deep insights and psychological breakthroughs. The harmony in the skies is helping you look at your shadows with a lighter heart. You are realizing that understanding your past is the key to unlocking your future. A conversation about shared finances or deep emotions will go much more smoothly than expected. Don't be afraid to ask the hard questions\u2014the truth is actually very liberating today. You are transforming your mindset from the inside out."
     },
     {
-        "title": "Sagittarius Daily Horoscope ♐ - January 27, 2026",
+        "title": "Sagittarius Daily Horoscope \u2650 - January 27, 2026",
         "target": "SAGITTARIUS",
         "type": "daily",
         "date": "TODAY",
         "active": true,
         "status": "pending",
-        "script_text": "Sagittarius, your relationships are getting a massive boost of air and light today. If there has been tension with a partner or a close friend, today is the day for the 'Great Reset.' You are finding the right words to express your needs while still making the other person feel seen. It’s a beautiful dance of communication. Focus on your common goals and your shared vision for the future. Love is an intellectual adventure today. Enjoy the journey together."
+        "script_text": "Sagittarius, your relationships are getting a massive boost of air and light today. If there has been tension with a partner or a close friend, today is the day for the 'Great Reset.' You are finding the right words to express your needs while still making the other person feel seen. It\u2019s a beautiful dance of communication. Focus on your common goals and your shared vision for the future. Love is an intellectual adventure today. Enjoy the journey together."
     },
     {
-        "title": "Capricorn Daily Horoscope ♑ - January 27, 2026",
+        "title": "Capricorn Daily Horoscope \u2651 - January 27, 2026",
         "target": "CAPRICORN",
         "type": "daily",
         "date": "TODAY",
         "active": true,
-        "status": "pending",
-        "script_text": "Capricorn, you are finding the 'flow' in your 'work' today. The Gemini Moon is helping you handle a dozen small tasks with a smile on your face. You’re finding clever shortcuts and innovative ways to manage your daily life. If you’ve been feeling physically heavy, this air energy gives you a much-needed lift. Take a moment to appreciate the small wins. Your efficiency is high, but your stress is low. That’s a rare combination—make the most of it!"
+        "status": "done",
+        "script_text": "Capricorn, you are finding the 'flow' in your 'work' today. The Gemini Moon is helping you handle a dozen small tasks with a smile on your face. You\u2019re finding clever shortcuts and innovative ways to manage your daily life. If you\u2019ve been feeling physically heavy, this air energy gives you a much-needed lift. Take a moment to appreciate the small wins. Your efficiency is high, but your stress is low. That\u2019s a rare combination\u2014make the most of it!",
+        "uploaded": true
     },
     {
-        "title": "Aquarius Daily Horoscope ♒ - January 27, 2026",
+        "title": "Aquarius Daily Horoscope \u2652 - January 27, 2026",
         "target": "AQUARIUS",
         "type": "daily",
         "date": "TODAY",
         "active": true,
         "status": "pending",
-        "script_text": "Aquarius, the Sun is in your sign and the Moon is in your house of joy. Can you feel the electricity? This is your day to create, to play, and to flirt with life. Your innovative spirit is at an all-time high. Whatever you touch today gets a dose of your unique genius. Don't worry about being 'practical'—just be you. Your authenticity is the most attractive thing about you right now. Follow the fun, trust your sparks, and let the world catch up to you."
+        "script_text": "Aquarius, the Sun is in your sign and the Moon is in your house of joy. Can you feel the electricity? This is your day to create, to play, and to flirt with life. Your innovative spirit is at an all-time high. Whatever you touch today gets a dose of your unique genius. Don't worry about being 'practical'\u2014just be you. Your authenticity is the most attractive thing about you right now. Follow the fun, trust your sparks, and let the world catch up to you."
     },
     {
-        "title": "Pisces Daily Horoscope ♓ - January 27, 2026",
+        "title": "Pisces Daily Horoscope \u2653 - January 27, 2026",
         "target": "PISCES",
         "type": "daily",
         "date": "TODAY",
         "active": true,
-        "status": "pending",
-        "script_text": "Pisces, your inner world and your home life are finding a beautiful harmony today. You might find yourself having a breakthrough conversation with a family member or simply seeing your living situation in a new, brighter light. Use this air energy to clear the emotional 'static' in your sanctuary. You are realizing that you don't have to carry everyone else’s weight to be loved. Peace begins with a clear mind and a calm heart. You are finding both today."
+        "status": "done",
+        "script_text": "Pisces, your inner world and your home life are finding a beautiful harmony today. You might find yourself having a breakthrough conversation with a family member or simply seeing your living situation in a new, brighter light. Use this air energy to clear the emotional 'static' in your sanctuary. You are realizing that you don't have to carry everyone else\u2019s weight to be loved. Peace begins with a clear mind and a calm heart. You are finding both today.",
+        "uploaded": true
     }
 ]
