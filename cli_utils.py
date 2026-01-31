@@ -26,3 +26,15 @@ def log_warning(message):
 
 def log_error(message):
     console.print(f"[error]✖ {message}[/error]")
+
+import time, random
+from rich.progress import track
+
+def wait_random(min_seconds, max_seconds, label="Cooling down..."):
+    """Pauses execution for a random duration to avoid rate limits."""
+    duration = random.uniform(min_seconds, max_seconds)
+    steps = int(duration * 10)
+    
+    # Use rich track for a nice progress bar during the wait
+    for _ in track(range(steps), description=f"[cyan]{label}"):
+        time.sleep(0.1)
