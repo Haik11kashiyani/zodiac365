@@ -63,7 +63,7 @@ jobs:
         run: |
           cd video-engine
           # Pass input.json as props
-          npx remotion render src/index.tsx ZodiacVideo out/video.mp4 --props=./input.json --concurrency=1 --gl=angle --log=verbose
+          npx remotion render src/index.tsx ZodiacVideo out/video.mp4 --props=./input.json --concurrency=1 --gl=swiftshader --log=verbose
 
       - name: List Outputs
         run: ls -R video-engine/out/
