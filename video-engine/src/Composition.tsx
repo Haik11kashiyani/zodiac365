@@ -1,7 +1,5 @@
 import React from 'react';
-import { AbsoluteFill, Audio, Img, Video, useVideoConfig, useCurrentFrame, interpolate, spring, Sequence, staticFile } from 'remotion';
-import { TransitionSeries, linearTiming } from '@remotion/transitions';
-import { slide } from '@remotion/transitions/slide';
+import { AbsoluteFill, Audio, useVideoConfig, useCurrentFrame, interpolate, spring, staticFile } from 'remotion';
 
 interface Caption {
     start: number;
@@ -14,84 +12,200 @@ interface ZodiacCompositionProps {
     audioSrc: string;
     captions: Caption[];
     images: string[];
+    title?: string;
 }
 
-export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({ scriptText, audioSrc, captions, images }) => {
+// Zodiac gradient backgrounds based on element
+const ZODIAC_GRADIENTS: Record<string, string> = {
+    // Fire Signs - Warm reds/oranges
+    'Aries': 'linear-gradient(135deg, #ff6b35 0%, #f7c59f 50%, #cc3300 100%)',
+    'Leo': 'linear-gradient(135deg, #ffd700 0%, #ff8c00 50%, #ff4500 100%)',
+    'Sagittarius': 'linear-gradient(135deg, #9b4dca 0%, #ff6b6b 50%, #ffa500 100%)',
+    
+    // Earth Signs - Greens/Browns
+    'Taurus': 'linear-gradient(135deg, #228b22 0%, #90ee90 50%, #2e8b57 100%)',
+    'Virgo': 'linear-gradient(135deg, #8fbc8f 0%, #f5f5dc 50%, #6b8e23 100%)',
+    'Capricorn': 'linear-gradient(135deg, #4a4a4a 0%, #8b4513 50%, #2f2f2f 100%)',
+    
+    // Air Signs - Blues/Whites
+    'Gemini': 'linear-gradient(135deg, #87ceeb 0%, #e6e6fa 50%, #4169e1 100%)',
+    'Libra': 'linear-gradient(135deg, #ffb6c1 0%, #e6e6fa 50%, #dda0dd 100%)',
+    'Aquarius': 'linear-gradient(135deg, #00bfff 0%, #1e90ff 50%, #000080 100%)',
+    
+    // Water Signs - Deep blues/purples
+    'Cancer': 'linear-gradient(135deg, #c0c0c0 0%, #87ceeb 50%, #4682b4 100%)',
+    'Scorpio': 'linear-gradient(135deg, #800000 0%, #4a0080 50%, #000000 100%)',
+    'Pisces': 'linear-gradient(135deg, #40e0d0 0%, #9370db 50%, #483d8b 100%)',
+};
+
+const ZODIAC_SYMBOLS: Record<string, string> = {
+    'Aries': '♈',
+    'Taurus': '♉',
+    'Gemini': '♊',
+    'Cancer': '♋',
+    'Leo': '♌',
+    'Virgo': '♍',
+    'Libra': '♎',
+    'Scorpio': '♏',
+    'Sagittarius': '♐',
+    'Capricorn': '♑',
+    'Aquarius': '♒',
+    'Pisces': '♓',
+};
+
+export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({ 
+    scriptText, 
+    audioSrc, 
+    captions, 
+    images,
+    title = ''
+}) => {
     const frame = useCurrentFrame(); 
-    const { fps, durationInFrames } = useVideoConfig();
+    const { fps, durationInFrames, width, height } = useVideoConfig();
+    
+    // Extract zodiac sign from title or default to Aries
+    const zodiacSign = Object.keys(ZODIAC_GRADIENTS).find(sign => 
+        title?.toLowerCase().includes(sign.toLowerCase())
+    ) || 'Aries';
+    
+    const gradient = ZODIAC_GRADIENTS[zodiacSign];
+    const symbol = ZODIAC_SYMBOLS[zodiacSign];
+    
+    // Animated background pulse
+    const pulse = Math.sin(frame * 0.02) * 0.1 + 1;
+    
+    // Progress bar
+    const progress = (frame / durationInFrames) * 100;
 
     return (
-        <AbsoluteFill style={{ backgroundColor: 'black' }}>
-            {/* BACKGROUND LAYER WITH TRANSITIONS */}
-            <AbsoluteFill style={{ overflow: 'hidden' }}>
-                 {/* Background clips with transition */}
-                 {images && images.length > 0 && (
-                    <TransitionSeries>
-                        {images.map((imgSrc, index) => (
-                            <TransitionSeries.Sequence key={index} durationInFrames={Math.floor(durationInFrames / images.length)}>
-                                <BackgroundClip src={imgSrc} index={index} total={images.length} />
-                            </TransitionSeries.Sequence>
-                        ))}
-                    </TransitionSeries>
-                 )}
-                 
-                {/* Dark Overlay */}
-                <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', backgroundColor: 'rgba(0,0,0,0.4)' }} />
+        <AbsoluteFill style={{ 
+            background: gradient,
+            overflow: 'hidden'
+        }}>
+            {/* ANIMATED COSMIC BACKGROUND */}
+            <AbsoluteFill style={{ zIndex: 0 }}>
+                {/* Floating particles effect */}
+                {[...Array(15)].map((_, i) => {
+                    const x = (i * 137.5) % 100;
+                    const y = ((i * 73) + frame * 0.3) % 120;
+                    const size = 4 + (i % 3) * 2;
+                    const opacity = 0.3 + (i % 5) * 0.1;
+                    return (
+                        <div
+                            key={i}
+                            style={{
+                                position: 'absolute',
+                                left: `${x}%`,
+                                top: `${y - 20}%`,
+                                width: size,
+                                height: size,
+                                borderRadius: '50%',
+                                backgroundColor: 'white',
+                                opacity: opacity,
+                                boxShadow: '0 0 10px white',
+                            }}
+                        />
+                    );
+                })}
+                
+                {/* Large zodiac symbol in background */}
+                <div style={{
+                    position: 'absolute',
+                    top: '50%',
+                    left: '50%',
+                    transform: `translate(-50%, -50%) scale(${pulse})`,
+                    fontSize: 400,
+                    opacity: 0.1,
+                    color: 'white',
+                    fontFamily: 'serif',
+                }}>
+                    {symbol}
+                </div>
             </AbsoluteFill>
+            
+            {/* DARK OVERLAY FOR READABILITY */}
+            <AbsoluteFill style={{ 
+                zIndex: 1,
+                background: 'radial-gradient(circle at center, transparent 0%, rgba(0,0,0,0.3) 70%, rgba(0,0,0,0.6) 100%)'
+            }} />
+            
+            {/* ZODIAC SIGN HEADER */}
+            <div style={{
+                position: 'absolute',
+                top: 80,
+                left: 0,
+                right: 0,
+                display: 'flex',
+                justifyContent: 'center',
+                alignItems: 'center',
+                zIndex: 2,
+            }}>
+                <div style={{
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: 20,
+                    padding: '15px 40px',
+                    background: 'rgba(0,0,0,0.4)',
+                    borderRadius: 50,
+                    backdropFilter: 'blur(10px)',
+                }}>
+                    <span style={{ 
+                        fontSize: 60, 
+                        color: 'white',
+                        textShadow: '0 0 20px rgba(255,255,255,0.5)'
+                    }}>{symbol}</span>
+                    <span style={{
+                        fontSize: 48,
+                        fontWeight: 900,
+                        color: 'white',
+                        fontFamily: 'Arial Black, sans-serif',
+                        textTransform: 'uppercase',
+                        letterSpacing: 4,
+                    }}>{zodiacSign}</span>
+                </div>
+            </div>
 
-            {/* TEXT LAYER */}
-            <AbsoluteFill style={{ justifyContent: 'center', alignItems: 'center' }}>
-                 <CaptionsLayer captions={captions} />
+            {/* CAPTION TEXT - MAIN FOCUS */}
+            <AbsoluteFill style={{ 
+                justifyContent: 'center', 
+                alignItems: 'center',
+                zIndex: 3,
+                padding: 40,
+            }}>
+                <CaptionsLayer captions={captions} />
             </AbsoluteFill>
             
             {/* PROGRESS BAR */}
-            <AbsoluteFill style={{ justifyContent: 'flex-end' }}>
+            <div style={{
+                position: 'absolute',
+                bottom: 0,
+                left: 0,
+                right: 0,
+                height: 8,
+                backgroundColor: 'rgba(255,255,255,0.2)',
+                zIndex: 4,
+            }}>
                 <div style={{
-                    width: '100%',
-                    height: '15px',
-                    backgroundColor: 'rgba(255,255,255,0.2)'
-                }}>
-                    <div style={{
-                        width: `${(frame / (30 * 60)) * 100}%`, // Assuming 60s max. Better: frame/durationInFrames
-                        height: '100%',
-                        backgroundColor: '#FFD700', // Gold
-                        boxShadow: '0 0 10px #FFD700'
-                    }} />
-                </div>
-            </AbsoluteFill>
+                    width: `${progress}%`,
+                    height: '100%',
+                    background: 'linear-gradient(90deg, #FFD700, #FFA500)',
+                    boxShadow: '0 0 20px #FFD700, 0 0 40px #FFA500',
+                    transition: 'width 0.1s linear',
+                }} />
+            </div>
 
-            {/* AUDIO - Use staticFile for proper asset resolution */}
-            {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
-            {audioSrc && <Audio src={staticFile(audioSrc)} placeholder={null} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} />}
+            {/* AUDIO */}
+            {audioSrc && (
+                <Audio 
+                    src={staticFile(audioSrc)} 
+                    placeholder={null} 
+                    onPointerEnterCapture={undefined} 
+                    onPointerLeaveCapture={undefined} 
+                />
+            )}
         </AbsoluteFill>
     );
 };
-
-const BackgroundClip: React.FC<{src: string, index: number, total: number}> = ({ src, index, total }) => {
-    const frame = useCurrentFrame();
-    
-    // Smooth Scale Ken Burns
-    const scale = interpolate(frame, [0, 150], [1.0, 1.15], { extrapolateRight: 'clamp' });
-    
-    // Fallback to a known good image
-    const finalSrc = src || "https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg";
-    
-    // Force image format for stability (videos cause timeout in CI)
-    // If it's a video URL, try to get a thumbnail or use fallback
-    const imageSrc = finalSrc.endsWith('.mp4') 
-        ? "https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg" 
-        : finalSrc;
-    
-    const style = {
-        width: '100%',
-        height: '100%',
-        objectFit: 'cover' as const,
-        transform: `scale(${scale})`
-    };
-
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    return <Img src={imageSrc} style={style} placeholder={undefined} onResize={undefined} onResizeCapture={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} />;
-}
 
 const CaptionsLayer: React.FC<{captions: Caption[]}> = ({ captions }) => {
     const frame = useCurrentFrame();
@@ -106,31 +220,45 @@ const CaptionsLayer: React.FC<{captions: Caption[]}> = ({ captions }) => {
     const captionStartFrame = activeCaption.start * fps;
     const timeInCaption = frame - captionStartFrame;
     
-    // Pop-in spring
-    const pop = spring({
+    // Pop-in spring animation
+    const scale = spring({
         frame: timeInCaption,
         fps,
         config: { damping: 12, stiffness: 200 }
     });
     
-    // Simple rotation wiggle
-    const wiggle = Math.sin(timeInCaption * 0.1) * 2; 
+    // Slight bounce/wiggle for energy
+    const wiggle = Math.sin(timeInCaption * 0.15) * 1.5;
 
     return (
         <div style={{
-            fontFamily: 'Montserrat, sans-serif',
-            fontWeight: 900,
-            fontSize: '85px',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
             textAlign: 'center',
-            color: 'white',
-            textTransform: 'uppercase',
-            maxWidth: '90%',
-            lineHeight: '1.0',
-            textShadow: '5px 5px 0px #000000',
-            WebkitTextStroke: '3px black',
-            transform: `scale(${pop}) rotate(${wiggle}deg)`
+            transform: `scale(${scale}) rotate(${wiggle}deg)`,
         }}>
-            {activeCaption.text}
+            <div style={{
+                fontFamily: 'Arial Black, Impact, sans-serif',
+                fontWeight: 900,
+                fontSize: 90,
+                color: 'white',
+                textTransform: 'uppercase',
+                maxWidth: '90%',
+                lineHeight: 1.1,
+                // Heavy text shadow for contrast
+                textShadow: `
+                    4px 4px 0px #000,
+                    -4px -4px 0px #000,
+                    4px -4px 0px #000,
+                    -4px 4px 0px #000,
+                    0 0 30px rgba(0,0,0,0.8)
+                `,
+                WebkitTextStroke: '2px black',
+                letterSpacing: 2,
+            }}>
+                {activeCaption.text}
+            </div>
         </div>
     );
 };
