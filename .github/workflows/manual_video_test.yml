@@ -33,7 +33,11 @@ jobs:
       - name: Install Dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y ffmpeg imagemagick xvfb libgl1-mesa-dri libglapi-mesa libosmesa6 libgbm1 libxkbcommon0
+          # Remotion Official Linux Dependencies (https://www.remotion.dev/docs/miscellaneous/linux-dependencies)
+          sudo apt-get install -y ffmpeg imagemagick \
+            libnss3 libdbus-1-3 libatk1.0-0 libasound2 libxrandr2 \
+            libxkbcommon-dev libxfixes3 libxcomposite1 libxdamage1 \
+            libgbm-dev libcups2 libcairo2 libpango-1.0-0 libatk-bridge2.0-0
           # Fix ImageMagick policy for MoviePy
           sudo sed -i 's/none/read,write/g' /etc/ImageMagick-6/policy.xml
           pip install -r requirements.txt
@@ -60,10 +64,13 @@ jobs:
           python bridge.py
 
       - name: Render Video (Remotion)
+        env:
+          # Suppress dbus errors in headless environment
+          DBUS_SESSION_BUS_ADDRESS: /dev/null
         run: |
           cd video-engine
-          # Use xvfb-run to provide a virtual display for WebGL/Angle
-          xvfb-run --auto-servernum --server-args="-screen 0 1280x1024x24" npx remotion render src/index.tsx ZodiacVideo out/video.mp4 --props=./input.json --concurrency=1 --gl=angle --log=verbose
+          # Use swangle (SwiftShader over Angle) - Remotion Lambda default, stable for CI
+          npx remotion render src/index.tsx ZodiacVideo out/video.mp4 --props=./input.json --concurrency=1 --gl=swangle --log=verbose
 
       - name: List Outputs
         run: ls -R video-engine/out/
