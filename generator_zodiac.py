@@ -45,11 +45,14 @@ def generate_content(mode, target, date_str):
     CONTEXT: Today is {today_context}. Use this to find trending keywords if relevant.
     
     Respond in JSON ONLY with the following keys:
-    - 'script_text': The spoken word script (approx 40-50 secs). Engaging, mystical, direct.
+    - 'script_text': The spoken word script (approx 40-50 secs).
+        * MUST START with a strong "Hook" (e.g., "Stop scrolling if you're a {target}!", "You won't believe this...").
+        * MUST END with a sentence that loops back to the start (e.g., "And that is exactly why...").
+        * Include a specific Call to Action (e.g., "Claim this in the comments").
     - 'title': Internal title.
     - 'youtube_title': A viral, click-bait style YouTube Short title (max 80 chars). MUST INCLUDE '#shorts'.
     - 'youtube_description': A 3-line engaging description with questions to drive comments. Include 3-4 hashtags in the text.
-    - 'youtube_tags': A list of 15-20 high volume viral tags. Mix broad (e.g., #astrology) and specific/trending (e.g., #manifestation, #{target}).
+    - 'youtube_tags': A list of 15-20 high volume viral tags. include specific trending tags (e.g., #MercuryRetrograde) and the mood (e.g., #Healing).
     
     STRICT RULES:
     1. 'youtube_title' MUST end with #shorts

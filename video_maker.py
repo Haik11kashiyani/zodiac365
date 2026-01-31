@@ -38,7 +38,8 @@ except Exception as e:
 # Fixes: Subtitle Overflow, Random Images, Voice Emotion
 # ═══════════════════════════════════════════════════════════════════════════════
 
-FONT_NAME = "Montserrat-Bold"
+FONT_NAME = "Montserrat-ExtraBold" # Upgraded Font
+
 
 # Updated for variety and emotion
 VOICE_POOL = [
@@ -88,31 +89,42 @@ def clean_subtitle(text):
     return t.strip()
 
 def create_cinematic_overlay(width, height):
-    """Creates a professional bottom-shadow gradient for text readability."""
-    # Create a gradient mask
-    # Top 60% transparent, Bottom 40% fades to black
-    
-    # We can use a simple ColorClip with opacity, but a gradient is 'Pro'.
-    # Since creating a gradient alpha mask in moviepy/numpy manually is verbose,
-    # let's stick to a reliable semi-transparent black ColorClip at the bottom for now,
-    # or generate a PNG.
-    
-    # High-End: Solid Black bar with low opacity is "Netflix Style" for subtitles.
-    # Gradient is better. Let's create a PNG on the fly using Pillow.
-    
-    path = "temp_cinematic_overlay.png" # Changed filename to avoid conflict with old vignette
+    """Creates a Luxury Gold/Dark Gradient Overlay."""
+    path = "temp_cinematic_overlay.png"
     if os.path.exists(path): return path
     
     img = Image.new('RGBA', (width, height), (0,0,0,0))
     draw = ImageDraw.Draw(img)
     
-    # Gradient from Y=60% to 100%
-    start_y = int(height * 0.6)
+    # 1. Dark Vignette at Bottom (Text Area) - Deep Purple/Black
+    # Gradient from Y=50% to 100%
+    start_y = int(height * 0.55)
     for y in range(start_y, height):
-        # Alpha 0 to 220
-        alpha = int((y - start_y) / (height - start_y) * 220)
-        draw.line([(0, y), (width, y)], fill=(0, 0, 0, alpha))
+        # Alpha 0 to 240 (Darker)
+        alpha = int((y - start_y) / (height - start_y) * 240)
+        draw.line([(0, y), (width, y)], fill=(10, 5, 20, alpha)) # Dark Purple tint
         
+    # 2. Gold Border Stroke (Thin luxury line)
+    border_w = 4
+    draw.rectangle([0, 0, width-1, height-1], outline=(255, 215, 0, 180), width=border_w)
+    
+    img.save(path)
+    return path
+
+def create_glass_panel(width, height):
+    """Creates a Glassmorphism panel for the title area."""
+    path = "temp_glass_panel.png"
+    if os.path.exists(path): return path
+    
+    w, h = 900, 200
+    img = Image.new('RGBA', (w, h), (255, 255, 255, 0))
+    draw = ImageDraw.Draw(img)
+    
+    # White semi-transparent box with rounded corners
+    draw.rounded_rectangle([0, 0, w, h], radius=30, fill=(255, 255, 255, 20))
+    # Border
+    draw.rounded_rectangle([0, 0, w, h], radius=30, outline=(255, 215, 0, 100), width=2)
+    
     img.save(path)
     return path
 
@@ -125,15 +137,26 @@ def wrap_text_dynamic(text, max_char=20):
 # ═══════════════════════════════════════════════════════════════════════════════
 
 def create_particle_overlay(width, height):
-    """Create a dust/particle overlay using noise."""
-    # Create random noise
+    """Create a Gold Dust 'Magical' overlay."""
+    # 1. Generate Noise
     noise = np.random.randint(0, 255, (height, width), dtype=np.uint8)
-    # Threshold to keep only few "particles"
-    particles = np.where(noise > 250, 200, 0).astype(np.uint8)
-    # Make RGBA
+    # 2. Threshold for fewer, brighter particles
+    particles = np.where(noise > 252, 255, 0).astype(np.uint8) 
+    # 3. Create Image
     img = Image.new('RGBA', (width, height), (0,0,0,0))
-    alpha = Image.fromarray(particles)
-    img.putalpha(alpha)
+    # 4. Color them Gold (255, 215, 0)
+    # We need an RGBA array
+    rgba = np.zeros((height, width, 4), dtype=np.uint8)
+    rgba[..., 0] = 255 # R
+    rgba[..., 1] = 215 # G
+    rgba[..., 2] = 0   # B
+    rgba[..., 3] = particles # A
+    
+    img = Image.fromarray(rgba)
+    
+    # blur for glow
+    img = img.filter(ImageFilter.GaussianBlur(1.5))
+    
     path = "temp_particles.png"
     img.save(path)
     return path
@@ -290,6 +313,20 @@ def get_relevant_images(data):
     
     return selected
 
+def apply_pattern_interrupt(clip):
+    """Applies a random viral effect to a clip."""
+    effect = random.choice(['zoom_in', 'zoom_out', 'pulse', 'none', 'none']) # 40% chance of none
+    
+    if effect == 'zoom_in':
+        return clip.resize(lambda t: 1.0 + 0.05 * t) # Rapid zoom
+    elif effect == 'zoom_out':
+        return clip.resize(lambda t: 1.3 - 0.05 * t) 
+    elif effect == 'pulse':
+        # Slight heartbeat
+        return clip.resize(lambda t: 1.0 + 0.02 * math.sin(t*5))
+        
+    return clip
+
 # ═══════════════════════════════════════════════════════════════════════════════
 # RENDER
 # ═══════════════════════════════════════════════════════════════════════════════
@@ -342,8 +379,17 @@ def render(data):
     
     if music_files:
         music = AudioFileClip(os.path.join(music_dir, random.choice(music_files)))
-        music = music.volumex(0.08).set_duration(total_dur) # Slight boost to 0.08
-        audio_clips.append(music)
+        # AUDIO DUCKING:
+        # Music set to 0.12 (Audible background)
+        # Voice boosted to 1.4 for clear cut-through
+        music = music.volumex(0.12).set_duration(total_dur)
+        voice_clip = voice_clip.volumex(1.4) 
+        
+        # Loop music if shorter
+        if music.duration < total_dur:
+            music = afx.audio_loop(music, duration=total_dur)
+            
+        audio_clips = [voice_clip, music]
     
     # SFX - Removed as per request (Silent delivery)
     whoosh = None  # Disabled
@@ -375,27 +421,28 @@ def render(data):
             clip = VideoFileClip(v_path, audio=False)
             
             # Resize / Crop to filling vertical
-            # Assuming vertical source (checked in sourcer), just ensure height 1920
-            if clip.h != 1920:
-                clip = clip.resize(height=1920)
-            if clip.w < 1080:
-                # If width is too small after height resize (rare for HD), resize by width
-                clip = clip.resize(width=1080)
-            
+            if clip.h != 1920: clip = clip.resize(height=1920)
+            if clip.w < 1080: clip = clip.resize(width=1080)
             clip = clip.set_position("center")
             
-            # Loop loop if source is too short for its part
+            # Duration Management
             if clip.duration < part_dur:
                  clip = vfx.loop(clip, duration=part_dur + 1.0)
             else:
-                 clip = clip.subclip(0, part_dur + 1.0) # Buffer
+                 clip = clip.subclip(0, part_dur + 1.0)
                  
             clip = clip.set_duration(part_dur)
+            
+            # APPLY PATTERN INTERRUPT
+            clip = apply_pattern_interrupt(clip)
+            
             clip = clip.set_start(i * part_dur)
             
-            # Crossfade
+            # Fast Cuts (Viral) - No smooth crossfade, hard cuts or flash cuts
             if i > 0:
-                clip = clip.crossfadein(1.0) # 1 second smooth dissolve
+                # Flash Cut Effect? 
+                # Let's stick to rapid hard cuts for high energy
+                pass 
             
             video_clips.append(clip)
             
@@ -553,11 +600,13 @@ def render(data):
     # Position sub-title slightly below main title
     sub_clip = sub_clip.set_position(('center', 150 + title_clip.h + 10))
     
-    # Add both to overlay_clips
+    # Add both to overlay_clips (BUT with Glass Panel we handle differently)
     title_clip = title_clip.set_start(0).set_duration(total_dur)
     sub_clip = sub_clip.set_start(0).set_duration(total_dur)
-    overlay_clips.append(title_clip)
-    overlay_clips.append(sub_clip)
+    
+    # Remove direct append, use Header Group below
+    # overlay_clips.append(title_clip)
+    # overlay_clips.append(sub_clip)
 
     # 4. SUBTITLES (Refined: Smaller & Cleaner)
     subtitle_text = clean_subtitle(txt)
@@ -599,7 +648,28 @@ def render(data):
             overlay_clips.append(txt_clip)
 
     # --- ASSEMBLE ---
-    # Add Cinematic Overlay (Pro Readability)
+    
+    # PREMIUM HEADER (Glass Panel + Title)
+    # Re-build title clips with Glass Background
+    glass_panel_path = create_glass_panel(1080, 1920)
+    glass_bg = ImageClip(glass_panel_path).set_duration(total_dur).set_position(('center', 100))
+    # We need to insert this BEFORE the text clips in the list, or re-order
+    # Easier: Just append glass_bg first
+    
+    # Clear existing text clips from overlay list to re-layer them
+    # Actually, we can just insert `glass_bg` at index 0 of overlays? No, overlays are on top.
+    # We want Glass -> TitleText.
+    
+    # Let's Re-do the Header Overlay Assembly strictly here
+    header_group = []
+    header_group.append(glass_bg)
+    header_group.append(title_clip) # Reuse previous clip
+    header_group.append(sub_clip)   # Reuse previous clip
+    
+    header_comp = CompositeVideoClip(header_group, size=(1080,1920)).set_duration(total_dur)
+    overlay_clips.append(header_comp)
+
+    # Cinematic Gradient (Bottom)
     cinematic_overlay_path = create_cinematic_overlay(1080, 1920)
     cinematic_overlay_clip = ImageClip(cinematic_overlay_path).set_duration(total_dur)
     overlay_clips.append(cinematic_overlay_clip)
@@ -781,13 +851,17 @@ if __name__ == "__main__":
                     file_updated = True
                     
                     # UPLOAD LOGIC
+                skip_upload = os.environ.get("SKIP_UPLOAD", "false").lower() == "true"
+                
+                if skip_upload:
+                     print("🚫 SKIP_UPLOAD is set. Skipping YouTube upload.")
+                elif upload_video and not data.get('uploaded', False):
                     print(f"📤 Attempting upload... (upload_video available: {upload_video is not None})")
-                    if upload_video and not data.get('uploaded', False):
-                        if upload_video(video_path, data):
-                            data['uploaded'] = True
-                            print("🚀 Video Uploaded & Marked as Completed.")
-                        else:
-                            print("⚠️ Upload skipped or failed.")
+                    if upload_video(video_path, data):
+                        data['uploaded'] = True
+                        print("🚀 Video Uploaded & Marked as Completed.")
+                    else:
+                        print("⚠️ Upload skipped or failed.")
             
             # Save back updated statuses AND content
             if file_updated:

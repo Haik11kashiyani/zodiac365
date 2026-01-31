@@ -137,7 +137,7 @@ def get_video_background(script_text, sign, theme=None):
 
     return None
 
-def get_b_roll_sequence(script_text, sign, count=3):
+def get_b_roll_sequence(script_text, sign, count=6):
     """
     Returns a LIST of video paths for dynamic scene changing.
     Analyses script for multiple keywords if possible.
@@ -163,35 +163,41 @@ def get_b_roll_sequence(script_text, sign, count=3):
     
     base_element = element_map.get(sign, "Galaxy")
     
-    # Construct sequence strategy
-    # If we have a theme, maybe: [Theme, Element, Theme] or [Element, Theme, Element]
-    # Let's try to get unique videos.
-    
+    # Construct sequence strategy for 6 SLOTS (Viral Pacing)
     target_queries = []
     
-    # Scene 1: Hook (Element or Abstract)
-    target_queries.append(f"{base_element} aesthetic vertical")
+    # Scene 1: HOOK (Fast, Shock, or Dramatic Element)
+    target_queries.append(f"{base_element} dramatic intro vertical")
     
-    # Scene 2: Theme Main (if exists)
+    # Scene 2: Theme Main
     if categories:
         cat = categories[0]
-        if cat == 'Love': target_queries.append("romantic vertical")
-        elif cat == 'Career': target_queries.append("luxury gold vertical")
-        elif cat == 'Health': target_queries.append("peaceful nature vertical")
-        elif cat == 'Travel': target_queries.append("travel adventure vertical")
+        if cat == 'Love': target_queries.append("romantic couple intimate vertical")
+        elif cat == 'Career': target_queries.append("luxury lifestyle gold vertical")
+        elif cat == 'Health': target_queries.append("meditation peaceful nature vertical")
+        elif cat == 'Travel': target_queries.append("travel adventure iconic vertical")
     else:
-        target_queries.append(f"{sign} zodiac vertical")
+        target_queries.append(f"{sign} zodiac mystery vertical")
         
-    # Scene 3: Element Variation or Second Theme
+    # Scene 3: Pattern Interrupt (Fast motion / Time lapse)
+    target_queries.append("hyperlapse city lights vertical")
+
+    # Scene 4: Element Depth (Slow motion)
+    target_queries.append(f"slow motion {base_element} aesthetic vertical")
+    
+    # Scene 5: Second Theme or Emotion (Close up)
     if len(categories) > 1:
         cat = categories[1]
         target_queries.append(f"{cat} aesthetic vertical")
     else:
-        target_queries.append(f"mystical {base_element} vertical")
+        target_queries.append(f"mystical {base_element} abstract vertical")
+
+    # Scene 6: Loop Bridge (Infinite, Tunnel, or consistent element)
+    target_queries.append(f"abstract tunnel loop vertical")
         
     # Ensure we have enough queries
     while len(target_queries) < count:
-        target_queries.append(f"abstract particle vertical")
+        target_queries.append(f"abstract gold dust vertical")
 
     # Fetch
     used_ids = set()

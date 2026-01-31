@@ -1,0 +1,62 @@
+name: Manual Video Test
+
+on:
+  workflow_dispatch:
+    inputs:
+      sign:
+        description: "Zodiac Sign to Generate (e.g., Aries)"
+        required: true
+        default: "Aries"
+      mode:
+        description: "Type of video (daily, weekly)"
+        required: true
+        default: "daily"
+
+jobs:
+  generate_test_video:
+    runs-on: ubuntu-latest
+    env:
+      PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }} # Assuming you use OpenAI or similar
+      SKIP_UPLOAD: "true"
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.9"
+
+      - name: Install Dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg imagemagick
+          # Fix ImageMagick policy for MoviePy
+          sudo sed -i 's/none/read,write/g' /etc/ImageMagick-6/policy.xml
+          pip install -r requirements.txt
+
+      - name: Create Dummy Plan (Force Execution)
+        run: |
+          # Create a temporary JSON plan to allow video_maker.py to pick it up
+          # We manually trigger generation by "faking" a pending plan or calling generator directly
+
+          # Using a python one-liner to create a pending plan file
+          python -c "import json; json.dump({'active': True, 'status': 'pending', 'type': '${{ inputs.mode }}', 'target': '${{ inputs.sign }}', 'date': 'TODAY', 'script_text': '', 'title': 'Test Video'}, open('plan_test_${{ inputs.sign }}.json', 'w'))"
+
+      - name: Run Video Generator
+        run: |
+          # Only run the generator/maker script
+          # video_maker.py checks for plan_*.json files in CWD
+          python video_maker.py
+
+      - name: List Outputs
+        run: ls -R output_videos/
+
+      - name: Upload Video Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: generated-video-${{ inputs.sign }}
+          path: output_videos/*.mp4
+          retention-days: 5

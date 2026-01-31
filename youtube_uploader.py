@@ -116,26 +116,42 @@ https://www.youtube.com/@Zodiac365?sub_confirmation=1
 """
 
     # --- TAGS STRATEGY ---
+    final_tags = []
+    
+    # 1. Start with Must-Have Broad Tags
+    base_tags = ["shorts", "viral", "astrology", "horoscope", "zodiac", target.lower()]
+    final_tags.extend(base_tags)
+    
+    # 2. Add AI Tags (High Priority)
     if ai_tags and isinstance(ai_tags, list):
-        tags = ai_tags
-        # Ensure compulsory tags exist
-        for t in ["shorts", "viral", "astrology", target.lower()]:
-            if t not in tags: tags.append(t)
-    else:
-        tags = [
-            "astrology", "zodiac", "horoscope", "shorts", "viral", "fyp", 
-            "daily horoscope", "astrology today", "zodiac signs", 
-            target.lower(), f"{target.lower()} horoscope", f"{target.lower()} {current_year}"
-        ]
+        for t in ai_tags:
+            clean_t = t.lower().replace('#', '')
+            if clean_t not in final_tags:
+                final_tags.append(clean_t)
+                
+    # 3. Add Dynamic Specific Tags
+    current_year = datetime.datetime.now().year
+    dynamic_tags = [
+        f"{target.lower()}horoscope", 
+        f"{target.lower()}{current_year}",
+        "manifestation", 
+        "spirituality",
+        "lawofattraction"
+    ]
+    for t in dynamic_tags:
+        if t not in final_tags:
+            final_tags.append(t)
+            
+    # 4. Strict Limit (Max 500 chars is YT limit, but let's limit count to ~25)
+    tags = final_tags[:25]
     
     # YouTube Title Limit Check (100 chars)
     if len(final_title) > 100:
-        # Keep hashtags, truncate middle if needed, or just hard chop
-        # Logic: title... #shorts #viral
-        suffix = " #shorts #viral"
+        # Keep hashtags, truncate middle if needed
+        suffix = " #shorts"
         limit = 100 - len(suffix)
-        clean_title = final_title.replace(suffix, "")
-        final_title = clean_title[:limit-1] + "…" + suffix
+        clean_title = final_title.replace(suffix, "").replace("#viral", "") # Drop viral if too long
+        final_title = clean_title[:limit-1].strip() + "…" + suffix
 
     return final_title, description, tags
 
