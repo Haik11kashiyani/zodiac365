@@ -10,7 +10,7 @@ def load_config():
 
 def generate_content(mode, target, date_str):
     """Pure logic to generate content and return dict."""
-    print(f"🔮 Drafting {mode.upper()} for {target}...")
+    print(f"» Drafting {mode.upper()} for {target}...")
     config = load_config()
     prompts = config.get("prompts", {})
     imgs = []

@@ -17,10 +17,10 @@ def get_live_free_models():
                 if float(m.get('pricing', {}).get('prompt', 1)) == 0 
                 and float(m.get('pricing', {}).get('completion', 1)) == 0
             ]
-            print(f"Oracle discovered {len(free_list)} active free models.")
+            print(f"» Oracle discovered {len(free_list)} active free models.")
             return free_list
     except Exception as e:
-        print(f"Research failed: {e}. Using fallback list.")
+        print(f"! Research failed: {e}. Using fallback list.")
     
     # Fallback if the web research fails
     return ["google/gemini-2.0-flash-lite-preview-02-05:free", "meta-llama/llama-3.3-70b-instruct:free"]
@@ -30,7 +30,7 @@ def ask_google_fallback(prompt, sys_msg):
     google_key = os.environ.get("GOOGLE_API_KEY")
     if not google_key: return None
     
-    print("Switching to Gemini Fallback...")
+    print("» Switching to Gemini Fallback...")
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={google_key}"
     headers = {"Content-Type": "application/json"}
     
@@ -60,7 +60,7 @@ def ask_ai(prompt, sys_msg="You are a mystical video director."):
         models = get_live_free_models()
         for model_id in models:
             try:
-                print(f"🎬 Consulting: {model_id}...")
+                print(f"» Consulting: {model_id}...")
                 payload = {"model": model_id, "messages": [{"role": "system", "content": sys_msg}, {"role": "user", "content": prompt}]}
                 r = requests.post(url, headers=headers, json=payload, timeout=45)
                 
@@ -70,9 +70,8 @@ def ask_ai(prompt, sys_msg="You are a mystical video director."):
                     match = re.search(r'```json\s*(\{.*?\})\s*```', content, re.DOTALL)
                     return json.loads(match.group(1)) if match else json.loads(content)
                     
-                print(f"🔄 {model_id} is busy. Rotating...")
+                print(f":: {model_id} is busy. Rotating...")
             except: continue
             
     # 2. Try Google Gemini Fallback
     return ask_google_fallback(prompt, sys_msg)
-

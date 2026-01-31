@@ -70,13 +70,13 @@ def main():
     mode = os.environ.get('VIDEO_MODE', 'daily')
     date_str = datetime.date.today().strftime("%Y-%m-%d")
     
-    print(f"Starting Bridge for {target} ({mode})...")
+    print(f"» Starting Bridge for {target} ({mode})...")
     
     # 1. GENERATE CONTENT (Python)
     # This creates/updates the plan_*.json file
     success = generate_zodiac_video(mode, target, date_str)
     if not success:
-        print("Content generation failed.")
+        print("!! Content generation failed.")
         sys.exit(1)
         
     # Find the file
@@ -87,10 +87,10 @@ def main():
         data = json.load(f)
         
     # 2. GENERATE AUDIO & SUBTITLES (EdgeTTS)
-    print("Generating Audio & VTT...")
+    print("» Generating Audio & VTT...")
     script_text = data.get('script_text', '')
     if not script_text:
-        print("Error: No script text found.")
+        print("!! Error: No script text found.")
         sys.exit(1)
         
     audio_file = os.path.abspath(f"video-engine/public/{safe_target}.mp3")
@@ -112,11 +112,11 @@ def main():
     
     # 3. PARSE VTT FOR REMOTION
     captions = parse_vtt(vtt_file)
-    print(f"Parsed {len(captions)} caption segments.")
+    print(f"+ Parsed {len(captions)} caption segments.")
     
     # 4. GET VISUALS
     # Use existing video_sourcer but just get paths
-    print("Sourcing Visuals...")
+    print("» Sourcing Visuals...")
     # Remotion needs public URLs or local paths in 'public' folder
     # For now, let's use the local paths provided by sourcer and COPY them to video-engine/public/assets
     
@@ -160,8 +160,8 @@ def main():
     with open(input_path, "w") as f:
         json.dump(input_data, f, indent=2)
         
-    print(f"Bridge Complete. Data written to {input_path}")
-    print("Now run: cd video-engine && npm run build")
+    print(f"OK Bridge Complete. Data written to {input_path}")
+    print("» Now run: cd video-engine && npm run build")
 
 if __name__ == "__main__":
     main()
