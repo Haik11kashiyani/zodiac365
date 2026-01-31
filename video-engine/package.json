@@ -8,14 +8,14 @@
     "test": "eslint src --ext ts,tsx"
   },
   "dependencies": {
-    "@remotion/cli": "4.0.0",
-    "@remotion/noise": "^4.0.414",
-    "@remotion/player": "4.0.0",
-    "@remotion/transitions": "^4.0.414",
-    "@remotion/zod-types": "4.0.0",
+    "@remotion/cli": "^4.0.0",
+    "@remotion/noise": "^4.0.0",
+    "@remotion/player": "^4.0.0",
+    "@remotion/transitions": "^4.0.0",
+    "@remotion/zod-types": "^4.0.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "remotion": "4.0.0",
+    "remotion": "^4.0.0",
     "webfontloader": "^1.6.28",
     "zod": "^3.22.0"
   },
