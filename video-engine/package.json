@@ -1,0 +1,26 @@
+{
+  "name": "zodiac-remotion",
+  "version": "1.0.0",
+  "description": "Zodiac Video Engine",
+  "scripts": {
+    "start": "remotion preview src/index.tsx",
+    "build": "remotion render src/index.tsx ZodiacVideo out/video.mp4",
+    "test": "eslint src --ext ts,tsx"
+  },
+  "dependencies": {
+    "remotion": "4.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "@remotion/player": "4.0.0",
+    "@remotion/cli": "4.0.0",
+    "@remotion/zod-types": "4.0.0",
+    "zod": "^3.22.0",
+    "webfontloader": "^1.6.28"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/webfontloader": "^1.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.0.0"
+  }
+}

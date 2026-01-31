@@ -40,23 +40,26 @@ def generate_content(mode, target, date_str):
 
     today_context = datetime.date.today().strftime("%B %d, %Y")
     
+    # VTT and REMOTION BRIDGE
     prompt_suffix = f"""
+    CONTEXT: Today is {today_context}.
     
-    CONTEXT: Today is {today_context}. Use this to find trending keywords if relevant.
+    Respond in JSON ONLY:
+    {{
+        "script_text": "Spoken script ~50s. Hook first. Loop end.",
+        "captions_structure": [
+            {{"text": "LEO WARNING", "type": "header"}},
+            {{"text": "Stop scrolling...", "type": "normal"}}
+        ],
+        "title": "Internal Title",
+        "youtube_title": "Viral Title #shorts",
+        "youtube_description": "Desc...",
+        "youtube_tags": ["tag1", "tag2"]
+    }}
     
-    Respond in JSON ONLY with the following keys:
-    - 'script_text': The spoken word script (approx 40-50 secs).
-        * MUST START with a strong "Hook" (e.g., "Stop scrolling if you're a {target}!", "You won't believe this...").
-        * MUST END with a sentence that loops back to the start (e.g., "And that is exactly why...").
-        * Include a specific Call to Action (e.g., "Claim this in the comments").
-    - 'title': Internal title.
-    - 'youtube_title': A viral, click-bait style YouTube Short title (max 80 chars). MUST INCLUDE '#shorts'.
-    - 'youtube_description': A 3-line engaging description with questions to drive comments. Include 3-4 hashtags in the text.
-    - 'youtube_tags': A list of 15-20 high volume viral tags. include specific trending tags (e.g., #MercuryRetrograde) and the mood (e.g., #Healing).
-    
-    STRICT RULES:
-    1. 'youtube_title' MUST end with #shorts
-    2. Make it CLICKBAIT. High emotion.
+    RULES:
+    1. 'script_text' must be plain text for TTS.
+    2. 'captions_structure' is a guide for visual text but we will use TTS timing mostly.
     """
     
     data = ask_ai(prompt + prompt_suffix)
