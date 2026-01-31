@@ -1,5 +1,5 @@
 import React from 'react';
-import { AbsoluteFill, Audio, Img, Video, useVideoConfig, useCurrentFrame, interpolate, spring, Sequence } from 'remotion';
+import { AbsoluteFill, Audio, Img, Video, useVideoConfig, useCurrentFrame, interpolate, spring, Sequence, staticFile } from 'remotion';
 import { TransitionSeries, linearTiming } from '@remotion/transitions';
 import { slide } from '@remotion/transitions/slide';
 
@@ -60,9 +60,9 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({ scriptText
                 </div>
             </AbsoluteFill>
 
-            {/* AUDIO */}
+            {/* AUDIO - Use staticFile for proper asset resolution */}
             {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
-            {audioSrc && <Audio src={audioSrc} placeholder={null} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} />}
+            {audioSrc && <Audio src={staticFile(audioSrc)} placeholder={null} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} />}
         </AbsoluteFill>
     );
 };
