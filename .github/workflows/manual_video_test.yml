@@ -17,7 +17,8 @@ jobs:
     runs-on: ubuntu-latest
     env:
       PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
-      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }} # Assuming you use OpenAI or similar
+      OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+      GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
       SKIP_UPLOAD: "true"
 
     steps:
@@ -52,6 +53,8 @@ jobs:
           TARGET_SIGN: ${{ inputs.sign }}
           VIDEO_MODE: ${{ inputs.mode }}
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
         run: |
           # Bridge generates video-engine/input.json and assets
           python bridge.py
