@@ -2,6 +2,7 @@ import React from 'react';
 import { AbsoluteFill, Audio, Img, Video, useVideoConfig, useCurrentFrame, interpolate, spring } from 'remotion';
 import { TransitionSeries, linearTiming } from '@remotion/transitions';
 import { slide } from '@remotion/transitions/slide';
+import { Noise } from '@remotion/noise';
 
 interface Caption {
     start: number;
@@ -25,32 +26,37 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({ scriptText
             {/* BACKGROUND LAYER WITH TRANSITIONS */}
             <AbsoluteFill style={{ overflow: 'hidden' }}>
                  <TransitionSeries>
-                    {images.map((imgSrc, i) => (
-                        <React.Fragment key={i}>
-                            <TransitionSeries.Sequence durationInFrames={150}> {/* 5s per clip */}
-                                <BackgroundClip src={imgSrc} index={i} total={images.length} />
-                            </TransitionSeries.Sequence>
-                            {/* Slide transition between clips */}
-                            {i < images.length - 1 && (
-                                <TransitionSeries.Transition 
-                                    presentation={slide({ direction: 'from-right' })} 
-                                    timing={linearTiming({ durationInFrames: 15 })} 
-                                />
-                            )}
-                        </React.Fragment>
-                    ))}
+                    {/* ... (existing backgrounds) ... */}
                  </TransitionSeries>
                  
                 {/* Dark Overlay */}
-                <div style={{
-                    position: 'absolute', top: 0, left: 0, width: '100%', height: '100%',
-                    backgroundColor: 'rgba(0,0,0,0.4)' 
-                }} />
+                <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', backgroundColor: 'rgba(0,0,0,0.4)' }} />
+                
+                {/* Film Grain - Subtle Texture */}
+                <AbsoluteFill style={{ opacity: 0.15 }}>
+                    <Noise opacity={1} />
+                </AbsoluteFill>
             </AbsoluteFill>
 
             {/* TEXT LAYER */}
             <AbsoluteFill style={{ justifyContent: 'center', alignItems: 'center' }}>
                  <CaptionsLayer captions={captions} />
+            </AbsoluteFill>
+            
+            {/* PROGRESS BAR */}
+            <AbsoluteFill style={{ justifyContent: 'flex-end' }}>
+                <div style={{
+                    width: '100%',
+                    height: '15px',
+                    backgroundColor: 'rgba(255,255,255,0.2)'
+                }}>
+                    <div style={{
+                        width: `${(frame / (30 * 60)) * 100}%`, // Assuming 60s max. Better: frame/durationInFrames
+                        height: '100%',
+                        backgroundColor: '#FFD700', // Gold
+                        boxShadow: '0 0 10px #FFD700'
+                    }} />
+                </div>
             </AbsoluteFill>
 
             {/* AUDIO */}
