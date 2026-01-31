@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@remotion/cli": "4.0.120",
-    "@remotion/noise": "4.0.120",
+    "@remotion/player": "4.0.120",
     "@remotion/player": "4.0.120",
     "@remotion/transitions": "4.0.120",
     "@remotion/zod-types": "4.0.120",

@@ -1,8 +1,7 @@
 import React from 'react';
-import { AbsoluteFill, Audio, Img, Video, useVideoConfig, useCurrentFrame, interpolate, spring } from 'remotion';
+import { AbsoluteFill, Audio, Img, Video, useVideoConfig, useCurrentFrame, interpolate, spring, Sequence } from 'remotion';
 import { TransitionSeries, linearTiming } from '@remotion/transitions';
 import { slide } from '@remotion/transitions/slide';
-import { Noise } from '@remotion/noise';
 
 interface Caption {
     start: number;
@@ -19,23 +18,25 @@ interface ZodiacCompositionProps {
 
 export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({ scriptText, audioSrc, captions, images }) => {
     const frame = useCurrentFrame(); 
-    const { fps } = useVideoConfig();
+    const { fps, durationInFrames } = useVideoConfig();
 
     return (
         <AbsoluteFill style={{ backgroundColor: 'black' }}>
             {/* BACKGROUND LAYER WITH TRANSITIONS */}
             <AbsoluteFill style={{ overflow: 'hidden' }}>
-                 <TransitionSeries>
-                    {/* ... (existing backgrounds) ... */}
-                 </TransitionSeries>
+                 {/* Background clips with transition */}
+                 {images && images.length > 0 && (
+                    <TransitionSeries>
+                        {images.map((imgSrc, index) => (
+                            <TransitionSeries.Sequence key={index} durationInFrames={Math.floor(durationInFrames / images.length)}>
+                                <BackgroundClip src={imgSrc} index={index} total={images.length} />
+                            </TransitionSeries.Sequence>
+                        ))}
+                    </TransitionSeries>
+                 )}
                  
                 {/* Dark Overlay */}
                 <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', backgroundColor: 'rgba(0,0,0,0.4)' }} />
-                
-                {/* Film Grain - Subtle Texture */}
-                <AbsoluteFill style={{ opacity: 0.15 }}>
-                    <Noise opacity={1} />
-                </AbsoluteFill>
             </AbsoluteFill>
 
             {/* TEXT LAYER */}
@@ -60,7 +61,8 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({ scriptText
             </AbsoluteFill>
 
             {/* AUDIO */}
-            {audioSrc && <Audio src={audioSrc} />}
+            {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
+            {audioSrc && <Audio src={audioSrc} placeholder={null} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} />}
         </AbsoluteFill>
     );
 };
@@ -85,7 +87,8 @@ const BackgroundClip: React.FC<{src: string, index: number, total: number}> = ({
     if (isVideo) {
         return <Video src={finalSrc} style={style} muted loop />;
     }
-    return <Img src={finalSrc} style={style} />;
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    return <Img src={finalSrc} style={style} placeholder={undefined} onResize={undefined} onResizeCapture={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} />;
 }
 
 const CaptionsLayer: React.FC<{captions: Caption[]}> = ({ captions }) => {
