@@ -90,7 +90,7 @@ def generate_zodiac_video(mode, target, date_str):
         try:
             with open(filename, 'r') as f: existing = json.load(f)
             if existing.get('status') == 'pending' and existing.get('active', True):
-                print(f"MANUAL OVERRIDE FOUND: {filename} is pending. Skipping AI generation.")
+                log_info(f"MANUAL OVERRIDE FOUND: {filename} is pending. Skipping AI generation.")
                 return True
         except: pass
 

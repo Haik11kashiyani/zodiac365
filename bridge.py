@@ -65,18 +65,21 @@ def parse_vtt(vtt_file):
                     
     return captions
 
+from cli_utils import log_section, log_info, log_success, log_error
+
+# ... (imports) ...
+
 def main():
     target = os.environ.get('TARGET_SIGN', 'Aries')
     mode = os.environ.get('VIDEO_MODE', 'daily')
     date_str = datetime.date.today().strftime("%Y-%m-%d")
     
-    print(f"» Starting Bridge for {target} ({mode})...")
+    log_section(f"Starting Bridge for {target} ({mode})")
     
     # 1. GENERATE CONTENT (Python)
-    # This creates/updates the plan_*.json file
     success = generate_zodiac_video(mode, target, date_str)
     if not success:
-        print("!! Content generation failed.")
+        log_error("Content generation failed.")
         sys.exit(1)
         
     # Find the file
@@ -87,20 +90,18 @@ def main():
         data = json.load(f)
         
     # 2. GENERATE AUDIO & SUBTITLES (EdgeTTS)
-    print("» Generating Audio & VTT...")
+    log_section("Generating Audio & VTT")
     script_text = data.get('script_text', '')
     if not script_text:
-        print("!! Error: No script text found.")
+        log_error("No script text found.")
         sys.exit(1)
         
     audio_file = os.path.abspath(f"video-engine/public/{safe_target}.mp3")
     vtt_file = os.path.abspath(f"video-engine/public/{safe_target}.vtt")
     
-    # Ensure public dir exists
     os.makedirs(os.path.dirname(audio_file), exist_ok=True)
     
-    # Run EdgeTTS
-    voice = "en-US-ChristopherNeural" # Deep male voice
+    voice = "en-US-ChristopherNeural"
     cmd = [
         "edge-tts",
         "--voice", voice,
@@ -112,23 +113,14 @@ def main():
     
     # 3. PARSE VTT FOR REMOTION
     captions = parse_vtt(vtt_file)
-    print(f"+ Parsed {len(captions)} caption segments.")
+    log_success(f"Parsed {len(captions)} caption segments.")
     
     # 4. GET VISUALS
-    # Use existing video_sourcer but just get paths
-    print("» Sourcing Visuals...")
-    # Remotion needs public URLs or local paths in 'public' folder
-    # For now, let's use the local paths provided by sourcer and COPY them to video-engine/public/assets
-    
-    # Mocking sourcer for now if API missing, else using it
-    # We need to make sure sourcer returns list of paths
+    log_section("Sourcing Visuals")
     video_paths = []
     if os.environ.get("PEXELS_API_KEY"):
-         # We need to import the sourcer logic more directly or assume it works
-         # sourcer.get_b_roll_sequence returns local paths in assets/videos
          video_paths = get_b_roll_sequence(script_text, target, count=6)
     
-    # Copy assets to Remotion public
     remotion_assets = []
     asset_dir = "video-engine/public/assets"
     os.makedirs(asset_dir, exist_ok=True)
@@ -140,17 +132,15 @@ def main():
             dest_name = f"clip_{i}{ext}"
             dest_path = os.path.join(asset_dir, dest_name)
             shutil.copy(vp, dest_path)
-            # Web path
             remotion_assets.append(f"/assets/{dest_name}")
             
-    # Fallback if no video
     if not remotion_assets:
         remotion_assets = ["https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg"]
         
     # 5. WRITE INPUT.JSON
     input_data = {
         "scriptText": script_text,
-        "audioSrc": f"/{safe_target}.mp3", # Public relative path
+        "audioSrc": f"/{safe_target}.mp3",
         "captions": captions,
         "images": remotion_assets,
         "title": data.get('youtube_title', 'Zodiac Video')
@@ -160,8 +150,8 @@ def main():
     with open(input_path, "w") as f:
         json.dump(input_data, f, indent=2)
         
-    print(f"OK Bridge Complete. Data written to {input_path}")
-    print("» Now run: cd video-engine && npm run build")
+    log_success(f"Bridge Complete. Data written to {input_path}")
+    log_info("Now run: cd video-engine && npm run build")
 
 if __name__ == "__main__":
     main()
