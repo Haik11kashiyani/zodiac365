@@ -8,7 +8,7 @@
     "test": "eslint src --ext ts,tsx"
   },
   "dependencies": {
-    "@remotion/cli": "^4.0.0",
+    "@remotion/cli": "^4.0.414",
     "@remotion/noise": "^4.0.0",
     "@remotion/player": "^4.0.0",
     "@remotion/transitions": "^4.0.0",
