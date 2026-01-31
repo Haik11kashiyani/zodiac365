@@ -1,24 +1,55 @@
-from cli_utils import log_info, log_error, log_warning
+import os, json, requests, time, re
+from cli_utils import log_info, log_error, log_warning, wait_random
 
-# ...
+OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY")
 
+def get_live_free_models():
+    """Dynamically researches OpenRouter to find currently active free models."""
+    try:
+        url = "https://openrouter.ai/api/v1/models"
+        headers = {"Authorization": f"Bearer {OPENROUTER_API_KEY}"}
+        response = requests.get(url, headers=headers, timeout=10)
+        
+        if response.status_code == 200:
+            data = response.json().get('data', [])
+            # Filter: pricing must be 0 for both prompt and completion
+            free_list = [
+                m['id'] for m in data 
+                if float(m.get('pricing', {}).get('prompt', 1)) == 0 
+                and float(m.get('pricing', {}).get('completion', 1)) == 0
+            ]
             log_info(f"Oracle discovered {len(free_list)} active free models.")
             return free_list
     except Exception as e:
         log_warning(f"Research failed: {e}. Using fallback list.")
     
-    # ...
+    # Fallback if the web research fails
+    return ["google/gemini-2.0-flash-lite-preview-02-05:free", "meta-llama/llama-3.3-70b-instruct:free"]
 
+def ask_google_fallback(prompt, sys_msg):
+    """Fallback to Google Gemini Free Tier via REST"""
+    google_key = os.environ.get("GOOGLE_API_KEY")
+    if not google_key: return None
+    
     log_info("Switching to Gemini Fallback...")
-    # ...
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={google_key}"
+    headers = {"Content-Type": "application/json"}
+    
+    # Gemini valid payload
+    payload = {
+        "contents": [{
+            "parts": [{"text": f"{sys_msg}\n\n{prompt}"}] 
+        }]
+    }
+    
+    try:
+        r = requests.post(url, headers=headers, json=payload, timeout=30)
+        if r.status_code == 200:
+            data = r.json()
+            return json.loads(data['candidates'][0]['content']['parts'][0]['text'].replace("```json", "").replace("```", ""))
     except Exception as e:
         log_error(f"Gemini Fallback Failed: {e}")
     return None
-
-from cli_utils import log_info, log_error, log_warning, wait_random
-import os, json, requests, time, re
-
-# ...
 
 def ask_ai(prompt, sys_msg="You are a mystical video director."):
     # 1. Try OpenRouter (Free Models)
