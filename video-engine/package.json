@@ -10,7 +10,6 @@
   "dependencies": {
     "@remotion/cli": "4.0.120",
     "@remotion/player": "4.0.120",
-    "@remotion/player": "4.0.120",
     "@remotion/transitions": "4.0.120",
     "@remotion/zod-types": "4.0.120",
     "react": "^18.0.0",
