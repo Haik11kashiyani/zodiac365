@@ -1,5 +1,7 @@
 import React from 'react';
-import { AbsoluteFill, Audio, Img, Video, useVideoConfig, useCurrentFrame, interpolate } from 'remotion';
+import { AbsoluteFill, Audio, Img, Video, useVideoConfig, useCurrentFrame, interpolate, spring } from 'remotion';
+import { TransitionSeries, linearTiming } from '@remotion/transitions';
+import { slide } from '@remotion/transitions/slide';
 
 interface Caption {
     start: number;
@@ -16,53 +18,32 @@ interface ZodiacCompositionProps {
 
 export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({ scriptText, audioSrc, captions, images }) => {
     const frame = useCurrentFrame(); 
-    
-    // Background Media (Video or Image)
-    const mediaDuration = 150; // Switch every 5s
-    const currentMediaIndex = Math.floor(frame / mediaDuration) % Math.max(images.length, 1);
-    const currentMedia = images[currentMediaIndex] || "https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg";
-    
-    const isVideo = currentMedia.endsWith('.mp4');
-
-    const scale = interpolate(
-        frame % mediaDuration,
-        [0, mediaDuration],
-        [1.1, 1.2] 
-    );
+    const { fps } = useVideoConfig();
 
     return (
         <AbsoluteFill style={{ backgroundColor: 'black' }}>
-            {/* BACKGROUND LAYER */}
+            {/* BACKGROUND LAYER WITH TRANSITIONS */}
             <AbsoluteFill style={{ overflow: 'hidden' }}>
-                 {isVideo ? (
-                    <Video
-                        src={currentMedia}
-                        style={{
-                            width: '100%',
-                            height: '100%',
-                            objectFit: 'cover',
-                            transform: `scale(${scale})`
-                        }}
-                        muted // Background video should be muted
-                        loop
-                    />
-                 ) : (
-                    <Img 
-                        src={currentMedia} 
-                        style={{
-                            width: '100%',
-                            height: '100%',
-                            objectFit: 'cover',
-                            transform: `scale(${scale})`
-                        }}
-                    />
-                 )}
+                 <TransitionSeries>
+                    {images.map((imgSrc, i) => (
+                        <React.Fragment key={i}>
+                            <TransitionSeries.Sequence durationInFrames={150}> {/* 5s per clip */}
+                                <BackgroundClip src={imgSrc} index={i} total={images.length} />
+                            </TransitionSeries.Sequence>
+                            {/* Slide transition between clips */}
+                            {i < images.length - 1 && (
+                                <TransitionSeries.Transition 
+                                    presentation={slide({ direction: 'from-right' })} 
+                                    timing={linearTiming({ durationInFrames: 15 })} 
+                                />
+                            )}
+                        </React.Fragment>
+                    ))}
+                 </TransitionSeries>
+                 
+                {/* Dark Overlay */}
                 <div style={{
-                    position: 'absolute',
-                    top: 0, 
-                    left: 0,
-                    width: '100%', 
-                    height: '100%',
+                    position: 'absolute', top: 0, left: 0, width: '100%', height: '100%',
                     backgroundColor: 'rgba(0,0,0,0.4)' 
                 }} />
             </AbsoluteFill>
@@ -78,6 +59,29 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({ scriptText
     );
 };
 
+const BackgroundClip: React.FC<{src: string, index: number, total: number}> = ({ src, index, total }) => {
+    const frame = useCurrentFrame();
+    
+    // Smooth Scale Ken Burns
+    const scale = interpolate(frame, [0, 150], [1.0, 1.15], { extrapolateRight: 'clamp' });
+    
+    // Fallback logic
+    const finalSrc = src || "https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg";
+    const isVideo = finalSrc.endsWith('.mp4');
+    
+    const style = {
+        width: '100%',
+        height: '100%',
+        objectFit: 'cover' as const,
+        transform: `scale(${scale})`
+    };
+
+    if (isVideo) {
+        return <Video src={finalSrc} style={style} muted loop />;
+    }
+    return <Img src={finalSrc} style={style} />;
+}
+
 const CaptionsLayer: React.FC<{captions: Caption[]}> = ({ captions }) => {
     const frame = useCurrentFrame();
     const { fps } = useVideoConfig();
@@ -86,6 +90,20 @@ const CaptionsLayer: React.FC<{captions: Caption[]}> = ({ captions }) => {
     const activeCaption = captions.find(c => currentTime >= c.start && currentTime <= c.end);
 
     if (!activeCaption) return null;
+    
+    // Calculate local frame for the caption to animate entry
+    const captionStartFrame = activeCaption.start * fps;
+    const timeInCaption = frame - captionStartFrame;
+    
+    // Pop-in spring
+    const pop = spring({
+        frame: timeInCaption,
+        fps,
+        config: { damping: 12, stiffness: 200 }
+    });
+    
+    // Simple rotation wiggle
+    const wiggle = Math.sin(timeInCaption * 0.1) * 2; 
 
     return (
         <div style={{
@@ -98,7 +116,8 @@ const CaptionsLayer: React.FC<{captions: Caption[]}> = ({ captions }) => {
             maxWidth: '90%',
             lineHeight: '1.0',
             textShadow: '5px 5px 0px #000000',
-            WebkitTextStroke: '3px black' // Hormozi Stroke
+            WebkitTextStroke: '3px black',
+            transform: `scale(${pop}) rotate(${wiggle}deg)`
         }}>
             {activeCaption.text}
         </div>
