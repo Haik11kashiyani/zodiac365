@@ -76,33 +76,62 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
     
     // Progress bar
     const progress = (frame / durationInFrames) * 100;
+    
+    // Calculate which background to show based on time
+    const totalImages = images?.length || 1;
+    const segmentDuration = durationInFrames / totalImages;
+    const currentImageIndex = Math.min(Math.floor(frame / segmentDuration), totalImages - 1);
+    const currentImage = images?.[currentImageIndex] || "";
+    
+    // Animated glow intensity
+    const glowIntensity = 0.3 + Math.sin(frame * 0.05) * 0.15;
+    
+    // Color shift for variety
+    const hueShift = (frame * 0.1) % 360;
 
     return (
         <AbsoluteFill style={{ 
             background: gradient,
             overflow: 'hidden'
         }}>
-            {/* ANIMATED COSMIC BACKGROUND */}
-            <AbsoluteFill style={{ zIndex: 0 }}>
+            {/* LAYER 0: VIDEO/IMAGE BACKGROUND */}
+            {currentImage && (
+                <AbsoluteFill style={{ zIndex: 0 }}>
+                    <BackgroundClip src={currentImage} index={currentImageIndex} total={totalImages} />
+                </AbsoluteFill>
+            )}
+            
+            {/* LAYER 1: GRADIENT OVERLAY (Zodiac Theme) */}
+            <AbsoluteFill style={{ 
+                zIndex: 1,
+                background: gradient,
+                opacity: currentImage ? 0.6 : 1, // More transparent if we have a bg video
+                mixBlendMode: 'overlay'
+            }} />
+            
+            {/* LAYER 2: ANIMATED COSMIC PARTICLES */}
+            <AbsoluteFill style={{ zIndex: 2, pointerEvents: 'none' }}>
                 {/* Floating particles effect */}
-                {[...Array(15)].map((_, i) => {
+                {[...Array(25)].map((_, i) => {
                     const x = (i * 137.5) % 100;
-                    const y = ((i * 73) + frame * 0.3) % 120;
-                    const size = 4 + (i % 3) * 2;
-                    const opacity = 0.3 + (i % 5) * 0.1;
+                    const y = ((i * 73) + frame * 0.5) % 140;
+                    const size = 3 + (i % 4) * 3;
+                    const opacity = 0.2 + (i % 5) * 0.12;
+                    const delay = i * 0.1;
                     return (
                         <div
                             key={i}
                             style={{
                                 position: 'absolute',
                                 left: `${x}%`,
-                                top: `${y - 20}%`,
+                                top: `${y - 40}%`,
                                 width: size,
                                 height: size,
                                 borderRadius: '50%',
                                 backgroundColor: 'white',
                                 opacity: opacity,
-                                boxShadow: '0 0 10px white',
+                                boxShadow: `0 0 ${size * 2}px ${size}px rgba(255,255,255,${opacity})`,
+                                filter: `blur(${1 + i % 2}px)`,
                             }}
                         />
                     );
@@ -114,19 +143,21 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
                     top: '50%',
                     left: '50%',
                     transform: `translate(-50%, -50%) scale(${pulse})`,
-                    fontSize: 400,
-                    opacity: 0.1,
+                    fontSize: 500,
+                    opacity: 0.08,
                     color: 'white',
                     fontFamily: 'serif',
+                    filter: `drop-shadow(0 0 50px rgba(255,255,255,${glowIntensity}))`,
                 }}>
                     {symbol}
                 </div>
             </AbsoluteFill>
             
-            {/* DARK OVERLAY FOR READABILITY */}
+            {/* LAYER 3: ANIMATED VIGNETTE */}
             <AbsoluteFill style={{ 
-                zIndex: 1,
-                background: 'radial-gradient(circle at center, transparent 0%, rgba(0,0,0,0.3) 70%, rgba(0,0,0,0.6) 100%)'
+                zIndex: 3,
+                background: `radial-gradient(ellipse at center, transparent 20%, rgba(0,0,0,${0.4 + glowIntensity * 0.3}) 80%, rgba(0,0,0,0.9) 100%)`,
+                pointerEvents: 'none'
             }} />
             
             {/* ZODIAC SIGN HEADER */}
@@ -138,7 +169,7 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
                 display: 'flex',
                 justifyContent: 'center',
                 alignItems: 'center',
-                zIndex: 2,
+                zIndex: 5,
             }}>
                 <div style={{
                     display: 'flex',
@@ -158,7 +189,7 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
                         fontSize: 48,
                         fontWeight: 900,
                         color: 'white',
-                        fontFamily: 'Arial Black, sans-serif',
+                        fontFamily: 'Montserrat, sans-serif',
                         textTransform: 'uppercase',
                         letterSpacing: 4,
                     }}>{zodiacSign}</span>
@@ -169,7 +200,7 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
             <AbsoluteFill style={{ 
                 justifyContent: 'center', 
                 alignItems: 'center',
-                zIndex: 3,
+                zIndex: 10,
                 padding: 40,
             }}>
                 <CaptionsLayer captions={captions} />
