@@ -65,6 +65,24 @@ const HIGHLIGHT_KEYWORDS = [
     ...Object.keys(ZODIAC_SYMBOLS).map(s => s.toLowerCase())
 ];
 
+// SURPRISE KEYWORDS (trigger screen flash)
+const SURPRISE_KEYWORDS = [
+    'surprise', 'unexpected', 'shocking', 'amazing', 'incredible', 'wow',
+    'suddenly', 'alert', 'breaking', 'major', 'big', 'huge', 'explosive'
+];
+
+// WARNING KEYWORDS (trigger dark pulse + bass visual)
+const WARNING_KEYWORDS = [
+    'danger', 'warning', 'caution', 'careful', 'beware', 'risk',
+    'threat', 'problem', 'avoid', 'negative', 'bad', 'dark', 'difficult'
+];
+
+// UNDERLINE KEYWORDS (animated underline effect)
+const UNDERLINE_KEYWORDS = [
+    'today', 'tomorrow', 'week', 'month', 'year', 'important', 'key',
+    'must', 'need', 'should', 'will', 'destiny', 'fate', 'future', 'path'
+];
+
 export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({ 
     scriptText, 
     audioSrc, 
@@ -120,12 +138,34 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
     const minutes = Math.floor(remainingSeconds / 60);
     const seconds = remainingSeconds % 60;
     const timeString = `${minutes}:${seconds.toString().padStart(2, '0')}`;
+    
+    // SCRIPT-AWARE EMOTION DETECTION
+    const currentTime = frame / fps;
+    const activeCaption = captions.find(c => currentTime >= c.start && currentTime <= c.end);
+    const currentText = activeCaption?.text?.toLowerCase() || '';
+    
+    // Detect if current caption has surprise keywords
+    const hasSurprise = SURPRISE_KEYWORDS.some(kw => currentText.includes(kw));
+    const hasWarning = WARNING_KEYWORDS.some(kw => currentText.includes(kw));
+    
+    // Screen flash intensity (for surprise moments)
+    const flashOpacity = hasSurprise ? 
+        interpolate(frame % 15, [0, 5, 10, 15], [0, 0.4, 0.2, 0], { extrapolateRight: 'clamp' }) : 0;
+    
+    // Dark pulse for warnings
+    const darkPulseOpacity = hasWarning ?
+        0.2 + Math.sin(frame * 0.15) * 0.15 : 0;
+    
+    // Enhanced camera shake for emotion moments
+    const emotionShake = (hasSurprise || hasWarning) ? 5 : 0;
+    const totalShakeX = shakeX + emotionShake * Math.sin(frame * 0.8);
+    const totalShakeY = shakeY + emotionShake * Math.cos(frame * 1.1);
 
     return (
         <AbsoluteFill style={{ 
             background: gradient,
             overflow: 'hidden',
-            transform: `translate(${shakeX}px, ${shakeY}px)`, // Camera shake
+            transform: `translate(${totalShakeX}px, ${totalShakeY}px)`, // Enhanced camera shake
         }}>
             {/* LAYER 0: VIDEO/IMAGE BACKGROUND */}
             {currentImage && (
@@ -359,6 +399,38 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
                 }}>
                     <CaptionsLayer captions={captions} />
                 </AbsoluteFill>
+            )}
+            
+            {/* SCREEN FLASH (Surprise Moments) */}
+            {flashOpacity > 0 && (
+                <AbsoluteFill style={{
+                    zIndex: 25,
+                    background: 'radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,215,0,0.8) 50%, transparent 100%)',
+                    opacity: flashOpacity,
+                    pointerEvents: 'none',
+                    mixBlendMode: 'overlay',
+                }} />
+            )}
+            
+            {/* DARK PULSE (Warning Moments) */}
+            {darkPulseOpacity > 0 && (
+                <AbsoluteFill style={{
+                    zIndex: 25,
+                    background: 'radial-gradient(ellipse at center, transparent 30%, rgba(139,0,0,0.6) 70%, rgba(0,0,0,0.8) 100%)',
+                    opacity: darkPulseOpacity,
+                    pointerEvents: 'none',
+                }} />
+            )}
+            
+            {/* WARNING BORDER PULSE */}
+            {hasWarning && (
+                <AbsoluteFill style={{
+                    zIndex: 24,
+                    border: `${4 + Math.sin(frame * 0.2) * 2}px solid rgba(255,0,0,${0.3 + Math.sin(frame * 0.15) * 0.2})`,
+                    borderRadius: 0,
+                    pointerEvents: 'none',
+                    boxShadow: `inset 0 0 ${50 + Math.sin(frame * 0.1) * 20}px rgba(139,0,0,0.4)`,
+                }} />
             )}
             
             {/* LAYER 11: SCANLINES OVERLAY (Cinematic Film Look) */}
@@ -725,6 +797,11 @@ const CaptionsLayer: React.FC<{captions: Caption[]}> = ({ captions }) => {
                     word.toLowerCase().replace(/[^a-z]/g, '').includes(kw)
                 );
                 
+                // Check for underline keywords
+                const hasUnderline = UNDERLINE_KEYWORDS.some(kw => 
+                    word.toLowerCase().replace(/[^a-z]/g, '').includes(kw)
+                );
+                
                 // Animate individual word with slight delay
                 const wordDelay = i * 2;
                 const wordScale = interpolate(timeInCaption, [wordDelay, wordDelay + 5], [0.8, 1], { extrapolateRight: 'clamp', extrapolateLeft: 'clamp' });
@@ -732,6 +809,10 @@ const CaptionsLayer: React.FC<{captions: Caption[]}> = ({ captions }) => {
                 
                 // Gold flash for highlight words
                 const goldPulse = isHighlight ? Math.sin((timeInCaption + i) * 0.2) * 0.3 + 0.7 : 0;
+                
+                // Animated underline width (expands from 0 to 100%)
+                const underlineWidth = hasUnderline ? 
+                    interpolate(timeInCaption, [wordDelay, wordDelay + 10], [0, 100], { extrapolateRight: 'clamp', extrapolateLeft: 'clamp' }) : 0;
                 
                 return (
                     <span 
@@ -782,6 +863,21 @@ const CaptionsLayer: React.FC<{captions: Caption[]}> = ({ captions }) => {
                                     );
                                 })}
                             </>
+                        )}
+                        
+                        {/* ANIMATED UNDERLINE for key words */}
+                        {hasUnderline && (
+                            <span style={{
+                                position: 'absolute',
+                                bottom: -5,
+                                left: '50%',
+                                transform: 'translateX(-50%)',
+                                height: 4,
+                                width: `${underlineWidth}%`,
+                                background: 'linear-gradient(90deg, transparent, #FFD700, #FFA500, #FFD700, transparent)',
+                                borderRadius: 2,
+                                boxShadow: '0 0 10px rgba(255,215,0,0.6)',
+                            }} />
                         )}
                     </span>
                 );
