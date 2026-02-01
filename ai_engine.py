@@ -87,4 +87,19 @@ def ask_ai(prompt, sys_msg="You are a mystical video director."):
             
     # 2. Try Google Gemini Fallback
     wait_random(3, 7, "Summoning Gemini...")
-    return ask_google_fallback(prompt, sys_msg)
+    result = ask_google_fallback(prompt, sys_msg)
+    if result:
+        return result
+    
+    # 3. EMERGENCY FALLBACK - Return hardcoded script when ALL APIs fail
+    log_warning("All AI APIs failed! Using emergency fallback script...")
+    return get_emergency_fallback_script()
+
+def get_emergency_fallback_script():
+    """Returns a generic horoscope script when all AI services are unavailable."""
+    return {
+        "script": "Welcome to your daily cosmic forecast! The stars are aligning in your favor today. Positive energy surrounds you, bringing opportunities for growth and success. Love is in the air, and financial prospects look promising. Stay focused on your goals and trust your intuition. The universe has special plans for you. Remember to stay grounded and appreciate the small blessings. Your lucky numbers are shining bright. Embrace the day with confidence and watch as magic unfolds. Until next time, may the cosmos guide your path!",
+        "headline": "Cosmic Energy Awaits You Today!",
+        "thumbnail_headline": "STARS ALIGN FOR YOU",
+        "style_hints": "mystical, cosmic, positive energy, golden light"
+    }
