@@ -166,6 +166,13 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
     const currentImageIndex = Math.min(Math.floor(frame / segmentDuration), totalImages - 1);
     const currentImage = images?.[currentImageIndex] || "";
     
+    // GLITCH EFFECT - Trigger at scene transitions
+    const frameInSegment = frame % segmentDuration;
+    const isTransitioning = frameInSegment < 8 || frameInSegment > segmentDuration - 8;
+    const glitchIntensity = isTransitioning ? Math.random() * 15 : 0;
+    const rgbSplitX = isTransitioning ? Math.sin(frame * 2) * 8 : 0;
+    const rgbSplitY = isTransitioning ? Math.cos(frame * 3) * 4 : 0;
+    
     // Animated glow intensity
     const glowIntensity = 0.3 + Math.sin(frame * 0.05) * 0.15;
     
@@ -414,6 +421,107 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
                     );
                 })}
             </AbsoluteFill>
+            
+            {/* ZODIAC WHEEL SPINNER (Bottom Left) */}
+            <div style={{
+                position: 'absolute',
+                bottom: 100,
+                left: 30,
+                zIndex: 20,
+                width: 100,
+                height: 100,
+            }}>
+                <div style={{
+                    width: '100%',
+                    height: '100%',
+                    borderRadius: '50%',
+                    background: 'rgba(0,0,0,0.4)',
+                    border: '2px solid rgba(255,215,0,0.5)',
+                    display: 'flex',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    transform: `rotate(${frame * 0.5}deg)`,
+                    boxShadow: '0 0 20px rgba(255,215,0,0.3)',
+                }}>
+                    {/* All 12 zodiac symbols arranged in circle */}
+                    {Object.entries(ZODIAC_SYMBOLS).map(([sign, sym], i) => {
+                        const angle = (i / 12) * Math.PI * 2 - Math.PI / 2;
+                        const radius = 35;
+                        const x = Math.cos(angle) * radius;
+                        const y = Math.sin(angle) * radius;
+                        const isCurrentSign = sign === zodiacSign;
+                        
+                        return (
+                            <div
+                                key={sign}
+                                style={{
+                                    position: 'absolute',
+                                    left: `calc(50% + ${x}px)`,
+                                    top: `calc(50% + ${y}px)`,
+                                    transform: `translate(-50%, -50%) rotate(${-frame * 0.5}deg)`, // Counter-rotate to stay upright
+                                    fontSize: isCurrentSign ? 18 : 12,
+                                    color: isCurrentSign ? '#FFD700' : 'rgba(255,255,255,0.6)',
+                                    fontWeight: isCurrentSign ? 'bold' : 'normal',
+                                    filter: isCurrentSign ? 'drop-shadow(0 0 5px #FFD700)' : 'none',
+                                    transition: 'all 0.3s ease',
+                                }}
+                            >
+                                {sym}
+                            </div>
+                        );
+                    })}
+                    {/* Center current sign */}
+                    <div style={{
+                        fontSize: 28,
+                        color: '#FFD700',
+                        filter: 'drop-shadow(0 0 10px rgba(255,215,0,0.8))',
+                        transform: `rotate(${-frame * 0.5}deg)`, // Counter-rotate
+                    }}>
+                        {symbol}
+                    </div>
+                </div>
+            </div>
+            
+            {/* GLITCH EFFECT OVERLAY (Scene Transitions) */}
+            {isTransitioning && (
+                <AbsoluteFill style={{
+                    zIndex: 30,
+                    pointerEvents: 'none',
+                    mixBlendMode: 'screen',
+                }}>
+                    {/* RGB Split - Red Channel */}
+                    <AbsoluteFill style={{
+                        background: 'rgba(255,0,0,0.1)',
+                        transform: `translate(${rgbSplitX}px, ${rgbSplitY}px)`,
+                        mixBlendMode: 'multiply',
+                    }} />
+                    {/* RGB Split - Blue Channel */}
+                    <AbsoluteFill style={{
+                        background: 'rgba(0,0,255,0.1)',
+                        transform: `translate(${-rgbSplitX}px, ${-rgbSplitY}px)`,
+                        mixBlendMode: 'multiply',
+                    }} />
+                    {/* Scanline Glitch */}
+                    <AbsoluteFill style={{
+                        background: `repeating-linear-gradient(
+                            0deg,
+                            transparent 0px,
+                            rgba(255,255,255,${glitchIntensity * 0.01}) 2px,
+                            transparent 4px
+                        )`,
+                    }} />
+                    {/* Random Horizontal Slice */}
+                    <div style={{
+                        position: 'absolute',
+                        left: 0,
+                        right: 0,
+                        top: `${(frame * 7) % 100}%`,
+                        height: 20 + glitchIntensity,
+                        background: 'rgba(255,255,255,0.1)',
+                        transform: `translateX(${glitchIntensity * (Math.random() > 0.5 ? 1 : -1)}px)`,
+                    }} />
+                </AbsoluteFill>
+            )}
             
             {/* COUNTDOWN TIMER (Top Right Corner) */}
             <div style={{
