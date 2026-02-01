@@ -72,6 +72,15 @@ jobs:
           echo "=== Input JSON - Captions Count ==="
           python -c "import json; d=json.load(open('video-engine/input.json')); print(f'Captions: {len(d.get(\"captions\", []))} entries'); print('First 3:', d.get('captions', [])[:3])"
 
+      - name: Download Sound Effects
+        run: |
+          mkdir -p video-engine/public/assets
+          # Whoosh transition sound
+          curl -L -o video-engine/public/assets/whoosh.mp3 "https://cdn.pixabay.com/audio/2022/03/15/audio_d5a4e19a7b.mp3" || echo "Whoosh download failed, continuing..."
+          # Magic sparkle sound
+          curl -L -o video-engine/public/assets/sparkle.mp3 "https://cdn.pixabay.com/audio/2022/03/24/audio_03bf5d8d64.mp3" || echo "Sparkle download failed, continuing..."
+          ls -la video-engine/public/assets/
+
       - name: Render Video (Remotion)
         env:
           # Suppress dbus errors in headless environment

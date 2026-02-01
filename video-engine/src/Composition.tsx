@@ -181,6 +181,54 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
                 pointerEvents: 'none'
             }} />
             
+            {/* LAYER 4: ANIMATED LIGHT BEAMS */}
+            <AbsoluteFill style={{ zIndex: 4, pointerEvents: 'none', overflow: 'hidden' }}>
+                {[0, 1, 2].map((i) => {
+                    const beamX = ((frame * 2 + i * 400) % 1500) - 200;
+                    const beamOpacity = 0.08 + Math.sin(frame * 0.03 + i) * 0.04;
+                    return (
+                        <div
+                            key={`beam-${i}`}
+                            style={{
+                                position: 'absolute',
+                                left: beamX,
+                                top: -200,
+                                width: 150,
+                                height: 2500,
+                                background: `linear-gradient(180deg, transparent, rgba(255,215,0,${beamOpacity}), transparent)`,
+                                transform: 'rotate(25deg)',
+                                filter: 'blur(30px)',
+                            }}
+                        />
+                    );
+                })}
+            </AbsoluteFill>
+            
+            {/* LAYER 4.5: FLOATING EMOJI REACTIONS */}
+            <AbsoluteFill style={{ zIndex: 4, pointerEvents: 'none' }}>
+                {['✨', '🔥', '💫', '⭐', '💎'].map((emoji, i) => {
+                    const emojiY = ((frame * 1.5 + i * 100) % 2200) - 200;
+                    const emojiX = 50 + Math.sin(frame * 0.02 + i * 2) * 400;
+                    const emojiOpacity = interpolate(emojiY, [0, 500, 1500, 2000], [0, 0.6, 0.6, 0], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp' });
+                    const emojiScale = 0.8 + Math.sin(frame * 0.1 + i) * 0.2;
+                    return (
+                        <div
+                            key={`emoji-${i}`}
+                            style={{
+                                position: 'absolute',
+                                left: emojiX,
+                                top: emojiY,
+                                fontSize: 40 + i * 10,
+                                opacity: emojiOpacity,
+                                transform: `scale(${emojiScale}) rotate(${frame * (i % 2 === 0 ? 1 : -1)}deg)`,
+                            }}
+                        >
+                            {emoji}
+                        </div>
+                    );
+                })}
+            </AbsoluteFill>
+            
             {/* ZODIAC SIGN HEADER */}
             <div style={{
                 position: 'absolute',
@@ -294,6 +342,30 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
             {audioSrc && (
                 <Audio 
                     src={staticFile(audioSrc)} 
+                    placeholder={null} 
+                    onPointerEnterCapture={undefined} 
+                    onPointerLeaveCapture={undefined} 
+                />
+            )}
+            
+            {/* WHOOSH SOUND - At end of intro (frame 80-90 = ~2.7-3 seconds) */}
+            {frame >= introDurationFrames - 10 && frame <= introDurationFrames + 5 && (
+                <Audio 
+                    src={staticFile('/assets/whoosh.mp3')} 
+                    startFrom={0}
+                    volume={0.5}
+                    placeholder={null} 
+                    onPointerEnterCapture={undefined} 
+                    onPointerLeaveCapture={undefined} 
+                />
+            )}
+            
+            {/* SPARKLE SOUND - At start of outro */}
+            {frame >= outroStartFrame && frame <= outroStartFrame + 15 && (
+                <Audio 
+                    src={staticFile('/assets/sparkle.mp3')} 
+                    startFrom={0}
+                    volume={0.4}
                     placeholder={null} 
                     onPointerEnterCapture={undefined} 
                     onPointerLeaveCapture={undefined} 
