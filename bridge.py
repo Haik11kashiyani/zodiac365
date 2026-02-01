@@ -11,58 +11,96 @@ from generator_zodiac import generate_zodiac_video
 from video_sourcer import get_b_roll_sequence
 
 def parse_vtt(vtt_file):
-    """Parses a WebVTT file into a JSON list for Remotion."""
+    """Parses a WebVTT file cleanly, handling edge cases."""
     captions = []
     
+    if not os.path.exists(vtt_file):
+        log_error(f"VTT file not found: {vtt_file}")
+        return []
+        
     with open(vtt_file, 'r', encoding='utf-8') as f:
         lines = f.readlines()
         
-    # Simple parser for "00:00:00.000 --> 00:00:02.000"
-    # EdgeTTS VTT format is usually:
-    # WEBVTT
-    # 
-    # 00:00:00.100 --> 00:00:01.500
-    # Hello world
+    # Regex to handle various VTT timestamps:
+    # 00:00:00.000 or 00:00.000 (mm:ss.ms)
+    # Separator can be --> or ->
+    # Decimals can be . or ,
+    time_pattern = re.compile(r'((?:\d{2}:)?\d{2}:\d{2}[.,]\d{3})\s*-->\s*((?:\d{2}:)?\d{2}:\d{2}[.,]\d{3})')
     
+    def parse_time(t_str):
+        t_str = t_str.replace(',', '.')
+        parts = t_str.split(':')
+        if len(parts) == 3:
+            h, m, s = parts
+            return int(h) * 3600 + int(m) * 60 + float(s)
+        elif len(parts) == 2:
+            m, s = parts
+            return int(m) * 60 + float(s)
+        return 0.0
+
     current_start = None
     current_end = None
     
-    time_pattern = re.compile(r'(\d{2}):(\d{2}):(\d{2})\.(\d{3}) --> (\d{2}):(\d{2}):(\d{2})\.(\d{3})')
-    
-    # SPLIT LOGIC: For viral videos, we want 1-3 words max per screen.
-    # We will interpolate the time linearly for the words in the line.
-    
     for i, line in enumerate(lines):
         line = line.strip()
-        match = time_pattern.match(line)
+        match = time_pattern.search(line)
         if match:
-            # Parse start/end
-            h, m, s, ms = map(int, match.groups()[0:4])
-            start_sec = h*3600 + m*60 + s + ms/1000.0
+            current_start = parse_time(match.group(1))
+            current_end = parse_time(match.group(2))
             
-            h, m, s, ms = map(int, match.groups()[4:8])
-            end_sec = h*3600 + m*60 + s + ms/1000.0
-            
+            # Look ahead for text
             if i + 1 < len(lines):
                 text = lines[i+1].strip()
-                if text:
+                # If next line is empty, maybe text is on i+2 (skip blank lines)
+                if not text and i + 2 < len(lines):
+                     text = lines[i+2].strip()
+
+                if text and 'WEBVTT' not in text:
+                    # Clean tags like <v Voice> or <b>
+                    text = re.sub(r'<[^>]+>', '', text)
+                    
                     words = text.split()
-                    # Group into chunks of 2-3 words
-                    chunk_size = 2 # Aggressive pacing
+                    # Chunking logic
+                    chunk_size = 2
                     chunks = [' '.join(words[j:j+chunk_size]) for j in range(0, len(words), chunk_size)]
                     
-                    duration = end_sec - start_sec
-                    chunk_duration = duration / len(chunks)
-                    
-                    for k, chunk in enumerate(chunks):
-                        c_start = start_sec + (k * chunk_duration)
-                        c_end = c_start + chunk_duration
-                        captions.append({
-                            "start": c_start,
-                            "end": c_end,
-                            "text": chunk.upper() # FORCE UPPERCASE
-                        })
-                    
+                    duration = current_end - current_start
+                    if len(chunks) > 0:
+                        chunk_duration = duration / len(chunks)
+                        for k, chunk in enumerate(chunks):
+                            c_start = current_start + (k * chunk_duration)
+                            c_end = c_start + chunk_duration
+                            captions.append({
+                                "start": c_start,
+                                "end": c_end,
+                                "text": chunk.upper()
+                            })
+                            
+    return captions
+
+def generate_fallback_captions(script_text, duration_est=60):
+    """Generates estimated captions if VTT parsing fails."""
+    log_info("Generating fallback captions...")
+    words = script_text.split()
+    total_words = len(words)
+    time_per_word = duration_est / max(total_words, 1)
+    
+    captions = []
+    current_time = 0.0
+    
+    chunk_size = 2
+    for i in range(0, total_words, chunk_size):
+        chunk = words[i:i+chunk_size]
+        text = " ".join(chunk).upper()
+        duration = len(chunk) * time_per_word
+        
+        captions.append({
+            "start": current_time,
+            "end": current_time + duration,
+            "text": text
+        })
+        current_time += duration
+        
     return captions
 
 from cli_utils import log_section, log_info, log_success, log_error
@@ -112,8 +150,20 @@ def main():
     subprocess.run(cmd, check=True)
     
     # 3. PARSE VTT FOR REMOTION
-    captions = parse_vtt(vtt_file)
-    log_success(f"Parsed {len(captions)} caption segments.")
+    # Try parsing VTT
+    captions = []
+    try:
+        if os.path.exists(vtt_file):
+            captions = parse_vtt(vtt_file)
+    except Exception as e:
+        log_error(f"VTT parsing failed: {e}")
+        
+    # FALLBACK: If parsing failed or no captions found, generate from script
+    if not captions:
+        log_warning("No captions parsed from VTT. Using fallback generator.")
+        captions = generate_fallback_captions(script_text)
+        
+    log_success(f"Final caption count: {len(captions)}")
     
     # 4. GET VISUALS
     log_section("Sourcing Visuals")
