@@ -53,6 +53,59 @@ const ZODIAC_SYMBOLS: Record<string, string> = {
     'Pisces': '♓',
 };
 
+// CONSTELLATION STAR PATTERNS (x%, y% coordinates)
+// Each constellation is simplified to key stars with connections
+const ZODIAC_CONSTELLATIONS: Record<string, {stars: [number, number][], connections: [number, number][]}> = {
+    'Aries': {
+        stars: [[30, 35], [40, 30], [55, 28], [70, 32]],
+        connections: [[0,1], [1,2], [2,3]]
+    },
+    'Taurus': {
+        stars: [[25, 40], [35, 35], [45, 30], [55, 35], [65, 32], [50, 45], [60, 48]],
+        connections: [[0,1], [1,2], [2,3], [3,4], [2,5], [5,6]]
+    },
+    'Gemini': {
+        stars: [[30, 25], [35, 40], [40, 55], [55, 25], [60, 40], [65, 55]],
+        connections: [[0,1], [1,2], [3,4], [4,5], [1,4]]
+    },
+    'Cancer': {
+        stars: [[35, 35], [45, 30], [55, 35], [45, 45], [50, 50]],
+        connections: [[0,1], [1,2], [1,3], [3,4]]
+    },
+    'Leo': {
+        stars: [[25, 35], [35, 25], [50, 28], [60, 35], [55, 50], [45, 55], [35, 50]],
+        connections: [[0,1], [1,2], [2,3], [3,4], [4,5], [5,6], [6,0]]
+    },
+    'Virgo': {
+        stars: [[25, 30], [35, 35], [45, 32], [55, 28], [50, 45], [60, 50], [40, 55]],
+        connections: [[0,1], [1,2], [2,3], [2,4], [4,5], [4,6]]
+    },
+    'Libra': {
+        stars: [[30, 40], [45, 30], [60, 40], [35, 55], [55, 55]],
+        connections: [[0,1], [1,2], [0,3], [2,4]]
+    },
+    'Scorpio': {
+        stars: [[20, 35], [30, 30], [40, 32], [50, 35], [55, 45], [60, 55], [65, 50], [70, 45]],
+        connections: [[0,1], [1,2], [2,3], [3,4], [4,5], [5,6], [6,7]]
+    },
+    'Sagittarius': {
+        stars: [[30, 50], [40, 40], [50, 35], [60, 30], [55, 45], [65, 50]],
+        connections: [[0,1], [1,2], [2,3], [2,4], [4,5]]
+    },
+    'Capricorn': {
+        stars: [[25, 35], [35, 28], [50, 30], [60, 38], [55, 50], [40, 55]],
+        connections: [[0,1], [1,2], [2,3], [3,4], [4,5], [5,0]]
+    },
+    'Aquarius': {
+        stars: [[25, 30], [35, 35], [45, 32], [55, 38], [65, 35], [50, 50], [60, 55]],
+        connections: [[0,1], [1,2], [2,3], [3,4], [3,5], [5,6]]
+    },
+    'Pisces': {
+        stars: [[20, 40], [30, 35], [40, 38], [50, 35], [60, 32], [45, 50], [55, 55]],
+        connections: [[0,1], [1,2], [2,3], [3,4], [2,5], [5,6]]
+    }
+};
+
 // TIMING CONSTANTS
 const INTRO_DURATION_SECONDS = 3;
 const OUTRO_DURATION_SECONDS = 4;
@@ -181,6 +234,87 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
                 opacity: currentImage ? 0.6 : 1, // More transparent if we have a bg video
                 mixBlendMode: 'overlay'
             }} />
+            
+            {/* LAYER 1.5: ANIMATED CONSTELLATION */}
+            <AbsoluteFill style={{ zIndex: 1, pointerEvents: 'none' }}>
+                {(() => {
+                    const constellation = ZODIAC_CONSTELLATIONS[zodiacSign] || ZODIAC_CONSTELLATIONS['Aries'];
+                    const { stars, connections } = constellation;
+                    
+                    // Subtle drift animation
+                    const driftX = Math.sin(frame * 0.01) * 2;
+                    const driftY = Math.cos(frame * 0.008) * 2;
+                    
+                    return (
+                        <div style={{ 
+                            position: 'relative', 
+                            width: '100%', 
+                            height: '100%',
+                            transform: `translate(${driftX}px, ${driftY}px)`,
+                        }}>
+                            {/* CONNECTING LINES */}
+                            <svg style={{ 
+                                position: 'absolute', 
+                                width: '100%', 
+                                height: '100%',
+                                opacity: 0.3 + Math.sin(frame * 0.02) * 0.1,
+                            }}>
+                                {connections.map(([from, to], idx) => {
+                                    const lineProgress = interpolate(frame, [idx * 10, idx * 10 + 30], [0, 1], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp' });
+                                    const x1 = stars[from][0];
+                                    const y1 = stars[from][1];
+                                    const x2 = stars[to][0];
+                                    const y2 = stars[to][1];
+                                    const currentX2 = x1 + (x2 - x1) * lineProgress;
+                                    const currentY2 = y1 + (y2 - y1) * lineProgress;
+                                    
+                                    return (
+                                        <line
+                                            key={`line-${idx}`}
+                                            x1={`${x1}%`}
+                                            y1={`${y1}%`}
+                                            x2={`${currentX2}%`}
+                                            y2={`${currentY2}%`}
+                                            stroke="rgba(255,255,255,0.5)"
+                                            strokeWidth={2}
+                                            strokeLinecap="round"
+                                            style={{ filter: 'drop-shadow(0 0 5px rgba(255,255,255,0.5))' }}
+                                        />
+                                    );
+                                })}
+                            </svg>
+                            
+                            {/* STARS */}
+                            {stars.map(([x, y], idx) => {
+                                const starDelay = idx * 8;
+                                const starOpacity = interpolate(frame, [starDelay, starDelay + 15], [0, 1], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp' });
+                                const starScale = 1 + Math.sin(frame * 0.05 + idx) * 0.2;
+                                const starGlow = 8 + Math.sin(frame * 0.03 + idx * 2) * 4;
+                                
+                                return (
+                                    <div
+                                        key={`star-${idx}`}
+                                        style={{
+                                            position: 'absolute',
+                                            left: `${x}%`,
+                                            top: `${y}%`,
+                                            width: 12,
+                                            height: 12,
+                                            marginLeft: -6,
+                                            marginTop: -6,
+                                            borderRadius: '50%',
+                                            backgroundColor: 'white',
+                                            opacity: starOpacity * 0.8,
+                                            transform: `scale(${starScale})`,
+                                            boxShadow: `0 0 ${starGlow}px ${starGlow/2}px rgba(255,255,255,0.8), 0 0 ${starGlow*2}px rgba(255,215,0,0.4)`,
+                                        }}
+                                    />
+                                );
+                            })}
+                        </div>
+                    );
+                })()}
+            </AbsoluteFill>
             
             {/* LAYER 2: ANIMATED COSMIC PARTICLES */}
             <AbsoluteFill style={{ zIndex: 2, pointerEvents: 'none' }}>
