@@ -185,6 +185,9 @@ def main():
             
     if not remotion_assets:
         remotion_assets = ["https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg"]
+        log_warning("No Pexels videos downloaded. Using fallback image.")
+    else:
+        log_success(f"Loaded {len(remotion_assets)} video clips: {remotion_assets}")
         
     # 5. WRITE INPUT.JSON
     input_data = {

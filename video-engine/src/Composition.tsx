@@ -206,6 +206,28 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
                 <CaptionsLayer captions={captions} />
             </AbsoluteFill>
             
+            {/* LAYER 11: SCANLINES OVERLAY (Cinematic Film Look) */}
+            <AbsoluteFill style={{ 
+                zIndex: 11,
+                pointerEvents: 'none',
+                background: `repeating-linear-gradient(
+                    0deg,
+                    transparent 0px,
+                    rgba(0,0,0,0.03) 1px,
+                    transparent 2px,
+                    transparent 4px
+                )`,
+                mixBlendMode: 'multiply'
+            }} />
+            
+            {/* LAYER 12: SUBTLE NOISE (Film Grain Effect) */}
+            <AbsoluteFill style={{ 
+                zIndex: 12,
+                pointerEvents: 'none',
+                opacity: 0.05,
+                backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E")`,
+            }} />
+            
             {/* PROGRESS BAR */}
             <div style={{
                 position: 'absolute',
@@ -214,7 +236,7 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
                 right: 0,
                 height: 8,
                 backgroundColor: 'rgba(255,255,255,0.2)',
-                zIndex: 4,
+                zIndex: 15,
             }}>
                 <div style={{
                     width: `${progress}%`,
