@@ -136,6 +136,34 @@ const UNDERLINE_KEYWORDS = [
     'must', 'need', 'should', 'will', 'destiny', 'fate', 'future', 'path'
 ];
 
+// POSITIVE KEYWORDS (confetti burst + celebration)
+const POSITIVE_KEYWORDS = [
+    'love', 'success', 'fortune', 'luck', 'blessing', 'joy', 'happiness',
+    'prosperity', 'wealth', 'win', 'victory', 'celebrate', 'amazing', 'wonderful',
+    'excellent', 'great', 'fantastic', 'brilliant', 'perfect', 'best'
+];
+
+// REVEAL KEYWORDS (slow motion effect)
+const REVEAL_KEYWORDS = [
+    'reveal', 'secret', 'hidden', 'discover', 'truth', 'mystery', 'unveil',
+    'special', 'unique', 'rare', 'exclusive', 'finally', 'moment', 'now'
+];
+
+// EMOTION -> AURA COLOR MAPPING
+const EMOTION_AURA_COLORS: Record<string, string> = {
+    'love': '#FF69B4',      // Pink
+    'passion': '#FF1493',   // Deep Pink
+    'success': '#FFD700',   // Gold
+    'wealth': '#FFD700',    // Gold
+    'money': '#00FF00',     // Green
+    'danger': '#FF0000',    // Red
+    'warning': '#FF4500',   // Orange Red
+    'peace': '#87CEEB',     // Sky Blue
+    'calm': '#ADD8E6',      // Light Blue
+    'energy': '#FF8C00',    // Dark Orange
+    'power': '#8B00FF',     // Violet
+};
+
 export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({ 
     scriptText, 
     audioSrc, 
@@ -220,6 +248,18 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
     const emotionShake = (hasSurprise || hasWarning) ? 5 : 0;
     const totalShakeX = shakeX + emotionShake * Math.sin(frame * 0.8);
     const totalShakeY = shakeY + emotionShake * Math.cos(frame * 1.1);
+    
+    // POSITIVE DETECTION (confetti burst)
+    const hasPositive = POSITIVE_KEYWORDS.some(kw => currentText.includes(kw));
+    
+    // REVEAL DETECTION (slow motion feel - achieved with scale zoom)
+    const hasReveal = REVEAL_KEYWORDS.some(kw => currentText.includes(kw));
+    const revealZoom = hasReveal ? 1.02 + Math.sin(frame * 0.05) * 0.01 : 1;
+    
+    // AURA COLOR DETECTION (find first matching emotion word)
+    const detectedEmotion = Object.keys(EMOTION_AURA_COLORS).find(emotion => currentText.includes(emotion));
+    const auraColor = detectedEmotion ? EMOTION_AURA_COLORS[detectedEmotion] : null;
+    const auraOpacity = auraColor ? 0.15 + Math.sin(frame * 0.08) * 0.1 : 0;
 
     return (
         <AbsoluteFill style={{ 
@@ -521,6 +561,62 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
                         transform: `translateX(${glitchIntensity * (Math.random() > 0.5 ? 1 : -1)}px)`,
                     }} />
                 </AbsoluteFill>
+            )}
+            
+            {/* CONFETTI BURST (Positive Moments) */}
+            {hasPositive && (
+                <AbsoluteFill style={{ zIndex: 28, pointerEvents: 'none' }}>
+                    {[...Array(30)].map((_, i) => {
+                        const confettiColors = ['#FFD700', '#FF69B4', '#00FF00', '#FF4500', '#00BFFF', '#FF1493', '#7FFF00'];
+                        const color = confettiColors[i % confettiColors.length];
+                        const startX = 50 + (Math.sin(i * 1.3) * 40);
+                        const startY = -10;
+                        const fallSpeed = 3 + (i % 5);
+                        const sway = Math.sin(frame * 0.1 + i) * 20;
+                        const currentY = (frame * fallSpeed + i * 30) % 1300 - 100;
+                        const rotation = frame * (2 + i % 4);
+                        
+                        return (
+                            <div
+                                key={`confetti-${i}`}
+                                style={{
+                                    position: 'absolute',
+                                    left: `calc(${startX}% + ${sway}px)`,
+                                    top: currentY,
+                                    width: 10 + (i % 5) * 3,
+                                    height: 10 + (i % 3) * 3,
+                                    backgroundColor: color,
+                                    borderRadius: i % 3 === 0 ? '50%' : '2px',
+                                    transform: `rotate(${rotation}deg)`,
+                                    opacity: 0.8,
+                                    boxShadow: `0 0 5px ${color}`,
+                                }}
+                            />
+                        );
+                    })}
+                </AbsoluteFill>
+            )}
+            
+            {/* AURA GLOW (Emotion-based color) */}
+            {auraColor && (
+                <AbsoluteFill style={{
+                    zIndex: 27,
+                    pointerEvents: 'none',
+                    background: `radial-gradient(ellipse at center, ${auraColor}40 0%, ${auraColor}20 40%, transparent 70%)`,
+                    opacity: auraOpacity,
+                    mixBlendMode: 'screen',
+                }} />
+            )}
+            
+            {/* REVEAL ZOOM EFFECT (Slow-mo feel) */}
+            {hasReveal && (
+                <AbsoluteFill style={{
+                    zIndex: 26,
+                    pointerEvents: 'none',
+                    transform: `scale(${revealZoom})`,
+                    background: `radial-gradient(circle at center, transparent 50%, rgba(255,255,255,0.1) 100%)`,
+                    boxShadow: 'inset 0 0 100px rgba(255,215,0,0.2)',
+                }} />
             )}
             
             {/* COUNTDOWN TIMER (Top Right Corner) */}
