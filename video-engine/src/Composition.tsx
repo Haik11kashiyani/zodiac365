@@ -109,11 +109,23 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
     const isIntroPhase = frame < introDurationFrames;
     const isOutroPhase = frame >= outroStartFrame;
     const isMainPhase = !isIntroPhase && !isOutroPhase;
+    
+    // CAMERA SHAKE - Trigger on highlight keywords (every ~100 frames for variety)
+    const shakeIntensity = (frame % 100 < 5) ? 3 : 0;
+    const shakeX = shakeIntensity * Math.sin(frame * 0.5);
+    const shakeY = shakeIntensity * Math.cos(frame * 0.7);
+    
+    // COUNTDOWN TIMER
+    const remainingSeconds = Math.max(0, Math.ceil((durationInFrames - frame) / fps));
+    const minutes = Math.floor(remainingSeconds / 60);
+    const seconds = remainingSeconds % 60;
+    const timeString = `${minutes}:${seconds.toString().padStart(2, '0')}`;
 
     return (
         <AbsoluteFill style={{ 
             background: gradient,
-            overflow: 'hidden'
+            overflow: 'hidden',
+            transform: `translate(${shakeX}px, ${shakeY}px)`, // Camera shake
         }}>
             {/* LAYER 0: VIDEO/IMAGE BACKGROUND */}
             {currentImage && (
@@ -228,6 +240,58 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
                     );
                 })}
             </AbsoluteFill>
+            
+            {/* COUNTDOWN TIMER (Top Right Corner) */}
+            <div style={{
+                position: 'absolute',
+                top: 100,
+                right: 30,
+                zIndex: 20,
+                fontFamily: 'Montserrat, monospace',
+                fontSize: 24,
+                fontWeight: 700,
+                color: 'rgba(255,255,255,0.7)',
+                background: 'rgba(0,0,0,0.3)',
+                padding: '8px 16px',
+                borderRadius: 20,
+                backdropFilter: 'blur(5px)',
+                border: '1px solid rgba(255,255,255,0.2)',
+            }}>
+                ⏱️ {timeString}
+            </div>
+            
+            {/* ANIMATED SUBSCRIBE BELL (Bottom Right) */}
+            {isMainPhase && (
+                <div style={{
+                    position: 'absolute',
+                    bottom: 80,
+                    right: 30,
+                    zIndex: 20,
+                    display: 'flex',
+                    flexDirection: 'column',
+                    alignItems: 'center',
+                    gap: 8,
+                }}>
+                    <div style={{
+                        fontSize: 50,
+                        transform: `rotate(${Math.sin(frame * 0.1) * 15}deg)`,
+                        filter: 'drop-shadow(0 0 10px rgba(255,215,0,0.5))',
+                    }}>
+                        🔔
+                    </div>
+                    <div style={{
+                        fontFamily: 'Montserrat, sans-serif',
+                        fontSize: 14,
+                        fontWeight: 700,
+                        color: '#FFD700',
+                        textTransform: 'uppercase',
+                        letterSpacing: 2,
+                        opacity: 0.5 + Math.sin(frame * 0.05) * 0.3,
+                    }}>
+                        Subscribe
+                    </div>
+                </div>
+            )}
             
             {/* ZODIAC SIGN HEADER */}
             <div style={{
@@ -366,6 +430,29 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
                     src={staticFile('/assets/sparkle.mp3')} 
                     startFrom={0}
                     volume={0.4}
+                    placeholder={null} 
+                    onPointerEnterCapture={undefined} 
+                    onPointerLeaveCapture={undefined} 
+                />
+            )}
+            
+            {/* BACKGROUND MUSIC (Lo-Fi) with DUCKING when voice plays */}
+            <Audio 
+                src={staticFile('/assets/lofi_bg.mp3')} 
+                startFrom={0}
+                volume={audioSrc ? 0.15 : 0.35} // Duck when voice is playing
+                loop
+                placeholder={null} 
+                onPointerEnterCapture={undefined} 
+                onPointerLeaveCapture={undefined} 
+            />
+            
+            {/* BELL SOUND - Short ding at outro start */}
+            {frame >= outroStartFrame + 20 && frame <= outroStartFrame + 35 && (
+                <Audio 
+                    src={staticFile('/assets/bell.mp3')} 
+                    startFrom={0}
+                    volume={0.3}
                     placeholder={null} 
                     onPointerEnterCapture={undefined} 
                     onPointerLeaveCapture={undefined} 
@@ -664,9 +751,38 @@ const CaptionsLayer: React.FC<{captions: Caption[]}> = ({ captions }) => {
                             transform: `scale(${wordScale})`,
                             opacity: wordOpacity,
                             display: 'inline-block',
+                            position: 'relative',
                         }}
                     >
                         {word}
+                        {/* PARTICLE BURST for highlighted words */}
+                        {isHighlight && timeInCaption > wordDelay && timeInCaption < wordDelay + 20 && (
+                            <>
+                                {[0,1,2,3,4,5,6,7].map((p) => {
+                                    const angle = (p / 8) * Math.PI * 2;
+                                    const distance = (timeInCaption - wordDelay) * 4;
+                                    const particleX = Math.cos(angle) * distance;
+                                    const particleY = Math.sin(angle) * distance; 
+                                    const particleOpacity = interpolate(timeInCaption - wordDelay, [0, 5, 15, 20], [0, 1, 1, 0], { extrapolateRight: 'clamp' });
+                                    return (
+                                        <span
+                                            key={`particle-${p}`}
+                                            style={{
+                                                position: 'absolute',
+                                                left: '50%',
+                                                top: '50%',
+                                                transform: `translate(-50%, -50%) translate(${particleX}px, ${particleY}px)`,
+                                                fontSize: 16,
+                                                opacity: particleOpacity,
+                                                pointerEvents: 'none',
+                                            }}
+                                        >
+                                            ✨
+                                        </span>
+                                    );
+                                })}
+                            </>
+                        )}
                     </span>
                 );
             })}

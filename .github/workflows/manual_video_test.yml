@@ -79,6 +79,10 @@ jobs:
           curl -L -o video-engine/public/assets/whoosh.mp3 "https://cdn.pixabay.com/audio/2022/03/15/audio_d5a4e19a7b.mp3" || echo "Whoosh download failed, continuing..."
           # Magic sparkle sound
           curl -L -o video-engine/public/assets/sparkle.mp3 "https://cdn.pixabay.com/audio/2022/03/24/audio_03bf5d8d64.mp3" || echo "Sparkle download failed, continuing..."
+          # Lo-fi background music (free for commercial use)
+          curl -L -o video-engine/public/assets/lofi_bg.mp3 "https://cdn.pixabay.com/audio/2022/05/27/audio_1808fbf07a.mp3" || echo "Lofi download failed, continuing..."
+          # Subscribe bell sound
+          curl -L -o video-engine/public/assets/bell.mp3 "https://cdn.pixabay.com/audio/2022/03/10/audio_2dde668d05.mp3" || echo "Bell download failed, continuing..."
           ls -la video-engine/public/assets/
 
       - name: Render Video (Remotion)
