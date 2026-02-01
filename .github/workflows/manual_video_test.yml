@@ -64,6 +64,14 @@ jobs:
           # Bridge generates video-engine/input.json and assets
           python bridge.py
 
+      - name: Debug - Show Input Data
+        run: |
+          echo "=== VTT File Content (first 20 lines) ==="
+          head -20 video-engine/public/*.vtt || echo "No VTT found"
+          echo ""
+          echo "=== Input JSON - Captions Count ==="
+          python -c "import json; d=json.load(open('video-engine/input.json')); print(f'Captions: {len(d.get(\"captions\", []))} entries'); print('First 3:', d.get('captions', [])[:3])"
+
       - name: Render Video (Remotion)
         env:
           # Suppress dbus errors in headless environment
