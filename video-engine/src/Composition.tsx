@@ -212,9 +212,28 @@ const CaptionsLayer: React.FC<{captions: Caption[]}> = ({ captions }) => {
     const { fps } = useVideoConfig();
     const currentTime = frame / fps;
 
+    // Debug: Check if captions exist
+    if (!captions || captions.length === 0) {
+        return (
+            <div style={{
+                fontFamily: 'Arial Black, Impact, sans-serif',
+                fontWeight: 900,
+                fontSize: 60,
+                color: 'white',
+                textAlign: 'center',
+                textShadow: '4px 4px 0px #000, -4px -4px 0px #000',
+            }}>
+                Loading...
+            </div>
+        );
+    }
+
     const activeCaption = captions.find(c => currentTime >= c.start && currentTime <= c.end);
 
-    if (!activeCaption) return null;
+    if (!activeCaption) {
+        // Show nothing between captions (normal behavior)
+        return null;
+    }
     
     // Calculate local frame for the caption to animate entry
     const captionStartFrame = activeCaption.start * fps;
@@ -232,30 +251,33 @@ const CaptionsLayer: React.FC<{captions: Caption[]}> = ({ captions }) => {
 
     return (
         <div style={{
+            position: 'absolute',
+            top: '50%',
+            left: '50%',
+            transform: `translate(-50%, -50%) scale(${scale}) rotate(${wiggle}deg)`,
+            width: '90%',
             display: 'flex',
             justifyContent: 'center',
             alignItems: 'center',
-            textAlign: 'center',
-            transform: `scale(${scale}) rotate(${wiggle}deg)`,
         }}>
             <div style={{
                 fontFamily: 'Arial Black, Impact, sans-serif',
                 fontWeight: 900,
-                fontSize: 90,
+                fontSize: 100,
                 color: 'white',
                 textTransform: 'uppercase',
-                maxWidth: '90%',
+                textAlign: 'center',
                 lineHeight: 1.1,
-                // Heavy text shadow for contrast
+                // Heavy text shadow for maximum contrast
                 textShadow: `
-                    4px 4px 0px #000,
-                    -4px -4px 0px #000,
-                    4px -4px 0px #000,
-                    -4px 4px 0px #000,
-                    0 0 30px rgba(0,0,0,0.8)
+                    5px 5px 0px #000,
+                    -5px -5px 0px #000,
+                    5px -5px 0px #000,
+                    -5px 5px 0px #000,
+                    0 0 40px rgba(0,0,0,0.9)
                 `,
-                WebkitTextStroke: '2px black',
-                letterSpacing: 2,
+                WebkitTextStroke: '3px black',
+                letterSpacing: 3,
             }}>
                 {activeCaption.text}
             </div>
