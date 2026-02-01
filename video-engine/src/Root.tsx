@@ -16,7 +16,8 @@ export const RemotionRoot: React.FC = () => {
                     scriptText: "Example Script",
                     audioSrc: "",
                     captions: [],
-                    images: []
+                    images: [],
+                    title: "Aries Daily Horoscope"
                 }}
             />
         </>
