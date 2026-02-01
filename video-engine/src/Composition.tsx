@@ -1,5 +1,5 @@
 import React from 'react';
-import { AbsoluteFill, Audio, useVideoConfig, useCurrentFrame, interpolate, spring, staticFile } from 'remotion';
+import { AbsoluteFill, Audio, Video, Img, useVideoConfig, useCurrentFrame, interpolate, spring, staticFile } from 'remotion';
 
 interface Caption {
     start: number;
@@ -207,6 +207,35 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
     );
 };
 
+const BackgroundClip: React.FC<{src: string, index: number, total: number}> = ({ src, index, total }) => {
+    const frame = useCurrentFrame();
+    
+    // Smooth Scale Ken Burns
+    const scale = interpolate(frame, [0, 150], [1.0, 1.15], { extrapolateRight: 'clamp' });
+    
+    // Fallback to a known good image
+    const finalSrc = src || "https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg";
+    
+    // Check if source is strictly a video file to avoid errors
+    const isVideo = finalSrc.toLowerCase().endsWith('.mp4');
+    
+    const style = {
+        width: '100%',
+        height: '100%',
+        objectFit: 'cover' as const,
+        transform: `scale(${scale})`
+    };
+
+    if (isVideo) {
+        // Use staticFile for local assets to prevent timeouts
+        // bridge.py downloads these to video-engine/public/assets
+        return <Video src={staticFile(src)} style={style} muted loop />;
+    }
+    
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    return <Img src={finalSrc} style={style} placeholder={undefined} onResize={undefined} onResizeCapture={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} />;
+}
+
 const CaptionsLayer: React.FC<{captions: Caption[]}> = ({ captions }) => {
     const frame = useCurrentFrame();
     const { fps } = useVideoConfig();
@@ -216,14 +245,15 @@ const CaptionsLayer: React.FC<{captions: Caption[]}> = ({ captions }) => {
     if (!captions || captions.length === 0) {
         return (
             <div style={{
-                fontFamily: 'Arial Black, Impact, sans-serif',
-                fontWeight: 900,
+                fontFamily: 'Montserrat, sans-serif',
+                fontWeight: 700,
                 fontSize: 60,
                 color: 'white',
                 textAlign: 'center',
-                textShadow: '4px 4px 0px #000, -4px -4px 0px #000',
+                textShadow: '0 4px 10px rgba(0,0,0,0.5)',
             }}>
-                Loading...
+                Wait...
+                <div style={{fontSize: 30, fontWeight: 400}}>Checking Stars...</div>
             </div>
         );
     }
@@ -231,7 +261,6 @@ const CaptionsLayer: React.FC<{captions: Caption[]}> = ({ captions }) => {
     const activeCaption = captions.find(c => currentTime >= c.start && currentTime <= c.end);
 
     if (!activeCaption) {
-        // Show nothing between captions (normal behavior)
         return null;
     }
     
@@ -239,45 +268,33 @@ const CaptionsLayer: React.FC<{captions: Caption[]}> = ({ captions }) => {
     const captionStartFrame = activeCaption.start * fps;
     const timeInCaption = frame - captionStartFrame;
     
-    // Pop-in spring animation
-    const scale = spring({
-        frame: timeInCaption,
-        fps,
-        config: { damping: 12, stiffness: 200 }
-    });
+    // Animating slide up + fade in
+    const opacity = interpolate(timeInCaption, [0, 5], [0, 1]);
+    const translateY = interpolate(timeInCaption, [0, 10], [50, 0], { extrapolateRight: 'clamp' });
     
-    // Slight bounce/wiggle for energy
-    const wiggle = Math.sin(timeInCaption * 0.15) * 1.5;
-
     return (
         <div style={{
             position: 'absolute',
             top: '50%',
             left: '50%',
-            transform: `translate(-50%, -50%) scale(${scale}) rotate(${wiggle}deg)`,
-            width: '90%',
+            transform: `translate(-50%, -50%) translateY(${translateY}px)`,
+            width: '85%',
             display: 'flex',
             justifyContent: 'center',
             alignItems: 'center',
+            opacity: opacity
         }}>
             <div style={{
-                fontFamily: 'Arial Black, Impact, sans-serif',
-                fontWeight: 900,
-                fontSize: 100,
+                fontFamily: 'Montserrat, Poppins, sans-serif',
+                fontWeight: 800,
+                fontSize: 70, // Slightly smaller for multi-line support
                 color: 'white',
                 textTransform: 'uppercase',
                 textAlign: 'center',
-                lineHeight: 1.1,
-                // Heavy text shadow for maximum contrast
-                textShadow: `
-                    5px 5px 0px #000,
-                    -5px -5px 0px #000,
-                    5px -5px 0px #000,
-                    -5px 5px 0px #000,
-                    0 0 40px rgba(0,0,0,0.9)
-                `,
-                WebkitTextStroke: '3px black',
-                letterSpacing: 3,
+                lineHeight: 1.2,
+                // Elegant soft shadow + stroke
+                textShadow: '0 10px 30px rgba(0,0,0,0.8)',
+                letterSpacing: 1,
             }}>
                 {activeCaption.text}
             </div>

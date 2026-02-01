@@ -56,12 +56,11 @@ def parse_vtt(vtt_file):
                      text = lines[i+2].strip()
 
                 if text and 'WEBVTT' not in text:
-                    # Clean tags like <v Voice> or <b>
                     text = re.sub(r'<[^>]+>', '', text)
                     
                     words = text.split()
                     # Chunking logic
-                    chunk_size = 2
+                    chunk_size = 5 # More words per screen (User Request: "place more world")
                     chunks = [' '.join(words[j:j+chunk_size]) for j in range(0, len(words), chunk_size)]
                     
                     duration = current_end - current_start
@@ -88,7 +87,7 @@ def generate_fallback_captions(script_text, duration_est=60):
     captions = []
     current_time = 0.0
     
-    chunk_size = 2
+    chunk_size = 5 # More words per screen for fallback too
     for i in range(0, total_words, chunk_size):
         chunk = words[i:i+chunk_size]
         text = " ".join(chunk).upper()
