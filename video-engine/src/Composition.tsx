@@ -53,6 +53,18 @@ const ZODIAC_SYMBOLS: Record<string, string> = {
     'Pisces': '♓',
 };
 
+// TIMING CONSTANTS
+const INTRO_DURATION_SECONDS = 3;
+const OUTRO_DURATION_SECONDS = 4;
+
+// HIGHLIGHT KEYWORDS (these flash in gold)
+const HIGHLIGHT_KEYWORDS = [
+    'love', 'money', 'wealth', 'success', 'luck', 'fortune', 'danger',
+    'warning', 'amazing', 'incredible', 'powerful', 'energy', 'passion',
+    'career', 'health', 'relationship', 'surprise', 'unexpected',
+    ...Object.keys(ZODIAC_SYMBOLS).map(s => s.toLowerCase())
+];
+
 export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({ 
     scriptText, 
     audioSrc, 
@@ -88,6 +100,15 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
     
     // Color shift for variety
     const hueShift = (frame * 0.1) % 360;
+    
+    // INTRO/OUTRO TIMING
+    const introDurationFrames = INTRO_DURATION_SECONDS * fps;
+    const outroDurationFrames = OUTRO_DURATION_SECONDS * fps;
+    const outroStartFrame = durationInFrames - outroDurationFrames;
+    
+    const isIntroPhase = frame < introDurationFrames;
+    const isOutroPhase = frame >= outroStartFrame;
+    const isMainPhase = !isIntroPhase && !isOutroPhase;
 
     return (
         <AbsoluteFill style={{ 
@@ -196,15 +217,37 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
                 </div>
             </div>
 
-            {/* CAPTION TEXT - MAIN FOCUS */}
-            <AbsoluteFill style={{ 
-                justifyContent: 'center', 
-                alignItems: 'center',
-                zIndex: 10,
-                padding: 40,
-            }}>
-                <CaptionsLayer captions={captions} />
-            </AbsoluteFill>
+            {/* INTRO HOOK (First 3 seconds) */}
+            {isIntroPhase && (
+                <IntroHook 
+                    zodiacSign={zodiacSign} 
+                    symbol={symbol} 
+                    frame={frame} 
+                    fps={fps} 
+                    introDurationFrames={introDurationFrames} 
+                />
+            )}
+            
+            {/* OUTRO CTA (Last 4 seconds) */}
+            {isOutroPhase && (
+                <OutroHook 
+                    frame={frame - outroStartFrame} 
+                    fps={fps} 
+                    symbol={symbol}
+                />
+            )}
+
+            {/* CAPTION TEXT - MAIN FOCUS (Only during main phase) */}
+            {isMainPhase && (
+                <AbsoluteFill style={{ 
+                    justifyContent: 'center', 
+                    alignItems: 'center',
+                    zIndex: 10,
+                    padding: 40,
+                }}>
+                    <CaptionsLayer captions={captions} />
+                </AbsoluteFill>
+            )}
             
             {/* LAYER 11: SCANLINES OVERLAY (Cinematic Film Look) */}
             <AbsoluteFill style={{ 
@@ -289,12 +332,190 @@ const BackgroundClip: React.FC<{src: string, index: number, total: number}> = ({
     return <Img src={finalSrc} style={style} placeholder={undefined} onResize={undefined} onResizeCapture={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} />;
 }
 
+// ============================================================
+// INTRO HOOK - Animated 3-second splash screen
+// ============================================================
+const IntroHook: React.FC<{
+    zodiacSign: string;
+    symbol: string;
+    frame: number;
+    fps: number;
+    introDurationFrames: number;
+}> = ({ zodiacSign, symbol, frame, fps, introDurationFrames }) => {
+    // Animate scale: zoom in then settle
+    const scale = spring({
+        frame,
+        fps,
+        config: { damping: 15, stiffness: 100 }
+    });
+    
+    // Fade in
+    const opacity = interpolate(frame, [0, 10], [0, 1]);
+    
+    // Glow pulse
+    const glowPulse = Math.sin(frame * 0.1) * 20 + 40;
+    
+    // Rotate symbol slightly
+    const rotate = Math.sin(frame * 0.05) * 3;
+    
+    return (
+        <AbsoluteFill style={{
+            zIndex: 50,
+            justifyContent: 'center',
+            alignItems: 'center',
+            background: 'radial-gradient(ellipse at center, transparent 0%, rgba(0,0,0,0.7) 100%)'
+        }}>
+            {/* Large Symbol */}
+            <div style={{
+                fontSize: 250,
+                color: 'white',
+                transform: `scale(${scale}) rotate(${rotate}deg)`,
+                opacity: opacity,
+                filter: `drop-shadow(0 0 ${glowPulse}px rgba(255,215,0,0.8))`,
+                marginBottom: 40,
+            }}>
+                {symbol}
+            </div>
+            
+            {/* Title Text */}
+            <div style={{
+                fontFamily: 'Montserrat, sans-serif',
+                fontWeight: 900,
+                fontSize: 55,
+                color: 'white',
+                textTransform: 'uppercase',
+                textAlign: 'center',
+                letterSpacing: 6,
+                opacity: opacity,
+                transform: `translateY(${interpolate(frame, [0, 15], [50, 0], { extrapolateRight: 'clamp' })}px)`,
+                textShadow: '0 0 30px rgba(255,215,0,0.5), 0 4px 20px rgba(0,0,0,0.8)',
+            }}>
+                TODAY'S
+            </div>
+            
+            <div style={{
+                fontFamily: 'Montserrat, sans-serif',
+                fontWeight: 900,
+                fontSize: 80,
+                color: '#FFD700',
+                textTransform: 'uppercase',
+                textAlign: 'center',
+                letterSpacing: 8,
+                opacity: opacity,
+                transform: `translateY(${interpolate(frame, [5, 20], [50, 0], { extrapolateRight: 'clamp' })}px)`,
+                textShadow: '0 0 40px rgba(255,215,0,0.8), 0 4px 20px rgba(0,0,0,0.8)',
+                marginTop: 10,
+            }}>
+                {zodiacSign}
+            </div>
+            
+            <div style={{
+                fontFamily: 'Montserrat, sans-serif',
+                fontWeight: 700,
+                fontSize: 40,
+                color: 'white',
+                textTransform: 'uppercase',
+                textAlign: 'center',
+                letterSpacing: 10,
+                opacity: interpolate(frame, [15, 25], [0, 1]),
+                marginTop: 20,
+                textShadow: '0 4px 20px rgba(0,0,0,0.8)',
+            }}>
+                HOROSCOPE
+            </div>
+        </AbsoluteFill>
+    );
+};
+
+// ============================================================
+// OUTRO HOOK - Call-to-action for the last 4 seconds
+// ============================================================
+const OutroHook: React.FC<{
+    frame: number;
+    fps: number;
+    symbol: string;
+}> = ({ frame, fps, symbol }) => {
+    const scale = spring({
+        frame,
+        fps,
+        config: { damping: 12, stiffness: 150 }
+    });
+    
+    const opacity = interpolate(frame, [0, 10], [0, 1]);
+    const bounce = Math.sin(frame * 0.15) * 5;
+    
+    return (
+        <AbsoluteFill style={{
+            zIndex: 50,
+            justifyContent: 'center',
+            alignItems: 'center',
+            background: 'radial-gradient(ellipse at center, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.8) 100%)'
+        }}>
+            {/* CTA Text */}
+            <div style={{
+                fontFamily: 'Montserrat, sans-serif',
+                fontWeight: 900,
+                fontSize: 60,
+                color: 'white',
+                textTransform: 'uppercase',
+                textAlign: 'center',
+                letterSpacing: 4,
+                opacity: opacity,
+                transform: `scale(${scale}) translateY(${bounce}px)`,
+                textShadow: '0 0 30px rgba(255,215,0,0.5), 0 4px 20px rgba(0,0,0,0.8)',
+            }}>
+                FOLLOW
+            </div>
+            
+            <div style={{
+                fontFamily: 'Montserrat, sans-serif',
+                fontWeight: 700,
+                fontSize: 50,
+                color: '#FFD700',
+                textTransform: 'uppercase',
+                textAlign: 'center',
+                letterSpacing: 6,
+                opacity: opacity,
+                marginTop: 10,
+                textShadow: '0 0 40px rgba(255,215,0,0.8)',
+            }}>
+                FOR MORE
+            </div>
+            
+            {/* Animated Symbol */}
+            <div style={{
+                fontSize: 120,
+                color: 'white',
+                opacity: interpolate(frame, [20, 30], [0, 1]),
+                transform: `rotate(${frame * 2}deg)`,
+                marginTop: 40,
+                filter: 'drop-shadow(0 0 30px rgba(255,215,0,0.6))',
+            }}>
+                {symbol}
+            </div>
+            
+            {/* Arrow pointing up (like/follow indicator) */}
+            <div style={{
+                fontSize: 60,
+                color: 'white',
+                opacity: interpolate(frame, [30, 40], [0, 1]),
+                transform: `translateY(${-bounce * 2}px)`,
+                marginTop: 30,
+            }}>
+                ☝️
+            </div>
+        </AbsoluteFill>
+    );
+};
+
+// ============================================================
+// CAPTIONS LAYER with Word Highlighting
+// ============================================================
 const CaptionsLayer: React.FC<{captions: Caption[]}> = ({ captions }) => {
     const frame = useCurrentFrame();
     const { fps } = useVideoConfig();
     const currentTime = frame / fps;
 
-    // Debug: Check if captions exist
     if (!captions || captions.length === 0) {
         return (
             <div style={{
@@ -317,13 +538,14 @@ const CaptionsLayer: React.FC<{captions: Caption[]}> = ({ captions }) => {
         return null;
     }
     
-    // Calculate local frame for the caption to animate entry
     const captionStartFrame = activeCaption.start * fps;
     const timeInCaption = frame - captionStartFrame;
     
-    // Animating slide up + fade in
     const opacity = interpolate(timeInCaption, [0, 5], [0, 1]);
     const translateY = interpolate(timeInCaption, [0, 10], [50, 0], { extrapolateRight: 'clamp' });
+    
+    // Split text into words for highlighting
+    const words = activeCaption.text.split(' ');
     
     return (
         <div style={{
@@ -335,22 +557,47 @@ const CaptionsLayer: React.FC<{captions: Caption[]}> = ({ captions }) => {
             display: 'flex',
             justifyContent: 'center',
             alignItems: 'center',
+            flexWrap: 'wrap',
+            gap: 15,
             opacity: opacity
         }}>
-            <div style={{
-                fontFamily: 'Montserrat, Poppins, sans-serif',
-                fontWeight: 800,
-                fontSize: 70, // Slightly smaller for multi-line support
-                color: 'white',
-                textTransform: 'uppercase',
-                textAlign: 'center',
-                lineHeight: 1.2,
-                // Elegant soft shadow + stroke
-                textShadow: '0 10px 30px rgba(0,0,0,0.8)',
-                letterSpacing: 1,
-            }}>
-                {activeCaption.text}
-            </div>
+            {words.map((word, i) => {
+                const isHighlight = HIGHLIGHT_KEYWORDS.some(kw => 
+                    word.toLowerCase().replace(/[^a-z]/g, '').includes(kw)
+                );
+                
+                // Animate individual word with slight delay
+                const wordDelay = i * 2;
+                const wordScale = interpolate(timeInCaption, [wordDelay, wordDelay + 5], [0.8, 1], { extrapolateRight: 'clamp', extrapolateLeft: 'clamp' });
+                const wordOpacity = interpolate(timeInCaption, [wordDelay, wordDelay + 3], [0, 1], { extrapolateRight: 'clamp', extrapolateLeft: 'clamp' });
+                
+                // Gold flash for highlight words
+                const goldPulse = isHighlight ? Math.sin((timeInCaption + i) * 0.2) * 0.3 + 0.7 : 0;
+                
+                return (
+                    <span 
+                        key={i}
+                        style={{
+                            fontFamily: 'Montserrat, Poppins, sans-serif',
+                            fontWeight: 800,
+                            fontSize: isHighlight ? 75 : 70,
+                            color: isHighlight ? `rgba(255, 215, 0, ${0.7 + goldPulse})` : 'white',
+                            textTransform: 'uppercase',
+                            textAlign: 'center',
+                            lineHeight: 1.2,
+                            textShadow: isHighlight 
+                                ? `0 0 ${20 + goldPulse * 30}px rgba(255,215,0,0.8), 0 10px 30px rgba(0,0,0,0.8)`
+                                : '0 10px 30px rgba(0,0,0,0.8)',
+                            letterSpacing: 1,
+                            transform: `scale(${wordScale})`,
+                            opacity: wordOpacity,
+                            display: 'inline-block',
+                        }}
+                    >
+                        {word}
+                    </span>
+                );
+            })}
         </div>
     );
 };
