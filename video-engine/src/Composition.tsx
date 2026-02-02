@@ -1,5 +1,5 @@
 import React from 'react';
-import { AbsoluteFill, Audio, Img, OffthreadVideo, useVideoConfig, useCurrentFrame, interpolate, spring, staticFile } from 'remotion';
+import { AbsoluteFill, Audio, Video, Img, useVideoConfig, useCurrentFrame, interpolate, spring, staticFile } from 'remotion';
 
 interface Caption {
     start: number;
@@ -892,9 +892,10 @@ const BackgroundClip: React.FC<{src: string, index: number, total: number}> = ({
     };
 
     if (isVideo) {
-        // Use OffthreadVideo for faster rendering on headless CI environments
-        // OffthreadVideo uses FFMPEG/Rust instead of HTML5 video, avoiding slow seeking
-        return <OffthreadVideo src={staticFile(src)} style={style} muted />;
+        // Use staticFile for local assets to prevent timeouts
+        // Reverted to Video component as OffthreadVideo was too slow on CI (12s/frame)
+        // Global timeout increased to 300000ms to handle slow seeking
+        return <Video src={staticFile(src)} style={style} muted loop />;
     }
     
     // eslint-disable-next-line @typescript-eslint/no-explicit-any

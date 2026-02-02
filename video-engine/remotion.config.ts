@@ -6,4 +6,4 @@ Config.setCodec('h264');
 
 // Increase timeout for slow CI environments (GitHub Actions)
 // Video seeking can take 1-3 seconds per frame on headless runners
-Config.setDelayRenderTimeoutInMilliseconds(90000);
+Config.setDelayRenderTimeoutInMilliseconds(300000);
