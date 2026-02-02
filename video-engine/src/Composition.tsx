@@ -838,52 +838,7 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
                 />
             )}
             
-            {/* WHOOSH SOUND - At end of intro (frame 80-90 = ~2.7-3 seconds) */}
-            {frame >= introDurationFrames - 10 && frame <= introDurationFrames + 5 && (
-                <Audio 
-                    src={staticFile('/assets/whoosh.mp3')} 
-                    startFrom={0}
-                    volume={0.5}
-                    placeholder={null} 
-                    onPointerEnterCapture={undefined} 
-                    onPointerLeaveCapture={undefined} 
-                />
-            )}
-            
-            {/* SPARKLE SOUND - At start of outro */}
-            {frame >= outroStartFrame && frame <= outroStartFrame + 15 && (
-                <Audio 
-                    src={staticFile('/assets/sparkle.mp3')} 
-                    startFrom={0}
-                    volume={0.4}
-                    placeholder={null} 
-                    onPointerEnterCapture={undefined} 
-                    onPointerLeaveCapture={undefined} 
-                />
-            )}
-            
-            {/* BACKGROUND MUSIC (Lo-Fi) with DUCKING when voice plays */}
-            <Audio 
-                src={staticFile('/assets/lofi_bg.mp3')} 
-                startFrom={0}
-                volume={audioSrc ? 0.15 : 0.35} // Duck when voice is playing
-                loop
-                placeholder={null} 
-                onPointerEnterCapture={undefined} 
-                onPointerLeaveCapture={undefined} 
-            />
-            
-            {/* BELL SOUND - Short ding at outro start */}
-            {frame >= outroStartFrame + 20 && frame <= outroStartFrame + 35 && (
-                <Audio 
-                    src={staticFile('/assets/bell.mp3')} 
-                    startFrom={0}
-                    volume={0.3}
-                    placeholder={null} 
-                    onPointerEnterCapture={undefined} 
-                    onPointerLeaveCapture={undefined} 
-                />
-            )}
+
         </AbsoluteFill>
     );
 };

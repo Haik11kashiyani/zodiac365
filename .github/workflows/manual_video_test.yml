@@ -79,12 +79,7 @@ jobs:
           import os
           import time
 
-          assets = {
-              'video-engine/public/assets/whoosh.mp3': 'https://cdn.pixabay.com/audio/2022/03/15/audio_d5a4e19a7b.mp3',
-              'video-engine/public/assets/sparkle.mp3': 'https://cdn.pixabay.com/audio/2022/03/24/audio_03bf5d8d64.mp3',
-              'video-engine/public/assets/lofi_bg.mp3': 'https://cdn.pixabay.com/audio/2022/05/27/audio_1808fbf07a.mp3',
-              'video-engine/public/assets/bell.mp3': 'https://cdn.pixabay.com/audio/2022/03/10/audio_2dde668d05.mp3'
-          }
+          assets = {}
 
           os.makedirs('video-engine/public/assets', exist_ok=True)
 
