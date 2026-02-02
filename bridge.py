@@ -106,6 +106,33 @@ from cli_utils import log_section, log_info, log_success, log_error
 
 # ... (imports) ...
 
+def optimize_video_for_seeking(input_path, output_path):
+    """
+    Transcodes video to 720p with GOP=1 (All-Intra) for instant seeking.
+    Crucial for performance on headless CI runners.
+    """
+    try:
+        # Check if ffmpeg exists
+        subprocess.run(["ffmpeg", "-version"], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, check=True)
+        
+        log_info(f"⚡ Optimizing {os.path.basename(input_path)} for CI...")
+        cmd = [
+            "ffmpeg", 
+            "-i", input_path,
+            "-vf", "scale=-2:720", # Resize to 720p height
+            "-g", "1",             # Keyframe every frame (Instant seeking)
+            "-c:v", "libx264",
+            "-preset", "ultrafast",
+            "-crf", "23",
+            "-y",
+            output_path
+        ]
+        subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        return True
+    except (subprocess.CalledProcessError, FileNotFoundError):
+        log_warning(f"⚠️ FFMPEG invalid or missing. Skipping optimization for {input_path}")
+        return False
+
 def main():
     target = os.environ.get('TARGET_SIGN', 'Aries')
     mode = os.environ.get('VIDEO_MODE', 'daily')
@@ -180,7 +207,11 @@ def main():
             ext = os.path.splitext(vp)[1]
             dest_name = f"clip_{i}{ext}"
             dest_path = os.path.join(asset_dir, dest_name)
-            shutil.copy(vp, dest_path)
+            
+            # Try to optimize, otherwise copy
+            if not optimize_video_for_seeking(vp, dest_path):
+                shutil.copy(vp, dest_path)
+                
             remotion_assets.append(f"/assets/{dest_name}")
             
     if not remotion_assets:

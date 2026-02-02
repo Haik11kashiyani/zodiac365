@@ -895,7 +895,7 @@ const BackgroundClip: React.FC<{src: string, index: number, total: number}> = ({
         // Use staticFile for local assets to prevent timeouts
         // Reverted to Video component as OffthreadVideo was too slow on CI (12s/frame)
         // Global timeout increased to 300000ms to handle slow seeking
-        return <Video src={staticFile(src)} style={style} muted loop />;
+        return <Video src={staticFile(src)} style={style} muted loop pauseWhenBuffering />;
     }
     
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
