@@ -127,6 +127,7 @@ def convert_to_image_sequence(input_path, output_dir_name):
         cmd = [
             "ffmpeg", 
             "-i", input_path,
+            "-start_number", "0",  # Start at frame_0000 to match JS 0-index
             "-r", "30",            # Force 30fps to match composition
             "-vf", "scale=-2:720", # 720p height
             "-q:v", "5",           # Quality 5 (good balance)
