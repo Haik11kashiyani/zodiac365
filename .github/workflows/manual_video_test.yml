@@ -74,15 +74,44 @@ jobs:
 
       - name: Download Sound Effects
         run: |
-          mkdir -p video-engine/public/assets
-          # Whoosh transition sound
-          curl -L -o video-engine/public/assets/whoosh.mp3 "https://cdn.pixabay.com/audio/2022/03/15/audio_d5a4e19a7b.mp3" || echo "Whoosh download failed, continuing..."
-          # Magic sparkle sound
-          curl -L -o video-engine/public/assets/sparkle.mp3 "https://cdn.pixabay.com/audio/2022/03/24/audio_03bf5d8d64.mp3" || echo "Sparkle download failed, continuing..."
-          # Lo-fi background music (free for commercial use)
-          curl -L -o video-engine/public/assets/lofi_bg.mp3 "https://cdn.pixabay.com/audio/2022/05/27/audio_1808fbf07a.mp3" || echo "Lofi download failed, continuing..."
-          # Subscribe bell sound
-          curl -L -o video-engine/public/assets/bell.mp3 "https://cdn.pixabay.com/audio/2022/03/10/audio_2dde668d05.mp3" || echo "Bell download failed, continuing..."
+          python -c "
+          import urllib.request
+          import os
+          import time
+
+          assets = {
+              'video-engine/public/assets/whoosh.mp3': 'https://cdn.pixabay.com/audio/2022/03/15/audio_d5a4e19a7b.mp3',
+              'video-engine/public/assets/sparkle.mp3': 'https://cdn.pixabay.com/audio/2022/03/24/audio_03bf5d8d64.mp3',
+              'video-engine/public/assets/lofi_bg.mp3': 'https://cdn.pixabay.com/audio/2022/05/27/audio_1808fbf07a.mp3',
+              'video-engine/public/assets/bell.mp3': 'https://cdn.pixabay.com/audio/2022/03/10/audio_2dde668d05.mp3'
+          }
+
+          os.makedirs('video-engine/public/assets', exist_ok=True)
+
+          for path, url in assets.items():
+              print(f'Downloading {path}...')
+              retries = 3
+              success = False
+              while retries > 0:
+                  try:
+                      req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+                      with urllib.request.urlopen(req) as response, open(path, 'wb') as out_file:
+                          data = response.read()
+                          out_file.write(data)
+                          if len(data) < 1000:
+                              raise Exception('File too small, potentially invalid')
+                      print(f'Successfully downloaded {path} ({os.path.getsize(path)} bytes)')
+                      success = True
+                      break
+                  except Exception as e:
+                      print(f'Error downloading {path}: {e}')
+                      retries -= 1
+                      time.sleep(2)
+              
+              if not success:
+                  print(f'Failed to download {path} after retries.')
+                  exit(1)
+          "
           ls -la video-engine/public/assets/
 
       - name: Render Video (Remotion)
