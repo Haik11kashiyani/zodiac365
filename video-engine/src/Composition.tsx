@@ -1,5 +1,6 @@
 import React from 'react';
-import { AbsoluteFill, Audio, Video, Img, useVideoConfig, useCurrentFrame, interpolate, spring, staticFile } from 'remotion';
+import { AbsoluteFill, Audio, Img, useVideoConfig, useCurrentFrame, interpolate, spring, staticFile } from 'remotion';
+import { OffthreadVideo } from '@remotion/video';
 
 interface Caption {
     start: number;
@@ -892,9 +893,9 @@ const BackgroundClip: React.FC<{src: string, index: number, total: number}> = ({
     };
 
     if (isVideo) {
-        // Use staticFile for local assets to prevent timeouts
-        // bridge.py downloads these to video-engine/public/assets
-        return <Video src={staticFile(src)} style={style} muted loop />;
+        // Use OffthreadVideo for faster rendering on headless CI environments
+        // OffthreadVideo uses FFMPEG/Rust instead of HTML5 video, avoiding slow seeking
+        return <OffthreadVideo src={staticFile(src)} style={style} muted />;
     }
     
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
