@@ -106,32 +106,49 @@ from cli_utils import log_section, log_info, log_success, log_error
 
 # ... (imports) ...
 
-def optimize_video_for_seeking(input_path, output_path):
+def convert_to_image_sequence(input_path, output_dir_name):
     """
-    Transcodes video to 720p with GOP=1 (All-Intra) for instant seeking.
-    Crucial for performance on headless CI runners.
+    Converts video to a JPEG sequence. Returns AssetSpec object or None.
+    This bypasses browser video decoding entirely, solving CI timeouts.
     """
     try:
         # Check if ffmpeg exists
         subprocess.run(["ffmpeg", "-version"], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, check=True)
         
-        log_info(f"⚡ Optimizing {os.path.basename(input_path)} for CI...")
+        asset_root = "video-engine/public/assets"
+        seq_dir = os.path.join(asset_root, output_dir_name)
+        os.makedirs(seq_dir, exist_ok=True)
+        
+        log_info(f"🎞️ Converting {os.path.basename(input_path)} to Image Sequence in {output_dir_name}...")
+        
+        # Output pattern: frame_0000.jpg
+        output_pattern = os.path.join(seq_dir, "frame_%04d.jpg")
+        
         cmd = [
             "ffmpeg", 
             "-i", input_path,
-            "-vf", "scale=-2:720", # Resize to 720p height
-            "-g", "1",             # Keyframe every frame (Instant seeking)
-            "-c:v", "libx264",
-            "-preset", "ultrafast",
-            "-crf", "23",
+            "-r", "30",            # Force 30fps to match composition
+            "-vf", "scale=-2:720", # 720p height
+            "-q:v", "5",           # Quality 5 (good balance)
             "-y",
-            output_path
+            output_pattern
         ]
         subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-        return True
-    except (subprocess.CalledProcessError, FileNotFoundError):
-        log_warning(f"⚠️ FFMPEG invalid or missing. Skipping optimization for {input_path}")
-        return False
+        
+        # Count frames
+        frames = [f for f in os.listdir(seq_dir) if f.endswith('.jpg')]
+        count = len(frames)
+        log_success(f"   Generated {count} frames.")
+        
+        return {
+            "type": "sequence",
+            "prefix": f"/assets/{output_dir_name}/",
+            "count": count
+        }
+        
+    except (subprocess.CalledProcessError, FileNotFoundError) as e:
+        log_warning(f"⚠️ Sequence conversion failed: {e}. Falling back to video.")
+        return None
 
 def main():
     target = os.environ.get('TARGET_SIGN', 'Aries')
@@ -204,15 +221,19 @@ def main():
     import shutil
     for i, vp in enumerate(video_paths):
         if os.path.exists(vp):
-            ext = os.path.splitext(vp)[1]
+            # dest_name for fallback video copy
             dest_name = f"clip_{i}{ext}"
             dest_path = os.path.join(asset_dir, dest_name)
             
-            # Try to optimize, otherwise copy
-            if not optimize_video_for_seeking(vp, dest_path):
+            # Try to convert to sequence (Preferred for CI)
+            seq_asset = convert_to_image_sequence(vp, f"clip_{i}")
+            
+            if seq_asset:
+                remotion_assets.append(seq_asset)
+            else:
+                # Fallback: Copy standard video
                 shutil.copy(vp, dest_path)
-                
-            remotion_assets.append(f"/assets/{dest_name}")
+                remotion_assets.append(f"/assets/{dest_name}")
             
     if not remotion_assets:
         remotion_assets = ["https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg"]

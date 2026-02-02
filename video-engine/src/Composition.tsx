@@ -7,11 +7,14 @@ interface Caption {
     text: string;
 }
 
+// Asset type definition - supports legacy string or new sequence object
+type AssetSpec = string | { type: 'sequence', prefix: string, count: number };
+
 interface ZodiacCompositionProps {
     scriptText: string;
     audioSrc: string;
     captions: Caption[];
-    images: string[];
+    images: AssetSpec[];
     title?: string;
 }
 
@@ -872,17 +875,11 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
     );
 };
 
-const BackgroundClip: React.FC<{src: string, index: number, total: number}> = ({ src, index, total }) => {
+const BackgroundClip: React.FC<{src: AssetSpec, index: number, total: number}> = ({ src, index, total }) => {
     const frame = useCurrentFrame();
     
     // Smooth Scale Ken Burns
     const scale = interpolate(frame, [0, 150], [1.0, 1.15], { extrapolateRight: 'clamp' });
-    
-    // Fallback to a known good image
-    const finalSrc = src || "https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg";
-    
-    // Check if source is strictly a video file to avoid errors
-    const isVideo = finalSrc.toLowerCase().endsWith('.mp4');
     
     const style = {
         width: '100%',
@@ -891,11 +888,29 @@ const BackgroundClip: React.FC<{src: string, index: number, total: number}> = ({
         transform: `scale(${scale})`
     };
 
+    // Handle Image Sequence (Robust CI method)
+    if (typeof src === 'object' && src.type === 'sequence') {
+        const { prefix, count } = src;
+        // Loop the sequence
+        const sequenceFrame = frame % count;
+        // Construct path: prefix + frame_XXXX.jpg
+        const imagePath = `${prefix}frame_${String(sequenceFrame).padStart(4, '0')}.jpg`;
+        return <Img src={staticFile(imagePath)} style={style} placeholder={undefined} onResize={undefined} onResizeCapture={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} />;
+    }
+
+    // Handle Legacy Video/Image (String path)
+    const srcString = src as string;
+    // Fallback to a known good image if empty
+    const finalSrc = srcString || "https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg";
+    
+    // Check if source is strictly a video file to avoid errors
+    const isVideo = finalSrc.toLowerCase().endsWith('.mp4');
+
     if (isVideo) {
         // Use staticFile for local assets to prevent timeouts
         // Reverted to Video component as OffthreadVideo was too slow on CI (12s/frame)
         // Global timeout increased to 300000ms to handle slow seeking
-        return <Video src={staticFile(src)} style={style} muted loop pauseWhenBuffering />;
+        return <Video src={staticFile(finalSrc)} style={style} muted loop />;
     }
     
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
