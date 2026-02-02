@@ -272,7 +272,7 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
     const particleCount = optimizeForCI ? 5 : 20; 
     const enableBlur = false;            // DISABLED as requested
     const enableShadows = true;          // ENABLED as requested ("add complex glowing shadows")
-    const enableNoise = false;           // DISABLED as requested
+    const enableNoise = true;            // RE-ENABLED as requested ("Film Grain add this")
     const starGlowMultiplier = optimizeForCI ? 0 : 0.8;
 
     return (
