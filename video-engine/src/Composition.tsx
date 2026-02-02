@@ -16,6 +16,7 @@ interface ZodiacCompositionProps {
     captions: Caption[];
     images: AssetSpec[];
     title?: string;
+    optimizeForCI?: boolean;
 }
 
 // Zodiac gradient backgrounds based on element
@@ -172,7 +173,8 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
     audioSrc, 
     captions, 
     images,
-    title = ''
+    title = '',
+    optimizeForCI = false
 }) => {
     const frame = useCurrentFrame(); 
     const { fps, durationInFrames, width, height } = useVideoConfig();
@@ -200,9 +202,10 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
     // GLITCH EFFECT - Trigger at scene transitions
     const frameInSegment = frame % segmentDuration;
     const isTransitioning = frameInSegment < 8 || frameInSegment > segmentDuration - 8;
-    const glitchIntensity = isTransitioning ? Math.random() * 15 : 0;
-    const rgbSplitX = isTransitioning ? Math.sin(frame * 2) * 8 : 0;
-    const rgbSplitY = isTransitioning ? Math.cos(frame * 3) * 4 : 0;
+    // OPTIMIZATION: Disable glitch in CI
+    const glitchIntensity = (isTransitioning && !optimizeForCI) ? Math.random() * 15 : 0;
+    const rgbSplitX = (isTransitioning && !optimizeForCI) ? Math.sin(frame * 2) * 8 : 0;
+    const rgbSplitY = (isTransitioning && !optimizeForCI) ? Math.cos(frame * 3) * 4 : 0;
     
     // Animated glow intensity
     const glowIntensity = 0.3 + Math.sin(frame * 0.05) * 0.15;
@@ -262,7 +265,15 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
     // AURA COLOR DETECTION (find first matching emotion word)
     const detectedEmotion = Object.keys(EMOTION_AURA_COLORS).find(emotion => currentText.includes(emotion));
     const auraColor = detectedEmotion ? EMOTION_AURA_COLORS[detectedEmotion] : null;
-    const auraOpacity = auraColor ? 0.15 + Math.sin(frame * 0.08) * 0.1 : 0;
+    // OPTIMIZATION: Disable aura in CI
+    const auraOpacity = (auraColor && !optimizeForCI) ? 0.15 + Math.sin(frame * 0.08) * 0.1 : 0;
+
+    // OPTIMIZATION SETTINGS
+    const particleCount = optimizeForCI ? 5 : 25; // Reduce particles
+    const enableBlur = !optimizeForCI;            // Disable heavy blurs
+    const enableShadows = !optimizeForCI;         // Disable complex box-shadows
+    const enableNoise = !optimizeForCI;           // Disable SVG noise filter
+    const starGlowMultiplier = optimizeForCI ? 0 : 1; // Remove star glow
 
     return (
         <AbsoluteFill style={{ 
@@ -328,7 +339,7 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
                                             stroke="rgba(255,255,255,0.5)"
                                             strokeWidth={2}
                                             strokeLinecap="round"
-                                            style={{ filter: 'drop-shadow(0 0 5px rgba(255,255,255,0.5))' }}
+                                            style={{ filter: enableBlur ? 'drop-shadow(0 0 5px rgba(255,255,255,0.5))' : 'none' }}
                                         />
                                     );
                                 })}
@@ -356,7 +367,7 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
                                             backgroundColor: 'white',
                                             opacity: starOpacity * 0.8,
                                             transform: `scale(${starScale})`,
-                                            boxShadow: `0 0 ${starGlow}px ${starGlow/2}px rgba(255,255,255,0.8), 0 0 ${starGlow*2}px rgba(255,215,0,0.4)`,
+                                            boxShadow: enableShadows ? `0 0 ${starGlow}px ${starGlow/2}px rgba(255,255,255,0.8), 0 0 ${starGlow*2}px rgba(255,215,0,0.4)` : 'none',
                                         }}
                                     />
                                 );
@@ -369,7 +380,7 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
             {/* LAYER 2: ANIMATED COSMIC PARTICLES */}
             <AbsoluteFill style={{ zIndex: 2, pointerEvents: 'none' }}>
                 {/* Floating particles effect */}
-                {[...Array(25)].map((_, i) => {
+                {[...Array(particleCount)].map((_, i) => {
                     const x = (i * 137.5) % 100;
                     const y = ((i * 73) + frame * 0.5) % 140;
                     const size = 3 + (i % 4) * 3;
@@ -387,8 +398,8 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
                                 borderRadius: '50%',
                                 backgroundColor: 'white',
                                 opacity: opacity,
-                                boxShadow: `0 0 ${size * 2}px ${size}px rgba(255,255,255,${opacity})`,
-                                filter: `blur(${1 + i % 2}px)`,
+                                boxShadow: enableShadows ? `0 0 ${size * 2}px ${size}px rgba(255,255,255,${opacity})` : 'none',
+                                filter: enableBlur ? `blur(${1 + i % 2}px)` : 'none',
                             }}
                         />
                     );
@@ -404,7 +415,7 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
                     opacity: 0.08,
                     color: 'white',
                     fontFamily: 'serif',
-                    filter: `drop-shadow(0 0 50px rgba(255,255,255,${glowIntensity}))`,
+                    filter: enableBlur ? `drop-shadow(0 0 50px rgba(255,255,255,${glowIntensity}))` : 'none',
                 }}>
                     {symbol}
                 </div>
@@ -433,7 +444,7 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
                                 height: 2500,
                                 background: `linear-gradient(180deg, transparent, rgba(255,215,0,${beamOpacity}), transparent)`,
                                 transform: 'rotate(25deg)',
-                                filter: 'blur(30px)',
+                                filter: enableBlur ? 'blur(30px)' : 'none',
                             }}
                         />
                     );
@@ -789,12 +800,14 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
             }} />
             
             {/* LAYER 12: SUBTLE NOISE (Film Grain Effect) */}
+            {enableNoise && (
             <AbsoluteFill style={{ 
                 zIndex: 12,
                 pointerEvents: 'none',
                 opacity: 0.05,
                 backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E")`,
             }} />
+            )}
             
             {/* PROGRESS BAR */}
             <div style={{

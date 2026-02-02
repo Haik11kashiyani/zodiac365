@@ -249,7 +249,8 @@ def main():
         "audioSrc": f"/{safe_target}.mp3",
         "captions": captions,
         "images": remotion_assets,
-        "title": data.get('youtube_title', 'Zodiac Video')
+        "title": data.get('youtube_title', 'Zodiac Video'),
+        "optimizeForCI": os.environ.get("CI") == "true" or os.environ.get("GITHUB_ACTIONS") == "true"
     }
     
     input_path = "video-engine/input.json"
