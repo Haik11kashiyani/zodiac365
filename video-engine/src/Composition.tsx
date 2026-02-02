@@ -269,11 +269,11 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
     const auraOpacity = (auraColor && !optimizeForCI) ? 0.15 + Math.sin(frame * 0.08) * 0.1 : 0;
 
     // OPTIMIZATION SETTINGS
-    const particleCount = optimizeForCI ? 5 : 25; // Reduce particles
-    const enableBlur = !optimizeForCI;            // Disable heavy blurs
-    const enableShadows = !optimizeForCI;         // Disable complex box-shadows
-    const enableNoise = !optimizeForCI;           // Disable SVG noise filter
-    const starGlowMultiplier = optimizeForCI ? 0 : 1; // Remove star glow
+    const particleCount = optimizeForCI ? 5 : 20; 
+    const enableBlur = false;            // DISABLED as requested
+    const enableShadows = true;          // ENABLED as requested ("add complex glowing shadows")
+    const enableNoise = false;           // DISABLED as requested
+    const starGlowMultiplier = optimizeForCI ? 0 : 0.8;
 
     return (
         <AbsoluteFill style={{ 
@@ -685,6 +685,70 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
                 </div>
             )}
             
+            {/* Aggregating captions to show ~3 lines of text (Paragraph View) */}
+            {isMainPhase && (
+                <AbsoluteFill style={{ 
+                    justifyContent: 'center', 
+                    alignItems: 'center',
+                    zIndex: 10,
+                    padding: 40,
+                }}>
+                    {/* Find the index of the active caption */}
+                    {(() => {
+                        const activeIndex = captions.findIndex(c => currentTime >= c.start && currentTime <= c.end);
+                        
+                        // Determine the "window" of captions to show. 
+                        // We want to show the current one + next 2-3, OR if we are in the middle of a sentence, show the whole sentence.
+                        // Simple approach: Show [Current, Current+1, Current+2] joined.
+                        let textToDisplay = "";
+                        if (activeIndex !== -1) {
+                            // Look ahead 2 captions
+                            const endWindow = Math.min(activeIndex + 3, captions.length);
+                            const windowCaptions = captions.slice(activeIndex, endWindow);
+                            textToDisplay = windowCaptions.map(c => c.text).join(" ");
+                        } else {
+                            // Fallback if between captions (start of next segment)
+                            const nextIndex = captions.findIndex(c => c.start > currentTime);
+                            if (nextIndex !== -1) {
+                                 const endWindow = Math.min(nextIndex + 3, captions.length);
+                                 textToDisplay = captions.slice(nextIndex, endWindow).map(c => c.text).join(" ");
+                            }
+                        }
+
+                        // Split text into words for highlighting
+                        const words = textToDisplay.split(' ');
+
+                        return (
+                            <div style={{
+                                fontFamily: 'Montserrat, sans-serif',
+                                fontSize: 48,
+                                fontWeight: 800,
+                                color: 'white',
+                                textShadow: '0 0 15px rgba(0,0,0,0.8), 0 0 30px rgba(255,215,0,0.4)',
+                                textAlign: 'center',
+                                lineHeight: 1.3,
+                            }}>
+                                {words.map((word, i) => {
+                                    const isHighlighted = activeIndex !== -1 && captions[activeIndex].text.includes(word);
+                                    return (
+                                        <span 
+                                            key={i} 
+                                            style={{ 
+                                                color: isHighlighted ? '#FFD700' : 'white',
+                                                transition: 'color 0.2s ease-out',
+                                                marginRight: '0.5em',
+                                            }}
+                                        >
+                                            {word}
+                                        </span>
+                                    );
+                                })}
+                            </div>
+                        );
+                    })()}
+                </AbsoluteFill>
+            )}
+            
             {/* ZODIAC SIGN HEADER */}
             <div style={{
                 position: 'absolute',
@@ -741,18 +805,6 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
                 />
             )}
 
-            {/* CAPTION TEXT - MAIN FOCUS (Only during main phase) */}
-            {isMainPhase && (
-                <AbsoluteFill style={{ 
-                    justifyContent: 'center', 
-                    alignItems: 'center',
-                    zIndex: 10,
-                    padding: 40,
-                }}>
-                    <CaptionsLayer captions={captions} />
-                </AbsoluteFill>
-            )}
-            
             {/* SCREEN FLASH (Surprise Moments) */}
             {flashOpacity > 0 && (
                 <AbsoluteFill style={{
@@ -1158,49 +1210,6 @@ const CaptionsLayer: React.FC<{captions: Caption[]}> = ({ captions }) => {
                         }}
                     >
                         {word}
-                        {/* PARTICLE BURST for highlighted words */}
-                        {isHighlight && timeInCaption > wordDelay && timeInCaption < wordDelay + 20 && (
-                            <>
-                                {[0,1,2,3,4,5,6,7].map((p) => {
-                                    const angle = (p / 8) * Math.PI * 2;
-                                    const distance = (timeInCaption - wordDelay) * 4;
-                                    const particleX = Math.cos(angle) * distance;
-                                    const particleY = Math.sin(angle) * distance; 
-                                    const particleOpacity = interpolate(timeInCaption - wordDelay, [0, 5, 15, 20], [0, 1, 1, 0], { extrapolateRight: 'clamp' });
-                                    return (
-                                        <span
-                                            key={`particle-${p}`}
-                                            style={{
-                                                position: 'absolute',
-                                                left: '50%',
-                                                top: '50%',
-                                                transform: `translate(-50%, -50%) translate(${particleX}px, ${particleY}px)`,
-                                                fontSize: 16,
-                                                opacity: particleOpacity,
-                                                pointerEvents: 'none',
-                                            }}
-                                        >
-                                            ✨
-                                        </span>
-                                    );
-                                })}
-                            </>
-                        )}
-                        
-                        {/* ANIMATED UNDERLINE for key words */}
-                        {hasUnderline && (
-                            <span style={{
-                                position: 'absolute',
-                                bottom: -5,
-                                left: '50%',
-                                transform: 'translateX(-50%)',
-                                height: 4,
-                                width: `${underlineWidth}%`,
-                                background: 'linear-gradient(90deg, transparent, #FFD700, #FFA500, #FFD700, transparent)',
-                                borderRadius: 2,
-                                boxShadow: '0 0 10px rgba(255,215,0,0.6)',
-                            }} />
-                        )}
                     </span>
                 );
             })}
