@@ -221,6 +221,7 @@ def main():
     import shutil
     for i, vp in enumerate(video_paths):
         if os.path.exists(vp):
+            ext = os.path.splitext(vp)[1]
             # dest_name for fallback video copy
             dest_name = f"clip_{i}{ext}"
             dest_path = os.path.join(asset_dir, dest_name)
