@@ -1,6 +1,5 @@
 import React from 'react';
-import { AbsoluteFill, Audio, Img, useVideoConfig, useCurrentFrame, interpolate, spring, staticFile } from 'remotion';
-import { OffthreadVideo } from '@remotion/video';
+import { AbsoluteFill, Audio, Img, OffthreadVideo, useVideoConfig, useCurrentFrame, interpolate, spring, staticFile } from 'remotion';
 
 interface Caption {
     start: number;
