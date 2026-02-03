@@ -691,7 +691,7 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
                     justifyContent: 'center', 
                     alignItems: 'center',
                     zIndex: 10,
-                    padding: 40,
+                    padding: '200px 40px 40px 40px',
                 }}>
                     {/* Find the index of the active caption */}
                     {(() => {
@@ -727,6 +727,10 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
                                 textShadow: '0 0 15px rgba(0,0,0,0.8), 0 0 30px rgba(255,215,0,0.4)',
                                 textAlign: 'center',
                                 lineHeight: 1.3,
+                                width: '100%',
+                                maxWidth: '100%',
+                                overflowWrap: 'break-word',
+                                wordBreak: 'break-word',
                             }}>
                                 {words.map((word, i) => {
                                     const isHighlighted = activeIndex !== -1 && captions[activeIndex].text.includes(word);
@@ -737,6 +741,7 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
                                                 color: isHighlighted ? '#FFD700' : 'white',
                                                 transition: 'color 0.2s ease-out',
                                                 marginRight: '0.5em',
+                                                display: 'inline-block',
                                             }}
                                         >
                                             {word}
