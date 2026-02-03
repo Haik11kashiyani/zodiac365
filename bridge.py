@@ -6,18 +6,14 @@ import re
 import random
 import datetime
 
-IS_WINDOWS = os.name == 'nt'
-
 # Import existing logic
 from generator_zodiac import generate_zodiac_video
-from generator_zodiac import generate_zodiac_video
+from moviepy.editor import AudioFileClip
 from video_sourcer import get_b_roll_sequence
 try:
     from youtube_uploader import upload_video
 except ImportError:
     upload_video = None
-
-from moviepy.editor import AudioFileClip
 def clean_speech(text):
     """Cleans text for TTS to prevent truncation/errors."""
     # Remove emojis
@@ -81,7 +77,7 @@ def parse_vtt(vtt_file):
                     
                     words = text.split()
                     # Chunking logic
-                    chunk_size = 8 # Slightly more words per screen for stability
+                    chunk_size = 10 # More words per screen (User Request: "place same amount of text")
                     chunks = [' '.join(words[j:j+chunk_size]) for j in range(0, len(words), chunk_size)]
                     
                     duration = current_end - current_start
@@ -108,7 +104,7 @@ def generate_fallback_captions(script_text, duration_est=60):
     captions = []
     current_time = 0.0
     
-    chunk_size = 5 # More words per screen for fallback too
+    chunk_size = 10 # More words per screen for fallback too
     for i in range(0, total_words, chunk_size):
         chunk = words[i:i+chunk_size]
         text = " ".join(chunk).upper()
@@ -134,7 +130,7 @@ def convert_to_image_sequence(input_path, output_dir_name):
     """
     try:
         # Check if ffmpeg exists
-        subprocess.run(["ffmpeg", "-version"], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, check=True, shell=IS_WINDOWS)
+        subprocess.run(["ffmpeg", "-version"], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, check=True)
         
         asset_root = "video-engine/public/assets"
         seq_dir = os.path.join(asset_root, output_dir_name)
@@ -155,7 +151,7 @@ def convert_to_image_sequence(input_path, output_dir_name):
             "-y",
             output_pattern
         ]
-        subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, shell=IS_WINDOWS)
+        subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
         
         # Count frames
         frames = [f for f in os.listdir(seq_dir) if f.endswith('.jpg')]
@@ -204,10 +200,21 @@ def process_plan(filename):
         "--write-subtitles", vtt_file
     ]
     try:
-        subprocess.run(cmd, check=True, shell=IS_WINDOWS)
-    except subprocess.CalledProcessError as e:
+        subprocess.run(cmd, check=True)
         log_error(f"EdgeTTS failed for {filename}: {e}")
         return
+    
+    # 2.5 CALCULATE DURATION
+    video_duration_frames = 1800 # Default 60s
+    try:
+        if os.path.exists(audio_file):
+            with AudioFileClip(audio_file) as audio:
+                # User Request: "after the sentenc is speken... then after 0.5 sec complit the video"
+                duration_sec = audio.duration + 0.5
+                video_duration_frames = int(duration_sec * 30)
+                log_info(f"calculated duration: {duration_sec}s ({video_duration_frames} frames)")
+    except Exception as e:
+        log_error(f"Could not calculate audio duration: {e}")
     
     # 3. PARSE VTT
     captions = []
@@ -233,6 +240,7 @@ def process_plan(filename):
              video_paths = [] 
          else:
              log_success(f"Found {len(video_paths)} relevant videos. Using Video Mode.")
+
     remotion_assets = []
     asset_dir = "video-engine/public/assets"
     os.makedirs(asset_dir, exist_ok=True)
@@ -254,27 +262,14 @@ def process_plan(filename):
         remotion_assets = ["https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg"]
         log_warning("No Pexels videos downloaded. Using fallback image.")
 
-    # 5. GET DURATION
-    log_info("Calculating precise duration...")
-    duration_in_frames = 30 * 60 # Default
-    try:
-        audio = AudioFileClip(audio_file)
-        # End 0.5s after audio ends
-        total_duration = audio.duration + 0.5
-        duration_in_frames = int(total_duration * 30)
-        audio.close()
-        log_success(f"Duration set: {total_duration:.2f}s ({duration_in_frames} frames)")
-    except Exception as e:
-        log_warning(f"Could not get audio duration: {e}. Using fallback.")
-
-    # 6. WRITE INPUT.JSON
+    # 5. WRITE INPUT.JSON
     input_data = {
         "scriptText": script_text,
         "audioSrc": f"/{safe_target}.mp3",
         "captions": captions,
         "images": remotion_assets,
         "title": data.get('youtube_title', 'Zodiac Video'),
-        "durationInFrames": duration_in_frames,
+        "durationInFrames": video_duration_frames,
         "optimizeForCI": os.environ.get("CI") == "true" or os.environ.get("GITHUB_ACTIONS") == "true"
     }
     
@@ -287,7 +282,7 @@ def process_plan(filename):
     log_info("Building Video...")
     video_engine_dir = os.path.join(os.path.dirname(__file__), "video-engine")
     try:
-        subprocess.run(["npm", "run", "build"], cwd=video_engine_dir, check=True, shell=IS_WINDOWS)
+        subprocess.run(["npm", "run", "build"], cwd=video_engine_dir, check=True, shell=True)
         log_success("Build Complete!")
     except subprocess.CalledProcessError:
         log_error("Build Failed. Skipping upload.")

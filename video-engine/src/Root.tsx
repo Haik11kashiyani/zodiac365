@@ -1,31 +1,30 @@
-import { Composition, staticFile } from 'remotion';
-import { ZodiacComposition, ZodiacCompositionProps } from './Composition';
-import './style.css'; 
+import { Composition } from 'remotion';
+import { ZodiacComposition } from './Composition';
+import './style.css'; // We'll create this for fonts
 
 export const RemotionRoot: React.FC = () => {
     return (
         <>
             <Composition
                 id="ZodiacVideo"
-                component={ZodiacComposition as any}
-                durationInFrames={30 * 60} 
+                component={ZodiacComposition as React.FC<any>}
+                durationInFrames={30 * 60} // Default 60s @ 30fps
                 fps={30}
                 width={1080}
                 height={1920}
-                calculateMetadata={({ props }) => {
-                    const typedProps = props as any as ZodiacCompositionProps;
-                    return {
-                        durationInFrames: typedProps.durationInFrames || (30 * 60),
-                    };
-                }}
-                defaultProps={({
+                defaultProps={{
                     scriptText: "Example Script",
                     audioSrc: "",
                     captions: [],
                     images: [],
                     title: "Aries Daily Horoscope",
-                    durationInFrames: 30 * 60
-                } as any) as ZodiacCompositionProps}
+                    durationInFrames: 1800,
+                }}
+                calculateMetadata={async ({ props }) => {
+                    return {
+                        durationInFrames: (props as any).durationInFrames || 30 * 60,
+                    };
+                }}
             />
         </>
     );

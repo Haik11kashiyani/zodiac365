@@ -10,14 +10,14 @@ interface Caption {
 // Asset type definition - supports legacy string or new sequence object
 type AssetSpec = string | { type: 'sequence', prefix: string, count: number };
 
-export interface ZodiacCompositionProps {
+interface ZodiacCompositionProps {
     scriptText: string;
     audioSrc: string;
     captions: Caption[];
     images: AssetSpec[];
     title?: string;
-    optimizeForCI?: boolean;
     durationInFrames?: number;
+    optimizeForCI?: boolean;
 }
 
 // Zodiac gradient backgrounds based on element
@@ -178,7 +178,8 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
     optimizeForCI = false
 }) => {
     const frame = useCurrentFrame(); 
-    const { fps, durationInFrames, width, height } = useVideoConfig();
+    const { fps, width, height } = useVideoConfig(); // durationInFrames is obtained from props or config
+    const durationInFrames = useVideoConfig().durationInFrames;
     
     // Extract zodiac sign from title or default to Aries
     const zodiacSign = Object.keys(ZODIAC_GRADIENTS).find(sign => 
@@ -674,31 +675,27 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
                     justifyContent: 'center', 
                     alignItems: 'center',
                     zIndex: 10,
-                    padding: '200px 40px 40px 40px',
+                    padding: '0 60px', // Increased padding
                 }}>
-                    {/* Find the active caption */}
+                    {/* Find the index of the active caption */}
                     {(() => {
                         const activeCaption = captions.find(c => currentTime >= c.start && currentTime <= c.end);
-                        const textToDisplay = activeCaption ? activeCaption.text : "";
+                        
+                        if (!activeCaption) return null;
 
                         return (
                             <div style={{
                                 fontFamily: 'Montserrat, sans-serif',
-                                fontSize: 64, // Increased for impact
-                                fontWeight: 900,
+                                fontSize: 52, // Slightly larger
+                                fontWeight: 800,
                                 color: 'white',
-                                textShadow: '0 0 20px rgba(0,0,0,0.9), 0 0 40px rgba(255,215,0,0.6)',
+                                textShadow: '0 0 15px rgba(0,0,0,0.8), 0 0 30px rgba(255,215,0,0.4)',
                                 textAlign: 'center',
-                                lineHeight: 1.2,
+                                lineHeight: 1.3,
                                 width: '100%',
                                 maxWidth: '100%',
-                                overflowWrap: 'break-word',
-                                wordBreak: 'break-word',
-                                textTransform: 'uppercase', // Bold, uppercase for virality
-                                letterSpacing: '1px',
-                                filter: 'drop-shadow(0 0 10px rgba(255,215,0,0.3))',
                             }}>
-                                {textToDisplay}
+                                {activeCaption.text}
                             </div>
                         );
                     })()}
