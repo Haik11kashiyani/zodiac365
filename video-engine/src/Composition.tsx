@@ -451,30 +451,12 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
                 })}
             </AbsoluteFill>
             
-            {/* LAYER 4.5: FLOATING EMOJI REACTIONS */}
+            {/* LAYER 4.5: FLOATING EMOJI REACTIONS - REMOVED PER USER REQUEST */}
+            {/* 
             <AbsoluteFill style={{ zIndex: 4, pointerEvents: 'none' }}>
-                {['✨', '🔥', '💫', '⭐', '💎'].map((emoji, i) => {
-                    const emojiY = ((frame * 1.5 + i * 100) % 2200) - 200;
-                    const emojiX = 50 + Math.sin(frame * 0.02 + i * 2) * 400;
-                    const emojiOpacity = interpolate(emojiY, [0, 500, 1500, 2000], [0, 0.6, 0.6, 0], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp' });
-                    const emojiScale = 0.8 + Math.sin(frame * 0.1 + i) * 0.2;
-                    return (
-                        <div
-                            key={`emoji-${i}`}
-                            style={{
-                                position: 'absolute',
-                                left: emojiX,
-                                top: emojiY,
-                                fontSize: 40 + i * 10,
-                                opacity: emojiOpacity,
-                                transform: `scale(${emojiScale}) rotate(${frame * (i % 2 === 0 ? 1 : -1)}deg)`,
-                            }}
-                        >
-                            {emoji}
-                        </div>
-                    );
-                })}
-            </AbsoluteFill>
+                REMOVED
+            </AbsoluteFill> 
+            */}
             
             {/* ZODIAC WHEEL SPINNER (Bottom Left) */}
             <div style={{

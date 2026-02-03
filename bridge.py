@@ -8,7 +8,24 @@ import datetime
 
 # Import existing logic
 from generator_zodiac import generate_zodiac_video
+from generator_zodiac import generate_zodiac_video
 from video_sourcer import get_b_roll_sequence
+try:
+    from youtube_uploader import upload_video
+except ImportError:
+    upload_video = None
+def clean_speech(text):
+    """Cleans text for TTS to prevent truncation/errors."""
+    # Remove emojis
+    text = re.sub(r'[^\w\s.,!?-]', '', text) 
+    # Remove brackets
+    text = re.sub(r'\{[^}]*\}', '', text)
+    text = re.sub(r'\[[^\]]*\]', '', text)
+    # Remove markdown/hashtags
+    text = re.sub(r'[#\*]', '', text)
+    # Standardize spacing
+    text = re.sub(r'\s+', ' ', text)
+    return text.strip()
 
 def parse_vtt(vtt_file):
     """Parses a WebVTT file cleanly, handling edge cases."""
@@ -151,33 +168,24 @@ def convert_to_image_sequence(input_path, output_dir_name):
         log_warning(f"⚠️ Sequence conversion failed: {e}. Falling back to video.")
         return None
 
-def main():
-    target = os.environ.get('TARGET_SIGN', 'Aries')
-    mode = os.environ.get('VIDEO_MODE', 'daily')
-    date_str = datetime.date.today().strftime("%Y-%m-%d")
-    
-    log_section(f"Starting Bridge for {target} ({mode})")
-    
-    # 1. GENERATE CONTENT (Python)
-    success = generate_zodiac_video(mode, target, date_str)
-    if not success:
-        log_error("Content generation failed.")
-        sys.exit(1)
-        
-    # Find the file
-    safe_target = target.replace(' ', '_').replace('/', '-')
-    filename = f"plan_{mode}_{safe_target}.json"
+
+def process_plan(filename):
+    """Runs the full pipeline (Audio -> Build -> Upload) for a single plan file."""
+    log_section(f"Processing: {filename}")
     
     with open(filename, 'r') as f:
         data = json.load(f)
         
-    # 2. GENERATE AUDIO & SUBTITLES (EdgeTTS)
-    log_section("Generating Audio & VTT")
+    target = data.get('target', 'Unknown')
+    safe_target = target.replace(' ', '_').replace('/', '-')
     script_text = data.get('script_text', '')
+    
     if not script_text:
-        log_error("No script text found.")
-        sys.exit(1)
-        
+        log_error(f"Skipping {filename}: No script text.")
+        return
+
+    # 2. GENERATE AUDIO & SUBTITLES (EdgeTTS)
+    log_info("Generating Audio & VTT...")
     audio_file = os.path.abspath(f"video-engine/public/{safe_target}.mp3")
     vtt_file = os.path.abspath(f"video-engine/public/{safe_target}.vtt")
     
@@ -187,34 +195,41 @@ def main():
     cmd = [
         "edge-tts",
         "--voice", voice,
-        "--text", script_text,
+        "--text", clean_speech(script_text), 
         "--write-media", audio_file,
         "--write-subtitles", vtt_file
     ]
-    subprocess.run(cmd, check=True)
+    try:
+        subprocess.run(cmd, check=True)
+    except subprocess.CalledProcessError as e:
+        log_error(f"EdgeTTS failed for {filename}: {e}")
+        return
     
-    # 3. PARSE VTT FOR REMOTION
-    # Try parsing VTT
+    # 3. PARSE VTT
     captions = []
     try:
         if os.path.exists(vtt_file):
             captions = parse_vtt(vtt_file)
-    except Exception as e:
-        log_error(f"VTT parsing failed: {e}")
-        
-    # FALLBACK: If parsing failed or no captions found, generate from script
+    except Exception: pass
+    
     if not captions:
         log_warning("No captions parsed from VTT. Using fallback generator.")
         captions = generate_fallback_captions(script_text)
         
     log_success(f"Final caption count: {len(captions)}")
-    
+        
     # 4. GET VISUALS
-    log_section("Sourcing Visuals")
+    log_info("Sourcing Visuals...")
     video_paths = []
     if os.environ.get("PEXELS_API_KEY"):
-         video_paths = get_b_roll_sequence(script_text, target, count=6)
-    
+         requested_count = 6
+         video_paths = get_b_roll_sequence(script_text, target, count=requested_count)
+         if len(video_paths) < (requested_count / 2):
+             log_warning("Switching to ANIMATION MODE (Low video count).")
+             video_paths = [] 
+         else:
+             log_success(f"Found {len(video_paths)} relevant videos. Using Video Mode.")
+
     remotion_assets = []
     asset_dir = "video-engine/public/assets"
     os.makedirs(asset_dir, exist_ok=True)
@@ -223,26 +238,19 @@ def main():
     for i, vp in enumerate(video_paths):
         if os.path.exists(vp):
             ext = os.path.splitext(vp)[1]
-            # dest_name for fallback video copy
             dest_name = f"clip_{i}{ext}"
             dest_path = os.path.join(asset_dir, dest_name)
-            
-            # Try to convert to sequence (Preferred for CI)
             seq_asset = convert_to_image_sequence(vp, f"clip_{i}")
-            
             if seq_asset:
                 remotion_assets.append(seq_asset)
             else:
-                # Fallback: Copy standard video
                 shutil.copy(vp, dest_path)
                 remotion_assets.append(f"/assets/{dest_name}")
             
     if not remotion_assets:
         remotion_assets = ["https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg"]
         log_warning("No Pexels videos downloaded. Using fallback image.")
-    else:
-        log_success(f"Loaded {len(remotion_assets)} video clips: {remotion_assets}")
-        
+
     # 5. WRITE INPUT.JSON
     input_data = {
         "scriptText": script_text,
@@ -256,9 +264,78 @@ def main():
     input_path = "video-engine/input.json"
     with open(input_path, "w") as f:
         json.dump(input_data, f, indent=2)
+    log_success(f"Data written to {input_path}")
+
+    # 6. BUILD VIDEO
+    log_info("Building Video...")
+    video_engine_dir = os.path.join(os.path.dirname(__file__), "video-engine")
+    try:
+        subprocess.run(["npm", "run", "build"], cwd=video_engine_dir, check=True, shell=True)
+        log_success("Build Complete!")
+    except subprocess.CalledProcessError:
+        log_error("Build Failed. Skipping upload.")
+        return
+
+    # 7. UPLOAD
+    output_video_path = os.path.join(video_engine_dir, "out", "video.mp4")
+    if os.path.exists(output_video_path) and upload_video:
+        log_info("Uploading...")
+        if upload_video(output_video_path, data):
+             # Mark as done in file
+             data['status'] = 'uploaded'
+             with open(filename, 'w') as f:
+                 json.dump(data, f, indent=2)
+             log_success(f"Done: {filename}")
+        else:
+            log_error(f"Upload failed for {filename}.")
+    else:
+        log_warning("Upload skipped (File missing or Uploader disabled).")
+
+import argparse
+import glob
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--batch", action="store_true", help="Process all pending plan_*.json files")
+    args = parser.parse_args()
+
+    if args.batch:
+        log_section("🔥 BATCH MODE ACTIVATED")
+        plans = glob.glob("plan_*.json")
+        pending = []
+        for p in plans:
+            try:
+                with open(p, 'r') as f:
+                    d = json.load(f)
+                    if d.get('status') != 'uploaded':
+                        pending.append(p)
+            except Exception as e:
+                log_error(f"Error reading plan file {p}: {e}")
         
-    log_success(f"Bridge Complete. Data written to {input_path}")
-    log_info("Now run: cd video-engine && npm run build")
+        log_info(f"Found {len(pending)} pending plans.")
+        if not pending:
+            log_info("No pending plans found. Exiting batch mode.")
+            return
+
+        for p in pending:
+            process_plan(p)
+    else:
+        # Legacy single mode (env var driven)
+        target = os.environ.get('TARGET_SIGN', 'Aries')
+        mode = os.environ.get('VIDEO_MODE', 'daily')
+        date_str = datetime.date.today().strftime("%Y-%m-%d")
+        
+        log_section(f"Single Mode: {target} ({mode})")
+        # 1. GENERATE CONTENT (Python)
+        success = generate_zodiac_video(mode, target, date_str)
+        if success:
+             safe_target = target.replace(' ', '_').replace('/', '-')
+             filename = f"plan_{mode}_{safe_target}.json"
+             process_plan(filename)
+        else:
+            log_error("Content generation failed.")
+            sys.exit(1)
+
 
 if __name__ == "__main__":
     main()

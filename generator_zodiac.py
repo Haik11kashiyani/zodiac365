@@ -46,20 +46,22 @@ def generate_content(mode, target, date_str):
     
     Respond in JSON ONLY:
     {{
-        "script_text": "Spoken script ~50s. Hook first. Loop end.",
+        "script_text": "Spoken script ~50s. START WITH A STOP WORD (Wait, Stop, Listen). High energy.",
         "captions_structure": [
             {{"text": "LEO WARNING", "type": "header"}},
             {{"text": "Stop scrolling...", "type": "normal"}}
         ],
         "title": "Internal Title",
-        "youtube_title": "Viral Title #shorts",
-        "youtube_description": "Desc...",
+        "youtube_title": "⚠️ WARNING: [Sign]... #shorts", 
+        "youtube_description": "First line must be a hook! Include 5+ tags.",
         "youtube_tags": ["tag1", "tag2"]
     }}
     
-    RULES:
-    1. 'script_text' must be plain text for TTS.
-    2. 'captions_structure' is a guide for visual text but we will use TTS timing mostly.
+    VIRAL RULES (200% VIRALITY):
+    1. **TITLE**: Must be CLICKBAIT. Use "⚠️", "🔮", "Don't Ignore", "Urgent". Max 50 chars.
+    2. **SCRIPT**: Start with a PATTERN INTERRUPT ("Stop scrolling!", "You need to hear this!").
+    3. **DESCRIPTION**: Line 1 is the HOOK. Include "Sub to claim" CTA.
+    4. **TAGS**: Generate 20 high-volume tags mixing Broad (#astrology) + Niche (#{target.lower()}).
     """
     
     data = ask_ai(prompt + prompt_suffix)

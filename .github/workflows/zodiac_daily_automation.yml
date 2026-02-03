@@ -2,8 +2,8 @@ ame: Zodiac Daily Automation
 
 on:
   schedule:
-    - cron: "0 9 * * *"
-    - cron: "0 20 * * 0"
+    - cron: "0 8 * * *" # 8:00 UTC = 3:00 AM EST (Target: 5:00 AM Upload for Morning Crowd)
+    - cron: "0 20 * * 0" # Weekly on Sundays
   workflow_dispatch:
 
 jobs:
@@ -16,13 +16,6 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v3
 
-      - name: Install System Dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y imagemagick ghostscript gsfonts ffmpeg
-          # Unblock ImageMagick security policy for text rendering
-          sudo sed -i 's/rights="none" pattern="@\*"/rights="read|write" pattern="@\*"/g' /etc/ImageMagick-6/policy.xml
-
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
@@ -33,6 +26,16 @@ jobs:
           pip install -r requirements.txt
           pip install edge-tts google-auth-oauthlib google-api-python-client
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Install Node Dependencies
+        run: |
+          cd video-engine
+          npm install
+
       - name: inject-secret
         env:
           YOUTUBE_TOKEN: ${{ secrets.YOUTUBE_TOKEN }}
@@ -41,39 +44,26 @@ jobs:
           printf '%s' "$YOUTUBE_TOKEN" > token.json
           echo "✅ token.json injected ($(wc -c < token.json) bytes)"
 
-          # Validate token.json (non-fatal - just for debugging)
-          echo "🔍 Validating token.json..."
-          python -c "import json; f=open('token.json'); d=json.load(f); print('✅ Token Keys:', list(d.keys())); print('Has refresh_token:', 'refresh_token' in d)" || echo "⚠️ Token validation failed - check secret format"
-
       - name: Run Video Automation
         env:
-          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }} # For Gemini Generation
-          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }} # Optional, priority
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
-
           YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
         run: |
           echo "🚀 Starting Video Production..."
-
-          # Logic to determine mode based on time OR manual trigger
           current_hour=$(date -u +%H)
-          echo "Unknown time (UTC): $current_hour"
-
-          if [ "$current_hour" -eq "9" ]; then
-             echo "🌞 Triggering DAILY Mode"
+          if [ "$current_hour" -eq "8" ]; then
              python master_brain.py --mode daily
           elif [ "$current_hour" -eq "20" ]; then
-             echo "📅 Triggering WEEKLY Mode"
              python master_brain.py --mode weekly
           else
-             # Default fallback for manual dispatch or other times
-             echo "⚡ Manual/Fallback: Running ALL"
              python master_brain.py --mode all
           fi
 
-          # Always run the video maker to process whatever plan files exist
-          python video_maker.py
+          # Process and Upload All Pending Plans using the New Engine
+          python bridge.py --batch
 
       - name: Commit & Push Updates
         run: |
