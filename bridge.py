@@ -201,6 +201,7 @@ def process_plan(filename):
     ]
     try:
         subprocess.run(cmd, check=True)
+    except subprocess.CalledProcessError as e:
         log_error(f"EdgeTTS failed for {filename}: {e}")
         return
     
