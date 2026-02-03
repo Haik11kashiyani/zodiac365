@@ -6,6 +6,8 @@ import re
 import random
 import datetime
 
+IS_WINDOWS = os.name == 'nt'
+
 # Import existing logic
 from generator_zodiac import generate_zodiac_video
 from generator_zodiac import generate_zodiac_video
@@ -132,7 +134,7 @@ def convert_to_image_sequence(input_path, output_dir_name):
     """
     try:
         # Check if ffmpeg exists
-        subprocess.run(["ffmpeg", "-version"], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, check=True)
+        subprocess.run(["ffmpeg", "-version"], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, check=True, shell=IS_WINDOWS)
         
         asset_root = "video-engine/public/assets"
         seq_dir = os.path.join(asset_root, output_dir_name)
@@ -153,7 +155,7 @@ def convert_to_image_sequence(input_path, output_dir_name):
             "-y",
             output_pattern
         ]
-        subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, shell=IS_WINDOWS)
         
         # Count frames
         frames = [f for f in os.listdir(seq_dir) if f.endswith('.jpg')]
@@ -202,7 +204,7 @@ def process_plan(filename):
         "--write-subtitles", vtt_file
     ]
     try:
-        subprocess.run(cmd, check=True, shell=True)
+        subprocess.run(cmd, check=True, shell=IS_WINDOWS)
     except subprocess.CalledProcessError as e:
         log_error(f"EdgeTTS failed for {filename}: {e}")
         return
@@ -285,7 +287,7 @@ def process_plan(filename):
     log_info("Building Video...")
     video_engine_dir = os.path.join(os.path.dirname(__file__), "video-engine")
     try:
-        subprocess.run(["npm", "run", "build"], cwd=video_engine_dir, check=True, shell=True)
+        subprocess.run(["npm", "run", "build"], cwd=video_engine_dir, check=True, shell=IS_WINDOWS)
         log_success("Build Complete!")
     except subprocess.CalledProcessError:
         log_error("Build Failed. Skipping upload.")
