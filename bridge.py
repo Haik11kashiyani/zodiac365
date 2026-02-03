@@ -14,6 +14,8 @@ try:
     from youtube_uploader import upload_video
 except ImportError:
     upload_video = None
+
+from moviepy.editor import AudioFileClip
 def clean_speech(text):
     """Cleans text for TTS to prevent truncation/errors."""
     # Remove emojis
@@ -77,7 +79,7 @@ def parse_vtt(vtt_file):
                     
                     words = text.split()
                     # Chunking logic
-                    chunk_size = 5 # More words per screen (User Request: "place more world")
+                    chunk_size = 8 # Slightly more words per screen for stability
                     chunks = [' '.join(words[j:j+chunk_size]) for j in range(0, len(words), chunk_size)]
                     
                     duration = current_end - current_start
@@ -200,7 +202,7 @@ def process_plan(filename):
         "--write-subtitles", vtt_file
     ]
     try:
-        subprocess.run(cmd, check=True)
+        subprocess.run(cmd, check=True, shell=True)
     except subprocess.CalledProcessError as e:
         log_error(f"EdgeTTS failed for {filename}: {e}")
         return
@@ -229,7 +231,6 @@ def process_plan(filename):
              video_paths = [] 
          else:
              log_success(f"Found {len(video_paths)} relevant videos. Using Video Mode.")
-
     remotion_assets = []
     asset_dir = "video-engine/public/assets"
     os.makedirs(asset_dir, exist_ok=True)
@@ -251,13 +252,27 @@ def process_plan(filename):
         remotion_assets = ["https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg"]
         log_warning("No Pexels videos downloaded. Using fallback image.")
 
-    # 5. WRITE INPUT.JSON
+    # 5. GET DURATION
+    log_info("Calculating precise duration...")
+    duration_in_frames = 30 * 60 # Default
+    try:
+        audio = AudioFileClip(audio_file)
+        # End 0.5s after audio ends
+        total_duration = audio.duration + 0.5
+        duration_in_frames = int(total_duration * 30)
+        audio.close()
+        log_success(f"Duration set: {total_duration:.2f}s ({duration_in_frames} frames)")
+    except Exception as e:
+        log_warning(f"Could not get audio duration: {e}. Using fallback.")
+
+    # 6. WRITE INPUT.JSON
     input_data = {
         "scriptText": script_text,
         "audioSrc": f"/{safe_target}.mp3",
         "captions": captions,
         "images": remotion_assets,
         "title": data.get('youtube_title', 'Zodiac Video'),
+        "durationInFrames": duration_in_frames,
         "optimizeForCI": os.environ.get("CI") == "true" or os.environ.get("GITHUB_ACTIONS") == "true"
     }
     

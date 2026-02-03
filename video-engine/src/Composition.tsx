@@ -10,13 +10,14 @@ interface Caption {
 // Asset type definition - supports legacy string or new sequence object
 type AssetSpec = string | { type: 'sequence', prefix: string, count: number };
 
-interface ZodiacCompositionProps {
+export interface ZodiacCompositionProps {
     scriptText: string;
     audioSrc: string;
     captions: Caption[];
     images: AssetSpec[];
     title?: string;
     optimizeForCI?: boolean;
+    durationInFrames?: number;
 }
 
 // Zodiac gradient backgrounds based on element
@@ -675,61 +676,29 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
                     zIndex: 10,
                     padding: '200px 40px 40px 40px',
                 }}>
-                    {/* Find the index of the active caption */}
+                    {/* Find the active caption */}
                     {(() => {
-                        const activeIndex = captions.findIndex(c => currentTime >= c.start && currentTime <= c.end);
-                        
-                        // Determine the "window" of captions to show. 
-                        // We want to show the current one + next 2-3, OR if we are in the middle of a sentence, show the whole sentence.
-                        // Simple approach: Show [Current, Current+1, Current+2] joined.
-                        let textToDisplay = "";
-                        if (activeIndex !== -1) {
-                            // Look ahead 2 captions
-                            const endWindow = Math.min(activeIndex + 3, captions.length);
-                            const windowCaptions = captions.slice(activeIndex, endWindow);
-                            textToDisplay = windowCaptions.map(c => c.text).join(" ");
-                        } else {
-                            // Fallback if between captions (start of next segment)
-                            const nextIndex = captions.findIndex(c => c.start > currentTime);
-                            if (nextIndex !== -1) {
-                                 const endWindow = Math.min(nextIndex + 3, captions.length);
-                                 textToDisplay = captions.slice(nextIndex, endWindow).map(c => c.text).join(" ");
-                            }
-                        }
-
-                        // Split text into words for highlighting
-                        const words = textToDisplay.split(' ');
+                        const activeCaption = captions.find(c => currentTime >= c.start && currentTime <= c.end);
+                        const textToDisplay = activeCaption ? activeCaption.text : "";
 
                         return (
                             <div style={{
                                 fontFamily: 'Montserrat, sans-serif',
-                                fontSize: 48,
-                                fontWeight: 800,
+                                fontSize: 64, // Increased for impact
+                                fontWeight: 900,
                                 color: 'white',
-                                textShadow: '0 0 15px rgba(0,0,0,0.8), 0 0 30px rgba(255,215,0,0.4)',
+                                textShadow: '0 0 20px rgba(0,0,0,0.9), 0 0 40px rgba(255,215,0,0.6)',
                                 textAlign: 'center',
-                                lineHeight: 1.3,
+                                lineHeight: 1.2,
                                 width: '100%',
                                 maxWidth: '100%',
                                 overflowWrap: 'break-word',
                                 wordBreak: 'break-word',
+                                textTransform: 'uppercase', // Bold, uppercase for virality
+                                letterSpacing: '1px',
+                                filter: 'drop-shadow(0 0 10px rgba(255,215,0,0.3))',
                             }}>
-                                {words.map((word, i) => {
-                                    const isHighlighted = activeIndex !== -1 && captions[activeIndex].text.includes(word);
-                                    return (
-                                        <span 
-                                            key={i} 
-                                            style={{ 
-                                                color: isHighlighted ? '#FFD700' : 'white',
-                                                transition: 'color 0.2s ease-out',
-                                                marginRight: '0.5em',
-                                                display: 'inline-block',
-                                            }}
-                                        >
-                                            {word}
-                                        </span>
-                                    );
-                                })}
+                                {textToDisplay}
                             </div>
                         );
                     })()}
