@@ -4,6 +4,7 @@ import subprocess
 import sys
 import re
 import random
+import time
 import datetime
 
 # Import existing logic
@@ -14,6 +15,7 @@ try:
     from youtube_uploader import upload_video
 except ImportError:
     upload_video = None
+import imageio_ffmpeg
 def clean_speech(text):
     """Cleans text for TTS to prevent truncation/errors."""
     # Remove emojis
@@ -26,6 +28,173 @@ def clean_speech(text):
     # Standardize spacing
     text = re.sub(r'\s+', ' ', text)
     return text.strip()
+
+def split_sentences(text):
+    """Splits text into sentences, keeping punctuation."""
+    # Split by . ! ? followed by space or end of string
+    # We use a capture group to keep the delimiter
+    parts = re.split(r'([.!?]+)', text)
+    sentences = []
+    current = ""
+    for p in parts:
+        if re.match(r'^[.!?]+$', p):
+            current += p
+            sentences.append(current.strip())
+            current = ""
+        else:
+            current += p
+    if current.strip():
+        sentences.append(current.strip())
+    return [s for s in sentences if s]
+
+def get_audio_duration(fpath):
+    """Gets audio duration using MoviePy (more reliable than system ffprobe)."""
+    try:
+        with AudioFileClip(fpath) as clip:
+            return clip.duration
+    except Exception as e:
+        log_error(f"Duration check failed for {fpath}: {e}")
+        return 0.0
+
+def write_vtt(captions, path):
+    """Writes a list of caption dicts to a VTT file."""
+    def fmt_time(s):
+        ms = int((s % 1) * 1000)
+        m, s_int = divmod(int(s), 60)
+        h, m = divmod(m, 60)
+        return f"{h:02}:{m:02}:{s_int:02}.{ms:03}"
+
+    with open(path, 'w', encoding='utf-8') as f:
+        f.write("WEBVTT\n\n")
+        for c in captions:
+            start = fmt_time(c['start'])
+            end = fmt_time(c['end'])
+            text = c['text']
+            # Escape newlines in text just in case? No, VTT allows newlines.
+            f.write(f"{start} --> {end}\n{text}\n\n")
+
+def generate_segmented_audio(script_text, audio_out, vtt_out):
+    """
+    Generates audio sentence-by-sentence with 0.2s pauses.
+    Stitches audio and realigns VTT timestamps.
+    """
+    import shutil
+    
+    sentences = split_sentences(script_text)
+    if not sentences:
+        log_error("No sentences found.")
+        return False
+        
+    temp_dir = os.path.join("video-engine", "public", ".temp_tts_" + str(random.randint(1000,9999)))
+    os.makedirs(temp_dir, exist_ok=True)
+    
+    segments = []
+    voice = "en-US-ChristopherNeural"
+    
+    log_info(f"Generating audio for {len(sentences)} sentences...")
+    
+    for i, sent in enumerate(sentences):
+        safe_sent = clean_speech(sent)
+        if not safe_sent: continue
+        
+        seg_audio = os.path.join(temp_dir, f"seg_{i}.mp3")
+        seg_vtt = os.path.join(temp_dir, f"seg_{i}.vtt")
+        
+        # Small delay to be safe
+        if i > 0: time.sleep(0.5)
+        
+        cmd = [
+            sys.executable, "-m", "edge_tts",
+            "--voice", voice,
+            "--text", safe_sent,
+            "--write-media", seg_audio,
+            "--write-subtitles", seg_vtt
+        ]
+        try:
+            subprocess.run(cmd, check=True)
+            segments.append({
+                "audio": seg_audio,
+                "vtt": seg_vtt,
+            })
+        except subprocess.CalledProcessError as e:
+            log_error(f"Failed segment {i}: {e}")
+            # Retry
+            try:
+                # Retry without punctuation
+                cleaned = re.sub(r'[^\w\s]', '', safe_sent)
+                cmd = [
+                    sys.executable, "-m", "edge_tts",
+                    "--voice", voice,
+                    "--text", cleaned,
+                    "--write-media", seg_audio,
+                    "--write-subtitles", seg_vtt
+                ]
+                subprocess.run(cmd, check=True)
+                segments.append({
+                    "audio": seg_audio,
+                    "vtt": seg_vtt,
+                })
+            except Exception as e2:
+                 log_error(f"Retry failed for segment {i}: {e2}")
+
+    if not segments:
+        return False
+
+    # Generate Silence
+    ffmpeg_exe = imageio_ffmpeg.get_ffmpeg_exe()
+    silence_file = os.path.join(temp_dir, "silence.mp3")
+    subprocess.run([
+        ffmpeg_exe, "-v", "error", "-f", "lavfi", "-i", "anullsrc=r=24000:cl=mono", 
+        "-t", "0.2", "-q:a", "2", "-acodec", "libmp3lame", "-y", silence_file
+    ], check=True)
+    
+    # Create Concat List
+    concat_txt = os.path.join(temp_dir, "concat.txt")
+    with open(concat_txt, 'w') as f:
+        for i, seg in enumerate(segments):
+            p = os.path.abspath(seg['audio']).replace('\\', '/')
+            s = os.path.abspath(silence_file).replace('\\', '/')
+            f.write(f"file '{p}'\n")
+            if i < len(segments) - 1:
+                f.write(f"file '{s}'\n")
+            
+    # Stitch Audio
+    try:
+        subprocess.run([
+            ffmpeg_exe, "-v", "error", "-f", "concat", "-safe", "0", "-i", concat_txt, 
+            "-c", "copy", "-y", audio_out
+        ], check=True)
+    except Exception as e:
+        log_error(f"Audio stitching failed: {e}")
+        return False
+        
+    # Stitch VTT
+    final_captions = []
+    current_offset = 0.0
+    silence_duration = 0.2
+    
+    for i, seg in enumerate(segments):
+        seg_captions = parse_vtt(seg['vtt'])
+        dur = get_audio_duration(seg['audio'])
+        
+        if dur == 0.0 and seg_captions:
+            dur = seg_captions[-1]['end']
+            
+        for cap in seg_captions:
+            cap['start'] += current_offset
+            cap['end'] += current_offset
+            final_captions.append(cap)
+            
+        current_offset += dur 
+        if i < len(segments) - 1:
+            current_offset += silence_duration
+        
+    write_vtt(final_captions, vtt_out)
+    
+    try: shutil.rmtree(temp_dir)
+    except: pass
+    
+    return True
 
 def parse_vtt(vtt_file):
     """Parses a WebVTT file cleanly, handling edge cases."""
@@ -119,7 +288,7 @@ def generate_fallback_captions(script_text, duration_est=60):
         
     return captions
 
-from cli_utils import log_section, log_info, log_success, log_error
+from cli_utils import log_section, log_info, log_success, log_error, log_warning
 
 # ... (imports) ...
 
@@ -184,25 +353,16 @@ def process_plan(filename):
         log_error(f"Skipping {filename}: No script text.")
         return
 
-    # 2. GENERATE AUDIO & SUBTITLES (EdgeTTS)
-    log_info("Generating Audio & VTT...")
+    # 2. GENERATE AUDIO & SUBTITLES (Segmented for Pauses)
+    log_info("Generating Audio & VTT with pauses...")
     audio_file = os.path.abspath(f"video-engine/public/{safe_target}.mp3")
     vtt_file = os.path.abspath(f"video-engine/public/{safe_target}.vtt")
     
     os.makedirs(os.path.dirname(audio_file), exist_ok=True)
     
-    voice = "en-US-ChristopherNeural"
-    cmd = [
-        "edge-tts",
-        "--voice", voice,
-        "--text", clean_speech(script_text), 
-        "--write-media", audio_file,
-        "--write-subtitles", vtt_file
-    ]
-    try:
-        subprocess.run(cmd, check=True)
-    except subprocess.CalledProcessError as e:
-        log_error(f"EdgeTTS failed for {filename}: {e}")
+    success = generate_segmented_audio(script_text, audio_file, vtt_file)
+    if not success:
+        log_error("Segmented Audio Generation Failed.")
         return
     
     # 2.5 CALCULATE DURATION
@@ -224,9 +384,15 @@ def process_plan(filename):
             captions = parse_vtt(vtt_file)
     except Exception: pass
     
+    except Exception: pass
+    
     if not captions:
         log_warning("No captions parsed from VTT. Using fallback generator.")
         captions = generate_fallback_captions(script_text)
+    
+    # Ensure all captions are uppercase for style
+    for c in captions:
+        c['text'] = c['text'].upper()
         
     log_success(f"Final caption count: {len(captions)}")
         

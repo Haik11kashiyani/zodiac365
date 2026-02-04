@@ -5,3 +5,9 @@ __pycache__/
 *.log
 plan_*.json
 output_videos/
+video-engine/public/*.mp3
+video-engine/public/*.vtt
+video-engine/public/*.jpg
+video-engine/public/assets/
+video-engine/input.json
+video-engine/out/
