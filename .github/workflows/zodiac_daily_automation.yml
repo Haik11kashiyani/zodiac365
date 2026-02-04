@@ -1,4 +1,4 @@
-ame: Zodiac Daily Automation
+name: Zodiac Daily Automation
 
 on:
   schedule:
