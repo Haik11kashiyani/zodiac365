@@ -21,7 +21,8 @@ import argparse
 def generate_daily(today):
     print("--- 🌞 GENERATING DAILY VIDEOS ---")
     for sign in SIGNS:
-        generator_zodiac.generate_zodiac_video('daily', sign, today.strftime("%B %d, %Y"))
+        if not generator_zodiac.generate_zodiac_video('daily', sign, today.strftime("%B %d, %Y")):
+            print(f"❌ Failed to generate daily video for {sign}")
     
     # Wildcard Special (Daily Only)
     print("--- 🃏 GENERATING WILDCARD VIDEO ---")

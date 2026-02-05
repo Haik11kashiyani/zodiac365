@@ -497,7 +497,11 @@ def main():
             return
 
         for p in pending:
-            process_plan(p)
+            try:
+                process_plan(p)
+            except Exception as e:
+                log_error(f"CRITICAL FAILURE processing {p}: {e}")
+                continue
     else:
         # Legacy single mode (env var driven)
         target = os.environ.get('TARGET_SIGN', 'Aries')
