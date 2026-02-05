@@ -11,10 +11,11 @@ import datetime
 from generator_zodiac import generate_zodiac_video
 from moviepy.editor import AudioFileClip
 from video_sourcer import get_b_roll_sequence
-try:
     from youtube_uploader import upload_video
-except ImportError:
+    log_info("✅ youtube_uploader imported successfully.")
+except ImportError as e:
     upload_video = None
+    log_warning(f"⚠️ Could not import youtube_uploader: {e}")
 import imageio_ffmpeg
 def clean_speech(text):
     """Cleans text for TTS to prevent truncation/errors."""
@@ -457,18 +458,24 @@ def process_plan(filename):
 
     # 7. UPLOAD
     output_video_path = os.path.join(video_engine_dir, "out", "video.mp4")
-    if os.path.exists(output_video_path) and upload_video:
-        log_info("Uploading...")
-        if upload_video(output_video_path, data):
-             # Mark as done in file
-             data['status'] = 'uploaded'
-             with open(filename, 'w') as f:
-                 json.dump(data, f, indent=2)
-             log_success(f"Done: {filename}")
-        else:
-            log_error(f"Upload failed for {filename}.")
+    
+    if not os.path.exists(output_video_path):
+        log_error(f"Upload skipped: Video file not found at {output_video_path}")
+        return
+
+    if not upload_video:
+        log_warning("Upload skipped: upload_video function is not available (ImportError previously).")
+        return
+
+    log_info("Uploading...")
+    if upload_video(output_video_path, data):
+         # Mark as done in file
+         data['status'] = 'uploaded'
+         with open(filename, 'w') as f:
+             json.dump(data, f, indent=2)
+         log_success(f"Done: {filename}")
     else:
-        log_warning("Upload skipped (File missing or Uploader disabled).")
+        log_error(f"Upload failed for {filename}.")
 
 import argparse
 import glob
