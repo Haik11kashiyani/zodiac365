@@ -6,6 +6,7 @@ import re
 import random
 import time
 import datetime
+import shutil
 
 # Import existing logic
 from generator_zodiac import generate_zodiac_video
@@ -462,6 +463,17 @@ def process_plan(filename):
     if not os.path.exists(output_video_path):
         log_error(f"Upload skipped: Video file not found at {output_video_path}")
         return
+
+    # SAVE LOCAL COPY FOR DEBUGGING
+    debug_dir = "output_videos"
+    os.makedirs(debug_dir, exist_ok=True)
+    debug_path = os.path.join(debug_dir, f"{safe_target}.mp4")
+    try:
+        shutil.copy(output_video_path, debug_path)
+        log_success(f"Video saved locally to {debug_path}")
+    except Exception as e:
+        log_warning(f"Could not save local copy: {e}")
+
 
     if not upload_video:
         log_warning("Upload skipped: upload_video function is not available (ImportError previously).")
