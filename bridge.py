@@ -12,6 +12,9 @@ import shutil
 from generator_zodiac import generate_zodiac_video
 from moviepy.editor import AudioFileClip
 from video_sourcer import get_b_roll_sequence
+from cli_utils import log_info, log_warning, log_error, log_success, log_section
+
+try:
     from youtube_uploader import upload_video
     log_info("✅ youtube_uploader imported successfully.")
 except ImportError as e:
@@ -290,7 +293,7 @@ def generate_fallback_captions(script_text, duration_est=60):
         
     return captions
 
-from cli_utils import log_section, log_info, log_success, log_error, log_warning
+
 
 # ... (imports) ...
 
