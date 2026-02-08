@@ -3,7 +3,7 @@ client_secret*.json
 __pycache__/
 *.pyc
 *.log
-plan_*.json
+
 output_videos/
 video-engine/public/*.mp3
 video-engine/public/*.vtt
