@@ -1,0 +1,59 @@
+{
+    "script_text": "Listen, Leo. Mars is currently squaring your radiant Sun, igniting a firestorm of restless energy that's been building all week. This cosmic friction isn't here to break you\u2014it's here to awaken something fierce within. Venus enters Aries midweek, forming a powerful trine to your sign. Translation? Your magnetism just got a cosmic upgrade. But here's what the ancient charts whisper: Mercury retrograde shadows are lurking. Double-check every contract, every text, every promise. The Moon's opposition to your ruler demands you balance pride with partnership. Your mission this week: Channel this Martian fire into bold action, not impulsive reactions. The stars are handing you a torch\u2014will you burn bridges or light the way? The cosmos doesn't make mistakes, lion. It makes legends. Drop a \ud83d\udd25 if you're ready to claim yours.",
+    "captions_structure": [
+        {
+            "text": "\u26a0\ufe0f LEO WEEKLY",
+            "type": "header"
+        },
+        {
+            "text": "Mars is squaring your Sun...",
+            "type": "normal"
+        },
+        {
+            "text": "Venus trine = MAGNETISM UPGRADE",
+            "type": "highlight"
+        },
+        {
+            "text": "Mercury shadows lurking \ud83d\udc41\ufe0f",
+            "type": "normal"
+        },
+        {
+            "text": "Drop \ud83d\udd25 to claim your power",
+            "type": "cta"
+        }
+    ],
+    "title": "Leo Weekly Warning: Feb 8-14",
+    "youtube_title": "\u26a0\ufe0f URGENT: Leo's Firestorm Week #shorts",
+    "youtube_description": "Mars is attacking your Sun, Leo\u2014and something HUGE is about to shift. Sub to claim your cosmic advantage this week! \ud83d\udd25\n\n\ud83d\udd25 Weekly Leo horoscope Feb 8-14 2026\n\ud83d\udd25 Mars square Sun transit explained\n\ud83d\udd25 Venus trine Leo blessing incoming\n\nSubscribe & comment 'LION' to activate these cosmic energies! \ud83e\udd81\u2728\n\n#LeoHoroscope #WeeklyHoroscope #LeoSeason #Astrology2026 #MarsTransit #VenusInAries #MercuryRetrograde #LeoLove #FireSign #ZodiacReading #HoroscopeToday #AstrologyShorts #LeoPrediction #CosmicUpdate #SpiritualGuidance #ZodiacSigns #AstrologyCommunity #LeoStrength #WeeklyForecast",
+    "youtube_tags": [
+        "leo horoscope",
+        "weekly horoscope",
+        "february 2026 horoscope",
+        "leo astrology",
+        "mars square sun",
+        "venus trine leo",
+        "mercury retrograde 2026",
+        "fire sign horoscope",
+        "leo prediction",
+        "zodiac reading",
+        "astrology shorts",
+        "leo weekly forecast",
+        "leo warning",
+        "urgent horoscope",
+        "leo love horoscope",
+        "mars transit 2026",
+        "venus in aries",
+        "leo spiritual guidance",
+        "cosmic update leo",
+        "astrology prediction"
+    ],
+    "type": "weekly",
+    "target": "Leo",
+    "date": "Feb 08 - Feb 14",
+    "images": [
+        "assets/zodiac_signs/Leo.jpg"
+    ],
+    "active": true,
+    "status": "pending",
+    "file_name": "plan_weekly_Leo.json"
+}
