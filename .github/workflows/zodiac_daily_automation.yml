@@ -2,8 +2,11 @@ name: Zodiac Daily Automation
 
 on:
   schedule:
-    - cron: "0 11 * * *" # 11:00 UTC = 6:00 AM EST (Target: Morning Peak)
-    - cron: "0 20 * * 0" # Weekly on Sundays
+    # US Morning Peak - 8:00 AM EST = 13:00 UTC
+    # Prime time for horoscope content when users start their day
+    - cron: "0 13 * * *"
+    # Weekly on Sundays at 9:00 AM EST = 14:00 UTC
+    - cron: "0 14 * * 0"
   workflow_dispatch:
 
 jobs:
@@ -54,9 +57,9 @@ jobs:
         run: |
           echo "🚀 Starting Video Production..."
           current_hour=$(date -u +%H)
-          if [ "$current_hour" -eq "11" ]; then
+          if [ "$current_hour" -eq "13" ]; then
              python master_brain.py --mode daily
-          elif [ "$current_hour" -eq "20" ]; then
+          elif [ "$current_hour" -eq "14" ]; then
              python master_brain.py --mode weekly
           else
              python master_brain.py --mode all

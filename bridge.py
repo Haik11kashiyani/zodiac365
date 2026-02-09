@@ -389,8 +389,6 @@ def process_plan(filename):
             captions = parse_vtt(vtt_file)
     except Exception: pass
     
-    except Exception: pass
-    
     if not captions:
         log_warning("No captions parsed from VTT. Using fallback generator.")
         captions = generate_fallback_captions(script_text)

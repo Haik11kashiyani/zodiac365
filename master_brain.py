@@ -1,4 +1,4 @@
-import datetime, random, generator_zodiac, generator_tarot, json, os, sys
+import datetime, random, generator_zodiac, generator_tarot, json, os, sys, glob
 
 # Force UTF-8 for Windows Consoles
 sys.stdout.reconfigure(encoding='utf-8')
