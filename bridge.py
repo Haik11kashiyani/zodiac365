@@ -387,7 +387,8 @@ def process_plan(filename):
     try:
         if os.path.exists(vtt_file):
             captions = parse_vtt(vtt_file)
-    except Exception: pass
+    except Exception as e:
+        log_error(f"VTT parsing failed: {e}")
     
     if not captions:
         log_warning("No captions parsed from VTT. Using fallback generator.")
@@ -452,10 +453,14 @@ def process_plan(filename):
     log_info("Building Video...")
     video_engine_dir = os.path.join(os.path.dirname(__file__), "video-engine")
     try:
-        subprocess.run(["npm", "run", "build"], cwd=video_engine_dir, check=True, shell=True)
+        result = subprocess.run(["npm", "run", "build"], cwd=video_engine_dir, check=True, shell=True, capture_output=True, text=True)
         log_success("Build Complete!")
-    except subprocess.CalledProcessError:
-        log_error("Build Failed. Skipping upload.")
+    except subprocess.CalledProcessError as e:
+        log_error(f"Build Failed (exit code {e.returncode}). Skipping upload.")
+        if e.stderr:
+            log_error(f"Build stderr: {e.stderr[-500:]}")
+        if e.stdout:
+            log_info(f"Build stdout (last 500 chars): {e.stdout[-500:]}")
         return
 
     # 7. UPLOAD
@@ -516,12 +521,24 @@ def main():
             log_info("No pending plans found. Exiting batch mode.")
             return
 
+        success_count = 0
+        fail_count = 0
         for p in pending:
             try:
                 process_plan(p)
+                # Check if it was actually uploaded
+                with open(p, 'r') as f:
+                    if json.load(f).get('status') == 'uploaded':
+                        success_count += 1
+                    else:
+                        fail_count += 1
             except Exception as e:
                 log_error(f"CRITICAL FAILURE processing {p}: {e}")
+                fail_count += 1
                 continue
+        
+        log_section("📊 BATCH SUMMARY")
+        log_info(f"Total: {len(pending)} | ✅ Uploaded: {success_count} | ❌ Failed: {fail_count}")
     else:
         # Legacy single mode (env var driven)
         target = os.environ.get('TARGET_SIGN', 'Aries')

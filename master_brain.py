@@ -52,6 +52,11 @@ def run_empire():
     today = datetime.date.today()
     print(f"🚀 GENERATING EMPIRE CONTENT FOR {today} (Mode: {args.mode.upper()})...")
 
+    # CRITICAL: Clean old plans so fresh content is generated every run.
+    # Without this, stale "pending" plan files from Git checkout trigger
+    # the MANUAL OVERRIDE check and skip all AI generation.
+    clean_workspace()
+
     if args.mode in ['daily', 'all']:
         # Delayed Start Check: Jan 9, 2026 (Friday)
         start_date = datetime.date(2026, 1, 9)

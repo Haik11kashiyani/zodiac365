@@ -98,8 +98,9 @@ def ask_ai(prompt, sys_msg="You are a mystical video director."):
 def get_emergency_fallback_script():
     """Returns a generic horoscope script when all AI services are unavailable."""
     return {
-        "script": "Welcome to your daily cosmic forecast! The stars are aligning in your favor today. Positive energy surrounds you, bringing opportunities for growth and success. Love is in the air, and financial prospects look promising. Stay focused on your goals and trust your intuition. The universe has special plans for you. Remember to stay grounded and appreciate the small blessings. Your lucky numbers are shining bright. Embrace the day with confidence and watch as magic unfolds. Until next time, may the cosmos guide your path!",
-        "headline": "Cosmic Energy Awaits You Today!",
-        "thumbnail_headline": "STARS ALIGN FOR YOU",
-        "style_hints": "mystical, cosmic, positive energy, golden light"
+        "script_text": "Stop scrolling! The cosmos has an urgent message for you right now. The stars are aligning in your favor today, creating a powerful window of opportunity. Positive energy surrounds you, bringing unexpected breakthroughs in love and finances. Stay focused on your goals and trust your intuition. The universe has special plans for you. Remember to stay grounded and appreciate the small blessings. Your lucky numbers are shining bright. Embrace the day with confidence and watch as magic unfolds. Subscribe and follow for your daily cosmic guidance!",
+        "title": "Daily Cosmic Forecast",
+        "youtube_title": "⚠️ The Universe Has a Message For You... #shorts",
+        "youtube_description": "The cosmos is speaking directly to YOU today. Don't ignore this sign! Subscribe for daily horoscope readings.",
+        "youtube_tags": ["horoscope", "astrology", "zodiac", "daily horoscope", "cosmic message", "universe", "shorts"]
     }
