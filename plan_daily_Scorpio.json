@@ -1,0 +1,32 @@
+{
+    "script_text": "Stop scrolling... Mars squares you, dear Scorpio.",
+    "captions_structure": [
+        {
+            "text": "LEO WARNING",
+            "type": "header"
+        },
+        {
+            "text": "Stop scrolling..."
+        }
+    ],
+    "title": "Internal Title",
+    "youtube_title": "\u26a0\ufe0f WARNING: Scorpio's shift is real! \ud83d\udd2e #shorts",
+    "youtube_description": "Hidden forces awaken. Sub to claim urgent insight. #astrology #scorpio #horoscope",
+    "youtube_tags": [
+        "astrology",
+        "scorpio",
+        "mystic",
+        "horoscope",
+        "celestial"
+    ],
+    "tips": "Heed the planetary tension\u2014this is no ordinary reading.",
+    "type": "daily",
+    "target": "Scorpio",
+    "date": "February 12, 2026",
+    "images": [
+        "assets/zodiac_signs/Scorpio.jpg"
+    ],
+    "active": true,
+    "status": "pending",
+    "file_name": "plan_daily_Scorpio.json"
+}
