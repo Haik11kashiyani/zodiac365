@@ -83,4 +83,12 @@ def run_empire():
     if args.mode in ['weekly', 'all']:
         generate_weekly(today)
 
+    # Verify plans were created
+    import glob
+    created_plans = glob.glob("plan_*.json")
+    print(f"📋 Total plan files ready for processing: {len(created_plans)}")
+    if len(created_plans) == 0:
+        print("❌ FATAL: No plan files created! Aborting.")
+        sys.exit(1)
+
 if __name__ == "__main__": run_empire()

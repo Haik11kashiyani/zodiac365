@@ -453,14 +453,14 @@ def process_plan(filename):
     log_info("Building Video...")
     video_engine_dir = os.path.join(os.path.dirname(__file__), "video-engine")
     try:
-        result = subprocess.run(["npm", "run", "build"], cwd=video_engine_dir, check=True, shell=True, capture_output=True, text=True)
+        # FIX: Use string command with shell=True for cross-platform compatibility (Windows/Linux)
+        # and remove capture_output=True so logs appear in GitHub Actions
+        cmd = "npm run build"
+        log_info(f"Executing: {cmd}")
+        subprocess.run(cmd, cwd=video_engine_dir, check=True, shell=True, text=True)
         log_success("Build Complete!")
     except subprocess.CalledProcessError as e:
         log_error(f"Build Failed (exit code {e.returncode}). Skipping upload.")
-        if e.stderr:
-            log_error(f"Build stderr:\n{e.stderr[-2000:]}")
-        if e.stdout:
-            log_info(f"Build stdout:\n{e.stdout[-2000:]}")
         return
 
     # 7. UPLOAD
@@ -540,6 +540,11 @@ def main():
         
         log_section("📊 BATCH SUMMARY")
         log_info(f"Total: {len(pending)} | ✅ Uploaded: {success_count} | ❌ Failed: {fail_count}")
+        
+        # FATAL ERROR if nothing worked (ensures CI fails)
+        if success_count == 0 and fail_count > 0:
+            log_error("FATAL: All video builds failed! Exiting with error.")
+            sys.exit(1)
     else:
         # Legacy single mode (env var driven)
         target = os.environ.get('TARGET_SIGN', 'Aries')

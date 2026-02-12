@@ -229,6 +229,6 @@ def get_b_roll_sequence(script_text, sign, count=6):
     
     # If we still don't have enough, pad with duplicates (better than crash) or single video
     if not videos:
-        return None
+        return []
         
     return videos
