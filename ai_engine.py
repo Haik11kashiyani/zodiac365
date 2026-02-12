@@ -3,8 +3,14 @@ from cli_utils import log_info, log_error, log_warning, wait_random
 
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY")
 
+_cached_models = None
+
 def get_live_free_models():
-    """Dynamically researches OpenRouter to find currently active free models."""
+    """Dynamically discovers free models from OpenRouter. Cached per run."""
+    global _cached_models
+    if _cached_models is not None:
+        return _cached_models
+
     try:
         url = "https://openrouter.ai/api/v1/models"
         headers = {"Authorization": f"Bearer {OPENROUTER_API_KEY}"}
@@ -19,6 +25,7 @@ def get_live_free_models():
                 and float(m.get('pricing', {}).get('completion', 1)) == 0
             ]
             log_info(f"Oracle discovered {len(free_list)} active free models.")
+            _cached_models = free_list
             return free_list
     except Exception as e:
         log_warning(f"Research failed: {e}. Using fallback list.")

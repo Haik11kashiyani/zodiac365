@@ -458,9 +458,9 @@ def process_plan(filename):
     except subprocess.CalledProcessError as e:
         log_error(f"Build Failed (exit code {e.returncode}). Skipping upload.")
         if e.stderr:
-            log_error(f"Build stderr: {e.stderr[-500:]}")
+            log_error(f"Build stderr:\n{e.stderr[-2000:]}")
         if e.stdout:
-            log_info(f"Build stdout (last 500 chars): {e.stdout[-500:]}")
+            log_info(f"Build stdout:\n{e.stdout[-2000:]}")
         return
 
     # 7. UPLOAD
@@ -523,8 +523,9 @@ def main():
 
         success_count = 0
         fail_count = 0
-        for p in pending:
+        for idx, p in enumerate(pending):
             try:
+                log_info(f"📦 Processing plan {idx+1}/{len(pending)}: {p}")
                 process_plan(p)
                 # Check if it was actually uploaded
                 with open(p, 'r') as f:

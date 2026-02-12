@@ -42,7 +42,11 @@ def generate_weekly(today):
     date_range = f"{start_of_week.strftime('%b %d')} - {end_of_week.strftime('%b %d')}"
     
     for sign in SIGNS:
-        generator_zodiac.generate_zodiac_video('weekly', sign, date_range)
+        if generator_zodiac.generate_zodiac_video('weekly', sign, date_range):
+            print(f"  ✅ {sign} weekly plan created.")
+        else:
+            print(f"  ❌ Failed to generate weekly for {sign}")
+    print(f"📊 Weekly generation complete for {len(SIGNS)} signs.")
 
 def run_empire():
     parser = argparse.ArgumentParser()
