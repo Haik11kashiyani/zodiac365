@@ -439,6 +439,11 @@ def process_plan(filename):
         "audioSrc": f"/{safe_target}.mp3",
         "captions": captions,
         "images": remotion_assets,
+        "luckyNumbers": data.get('lucky_numbers', []),
+        "luckyColor": data.get('lucky_color', ''),
+        "monthlyVibe": data.get('monthly_vibe', ''),
+        "date": data.get('date', ''),
+        "predictionType": data.get('type', 'daily').upper(),
         "title": data.get('youtube_title', 'Zodiac Video'),
         "durationInFrames": video_duration_frames,
         "optimizeForCI": os.environ.get("CI") == "true" or os.environ.get("GITHUB_ACTIONS") == "true"

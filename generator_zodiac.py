@@ -51,6 +51,9 @@ def generate_content(mode, target, date_str):
             {{"text": "LEO WARNING", "type": "header"}},
             {{"text": "Stop scrolling...", "type": "normal"}}
         ],
+        "lucky_numbers": ["7", "11", "21"],
+        "lucky_color": "Emerald Green",
+        "monthly_vibe": "Reflective & Calm",
         "title": "Internal Title",
         "youtube_title": "⚠️ WARNING: [Sign]... #shorts", 
         "youtube_description": "First line must be a hook! Include 5+ tags.",
@@ -62,6 +65,10 @@ def generate_content(mode, target, date_str):
     2. **SCRIPT**: Start with a PATTERN INTERRUPT ("Stop scrolling!", "You need to hear this!").
     3. **DESCRIPTION**: Line 1 is the HOOK. Include "Sub to claim" CTA.
     4. **TAGS**: Generate 20 high-volume tags mixing Broad (#astrology) + Niche (#{target.lower()}).
+    5. **EXTRAS**:
+       - lucky_numbers: 3 distinct lucky numbers.
+       - lucky_color: A specific, evocative color (e.g. "Royal Blue", "Sunset Orange").
+       - monthly_vibe: 2-3 words describing the core theme (e.g. "Bold Action", "Quiet Reflection").
     """
     
     data = ask_ai(prompt + prompt_suffix)
@@ -76,6 +83,9 @@ def generate_content(mode, target, date_str):
         'type': mode, 
         'target': target, # Ensure target is saved
         'date': date_str, # CRITICAL FIX: Save the date!
+        'lucky_numbers': data.get('lucky_numbers', []),
+        'lucky_color': data.get('lucky_color', ''),
+        'monthly_vibe': data.get('monthly_vibe', ''),
         'images': [i for i in imgs if i], 
         'active': True,
         'status': 'pending'

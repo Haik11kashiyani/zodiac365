@@ -18,6 +18,12 @@ interface ZodiacCompositionProps {
     title?: string;
     durationInFrames?: number;
     optimizeForCI?: boolean;
+    // NEW PROPS
+    luckyNumbers?: string[];
+    luckyColor?: string;
+    monthlyVibe?: string;
+    date?: string;
+    predictionType?: string;
 }
 
 // Zodiac gradient backgrounds based on element
@@ -175,7 +181,12 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
     captions, 
     images,
     title = '',
-    optimizeForCI = false
+    optimizeForCI = false,
+    luckyNumbers = [],
+    luckyColor = '',
+    monthlyVibe = '',
+    date = '',
+    predictionType = 'DAILY',
 }) => {
     const frame = useCurrentFrame(); 
     const { fps, width, height } = useVideoConfig(); // durationInFrames is obtained from props or config
@@ -735,6 +746,91 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
                         textTransform: 'uppercase',
                         letterSpacing: 4,
                     }}>{zodiacSign}</span>
+                </div>
+            </div>
+
+            {/* INFO OVERLAY (Lucky Numbers, Color, Vibe, Date) - Top Left */}
+            <div style={{
+                position: 'absolute',
+                top: 40,
+                left: 40,
+                zIndex: 20,
+                display: 'flex',
+                flexDirection: 'column',
+                gap: 10,
+                fontFamily: 'Montserrat, sans-serif',
+                textAlign: 'left',
+            }}>
+                {/* PREDICTION TYPE HEADER */}
+                <div style={{
+                    background: 'rgba(255,215,0,0.9)',
+                    color: 'black',
+                    padding: '5px 15px',
+                    borderRadius: 5,
+                    fontSize: 24,
+                    fontWeight: 900,
+                    textTransform: 'uppercase',
+                    boxShadow: '0 0 15px rgba(255,215,0,0.4)',
+                    alignSelf: 'flex-start',
+                }}>
+                    {predictionType} PREDICTION
+                </div>
+
+                {/* DATE */}
+                <div style={{
+                    fontSize: 20,
+                    color: 'white',
+                    fontWeight: 600,
+                    opacity: 0.9,
+                    marginTop: 2,
+                    textShadow: '0 2px 4px rgba(0,0,0,0.5)',
+                }}>
+                    📅 {date}
+                </div>
+
+                <div style={{ 
+                    background: 'rgba(0, 0, 0, 0.6)', 
+                    padding: '15px', 
+                    borderRadius: 15,
+                    backdropFilter: 'blur(10px)',
+                    border: '1px solid rgba(255,255,255,0.1)',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    gap: 8,
+                    marginTop: 10,
+                }}>
+                     {/* LUCKY COLOR */}
+                     {luckyColor && (
+                        <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+                            <div style={{ width: 15, height: 15, borderRadius: '50%', background: luckyColor, boxShadow: '0 0 8px '+luckyColor }}></div>
+                            <span style={{ fontSize: 18, color: 'white', fontWeight: 500 }}>
+                                Color: <span style={{ color: luckyColor, fontWeight: 700 }}>{luckyColor}</span>
+                            </span>
+                        </div>
+                    )}
+
+                    {/* LUCKY NUMBERS */}
+                    {luckyNumbers && luckyNumbers.length > 0 && (
+                        <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+                            <span style={{ fontSize: 24 }}>🎰</span>
+                            <span style={{ fontSize: 18, color: 'white', fontWeight: 500 }}>
+                                Lucky: <span style={{ color: '#FFD700', fontWeight: 700 }}>{luckyNumbers.join(', ')}</span>
+                            </span>
+                        </div>
+                    )}
+
+                    {/* MONTHLY VIBE */}
+                    {monthlyVibe && (
+                        <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+                            <span style={{ fontSize: 24 }}>✨</span>
+                            <div style={{ display: 'flex', flexDirection: 'column' }}>
+                                <span style={{ fontSize: 14, color: 'rgba(255,255,255,0.7)', textTransform: 'uppercase', letterSpacing: 1 }}>current vibe</span>
+                                <span style={{ fontSize: 18, color: 'white', fontWeight: 700 }}>
+                                    {monthlyVibe}
+                                </span>
+                            </div>
+                        </div>
+                    )}
                 </div>
             </div>
 
