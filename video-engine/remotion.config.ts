@@ -4,6 +4,6 @@ Config.setVideoImageFormat('jpeg');
 Config.setOverwriteOutput(true);
 Config.setCodec('h264');
 
-// Increase timeout for slow CI environments (GitHub Actions)
-// Video seeking can take 1-3 seconds per frame on headless runners
-Config.setDelayRenderTimeoutInMilliseconds(300000);
+// Timeout for slow CI environments (GitHub Actions)
+// 2 minutes per frame is generous but catches truly stuck renders
+Config.setDelayRenderTimeoutInMilliseconds(120000);

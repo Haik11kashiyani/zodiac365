@@ -4,7 +4,7 @@
   "description": "Zodiac Video Engine",
   "scripts": {
     "start": "remotion preview src/index.tsx",
-    "build": "remotion render src/index.tsx ZodiacVideo out/video.mp4 --props=./input.json --gl=swangle --concurrency=1",
+    "build": "remotion render src/index.tsx ZodiacVideo out/video.mp4 --props=./input.json --gl=swangle --concurrency=2",
     "test": "eslint src --ext ts,tsx"
   },
   "dependencies": {

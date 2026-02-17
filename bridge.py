@@ -454,16 +454,18 @@ def process_plan(filename):
         json.dump(input_data, f, indent=2)
     log_success(f"Data written to {input_path}")
 
-    # 6. BUILD VIDEO
+    # 6. BUILD VIDEO (with 20-minute timeout to prevent stuck renders)
     log_info("Building Video...")
     video_engine_dir = os.path.join(os.path.dirname(__file__), "video-engine")
+    BUILD_TIMEOUT_SECONDS = 20 * 60  # 20 minutes max per video
     try:
-        # FIX: Use string command with shell=True for cross-platform compatibility (Windows/Linux)
-        # and remove capture_output=True so logs appear in GitHub Actions
         cmd = "npm run build"
-        log_info(f"Executing: {cmd}")
-        subprocess.run(cmd, cwd=video_engine_dir, check=True, shell=True, text=True)
+        log_info(f"Executing: {cmd} (timeout: {BUILD_TIMEOUT_SECONDS}s)")
+        subprocess.run(cmd, cwd=video_engine_dir, check=True, shell=True, text=True, timeout=BUILD_TIMEOUT_SECONDS)
         log_success("Build Complete!")
+    except subprocess.TimeoutExpired:
+        log_error(f"Build TIMED OUT after {BUILD_TIMEOUT_SECONDS}s. Skipping this video.")
+        return
     except subprocess.CalledProcessError as e:
         log_error(f"Build Failed (exit code {e.returncode}). Skipping upload.")
         return
@@ -510,6 +512,7 @@ def main():
 
     if args.batch:
         log_section("🔥 BATCH MODE ACTIVATED")
+        MAX_VIDEOS_PER_RUN = 14  # Cap to fit within GitHub Actions 6-hour limit
         plans = glob.glob("plan_*.json")
         pending = []
         for p in plans:
@@ -521,7 +524,20 @@ def main():
             except Exception as e:
                 log_error(f"Error reading plan file {p}: {e}")
         
+        # Priority sort: daily first, then monthly, then weekly, then others
+        def plan_priority(name):
+            if 'daily' in name: return 0
+            if 'monthly' in name: return 1
+            if 'yearly' in name: return 2
+            if 'weekly' in name: return 3
+            return 4
+        pending.sort(key=plan_priority)
+        
         log_info(f"Found {len(pending)} pending plans.")
+        if len(pending) > MAX_VIDEOS_PER_RUN:
+            log_warning(f"Capping to {MAX_VIDEOS_PER_RUN} videos this run (had {len(pending)} pending). Remaining will process next run.")
+            pending = pending[:MAX_VIDEOS_PER_RUN]
+        
         if not pending:
             log_info("No pending plans found. Exiting batch mode.")
             return
