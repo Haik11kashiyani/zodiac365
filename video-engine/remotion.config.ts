@@ -5,5 +5,5 @@ Config.setOverwriteOutput(true);
 Config.setCodec('h264');
 
 // Timeout for slow CI environments (GitHub Actions)
-// 2 minutes per frame is generous but catches truly stuck renders
-Config.setDelayRenderTimeoutInMilliseconds(120000);
+// 3 minutes - generous safety net (font loading is now non-blocking via font-display:swap)
+Config.setDelayRenderTimeoutInMilliseconds(180000);
