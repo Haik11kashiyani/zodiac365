@@ -116,7 +116,7 @@ def generate_segmented_audio(script_text, audio_out, vtt_out):
             "--write-subtitles", seg_vtt
         ]
         try:
-            subprocess.run(cmd, check=True)
+            subprocess.run(cmd, check=True, timeout=120)
             segments.append({
                 "audio": seg_audio,
                 "vtt": seg_vtt,
@@ -134,7 +134,7 @@ def generate_segmented_audio(script_text, audio_out, vtt_out):
                     "--write-media", seg_audio,
                     "--write-subtitles", seg_vtt
                 ]
-                subprocess.run(cmd, check=True)
+                subprocess.run(cmd, check=True, timeout=120)
                 segments.append({
                     "audio": seg_audio,
                     "vtt": seg_vtt,
@@ -343,6 +343,34 @@ def convert_to_image_sequence(input_path, output_dir_name):
         return None
 
 
+def _cleanup_previous_build():
+    """Remove leftover assets from previous video build to prevent stale data."""
+    asset_dir = "video-engine/public/assets"
+    if os.path.exists(asset_dir):
+        try:
+            shutil.rmtree(asset_dir)
+            log_info("🧹 Cleaned previous build assets.")
+        except Exception as e:
+            log_warning(f"Could not clean assets: {e}")
+    # Clean leftover audio/vtt in public/
+    public_dir = "video-engine/public"
+    for f in os.listdir(public_dir):
+        if f.endswith(('.mp3', '.vtt')):
+            try:
+                os.remove(os.path.join(public_dir, f))
+            except:
+                pass
+
+def _mark_plan_failed(filename, data, reason):
+    """Marks a plan as errored so it doesn't retry forever."""
+    try:
+        data['status'] = 'error'
+        data['error_reason'] = reason
+        with open(filename, 'w') as f:
+            json.dump(data, f, indent=2)
+    except:
+        pass
+
 def process_plan(filename):
     """Runs the full pipeline (Audio -> Build -> Upload) for a single plan file."""
     log_section(f"Processing: {filename}")
@@ -356,7 +384,11 @@ def process_plan(filename):
     
     if not script_text:
         log_error(f"Skipping {filename}: No script text.")
+        _mark_plan_failed(filename, data, 'No script text')
         return
+
+    # 1.5 CLEANUP previous build assets
+    _cleanup_previous_build()
 
     # 2. GENERATE AUDIO & SUBTITLES (Segmented for Pauses)
     log_info("Generating Audio & VTT with pauses...")
@@ -368,6 +400,7 @@ def process_plan(filename):
     success = generate_segmented_audio(script_text, audio_file, vtt_file)
     if not success:
         log_error("Segmented Audio Generation Failed.")
+        _mark_plan_failed(filename, data, 'Audio generation failed')
         return
     
     # 2.5 CALCULATE DURATION
@@ -465,9 +498,11 @@ def process_plan(filename):
         log_success("Build Complete!")
     except subprocess.TimeoutExpired:
         log_error(f"Build TIMED OUT after {BUILD_TIMEOUT_SECONDS}s. Skipping this video.")
+        _mark_plan_failed(filename, data, f'Build timed out after {BUILD_TIMEOUT_SECONDS}s')
         return
     except subprocess.CalledProcessError as e:
         log_error(f"Build Failed (exit code {e.returncode}). Skipping upload.")
+        _mark_plan_failed(filename, data, f'Build failed with exit code {e.returncode}')
         return
 
     # 7. UPLOAD
@@ -519,7 +554,7 @@ def main():
             try:
                 with open(p, 'r') as f:
                     d = json.load(f)
-                    if d.get('status') != 'uploaded':
+                    if d.get('status') not in ('uploaded', 'error'):
                         pending.append(p)
             except Exception as e:
                 log_error(f"Error reading plan file {p}: {e}")

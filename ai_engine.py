@@ -109,5 +109,8 @@ def get_emergency_fallback_script():
         "title": "Daily Cosmic Forecast",
         "youtube_title": "⚠️ The Universe Has a Message For You... #shorts",
         "youtube_description": "The cosmos is speaking directly to YOU today. Don't ignore this sign! Subscribe for daily horoscope readings.",
-        "youtube_tags": ["horoscope", "astrology", "zodiac", "daily horoscope", "cosmic message", "universe", "shorts"]
+        "youtube_tags": ["horoscope", "astrology", "zodiac", "daily horoscope", "cosmic message", "universe", "shorts"],
+        "lucky_numbers": ["7", "11", "22"],
+        "lucky_color": "Celestial Gold",
+        "monthly_vibe": "Cosmic Alignment"
     }
