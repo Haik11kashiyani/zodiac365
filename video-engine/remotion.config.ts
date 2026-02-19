@@ -6,4 +6,4 @@ Config.setCodec('h264');
 
 // Timeout for slow CI environments (GitHub Actions)
 // 3 minutes - generous safety net (font loading is now non-blocking via font-display:swap)
-Config.setDelayRenderTimeoutInMilliseconds(180000);
+Config.setDelayRenderTimeoutInMilliseconds(600000);
