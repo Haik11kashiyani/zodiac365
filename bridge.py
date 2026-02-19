@@ -354,12 +354,13 @@ def _cleanup_previous_build():
             log_warning(f"Could not clean assets: {e}")
     # Clean leftover audio/vtt in public/
     public_dir = "video-engine/public"
-    for f in os.listdir(public_dir):
-        if f.endswith(('.mp3', '.vtt')):
-            try:
-                os.remove(os.path.join(public_dir, f))
-            except:
-                pass
+    if os.path.exists(public_dir):
+        for f in os.listdir(public_dir):
+            if f.endswith(('.mp3', '.vtt')):
+                try:
+                    os.remove(os.path.join(public_dir, f))
+                except:
+                    pass
 
 def _mark_plan_failed(filename, data, reason):
     """Marks a plan as errored so it doesn't retry forever."""
