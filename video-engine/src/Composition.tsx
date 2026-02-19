@@ -946,6 +946,7 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
 
 const BackgroundClip: React.FC<{src: AssetSpec, index: number, total: number}> = ({ src, index, total }) => {
     const frame = useCurrentFrame();
+    const [hasError, setHasError] = React.useState(false);
     
     // Smooth Scale Ken Burns
     const scale = interpolate(frame, [0, 150], [1.0, 1.15], { extrapolateRight: 'clamp' });
@@ -957,6 +958,10 @@ const BackgroundClip: React.FC<{src: AssetSpec, index: number, total: number}> =
         transform: `scale(${scale})`
     };
 
+    if (hasError) {
+        return null;
+    }
+
     // Handle Image Sequence (Robust CI method)
     if (typeof src === 'object' && src.type === 'sequence') {
         const { prefix, count } = src;
@@ -964,26 +969,47 @@ const BackgroundClip: React.FC<{src: AssetSpec, index: number, total: number}> =
         const sequenceFrame = frame % count;
         // Construct path: prefix + frame_XXXX.jpg
         const imagePath = `${prefix}frame_${String(sequenceFrame).padStart(4, '0')}.jpg`;
-        return <Img src={staticFile(imagePath)} style={style} placeholder={undefined} onResize={undefined} onResizeCapture={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} />;
+        return <Img 
+            src={staticFile(imagePath)} 
+            style={style} 
+            onError={() => setHasError(true)}
+        />;
     }
 
     // Handle Legacy Video/Image (String path)
     const srcString = src as string;
-    // Fallback to a known good image if empty
-    const finalSrc = srcString || "https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg";
+    // Fallback to a known good image if empty - BUT if user wants "no video" fallback, we should just check if srcString exists.
+    // However, keeping the data URI fallback for "empty string" input is safe, but for "failed load" we return null.
+    // The user said: "if the video is not working then video genrated without it".
+    // So if srcString is broken, we handle via onError.
+    
+    const finalSrc = srcString || "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=";
     
     // Check if source is strictly a video file to avoid errors
     const isVideo = finalSrc.toLowerCase().endsWith('.mp4');
 
     if (isVideo) {
         // Use staticFile for local assets to prevent timeouts
-        // Reverted to Video component as OffthreadVideo was too slow on CI (12s/frame)
-        // Global timeout increased to 300000ms to handle slow seeking
-        return <Video src={staticFile(finalSrc)} style={style} muted loop />;
+        return <Video 
+            src={staticFile(finalSrc)} 
+            style={style} 
+            muted 
+            loop 
+            onError={() => {
+                console.warn(`Failed to load video: ${finalSrc}`);
+                setHasError(true);
+            }}
+        />;
     }
     
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    return <Img src={finalSrc} style={style} placeholder={undefined} onResize={undefined} onResizeCapture={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} />;
+    return <Img 
+        src={finalSrc} 
+        style={style} 
+        onError={() => {
+            console.warn(`Failed to load image: ${finalSrc}`);
+            setHasError(true);
+        }}
+    />;
 }
 
 // ============================================================
