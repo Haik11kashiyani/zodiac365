@@ -13,6 +13,35 @@ from generator_zodiac import generate_zodiac_video
 from moviepy.editor import AudioFileClip
 from video_sourcer import get_b_roll_sequence
 from cli_utils import log_info, log_warning, log_error, log_success, log_section
+import signal
+
+def run_command_with_timeout(cmd, cwd, timeout_sec):
+    """
+    Runs a command with a timeout and ensures the ENTIRE process tree is killed if it times out.
+    This prevents orphaned Node.js processes from piling up in CI.
+    """
+    if os.name == 'nt':
+        # Windows: Use Popen with shell=True. taskkill /T will handle the tree.
+        p = subprocess.Popen(cmd, cwd=cwd, shell=True)
+    else:
+        # Unix: Use process groups so we can kill the whole group
+        p = subprocess.Popen(cmd, cwd=cwd, shell=True, preexec_fn=os.setsid)
+        
+    try:
+        p.wait(timeout=timeout_sec)
+        if p.returncode != 0:
+            raise subprocess.CalledProcessError(p.returncode, cmd)
+    except subprocess.TimeoutExpired:
+        log_error(f"Command timed out after {timeout_sec}s. Killing process tree...")
+        if os.name == 'nt':
+            subprocess.run(f"taskkill /F /T /PID {p.pid}", shell=True)
+        else:
+             # Kill the process group (negate pid)
+            try:
+                os.killpg(os.getpgid(p.pid), signal.SIGTERM)
+            except:
+                p.kill()
+        raise
 
 try:
     from youtube_uploader import upload_video
@@ -495,7 +524,8 @@ def process_plan(filename):
     try:
         cmd = "npm run build"
         log_info(f"Executing: {cmd} (timeout: {BUILD_TIMEOUT_SECONDS}s)")
-        subprocess.run(cmd, cwd=video_engine_dir, check=True, shell=True, text=True, timeout=BUILD_TIMEOUT_SECONDS)
+        # Use new helper to ensure process tree cleanup
+        run_command_with_timeout(cmd, cwd=video_engine_dir, timeout_sec=BUILD_TIMEOUT_SECONDS)
         log_success("Build Complete!")
     except subprocess.TimeoutExpired:
         log_error(f"Build TIMED OUT after {BUILD_TIMEOUT_SECONDS}s. Skipping this video.")
