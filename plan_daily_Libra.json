@@ -10,7 +10,11 @@
       "type": "normal"
     }
   ],
-  "lucky_numbers": ["7", "14", "21"],
+  "lucky_numbers": [
+    "7",
+    "14",
+    "21"
+  ],
   "lucky_color": "Cosmic Blue",
   "monthly_vibe": "Harmony & Truth",
   "title": "Libra Daily Horoscope Feb12 2026",
@@ -41,8 +45,10 @@
   "type": "daily",
   "target": "Libra",
   "date": "February 12, 2026",
-  "images": ["assets/zodiac_signs/Libra.jpg"],
+  "images": [
+    "assets/zodiac_signs/Libra.jpg"
+  ],
   "active": true,
-  "status": "pending",
+  "status": "uploaded",
   "file_name": "plan_daily_Libra.json"
 }
