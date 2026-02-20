@@ -6,7 +6,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('/fonts/Montserrat-Regular.woff2') format('woff2');
+  src: url('../public/fonts/Montserrat-Regular.woff2') format('woff2');
 }
 
 /* Montserrat - Bold 700 */
@@ -15,7 +15,7 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url('/fonts/Montserrat-Bold.woff2') format('woff2');
+  src: url('../public/fonts/Montserrat-Bold.woff2') format('woff2');
 }
 
 /* Montserrat - ExtraBold 800 */
@@ -24,7 +24,7 @@
   font-style: normal;
   font-weight: 800;
   font-display: swap;
-  src: url('/fonts/Montserrat-ExtraBold.woff2') format('woff2');
+  src: url('../public/fonts/Montserrat-ExtraBold.woff2') format('woff2');
 }
 
 /* Montserrat - Black 900 */
@@ -33,7 +33,7 @@
   font-style: normal;
   font-weight: 900;
   font-display: swap;
-  src: url('/fonts/Montserrat-Black.woff2') format('woff2');
+  src: url('../public/fonts/Montserrat-Black.woff2') format('woff2');
 }
 
 /* Poppins - Regular 400 */
@@ -42,7 +42,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('/fonts/Poppins-Regular.woff2') format('woff2');
+  src: url('../public/fonts/Poppins-Regular.woff2') format('woff2');
 }
 
 /* Poppins - Bold 700 */
@@ -51,7 +51,7 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url('/fonts/Poppins-Bold.woff2') format('woff2');
+  src: url('../public/fonts/Poppins-Bold.woff2') format('woff2');
 }
 
 /* Poppins - Black 900 */
@@ -60,7 +60,7 @@
   font-style: normal;
   font-weight: 900;
   font-display: swap;
-  src: url('/fonts/Poppins-Black.woff2') format('woff2');
+  src: url('../public/fonts/Poppins-Black.woff2') format('woff2');
 }
 
 body {
