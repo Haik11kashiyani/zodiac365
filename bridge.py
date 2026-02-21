@@ -135,7 +135,7 @@ def generate_segmented_audio(script_text, audio_out, vtt_out):
         seg_vtt = os.path.join(temp_dir, f"seg_{i}.vtt")
         
         # Small delay to be safe
-        if i > 0: time.sleep(0.5)
+        if i > 0: time.sleep(0.15)
         
         cmd = [
             sys.executable, "-m", "edge_tts",
@@ -520,7 +520,7 @@ def process_plan(filename):
     # 6. BUILD VIDEO (with 20-minute timeout to prevent stuck renders)
     log_info("Building Video...")
     video_engine_dir = os.path.join(os.path.dirname(__file__), "video-engine")
-    BUILD_TIMEOUT_SECONDS = 20 * 60  # 20 minutes max per video
+    BUILD_TIMEOUT_SECONDS = 12 * 60  # 12 minutes max per video
     try:
         cmd = "npm run build"
         log_info(f"Executing: {cmd} (timeout: {BUILD_TIMEOUT_SECONDS}s)")
@@ -578,7 +578,7 @@ def main():
 
     if args.batch:
         log_section("🔥 BATCH MODE ACTIVATED")
-        MAX_VIDEOS_PER_RUN = 14  # Cap to fit within GitHub Actions 6-hour limit
+        MAX_VIDEOS_PER_RUN = 12  # Cap to fit within GitHub Actions 6-hour limit
         plans = glob.glob("plan_*.json")
         pending = []
         for p in plans:

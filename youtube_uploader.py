@@ -72,7 +72,7 @@ def get_authenticated_service():
         return None
 
 def generate_metadata(data):
-    """Generate Viral Title, Description, Tags using AI data or Dynamic Templates."""
+    """Generate Viral Title, Description, Tags optimized for YouTube Shorts algorithm."""
     
     # 1. Prefer AI-Generated Metadata if available
     ai_title = data.get('youtube_title')
@@ -86,78 +86,108 @@ def generate_metadata(data):
     current_year = datetime.datetime.now().year
     
     # --- TITLE STRATEGY ---
+    # YouTube Shorts: Keep under 70 chars, #Shorts MUST be exact casing
+    # Format: Emoji + Hook + Sign + #Shorts
     if ai_title:
-        # trust the AI but ensure hashtags
-        final_title = f"{emoji} {ai_title} #shorts #viral"
+        # Strip any existing hashtags from AI title, we'll add our own
+        clean_ai = ai_title.replace('#shorts', '').replace('#Shorts', '').replace('#viral', '').replace('#SHORTS', '').strip()
+        # Ensure it's punchy and short
+        if len(clean_ai) > 55:
+            clean_ai = clean_ai[:54].strip() + '…'
+        final_title = f"{clean_ai} #Shorts"
     else:
-        # Fallback Dynamic Templates
+        # Fallback Dynamic Templates — short, punchy, curiosity-driven
         if mode == 'daily':
-            final_title = f"{emoji} {target}: {date_str} Prediction 🔮 #shorts #viral"
+            hooks = [
+                f"{emoji} {target} — The Stars Are WARNING You Today",
+                f"{emoji} {target} — Don't Ignore This Sign",
+                f"{emoji} {target} — Today Changes Everything",
+                f"{emoji} {target} — Urgent Cosmic Message",
+            ]
+            import hashlib
+            idx = int(hashlib.md5(f"{target}{date_str}".encode()).hexdigest(), 16) % len(hooks)
+            final_title = f"{hooks[idx]} #Shorts"
+        elif mode == 'weekly':
+            final_title = f"{emoji} {target} Weekly — This Week Is Critical #Shorts"
         elif mode == 'monthly':
-            final_title = f"{emoji} {target}: {date_str} Forecast! ⚠️ #shorts"
+            final_title = f"{emoji} {target} {date_str} — Month of Destiny #Shorts"
         elif mode == 'yearly':
-            final_title = f"{emoji} {target} {current_year}: Full Prediction 🔮 #shorts"
+            final_title = f"{emoji} {target} {current_year} — Your Year Revealed #Shorts"
         elif mode == 'compatibility':
-            final_title = f"{target}: Only One Winner? 💔❤️ #shorts #viral"
+            final_title = f"{emoji} {target} — Who Wins in Love? #Shorts"
         else:
-            final_title = f"{data.get('title', 'Horoscope')} #shorts #viral"
+            final_title = f"{emoji} {data.get('title', 'Cosmic Message')} #Shorts"
+
+    # Hard limit: YouTube title max 100 chars
+    if len(final_title) > 100:
+        suffix = " #Shorts"
+        limit = 100 - len(suffix)
+        final_title = final_title[:limit-1].rstrip() + "…" + suffix
 
     # --- DESCRIPTION STRATEGY ---
+    # YouTube Shorts: First 2 lines visible in feed. Hook HARD.
+    # Only 3 hashtags at bottom (YouTube surfaces first 3 above the title)
     if ai_desc:
-        description_body = ai_desc
+        description_body = ai_desc.strip()
     else:
-        description_body = f"✨ Your {mode} prediction for {target} ({date_str}). Discover your destiny!"
+        description_body = f"The cosmos has an urgent message for {target} today. This is the sign you've been waiting for."
 
-    description = f"""{final_title}
+    # Pick the 3 best hashtags — YouTube shows exactly 3 above the title
+    primary_hashtags = f"#{target.lower()} #astrology #horoscope"
 
-{description_body}
+    description = f"""{description_body}
 
-📅 Date: {date_str}
-🔥 Sign: {target}
+🔮 Sign: {target} | 📅 {date_str}
 
-👇 **Subscribe for Daily Horoscopes!**
+👇 Subscribe for your DAILY cosmic guidance:
 https://www.youtube.com/@Zodiac365?sub_confirmation=1
 
-#astrology #zodiac #{target.lower().replace(' ', '')} #horoscope #dailyhoroscope #{mode} #shorts #viral #astrologyreadings #zodiacsigns #tarot #manifestation #spirituality
-"""
+💬 Drop your sign in the comments!
+❤️ Like if this resonated with you.
+
+{primary_hashtags}"""
 
     # --- TAGS STRATEGY ---
+    # YouTube tags (hidden metadata) — mix broad + niche + trending
     final_tags = []
     
-    # 1. Start with Must-Have Broad Tags
-    base_tags = ["shorts", "viral", "astrology", "horoscope", "zodiac", target.lower()]
+    # Must-have discovery tags
+    base_tags = [
+        "Shorts", "astrology", "horoscope", "zodiac",
+        target.lower(), f"{target.lower()} horoscope",
+        "daily horoscope", "zodiac signs"
+    ]
     final_tags.extend(base_tags)
     
-    # 2. Add AI Tags (High Priority)
+    # AI-generated tags (high relevance)
     if ai_tags and isinstance(ai_tags, list):
         for t in ai_tags:
-            clean_t = t.lower().replace('#', '')
-            if clean_t not in final_tags:
+            clean_t = t.lower().replace('#', '').strip()
+            if clean_t and clean_t not in final_tags:
                 final_tags.append(clean_t)
                 
-    # 3. Add Dynamic Specific Tags
-    current_year = datetime.datetime.now().year
-    dynamic_tags = [
-        f"{target.lower()}horoscope", 
-        f"{target.lower()}{current_year}",
-        "manifestation", 
-        "spirituality",
-        "lawofattraction"
+    # Trending niche tags for reach
+    niche_tags = [
+        f"{target.lower()} horoscope today",
+        f"{target.lower()} {current_year}",
+        f"{target.lower()} prediction",
+        f"{mode} horoscope",
+        "horoscope today",
+        "astrology shorts",
+        "zodiac shorts",
+        "tarot reading",
+        "manifestation",
+        "spiritual guidance",
+        "cosmic energy",
+        "what the stars say",
+        "universe message",
     ]
-    for t in dynamic_tags:
+    for t in niche_tags:
         if t not in final_tags:
             final_tags.append(t)
             
-    # 4. Strict Limit (Max 500 chars is YT limit, but let's limit count to ~25)
-    tags = final_tags[:25]
-    
-    # YouTube Title Limit Check (100 chars)
-    if len(final_title) > 100:
-        # Keep hashtags, truncate middle if needed
-        suffix = " #shorts"
-        limit = 100 - len(suffix)
-        clean_title = final_title.replace(suffix, "").replace("#viral", "") # Drop viral if too long
-        final_title = clean_title[:limit-1].strip() + "…" + suffix
+    # Cap at 30 tags (YouTube allows up to 500 chars total)
+    tags = final_tags[:30]
 
     return final_title, description, tags
 
@@ -184,7 +214,7 @@ def upload_video(file_path, data):
             'title': title,
             'description': description,
             'tags': tags,
-            'categoryId': '22' # People & Blogs
+            'categoryId': '24' # Entertainment — better Shorts algorithm reach
         },
         'status': {
             'privacyStatus': 'public', # CHANGE TO 'private' FOR TESTING IF NEEDED

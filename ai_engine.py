@@ -64,8 +64,8 @@ def ask_ai(prompt, sys_msg="You are a mystical video director."):
         url = "https://openrouter.ai/api/v1/chat/completions"
         headers = {"Authorization": f"Bearer {OPENROUTER_API_KEY}", "Content-Type": "application/json"}
 
-        # Dynamic Model Switching
-        models = get_live_free_models()
+        # Dynamic Model Switching — limit to top 5 models to avoid wasting CI time
+        models = get_live_free_models()[:5]
         for model_id in models:
             try:
                 log_info(f"Consulting: {model_id}...")
@@ -107,9 +107,9 @@ def get_emergency_fallback_script():
     return {
         "script_text": "Stop scrolling! The cosmos has an urgent message for you right now. The stars are aligning in your favor today, creating a powerful window of opportunity. Positive energy surrounds you, bringing unexpected breakthroughs in love and finances. Stay focused on your goals and trust your intuition. The universe has special plans for you. Remember to stay grounded and appreciate the small blessings. Your lucky numbers are shining bright. Embrace the day with confidence and watch as magic unfolds. Subscribe and follow for your daily cosmic guidance!",
         "title": "Daily Cosmic Forecast",
-        "youtube_title": "⚠️ The Universe Has a Message For You... #shorts",
-        "youtube_description": "The cosmos is speaking directly to YOU today. Don't ignore this sign! Subscribe for daily horoscope readings.",
-        "youtube_tags": ["horoscope", "astrology", "zodiac", "daily horoscope", "cosmic message", "universe", "shorts"],
+        "youtube_title": "The Universe Has a Message For You",
+        "youtube_description": "The cosmos is speaking directly to YOU today. Something is shifting in your energy — and you need to know about it. Comment your sign below!",
+        "youtube_tags": ["horoscope", "astrology", "zodiac", "daily horoscope", "cosmic message", "universe", "horoscope today", "zodiac signs", "spiritual guidance", "manifestation", "tarot", "cosmic energy", "astrology shorts", "zodiac shorts", "what the stars say", "spiritual awakening", "energy shift", "zodiac prediction", "star sign", "astrology reading"],
         "lucky_numbers": ["7", "11", "22"],
         "lucky_color": "Celestial Gold",
         "monthly_vibe": "Cosmic Alignment"

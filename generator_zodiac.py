@@ -55,16 +55,16 @@ def generate_content(mode, target, date_str):
         "lucky_color": "Emerald Green",
         "monthly_vibe": "Reflective & Calm",
         "title": "Internal Title",
-        "youtube_title": "⚠️ WARNING: [Sign]... #shorts", 
-        "youtube_description": "First line must be a hook! Include 5+ tags.",
-        "youtube_tags": ["tag1", "tag2"]
+        "youtube_title": "Short punchy title under 50 chars, curiosity-driven, NO hashtags",
+        "youtube_description": "2-3 sentence hook that makes people curious. Personal and specific.",
+        "youtube_tags": ["tag1", "tag2", "...20 tags mixing broad and niche"]
     }}
     
     VIRAL RULES (200% VIRALITY):
-    1. **TITLE**: Must be CLICKBAIT. Use "⚠️", "🔮", "Don't Ignore", "Urgent". Max 50 chars.
+    1. **TITLE**: Max 50 chars. Curiosity gap style. Examples: "The Stars Are Warning {target}...", "{target} — Don't Ignore This", "Something Big Is Coming for {target}". NO hashtags in the title. NO emojis in the title.
     2. **SCRIPT**: Start with a PATTERN INTERRUPT ("Stop scrolling!", "You need to hear this!").
-    3. **DESCRIPTION**: Line 1 is the HOOK. Include "Sub to claim" CTA.
-    4. **TAGS**: Generate 20 high-volume tags mixing Broad (#astrology) + Niche (#{target.lower()}).
+    3. **DESCRIPTION**: Write 2-3 sentences that create curiosity. Personal tone like talking to the viewer. Include "Comment your sign" CTA.
+    4. **TAGS**: Generate 20 tags. Mix: broad (#astrology, #horoscope), sign-specific (#{target.lower()}horoscope, #{target.lower()}today), trending (#manifestation, #cosmicenergy, #spiritualtiktok).
     5. **EXTRAS**:
        - lucky_numbers: 3 distinct lucky numbers.
        - lucky_color: A specific, evocative color (e.g. "Royal Blue", "Sunset Orange").
