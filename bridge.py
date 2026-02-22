@@ -533,7 +533,7 @@ def process_plan(filename):
     # 6. BUILD VIDEO (with 20-minute timeout to prevent stuck renders)
     log_info("Building Video...")
     video_engine_dir = os.path.join(os.path.dirname(__file__), "video-engine")
-    BUILD_TIMEOUT_SECONDS = 12 * 60  # 12 minutes max per video
+    BUILD_TIMEOUT_SECONDS = 20 * 60  # 20 minutes max per video
     try:
         cmd = "npm run build"
         log_info(f"Executing: {cmd} (timeout: {BUILD_TIMEOUT_SECONDS}s)")
