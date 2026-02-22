@@ -4,7 +4,7 @@
   "description": "Zodiac Video Engine",
   "scripts": {
     "start": "remotion preview src/index.tsx",
-    "build": "remotion render src/index.tsx ZodiacVideo out/video.mp4 --props=./input.json --gl=swangle --concurrency=50% --timeout=120000",
+    "build": "remotion render src/index.tsx ZodiacVideo out/video.mp4 --props=./input.json --gl=swangle --concurrency=50% --timeout=180000",
     "test": "eslint src --ext ts,tsx"
   },
   "dependencies": {
@@ -15,12 +15,10 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "remotion": "4.0.120",
-    "webfontloader": "^1.6.28",
     "zod": "^3.22.0"
   },
   "devDependencies": {
-    "@types/react": "^18.0.0",
-    "@types/webfontloader": "^1.0.0",
+    "@types/react": "18.2.0",
     "ts-node": "^10.0.0",
     "typescript": "^5.0.0"
   }
