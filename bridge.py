@@ -349,8 +349,8 @@ def convert_to_image_sequence(input_path, output_dir_name):
             "-i", input_path,
             "-start_number", "0",  # Start at frame_0000 to match JS 0-index
             "-r", "30",            # Force 30fps to match composition
-            "-vf", "scale=-2:720", # 720p height
-            "-q:v", "5",           # Quality 5 (good balance)
+            "-vf", "scale=-2:480", # 480p height — smaller files load faster in Remotion
+            "-q:v", "8",           # Quality 8 — faster I/O, still acceptable scaled to 1080p
             "-y",
             output_pattern
         ]
@@ -591,7 +591,7 @@ def main():
 
     if args.batch:
         log_section("🔥 BATCH MODE ACTIVATED")
-        MAX_VIDEOS_PER_RUN = 12  # Cap to fit within GitHub Actions 6-hour limit
+        MAX_VIDEOS_PER_RUN = 6  # Cap to fit within GitHub Actions 4-hour limit
         plans = glob.glob("plan_*.json")
         pending = []
         for p in plans:
