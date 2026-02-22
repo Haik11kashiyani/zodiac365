@@ -1,10 +1,27 @@
-import { Composition } from 'remotion';
+import React from 'react';
+import { Composition, staticFile } from 'remotion';
 import { ZodiacComposition } from './Composition';
-import './style.css'; // We'll create this for fonts
+
+// Font faces loaded via staticFile() — avoids webpack css-loader issues that
+// can silently crash module evaluation and prevent registerRoot() from firing.
+const FONT_FACES = [
+    { family: 'Montserrat', weight: 400, file: 'fonts/Montserrat-Regular.woff2' },
+    { family: 'Montserrat', weight: 700, file: 'fonts/Montserrat-Bold.woff2' },
+    { family: 'Montserrat', weight: 800, file: 'fonts/Montserrat-ExtraBold.woff2' },
+    { family: 'Montserrat', weight: 900, file: 'fonts/Montserrat-Black.woff2' },
+    { family: 'Poppins', weight: 400, file: 'fonts/Poppins-Regular.woff2' },
+    { family: 'Poppins', weight: 700, file: 'fonts/Poppins-Bold.woff2' },
+    { family: 'Poppins', weight: 900, file: 'fonts/Poppins-Black.woff2' },
+];
+
+const fontCSS = FONT_FACES.map(f =>
+    `@font-face { font-family: '${f.family}'; font-style: normal; font-weight: ${f.weight}; font-display: swap; src: url('${staticFile(f.file)}') format('woff2'); }`
+).join('\n') + '\nbody { margin: 0; padding: 0; background: black; font-family: "Montserrat", sans-serif; }';
 
 export const RemotionRoot: React.FC = () => {
     return (
         <>
+            <style dangerouslySetInnerHTML={{ __html: fontCSS }} />
             <Composition
                 id="ZodiacVideo"
                 component={ZodiacComposition as React.FC<any>}

@@ -390,6 +390,19 @@ def _cleanup_previous_build():
                     os.remove(os.path.join(public_dir, f))
                 except:
                     pass
+    # Clean Remotion bundle cache to prevent stale cached bundles
+    # from interfering with root component loading
+    cache_dirs = [
+        "video-engine/node_modules/.cache",
+        "video-engine/.remotion",
+    ]
+    for cache_dir in cache_dirs:
+        if os.path.exists(cache_dir):
+            try:
+                shutil.rmtree(cache_dir)
+                log_info(f"🧹 Cleaned cache: {cache_dir}")
+            except Exception as e:
+                log_warning(f"Could not clean cache {cache_dir}: {e}")
 
 def _mark_plan_failed(filename, data, reason):
     """Marks a plan as errored so it doesn't retry forever."""
