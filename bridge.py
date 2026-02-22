@@ -493,8 +493,8 @@ def process_plan(filename):
                 remotion_assets.append(f"/assets/{dest_name}")
             
     if not remotion_assets:
-        remotion_assets = ["https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg"]
-        log_warning("No Pexels videos downloaded. Using fallback image.")
+        remotion_assets = ["data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="]
+        log_warning("No Pexels videos downloaded. Using inline fallback.")
 
     # 5. WRITE INPUT.JSON
     input_data = {
