@@ -1,0 +1,105 @@
+name: "Zodiac Batch 1 - Aries to Cancer"
+
+on:
+  schedule:
+    # Daily at 8:00 AM EST = 13:00 UTC
+    - cron: "0 13 * * *"
+    # Weekly on Sundays at 9:00 AM EST = 14:00 UTC
+    - cron: "0 14 * * 0"
+  workflow_dispatch:
+
+jobs:
+  batch-1-production:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Install Python Libraries
+        run: |
+          pip install -r requirements.txt
+          pip install edge-tts google-auth-oauthlib google-api-python-client
+
+      - name: Install Remotion System Dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg \
+            libnss3 libdbus-1-3 libatk1.0-0 libasound2t64 libxrandr2 \
+            libxkbcommon-dev libxfixes3 libxcomposite1 libxdamage1 \
+            libgbm-dev libcups2 libcairo2 libpango-1.0-0 libatk-bridge2.0-0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Install Node Dependencies
+        run: |
+          cd video-engine
+          npm install
+
+      - name: Inject Secret Token
+        env:
+          YOUTUBE_TOKEN: ${{ secrets.YOUTUBE_TOKEN }}
+        run: |
+          printf '%s' "$YOUTUBE_TOKEN" > token.json
+          echo "✅ token.json injected ($(wc -c < token.json) bytes)"
+
+      - name: Generate Content (Aries, Taurus, Gemini, Cancer)
+        env:
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: |
+          echo "🚀 Batch 1: Aries, Taurus, Gemini, Cancer"
+          current_hour=$(date -u +%H)
+          if [ "$current_hour" -eq "13" ]; then
+             python master_brain.py --mode daily --signs "Aries,Taurus,Gemini,Cancer"
+          elif [ "$current_hour" -eq "14" ]; then
+             python master_brain.py --mode weekly --signs "Aries,Taurus,Gemini,Cancer"
+          else
+             python master_brain.py --mode all --signs "Aries,Taurus,Gemini,Cancer"
+          fi
+
+      - name: Build & Upload Videos
+        env:
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          DBUS_SESSION_BUS_ADDRESS: /dev/null
+        run: python bridge.py --batch
+
+      - name: Upload Generated Videos (Debug)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: batch-1-videos
+          path: output_videos/
+          retention-days: 5
+
+      - name: Commit & Push Updates
+        run: |
+          git config --global user.name "Zodiac Bot"
+          git config --global user.email "bot@zodiac365.com"
+          git pull --rebase origin main || echo "Rebase failed, continuing..."
+          git add plan_*.json examples/*.json
+          touch image_usage.json
+          git add image_usage.json || true
+          git commit -m "🤖 Batch 1 (Aries-Cancer): Auto-Update" || echo "No changes to commit"
+          # Retry push up to 3 times in case other batches pushed first
+          for i in 1 2 3; do
+            git push && break
+            echo "Push failed, retrying after pull..."
+            sleep 10
+            git pull --rebase origin main || true
+          done
