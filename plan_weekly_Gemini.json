@@ -1,47 +1,55 @@
 {
-    "script_text": "Stop scrolling! Gemini, the cosmos is humming with energy this week. Monday (Feb\u202f12) brings Mercury trine Jupiter, perfect for expanding ideas and sealing deals\u2014write that proposal now. Tuesday sees Venus square Mars, stirring tension in relationships; breathe, then address any conflict calmly. Wednesday, the Moon in Cancer softens your heart, making family conversations flow\u2014share your true feelings. Thursday, Saturn opposes Sun, testing discipline; stay organized and avoid impulsive spending. Friday, Mars sextile Mercury boosts confidence in communication\u2014perfect for networking or a bold presentation. Saturday, Neptune drifts into Pisces, inviting creative dreams; journal your visions before they fade. Sunday, Pluto conjunct Venus warns of deep emotional shifts\u2014protect your energy, set boundaries. Best day: Monday, for breakthrough ideas. Worst day: Thursday, for financial slip\u2011ups. Trust the stars, act with intention, and watch your week transform. Embrace the rhythm, stay flexible, and let your authentic voice shine brightly.",
-    "captions_structure": [
-        {
-            "text": "GEMINI WEEKLY",
-            "type": "header"
-        },
-        {
-            "text": "Stop scrolling...",
-            "type": "normal"
-        }
-    ],
-    "title": "Gemini Weekly Forecast Feb12-18",
-    "youtube_title": "\u26a0\ufe0f Gemini: Best & Worst Days This Week! #shorts",
-    "youtube_description": "\u26a1\ufe0f Gemini, your cosmic roadmap is here\u2014don\u2019t miss the power moves! Sub to claim your weekly guide. #Gemini #Astrology #WeeklyForecast #Horoscope #Zodiac",
-    "youtube_tags": [
-        "astrology",
-        "gemini",
-        "weeklyforecast",
-        "horoscope",
-        "zodiac",
-        "planetaryenergy",
-        "mercury",
-        "jupiter",
-        "venus",
-        "mars",
-        "saturn",
-        "neptune",
-        "pluto",
-        "cosmicguidance",
-        "spirituality",
-        "mindfulness",
-        "selfimprovement",
-        "lifeadvice",
-        "starreading",
-        "celestial"
-    ],
-    "type": "weekly",
-    "target": "Gemini",
-    "date": "Feb 12 - Feb 18",
-    "images": [
-        "assets/zodiac_signs/Gemini.jpg"
-    ],
-    "active": true,
-    "status": "pending",
-    "file_name": "plan_weekly_Gemini.json"
+  "script_text": "Stop scrolling! Gemini, the cosmos buzzes Feb\u202f23\u2011Mar\u202f1. Monday\u2019s Mercury trine Jupiter fuels clear communication \u2014 perfect for pitching bold ideas. Use this clarity to present your vision to investors or teammates. Tuesday\u2019s Mars square Uranus may spark rash remarks; pause, breathe, and write notes before speaking. Wednesday\u2019s Venus sextile Neptune invites dreamy collaboration; share insights in a group chat for uplifting feedback. Thursday\u2019s Full Moon in Virgo sharpens details; focus on perfecting a project but avoid self\u2011critique. Friday\u2019s Sun trine Saturn gives disciplined confidence \u2014 take that long\u2011awaited step toward growth and note a concrete goal tonight. Saturday\u2019s Mercury retrograde warns of mis\u2011read texts; double\u2011check emails and review contracts. Sunday\u2019s Moon in Cancer soothes nerves; unwind with quiet reflection and a short meditation. **Best day:** Monday for expansion. **Worst day:** Tuesday for impulsive speech. Trust your intuition, set clear intentions, and comment your sign below! now for you.",
+  "captions_structure": [
+    {
+      "text": "LEO WARNING",
+      "type": "header"
+    },
+    {
+      "text": "Stop scrolling...",
+      "type": "normal"
+    }
+  ],
+  "lucky_numbers": [
+    "7",
+    "11",
+    "21"
+  ],
+  "lucky_color": "Emerald Green",
+  "monthly_vibe": "Reflective & Calm",
+  "title": "Gemini Weekly Forecast",
+  "youtube_title": "Gemini \u2014 The Stars Are Whispering #shorts",
+  "youtube_description": "Hey Gemini, the week ahead is buzzing with cosmic clarity \u2014 find out which day will amplify your voice and which to watch out for. Comment your sign below and let the universe know you\u2019re listening!",
+  "youtube_tags": [
+    "#astrology",
+    "#horoscope",
+    "#gemini",
+    "#geminihoroscope",
+    "#weeklyforecast",
+    "#cosmicenergy",
+    "#spiritualtiktok",
+    "#manifestation",
+    "#zodiac",
+    "#starlight",
+    "#dailyguidance",
+    "#geminiweek",
+    "#horoscope2026",
+    "#astrologycommunity",
+    "#cosmicwisdom",
+    "#fateandfortune",
+    "#mindfulmoments",
+    "#selfreflection",
+    "#tarotreadings",
+    "#innerjourney"
+  ],
+  "type": "weekly",
+  "target": "Gemini",
+  "date": "Feb 23 - Mar 01",
+  "images": [
+    "assets/zodiac_signs/Gemini.jpg"
+  ],
+  "active": true,
+  "status": "error",
+  "file_name": "plan_weekly_Gemini.json",
+  "error_reason": "Build timed out after 1200s"
 }

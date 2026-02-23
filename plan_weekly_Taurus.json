@@ -1,43 +1,50 @@
 {
-    "script_text": "Stop scrolling! Taurus, this week the stars whisper powerful shifts. Monday brings Mercury trine Jupiter, perfect for expanding ideas and signing contracts\u2014write down any big plans. Tuesday sees Venus square Mars, stirring tension in relationships; breathe deep and avoid impulse purchases. Wednesday\u2019s Moon in Capricorn steadies finances, so budget wisely and set realistic savings goals. Thursday\u2019s Sun conjunct Uranus sparks sudden inspiration\u2014try a new creative hobby or tech tool. Friday\u2019s Mars sextile Saturn offers disciplined energy for long\u2011term projects; schedule focused work sessions. Saturday\u2019s Neptune retrograde clouds clarity in love, so communicate openly and pause major decisions. Sunday\u2019s Pluto opposite Sun warns of power struggles; stay humble and listen. BEST DAY: Thursday, when fresh ideas flow effortlessly. WORST DAY: Saturday, when emotions may blur judgment. Overall, stay grounded, trust your intuition, and act with patience. Remember, align your actions with the moon\u2019s rhythm for success.",
+    "script_text": "Stop scrolling! This week, Taurus, the cosmos serves you a steady rhythm with punchy sparks. Monday, Mercury trine Jupiter gifts clear talk and lucky deals\u2014seal contracts, share ideas fast. Tuesday, Venus squares Saturn; emotions feel heavy, so pause before commitments, choose patience over pressure. Wednesday, Mars lights your tenth house; take decisive steps at work, ask for that raise or pitch boldly. Thursday, the Moon enters your sector of dreams; set aside quiet time for reflection, journal a vision. Friday, Uranus trines your ruling planet; surprise opportunities arrive\u2014stay open, try something new. Saturday, Neptune opposes your chart; avoid overspending, stick to budget, focus on health routines. Sunday, the Sun aligns with your core; celebrate small wins, recharge, and plan next week\u2019s grind. Embrace action on Monday and Wednesday, avoid rash moves on Tuesday and Saturday. Let the stars guide your steps! Stay grounded, thrive soon.",
     "captions_structure": [
         {
-            "text": "TAURUS WEEKLY",
+            "text": "TAURUS WEEK AHEAD",
             "type": "header"
         },
         {
-            "text": "Stop scrolling...",
+            "text": "Listen to your cosmic map.",
             "type": "normal"
         }
     ],
+    "lucky_numbers": [
+        "7",
+        "11",
+        "21"
+    ],
+    "lucky_color": "Emerald Green",
+    "monthly_vibe": "Steady Growth",
     "title": "Taurus Weekly Forecast",
-    "youtube_title": "\u26a0\ufe0f WARNING: Taurus Forecast You Can\u2019t Miss! #shorts",
-    "youtube_description": "Taurus, the cosmos is sending urgent signals\u2014listen now!\nSub to claim your weekly power boost! This forecast breaks down each day's energy, highlights the best and worst days, and gives you actionable steps to thrive.\n#astrology #taurus #weeklyforecast #horoscope #zodiac",
+    "youtube_title": "Monday\u2019s Cosmic Surge for Taurus #shorts",
+    "youtube_description": "Hey Taurus, the stars are aligning just for you this week\u2014find out which day brings the biggest boost and where to tread carefully. Comment your sign below and let the universe hear you!",
     "youtube_tags": [
-        "astrology",
-        "taurus",
-        "horoscope",
-        "zodiac",
-        "weeklyforecast",
-        "cosmicenergy",
-        "planetaryinfluence",
-        "Mercury",
-        "Jupiter",
-        "Venus",
-        "Mars",
-        "Saturn",
-        "Uranus",
-        "Neptune",
-        "Pluto",
-        "mindfulness",
-        "selfcare",
-        "financialplanning",
-        "relationshipadvice",
-        "spiritualgrowth"
+        "#astrology",
+        "#horoscope",
+        "#taurus",
+        "#taurusseason",
+        "#taurus2026",
+        "#cosmicenergy",
+        "#manifestation",
+        "#spiritualtiktok",
+        "#zodiac",
+        "#dailyforecast",
+        "#taurushoroscope",
+        "#taurustoday",
+        "#planetarytransits",
+        "#jupiter",
+        "#mercury",
+        "#venus",
+        "#mars",
+        "#uranus",
+        "#neptune",
+        "#pluto"
     ],
     "type": "weekly",
     "target": "Taurus",
-    "date": "Feb 12 - Feb 18",
+    "date": "Feb 23 - Mar 01",
     "images": [
         "assets/zodiac_signs/Taurus.jpg"
     ],

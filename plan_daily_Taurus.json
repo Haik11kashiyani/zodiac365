@@ -1,47 +1,79 @@
 {
-    "script_text": "Stop! Mars is squaring your natal Venus, stirring restless energy in your love life. Mercury slides into a harmonious sextile with Jupiter, offering a flash of insight for finances. Venus, your ruling planet, aligns with the Moon, inviting deep emotional reflection. This sudden shift urges you to balance stubborn comfort with bold adventure. Trust the ancient wisdom of the earth while embracing modern opportunity. A surprise gift may arrive from a friend, and a hidden talent could surface at work. Remember, the stars guide but you command your destiny. Take a breath, step forward, and let the universe amplify your inner strength. The day favors decisive action\u2014don\u2019t hesitate. Evening brings a lunar glow, ideal for meditation or a walk. Sip ginger tea to steady nerves. A heartfelt chat can turn tension into trust, and a small eco\u2011investment may grow steadily.",
-    "captions_structure": [
-        {
-            "text": "TAURUS ALERT",
-            "type": "header"
-        },
-        {
-            "text": "Stop scrolling...",
-            "type": "normal"
-        }
-    ],
-    "title": "Taurus Daily Horoscope 2026-02-12",
-    "youtube_title": "\u26a0\ufe0f WARNING: Taurus' Sudden Shift! #shorts",
-    "youtube_description": "\u26a1\ufe0f Cosmic shock for Taurus! Discover the hidden forces reshaping your day. Sub to claim your destiny. #taurus #astrology #horoscope #dailyguidance #spiritual\n\nStay tuned for more celestial insights and practical tips to harness the universe's power.",
-    "youtube_tags": [
-        "astrology",
-        "taurus",
-        "horoscope",
-        "daily horoscope",
-        "zodiac signs",
-        "planetary aspects",
-        "mars square venus",
-        "financial advice",
-        "relationship tips",
-        "wellness",
-        "meditation",
-        "herbal tea",
-        "eco investment",
-        "spiritual guidance",
-        "ancient wisdom",
-        "modern friend",
-        "daily motivation",
-        "shorts",
-        "viral",
-        "2026"
-    ],
-    "type": "daily",
-    "target": "Taurus",
-    "date": "February 12, 2026",
-    "images": [
-        "assets/zodiac_signs/Taurus.jpg"
-    ],
-    "active": true,
-    "status": "pending",
-    "file_name": "plan_daily_Taurus.json"
+  "script_text": "Wait\u2014stop scrolling. Today, Mars is squaring your Sun, Taurus, and that tension is shaking your foundation. Venus is still in your sign, but she's battling Neptune's illusions\u2014don't let your heart lead you into fantasy. Saturn in Pisces is testing your boundaries, pushing you to rebuild what's crumbling. This isn't the time to rush\u2014slow, steady wins. The Moon in Scorpio is digging deep, revealing truths you've buried. Face them. Own them. You're stronger than you think. Trust your instincts, but verify the facts. The universe is asking you to balance passion with patience. Take a breath, ground yourself, and move forward with clarity. This is your moment to rise\u2014don't let fear hold you back.",
+  "captions_structure": [
+    {
+      "text": "TAURUS DAILY",
+      "type": "header"
+    },
+    {
+      "text": "Stop scrolling\u2014this is for you.",
+      "type": "normal"
+    },
+    {
+      "text": "Mars is squaring your Sun today.",
+      "type": "normal"
+    },
+    {
+      "text": "Venus vs. Neptune\u2014don't fall for illusions.",
+      "type": "normal"
+    },
+    {
+      "text": "Saturn's testing your boundaries.",
+      "type": "normal"
+    },
+    {
+      "text": "Moon in Scorpio\u2014truths are rising.",
+      "type": "normal"
+    },
+    {
+      "text": "Balance passion with patience.",
+      "type": "normal"
+    },
+    {
+      "text": "Ground yourself and move forward.",
+      "type": "normal"
+    }
+  ],
+  "lucky_numbers": [
+    "7",
+    "11",
+    "21"
+  ],
+  "lucky_color": "Emerald Green",
+  "monthly_vibe": "Reflective & Calm",
+  "title": "Taurus \u2014 Don't Ignore This",
+  "youtube_title": "Taurus \u2014 Don't Ignore This #shorts",
+  "youtube_description": "Taurus, the stars are sending a powerful message today. Mars is squaring your Sun, and Venus is battling Neptune's illusions. This is your moment to face the truth and rebuild stronger. Comment your sign and let me know how this resonates with you.",
+  "youtube_tags": [
+    "taurus horoscope",
+    "taurus today",
+    "taurus february 2026",
+    "astrology taurus",
+    "taurus daily horoscope",
+    "taurus love horoscope",
+    "taurus career",
+    "taurus money",
+    "taurus health",
+    "taurus relationships",
+    "taurus spiritual",
+    "taurus zodiac",
+    "taurus forecast",
+    "taurus astrology",
+    "taurus moon sign",
+    "taurus rising sign",
+    "taurus venus",
+    "taurus mars",
+    "taurus saturn",
+    "taurus neptune"
+  ],
+  "type": "daily",
+  "target": "Taurus",
+  "date": "February 23, 2026",
+  "images": [
+    "assets/zodiac_signs/Taurus.jpg"
+  ],
+  "active": true,
+  "status": "error",
+  "file_name": "plan_daily_Taurus.json",
+  "error_reason": "Build timed out after 1200s"
 }

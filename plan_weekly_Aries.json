@@ -1,47 +1,54 @@
 {
-    "script_text": "Stop scrolling! Aries, this week the Sun fuels your daring spirit while Mercury trines Jupiter on Monday, opening doors for bold ideas. Tuesday brings a Mars\u2011Saturn square, urging patience in projects; delay non\u2011essential purchases. Wednesday\u2019s Venus sextile Neptune softens your heart, perfect for creative collaborations\u2014share your vision. Thursday sees Mercury opposite Pluto, sparking intense conversations; speak truth but avoid gossip. Friday\u2019s Sun sextile Uranus sparks unexpected opportunities\u2014take a calculated risk in career moves. Saturday\u2019s Moon in your sign amplifies confidence; lead a team meeting or start a fitness challenge. Sunday calms with Moon trine Jupiter, ideal for reflection and planning next week. **Best day:** Friday for breakthrough chances. **Worst day:** Tuesday, tension may stall progress. Actionable tip: journal each night, note insights, and adjust plans accordingly. Remember, Aries, the cosmos supports your courage; stay flexible, trust intuition, and let your authentic fire guide every decision.",
-    "captions_structure": [
-        {
-            "text": "ARIES WEEK FORECAST",
-            "type": "header"
-        },
-        {
-            "text": "Stop scrolling! Aries, this week\u2026",
-            "type": "normal"
-        }
-    ],
-    "title": "Aries Weekly Forecast Script",
-    "youtube_title": "\u26a0\ufe0f URGENT: Aries Week Forecast Revealed! #shorts",
-    "youtube_description": "\ud83d\udd25 Aries, this week\u2019s cosmic rollercoaster will change your game! Sub to claim deeper insights. \ud83c\udf1f\n#Aries #Horoscope #WeeklyForecast #Astrology #CosmicTips",
-    "youtube_tags": [
-        "astrology",
-        "horoscope",
-        "aries",
-        "weeklyforecast",
-        "zodiac",
-        "dailyastrology",
-        "cosmicenergy",
-        "planetaryinfluence",
-        "mercurytrinejupiter",
-        "marsaturnsquare",
-        "venusneptunesextile",
-        "moontrinejupiter",
-        "careerastrology",
-        "selfimprovement",
-        "spiritualgrowth",
-        "mindfulness",
-        "selfcare",
-        "motivation",
-        "selfdevelopment",
-        "selfawareness"
-    ],
-    "type": "weekly",
-    "target": "Aries",
-    "date": "Feb 12 - Feb 18",
-    "images": [
-        "assets/zodiac_signs/Aries.jpg"
-    ],
-    "active": true,
-    "status": "pending",
-    "file_name": "plan_weekly_Aries.json"
+  "script_text": "Stop. Aries, your week is a cosmic crossroads. Mercury trines Jupiter on Monday\u2014speak boldly. Tuesday\u2019s Venus clashes may sabotage deals. Wednesday\u2019s Mars fires launch projects. Thursday\u2019s Saturn conjuncts\u2014delay big moves. Friday\u2019s Uranus sparks chaos; Saturday\u2019s Neptune fuels creativity. Sunday\u2019s Mercury retrograde? Mine emails relentlessly. Best: Wednesday/Monday. Worst: Friday/Tuesday.",
+  "captions_structure": [
+    {
+      "text": "LEO WARNING",
+      "type": "header"
+    },
+    {
+      "text": "Stop scrolling\u2014your stars forbid ignoring this.",
+      "type": "normal"
+    }
+  ],
+  "lucky_numbers": [
+    "7",
+    "11",
+    "21"
+  ],
+  "lucky_color": "Emerald Green",
+  "monthly_vibe": "Dynamic Energy",
+  "title": "Aries: Mercury Trine Jupiter Sends a Warning",
+  "youtube_description": "Your stars align like never before\u2014Mercury-Jupiter on Monday could catapult your ideas. But Tuesday\u2019s Venus storm may burn bridges. Comment your sign to decode your hidden path.",
+  "youtube_tags": [
+    "astrology",
+    "horoscope",
+    "aries",
+    "cosmicenergy",
+    "manifestation",
+    "spiritualtiktok",
+    "astrologer",
+    "dailyhoroscope",
+    "zodiac",
+    "youtubestars",
+    "luckynumbers",
+    "EmeraldGreen",
+    "actionableastrology",
+    "planetaryenergy",
+    "weeklyforecast",
+    "ariespower",
+    "cosmictips",
+    "spiritualgrowth",
+    "cosmicadvice",
+    "astrology2026"
+  ],
+  "type": "weekly",
+  "target": "Aries",
+  "date": "Feb 23 - Mar 01",
+  "images": [
+    "assets/zodiac_signs/Aries.jpg"
+  ],
+  "active": true,
+  "status": "error",
+  "file_name": "plan_weekly_Aries.json",
+  "error_reason": "Build timed out after 1200s"
 }

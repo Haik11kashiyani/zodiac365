@@ -1,47 +1,83 @@
 {
-    "script_text": "Stop scrolling! Mars is squaring your Cancer heart, stirring restless tides beneath your shell. Meanwhile, the Moon in gentle trine with Venus whispers of hidden emotions ready to surface. This sudden shift in celestial currents urges you to pause, breathe, and honor the ancient rhythm that guides you. Trust the intuition that rises like a tide, for it will steer you through a surprise opportunity in career or creative projects. Relationships may feel intensified; a loved one seeks deeper connection\u2014listen with compassion, and you\u2019ll strengthen bonds. Financial currents flow steady, but avoid impulsive spending under Mercury\u2019s quick\u2011silver flash. As the day wanes, set a quiet intention for healing, and the stars will reward your bravery. Remember, dear Cancer, your shell protects, but your heart leads\u2014embrace both with courage. Tonight, moonlit dreams will guide you toward inner peace and renewed purpose.",
-    "captions_structure": [
-        {
-            "text": "CANCER ALERT",
-            "type": "header"
-        },
-        {
-            "text": "Stop scrolling to hear the stars speak!",
-            "type": "normal"
-        }
-    ],
-    "title": "Cancer Daily Horoscope 12 Feb 2026",
-    "youtube_title": "\u26a0\ufe0f WARNING: Cancer's Cosmic Shock! #shorts",
-    "youtube_description": "\u26a1\ufe0f Cosmic shock for Cancer! Don't miss this urgent insight! Sub to claim your celestial guide. #astrology #cancer #zodiac #horoscope #dailyhoroscope #career #relationships #finance #spiritual #selfcare",
-    "youtube_tags": [
-        "#astrology",
-        "#cancer",
-        "#zodiac",
-        "#horoscope",
-        "#dailyhoroscope",
-        "#cancerdaily",
-        "#february2026",
-        "#mars",
-        "#venus",
-        "#moon",
-        "#relationship",
-        "#career",
-        "#finance",
-        "#spiritual",
-        "#selfcare",
-        "#cosmic",
-        "#starreadings",
-        "#astrologytips",
-        "#zodiacsigns",
-        "#horoscopetoday"
-    ],
-    "type": "daily",
-    "target": "Cancer",
-    "date": "February 12, 2026",
-    "images": [
-        "assets/zodiac_signs/Cancer.jpg"
-    ],
-    "active": true,
-    "status": "pending",
-    "file_name": "plan_daily_Cancer.json"
+  "script_text": "Stop right there, Cancer! Mars is squaring your Sun today, igniting tension between your ambitions and your emotional needs. You may feel pulled in two directions\u2014work demands clashing with home life. Venus in Pisces softens relationships, offering a gentle reminder to communicate with compassion. The Moon in Scorpio urges you to dig deep\u2014trust your intuition, even if the path feels unclear. Avoid impulsive decisions; patience is your ally. By evening, the energy shifts\u2014Jupiter\u2019s trine brings a glimmer of hope. Stay grounded, stay true to yourself, and let the universe guide you.",
+  "captions_structure": [
+    {
+      "text": "CANCER DAILY",
+      "type": "header"
+    },
+    {
+      "text": "Stop scrolling...",
+      "type": "normal"
+    },
+    {
+      "text": "Mars is squaring your Sun",
+      "type": "normal"
+    },
+    {
+      "text": "Tension between work & home",
+      "type": "normal"
+    },
+    {
+      "text": "Venus softens relationships",
+      "type": "normal"
+    },
+    {
+      "text": "Moon in Scorpio urges depth",
+      "type": "normal"
+    },
+    {
+      "text": "Avoid impulsive moves",
+      "type": "normal"
+    },
+    {
+      "text": "Jupiter brings hope by night",
+      "type": "normal"
+    },
+    {
+      "text": "Stay grounded, trust the flow",
+      "type": "normal"
+    }
+  ],
+  "lucky_numbers": [
+    "7",
+    "11",
+    "21"
+  ],
+  "lucky_color": "Emerald Green",
+  "monthly_vibe": "Reflective & Calm",
+  "title": "Cancer \u2014 Don't Ignore This",
+  "youtube_title": "Cancer \u2014 Don't Ignore This #shorts",
+  "youtube_description": "Cancer, Mars is creating tension today\u2014but Venus offers a softer path. Trust your intuition and avoid rushing decisions. Comment your sign below!",
+  "youtube_tags": [
+    "cancerhoroscope",
+    "dailyhoroscope",
+    "astrology",
+    "marsenergy",
+    "venusinfluence",
+    "mooninscorpio",
+    "spiritualtiktok",
+    "manifestation",
+    "zodiacsigns",
+    "cancerdaily",
+    "cosmicenergy",
+    "intuition",
+    "relationshipadvice",
+    "worklifebalance",
+    "emotionalhealing",
+    "astrologer",
+    "horoscope2026",
+    "cancerlove",
+    "careerhoroscope",
+    "selfcare"
+  ],
+  "type": "daily",
+  "target": "Cancer",
+  "date": "February 23, 2026",
+  "images": [
+    "assets/zodiac_signs/Cancer.jpg"
+  ],
+  "active": true,
+  "status": "error",
+  "file_name": "plan_daily_Cancer.json",
+  "error_reason": "Build timed out after 1200s"
 }

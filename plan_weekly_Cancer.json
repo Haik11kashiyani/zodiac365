@@ -1,8 +1,8 @@
 {
-    "script_text": "Stop scrolling! Cancer, the stars whisper urgent guidance for Feb\u202f12\u201118. Monday ignites Mercury trine Jupiter, perfect for expanding ideas\u2014write that proposal or start a study group. Tuesday feels Venus sextile Mars, boosting confidence in love; plan a heartfelt date or resolve a lingering tension. Wednesday brings a subtle Moon\u2011Saturn square, urging patience\u2014avoid impulsive spending and focus on long\u2011term health routines. Thursday shines with Sun trine Uranus, sparking creative breakthroughs; experiment with a new hobby or redesign your workspace. Friday\u2019s Mars opposite Pluto warns of power struggles; step back, breathe, and delegate instead of confronting. Saturday offers a soothing Neptune\u2011Moon sextile, ideal for meditation and artistic expression\u2014let emotions flow onto canvas or journal. Sunday, the worst day, sees Mercury retrograde square Sun, causing miscommunication\u2014double\u2011check emails and postpone major decisions. Best day: Monday for growth; worst day: Sunday for confusion. Trust the rhythm, act wisely, and thrive.",
+    "script_text": "Stop scrolling! This week, Cancer, the cosmos whispers through each day. Monday\u2019s Mercury trine Jupiter gifts crystal\u2011clear communication \u2014 perfect for sealing deals or sharing ideas. Tuesday\u2019s Mars square Saturn can feel like resistance; push through with patience, avoid impulsive moves. Wednesday shines with Venus sextile Neptune, ideal for nurturing relationships and creative projects. Thursday\u2019s Full Moon in Virgo urges practical self\u2011care; tidy your space and set healthy boundaries. Friday\u2019s Sun sextile Uranus sparks insight \u2014 embrace opportunities. Saturday\u2019s Neptune opposite Mercury warns of confusion; double\u2011check messages before acting. Sunday\u2019s gentle Moon trine Pluto offers emotional release; journal your feelings and let go of old weight. Your best day is Wednesday for love and art, worst is Tuesday for impulsive decisions. Trust your intuition, set intentions, and watch the stars align for you. Embrace rhythm, Cancer, and let destiny guide your steps toward brighter futures.",
     "captions_structure": [
         {
-            "text": "CANCER ALERT",
+            "text": "LEO WARNING",
             "type": "header"
         },
         {
@@ -10,34 +10,41 @@
             "type": "normal"
         }
     ],
-    "title": "Cancer Weekly Forecast",
-    "youtube_title": "\u26a0\ufe0f Cancer Forecast: Don't Ignore This Week! #shorts",
-    "youtube_description": "\ud83d\udea8 Cosmic alert for Cancer! This week\u2019s planetary dance can make or break your plans. Sub to claim your destiny and stay ahead of the stars. #Cancer #Astrology #WeeklyForecast #Horoscope #Zodiac #CosmicGuidance #StarPower #MercuryRetrograde #VenusMars #MoonSaturn #SunUranus #NeptuneMoon #AstroAdvice #ZodiacLife #StellarTips #AstrologyLovers #Horoscope2026 #CancerSeason #MysticInsights #DivineTiming",
+    "lucky_numbers": [
+        "7",
+        "11",
+        "21"
+    ],
+    "lucky_color": "Emerald Green",
+    "monthly_vibe": "Reflective & Calm",
+    "title": "Internal Title",
+    "youtube_title": "Cancer\u2019s Secret Week: What Stars Whisper #shorts",
+    "youtube_description": "Feeling the cosmic tide this week? Cancer, these planetary shifts will guide your moves. Comment your sign and let the stars hear you!",
     "youtube_tags": [
         "astrology",
-        "cancer",
         "horoscope",
+        "cancer",
+        "weeklyforecast",
+        "cosmicenergy",
+        "manifestation",
+        "spiritual",
         "zodiac",
-        "weekly forecast",
-        "cancer weekly",
-        "mercury retrograde",
-        "venus mars",
-        "moon saturn",
-        "sun uranus",
-        "neptune moon",
-        "astrology tips",
-        "zodiac advice",
-        "cosmic guidance",
-        "star signs",
-        "2026 horoscope",
-        "cancer love",
-        "cancer career",
-        "cancer health",
-        "spiritual growth"
+        "moon",
+        "sun",
+        "tarot",
+        "oracle",
+        "soul",
+        "guidance",
+        "intuition",
+        "dailyinsight",
+        "horoscopetoday",
+        "cancertoday",
+        "starwisdom",
+        "celestial"
     ],
     "type": "weekly",
     "target": "Cancer",
-    "date": "Feb 12 - Feb 18",
+    "date": "Feb 23 - Mar 01",
     "images": [
         "assets/zodiac_signs/Cancer.jpg"
     ],
