@@ -1,47 +1,48 @@
 {
-    "script_text": "Stop scrolling, Leo! This week the cosmos throws a fire\u2011dance your way. Monday: Mercury trine Jupiter fuels bold ideas\u2014perfect for pitching projects or learning new skills. Take a 15\u2011minute journal to capture insights. Tuesday: Venus squares Mars sparks tension in love; avoid heated debates, instead channel passion into creative art. Wednesday: Sun sextile Saturn steadies your confidence; schedule important meetings, but keep expectations realistic. Thursday: Mars opposite Uranus brings sudden urges\u2014hold back impulsive purchases, plan finances carefully. Friday: Jupiter conjunct Neptune expands dreams; set a visionary goal and share it with a trusted friend. Saturday: Mercury retrograde in Libra clouds communication\u2014double\u2011check emails and postpone contracts if possible. Sunday: Full Moon in Leo crowns your week; celebrate achievements, but watch for ego\u2011inflation. BEST DAY: Monday, when ideas flow effortlessly. WORST DAY: Thursday, when impulsivity spikes. Embrace the rhythm, stay grounded, and shine! and radiate confidence today.",
-    "captions_structure": [
-        {
-            "text": "LEO WARNING",
-            "type": "header"
-        },
-        {
-            "text": "Stop scrolling...",
-            "type": "normal"
-        }
-    ],
-    "title": "Leo Weekly Forecast Feb 12\u201118",
-    "youtube_title": "\u26a0\ufe0f WARNING: Leo's Cosmic Rollercoaster! #shorts",
-    "youtube_description": "\ud83d\udea8 Leo, the stars are screaming\u2014don't miss this week's power surge!\n\nFull breakdown of daily energies, the best and worst days, and actionable tips to harness the cosmos. Sub to claim your celestial advantage and stay ahead of the astrological curve!\n\n#Leo #Horoscope #Astrology #WeeklyForecast #CosmicTips #Zodiac #StellarInsights #LeoSeason #AstroGuide #CelestialAdvice #StarPower #LeoLove #LeoCareer #LeoHealth #LeoMoney #LeoGrowth #LeoSuccess #LeoVibes #LeoEnergy #LeoLife",
-    "youtube_tags": [
-        "astrology",
-        "zodiac",
-        "leo",
-        "leo horoscope",
-        "weekly forecast",
-        "cosmic energy",
-        "planetary alignment",
-        "mercury trine jupiter",
-        "venus square mars",
-        "sun sextile saturn",
-        "mars opposite uranus",
-        "jupiter conjunct neptune",
-        "full moon leo",
-        "astrology tips",
-        "leo advice",
-        "star guidance",
-        "spiritual insight",
-        "horoscope today",
-        "astro predictions",
-        "celestial advice"
-    ],
-    "type": "weekly",
-    "target": "Leo",
-    "date": "Feb 12 - Feb 18",
-    "images": [
-        "assets/zodiac_signs/Leo.jpg"
-    ],
-    "active": true,
-    "status": "pending",
-    "file_name": "plan_weekly_Leo.json"
+  "script_text": "Stop. Observe. Listen.",
+  "captions_structure": [
+    {
+      "text": "LEO WARNING",
+      "type": "header"
+    }
+  ],
+  "lucky_numbers": [
+    "7",
+    "11",
+    "21"
+  ],
+  "lucky_color": "Emerald Green",
+  "monthly_vibe": "Reflective & Calm",
+  "title": "Cosmic Watch",
+  "youtube_title": "Leo's Cosmic Clues #shorts",
+  "youtube_description": "The stars whisper truths. Share your signs. Your vision waits.",
+  "youtube_tags": [
+    "Astrology",
+    "Leo",
+    "Cosmic",
+    "Sign",
+    "Signal",
+    "Moon",
+    "Stars",
+    "Vitality",
+    "Guidance",
+    "Reflection",
+    "Divine",
+    "Vision",
+    "Horizon"
+  ],
+  "exras": {
+    "lucky_numbers": 3,
+    "lucky_color": "Emerald Green",
+    "monthly_vibe": "Bold Action"
+  },
+  "type": "weekly",
+  "target": "Leo",
+  "date": "Feb 23 - Mar 01",
+  "images": [
+    "assets/zodiac_signs/Leo.jpg"
+  ],
+  "active": true,
+  "status": "uploaded",
+  "file_name": "plan_weekly_Leo.json"
 }

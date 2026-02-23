@@ -1,47 +1,56 @@
 {
-    "script_text": "Stop scrolling! Cosmic tides shift for Scorpio this week. Monday brings Mercury trine Jupiter, perfect for expanding ideas and networking\u2014write that proposal, send that email. Tuesday sees Venus square Mars, stirring tension in relationships; practice calm communication, avoid impulsive arguments. Wednesday features Sun sextile Saturn, a steady day for long\u2011term planning; organize finances, set realistic goals\u2014this is the best day for strategic moves. Thursday\u2019s Moon opposite Pluto warns of hidden power struggles; step back, reassess motives, don\u2019t force outcomes\u2014this is the worst day for confrontations. Friday offers Mars trine Neptune, boosting creative flow; dive into art, meditate, visualize success. Saturday presents Jupiter conjunct Uranus, surprising opportunities\u2014take calculated risks, explore new learning. Sunday closes with Mercury sextile Venus, harmonious social vibes; reconnect with friends, share gratitude. Overall, stay grounded, trust intuition, and adapt to each day\u2019s rhythm. Embrace the cosmos, and let your soul shine brightly.",
-    "captions_structure": [
-        {
-            "text": "SCORPIO WEEK",
-            "type": "header"
-        },
-        {
-            "text": "Stop scrolling...",
-            "type": "normal"
-        }
+  "script_text": "STOP",
+  "captions_structure": [
+    {
+      "text": "LEO WARNING",
+      "type": "header"
+    },
+    {
+      "text": "Stop scrolling...",
+      "type": "normal"
+    }
+  ],
+  "lucky_numbers": [
+    "7",
+    "11",
+    "21"
+  ],
+  "lucky_color": "Emerald Green",
+  "monthly_vibe": "Bold Action",
+  "title": "Scorpio's Path",
+  "youtube_title": "Scorpio's Cosmic Thrill #shorts",
+  "youtube_description": "As Scorpio dives deep, navigate with clarity. Your insights await - comment below!",
+  "tags": [
+    "astrology",
+    "Scorpio",
+    "signhorror",
+    "horoscope",
+    "now",
+    "visions",
+    "intuition",
+    "mystic",
+    "fate",
+    "energy",
+    "tip",
+    "guidance",
+    "trends"
+  ],
+  "extras": {
+    "lucky_numbers": [
+      "7",
+      "11",
+      "21"
     ],
-    "title": "Scorpio Weekly Forecast 12-18 Feb",
-    "youtube_title": "\u26a0\ufe0f Urgent: Scorpio\u2019s Cosmic Boost This Week! #shorts",
-    "youtube_description": "\u26a1\ufe0f Scorpio, your destiny is shifting\u2014watch now! Dive into daily energies, seize the best day, avoid the worst. Sub to claim your personalized guide! #scorpio #astrology #weeklyforecast #horoscope #spiritual",
-    "youtube_tags": [
-        "astrology",
-        "scorpio",
-        "weeklyforecast",
-        "horoscope",
-        "zodiac",
-        "scorpio2026",
-        "scorpioweekly",
-        "planetaryenergy",
-        "mercury",
-        "venus",
-        "mars",
-        "jupiter",
-        "saturn",
-        "neptune",
-        "uranus",
-        "spiritualgrowth",
-        "selfcare",
-        "mindfulness",
-        "cosmicguidance",
-        "dailyhoroscope"
-    ],
-    "type": "weekly",
-    "target": "Scorpio",
-    "date": "Feb 12 - Feb 18",
-    "images": [
-        "assets/zodiac_signs/Scorpio.jpg"
-    ],
-    "active": true,
-    "status": "pending",
-    "file_name": "plan_weekly_Scorpio.json"
+    "lucky_color": "Emerald Green",
+    "monthly_vibe": "Bold Action"
+  },
+  "type": "weekly",
+  "target": "Scorpio",
+  "date": "Feb 23 - Mar 01",
+  "images": [
+    "assets/zodiac_signs/Scorpio.jpg"
+  ],
+  "active": true,
+  "status": "uploaded",
+  "file_name": "plan_weekly_Scorpio.json"
 }

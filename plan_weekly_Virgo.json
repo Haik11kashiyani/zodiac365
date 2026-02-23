@@ -1,47 +1,55 @@
 {
-    "script_text": "Stop scrolling! Virgo, this week the cosmos speaks. Monday: Mercury trine Jupiter fuels clear communication\u2014perfect for writing contracts or sending that long\u2011overdue email. Take decisive action. Tuesday: Venus squares Saturn warns against over\u2011committing in love; set boundaries, keep plans simple. Wednesday: Mars opposes Neptune clouds motivation\u2014avoid starting new projects, focus on finishing existing tasks. Thursday: Sun sextile Pluto empowers deep self\u2011reflection; journal your goals and release old patterns. Friday: Jupiter conjunct Uranus sparks sudden opportunities in learning\u2014sign up for a workshop or online course. Saturday: Saturn trine Mercury stabilizes finances; review budget, pay off a small debt. Sunday: Moon in Taurus soothes nerves; practice grounding meditation. Best day: Friday for breakthroughs in growth. Worst day: Wednesday, when foggy energy can cause missteps. Advice: align actions with planetary flow, stay adaptable, and trust your inner wisdom. Remember, Virgo, your patience today will shape tomorrow\u2019s success brightly.",
-    "captions_structure": [
-        {
-            "text": "VEIRGO WEEK FORECAST",
-            "type": "header"
-        },
-        {
-            "text": "Stop scrolling!",
-            "type": "normal"
-        }
-    ],
-    "title": "Virgo Weekly Forecast Script",
-    "youtube_title": "\u26a0\ufe0f VIRGO: THIS WEEK'S COSMIC ALERT! #shorts",
-    "youtube_description": "\ud83d\udea8 Virgo, the stars are shouting! Discover which days bring breakthroughs and which demand caution. Align your actions with planetary flow and thrive. Sub to claim your personal cosmic roadmap! #Virgo #Astrology #WeeklyForecast #CosmicAdvice #Zodiac",
-    "youtube_tags": [
-        "astrology",
-        "virgo",
-        "zodiac",
-        "weekly forecast",
-        "horoscope",
-        "Mercury trine",
-        "Jupiter",
-        "Venus",
-        "Saturn",
-        "Mars",
-        "Neptune",
-        "Pluto",
-        "Uranus",
-        "Moon in Taurus",
-        "self reflection",
-        "financial planning",
-        "growth",
-        "mindfulness",
-        "spiritual guidance",
-        "cosmic energy"
-    ],
-    "type": "weekly",
-    "target": "Virgo",
-    "date": "Feb 12 - Feb 18",
-    "images": [
-        "assets/zodiac_signs/Virgo.jpg"
-    ],
-    "active": true,
-    "status": "pending",
-    "file_name": "plan_weekly_Virgo.json"
+  "script_text": "Wait, Stop, Listen. This week's cosmic currents for Virgo are about to shift. Mercury trine Jupiter on Monday ignites your communication channels\u2014perfect for sealing deals or sparking creative collaborations. Tuesday's Venus square Neptune may blur your boundaries; trust your intuition but double-check agreements. Wednesday's Sun conjunct Pluto demands deep self-reflection\u2014confront hidden patterns. Thursday's Mars in Virgo fuels productivity\u2014tackle long-overdue tasks. Friday's Mercury opposite Saturn tests your patience\u2014avoid impulsive decisions. Saturday's Moon in Scorpio intensifies emotions\u2014practice self-care. Sunday's Mercury sextile Neptune sparks artistic inspiration\u2014journal or meditate. Best days: Monday (communication) and Thursday (productivity). Worst: Friday (impulsivity). Action: Monday, network strategically. Thursday, organize your space. Friday, pause before acting.",
+  "captions_structure": [
+    {
+      "text": "LEO WARNING",
+      "type": "header"
+    },
+    {
+      "text": "Stop scrolling...",
+      "type": "normal"
+    }
+  ],
+  "lucky_numbers": [
+    "7",
+    "11",
+    "21"
+  ],
+  "lucky_color": "Emerald Green",
+  "monthly_vibe": "Reflective & Calm",
+  "title": "Virgo \u2014 Don't Ignore This Cosmic Shift",
+  "youtube_title": "Virgo \u2014 Don't Ignore This Cosmic Shift #shorts",
+  "youtube_description": "This week's Virgo horoscope reveals hidden opportunities and hidden traps. Learn how to harness Mercury's trine Jupiter for success and avoid Friday's Mercury-Saturn clash. Comment your sign below!",
+  "youtube_tags": [
+    "#VirgoHoroscope",
+    "#Astrology",
+    "#CosmicEnergy",
+    "#Manifestation",
+    "#SpiritualTikTok",
+    "#Virgo2026",
+    "#MercuryRetrograde",
+    "#PlutoInCapricorn",
+    "#SelfReflection",
+    "#ProductivityTips",
+    "#Communication",
+    "#EmotionalIntelligence",
+    "#AstrologicalAdvice",
+    "#WeeklyForecast",
+    "#VirgoLife",
+    "#InnerWork",
+    "#CosmicShifts",
+    "#AstrologicalSigns",
+    "#PersonalGrowth",
+    "#VirgoEnergy"
+  ],
+  "type": "weekly",
+  "target": "Virgo",
+  "date": "Feb 23 - Mar 01",
+  "images": [
+    "assets/zodiac_signs/Virgo.jpg"
+  ],
+  "active": true,
+  "status": "error",
+  "file_name": "plan_weekly_Virgo.json",
+  "error_reason": "Build timed out after 1200s"
 }
