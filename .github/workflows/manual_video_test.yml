@@ -51,7 +51,9 @@ jobs:
       - name: Install Remotion Dependencies
         run: |
           cd video-engine
+          rm -rf node_modules package-lock.json
           npm install
+          echo "Remotion version: $(npx remotion --version)"
 
       - name: Run Bridge (Generate Data & Assets)
         env:
@@ -113,10 +115,11 @@ jobs:
         env:
           # Suppress dbus errors in headless environment
           DBUS_SESSION_BUS_ADDRESS: /dev/null
+          NODE_OPTIONS: "--max-old-space-size=4096"
         run: |
           cd video-engine
           # Use swangle (SwiftShader over Angle) - Remotion Lambda default, stable for CI
-          npx remotion render src/index.tsx ZodiacVideo out/video.mp4 --props=./input.json --concurrency=1 --gl=swangle --log=verbose
+          npx remotion render src/index.tsx ZodiacVideo out/video.mp4 --props=./input.json --concurrency=1 --gl=swangle --timeout=300000 --log=verbose
 
       - name: List Outputs
         run: ls -R video-engine/out/

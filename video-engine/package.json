@@ -4,18 +4,16 @@
   "description": "Zodiac Video Engine",
   "scripts": {
     "start": "remotion preview src/index.tsx",
-    "build": "remotion render src/index.tsx ZodiacVideo out/video.mp4 --props=./input.json --gl=swangle --concurrency=50% --timeout=180000 --jpeg-quality=65",
+    "build": "remotion render src/index.tsx ZodiacVideo out/video.mp4 --props=./input.json --gl=swangle --concurrency=1 --timeout=300000 --jpeg-quality=65",
     "test": "eslint src --ext ts,tsx"
   },
   "dependencies": {
-    "@remotion/cli": "4.0.120",
-    "@remotion/player": "4.0.120",
-    "@remotion/transitions": "4.0.120",
-    "@remotion/zod-types": "4.0.120",
+    "@remotion/cli": "4.0.427",
+    "@remotion/player": "4.0.427",
+    "@remotion/transitions": "4.0.427",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "remotion": "4.0.120",
-    "zod": "^3.22.0"
+    "remotion": "4.0.427"
   },
   "devDependencies": {
     "@types/react": "18.2.0",

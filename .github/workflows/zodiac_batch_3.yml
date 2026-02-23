@@ -45,7 +45,9 @@ jobs:
       - name: Install Node Dependencies
         run: |
           cd video-engine
+          rm -rf node_modules package-lock.json
           npm install
+          echo "Remotion version: $(npx remotion --version)"
 
       - name: Inject Secret Token
         env:
@@ -77,6 +79,7 @@ jobs:
           YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
           DBUS_SESSION_BUS_ADDRESS: /dev/null
+          NODE_OPTIONS: "--max-old-space-size=4096"
         run: python bridge.py --batch
 
       - name: Upload Generated Videos (Debug)
