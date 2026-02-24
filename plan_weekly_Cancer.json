@@ -1,54 +1,54 @@
 {
-    "script_text": "Stop scrolling! This week, Cancer, the cosmos whispers through each day. Monday\u2019s Mercury trine Jupiter gifts crystal\u2011clear communication \u2014 perfect for sealing deals or sharing ideas. Tuesday\u2019s Mars square Saturn can feel like resistance; push through with patience, avoid impulsive moves. Wednesday shines with Venus sextile Neptune, ideal for nurturing relationships and creative projects. Thursday\u2019s Full Moon in Virgo urges practical self\u2011care; tidy your space and set healthy boundaries. Friday\u2019s Sun sextile Uranus sparks insight \u2014 embrace opportunities. Saturday\u2019s Neptune opposite Mercury warns of confusion; double\u2011check messages before acting. Sunday\u2019s gentle Moon trine Pluto offers emotional release; journal your feelings and let go of old weight. Your best day is Wednesday for love and art, worst is Tuesday for impulsive decisions. Trust your intuition, set intentions, and watch the stars align for you. Embrace rhythm, Cancer, and let destiny guide your steps toward brighter futures.",
-    "captions_structure": [
-        {
-            "text": "LEO WARNING",
-            "type": "header"
-        },
-        {
-            "text": "Stop scrolling...",
-            "type": "normal"
-        }
-    ],
-    "lucky_numbers": [
-        "7",
-        "11",
-        "21"
-    ],
+  "script_text": "Stop... The stars align. Action demanded.",
+  "captions_structure": [
+    {
+      "text": "LEO WARNING",
+      "type": "header"
+    },
+    {
+      "text": "Stop scrolling...",
+      "type": "normal"
+    }
+  ],
+  "lucky_numbers": [
+    "7",
+    "11",
+    "21"
+  ],
+  "lucky_color": "Emerald Green",
+  "monthly_vibe": "Urgent Clarity",
+  "title": "Cosmic Omen",
+  "youtube_title": "Cancer's Secret #shorts",
+  "youtube_description": "Unlock hidden patterns. Your sign awaits. Special content for you.",
+  "youtube_tags": [
+    "astrology",
+    "cancerhoroscope",
+    "spiritualenergy",
+    "mystic",
+    "cosmogram",
+    "signal",
+    "intuition",
+    "nightsky",
+    "mystery",
+    "guidance",
+    "starwatch",
+    "mystic, sudden",
+    "signalage",
+    "professional",
+    "insight"
+  ],
+  "exras": {
+    "lucky_numbers": "7, 11, 21",
     "lucky_color": "Emerald Green",
-    "monthly_vibe": "Reflective & Calm",
-    "title": "Internal Title",
-    "youtube_title": "Cancer\u2019s Secret Week: What Stars Whisper #shorts",
-    "youtube_description": "Feeling the cosmic tide this week? Cancer, these planetary shifts will guide your moves. Comment your sign and let the stars hear you!",
-    "youtube_tags": [
-        "astrology",
-        "horoscope",
-        "cancer",
-        "weeklyforecast",
-        "cosmicenergy",
-        "manifestation",
-        "spiritual",
-        "zodiac",
-        "moon",
-        "sun",
-        "tarot",
-        "oracle",
-        "soul",
-        "guidance",
-        "intuition",
-        "dailyinsight",
-        "horoscopetoday",
-        "cancertoday",
-        "starwisdom",
-        "celestial"
-    ],
-    "type": "weekly",
-    "target": "Cancer",
-    "date": "Feb 23 - Mar 01",
-    "images": [
-        "assets/zodiac_signs/Cancer.jpg"
-    ],
-    "active": true,
-    "status": "pending",
-    "file_name": "plan_weekly_Cancer.json"
+    "monthly_vibe": "Urgent Clarity"
+  },
+  "type": "weekly",
+  "target": "Cancer",
+  "date": "Feb 24 - Mar 02",
+  "images": [
+    "assets/zodiac_signs/Cancer.jpg"
+  ],
+  "active": true,
+  "status": "uploaded",
+  "file_name": "plan_weekly_Cancer.json"
 }

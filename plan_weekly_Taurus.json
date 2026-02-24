@@ -1,54 +1,54 @@
 {
-    "script_text": "Stop scrolling! This week, Taurus, the cosmos serves you a steady rhythm with punchy sparks. Monday, Mercury trine Jupiter gifts clear talk and lucky deals\u2014seal contracts, share ideas fast. Tuesday, Venus squares Saturn; emotions feel heavy, so pause before commitments, choose patience over pressure. Wednesday, Mars lights your tenth house; take decisive steps at work, ask for that raise or pitch boldly. Thursday, the Moon enters your sector of dreams; set aside quiet time for reflection, journal a vision. Friday, Uranus trines your ruling planet; surprise opportunities arrive\u2014stay open, try something new. Saturday, Neptune opposes your chart; avoid overspending, stick to budget, focus on health routines. Sunday, the Sun aligns with your core; celebrate small wins, recharge, and plan next week\u2019s grind. Embrace action on Monday and Wednesday, avoid rash moves on Tuesday and Saturday. Let the stars guide your steps! Stay grounded, thrive soon.",
-    "captions_structure": [
-        {
-            "text": "TAURUS WEEK AHEAD",
-            "type": "header"
-        },
-        {
-            "text": "Listen to your cosmic map.",
-            "type": "normal"
-        }
-    ],
-    "lucky_numbers": [
-        "7",
-        "11",
-        "21"
-    ],
-    "lucky_color": "Emerald Green",
-    "monthly_vibe": "Steady Growth",
-    "title": "Taurus Weekly Forecast",
-    "youtube_title": "Monday\u2019s Cosmic Surge for Taurus #shorts",
-    "youtube_description": "Hey Taurus, the stars are aligning just for you this week\u2014find out which day brings the biggest boost and where to tread carefully. Comment your sign below and let the universe hear you!",
-    "youtube_tags": [
-        "#astrology",
-        "#horoscope",
-        "#taurus",
-        "#taurusseason",
-        "#taurus2026",
-        "#cosmicenergy",
-        "#manifestation",
-        "#spiritualtiktok",
-        "#zodiac",
-        "#dailyforecast",
-        "#taurushoroscope",
-        "#taurustoday",
-        "#planetarytransits",
-        "#jupiter",
-        "#mercury",
-        "#venus",
-        "#mars",
-        "#uranus",
-        "#neptune",
-        "#pluto"
-    ],
-    "type": "weekly",
-    "target": "Taurus",
-    "date": "Feb 23 - Mar 01",
-    "images": [
-        "assets/zodiac_signs/Taurus.jpg"
-    ],
-    "active": true,
-    "status": "pending",
-    "file_name": "plan_weekly_Taurus.json"
+  "script_text": "Stop. Mercury trine Jupiter today lights your path.",
+  "captions_structure": [
+    {
+      "text": "LEO WARNING",
+      "type": "header"
+    },
+    {
+      "text": "You\u2019re not Leo. Focus on your Bull\u2019s strengths.",
+      "type": "normal"
+    }
+  ],
+  "lucky_numbers": [
+    "7",
+    "11",
+    "21"
+  ],
+  "lucky_color": "Emerald Green",
+  "monthly_vibe": "Reflective & Calm",
+  "title": "Taurus: Stars Warn Against Impulse Spending",
+  "youtube_title": "What The Stars See in Your Wallet #shorts",
+  "youtube_description": "Mercury trine Jupiter could flood your inbox with opportunities\u2014 but Taurus, how do you say no? Comment your sign to share your weekly plan.",
+  "youtube_tags": [
+    "taurus horoscope",
+    "astrology weekly",
+    "cosmic advice",
+    "taurus2026",
+    "money magic",
+    "zodiac energy",
+    "Mercury trine Jupiter",
+    "Taurus financials",
+    "astrology motivation",
+    "cosmic finance",
+    "taurus daily",
+    "lucky numbers",
+    "green energy",
+    "zodiac tips",
+    "horoscope truth",
+    "Taurus soul",
+    "planetary doubles",
+    "spiritual finance",
+    "cosmic curiosity",
+    "astrology deep dive"
+  ],
+  "type": "weekly",
+  "target": "Taurus",
+  "date": "Feb 24 - Mar 02",
+  "images": [
+    "assets/zodiac_signs/Taurus.jpg"
+  ],
+  "active": true,
+  "status": "uploaded",
+  "file_name": "plan_weekly_Taurus.json"
 }
