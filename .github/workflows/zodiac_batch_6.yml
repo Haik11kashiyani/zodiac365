@@ -77,7 +77,6 @@ jobs:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
           YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
-          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
           DBUS_SESSION_BUS_ADDRESS: /dev/null
           NODE_OPTIONS: "--max-old-space-size=4096"
         run: python bridge.py --batch

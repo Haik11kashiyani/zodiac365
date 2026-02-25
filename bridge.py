@@ -476,38 +476,11 @@ def process_plan(filename):
         
     log_success(f"Final caption count: {len(captions)}")
         
-    # 4. GET VISUALS
-    log_info("Sourcing Visuals...")
-    video_paths = []
-    if os.environ.get("PEXELS_API_KEY"):
-         requested_count = 6
-         video_paths = get_b_roll_sequence(script_text, target, count=requested_count)
-         if len(video_paths) < (requested_count / 2):
-             log_warning("Switching to ANIMATION MODE (Low video count).")
-             video_paths = [] 
-         else:
-             log_success(f"Found {len(video_paths)} relevant videos. Using Video Mode.")
-
+    # 4. VISUALS — Pure animation mode (no stock video downloads)
+    # The Remotion composition has built-in zodiac gradients, constellations,
+    # particles, vignette, and light beams — no external b-roll needed.
     remotion_assets = []
-    asset_dir = "video-engine/public/assets"
-    os.makedirs(asset_dir, exist_ok=True)
-    
-    import shutil
-    for i, vp in enumerate(video_paths):
-        if os.path.exists(vp):
-            ext = os.path.splitext(vp)[1]
-            dest_name = f"clip_{i}{ext}"
-            dest_path = os.path.join(asset_dir, dest_name)
-            seq_asset = convert_to_image_sequence(vp, f"clip_{i}")
-            if seq_asset:
-                remotion_assets.append(seq_asset)
-            else:
-                shutil.copy(vp, dest_path)
-                remotion_assets.append(f"/assets/{dest_name}")
-            
-    if not remotion_assets:
-        remotion_assets = ["data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="]
-        log_warning("No Pexels videos downloaded. Using inline fallback.")
+    log_info("Using pure animation mode (no stock videos).")
 
     # 5. WRITE INPUT.JSON
     input_data = {
