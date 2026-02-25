@@ -349,8 +349,8 @@ def convert_to_image_sequence(input_path, output_dir_name):
             "-i", input_path,
             "-start_number", "0",  # Start at frame_0000 to match JS 0-index
             "-r", "30",            # Force 30fps to match composition
-            "-vf", "scale=-2:360", # 360p height — smaller files load faster in Remotion CI
-            "-q:v", "10",          # Quality 10 — fastest I/O, still acceptable scaled to 1080p
+            "-vf", "scale=-2:720", # 720p height — good quality for 1080p vertical output
+            "-q:v", "5",           # Quality 5 — sharper frames, reasonable file size
             "-y",
             output_pattern
         ]
