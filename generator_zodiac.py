@@ -84,7 +84,7 @@ def generate_content(mode, target, date_str):
        - lucky_numbers: 3 distinct lucky numbers between 1-99.
        - lucky_color: A specific, evocative color (e.g. "Royal Blue", "Sunset Orange").
        - monthly_vibe: 2-3 words describing the core energy theme (e.g. "Bold Action", "Deep Reflection").
-    "
+    """
     
     data = ask_ai(prompt + prompt_suffix)
     if not data: return None
