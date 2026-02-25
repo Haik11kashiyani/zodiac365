@@ -8,6 +8,5 @@ Config.setCodec('h264');
 // 300 seconds to handle large public dirs with image sequences
 Config.setDelayRenderTimeoutInMilliseconds(300000);
 
-// Use single concurrency on CI to prevent memory pressure and
-// the registerRoot race condition seen in multi-page renders
-Config.setConcurrency(1);
+// Use 2 concurrent threads on CI to leverage both vCPUs on GitHub Actions runners
+Config.setConcurrency(2);

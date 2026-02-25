@@ -282,11 +282,12 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
     const auraOpacity = (auraColor && !optimizeForCI) ? 0.15 + Math.sin(frame * 0.08) * 0.1 : 0;
 
     // OPTIMIZATION SETTINGS
-    const particleCount = optimizeForCI ? 5 : 20; 
+    const particleCount = optimizeForCI ? 0 : 20; 
     const enableBlur = false;            // DISABLED as requested
-    const enableShadows = true;          // ENABLED as requested ("add complex glowing shadows")
-    const enableNoise = true;            // RE-ENABLED as requested ("Film Grain add this")
+    const enableShadows = !optimizeForCI; // Disable expensive box-shadows in CI
+    const enableNoise = !optimizeForCI;   // Disable SVG noise filter in CI (very expensive)
     const starGlowMultiplier = optimizeForCI ? 0 : 0.8;
+    const enableBackdropBlur = !optimizeForCI; // backdropFilter: blur() is THE biggest perf killer
 
     return (
         <AbsoluteFill style={{ 
@@ -309,8 +310,8 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
                 mixBlendMode: 'overlay'
             }} />
             
-            {/* LAYER 1.5: ANIMATED CONSTELLATION */}
-            <AbsoluteFill style={{ zIndex: 1, pointerEvents: 'none' }}>
+            {/* LAYER 1.5: ANIMATED CONSTELLATION (skipped in CI - SVG + drop-shadows are very expensive) */}
+            {!optimizeForCI && <AbsoluteFill style={{ zIndex: 1, pointerEvents: 'none' }}>
                 {(() => {
                     const constellation = ZODIAC_CONSTELLATIONS[zodiacSign] || ZODIAC_CONSTELLATIONS['Aries'];
                     const { stars, connections } = constellation;
@@ -388,7 +389,7 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
                         </div>
                     );
                 })()}
-            </AbsoluteFill>
+            </AbsoluteFill>}
             
             {/* LAYER 2: ANIMATED COSMIC PARTICLES */}
             <AbsoluteFill style={{ zIndex: 2, pointerEvents: 'none' }}>
@@ -441,8 +442,8 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
                 pointerEvents: 'none'
             }} />
             
-            {/* LAYER 4: ANIMATED LIGHT BEAMS */}
-            <AbsoluteFill style={{ zIndex: 4, pointerEvents: 'none', overflow: 'hidden' }}>
+            {/* LAYER 4: ANIMATED LIGHT BEAMS (skipped in CI) */}
+            {!optimizeForCI && <AbsoluteFill style={{ zIndex: 4, pointerEvents: 'none', overflow: 'hidden' }}>
                 {[0, 1, 2].map((i) => {
                     const beamX = ((frame * 2 + i * 400) % 1500) - 200;
                     const beamOpacity = 0.08 + Math.sin(frame * 0.03 + i) * 0.04;
@@ -462,7 +463,7 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
                         />
                     );
                 })}
-            </AbsoluteFill>
+            </AbsoluteFill>}
             
             {/* LAYER 4.5: FLOATING EMOJI REACTIONS - REMOVED PER USER REQUEST */}
             {/* 
@@ -471,8 +472,8 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
             </AbsoluteFill> 
             */}
             
-            {/* ZODIAC WHEEL SPINNER (Bottom Left) */}
-            <div style={{
+            {/* ZODIAC WHEEL SPINNER (Bottom Left) - skipped in CI (12 rotating elements with drop-shadows) */}
+            {!optimizeForCI && <div style={{
                 position: 'absolute',
                 bottom: 100,
                 left: 30,
@@ -529,10 +530,10 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
                         {symbol}
                     </div>
                 </div>
-            </div>
+            </div>}
             
-            {/* GLITCH EFFECT OVERLAY (Scene Transitions) */}
-            {isTransitioning && (
+            {/* GLITCH EFFECT OVERLAY (Scene Transitions) - skipped in CI */}
+            {isTransitioning && !optimizeForCI && (
                 <AbsoluteFill style={{
                     zIndex: 30,
                     pointerEvents: 'none',
@@ -572,8 +573,8 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
                 </AbsoluteFill>
             )}
             
-            {/* CONFETTI BURST (Positive Moments) */}
-            {hasPositive && (
+            {/* CONFETTI BURST (Positive Moments) - skipped in CI */}
+            {hasPositive && !optimizeForCI && (
                 <AbsoluteFill style={{ zIndex: 28, pointerEvents: 'none' }}>
                     {[...Array(30)].map((_, i) => {
                         const confettiColors = ['#FFD700', '#FF69B4', '#00FF00', '#FF4500', '#00BFFF', '#FF1493', '#7FFF00'];
@@ -641,7 +642,7 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
                 background: 'rgba(0,0,0,0.3)',
                 padding: '8px 16px',
                 borderRadius: 20,
-                backdropFilter: 'blur(5px)',
+                ...(enableBackdropBlur ? { backdropFilter: 'blur(5px)' } : { background: 'rgba(0,0,0,0.5)' }),
                 border: '1px solid rgba(255,255,255,0.2)',
             }}>
                 ⏱️ {timeString}
@@ -662,7 +663,7 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
                     <div style={{
                         fontSize: 50,
                         transform: `rotate(${Math.sin(frame * 0.1) * 15}deg)`,
-                        filter: 'drop-shadow(0 0 10px rgba(255,215,0,0.5))',
+                        filter: enableShadows ? 'drop-shadow(0 0 10px rgba(255,215,0,0.5))' : 'none',
                     }}>
                         🔔
                     </div>
@@ -731,7 +732,7 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
                     padding: '15px 40px',
                     background: 'rgba(0,0,0,0.4)',
                     borderRadius: 50,
-                    backdropFilter: 'blur(10px)',
+                    ...(enableBackdropBlur ? { backdropFilter: 'blur(10px)' } : {}),
                 }}>
                     <span style={{ 
                         fontSize: 60, 
@@ -792,7 +793,7 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
                     background: 'rgba(0, 0, 0, 0.6)', 
                     padding: '15px', 
                     borderRadius: 15,
-                    backdropFilter: 'blur(10px)',
+                    ...(enableBackdropBlur ? { backdropFilter: 'blur(10px)' } : {}),
                     border: '1px solid rgba(255,255,255,0.1)',
                     display: 'flex',
                     flexDirection: 'column',
@@ -854,8 +855,8 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
                 />
             )}
 
-            {/* SCREEN FLASH (Surprise Moments) */}
-            {flashOpacity > 0 && (
+            {/* SCREEN FLASH (Surprise Moments) - skipped in CI */}
+            {flashOpacity > 0 && !optimizeForCI && (
                 <AbsoluteFill style={{
                     zIndex: 25,
                     background: 'radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,215,0,0.8) 50%, transparent 100%)',
@@ -865,8 +866,8 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
                 }} />
             )}
             
-            {/* DARK PULSE (Warning Moments) */}
-            {darkPulseOpacity > 0 && (
+            {/* DARK PULSE (Warning Moments) - skipped in CI */}
+            {darkPulseOpacity > 0 && !optimizeForCI && (
                 <AbsoluteFill style={{
                     zIndex: 25,
                     background: 'radial-gradient(ellipse at center, transparent 30%, rgba(139,0,0,0.6) 70%, rgba(0,0,0,0.8) 100%)',
@@ -875,8 +876,8 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
                 }} />
             )}
             
-            {/* WARNING BORDER PULSE */}
-            {hasWarning && (
+            {/* WARNING BORDER PULSE - skipped in CI */}
+            {hasWarning && !optimizeForCI && (
                 <AbsoluteFill style={{
                     zIndex: 24,
                     border: `${4 + Math.sin(frame * 0.2) * 2}px solid rgba(255,0,0,${0.3 + Math.sin(frame * 0.15) * 0.2})`,
@@ -886,8 +887,8 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
                 }} />
             )}
             
-            {/* LAYER 11: SCANLINES OVERLAY (Cinematic Film Look) */}
-            <AbsoluteFill style={{ 
+            {/* LAYER 11: SCANLINES OVERLAY (Cinematic Film Look) - skipped in CI */}
+            {!optimizeForCI && <AbsoluteFill style={{ 
                 zIndex: 11,
                 pointerEvents: 'none',
                 background: `repeating-linear-gradient(
@@ -898,7 +899,7 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
                     transparent 4px
                 )`,
                 mixBlendMode: 'multiply'
-            }} />
+            }} />}
             
             {/* LAYER 12: SUBTLE NOISE (Film Grain Effect) */}
             {enableNoise && (
@@ -924,7 +925,7 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
                     width: `${progress}%`,
                     height: '100%',
                     background: 'linear-gradient(90deg, #FFD700, #FFA500)',
-                    boxShadow: '0 0 20px #FFD700, 0 0 40px #FFA500',
+                    boxShadow: enableShadows ? '0 0 20px #FFD700, 0 0 40px #FFA500' : 'none',
                     transition: 'width 0.1s linear',
                 }} />
             </div>

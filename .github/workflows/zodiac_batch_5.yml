@@ -1,15 +1,15 @@
-name: "Zodiac Batch 2 - Gemini & Cancer"
+name: "Zodiac Batch 5 - Sagittarius & Capricorn"
 
 on:
   schedule:
-    # Daily at 4:05 AM ET = 09:05 UTC (staggered 5 min after Batch 1)
-    - cron: "5 9 * * *"
-    # Weekly on Sundays at 5:05 AM ET = 10:05 UTC
-    - cron: "5 10 * * 0"
+    # Daily at 4:20 AM ET = 09:20 UTC (staggered 20 min after Batch 1)
+    - cron: "20 9 * * *"
+    # Weekly on Sundays at 5:20 AM ET = 10:20 UTC
+    - cron: "20 10 * * 0"
   workflow_dispatch:
 
 jobs:
-  batch-2-production:
+  batch-5-production:
     runs-on: ubuntu-latest
     timeout-minutes: 90
     permissions:
@@ -56,19 +56,19 @@ jobs:
           printf '%s' "$YOUTUBE_TOKEN" > token.json
           echo "✅ token.json injected ($(wc -c < token.json) bytes)"
 
-      - name: Generate Content (Gemini, Cancer)
+      - name: Generate Content (Sagittarius, Capricorn)
         env:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: |
-          echo "🚀 Batch 2: Gemini, Cancer"
+          echo "🚀 Batch 5: Sagittarius, Capricorn"
           current_hour=$(date -u +%H)
           if [ "$current_hour" -eq "9" ]; then
-             python master_brain.py --mode daily --signs "Gemini,Cancer"
+             python master_brain.py --mode daily --signs "Sagittarius,Capricorn"
           elif [ "$current_hour" -eq "10" ]; then
-             python master_brain.py --mode weekly --signs "Gemini,Cancer"
+             python master_brain.py --mode weekly --signs "Sagittarius,Capricorn"
           else
-             python master_brain.py --mode all --signs "Gemini,Cancer"
+             python master_brain.py --mode all --signs "Sagittarius,Capricorn"
           fi
 
       - name: Build & Upload Videos
@@ -86,7 +86,7 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: batch-2-videos
+          name: batch-5-videos
           path: output_videos/
           retention-days: 5
 
@@ -98,7 +98,7 @@ jobs:
           git add plan_*.json examples/*.json
           touch image_usage.json
           git add image_usage.json || true
-          git commit -m "🤖 Batch 2 (Gemini-Cancer): Auto-Update" || echo "No changes to commit"
+          git commit -m "🤖 Batch 5 (Sagittarius-Capricorn): Auto-Update" || echo "No changes to commit"
           for i in 1 2 3 4 5; do
             git push && break
             echo "Push failed, retrying after pull..."

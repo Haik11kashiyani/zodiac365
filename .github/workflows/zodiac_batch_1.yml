@@ -1,8 +1,8 @@
-name: "Zodiac Batch 1 - Aries to Cancer"
+name: "Zodiac Batch 1 - Aries & Taurus"
 
 on:
   schedule:
-    # Daily at 4:00 AM ET = 09:00 UTC (before US morning horoscope rush 6-8 AM ET)
+    # Daily at 4:00 AM ET = 09:00 UTC
     - cron: "0 9 * * *"
     # Weekly on Sundays at 5:00 AM ET = 10:00 UTC
     - cron: "0 10 * * 0"
@@ -11,7 +11,7 @@ on:
 jobs:
   batch-1-production:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 90
     permissions:
       contents: write
 
@@ -56,19 +56,19 @@ jobs:
           printf '%s' "$YOUTUBE_TOKEN" > token.json
           echo "✅ token.json injected ($(wc -c < token.json) bytes)"
 
-      - name: Generate Content (Aries, Taurus, Gemini, Cancer)
+      - name: Generate Content (Aries, Taurus)
         env:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: |
-          echo "🚀 Batch 1: Aries, Taurus, Gemini, Cancer"
+          echo "🚀 Batch 1: Aries, Taurus"
           current_hour=$(date -u +%H)
           if [ "$current_hour" -eq "9" ]; then
-             python master_brain.py --mode daily --signs "Aries,Taurus,Gemini,Cancer"
+             python master_brain.py --mode daily --signs "Aries,Taurus"
           elif [ "$current_hour" -eq "10" ]; then
-             python master_brain.py --mode weekly --signs "Aries,Taurus,Gemini,Cancer"
+             python master_brain.py --mode weekly --signs "Aries,Taurus"
           else
-             python master_brain.py --mode all --signs "Aries,Taurus,Gemini,Cancer"
+             python master_brain.py --mode all --signs "Aries,Taurus"
           fi
 
       - name: Build & Upload Videos
@@ -98,9 +98,8 @@ jobs:
           git add plan_*.json examples/*.json
           touch image_usage.json
           git add image_usage.json || true
-          git commit -m "🤖 Batch 1 (Aries-Cancer): Auto-Update" || echo "No changes to commit"
-          # Retry push up to 3 times in case other batches pushed first
-          for i in 1 2 3; do
+          git commit -m "🤖 Batch 1 (Aries-Taurus): Auto-Update" || echo "No changes to commit"
+          for i in 1 2 3 4 5; do
             git push && break
             echo "Push failed, retrying after pull..."
             sleep 10
