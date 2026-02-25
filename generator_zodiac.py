@@ -40,36 +40,51 @@ def generate_content(mode, target, date_str):
 
     today_context = datetime.date.today().strftime("%B %d, %Y")
     
+    # Detect actual sign name for captions (handle "X vs Y" for compatibility)
+    caption_sign = target.split(' vs ')[0] if ' vs ' in target else target
+    
     # VTT and REMOTION BRIDGE
     prompt_suffix = f"""
-    CONTEXT: Today is {today_context}.
+    CONTEXT: Today is {today_context}. The target sign is {target}.
+    
+    CRITICAL CONTENT RULES:
+    - The script MUST contain REAL astrological predictions specific to {target}
+    - Reference {target}'s actual RULING PLANET and ELEMENT in the script
+    - Use SPECIFIC house numbers (1st House, 7th House, 10th House, etc.)
+    - Use REAL planetary aspects (trine, square, opposition, conjunction, sextile)
+    - Include at least ONE specific prediction about LOVE and ONE about CAREER/MONEY
+    - The predictions must sound like a REAL professional astrologer, NOT generic motivation
+    - NEVER use placeholder text like [Element] or [Number] — fill in the REAL values
+    - The script must be a COMPLETE, spoken narration — no headers, no bullet points
+    - Flow naturally as if speaking directly to the viewer
     
     Respond in JSON ONLY:
     {{
-        "script_text": "Spoken script ~50s. START WITH A STOP WORD (Wait, Stop, Listen). High energy.",
+        "script_text": "The FULL spoken narration script. Must follow the structure defined in the main prompt above. 140-150 words (55-60 seconds). Start with a pattern interrupt. Include specific planetary transits, house references, love prediction, career prediction, and a closing CTA. Must be specific to {target} — never generic.",
         "captions_structure": [
-            {{"text": "LEO WARNING", "type": "header"}},
-            {{"text": "Stop scrolling...", "type": "normal"}}
+            {{"text": "{caption_sign.upper()} ALERT", "type": "header"}},
+            {{"text": "First line of the script...", "type": "normal"}}
         ],
         "lucky_numbers": ["7", "11", "21"],
         "lucky_color": "Emerald Green",
         "monthly_vibe": "Reflective & Calm",
-        "title": "Internal Title",
-        "youtube_title": "Short punchy title under 50 chars, curiosity-driven, NO hashtags",
-        "youtube_description": "2-3 sentence hook that makes people curious. Personal and specific.",
+        "title": "{target} {mode.title()} Horoscope {today_context}",
+        "youtube_title": "Short punchy title under 50 chars, curiosity-driven, NO hashtags, NO emojis, must include {target}",
+        "youtube_description": "2-3 sentence hook that creates curiosity. Personal tone as if talking directly to {target}. Include a specific teaser about what the prediction reveals.",
         "youtube_tags": ["tag1", "tag2", "...20 tags mixing broad and niche"]
     }}
     
-    VIRAL RULES (200% VIRALITY):
-    1. **TITLE**: Max 50 chars. Curiosity gap style. Examples: "The Stars Are Warning {target}...", "{target} — Don't Ignore This", "Something Big Is Coming for {target}". NO hashtags in the title. NO emojis in the title.
-    2. **SCRIPT**: Start with a PATTERN INTERRUPT ("Stop scrolling!", "You need to hear this!").
-    3. **DESCRIPTION**: Write 2-3 sentences that create curiosity. Personal tone like talking to the viewer. Include "Comment your sign" CTA.
-    4. **TAGS**: Generate 20 tags. Mix: broad (#astrology, #horoscope), sign-specific (#{target.lower()}horoscope, #{target.lower()}today), trending (#manifestation, #cosmicenergy, #spiritualtiktok).
-    5. **EXTRAS**:
-       - lucky_numbers: 3 distinct lucky numbers.
+    FORMAT RULES:
+    1. **TITLE**: Max 50 chars. Must include "{target}". Curiosity gap style. Examples: "The Stars Are Warning {target}...", "{target} — Don't Ignore This", "Something Big Is Coming for {target}". NO hashtags. NO emojis.
+    2. **SCRIPT**: MUST follow the structured sections from the main prompt. Every section must be present. No skipping.
+    3. **DESCRIPTION**: 2-3 sentences that tease the specific prediction. Mention what planet or transit the video covers. Include "Comment your sign" CTA.
+    4. **TAGS**: Generate 20 tags. Mix: broad (astrology, horoscope), sign-specific ({target.lower()} horoscope, {target.lower()} today), trending (manifestation, cosmic energy, spiritual tiktok).
+    5. **CAPTIONS_STRUCTURE**: The header MUST say "{caption_sign.upper()}" — NEVER use a different sign name.
+    6. **EXTRAS**:
+       - lucky_numbers: 3 distinct lucky numbers between 1-99.
        - lucky_color: A specific, evocative color (e.g. "Royal Blue", "Sunset Orange").
-       - monthly_vibe: 2-3 words describing the core theme (e.g. "Bold Action", "Quiet Reflection").
-    """
+       - monthly_vibe: 2-3 words describing the core energy theme (e.g. "Bold Action", "Deep Reflection").
+    "
     
     data = ask_ai(prompt + prompt_suffix)
     if not data: return None

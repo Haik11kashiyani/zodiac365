@@ -58,7 +58,7 @@ def ask_google_fallback(prompt, sys_msg):
         log_error(f"Gemini Fallback Failed: {e}")
     return None
 
-def ask_ai(prompt, sys_msg="You are a mystical video director."):
+def ask_ai(prompt, sys_msg="You are a professional Western astrologer with 30+ years of experience. You create highly specific, authentic horoscope predictions using real planetary transits, house placements, and aspects. Your predictions always include concrete details — specific planets, house numbers, and aspects. You NEVER give vague motivational advice. You speak with authority and warmth, like a trusted cosmic guide. You always respond in valid JSON only."):
     # 1. Try OpenRouter (Free Models)
     if OPENROUTER_API_KEY:
         url = "https://openrouter.ai/api/v1/chat/completions"
@@ -103,14 +103,31 @@ def ask_ai(prompt, sys_msg="You are a mystical video director."):
     return get_emergency_fallback_script()
 
 def get_emergency_fallback_script():
-    """Returns a generic horoscope script when all AI services are unavailable."""
-    return {
-        "script_text": "Stop scrolling! The cosmos has an urgent message for you right now. The stars are aligning in your favor today, creating a powerful window of opportunity. Positive energy surrounds you, bringing unexpected breakthroughs in love and finances. Stay focused on your goals and trust your intuition. The universe has special plans for you. Remember to stay grounded and appreciate the small blessings. Your lucky numbers are shining bright. Embrace the day with confidence and watch as magic unfolds. Subscribe and follow for your daily cosmic guidance!",
-        "title": "Daily Cosmic Forecast",
-        "youtube_title": "The Universe Has a Message For You",
-        "youtube_description": "The cosmos is speaking directly to YOU today. Something is shifting in your energy — and you need to know about it. Comment your sign below!",
-        "youtube_tags": ["horoscope", "astrology", "zodiac", "daily horoscope", "cosmic message", "universe", "horoscope today", "zodiac signs", "spiritual guidance", "manifestation", "tarot", "cosmic energy", "astrology shorts", "zodiac shorts", "what the stars say", "spiritual awakening", "energy shift", "zodiac prediction", "star sign", "astrology reading"],
-        "lucky_numbers": ["7", "11", "22"],
-        "lucky_color": "Celestial Gold",
-        "monthly_vibe": "Cosmic Alignment"
-    }
+    """Returns a structured horoscope fallback when all AI services are unavailable."""
+    import datetime, random
+    today = datetime.date.today().strftime("%B %d, %Y")
+    
+    # Rotate through different fallback scripts to avoid repetition
+    scripts = [
+        {
+            "script_text": f"Stop scrolling! Mercury is making a powerful trine to Jupiter right now, and this is huge for you. Your 10th House of Career is lit up — expect a sudden opportunity from someone in authority. A boss, a mentor, or even a stranger could open a door you didn't know existed. In love, Venus is gliding through your 5th House, making you absolutely magnetic today. If you're single, pay attention to who shows up. If you're taken, tonight is the night for a deep conversation. One warning — avoid signing contracts before Thursday. Mercury's energy is expansive but not detail-oriented right now. Your ruling planet is working overtime for you. Follow for tomorrow's reading and don't miss what's coming this week!",
+            "title": f"Daily Cosmic Forecast {today}",
+            "youtube_title": "The Stars Are Sending You an Urgent Sign",
+            "youtube_description": f"Mercury trine Jupiter is activating your Career house TODAY ({today}). A major opportunity is heading your way — but there's one thing you need to avoid. Comment your sign!",
+            "youtube_tags": ["horoscope", "astrology", "zodiac", "daily horoscope", "mercury trine jupiter", "career horoscope", "love horoscope", "horoscope today", "zodiac signs", "spiritual guidance", "manifestation", "cosmic energy", "astrology shorts", "zodiac shorts", "planetary transit", "spiritual awakening", "energy shift", "zodiac prediction", "venus 5th house", "astrology reading"],
+            "lucky_numbers": ["7", "11", "22"],
+            "lucky_color": "Celestial Gold",
+            "monthly_vibe": "Unexpected Opportunity"
+        },
+        {
+            "script_text": f"Wait — before you scroll past this, the Moon is forming an exact opposition to Pluto today, and you need to hear this. Deep emotions are rising to the surface. Your 4th House of Home and Family is activated, which means unresolved tensions could explode — or finally heal. In your career, Mars in your 6th House is pushing you to work harder than ever. Channel that fire into one specific goal today, not ten. Love is intense right now. Venus square Neptune is creating illusions — don't believe everything you see in a new connection. Trust actions over words. The gift today is emotional clarity if you're brave enough to look within. Your power move is honesty. Subscribe so you catch tomorrow's cosmic download!",
+            "title": f"Daily Cosmic Forecast {today}",
+            "youtube_title": "Something Deep Is Stirring In Your Chart",
+            "youtube_description": f"Moon opposite Pluto is bringing buried emotions to the surface ({today}). Your family sector is activated and love is NOT what it seems. Comment your sign!",
+            "youtube_tags": ["horoscope", "astrology", "zodiac", "daily horoscope", "moon opposite pluto", "emotional healing", "love horoscope", "horoscope today", "zodiac signs", "spiritual guidance", "manifestation", "cosmic energy", "astrology shorts", "zodiac shorts", "planetary transit", "venus square neptune", "mars 6th house", "zodiac prediction", "deep astrology", "astrology reading"],
+            "lucky_numbers": ["3", "16", "33"],
+            "lucky_color": "Deep Violet",
+            "monthly_vibe": "Emotional Breakthrough"
+        }
+    ]
+    return random.choice(scripts)

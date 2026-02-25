@@ -2,10 +2,10 @@ name: "Zodiac Batch 3 - Sagittarius to Pisces"
 
 on:
   schedule:
-    # Daily at 8:30 AM EST = 13:30 UTC (staggered 30 min after Batch 1)
-    - cron: "30 13 * * *"
-    # Weekly on Sundays at 9:30 AM EST = 14:30 UTC
-    - cron: "30 14 * * 0"
+    # Daily at 4:30 AM ET = 09:30 UTC (staggered 30 min after Batch 1)
+    - cron: "30 9 * * *"
+    # Weekly on Sundays at 5:30 AM ET = 10:30 UTC
+    - cron: "30 10 * * 0"
   workflow_dispatch:
 
 jobs:
@@ -63,9 +63,9 @@ jobs:
         run: |
           echo "🚀 Batch 3: Sagittarius, Capricorn, Aquarius, Pisces"
           current_hour=$(date -u +%H)
-          if [ "$current_hour" -eq "13" ]; then
+          if [ "$current_hour" -eq "9" ]; then
              python master_brain.py --mode daily --signs "Sagittarius,Capricorn,Aquarius,Pisces"
-          elif [ "$current_hour" -eq "14" ]; then
+          elif [ "$current_hour" -eq "10" ]; then
              python master_brain.py --mode weekly --signs "Sagittarius,Capricorn,Aquarius,Pisces"
           else
              python master_brain.py --mode all --signs "Sagittarius,Capricorn,Aquarius,Pisces"

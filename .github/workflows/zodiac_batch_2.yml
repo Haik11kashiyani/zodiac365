@@ -2,10 +2,10 @@ name: "Zodiac Batch 2 - Leo to Scorpio"
 
 on:
   schedule:
-    # Daily at 8:15 AM EST = 13:15 UTC (staggered 15 min after Batch 1)
-    - cron: "15 13 * * *"
-    # Weekly on Sundays at 9:15 AM EST = 14:15 UTC
-    - cron: "15 14 * * 0"
+    # Daily at 4:15 AM ET = 09:15 UTC (staggered 15 min after Batch 1)
+    - cron: "15 9 * * *"
+    # Weekly on Sundays at 5:15 AM ET = 10:15 UTC
+    - cron: "15 10 * * 0"
   workflow_dispatch:
 
 jobs:
@@ -63,9 +63,9 @@ jobs:
         run: |
           echo "🚀 Batch 2: Leo, Virgo, Libra, Scorpio"
           current_hour=$(date -u +%H)
-          if [ "$current_hour" -eq "13" ]; then
+          if [ "$current_hour" -eq "9" ]; then
              python master_brain.py --mode daily --signs "Leo,Virgo,Libra,Scorpio"
-          elif [ "$current_hour" -eq "14" ]; then
+          elif [ "$current_hour" -eq "10" ]; then
              python master_brain.py --mode weekly --signs "Leo,Virgo,Libra,Scorpio"
           else
              python master_brain.py --mode all --signs "Leo,Virgo,Libra,Scorpio"

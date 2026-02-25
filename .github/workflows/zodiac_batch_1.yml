@@ -2,10 +2,10 @@ name: "Zodiac Batch 1 - Aries to Cancer"
 
 on:
   schedule:
-    # Daily at 8:00 AM EST = 13:00 UTC
-    - cron: "0 13 * * *"
-    # Weekly on Sundays at 9:00 AM EST = 14:00 UTC
-    - cron: "0 14 * * 0"
+    # Daily at 4:00 AM ET = 09:00 UTC (before US morning horoscope rush 6-8 AM ET)
+    - cron: "0 9 * * *"
+    # Weekly on Sundays at 5:00 AM ET = 10:00 UTC
+    - cron: "0 10 * * 0"
   workflow_dispatch:
 
 jobs:
@@ -63,9 +63,9 @@ jobs:
         run: |
           echo "🚀 Batch 1: Aries, Taurus, Gemini, Cancer"
           current_hour=$(date -u +%H)
-          if [ "$current_hour" -eq "13" ]; then
+          if [ "$current_hour" -eq "9" ]; then
              python master_brain.py --mode daily --signs "Aries,Taurus,Gemini,Cancer"
-          elif [ "$current_hour" -eq "14" ]; then
+          elif [ "$current_hour" -eq "10" ]; then
              python master_brain.py --mode weekly --signs "Aries,Taurus,Gemini,Cancer"
           else
              python master_brain.py --mode all --signs "Aries,Taurus,Gemini,Cancer"
