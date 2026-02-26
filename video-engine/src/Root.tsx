@@ -38,9 +38,40 @@ export const RemotionRoot: React.FC = () => {
                     durationInFrames: 1800,
                 }}
                 calculateMetadata={async ({ props }) => {
-                    return {
-                        durationInFrames: (props as any).durationInFrames || 30 * 60,
-                    };
+                    // Primary: read from meta.json (written by bridge.py to public/)
+                    // This bypasses any Remotion --props serialization issues with
+                    // the reserved 'durationInFrames' field.
+                    let duration: number | undefined;
+                    
+                    try {
+                        const resp = await fetch(staticFile('meta.json'));
+                        if (resp.ok) {
+                            const meta = await resp.json();
+                            if (typeof meta.durationInFrames === 'number' && meta.durationInFrames > 0) {
+                                duration = meta.durationInFrames;
+                                console.log(`[calculateMetadata] from meta.json: ${duration} frames`);
+                            }
+                        }
+                    } catch (e) {
+                        console.warn('[calculateMetadata] meta.json fetch failed:', e);
+                    }
+                    
+                    // Fallback: try props from --props=./input.json
+                    if (!duration) {
+                        const propDuration = (props as any).durationInFrames;
+                        if (typeof propDuration === 'number' && propDuration > 0) {
+                            duration = propDuration;
+                            console.log(`[calculateMetadata] from props: ${duration} frames`);
+                        }
+                    }
+                    
+                    // Final fallback
+                    if (!duration) {
+                        duration = 30 * 60; // 60 seconds
+                        console.warn(`[calculateMetadata] using default: ${duration} frames`);
+                    }
+                    
+                    return { durationInFrames: duration };
                 }}
             />
         </>

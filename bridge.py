@@ -385,7 +385,7 @@ def _cleanup_previous_build():
     public_dir = "video-engine/public"
     if os.path.exists(public_dir):
         for f in os.listdir(public_dir):
-            if f.endswith(('.mp3', '.vtt')):
+            if f.endswith(('.mp3', '.vtt')) or f == 'meta.json':
                 try:
                     os.remove(os.path.join(public_dir, f))
                 except:
@@ -503,13 +503,32 @@ def process_plan(filename):
         json.dump(input_data, f, indent=2)
     log_success(f"Data written to {input_path}")
 
+    # Write a separate meta.json for Remotion's calculateMetadata to read
+    # This is a workaround: Remotion v4 may not pass durationInFrames from
+    # --props correctly to calculateMetadata (reserved field stripping).
+    meta_path = "video-engine/public/meta.json"
+    with open(meta_path, "w") as f:
+        json.dump({"durationInFrames": video_duration_frames}, f)
+    log_info(f"Duration meta written: {video_duration_frames} frames → {meta_path}")
+
     # 6. BUILD VIDEO (with 20-minute timeout to prevent stuck renders)
     log_info("Building Video...")
     video_engine_dir = os.path.join(os.path.dirname(__file__), "video-engine")
     BUILD_TIMEOUT_SECONDS = 20 * 60  # 20 minutes max per video
     try:
-        cmd = "npm run build"
+        # Build the command dynamically instead of using 'npm run build'
+        # so we can add --log=verbose for CI debugging.
+        cmd = (
+            "npx remotion render src/index.tsx ZodiacVideo out/video.mp4"
+            " --props=./input.json"
+            " --gl=swangle"
+            " --concurrency=2"
+            " --timeout=300000"
+            " --jpeg-quality=65"
+            " --log=verbose"
+        )
         log_info(f"Executing: {cmd} (timeout: {BUILD_TIMEOUT_SECONDS}s)")
+        log_info(f"Expected frames: {video_duration_frames}")
         # Use new helper to ensure process tree cleanup
         run_command_with_timeout(cmd, cwd=video_engine_dir, timeout_sec=BUILD_TIMEOUT_SECONDS)
         log_success("Build Complete!")

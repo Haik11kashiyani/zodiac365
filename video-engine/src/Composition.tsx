@@ -181,6 +181,7 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
     captions, 
     images,
     title = '',
+    durationInFrames: propDuration,
     optimizeForCI = false,
     luckyNumbers = [],
     luckyColor = '',
@@ -189,8 +190,13 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
     predictionType = 'DAILY',
 }) => {
     const frame = useCurrentFrame(); 
-    const { fps, width, height } = useVideoConfig(); // durationInFrames is obtained from props or config
-    const durationInFrames = useVideoConfig().durationInFrames;
+    const { fps, width, height } = useVideoConfig();
+    const configDuration = useVideoConfig().durationInFrames;
+    // Prefer prop-based duration (from input.json) over config duration
+    // as a safety net if calculateMetadata didn't update correctly
+    const durationInFrames = (typeof propDuration === 'number' && propDuration > 0)
+        ? propDuration
+        : configDuration;
     
     // Extract zodiac sign from title or default to Aries
     const zodiacSign = Object.keys(ZODIAC_GRADIENTS).find(sign => 
