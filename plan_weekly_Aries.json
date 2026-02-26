@@ -49,7 +49,6 @@
     "assets/zodiac_signs/Aries.jpg"
   ],
   "active": true,
-  "status": "error",
-  "file_name": "plan_weekly_Aries.json",
-  "error_reason": "Build timed out after 1200s"
+  "status": "pending",
+  "file_name": "plan_weekly_Aries.json"
 }

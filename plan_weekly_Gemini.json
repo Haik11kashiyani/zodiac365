@@ -88,7 +88,6 @@
     "assets/zodiac_signs/Gemini.jpg"
   ],
   "active": true,
-  "status": "error",
-  "file_name": "plan_weekly_Gemini.json",
-  "error_reason": "Build timed out after 1200s"
+  "status": "pending",
+  "file_name": "plan_weekly_Gemini.json"
 }

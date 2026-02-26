@@ -49,7 +49,6 @@
     "assets/zodiac_signs/Virgo.jpg"
   ],
   "active": true,
-  "status": "error",
-  "file_name": "plan_weekly_Virgo.json",
-  "error_reason": "Build timed out after 1200s"
+  "status": "pending",
+  "file_name": "plan_weekly_Virgo.json"
 }

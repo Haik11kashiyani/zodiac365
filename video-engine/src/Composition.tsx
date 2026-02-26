@@ -294,6 +294,8 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
     const enableNoise = !optimizeForCI;   // Disable SVG noise filter in CI (very expensive)
     const starGlowMultiplier = optimizeForCI ? 0 : 0.8;
     const enableBackdropBlur = !optimizeForCI; // backdropFilter: blur() is THE biggest perf killer
+    const enableTextShadow = !optimizeForCI; // text-shadow with blur is expensive in headless Chrome
+    const enableHUD = !optimizeForCI;     // Countdown timer, subscribe bell, info overlay = emoji + layout cost
 
     return (
         <AbsoluteFill style={{ 
@@ -444,7 +446,9 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
             {/* LAYER 3: ANIMATED VIGNETTE */}
             <AbsoluteFill style={{ 
                 zIndex: 3,
-                background: `radial-gradient(ellipse at center, transparent 20%, rgba(0,0,0,${0.4 + glowIntensity * 0.3}) 80%, rgba(0,0,0,0.9) 100%)`,
+                background: optimizeForCI
+                    ? 'radial-gradient(ellipse at center, transparent 20%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,0.9) 100%)'
+                    : `radial-gradient(ellipse at center, transparent 20%, rgba(0,0,0,${0.4 + glowIntensity * 0.3}) 80%, rgba(0,0,0,0.9) 100%)`,
                 pointerEvents: 'none'
             }} />
             
@@ -625,7 +629,7 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
             )}
             
             {/* REVEAL ZOOM EFFECT (Slow-mo feel) */}
-            {hasReveal && (
+            {hasReveal && !optimizeForCI && (
                 <AbsoluteFill style={{
                     zIndex: 26,
                     pointerEvents: 'none',
@@ -635,8 +639,8 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
                 }} />
             )}
             
-            {/* COUNTDOWN TIMER (Top Right Corner) */}
-            <div style={{
+            {/* COUNTDOWN TIMER (Top Right Corner) - skipped in CI (emoji + backdrop-filter expensive) */}
+            {enableHUD && <div style={{
                 position: 'absolute',
                 top: 100,
                 right: 30,
@@ -652,10 +656,10 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
                 border: '1px solid rgba(255,255,255,0.2)',
             }}>
                 ⏱️ {timeString}
-            </div>
+            </div>}
             
-            {/* ANIMATED SUBSCRIBE BELL (Bottom Right) */}
-            {isMainPhase && (
+            {/* ANIMATED SUBSCRIBE BELL (Bottom Right) - skipped in CI (emoji render cost) */}
+            {isMainPhase && enableHUD && (
                 <div style={{
                     position: 'absolute',
                     bottom: 80,
@@ -707,7 +711,7 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
                                 fontSize: 52, // Slightly larger
                                 fontWeight: 800,
                                 color: 'white',
-                                textShadow: '0 0 15px rgba(0,0,0,0.8), 0 0 30px rgba(255,215,0,0.4)',
+                                textShadow: enableTextShadow ? '0 0 15px rgba(0,0,0,0.8), 0 0 30px rgba(255,215,0,0.4)' : '2px 2px 0 rgba(0,0,0,0.9)',
                                 textAlign: 'center',
                                 lineHeight: 1.3,
                                 width: '100%',
@@ -743,7 +747,7 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
                     <span style={{ 
                         fontSize: 60, 
                         color: 'white',
-                        textShadow: '0 0 20px rgba(255,255,255,0.5)'
+                        textShadow: enableTextShadow ? '0 0 20px rgba(255,255,255,0.5)' : 'none'
                     }}>{symbol}</span>
                     <span style={{
                         fontSize: 48,
@@ -756,8 +760,8 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
                 </div>
             </div>
 
-            {/* INFO OVERLAY (Lucky Numbers, Color, Vibe, Date) - Top Left */}
-            <div style={{
+            {/* INFO OVERLAY (Lucky Numbers, Color, Vibe, Date) - Top Left - simplified in CI */}
+            {!optimizeForCI && <div style={{
                 position: 'absolute',
                 top: 40,
                 left: 40,
@@ -839,7 +843,7 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
                         </div>
                     )}
                 </div>
-            </div>
+            </div>}
 
             {/* INTRO HOOK (First 3 seconds) */}
             {isIntroPhase && (

@@ -77,7 +77,6 @@
     "assets/zodiac_signs/Cancer.jpg"
   ],
   "active": true,
-  "status": "error",
-  "file_name": "plan_daily_Cancer.json",
-  "error_reason": "Build timed out after 1200s"
+  "status": "pending",
+  "file_name": "plan_daily_Cancer.json"
 }
