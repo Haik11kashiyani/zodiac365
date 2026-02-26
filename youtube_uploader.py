@@ -31,8 +31,14 @@ def get_authenticated_service():
              return None
 
         with open(token_file, 'r') as f:
-            token_content = f.read()
-            # print(f"DEBUG TOKEN CONTENT: {token_content}") # Uncomment only if desperate
+            token_content = f.read().strip()
+            # Clean up accidental prefixes (like typing a '1' before pasting the JSON in GitHub UI)
+            if token_content and not token_content.startswith('{'):
+                start_idx = token_content.find('{')
+                if start_idx != -1:
+                    print(f"🔧 [Upload Debug] Stripped invalid prefix from token (found {{ at index {start_idx})")
+                    token_content = token_content[start_idx:]
+            
             token_data = json.loads(token_content)
             print(f"✅ [Upload Debug] Token loaded. Keys present: {list(token_data.keys())}")
         
