@@ -50,5 +50,6 @@
   ],
   "active": true,
   "status": "pending",
-  "file_name": "plan_daily_Aries.json"
+  "file_name": "plan_daily_Aries.json",
+  "error_reason": "Build failed with exit code 1"
 }

@@ -43,6 +43,7 @@
     "assets/zodiac_signs/Leo.jpg"
   ],
   "active": true,
-  "status": "uploaded",
-  "file_name": "plan_weekly_Leo.json"
+  "status": "pending",
+  "file_name": "plan_weekly_Leo.json",
+  "error_reason": "Build failed with exit code 1"
 }
