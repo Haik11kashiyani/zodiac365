@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^python -c \"\nimport glob,json\nfor f in glob\\.glob\\('plan_\\*\\.json'\\):\n    d=json\\.load\\(open\\(f\\)\\)\n    if d\\.get\\('status'\\)=='error':\n        d\\['status'\\]='pending'\n        d\\.pop\\('error_reason',None\\)\n        json\\.dump\\(d,open\\(f,'w'\\),indent=2\\)\n        print\\('Reset:',f\\)\n\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
