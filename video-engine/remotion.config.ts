@@ -10,8 +10,3 @@ Config.setDelayRenderTimeoutInMilliseconds(300000);
 
 // Use 1 concurrent thread on CI to prevent RAM exhaustion and deadlocks
 Config.setConcurrency(1);
-
-// Disable dev-shm-usage to prevent Chromium from hanging in GitHub Actions Docker environment
-Config.setChromiumOptions((args: string[]) => {
-    return [...args, '--disable-dev-shm-usage'];
-});
