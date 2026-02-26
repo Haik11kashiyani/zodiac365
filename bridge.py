@@ -485,7 +485,7 @@ def process_plan(filename):
     # 5. WRITE INPUT.JSON
     input_data = {
         "scriptText": script_text,
-        "audioSrc": f"/{safe_target}.mp3",
+        "audioSrc": f"{safe_target}.mp3",
         "captions": captions,
         "images": remotion_assets,
         "luckyNumbers": data.get('lucky_numbers', []),
@@ -514,7 +514,7 @@ def process_plan(filename):
     # 6. BUILD VIDEO (with 20-minute timeout to prevent stuck renders)
     log_info("Building Video...")
     video_engine_dir = os.path.join(os.path.dirname(__file__), "video-engine")
-    BUILD_TIMEOUT_SECONDS = 35 * 60  # 35 minutes max per video
+    BUILD_TIMEOUT_SECONDS = 15 * 60  # 15 minutes max per video
     try:
         # Build the command dynamically instead of using 'npm run build'
         # so we can add --log=verbose for CI debugging.

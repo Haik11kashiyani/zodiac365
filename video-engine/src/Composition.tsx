@@ -202,6 +202,11 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
                 ? propDuration
                 : configDuration;
     
+    // progress logger for CI
+    if (frame % 100 === 0) {
+        console.log(`[ZodiacVideo] Rendering frame ${frame}/${durationInFrames}`);
+    }
+
     // Extract zodiac sign from title or default to Aries
     const zodiacSign = Object.keys(ZODIAC_GRADIENTS).find(sign => 
         title?.toLowerCase().includes(sign.toLowerCase())
@@ -1018,7 +1023,7 @@ const BackgroundClip: React.FC<{src: AssetSpec, index: number, total: number}> =
     }
     
     return <Img 
-        src={finalSrc} 
+        src={finalSrc.startsWith('data:') ? finalSrc : staticFile(finalSrc)} 
         style={style} 
         onError={() => {
             console.warn(`Failed to load image: ${finalSrc}`);
