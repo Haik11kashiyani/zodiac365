@@ -8,5 +8,10 @@ Config.setCodec('h264');
 // 300 seconds to handle large public dirs with image sequences
 Config.setDelayRenderTimeoutInMilliseconds(300000);
 
-// Use 2 concurrent threads on CI to leverage both vCPUs on GitHub Actions runners
-Config.setConcurrency(2);
+// Use 1 concurrent thread on CI to prevent RAM exhaustion and deadlocks
+Config.setConcurrency(1);
+
+// Disable dev-shm-usage to prevent Chromium from hanging in GitHub Actions Docker environment
+Config.setChromiumOptions((args: string[]) => {
+    return [...args, '--disable-dev-shm-usage'];
+});

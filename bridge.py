@@ -522,7 +522,7 @@ def process_plan(filename):
             "npx remotion render src/index.tsx ZodiacVideo out/video.mp4"
             " --props=./input.json"
             " --gl=swangle"
-            " --concurrency=2"
+            " --concurrency=1"
             " --timeout=300000"
             " --jpeg-quality=65"
             " --log=verbose"
