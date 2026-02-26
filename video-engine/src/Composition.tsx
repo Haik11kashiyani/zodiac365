@@ -16,6 +16,7 @@ interface ZodiacCompositionProps {
     captions: Caption[];
     images: AssetSpec[];
     title?: string;
+    totalFrames?: number;
     durationInFrames?: number;
     optimizeForCI?: boolean;
     // NEW PROPS
@@ -181,6 +182,7 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
     captions, 
     images,
     title = '',
+    totalFrames: propTotalFrames,
     durationInFrames: propDuration,
     optimizeForCI = false,
     luckyNumbers = [],
@@ -192,11 +194,13 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
     const frame = useCurrentFrame(); 
     const { fps, width, height } = useVideoConfig();
     const configDuration = useVideoConfig().durationInFrames;
-    // Prefer prop-based duration (from input.json) over config duration
-    // as a safety net if calculateMetadata didn't update correctly
-    const durationInFrames = (typeof propDuration === 'number' && propDuration > 0)
-        ? propDuration
-        : configDuration;
+    // Prefer totalFrames (non-reserved, reliable) > durationInFrames (legacy) > config
+    const durationInFrames = 
+        (typeof propTotalFrames === 'number' && propTotalFrames > 0)
+            ? propTotalFrames
+            : (typeof propDuration === 'number' && propDuration > 0)
+                ? propDuration
+                : configDuration;
     
     // Extract zodiac sign from title or default to Aries
     const zodiacSign = Object.keys(ZODIAC_GRADIENTS).find(sign => 

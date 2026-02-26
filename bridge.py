@@ -494,6 +494,7 @@ def process_plan(filename):
         "date": data.get('date', ''),
         "predictionType": data.get('type', 'daily').upper(),
         "title": data.get('youtube_title', 'Zodiac Video'),
+        "totalFrames": video_duration_frames,
         "durationInFrames": video_duration_frames,
         "optimizeForCI": os.environ.get("CI") == "true" or os.environ.get("GITHUB_ACTIONS") == "true"
     }
@@ -503,12 +504,11 @@ def process_plan(filename):
         json.dump(input_data, f, indent=2)
     log_success(f"Data written to {input_path}")
 
-    # Write a separate meta.json for Remotion's calculateMetadata to read
-    # This is a workaround: Remotion v4 may not pass durationInFrames from
-    # --props correctly to calculateMetadata (reserved field stripping).
+    # Write a separate meta.json as a secondary fallback for calculateMetadata.
+    # Primary method is now via props.totalFrames (non-reserved field).
     meta_path = "video-engine/public/meta.json"
     with open(meta_path, "w") as f:
-        json.dump({"durationInFrames": video_duration_frames}, f)
+        json.dump({"durationInFrames": video_duration_frames, "totalFrames": video_duration_frames}, f)
     log_info(f"Duration meta written: {video_duration_frames} frames → {meta_path}")
 
     # 6. BUILD VIDEO (with 20-minute timeout to prevent stuck renders)

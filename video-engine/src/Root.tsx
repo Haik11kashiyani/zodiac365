@@ -38,30 +38,40 @@ export const RemotionRoot: React.FC = () => {
                     durationInFrames: 1800,
                 }}
                 calculateMetadata={async ({ props }) => {
-                    // Primary: read from meta.json (written by bridge.py to public/)
-                    // This bypasses any Remotion --props serialization issues with
-                    // the reserved 'durationInFrames' field.
+                    // PRIMARY: read totalFrames from props (non-reserved field,
+                    // reliably passed through --props unlike 'durationInFrames'
+                    // which Remotion v4 strips as a reserved field).
                     let duration: number | undefined;
                     
-                    try {
-                        const resp = await fetch(staticFile('meta.json'));
-                        if (resp.ok) {
-                            const meta = await resp.json();
-                            if (typeof meta.durationInFrames === 'number' && meta.durationInFrames > 0) {
-                                duration = meta.durationInFrames;
-                                console.log(`[calculateMetadata] from meta.json: ${duration} frames`);
-                            }
-                        }
-                    } catch (e) {
-                        console.warn('[calculateMetadata] meta.json fetch failed:', e);
+                    const totalFrames = (props as any).totalFrames;
+                    if (typeof totalFrames === 'number' && totalFrames > 0) {
+                        duration = totalFrames;
+                        console.log(`[calculateMetadata] from props.totalFrames: ${duration} frames`);
                     }
                     
-                    // Fallback: try props from --props=./input.json
+                    // FALLBACK 1: read from meta.json (written by bridge.py to public/)
+                    if (!duration) {
+                        try {
+                            const resp = await fetch(staticFile('meta.json'));
+                            if (resp.ok) {
+                                const meta = await resp.json();
+                                const metaDuration = meta.totalFrames || meta.durationInFrames;
+                                if (typeof metaDuration === 'number' && metaDuration > 0) {
+                                    duration = metaDuration;
+                                    console.log(`[calculateMetadata] from meta.json: ${duration} frames`);
+                                }
+                            }
+                        } catch (e) {
+                            console.warn('[calculateMetadata] meta.json fetch failed:', e);
+                        }
+                    }
+                    
+                    // FALLBACK 2: try legacy durationInFrames from props
                     if (!duration) {
                         const propDuration = (props as any).durationInFrames;
                         if (typeof propDuration === 'number' && propDuration > 0) {
                             duration = propDuration;
-                            console.log(`[calculateMetadata] from props: ${duration} frames`);
+                            console.log(`[calculateMetadata] from props.durationInFrames: ${duration} frames`);
                         }
                     }
                     
@@ -71,6 +81,7 @@ export const RemotionRoot: React.FC = () => {
                         console.warn(`[calculateMetadata] using default: ${duration} frames`);
                     }
                     
+                    console.log(`[calculateMetadata] FINAL duration: ${duration} frames`);
                     return { durationInFrames: duration };
                 }}
             />

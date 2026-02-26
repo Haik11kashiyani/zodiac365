@@ -9,5 +9,6 @@ video-engine/public/*.mp3
 video-engine/public/*.vtt
 video-engine/public/*.jpg
 video-engine/public/assets/
+video-engine/public/meta.json
 video-engine/input.json
 video-engine/out/
