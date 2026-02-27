@@ -514,7 +514,7 @@ def process_plan(filename):
     # 6. BUILD VIDEO (with 20-minute timeout to prevent stuck renders)
     log_info("Building Video...")
     video_engine_dir = os.path.join(os.path.dirname(__file__), "video-engine")
-    BUILD_TIMEOUT_SECONDS = 15 * 60  # 15 minutes max per video
+    BUILD_TIMEOUT_SECONDS = 35 * 60  # 35 minutes max per video (avoiding CI timeouts)
     try:
         # Build the command dynamically instead of using 'npm run build'
         # so we can add --log=verbose for CI debugging.
@@ -522,7 +522,7 @@ def process_plan(filename):
             "npx remotion render src/index.tsx ZodiacVideo out/video.mp4"
             " --props=./input.json"
             " --gl=swangle"
-            " --concurrency=1"
+            " --concurrency=2"
             " --timeout=300000"
             " --jpeg-quality=65"
             " --log=verbose"
