@@ -1,3 +1,11 @@
+      - name: Generate token.json from refresh token
+        env:
+          YOUTUBE_TOKEN: ${{ secrets.YOUTUBE_TOKEN }}
+          YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+        run: |
+          python3 -c "import json,os; json.dump({'refresh_token': os.environ['YOUTUBE_TOKEN'], 'client_id': os.environ['YOUTUBE_CLIENT_ID'], 'client_secret': os.environ['YOUTUBE_CLIENT_SECRET'], 'token_uri': 'https://oauth2.googleapis.com/token', 'scopes': ['https://www.googleapis.com/auth/youtube.upload']}, open('token.json','w'))"
+          echo "✅ token.json generated from refresh token"
 name: Manual Video Test
 
 on:
