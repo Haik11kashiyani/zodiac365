@@ -261,10 +261,9 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
     const isOutroPhase = frame >= outroStartFrame;
     const isMainPhase = !isIntroPhase && !isOutroPhase;
     
-    // CAMERA SHAKE - Trigger on highlight keywords (every ~100 frames for variety)
-    const shakeIntensity = (frame % 100 < 5) ? 3 : 0;
-    const shakeX = shakeIntensity * Math.sin(frame * 0.5);
-    const shakeY = shakeIntensity * Math.cos(frame * 0.7);
+    // REMOVE CAMERA SHAKE
+    const shakeX = 0;
+    const shakeY = 0;
     
     // COUNTDOWN TIMER
     const remainingSeconds = Math.max(0, Math.ceil((durationInFrames - frame) / fps));
@@ -289,10 +288,9 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
     const darkPulseOpacity = hasWarning ?
         0.2 + Math.sin(frame * 0.15) * 0.15 : 0;
     
-    // Enhanced camera shake for emotion moments
-    const emotionShake = (hasSurprise || hasWarning) ? 5 : 0;
-    const totalShakeX = shakeX + emotionShake * Math.sin(frame * 0.8);
-    const totalShakeY = shakeY + emotionShake * Math.cos(frame * 1.1);
+    // REMOVE EMOTION SHAKE
+    const totalShakeX = 0;
+    const totalShakeY = 0;
     
     // POSITIVE DETECTION (confetti burst)
     const hasPositive = POSITIVE_KEYWORDS.some(kw => currentText.includes(kw));
@@ -317,11 +315,14 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
     const enableTextShadow = !optimizeForCI; // text-shadow with blur is expensive in headless Chrome
     const enableHUD = !optimizeForCI;     // Countdown timer, subscribe bell, info overlay = emoji + layout cost
 
+    // Smooth fade-in for background
+    const bgFade = Math.min(1, frame / 30);
     return (
         <AbsoluteFill style={{ 
             background: gradient,
             overflow: 'hidden',
-            transform: `translate(${totalShakeX}px, ${totalShakeY}px)`, // Enhanced camera shake
+            opacity: bgFade,
+            transition: 'opacity 0.5s',
         }}>
             {/* LAYER 0.5: Cinematic Nebula/Aurora overlays */}
             {!optimizeForCI && (
@@ -474,14 +475,7 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
                 </div>
             </AbsoluteFill>
             
-            {/* LAYER 3: ANIMATED VIGNETTE */}
-            <AbsoluteFill style={{ 
-                zIndex: 3,
-                background: optimizeForCI
-                    ? 'radial-gradient(ellipse at center, transparent 20%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,0.9) 100%)'
-                    : `radial-gradient(ellipse at center, transparent 20%, rgba(0,0,0,${0.4 + glowIntensity * 0.3}) 80%, rgba(0,0,0,0.9) 100%)`,
-                pointerEvents: 'none'
-            }} />
+            {/* REMOVE VIGNETTE OVERLAY */}
             
             {/* LAYER 4: ANIMATED LIGHT BEAMS (skipped in CI) */}
             {!optimizeForCI && <AbsoluteFill style={{ zIndex: 4, pointerEvents: 'none', overflow: 'hidden' }}>
@@ -573,46 +567,7 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
                 </div>
             </div>}
             
-            {/* GLITCH EFFECT OVERLAY (Scene Transitions) - skipped in CI */}
-            {isTransitioning && !optimizeForCI && (
-                <AbsoluteFill style={{
-                    zIndex: 30,
-                    pointerEvents: 'none',
-                    mixBlendMode: 'screen',
-                }}>
-                    {/* RGB Split - Red Channel */}
-                    <AbsoluteFill style={{
-                        background: 'rgba(255,0,0,0.1)',
-                        transform: `translate(${rgbSplitX}px, ${rgbSplitY}px)`,
-                        mixBlendMode: 'multiply',
-                    }} />
-                    {/* RGB Split - Blue Channel */}
-                    <AbsoluteFill style={{
-                        background: 'rgba(0,0,255,0.1)',
-                        transform: `translate(${-rgbSplitX}px, ${-rgbSplitY}px)`,
-                        mixBlendMode: 'multiply',
-                    }} />
-                    {/* Scanline Glitch */}
-                    <AbsoluteFill style={{
-                        background: `repeating-linear-gradient(
-                            0deg,
-                            transparent 0px,
-                            rgba(255,255,255,${glitchIntensity * 0.01}) 2px,
-                            transparent 4px
-                        )`,
-                    }} />
-                    {/* Random Horizontal Slice */}
-                    <div style={{
-                        position: 'absolute',
-                        left: 0,
-                        right: 0,
-                        top: `${(frame * 7) % 100}%`,
-                        height: 20 + glitchIntensity,
-                        background: 'rgba(255,255,255,0.1)',
-                        transform: `translateX(${glitchIntensity * (Math.random() > 0.5 ? 1 : -1)}px)`,
-                    }} />
-                </AbsoluteFill>
-            )}
+            {/* REMOVE GLITCH/SCANLINE OVERLAY */}
             
             {/* CONFETTI BURST (Positive Moments) - skipped in CI */}
             {hasPositive && !optimizeForCI && (
@@ -722,38 +677,43 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
                 </div>
             )}
             
-            {/* Aggregating captions to show ~3 lines of text (Paragraph View) */}
-            {isMainPhase && (
-                <AbsoluteFill style={{ 
-                    justifyContent: 'center', 
-                    alignItems: 'center',
-                    zIndex: 10,
-                    padding: '0 60px', // Increased padding
-                }}>
-                    {/* Find the index of the active caption */}
-                    {(() => {
-                        const activeCaption = captions.find(c => currentTime >= c.start && currentTime <= c.end);
-                        
-                        if (!activeCaption) return null;
-
-                        return (
-                            <div style={{
-                                fontFamily: 'Montserrat, sans-serif',
-                                fontSize: 52, // Slightly larger
-                                fontWeight: 800,
-                                color: 'white',
-                                textShadow: enableTextShadow ? '0 0 15px rgba(0,0,0,0.8), 0 0 30px rgba(255,215,0,0.4)' : '2px 2px 0 rgba(0,0,0,0.9)',
-                                textAlign: 'center',
-                                lineHeight: 1.3,
-                                width: '100%',
-                                maxWidth: '100%',
-                            }}>
-                                {activeCaption.text}
-                            </div>
-                        );
-                    })()}
-                </AbsoluteFill>
-            )}
+            {/* Modern, smooth text fade-in and slide-up for captions */}
+            {isMainPhase && (() => {
+                const activeCaption = captions.find(c => currentTime >= c.start && currentTime <= c.end);
+                if (!activeCaption) return null;
+                // Animate text: fade in and slide up
+                const textFade = Math.min(1, (frame % fps) / (fps * 0.5));
+                const textSlide = 40 * (1 - textFade);
+                return (
+                    <AbsoluteFill style={{
+                        justifyContent: 'center',
+                        alignItems: 'center',
+                        zIndex: 10,
+                        padding: '0 60px',
+                    }}>
+                        <div style={{
+                            fontFamily: 'Montserrat, sans-serif',
+                            fontSize: 56,
+                            fontWeight: 900,
+                            color: '#fff',
+                            textAlign: 'center',
+                            lineHeight: 1.2,
+                            width: '100%',
+                            maxWidth: '100%',
+                            letterSpacing: 1.5,
+                            opacity: textFade,
+                            transform: `translateY(${textSlide}px)`,
+                            transition: 'opacity 0.4s, transform 0.4s',
+                            textShadow: '0 4px 24px rgba(0,0,0,0.7), 0 0 2px #FFD700',
+                            background: 'rgba(0,0,0,0.15)',
+                            borderRadius: 12,
+                            padding: '18px 32px',
+                        }}>
+                            {activeCaption.text}
+                        </div>
+                    </AbsoluteFill>
+                );
+            })()}
             
             {/* ZODIAC SIGN HEADER + PREDICTION TYPE */}
             <div style={{
