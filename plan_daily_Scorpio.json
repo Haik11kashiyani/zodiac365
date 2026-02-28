@@ -1,32 +1,54 @@
 {
-    "script_text": "Stop scrolling... Mars squares you, dear Scorpio.",
-    "captions_structure": [
-        {
-            "text": "LEO WARNING",
-            "type": "header"
-        },
-        {
-            "text": "Stop scrolling..."
-        }
-    ],
-    "title": "Internal Title",
-    "youtube_title": "\u26a0\ufe0f WARNING: Scorpio's shift is real! \ud83d\udd2e #shorts",
-    "youtube_description": "Hidden forces awaken. Sub to claim urgent insight. #astrology #scorpio #horoscope",
-    "youtube_tags": [
-        "astrology",
-        "scorpio",
-        "mystic",
-        "horoscope",
-        "celestial"
-    ],
-    "tips": "Heed the planetary tension\u2014this is no ordinary reading.",
-    "type": "daily",
-    "target": "Scorpio",
-    "date": "February 12, 2026",
-    "images": [
-        "assets/zodiac_signs/Scorpio.jpg"
-    ],
-    "active": true,
-    "status": "pending",
-    "file_name": "plan_daily_Scorpio.json"
+  "script_text": "Stop! Scorpio, the stars are screaming at you right now. Mars is forming a trine to your Midheaven in the 10th House, amplifying your drive to pursue new professional opportunities. Venus in Sagittarius is opposing your IC, stirring intense emotions around home and family matters. Saturn in Pisces is squaring your 4th House, urging you to restructure personal foundations for long-term stability. Pluto, your water sign ruler, intensifies love energy, expecting a surge of magnetic intensity that can either deepen a current bond or attract a compelling new connection if you're single. If you\u2019re already in a relationship, subtle power plays may surface, so practice transparency to avoid misunderstandings. Career-wise, the cosmic push in your 10th House signals a breakthrough proposal or financial incentive that rewards your strategic insight. Avoid confronting authority figures without clear evidence, as tension may backfire. Follow for tomorrow\u2019s reading to stay ahead of the celestial shifts.",
+  "captions_structure": [
+    {
+      "text": "SCORPIO ALERT",
+      "type": "header"
+    },
+    {
+      "text": "Stop! Scorpio, the stars are screaming at you right now.",
+      "type": "normal"
+    }
+  ],
+  "lucky_numbers": [
+    "7",
+    "22",
+    "39"
+  ],
+  "lucky_color": "Deep Maroon",
+  "monthly_vibe": "Intense Transformation",
+  "title": "Scorpio Daily Horoscope February 28, 2026",
+  "youtube_title": "Scorpio's Secret Warning Sparks Massive Change #shorts",
+  "youtube_description": "The stars reveal a powerful shift in your relationships and career that could change everything. Discover what Pluto\u2019s intensity means for you and comment your sign!",
+  "youtube_tags": [
+    "scorpio",
+    "scorpio horoscope",
+    "daily scorpio",
+    "astrology",
+    "horoscope",
+    "zodiac",
+    "scorpio love",
+    "scorpio career",
+    "pluto transit",
+    "water sign",
+    "astrology reading",
+    "cosmic guidance",
+    "manifestation",
+    "spiritual",
+    "tarot",
+    "manifestation meditation",
+    "zodiac signs",
+    "astrology forecast",
+    "scorpio traits",
+    "horoscope february 2026"
+  ],
+  "type": "daily",
+  "target": "Scorpio",
+  "date": "February 28, 2026",
+  "images": [
+    "assets/zodiac_signs/Scorpio.jpg"
+  ],
+  "active": true,
+  "status": "uploaded",
+  "file_name": "plan_daily_Scorpio.json"
 }
