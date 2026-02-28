@@ -517,7 +517,7 @@ def process_plan(filename):
     BUILD_TIMEOUT_SECONDS = 35 * 60  # 35 minutes max per video (avoiding CI timeouts)
     try:
         # Build the command dynamically instead of using 'npm run build'
-        # so we can add --log=verbose for CI debugging.
+        # Use --log=info for less noisy output
         cmd = (
             "npx remotion render src/index.tsx ZodiacVideo out/video.mp4"
             " --props=./input.json"
@@ -525,7 +525,7 @@ def process_plan(filename):
             " --concurrency=2"
             " --timeout=300000"
             " --jpeg-quality=65"
-            " --log=verbose"
+            " --log=info"
         )
         log_info(f"Executing: {cmd} (timeout: {BUILD_TIMEOUT_SECONDS}s)")
         log_info(f"Expected frames: {video_duration_frames}")
@@ -543,9 +543,9 @@ def process_plan(filename):
 
     # 7. UPLOAD
     output_video_path = os.path.join(video_engine_dir, "out", "video.mp4")
-    
     if not os.path.exists(output_video_path):
-        log_error(f"Upload skipped: Video file not found at {output_video_path}")
+        log_error(f"❌ Video generation failed: File not found at {output_video_path}")
+        _mark_plan_failed(filename, data, 'Video file not generated')
         return
 
     # SAVE LOCAL COPY FOR DEBUGGING
@@ -561,17 +561,19 @@ def process_plan(filename):
 
     if not upload_video:
         log_warning("Upload skipped: upload_video function is not available (ImportError previously).")
+        _mark_plan_failed(filename, data, 'Upload function not available')
         return
 
     log_info("Uploading...")
     if upload_video(output_video_path, data):
-         # Mark as done in file
-         data['status'] = 'uploaded'
-         with open(filename, 'w') as f:
-             json.dump(data, f, indent=2)
-         log_success(f"Done: {filename}")
+        # Mark as done in file
+        data['status'] = 'uploaded'
+        with open(filename, 'w') as f:
+            json.dump(data, f, indent=2)
+        log_success(f"Done: {filename}")
     else:
         log_error(f"Upload failed for {filename}.")
+        _mark_plan_failed(filename, data, 'Upload failed')
 
 import argparse
 import glob
