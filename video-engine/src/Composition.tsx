@@ -215,8 +215,19 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
     const gradient = ZODIAC_GRADIENTS[zodiacSign];
     const symbol = ZODIAC_SYMBOLS[zodiacSign];
     
-    // Animated background pulse
-    const pulse = Math.sin(frame * 0.02) * 0.1 + 1;
+    // Animated background pulse (varied by sign for more variety)
+    const pulse = Math.sin(frame * (0.018 + (zodiacSign.charCodeAt(0) % 5) * 0.002)) * 0.12 + 1;
+
+    // Cinematic animated background overlays (nebula, aurora, sparkles)
+    const nebulaColors = [
+        'rgba(255, 215, 0, 0.12)',
+        'rgba(0, 191, 255, 0.10)',
+        'rgba(255, 105, 180, 0.10)',
+        'rgba(138, 43, 226, 0.10)',
+        'rgba(255, 69, 0, 0.10)'
+    ];
+    const nebulaIndex = frame % nebulaColors.length;
+    const nebulaOpacity = 0.18 + Math.abs(Math.sin(frame * 0.008)) * 0.12;
     
     // Progress bar
     const progress = (frame / durationInFrames) * 100;
@@ -312,6 +323,17 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
             overflow: 'hidden',
             transform: `translate(${totalShakeX}px, ${totalShakeY}px)`, // Enhanced camera shake
         }}>
+            {/* LAYER 0.5: Cinematic Nebula/Aurora overlays */}
+            {!optimizeForCI && (
+                <AbsoluteFill style={{
+                    zIndex: 0.5,
+                    pointerEvents: 'none',
+                    background: `radial-gradient(circle at ${30 + 40 * Math.abs(Math.sin(frame * 0.01))}% ${40 + 30 * Math.abs(Math.cos(frame * 0.012))}%, ${nebulaColors[nebulaIndex]}, transparent 80%)`,
+                    opacity: nebulaOpacity,
+                    mixBlendMode: 'screen',
+                    transition: 'background 0.5s',
+                }} />
+            )}
             {/* LAYER 0: VIDEO/IMAGE BACKGROUND */}
             {currentImage && (
                 <AbsoluteFill style={{ zIndex: 0 }}>
@@ -733,7 +755,7 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
                 </AbsoluteFill>
             )}
             
-            {/* ZODIAC SIGN HEADER */}
+            {/* ZODIAC SIGN HEADER + PREDICTION TYPE */}
             <div style={{
                 position: 'absolute',
                 top: 80,
@@ -766,6 +788,19 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
                         textTransform: 'uppercase',
                         letterSpacing: 4,
                     }}>{zodiacSign}</span>
+                    <span style={{
+                        fontSize: 28,
+                        fontWeight: 700,
+                        color: '#FFD700',
+                        fontFamily: 'Montserrat, sans-serif',
+                        textTransform: 'uppercase',
+                        marginLeft: 30,
+                        letterSpacing: 2,
+                        background: 'rgba(255,215,0,0.15)',
+                        borderRadius: 8,
+                        padding: '6px 18px',
+                        boxShadow: '0 0 10px rgba(255,215,0,0.2)',
+                    }}>{predictionType} Prediction</span>
                 </div>
             </div>
 

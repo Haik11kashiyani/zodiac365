@@ -141,6 +141,25 @@ def generate_metadata(data):
     # Pick the 3 best hashtags — YouTube shows exactly 3 above the title
     primary_hashtags = f"#{target.lower()} #astrology #horoscope"
 
+    # Zodiac sign finding instructions
+    zodiac_finder = (
+        "\n---\n"
+        "🌟 Find Your Zodiac Sign & Prediction Below! 🌟\n"
+        "Just scroll down to the section with your sign name in ALL CAPS (e.g. ARIES, TAURUS, etc). Each section is clearly labeled so you can quickly find your personalized prediction!\n"
+        "If you don't know your sign, search for your birthday here: https://www.astrology-zodiac-signs.com/\n"
+        "---\n"
+    )
+
+    # All zodiac sign sections (for SEO and user navigation)
+    all_signs_section = (
+        "\nZODIAC SIGNS INDEX:\n"
+        "ARIES | TAURUS | GEMINI | CANCER | LEO | VIRGO | LIBRA | SCORPIO | SAGITTARIUS | CAPRICORN | AQUARIUS | PISCES\n"
+        "---\n"
+    )
+
+    # Viral/clickbait tags (for SEO, appended after zodiac section)
+    viral_tags = "#viral #trending #fyp #explore #shorts #astrologytiktok #zodiacsigns #manifestation #spiritual #cosmicenergy #horoscopetoday #astrologyshorts #zodiacshorts #destiny #future #prediction #luck #love #success #universe #energy #spiritualawakening"
+
     description = f"""{description_body}
 
 🔮 Sign: {target} | 📅 {date_str}
@@ -151,7 +170,7 @@ https://www.youtube.com/@Zodiac365?sub_confirmation=1
 💬 Drop your sign in the comments!
 ❤️ Like if this resonated with you.
 
-{primary_hashtags}"""
+{zodiac_finder}{all_signs_section}{viral_tags}\n\n{primary_hashtags}"""
 
     # --- TAGS STRATEGY ---
     # YouTube tags (hidden metadata) — mix broad + niche + trending
