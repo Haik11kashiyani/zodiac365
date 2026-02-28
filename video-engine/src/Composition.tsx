@@ -715,14 +715,14 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
                 );
             })()}
             
-            {/* ZODIAC SIGN HEADER + PREDICTION TYPE */}
+            {/* ZODIAC SIGN HEADER + PREDICTION TYPE + DATE */}
             <div style={{
                 position: 'absolute',
                 top: 80,
                 left: 0,
                 right: 0,
                 display: 'flex',
-                justifyContent: 'center',
+                flexDirection: 'column',
                 alignItems: 'center',
                 zIndex: 5,
             }}>
@@ -762,6 +762,25 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
                         boxShadow: '0 0 10px rgba(255,215,0,0.2)',
                     }}>{predictionType} Prediction</span>
                 </div>
+                {/* DATE DISPLAY */}
+                {date && (
+                    <div style={{
+                        marginTop: 12,
+                        fontSize: 22,
+                        fontWeight: 600,
+                        color: '#FFD700',
+                        background: 'rgba(0,0,0,0.25)',
+                        borderRadius: 8,
+                        padding: '6px 22px',
+                        fontFamily: 'Montserrat, sans-serif',
+                        letterSpacing: 1.2,
+                        boxShadow: '0 0 8px rgba(255,215,0,0.12)',
+                        textAlign: 'center',
+                        textShadow: '0 2px 8px rgba(0,0,0,0.4)',
+                    }}>
+                        {date}
+                    </div>
+                )}
             </div>
 
             {/* INFO OVERLAY (Lucky Numbers, Color, Vibe, Date) - Top Left - simplified in CI */}
