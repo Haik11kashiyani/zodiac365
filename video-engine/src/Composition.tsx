@@ -677,13 +677,12 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
                 </div>
             )}
             
-            {/* Modern, smooth text fade-in and slide-up for captions */}
+            // Modern, smooth text fade-in for captions (no box animation)
             {isMainPhase && (() => {
                 const activeCaption = captions.find(c => currentTime >= c.start && currentTime <= c.end);
                 if (!activeCaption) return null;
-                // Animate text: fade in and slide up
+                // Animate text: fade in only
                 const textFade = Math.min(1, (frame % fps) / (fps * 0.5));
-                const textSlide = 40 * (1 - textFade);
                 return (
                     <AbsoluteFill style={{
                         justifyContent: 'center',
@@ -702,12 +701,7 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
                             maxWidth: '100%',
                             letterSpacing: 1.5,
                             opacity: textFade,
-                            transform: `translateY(${textSlide}px)`,
-                            transition: 'opacity 0.4s, transform 0.4s',
                             textShadow: '0 4px 24px rgba(0,0,0,0.7), 0 0 2px #FFD700',
-                            background: 'rgba(0,0,0,0.15)',
-                            borderRadius: 12,
-                            padding: '18px 32px',
                         }}>
                             {activeCaption.text}
                         </div>
@@ -735,10 +729,14 @@ export const ZodiacComposition: React.FC<ZodiacCompositionProps> = ({
                     borderRadius: 50,
                     ...(enableBackdropBlur ? { backdropFilter: 'blur(10px)' } : {}),
                 }}>
+                    {/* Zodiac symbol with gentle scale/glow animation */}
                     <span style={{ 
                         fontSize: 60, 
                         color: 'white',
-                        textShadow: enableTextShadow ? '0 0 20px rgba(255,255,255,0.5)' : 'none'
+                        textShadow: enableTextShadow ? '0 0 20px rgba(255,255,255,0.5)' : 'none',
+                        display: 'inline-block',
+                        transform: `scale(${1 + Math.sin(frame * 0.08) * 0.08})`,
+                        filter: `drop-shadow(0 0 ${12 + Math.sin(frame * 0.12) * 8}px #FFD700)`
                     }}>{symbol}</span>
                     <span style={{
                         fontSize: 48,
