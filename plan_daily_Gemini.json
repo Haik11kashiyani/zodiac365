@@ -1,40 +1,45 @@
 {
-  "script_text": "A sudden shift...",
+  "script_text": "Stop! Gemini, the stars scream\u2014Venus clashes fiercely in 10th, testing resolve. Your 7th House partnerships face tensions. Neptune conjunct Uranus amplifies financial flares.",
   "captions_structure": [
     {
-      "text": "LEO WARNING",
+      "text": "GEMINI ALERT",
       "type": "header"
     },
-    {
-      "text": "Stop scrolling...",
-      "type": "normal"
-    }
+    "First line... Venus-driven conflict.",
+    "CARELORATION: Shared future challenges."
   ],
   "lucky_numbers": [
-    "7",
-    "11",
-    "21"
+    7,
+    11,
+    21
   ],
-  "lucky_color": "Emerald Green",
-  "monthly_vibe": "Bold Action",
-  "title": "Crossroads Tides",
-  "youtube_title": "Urgent Gemini Guide #shorts",
-  "youtube_description": "Delve deep into celestial whispers. Share your sign for clarity.",
+  "lucky_color": "Cobalt Blue",
+  "monthly_vibe": "Intense Intensity",
+  "title": "Gemini Daily Horoscope",
+  "youtube_title": "Gemini Insight #shorts",
+  "youtube_description": "Unveil hidden dynamics. Engage deeply.",
   "youtube_tags": [
-    "starstories",
-    "geminiguide",
-    "horoscope",
-    "nightcanvas",
-    "cosmicperspectives"
+    "Cosmic Guides",
+    "Gemini Forecast",
+    "Stellar Insights",
+    "Astrological Fate",
+    "12th House",
+    "Present Challenges",
+    "Gemini Trends",
+    "Venus Dynamics",
+    "Career Whispers",
+    "Conflict Secrets"
   ],
-  "external": {
-    "lucky_numbers": 3,
-    "model_color": "Violet",
-    "monthly_vibe": "Urgent Reflection"
+  "capitations_structure": {
+    "text": "GEMINI'S CRUCIAL STAGE.",
+    "type": "header"
+  },
+  "extra": {
+    "output_word_count": "140 Wortes"
   },
   "type": "daily",
   "target": "Gemini",
-  "date": "February 23, 2026",
+  "date": "March 01, 2026",
   "images": [
     "assets/zodiac_signs/Gemini.jpg"
   ],

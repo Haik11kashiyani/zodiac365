@@ -1,40 +1,12 @@
 {
-  "script_text": "Stop right there, Cancer! Mars is squaring your Sun today, igniting tension between your ambitions and your emotional needs. You may feel pulled in two directions\u2014work demands clashing with home life. Venus in Pisces softens relationships, offering a gentle reminder to communicate with compassion. The Moon in Scorpio urges you to dig deep\u2014trust your intuition, even if the path feels unclear. Avoid impulsive decisions; patience is your ally. By evening, the energy shifts\u2014Jupiter\u2019s trine brings a glimmer of hope. Stay grounded, stay true to yourself, and let the universe guide you.",
+  "script_text": "Cancer, the Moon\u2019s shadow casts a warning today\u2014your emotional fortress is cracking. The Moon squares Pluto in your 8th House, stripping away illusions; a lover or partner may reveal hidden truths. Single? Draw a passionate visionary tonight; taken? A secret yearning could fracture vulnerability. Venus trines your Moon in the 10th House, starring your career as a diplomat or healer\u2014trust your gut. Avoid impulsive spending; unexpected gift money arrives via text. Follow for tomorrow\u2019s lunar fury.",
   "captions_structure": [
     {
-      "text": "CANCER DAILY",
+      "text": "CANCER ALERT",
       "type": "header"
     },
     {
-      "text": "Stop scrolling...",
-      "type": "normal"
-    },
-    {
-      "text": "Mars is squaring your Sun",
-      "type": "normal"
-    },
-    {
-      "text": "Tension between work & home",
-      "type": "normal"
-    },
-    {
-      "text": "Venus softens relationships",
-      "type": "normal"
-    },
-    {
-      "text": "Moon in Scorpio urges depth",
-      "type": "normal"
-    },
-    {
-      "text": "Avoid impulsive moves",
-      "type": "normal"
-    },
-    {
-      "text": "Jupiter brings hope by night",
-      "type": "normal"
-    },
-    {
-      "text": "Stay grounded, trust the flow",
+      "text": "Cancer, the Moon\u2019s shadow casts a warning today\u2014your emotional fortress is cracking.",
       "type": "normal"
     }
   ],
@@ -45,38 +17,39 @@
   ],
   "lucky_color": "Emerald Green",
   "monthly_vibe": "Reflective & Calm",
-  "title": "Cancer \u2014 Don't Ignore This",
-  "youtube_title": "Cancer \u2014 Don't Ignore This #shorts",
-  "youtube_description": "Cancer, Mars is creating tension today\u2014but Venus offers a softer path. Trust your intuition and avoid rushing decisions. Comment your sign below!",
+  "title": "Cancer\u2014Watch This Warning",
+  "youtube_title": "Cancer\u2014Moon\u2019s Shadow Predicts Chaos #shorts",
+  "youtube_description": "Cancer? The Moon\u2019s clash with Pluto hides betrayal or rebirth. Your career or love life? Comment your sign.",
   "youtube_tags": [
-    "cancerhoroscope",
-    "dailyhoroscope",
-    "astrology",
-    "marsenergy",
-    "venusinfluence",
-    "mooninscorpio",
-    "spiritualtiktok",
-    "manifestation",
-    "zodiacsigns",
-    "cancerdaily",
-    "cosmicenergy",
-    "intuition",
-    "relationshipadvice",
-    "worklifebalance",
-    "emotionalhealing",
-    "astrologer",
-    "horoscope2026",
-    "cancerlove",
-    "careerhoroscope",
-    "selfcare"
+    "cancer horoscope",
+    "planetary transits",
+    "emotional healing",
+    "astrology predictions",
+    "cancer daily",
+    "moon square pluto",
+    "career insights",
+    "love predictions",
+    "cosmic warnings",
+    "spiritual astrology",
+    "cancer today",
+    "planetary aspects",
+    "emotional security",
+    "moon power",
+    "sensitive signs",
+    " natal chart",
+    "astrology tips",
+    "zodiac news",
+    "healing energy",
+    "intuitive guidance",
+    "cancer love"
   ],
   "type": "daily",
   "target": "Cancer",
-  "date": "February 23, 2026",
+  "date": "March 01, 2026",
   "images": [
     "assets/zodiac_signs/Cancer.jpg"
   ],
   "active": true,
-  "status": "pending",
+  "status": "uploaded",
   "file_name": "plan_daily_Cancer.json"
 }
