@@ -1,49 +1,46 @@
 {
-  "script_text": "Stop. Observe. Listen.",
+  "script_text": "The celestial storm awaitss through Leo's volatile dance. Mars' fire ignites truths yet obscures, urging resolution before the week collapses.",
   "captions_structure": [
     {
-      "text": "LEO WARNING",
+      "text": "LEO ALERT",
       "type": "header"
     }
   ],
   "lucky_numbers": [
-    "7",
-    "11",
-    "21"
+    7,
+    11,
+    21
   ],
   "lucky_color": "Emerald Green",
-  "monthly_vibe": "Reflective & Calm",
-  "title": "Cosmic Watch",
-  "youtube_title": "Leo's Cosmic Clues #shorts",
-  "youtube_description": "The stars whisper truths. Share your signs. Your vision waits.",
+  "monthly_vibe": "Bold Action",
+  "title": "Leo Weekly Horoscope March 02, 2026",
+  "youtube_title": "Short punchy title under 50 chars, curiosity-driven... #shorts",
+  "youtube_description": "2-3 sentence hook; Personal tone, tease specific teaser about Leo's 5th House success.",
   "youtube_tags": [
-    "Astrology",
-    "Leo",
-    "Cosmic",
-    "Sign",
-    "Signal",
-    "Moon",
-    "Stars",
-    "Vitality",
-    "Guidance",
-    "Reflection",
-    "Divine",
-    "Vision",
-    "Horizon"
+    "Leo Horoscope",
+    "Stellar Influences",
+    "Cosmic Guidance",
+    "Sun Sign Curse",
+    "Dramatic Prediction"
   ],
-  "exras": {
-    "lucky_numbers": 3,
-    "lucky_color": "Emerald Green",
-    "monthly_vibe": "Bold Action"
-  },
+  "capitations_structure": [
+    "LEO",
+    "STARDROP ONE",
+    "IX HOUSE",
+    "MATRIARCH"
+  ],
+  "exstractions": [
+    "Pattern Interrupt",
+    "Best Day: Wednesday...",
+    "CTA: Follow for daily updates."
+  ],
   "type": "weekly",
   "target": "Leo",
-  "date": "Feb 23 - Mar 01",
+  "date": "Mar 02 - Mar 08",
   "images": [
     "assets/zodiac_signs/Leo.jpg"
   ],
   "active": true,
-  "status": "pending",
-  "file_name": "plan_weekly_Leo.json",
-  "error_reason": "Build failed with exit code 1"
+  "status": "uploaded",
+  "file_name": "plan_weekly_Leo.json"
 }

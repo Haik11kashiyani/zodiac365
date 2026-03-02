@@ -1,54 +1,42 @@
 {
-  "script_text": "Wait, Stop, Listen. This week's cosmic currents for Virgo are about to shift. Mercury trine Jupiter on Monday ignites your communication channels\u2014perfect for sealing deals or sparking creative collaborations. Tuesday's Venus square Neptune may blur your boundaries; trust your intuition but double-check agreements. Wednesday's Sun conjunct Pluto demands deep self-reflection\u2014confront hidden patterns. Thursday's Mars in Virgo fuels productivity\u2014tackle long-overdue tasks. Friday's Mercury opposite Saturn tests your patience\u2014avoid impulsive decisions. Saturday's Moon in Scorpio intensifies emotions\u2014practice self-care. Sunday's Mercury sextile Neptune sparks artistic inspiration\u2014journal or meditate. Best days: Monday (communication) and Thursday (productivity). Worst: Friday (impulsivity). Action: Monday, network strategically. Thursday, organize your space. Friday, pause before acting.",
-  "captions_structure": [
-    {
-      "text": "LEO WARNING",
-      "type": "header"
-    },
-    {
-      "text": "Stop scrolling...",
-      "type": "normal"
-    }
-  ],
+  "script_text": "The FULL pattern interrupt is here as Virgo faces intense planetary forces this week. Monday brings strong trine between Mercury and Venus in the 1st House, sharpening your communication clarity but challenging focus. Tuesday sees a challenging square to Neptune in the 7th House, urging you to confront hidden perceptions. The mid-week turnaround is a potent opposition with Jupiter commanding the 10th House, signaling a major career crossroads. By Wednesday, the power day arrives as Venus enters your 5th House, amplifying your creative connections\u2014strategize wisely. Wednesday is your power day because Venus enters your 5th House; act decisively. Remember, the energy shifts as a strong Saturn square\u5377\u8f74 approaches the 6th House next week. This week, follow your intuition on the topic of LOVE\u2014your next relationship may reveal a hidden truth. For career, a warning signs appear in the 8th House, urging careful preparation. Tonight, keep an eye on the lunar angle; it shapes your financial intuition. VIRGO, heed these details and stay prepared.",
+  "captions": "VIRGO WATCH",
   "lucky_numbers": [
-    "7",
-    "11",
-    "21"
+    7,
+    11,
+    21
   ],
   "lucky_color": "Emerald Green",
-  "monthly_vibe": "Reflective & Calm",
-  "title": "Virgo \u2014 Don't Ignore This Cosmic Shift",
-  "youtube_title": "Virgo \u2014 Don't Ignore This Cosmic Shift #shorts",
-  "youtube_description": "This week's Virgo horoscope reveals hidden opportunities and hidden traps. Learn how to harness Mercury's trine Jupiter for success and avoid Friday's Mercury-Saturn clash. Comment your sign below!",
-  "youtube_tags": [
-    "#VirgoHoroscope",
-    "#Astrology",
-    "#CosmicEnergy",
-    "#Manifestation",
-    "#SpiritualTikTok",
-    "#Virgo2026",
-    "#MercuryRetrograde",
-    "#PlutoInCapricorn",
-    "#SelfReflection",
-    "#ProductivityTips",
-    "#Communication",
-    "#EmotionalIntelligence",
-    "#AstrologicalAdvice",
-    "#WeeklyForecast",
-    "#VirgoLife",
-    "#InnerWork",
-    "#CosmicShifts",
-    "#AstrologicalSigns",
-    "#PersonalGrowth",
-    "#VirgoEnergy"
+  "monthly_vibe": "Deep Reflection",
+  "title": "Virgo Weekly Horoscope March 02, 2026",
+  "youtube_title": "Virgo Unlocked: What the Stars Reveal #shorts",
+  "youtube_descriptions": "This forecast dives deep into Virgo\u2019s cosmic map this week. Don\u2019t miss the Venus-5th House cross that could reshape your approach. Stay tuned for expert insights.",
+  "tags": [
+    "astrology",
+    "Virgo Horoscope",
+    "planet transit",
+    "planet placement",
+    "creative energy",
+    "career signs",
+    "love insights",
+    "money signs",
+    "signs & signs",
+    "cosmic guidance",
+    "personal forecast",
+    "astrological advices",
+    "benefit yesterday",
+    "alert tomorrow",
+    "sign matters",
+    "date-by-date",
+    "your sign"
   ],
   "type": "weekly",
   "target": "Virgo",
-  "date": "Feb 23 - Mar 01",
+  "date": "Mar 02 - Mar 08",
   "images": [
     "assets/zodiac_signs/Virgo.jpg"
   ],
   "active": true,
-  "status": "pending",
+  "status": "uploaded",
   "file_name": "plan_weekly_Virgo.json"
 }
