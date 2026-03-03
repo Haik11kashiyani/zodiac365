@@ -1,55 +1,15 @@
 {
-  "script_text": "Stop! Mars squares your Sun, Aries, igniting impulsive sparks that could spark conflicts. Ancient wisdom: channel this fire into creation, not destruction. Mercury enters Pisces, softening talk but deepening emotions\u2014beware passive aggression. Direct Martian drive into a bold project or workout; suppress it and it erupts. Cosmos urges patience; snap judgments backfire. Venus in Aquarius brings innovative allies. February's vibe is reflective\u2014meditate for calm. Emerald Green lucky color; keep it close. Numbers 7, 11, 21 guide decisions. True strength is tempered courage. Moon in Sagittarius expands horizons\u2014plan an adventure. Saturn retrograde in health: prioritize rest. Balance fire with well-being. Career tensions need diplomacy. Trust intuition; Neptune boosts psychic hits. Avoid gossip; speak truth kindly. This tests your warrior spirit: fight for principles, not pride. Seize opportunities boldly yet humbly. Comment your sign!",
-  "captions_structure": [
-    {
-      "text": "ARIES WARNING",
-      "type": "header"
-    },
-    {
-      "text": "Stop scrolling... Mars is active today.",
-      "type": "normal"
-    }
-  ],
-  "lucky_numbers": [
-    "1",
-    "9",
-    "17"
-  ],
-  "lucky_color": "Blazing Crimson",
-  "monthly_vibe": "Reflective & Calm",
-  "title": "Aries Horoscope - Feb 23, 2026",
-  "youtube_title": "Aries \u2014 Mars Is Furious Today #shorts",
-  "youtube_description": "Aries, Mars is squaring your Sun\u2014this energy demands careful handling. Learn to turn tension into triumph. Comment your sign for personalized insights!",
-  "youtube_tags": [
-    "#astrology",
-    "#horoscope",
-    "#zodiac",
-    "#aries",
-    "#arieshoroscope",
-    "#ariestoday",
-    "#ariesseason",
-    "#marstransit",
-    "#cosmicenergy",
-    "#spiritualtiktok",
-    "#manifestation",
-    "#lawofattraction",
-    "#mindfulness",
-    "#dailyhoroscope",
-    "#february2026",
-    "#ariesdaily",
-    "#planetarytransits",
-    "#astroadvice",
-    "#firesign",
-    "#arieswarning"
-  ],
+  "script_text": "Stop! Aries, the stars are screaming at you right now. Mars is forming a tight opposition with your ruling planet, creating intense energy in the 1st House as you face self-reflection. Your 3rd House will harsi tension\u2014examine your perceptions carefully. The 7th House feels tied up in a knot, so watch for relationship shifts. Career-wise, the 10th House signals a major opportunity in your professional path, but stay alert to unexpected challenges. Follow for tomorrow's reading and brace the cosmic message.",
   "type": "daily",
   "target": "Aries",
-  "date": "February 23, 2026",
+  "date": "March 03, 2026",
+  "lucky_numbers": [],
+  "lucky_color": "",
+  "monthly_vibe": "",
   "images": [
     "assets/zodiac_signs/Aries.jpg"
   ],
   "active": true,
-  "status": "pending",
-  "file_name": "plan_daily_Aries.json",
-  "error_reason": "Build failed with exit code 1"
+  "status": "uploaded",
+  "file_name": "plan_daily_Aries.json"
 }

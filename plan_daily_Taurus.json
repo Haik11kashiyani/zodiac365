@@ -1,78 +1,62 @@
 {
-  "script_text": "Wait\u2014stop scrolling. Today, Mars is squaring your Sun, Taurus, and that tension is shaking your foundation. Venus is still in your sign, but she's battling Neptune's illusions\u2014don't let your heart lead you into fantasy. Saturn in Pisces is testing your boundaries, pushing you to rebuild what's crumbling. This isn't the time to rush\u2014slow, steady wins. The Moon in Scorpio is digging deep, revealing truths you've buried. Face them. Own them. You're stronger than you think. Trust your instincts, but verify the facts. The universe is asking you to balance passion with patience. Take a breath, ground yourself, and move forward with clarity. This is your moment to rise\u2014don't let fear hold you back.",
+  "script_text": "Stop! Taurus, the stars are speaking now. Mars is forming a sharp square to your ruling planet, creating intense energy in your 7th House of partnerships and commitments. Pay close attention to challenges in forming or ending relationships today. For your career, focus on the 10th House house\u2014clarity will emerge if you leverage your Taurus resilience. This night offers a test: trust your instincts when navigating finances. Follow the pattern, and remember: you carry the Se\u00f1ure of stability ahead.",
   "captions_structure": [
     {
-      "text": "TAURUS DAILY",
+      "text": "TAURUS -- Be alert to relationships shaping your reality.",
       "type": "header"
     },
     {
-      "text": "Stop scrolling\u2014this is for you.",
-      "type": "normal"
+      "text": "Mars squares Rhea this morning; intense decisions ahead."
     },
     {
-      "text": "Mars is squaring your Sun today.",
-      "type": "normal"
+      "text": "Your 7th House faces tension\u2014stay grounded in trust.",
+      "tonight_prediction": "Choose partnerships that respect your strength."
     },
     {
-      "text": "Venus vs. Neptune\u2014don't fall for illusions.",
-      "type": "normal"
+      "text": "10th House: seize opportunities with Taurus grit.",
+      "finance_sign": "Secure your assets through disciplined action."
     },
     {
-      "text": "Saturn's testing your boundaries.",
-      "type": "normal"
-    },
-    {
-      "text": "Moon in Scorpio\u2014truths are rising.",
-      "type": "normal"
-    },
-    {
-      "text": "Balance passion with patience.",
-      "type": "normal"
-    },
-    {
-      "text": "Ground yourself and move forward.",
-      "type": "normal"
+      "text": "Warning: Do not ignore shifts in career momentum.",
+      "caution": "Self-awareness is key tonight."
     }
   ],
   "lucky_numbers": [
-    "7",
-    "11",
-    "21"
+    7,
+    11,
+    21
   ],
-  "lucky_color": "Emerald Green",
+  "lucky_color": "Royal Blue",
   "monthly_vibe": "Reflective & Calm",
-  "title": "Taurus \u2014 Don't Ignore This",
-  "youtube_title": "Taurus \u2014 Don't Ignore This #shorts",
-  "youtube_description": "Taurus, the stars are sending a powerful message today. Mars is squaring your Sun, and Venus is battling Neptune's illusions. This is your moment to face the truth and rebuild stronger. Comment your sign and let me know how this resonates with you.",
-  "youtube_tags": [
-    "taurus horoscope",
-    "taurus today",
-    "taurus february 2026",
-    "astrology taurus",
-    "taurus daily horoscope",
-    "taurus love horoscope",
-    "taurus career",
-    "taurus money",
-    "taurus health",
-    "taurus relationships",
-    "taurus spiritual",
-    "taurus zodiac",
-    "taurus forecast",
-    "taurus astrology",
-    "taurus moon sign",
-    "taurus rising sign",
-    "taurus venus",
-    "taurus mars",
-    "taurus saturn",
-    "taurus neptune"
+  "title": "Taurus Daily Horoscope March 03, 2026",
+  "youtube_title": "What Taurus Should Notice About Love and Work Tonight #shorts",
+  "youtube_descriptions": "Real predictions for Taurus on March 3, 2026. Expect powerful movements in your 7th House and financial clarity in your 10th House.",
+  "tags": [
+    "astrology",
+    "Taurus horoscope",
+    "Taurus symbolism",
+    "planetary transit",
+    "self-reflection",
+    "love energies",
+    "career guidance",
+    "augmentation readings",
+    "elemental focus",
+    "calendar reading",
+    "cosmic signs",
+    "mean planetary signs",
+    "mystery signs",
+    "spiritual insights"
   ],
+  "lucky_number_1": 73,
+  "lucky_number_2": 87,
+  "lucky_number_3": 45,
   "type": "daily",
   "target": "Taurus",
-  "date": "February 23, 2026",
+  "date": "March 03, 2026",
   "images": [
     "assets/zodiac_signs/Taurus.jpg"
   ],
   "active": true,
-  "status": "pending",
+  "status": "uploaded",
   "file_name": "plan_daily_Taurus.json"
 }
