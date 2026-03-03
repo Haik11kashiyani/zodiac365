@@ -1,44 +1,12 @@
 {
-  "script_text": "Stop scrolling \u2014 this week's cosmic weather demands your attention, Libra. Monday brings Mercury trine Jupiter, perfect for negotiations and big-picture thinking. Tuesday's Venus sextile Pluto deepens intimacy \u2014 open your heart. Wednesday, Sun square Mars could spark conflict; breathe before reacting. Thursday's Mercury square Uranus warns against impulsive decisions \u2014 double-check details. Friday's Venus trine Saturn stabilizes relationships and finances \u2014 commit to what matters. Saturday's Sun sextile Jupiter expands opportunities \u2014 say yes to growth. Sunday's Mercury sextile Neptune enhances creativity and intuition \u2014 trust your hunches. BEST DAYS: Friday (commitments solidify) and Saturday (expansion). WORST DAY: Wednesday (conflict potential). This week: balance action with reflection, Libra.",
+  "script_text": "Libra\u2014Venus, your ruler, squares Saturn Monday in the 7th House, clashing with your partnerships. Avoid major discussions Tuesday as Mars squares your 10th House, stirring career stress. Wednesday turns sweet: Jupiter trines Uranus in your 5th House, sparking creative love breakthroughs. Thursday\u2019s Mars-Mercury conjunction in your 10th House clarifies career moves. Friday, Venus enters your 1st House\u2014assert yourself! By Saturday, Neptune trines Pluto in your 12th House, inviting emotional introspection. Sunday\u2019s Mercury-Neptune aspect boosts intuition. Wednesday is your power day: Venus enters your 5th House, igniting romance. Sunday is your lowest: Saturn-Neptune square in the 12th House breeds doubt. Prioritize creative projects Wednesday. Follow for daily cosmic clarity.",
   "captions_structure": [
     {
-      "text": "Libra Weekly Forecast",
+      "text": "LIBRA ALERT",
       "type": "header"
     },
     {
-      "text": "Monday: Mercury trine Jupiter",
-      "type": "normal"
-    },
-    {
-      "text": "Tuesday: Venus sextile Pluto",
-      "type": "normal"
-    },
-    {
-      "text": "Wednesday: Sun square Mars",
-      "type": "normal"
-    },
-    {
-      "text": "Thursday: Mercury square Uranus",
-      "type": "normal"
-    },
-    {
-      "text": "Friday: Venus trine Saturn",
-      "type": "normal"
-    },
-    {
-      "text": "Saturday: Sun sextile Jupiter",
-      "type": "normal"
-    },
-    {
-      "text": "Sunday: Mercury sextile Neptune",
-      "type": "normal"
-    },
-    {
-      "text": "BEST: Friday & Saturday",
-      "type": "normal"
-    },
-    {
-      "text": "WORST: Wednesday",
+      "text": "Libra, Saturn squares Venus Monday\u2014cracking partnerships. Don\u2019t ignore this.",
       "type": "normal"
     }
   ],
@@ -49,37 +17,43 @@
   ],
   "lucky_color": "Emerald Green",
   "monthly_vibe": "Reflective & Calm",
-  "title": "Libra \u2014 Don't Ignore This Week",
-  "youtube_title": "Libra Weekly Horoscope \u2014 Major Shift Coming #shorts",
-  "youtube_description": "Libra, this week brings both challenges and breakthroughs. Wednesday could test your patience, but Friday offers the stability you've been craving. What will you commit to? Comment your sign below!",
+  "title": "Libra\u2014Venus Squares Saturn: Love or Crisis?",
+  "youtube_title": "Venus Squares Saturn: Will Libra\u2019s Relationships Survive? #shorts",
+  "youtube_description": "This week\u2019s Saturn-Venus square in your 7th House threatens partnerships. Will you navigate it or collapse? Comment your sign for tailored advice.",
   "youtube_tags": [
-    "libra horoscope",
+    "libra horoscope 2026",
+    "venus saturn square",
+    "libra love problems",
+    "career horoscope Libra",
+    "astrology weekly",
+    "mars mercury conjunction",
+    "libra reality check",
+    "cosmic love warnings",
+    "manifest love Libra",
+    "saturn transit effects",
     "libra weekly forecast",
-    "astrology for libra",
-    "venus trine saturn",
-    "mercury trine jupiter",
-    "libra love horoscope",
-    "libra career forecast",
-    "cosmic energy",
-    "spiritual tiktok",
-    "horoscope 2026",
-    "libra manifestation",
-    "libra relationships",
-    "sun sextile jupiter",
-    "mercury square uranus",
-    "venus sextile pluto",
-    "libra finance forecast",
-    "libra best days",
-    "libra worst days",
-    "astrology daily"
+    " mars transit career",
+    "libra astrology weekly",
+    "creative love breakthrough",
+    "Libra destiny 2026",
+    "planetary squares horoscope",
+    "romantic challenges Libra",
+    "astrology career tips",
+    "libra spiritual growth",
+    "emotional crisis Libra",
+    " Venus transit 2026",
+    "libra career advice",
+    "cosmic relationship horoscope",
+    "libra weekly horoscope march"
   ],
   "type": "weekly",
   "target": "Libra",
-  "date": "Feb 23 - Mar 01",
+  "date": "Mar 03 - Mar 09",
   "images": [
     "assets/zodiac_signs/Libra.jpg"
   ],
   "active": true,
-  "status": "pending",
-  "file_name": "plan_weekly_Libra.json"
+  "status": "error",
+  "file_name": "plan_weekly_Libra.json",
+  "error_reason": "Upload failed"
 }
