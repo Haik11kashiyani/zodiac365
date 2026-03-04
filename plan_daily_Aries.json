@@ -1,11 +1,50 @@
 {
-  "script_text": "Stop! Aries, the stars are screaming at you right now. Mars is forming a tight opposition with your ruling planet, creating intense energy in the 1st House as you face self-reflection. Your 3rd House will harsi tension\u2014examine your perceptions carefully. The 7th House feels tied up in a knot, so watch for relationship shifts. Career-wise, the 10th House signals a major opportunity in your professional path, but stay alert to unexpected challenges. Follow for tomorrow's reading and brace the cosmic message.",
+  "script_text": "Stop! Aries, the stars demand action. Your 1st House pulses fiercely, engines whirring beneath shadows. Mars clashes with your 7th House, igniting restless bonds awaiting your next move.",
+  "captions_structure": [
+    {
+      "text": "ARIES ALERT",
+      "type": "header"
+    },
+    {
+      "text": "First line...",
+      "type": "normal"
+    }
+  ],
+  "lucky_numbers": [
+    "7",
+    "11",
+    "21"
+  ],
+  "lucky_color": "Royal Blue",
+  "monthly_vibe": "Bold Action",
+  "title": "Aries Daily Horoscope March 04, 2026",
+  "youtube_title": "Aries Warning Decoding #shorts",
+  "youtube_description": "Aries confronts cosmic friction. Receive specific guidance for today's challenges.",
+  "youtube_tags": [
+    "Aries",
+    "Horoscope",
+    "Aries2026",
+    "Astrology",
+    "AriesStars",
+    "Cosmic",
+    "AriesChallenge",
+    "IntoAction",
+    "Planetary",
+    "Element",
+    "Sign",
+    "Watches",
+    "Decide",
+    "Clarity"
+  ],
+  "captions": "ARIES ALERT, First line...",
+  "extra": {
+    "capitals": "Stars",
+    "calculation": 140,
+    "constraint": "Exactly 140 words"
+  },
   "type": "daily",
   "target": "Aries",
-  "date": "March 03, 2026",
-  "lucky_numbers": [],
-  "lucky_color": "",
-  "monthly_vibe": "",
+  "date": "March 04, 2026",
   "images": [
     "assets/zodiac_signs/Aries.jpg"
   ],
