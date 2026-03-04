@@ -1,0 +1,53 @@
+{
+  "script_text": "The FULL spoken narration script. Must follow the structured sections from the main prompt above. 140-150 words (55-60 seconds). Start with a pattern interrupt. Include specific planetary transits, house references, love prediction, career prediction, and a closing CTA. Must be specific to Full Moon Ritual \u2014 never generic.",
+  "captions_structure": [
+    {
+      "text": "FULL MOON RITUAL ALERT",
+      "type": "header"
+    },
+    {
+      "text": "The Full Moon in Libra on March 4th, 2026, is a cosmic crossroads. This isn't just light; it's a mirror held up to your 7th House of partnerships, demanding truth. Venus, your ruling planet, squares Saturn in your 10th House of career, forcing a choice between love and ambition. This Full Moon's opposition to the Sun in Pisces in your 1st House of self reveals hidden wounds around identity. Your survival tip: meditate on Chiron's placement in your chart to heal these karmic echoes. Comment your sign for personalized guidance.",
+      "type": "normal"
+    }
+  ],
+  "lucky_numbers": [
+    "7",
+    "11",
+    "21"
+  ],
+  "lucky_color": "Emerald Green",
+  "monthly_vibe": "Reflective & Calm",
+  "title": "The Full Moon Ritual Warning: Venus vs. Saturn Clash",
+  "youtube_title": "Full Moon Ritual \u2014 Venus vs. Saturn: Your Love vs. Career Battle #shorts",
+  "youtube_description": "The Full Moon in Libra on March 4th, 2026, forces a choice between love and career. Venus squares Saturn in your 10th House, while Chiron in Pisces in your 1st House reveals hidden wounds. Comment your sign for your exact prediction.",
+  "youtube_tags": [
+    "astrology",
+    "horoscope",
+    "full moon ritual",
+    "venus square saturn",
+    "libra full moon",
+    "career astrology",
+    "relationship astrology",
+    "chiron healing",
+    "pisces full moon",
+    "astrology advice",
+    "cosmic energy",
+    "spiritual tiktok",
+    "manifestation",
+    "astrology tips",
+    "full moon ritual today",
+    "astrology for love",
+    "astrology for career",
+    "astrology predictions",
+    "astrology guidance",
+    "astrology reading"
+  ],
+  "type": "special",
+  "target": "Full Moon Ritual",
+  "date": "2026-03-04",
+  "images": [],
+  "active": true,
+  "status": "error",
+  "file_name": "plan_special_Full_Moon_Ritual.json",
+  "error_reason": "Upload failed"
+}

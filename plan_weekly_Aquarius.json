@@ -1,47 +1,87 @@
 {
-    "script_text": "Stop scrolling! Aquarius, this week the cosmos spins a bold rhythm for you. Monday (Feb\u202f12) brings Mercury trine Jupiter, perfect for expanding ideas\u2014write that proposal or study a new skill. Tuesday\u2019s Sun squares Saturn, urging patience in finances; avoid impulse buys and review budgets. Wednesday features Venus sextile Uranus, sparking creative breakthroughs\u2014decorate your space or start a hobby. Thursday\u2019s Mars opposite Pluto fuels intense drive; channel it into a workout or strategic planning. Friday sees a gentle Moon sextile Neptune, ideal for meditation and dreaming\u2014journal your visions. Saturday\u2019s Sun conjunct Mercury sharpens communication; perfect for networking or clearing misunderstandings. Sunday offers a powerful Sun\u2011Moon trine, the best day for collaboration and joyful gatherings. The worst day lands on Tuesday, when Saturn\u2019s tension may stall progress; stay grounded and postpone major decisions. Embrace the flow, trust your intuition, and let the stars guide your actions today.",
-    "captions_structure": [
-        {
-            "text": "AQUARIUS FORECAST",
-            "type": "header"
-        },
-        {
-            "text": "Stop scrolling...",
-            "type": "normal"
-        }
-    ],
-    "title": "Aquarius Weekly Forecast",
-    "youtube_title": "\u26a0\ufe0f WARNING: Aquarius Week Ahead! #shorts",
-    "youtube_description": "\ud83d\udea8 Aquarius, the stars are shouting\u2014don\u2019t miss this week\u2019s power moves!\nDiscover daily planetary vibes and actionable tips to ride the cosmic wave. Sub to claim your cosmic guide!\n#astrology #aquarius #weeklyforecast #zodiac #horoscope",
-    "youtube_tags": [
-        "astrology",
-        "aquarius",
-        "weeklyforecast",
-        "zodiac",
-        "horoscope",
-        "planetaryenergy",
-        "Mercury",
-        "Jupiter",
-        "Saturn",
-        "Venus",
-        "Uranus",
-        "Mars",
-        "Pluto",
-        "Moon",
-        "Neptune",
-        "selfimprovement",
-        "mindset",
-        "spirituality",
-        "motivation",
-        "guidance"
-    ],
-    "type": "weekly",
-    "target": "Aquarius",
-    "date": "Feb 12 - Feb 18",
-    "images": [
-        "assets/zodiac_signs/Aquarius.jpg"
-    ],
-    "active": true,
-    "status": "pending",
-    "file_name": "plan_weekly_Aquarius.json"
+  "script_text": "Aquarius, brace yourself\u2014this week is a cosmic rollercoaster with Saturn shaking up your foundations. Early week, Mercury squares your ruling planet Uranus on Monday, creating mental tension and unexpected news in your 4th House of home. Tuesday brings a Venus-Neptune conjunction in your 5th House, ideal for creative projects but risky for financial speculation. Wednesday is your power day as the Sun trines Jupiter in your 11th House\u2014perfect for networking and group activities. Mid-week, Mars enters your 7th House Thursday, igniting passion but also potential conflicts in partnerships. Late week, Friday's Full Moon in your 1st House brings emotional revelations and a chance to reset personal goals. Saturday's Mercury-Neptune sextile softens communication, making it great for heart-to-heart talks. Sunday's Saturn-Uranus quincunx may force you to balance tradition with innovation. Best day: Wednesday for social success. Worst day: Thursday for relationship tensions. This week, ground yourself with daily meditation to handle the cosmic chaos. Follow for daily updates.",
+  "captions_structure": [
+    {
+      "text": "AQUARIUS ALERT",
+      "type": "header"
+    },
+    {
+      "text": "Brace yourself\u2014this week is a cosmic rollercoaster...",
+      "type": "normal"
+    },
+    {
+      "text": "Early week: Mercury squares Uranus Monday...",
+      "type": "normal"
+    },
+    {
+      "text": "Wednesday is your power day...",
+      "type": "normal"
+    },
+    {
+      "text": "Mid-week: Mars enters your 7th House Thursday...",
+      "type": "normal"
+    },
+    {
+      "text": "Late week: Friday's Full Moon in your 1st House...",
+      "type": "normal"
+    },
+    {
+      "text": "Best day: Wednesday for social success...",
+      "type": "normal"
+    },
+    {
+      "text": "Worst day: Thursday for relationship tensions...",
+      "type": "normal"
+    },
+    {
+      "text": "This week, ground yourself with daily meditation...",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for daily updates.",
+      "type": "cta"
+    }
+  ],
+  "lucky_numbers": [
+    "7",
+    "11",
+    "21"
+  ],
+  "lucky_color": "Electric Blue",
+  "monthly_vibe": "Revolutionary & Grounded",
+  "title": "Aquarius: Don't Miss This Cosmic Shift",
+  "youtube_title": "Aquarius: Don't Miss This Cosmic Shift #shorts",
+  "youtube_description": "Aquarius, Saturn is shaking up your foundations this week! Discover which days hold breakthroughs and which bring challenges. Comment your sign if you're feeling the cosmic tension!",
+  "youtube_tags": [
+    "aquarius horoscope",
+    "aquarius weekly forecast",
+    "saturn transit",
+    "uranus aquarius",
+    "astrology predictions",
+    "zodiac signs",
+    "cosmic energy",
+    "spiritual tiktok",
+    "manifestation",
+    "horoscope today",
+    "aquarius love",
+    "career astrology",
+    "full moon effects",
+    "mercury retrograde",
+    "venus neptune",
+    "mars in 7th house",
+    "astrology tiktok",
+    "weekly horoscope",
+    "zodiac readings",
+    "spiritual guidance"
+  ],
+  "type": "weekly",
+  "target": "Aquarius",
+  "date": "Mar 04 - Mar 10",
+  "images": [
+    "assets/zodiac_signs/Aquarius.jpg"
+  ],
+  "active": true,
+  "status": "error",
+  "file_name": "plan_weekly_Aquarius.json",
+  "error_reason": "Upload failed"
 }

@@ -1,47 +1,49 @@
 {
-    "script_text": "Stop scrolling! Pisces, the cosmos is humming for you this week. Monday, February 12, Mercury trine Jupiter fuels clear communication\u2014perfect for pitching ideas or signing contracts. Tuesday brings Venus sextile Saturn, grounding your emotions; focus on self\u2011care and realistic budgeting. Wednesday\u2019s Mars square Neptune clouds motivation\u2014avoid new ventures, stay organized. Thursday, Jupiter conjunct Pluto amplifies intuition; trust gut feelings in creative projects. Friday, Sun sextile Mercury brightens networking\u2014reach out to mentors. Saturday, Saturn opposite Uranus urges patience; delay impulsive decisions. Sunday, Moon trine Neptune enhances empathy\u2014perfect for healing conversations. The BEST day: Thursday, when intuition and confidence align for breakthroughs. The WORST day: Wednesday, when confusion can derail plans\u2014stay grounded and double\u2011check details. Harness these energies, stay mindful, and let the stars guide your flow. Remember, Pisces, align daily rituals with lunar tides, meditate at dusk, and share insights with trusted friends for amplified blessings.",
-    "captions_structure": [
-        {
-            "text": "PISCES WEEKLY FORECAST",
-            "type": "header"
-        },
-        {
-            "text": "Stop scrolling! Cosmic guidance inside.",
-            "type": "normal"
-        }
-    ],
-    "title": "Pisces Weekly Forecast 12-18 Feb 2026",
-    "youtube_title": "\u26a0\ufe0f Pisces Alert: 7 Days of Cosmic Chaos! #shorts",
-    "youtube_description": "\u26a1\ufe0f Your week is exploding with planetary power\u2014don't miss the best and worst days!\nSub to claim your personalized cosmic guide.\nExplore daily planetary influences and actionable advice for Pisces.\n#astrology #pisces #horoscope #zodiac #weeklyforecast",
-    "youtube_tags": [
-        "astrology",
-        "pisces",
-        "weeklyforecast",
-        "horoscope",
-        "zodiac",
-        "2026",
-        "February",
-        "planetaryenergy",
-        "mercury",
-        "jupiter",
-        "venus",
-        "saturn",
-        "mars",
-        "neptune",
-        "pluto",
-        "sun",
-        "moon",
-        "selfcare",
-        "intuition",
-        "spirituality"
-    ],
-    "type": "weekly",
-    "target": "Pisces",
-    "date": "Feb 12 - Feb 18",
-    "images": [
-        "assets/zodiac_signs/Pisces.jpg"
-    ],
-    "active": true,
-    "status": "pending",
-    "file_name": "plan_weekly_Pisces.json"
+  "script_text": "Pattern Interrupt: The Stars Align for Pisces' Elegant Paradox. Venus trines Pluto on 5th House, making love feel both deep and fleeting. Wednesday\u2019s magic demands courage.",
+  "lucky_numbers": [
+    7,
+    11,
+    21
+  ],
+  "captions_structure": [
+    {
+      "text": "PISCES",
+      "type": "header"
+    },
+    {
+      "text": "First Line..."
+    }
+  ],
+  "lucky_color": "Emerald Green",
+  "monthly_vibe": "Reflective & Calm",
+  "title": "Pisces Weekly Horoscope ...",
+  "youtube_title": "Pisces\u2019 Keys #shorts",
+  "youtube_description": "Whispers of depth and opportunity. Comment your sign.",
+  "youtube_tags": [
+    "Pisces",
+    "Horoscope",
+    "Planets",
+    "Reflection",
+    "Love",
+    "Career",
+    "Cares",
+    "Eclipse"
+  ],
+  "captsions_structure": [
+    {
+      "text": "PISCES\"ALERT"
+    },
+    {
+      "text": "Focusing..."
+    }
+  ],
+  "type": "weekly",
+  "target": "Pisces",
+  "date": "Mar 04 - Mar 10",
+  "images": [
+    "assets/zodiac_signs/Pisces.jpg"
+  ],
+  "active": true,
+  "status": "uploaded",
+  "file_name": "plan_weekly_Pisces.json"
 }

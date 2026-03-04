@@ -1,47 +1,45 @@
 {
-    "script_text": "Stop scrolling! Mars is squaring your communication sector, and a sudden shift in Mercury\u2019s retrograde sparks restless thoughts. Venus whispers hidden desires, urging you to share authentic feelings with close friends. Jupiter\u2019s expansive glow amplifies opportunities in creative projects\u2014grab them before the moon wanes. Saturn\u2019s disciplined pulse steadies your finances, but beware impulsive spending when the Sun aligns with Neptune\u2019s dreamy haze. Uranus flashes unexpected insights; a breakthrough in personal growth is imminent. Pluto\u2019s deep transformation nudges you to release old patterns, especially in relationships. Embrace this cosmic turbulence as a catalyst for evolution. Trust your intuition, stay grounded, and let the universe guide your next bold move. Remember, the stars are allies, not dictators. Ride the wave, Aquarius, and let your visionary spirit soar. Channel this stellar surge into purposeful action, and watch your dreams manifest with dazzling clarity.",
-    "captions_structure": [
-        {
-            "text": "AQUARIUS ALERT",
-            "type": "header"
-        },
-        {
-            "text": "Stop scrolling...",
-            "type": "normal"
-        }
-    ],
-    "title": "Aquarius Daily Horoscope 2026-02-12",
-    "youtube_title": "\u26a0\ufe0f WARNING: Aquarius Cosmic Shock! #shorts",
-    "youtube_description": "\ud83d\udea8 Cosmic turbulence hits Aquarius hard! Discover how Mars, Mercury, and Pluto reshape your day. Sub to claim deeper insights and ride the wave of destiny. #Aquarius #Astrology #Horoscope #Cosmic #Guidance",
-    "youtube_tags": [
-        "astrology",
-        "horoscope",
-        "aquarius",
-        "dailyhoroscope",
-        "zodiac",
-        "planetaryalignment",
-        "mars",
-        "mercury",
-        "jupiter",
-        "saturn",
-        "neptune",
-        "uranus",
-        "pluto",
-        "cosmicenergy",
-        "spiritualguidance",
-        "selfgrowth",
-        "futureforecast",
-        "starreadings",
-        "celestialinsights",
-        "2026horoscope"
-    ],
-    "type": "daily",
-    "target": "Aquarius",
-    "date": "February 12, 2026",
-    "images": [
-        "assets/zodiac_signs/Aquarius.jpg"
-    ],
-    "active": true,
-    "status": "pending",
-    "file_name": "plan_daily_Aquarius.json"
+  "script_text": "Stop! Aquarius, the stars are screaming at you right now. Mercury in your 10th House squares Saturn, creating career pressure that demands your attention today. Single Aquarians might attract a partner with unconventional ideas, while couples should balance independence with togetherness. Avoid impulsive career moves; focus on steady progress. This transit warns against heated debates\u2014they won't resolve anything. Follow for tomorrow's reading.",
+  "captions_structure": [
+    {
+      "text": "AQUARIUS ALERT",
+      "type": "header"
+    },
+    {
+      "text": "Stop! Aquarius, the stars are screaming at you right now.",
+      "type": "normal"
+    }
+  ],
+  "lucky_numbers": [
+    "7",
+    "11",
+    "21"
+  ],
+  "lucky_color": "Emerald Green",
+  "monthly_vibe": "Reflective & Calm",
+  "title": "Aquarius \u2014 Don't Ignore This Cosmic Signal",
+  "youtube_title": "Aquarius \u2014 Don't Ignore This Cosmic Signal #shorts",
+  "youtube_description": "Mercury squares Saturn in your career sector today. What does this mean for your ambitions? Watch for unexpected insights about your path forward.",
+  "youtube_tags": [
+    "aquarius horoscope 2026",
+    "mercury retrograde aquarius",
+    "astrology career advice",
+    "aquarius love today",
+    "saturn transit aquarius",
+    "astrology predictions",
+    "aquarius daily reading",
+    "mercury square saturn",
+    "career astrology",
+    "aquarius relationships"
+  ],
+  "type": "daily",
+  "target": "Aquarius",
+  "date": "March 04, 2026",
+  "images": [
+    "assets/zodiac_signs/Aquarius.jpg"
+  ],
+  "active": true,
+  "status": "error",
+  "file_name": "plan_daily_Aquarius.json",
+  "error_reason": "Upload failed"
 }
