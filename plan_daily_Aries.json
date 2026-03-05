@@ -1,12 +1,12 @@
 {
-  "script_text": "Stop! Aries, the stars demand action. Your 1st House pulses fiercely, engines whirring beneath shadows. Mars clashes with your 7th House, igniting restless bonds awaiting your next move.",
+  "script_text": "Stop! Mars is making a rare alignment that demands your attention, Aries. Today, your ruling planet Mars forms a dynamic square with Jupiter in your 10th House of Career, creating a powerful but potentially explosive energy. This aspect indicates sudden opportunities that may require bold action but also carry risks. Venus enters your 7th House of Partnerships, bringing harmony to existing relationships but also attracting attention from admirers who may challenge your current commitments. The Moon sextile Uranus in your 2nd House of Finances suggests an unexpected financial opportunity could arise through a creative project or innovative approach. Beware of impulsive decisions regarding investments\u2014your natural Aries enthusiasm could override practical judgment. Subscribe for tomorrow's reading when Mercury retrograde begins to impact your communications.",
   "captions_structure": [
     {
       "text": "ARIES ALERT",
       "type": "header"
     },
     {
-      "text": "First line...",
+      "text": "Stop! Mars is making a rare alignment that demands your attention, Aries.",
       "type": "normal"
     }
   ],
@@ -15,36 +15,36 @@
     "11",
     "21"
   ],
-  "lucky_color": "Royal Blue",
+  "lucky_color": "Crimson Red",
   "monthly_vibe": "Bold Action",
-  "title": "Aries Daily Horoscope March 04, 2026",
-  "youtube_title": "Aries Warning Decoding #shorts",
-  "youtube_description": "Aries confronts cosmic friction. Receive specific guidance for today's challenges.",
+  "title": "Aries \u2014 Mars Square Jupiter Alert",
+  "youtube_title": "Aries \u2014 Mars Square Jupiter Alert #shorts",
+  "youtube_description": "Mars is forming a powerful square with Jupiter in your 10th House today, Aries. This creates both opportunities and risks\u2014here's how to navigate this cosmic energy. Comment your sign for personalized guidance!",
   "youtube_tags": [
-    "Aries",
-    "Horoscope",
-    "Aries2026",
-    "Astrology",
-    "AriesStars",
-    "Cosmic",
-    "AriesChallenge",
-    "IntoAction",
-    "Planetary",
-    "Element",
-    "Sign",
-    "Watches",
-    "Decide",
-    "Clarity"
+    "aries horoscope",
+    "aries today",
+    "mars square jupiter",
+    "career astrology",
+    "love predictions",
+    "aries love",
+    "aries career",
+    "fire sign",
+    "mars transit",
+    "jupiter transit",
+    "10th house",
+    "7th house",
+    "2nd house",
+    "financial astrology",
+    "relationship advice",
+    "zodiac signs",
+    "western astrology",
+    "daily horoscope",
+    "cosmic energy",
+    "astrology predictions"
   ],
-  "captions": "ARIES ALERT, First line...",
-  "extra": {
-    "capitals": "Stars",
-    "calculation": 140,
-    "constraint": "Exactly 140 words"
-  },
   "type": "daily",
   "target": "Aries",
-  "date": "March 04, 2026",
+  "date": "March 05, 2026",
   "images": [
     "assets/zodiac_signs/Aries.jpg"
   ],

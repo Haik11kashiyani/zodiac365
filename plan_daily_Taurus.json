@@ -1,12 +1,12 @@
 {
-  "script_text": "Stop! Taurus, the universe is blaring a red alert. Mars in Aquarius is forming a precise square to your ruling planet Venus in Taurus, directly impacting your 10th House of Career and your 1st House of Identity. This air-Earth clash forces a showdown between professional ambitions and personal values. As an Earth sign, your usual stability is rattled. Romantically, coupled Taureans will spar over time and support; singles, a magnetic but volatile person may approach at a work event\u2014trust your instincts. Career-wise, Mars in the 10th demands you negotiate, but your 2nd House of Finances warns against impulsive spending or investments. Critical warning: Neptune clouds your 9th House of Travel and Legal Matters\u2014avoid booking trips or signing contracts now. Mercury turns retrograde soon, so verify all communications. Follow for tomorrow's reading to decode Jupiter's move into your 11th House of Hopes.",
+  "script_text": "Stop everything, Taurus! The cosmos has thrown you a curveball today that demands attention. Venus, your ruling planet, forms a harmonious trine with Jupiter in your 10th House of Career, opening unexpected professional doors. Mercury in your 4th House creates a challenging square to Neptune, potentially causing family misunderstandings. Relationships: a conversation about shared finances reveals surprising value alignment. Single Taurus might find attraction brewing with someone from your professional circle. The Venus-Jupiter trine in your 10th House suggests unexpected recognition\u2014don't be surprised if a superior notices your recent contributions. Avoid impulsive purchases today as Mercury-Neptune squares cloud your financial judgment\u2014perfect time for creative brainstorming instead. Follow for tomorrow's reading to discover how the Full Moon in your opposite sign will shake up your relationships.",
   "captions_structure": [
     {
       "text": "TAURUS ALERT",
       "type": "header"
     },
     {
-      "text": "Stop! Taurus, the universe is blaring a red alert.",
+      "text": "Stop everything, Taurus! The cosmos has thrown you a curveball today that demands attention.",
       "type": "normal"
     }
   ],
@@ -16,39 +16,40 @@
     "21"
   ],
   "lucky_color": "Emerald Green",
-  "monthly_vibe": "Grounded & Reflective",
-  "title": "Taurus Daily Horoscope March 04, 2026",
-  "youtube_title": "Taurus \u2014 Mars-Venus War Today #shorts",
-  "youtube_description": "Taurus, Mars squares Venus in your chart on March 4th, 2026, igniting a career vs. self conflict that disrupts relationships and finances. What exactly will happen? Comment your sign below to uncover the details.",
+  "monthly_vibe": "Reflective & Calm",
+  "title": "Taurus \u2014 Unexpected Career Breakthrough",
+  "youtube_title": "Taurus \u2014 Career Breakthrough Incoming #shorts",
+  "youtube_description": "Venus trine Jupiter in your 10th House brings unexpected professional recognition today! Discover what financial conversations reveal about your relationships. Comment your sign below!",
   "youtube_tags": [
-    "astrology",
-    "horoscope",
-    "taurus",
-    "taurus horoscope",
-    "taurus today",
-    "mars venus square",
-    "career horoscope",
-    "love prediction",
+    "Taurus horoscope",
+    "Venus trine Jupiter",
+    "10th house career",
+    "Taurus today",
+    "astrology predictions",
     "daily horoscope",
-    "western astrology",
+    "zodiac signs",
+    "taurus traits",
     "cosmic energy",
-    "manifestation",
-    "spiritual",
-    "zodiac",
-    "earth sign",
-    "venus ruling",
-    "planetary transit",
-    "march 2026",
-    "astrology reading",
-    "taurus daily"
+    "spiritual guidance",
+    "planetary transits",
+    "astrology forecast",
+    "zodiac wisdom",
+    "taurus love life",
+    "career astrology",
+    "financial horoscope",
+    "mercury neptune square",
+    "earth signs",
+    "venus in taurus",
+    "astrology 2026"
   ],
   "type": "daily",
   "target": "Taurus",
-  "date": "March 04, 2026",
+  "date": "March 05, 2026",
   "images": [
     "assets/zodiac_signs/Taurus.jpg"
   ],
   "active": true,
-  "status": "uploaded",
-  "file_name": "plan_daily_Taurus.json"
+  "status": "error",
+  "file_name": "plan_daily_Taurus.json",
+  "error_reason": "Upload failed"
 }
