@@ -1,55 +1,39 @@
 {
-  "script_text": "Stop everything, Taurus! The cosmos has thrown you a curveball today that demands attention. Venus, your ruling planet, forms a harmonious trine with Jupiter in your 10th House of Career, opening unexpected professional doors. Mercury in your 4th House creates a challenging square to Neptune, potentially causing family misunderstandings. Relationships: a conversation about shared finances reveals surprising value alignment. Single Taurus might find attraction brewing with someone from your professional circle. The Venus-Jupiter trine in your 10th House suggests unexpected recognition\u2014don't be surprised if a superior notices your recent contributions. Avoid impulsive purchases today as Mercury-Neptune squares cloud your financial judgment\u2014perfect time for creative brainstorming instead. Follow for tomorrow's reading to discover how the Full Moon in your opposite sign will shake up your relationships.",
+  "script_text": "Stop! Taurus, the stars scream urgency here. Your 7th House clings tightly, a faxed chain demanding attention. Mars clashes where ambition stalls; your auroasu whispers caution. Expect friction yet potential breakthroughs await if you steady your resolve. Avoid ultimatums without backup. Reassess partnerships carefully. Act now to align ironous strength with openness. Trust your resilience in this convergence.",
   "captions_structure": [
     {
       "text": "TAURUS ALERT",
       "type": "header"
-    },
-    {
-      "text": "Stop everything, Taurus! The cosmos has thrown you a curveball today that demands attention.",
-      "type": "normal"
     }
   ],
-  "lucky_numbers": [
-    "7",
-    "11",
-    "21"
-  ],
+  "lucky_numbers": "7, 11, 21",
   "lucky_color": "Emerald Green",
-  "monthly_vibe": "Reflective & Calm",
-  "title": "Taurus \u2014 Unexpected Career Breakthrough",
-  "youtube_title": "Taurus \u2014 Career Breakthrough Incoming #shorts",
-  "youtube_description": "Venus trine Jupiter in your 10th House brings unexpected professional recognition today! Discover what financial conversations reveal about your relationships. Comment your sign below!",
+  "monthly_vibe": "Bold Action",
+  "title": "Taurus Daily Horoscope March 06, 2026",
+  "youtube_title": "Reflective Insight #shorts",
+  "youtube_description": "Peer into Taurus's inner forces\u2014honesty cracks; patience thrives. Your path demands precision.",
   "youtube_tags": [
-    "Taurus horoscope",
-    "Venus trine Jupiter",
-    "10th house career",
-    "Taurus today",
-    "astrology predictions",
-    "daily horoscope",
-    "zodiac signs",
-    "taurus traits",
-    "cosmic energy",
-    "spiritual guidance",
-    "planetary transits",
-    "astrology forecast",
-    "zodiac wisdom",
-    "taurus love life",
-    "career astrology",
-    "financial horoscope",
-    "mercury neptune square",
-    "earth signs",
-    "venus in taurus",
-    "astrology 2026"
+    "Taurus Horoscope",
+    "Planetary Clash",
+    "Intense Focus",
+    "Elemental Struggle",
+    "Virgo Consequences",
+    "Confluence",
+    "Earth Sign Strength",
+    "Stability Seeks",
+    "Manifestation",
+    "Cosmic Alignment",
+    "Iron Will",
+    "Energy Convergence"
   ],
+  "external_notes": "Lucky Numbers: 7, 11, 21\nColor: Emerald Green\nCTA: Follow for tomorrow\u2019s new insight.",
   "type": "daily",
   "target": "Taurus",
-  "date": "March 05, 2026",
+  "date": "March 06, 2026",
   "images": [
     "assets/zodiac_signs/Taurus.jpg"
   ],
   "active": true,
-  "status": "error",
-  "file_name": "plan_daily_Taurus.json",
-  "error_reason": "Upload failed"
+  "status": "uploaded",
+  "file_name": "plan_daily_Taurus.json"
 }
