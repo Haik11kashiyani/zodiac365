@@ -1,39 +1,55 @@
 {
-  "script_text": "Stop! Taurus, the stars scream urgency here. Your 7th House clings tightly, a faxed chain demanding attention. Mars clashes where ambition stalls; your auroasu whispers caution. Expect friction yet potential breakthroughs await if you steady your resolve. Avoid ultimatums without backup. Reassess partnerships carefully. Act now to align ironous strength with openness. Trust your resilience in this convergence.",
+  "script_text": "Stop! Taurus, the stars are screaming at you right now. Mars in Gemini at 16\u00b0 forms a tight square to your ruling planet Venus at 15\u00b0 Pisces, creating explosive tension between your 3rd House of Communication and 11th House of Hopes. If partnered, expect a fiery debate about shared finances versus personal freedom tonight; if single, an ex may resurface via a group chat\u2014your Taurean loyalty could pull you back, but Mars warns against it. Mercury in Aquarius sextiles Jupiter in Cancer, flooding your 10th House of Career with a lucrative freelance offer or promotion\u2014act before March 15 to secure it. Your Earth sign pragmatism is essential: avoid signing any contracts today\u2014one hidden clause under this square could trap you for years. Follow for tomorrow\u2019s reading when Venus enters your 2nd House of Income, triggering an unexpected cash influx.",
   "captions_structure": [
     {
       "text": "TAURUS ALERT",
       "type": "header"
+    },
+    {
+      "text": "Stop! Taurus, the stars are screaming at you right now.",
+      "type": "normal"
     }
   ],
-  "lucky_numbers": "7, 11, 21",
-  "lucky_color": "Emerald Green",
-  "monthly_vibe": "Bold Action",
-  "title": "Taurus Daily Horoscope March 06, 2026",
-  "youtube_title": "Reflective Insight #shorts",
-  "youtube_description": "Peer into Taurus's inner forces\u2014honesty cracks; patience thrives. Your path demands precision.",
-  "youtube_tags": [
-    "Taurus Horoscope",
-    "Planetary Clash",
-    "Intense Focus",
-    "Elemental Struggle",
-    "Virgo Consequences",
-    "Confluence",
-    "Earth Sign Strength",
-    "Stability Seeks",
-    "Manifestation",
-    "Cosmic Alignment",
-    "Iron Will",
-    "Energy Convergence"
+  "lucky_numbers": [
+    "7",
+    "11",
+    "21"
   ],
-  "external_notes": "Lucky Numbers: 7, 11, 21\nColor: Emerald Green\nCTA: Follow for tomorrow\u2019s new insight.",
+  "lucky_color": "Emerald Green",
+  "monthly_vibe": "Reflective & Calm",
+  "title": "Taurus \u2014 Mars Square Venus Warning",
+  "youtube_title": "Taurus \u2014 Mars is Fuming Today #shorts",
+  "youtube_description": "Mars squares your ruler Venus today, sparking communication chaos and relationship fireworks. A career opportunity hides in your inbox\u2014but one contract clause could trap you for years. Comment your sign to see if you're in the crosshairs.",
+  "youtube_tags": [
+    "astrology",
+    "horoscope",
+    "daily horoscope",
+    "taurus",
+    "taurus horoscope",
+    "taurus today",
+    "mars square venus",
+    "venus in pisces",
+    "mars in gemini",
+    "mercury sextile jupiter",
+    "career horoscope",
+    "love horoscope",
+    "zodiac signs",
+    "western astrology",
+    "taurus march 2026",
+    "cosmic energy",
+    "spiritual awakening",
+    "manifestation",
+    "mercury retrograde",
+    "financial forecasting"
+  ],
   "type": "daily",
   "target": "Taurus",
-  "date": "March 06, 2026",
+  "date": "March 07, 2026",
   "images": [
     "assets/zodiac_signs/Taurus.jpg"
   ],
   "active": true,
-  "status": "uploaded",
-  "file_name": "plan_daily_Taurus.json"
+  "status": "error",
+  "file_name": "plan_daily_Taurus.json",
+  "error_reason": "Upload failed"
 }
