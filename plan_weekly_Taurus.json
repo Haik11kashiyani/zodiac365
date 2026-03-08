@@ -1,12 +1,32 @@
 {
-  "script_text": "Stop. Mercury trine Jupiter today lights your path.",
+  "script_text": "This week, the stars ignite a fiery clash in your partnership sphere. Early Monday through Midweek, Jupiter in Pisces trines your 1st House ruler Venus, sparking adventurous romantic overtures\u2014but tread carefully, as a Mercury-Saturn square midweek threatens career bottlenecks. Midweek pivot: Venus enters Gemini on Friday, softening fiery tensions. Late week, Saturn in Aries clashes your North Node, testing long-term goals, but a post-Fri Aries Sun fuels 10th House ambition. Best day: Friday, Venus facet reveals a lucrative partnership. Worst: Wednesday\u2019s Mercury retrograde in Aries scrambles communications. Use Taurus\u2019 Earthy resilience to anchor yourself. Guard your home front; Saturn transits your 4th House Thursday. **Actionstep:** Schedule a finance-focused meditation Thursday morning. Follow for daily cosmic clarity.",
   "captions_structure": [
     {
-      "text": "LEO WARNING",
+      "text": "TAURUS ALERT",
       "type": "header"
     },
     {
-      "text": "You\u2019re not Leo. Focus on your Bull\u2019s strengths.",
+      "text": "This week, the stars ignite a fiery clash in your partnership sphere.",
+      "type": "normal"
+    },
+    {
+      "text": "Early Monday through Midweek, Jupiter in Pisces trines your 1st House ruler Venus, sparking adventurous romantic overtures\u2014but tread carefully, as a Mercury-Saturn square midweek threatens career bottlenecks.",
+      "type": "normal"
+    },
+    {
+      "text": "Midweek pivot: Venus enters Gemini on Friday, softening fiery tensions.",
+      "type": "normal"
+    },
+    {
+      "text": "Late week, Saturn in Aries clashes your North Node, testing long-term goals, but a post-Fri Aries Sun fuels 10th House ambition.",
+      "type": "normal"
+    },
+    {
+      "text": "Best day: Friday, Venus facet reveals a lucrative partnership. Worst: Wednesday\u2019s Mercury retrograde in Aries scrambles communications.",
+      "type": "normal"
+    },
+    {
+      "text": "Use Taurus\u2019 Earthy resilience to anchor yourself. Guard your home front; Saturn transits your 4th House Thursday. **Actionstep:** Schedule a finance-focused meditation Thursday morning. Follow for daily cosmic clarity.",
       "type": "normal"
     }
   ],
@@ -16,39 +36,40 @@
     "21"
   ],
   "lucky_color": "Emerald Green",
-  "monthly_vibe": "Reflective & Calm",
-  "title": "Taurus: Stars Warn Against Impulse Spending",
-  "youtube_title": "What The Stars See in Your Wallet #shorts",
-  "youtube_description": "Mercury trine Jupiter could flood your inbox with opportunities\u2014 but Taurus, how do you say no? Comment your sign to share your weekly plan.",
+  "monthly_vibe": "Resilient Refinement",
+  "title": "Taurus \u2014 This Week\u2019s Cosmic Case Study",
+  "youtube_title": "Taurus Weekly Horoscope: Love Fights & Career Warnings #shorts",
+  "youtube_description": "How Venus-Geminitide IGEon Friday reshapes your world! We decode planetary clashes affecting your money & relationships. What ARE these \u2018fight\u2019 warnings? Comment your sign.",
   "youtube_tags": [
     "taurus horoscope",
     "astrology weekly",
-    "cosmic advice",
-    "taurus2026",
-    "money magic",
-    "zodiac energy",
-    "Mercury trine Jupiter",
-    "Taurus financials",
-    "astrology motivation",
-    "cosmic finance",
-    "taurus daily",
-    "lucky numbers",
-    "green energy",
-    "zodiac tips",
-    "horoscope truth",
-    "Taurus soul",
-    "planetary doubles",
-    "spiritual finance",
-    "cosmic curiosity",
-    "astrology deep dive"
+    "love horoscope taurus",
+    "career astrology",
+    "venus transit",
+    "mercury retrograde taurus",
+    "jupiter in pisces",
+    "taurus weekly tarot",
+    "zodiac weekly",
+    "astrology prediction",
+    "taurus weekly cosmic",
+    "planetary alignment taurus",
+    "horoscope prediction",
+    "taurus sun weekly",
+    "love & money astrology",
+    "daily cosmic clips",
+    "weekly horoscope",
+    "taurus soul insight",
+    "higher selftalk",
+    "cosmic growth taurus"
   ],
   "type": "weekly",
   "target": "Taurus",
-  "date": "Feb 24 - Mar 02",
+  "date": "Mar 08 - Mar 14",
   "images": [
     "assets/zodiac_signs/Taurus.jpg"
   ],
   "active": true,
-  "status": "uploaded",
-  "file_name": "plan_weekly_Taurus.json"
+  "status": "error",
+  "file_name": "plan_weekly_Taurus.json",
+  "error_reason": "Upload failed"
 }

@@ -1,54 +1,23 @@
 {
-  "script_text": "Stop scrolling! Aries, Monday brings Mercury trine Jupiter\u2014perfect for expanding horizons and important conversations. Tuesday's Venus square Neptune creates relationship fog\u2014stay grounded. Wednesday's Mars-Uranus sextile sparks innovation\u2014embrace change! Thursday, Sun enters Pisces, shifting focus to intuition. Friday is YOUR BEST DAY\u2014Moon in Aries fuels natural courage. Saturday's Mercury-Saturn square needs careful communication. Sunday's Venus-Pluto trine offers deep relationship transformations. Your WORST day? Tuesday\u2014avoid big decisions. Action tip: Use Friday's lunar energy to initiate what you've procrastinated. Wear emerald green for luck!",
-  "captions_structure": [
-    {
-      "text": "ARIES WEEKLY FORECAST",
-      "type": "header"
-    },
-    {
-      "text": "Stop scrolling...",
-      "type": "normal"
-    }
-  ],
+  "script_text": "The FULL cosmic shift for Aries this week begins with a powerful square between Mercury and the Sun in the 1st House. Wednesday is your power day because Venus enters your 5th House, amplifying charm and expression. The planetary dynamics will turn decisively\u2014Planet Mars opposes Uranus, creating tension but also clear opportunities. Reflect on how this mix influences your creative interactions.",
+  "captions_structure": {
+    "text": "ARIES"
+  },
   "lucky_numbers": [
-    "7",
-    "11",
-    "21"
+    7,
+    11,
+    21
   ],
-  "lucky_color": "Emerald Green",
-  "monthly_vibe": "Reflective & Calm",
-  "title": "Aries Cosmic Alert",
-  "youtube_title": "The Stars Are Warning Aries... #shorts",
-  "youtube_description": "Something big is coming your way, Aries! Your weekly cosmic guide reveals opportunities and pitfalls ahead. Comment your sign for a personalized reading!",
-  "youtube_tags": [
-    "astrology",
-    "horoscope",
-    "aries",
-    "arieshoroscope",
-    "weeklyforecast",
-    "cosmicenergy",
-    "spiritualtiktok",
-    "zodiacsigns",
-    "planetaryalignments",
-    "mercurytrinejupiter",
-    "venussquareneptune",
-    "marsuranus",
-    "suninpisces",
-    "mooninaries",
-    "ariesenergy",
-    "astrologyforecast",
-    "cosmicguidance",
-    "spiritualawakening",
-    "manifestation",
-    "ariesweekly"
-  ],
+  "lucky_color": "Royal Blue",
+  "monthly_vibe": "Bold Action",
+  "cta": "Follow for daily updates",
   "type": "weekly",
   "target": "Aries",
-  "date": "Feb 24 - Mar 02",
+  "date": "Mar 08 - Mar 14",
   "images": [
     "assets/zodiac_signs/Aries.jpg"
   ],
   "active": true,
-  "status": "pending",
+  "status": "uploaded",
   "file_name": "plan_weekly_Aries.json"
 }
