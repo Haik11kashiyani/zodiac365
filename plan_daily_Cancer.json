@@ -1,55 +1,95 @@
 {
-  "script_text": "Cancer, the Moon\u2019s shadow casts a warning today\u2014your emotional fortress is cracking. The Moon squares Pluto in your 8th House, stripping away illusions; a lover or partner may reveal hidden truths. Single? Draw a passionate visionary tonight; taken? A secret yearning could fracture vulnerability. Venus trines your Moon in the 10th House, starring your career as a diplomat or healer\u2014trust your gut. Avoid impulsive spending; unexpected gift money arrives via text. Follow for tomorrow\u2019s lunar fury.",
+  "script_text": "Stop! Cancer, the stars are screaming at you right now. Venus is forming a harmonious trine to your Moon today, flooding your 4th House of Home and Family with nurturing energy. This cosmic alignment creates the perfect atmosphere for emotional healing and domestic harmony. Single Cancers should expect a meaningful connection with someone who values emotional security, while those in relationships will find deeper intimacy through vulnerability. Career-wise, Mercury in your 10th House is sextiling Saturn, bringing practical solutions to workplace challenges and potential recognition for your efforts. Warning: Avoid taking things personally today \u2014 not everyone shares your emotional depth. An unexpected gift or gesture of appreciation may arrive from someone you least expect. Follow for tomorrow's reading before this energy shifts.",
   "captions_structure": [
     {
       "text": "CANCER ALERT",
       "type": "header"
     },
     {
-      "text": "Cancer, the Moon\u2019s shadow casts a warning today\u2014your emotional fortress is cracking.",
+      "text": "Stop! Cancer, the stars are screaming at you right now.",
+      "type": "normal"
+    },
+    {
+      "text": "Venus is forming a harmonious trine to your Moon today,",
+      "type": "normal"
+    },
+    {
+      "text": "flooding your 4th House of Home and Family with nurturing energy.",
+      "type": "normal"
+    },
+    {
+      "text": "This cosmic alignment creates the perfect atmosphere for emotional healing.",
+      "type": "normal"
+    },
+    {
+      "text": "Single Cancers should expect a meaningful connection with someone who values emotional security,",
+      "type": "normal"
+    },
+    {
+      "text": "while those in relationships will find deeper intimacy through vulnerability.",
+      "type": "normal"
+    },
+    {
+      "text": "Career-wise, Mercury in your 10th House is sextiling Saturn,",
+      "type": "normal"
+    },
+    {
+      "text": "bringing practical solutions to workplace challenges and potential recognition for your efforts.",
+      "type": "normal"
+    },
+    {
+      "text": "Warning: Avoid taking things personally today \u2014 not everyone shares your emotional depth.",
+      "type": "normal"
+    },
+    {
+      "text": "An unexpected gift or gesture of appreciation may arrive from someone you least expect.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for tomorrow's reading before this energy shifts.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
-    "7",
-    "11",
-    "21"
+    "4",
+    "12",
+    "28"
   ],
-  "lucky_color": "Emerald Green",
-  "monthly_vibe": "Reflective & Calm",
-  "title": "Cancer\u2014Watch This Warning",
-  "youtube_title": "Cancer\u2014Moon\u2019s Shadow Predicts Chaos #shorts",
-  "youtube_description": "Cancer? The Moon\u2019s clash with Pluto hides betrayal or rebirth. Your career or love life? Comment your sign.",
+  "lucky_color": "Pearl White",
+  "monthly_vibe": "Nurturing & Protective",
+  "title": "Cancer \u2014 The Stars Are Warning You",
+  "youtube_title": "Cancer \u2014 The Stars Are Warning You #shorts",
+  "youtube_description": "Cancer, Venus is creating powerful energy in your home sector today. I'm revealing what this means for your relationships and career. Comment your sign below!",
   "youtube_tags": [
     "cancer horoscope",
-    "planetary transits",
-    "emotional healing",
-    "astrology predictions",
-    "cancer daily",
-    "moon square pluto",
-    "career insights",
-    "love predictions",
-    "cosmic warnings",
-    "spiritual astrology",
     "cancer today",
-    "planetary aspects",
-    "emotional security",
-    "moon power",
-    "sensitive signs",
-    " natal chart",
-    "astrology tips",
-    "zodiac news",
-    "healing energy",
-    "intuitive guidance",
-    "cancer love"
+    "cancer astrology",
+    "venus trine moon",
+    "4th house astrology",
+    "cancer love prediction",
+    "cancer career",
+    "emotional healing",
+    "daily horoscope",
+    "astrology tiktok",
+    "cancer zodiac",
+    "moon sign cancer",
+    "water sign energy",
+    "cosmic alignment",
+    "spiritual guidance",
+    "manifestation",
+    "astrology forecast",
+    "cancer daily reading",
+    "planetary transits",
+    "horoscope prediction"
   ],
   "type": "daily",
   "target": "Cancer",
-  "date": "March 01, 2026",
+  "date": "March 08, 2026",
   "images": [
     "assets/zodiac_signs/Cancer.jpg"
   ],
   "active": true,
-  "status": "uploaded",
-  "file_name": "plan_daily_Cancer.json"
+  "status": "error",
+  "file_name": "plan_daily_Cancer.json",
+  "error_reason": "Upload failed"
 }
