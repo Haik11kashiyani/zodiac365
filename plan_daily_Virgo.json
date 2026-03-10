@@ -1,47 +1,75 @@
 {
-    "script_text": "Stop! Mars is squaring your Mercury, igniting a restless mind that craves clarity. Venus whispers through the night, urging you to align your heart with the quiet rhythm of the earth. Mercury retrograde in Gemini nudges old contracts to surface; review, revise, and release what no longer serves. The Moon in Taurus steadies your emotions, gifting patience for meticulous tasks. Saturn's steady hand in Capricorn reminds you that discipline now builds the foundation for future abundance. Jupiter's generous glow in Pisces expands your intuition\u2014trust the subtle nudges. A sudden shift in your social circle may bring a surprise ally; keep ears open. Embrace the ancient counsel: \u201cKnow thy self, and the stars will guide.\u201d Today, channel this cosmic energy into a focused project; the universe rewards diligent Virgo souls. Listen, act, and watch destiny unfold and claim your celestial victory.",
-    "captions_structure": [
-        {
-            "text": "VIRGO ALERT",
-            "type": "header"
-        },
-        {
-            "text": "Stop scrolling...",
-            "type": "normal"
-        }
-    ],
-    "title": "Virgo Daily Horoscope 2026-02-12",
-    "youtube_title": "\u26a0\ufe0f URGENT: Virgo's Cosmic Shock! #shorts",
-    "youtube_description": "\u26a1\ufe0f Cosmic turbulence hits Virgo\u2014don\u2019t miss the secret to harness it!\nSub to claim your destiny. #virgo #astrology #dailyhoroscope #cosmic #2026",
-    "youtube_tags": [
-        "astrology",
-        "virgo",
-        "daily horoscope",
-        "2026",
-        "cosmic energy",
-        "zodiac signs",
-        "Mercury retrograde",
-        "Mars square",
-        "Venus whispers",
-        "Saturn discipline",
-        "Jupiter intuition",
-        "Taurus Moon",
-        "Gemini contracts",
-        "spiritual guidance",
-        "self discovery",
-        "ancient wisdom",
-        "modern friend",
-        "shorts",
-        "viral horoscope",
-        "horoscope 2026"
-    ],
-    "type": "daily",
-    "target": "Virgo",
-    "date": "February 12, 2026",
-    "images": [
-        "assets/zodiac_signs/Virgo.jpg"
-    ],
-    "active": true,
-    "status": "pending",
-    "file_name": "plan_daily_Virgo.json"
+  "script_text": "Stop! Virgo, the stars are screaming at you right now. Mercury, your ruling planet, is squaring fiery Mars at 8:14 AM PST in your 6th House of Daily Work\u2014expect friction between your practical tasks and impulsive colleagues. In love, single Virgos might attract a grounded yet mysterious partner today, while couples should watch for Venusian detachment lurking beneath romantic gestures. Career-wise, a sudden opportunity in your 10th House could arise, but avoid rushing that important presentation\u2014Mercury\u2019s glare demands precision over panic. DO NOT reply to that confusing email chain before noon; Mercury retrograde\u2019s ghost is haunting your inbox. Subscribe so you don\u2019t miss tomorrow\u2019s moon occultation healing your midlife tremors!",
+  "captions_structure": [
+    {
+      "text": "VIRGO ALERT",
+      "type": "header"
+    },
+    {
+      "text": "Stop! Virgo, the stars are screaming...",
+      "type": "normal"
+    },
+    {
+      "text": "Mercury squares Mars in your 6th House\u2014friki...",
+      "type": "normal"
+    },
+    {
+      "text": "Single? A grounded mystery may arrive...",
+      "type": "normal"
+    },
+    {
+      "text": "Career chance? Hold steady before signing...",
+      "type": "normal"
+    },
+    {
+      "text": "DO NOT reply to that email chain...",
+      "type": "warning"
+    },
+    {
+      "text": "Subscribe for tomorrow\u2019s moon occultation...",
+      "type": "call_to_action"
+    }
+  ],
+  "lucky_numbers": [
+    "7",
+    "11",
+    "21"
+  ],
+  "lucky_color": "Emerald Green",
+  "monthly_vibe": "Reflective & Calm",
+  "title": "Mercury\u2019s Warning: Virgo\u2019s 10th House Crisis Looms",
+  "youtube_description": "Mercury squares Mars this morning\u2014how will tension erupt in your work life? Discover if today\u2019s stress sharpens your focus or fractures your relationships. Comment your sign for personalized insight!",
+  "youtube_tags": [
+    "Virgo Horoscope",
+    "Daily Astrology",
+    "Mercury Retrograde",
+    "Sixth House Energy",
+    "Mars Influence",
+    "Love Prediction",
+    "Career Guidance",
+    "Western Astrology",
+    "Planetary Transit",
+    "Zodiac Daily",
+    "Virgo Venus",
+    "Virgo Career",
+    "Astrology Advice",
+    "Cosmic Forecast",
+    "Vibes & Elements",
+    "Earth Sign Wisdom",
+    "Mercury Retrograde 2026",
+    "10th House Activation",
+    "Love & Compatibility",
+    "Daily Star Horoscopes",
+    "Astrologer Predictions"
+  ],
+  "type": "daily",
+  "target": "Virgo",
+  "date": "March 10, 2026",
+  "images": [
+    "assets/zodiac_signs/Virgo.jpg"
+  ],
+  "active": true,
+  "status": "error",
+  "file_name": "plan_daily_Virgo.json",
+  "error_reason": "Upload failed"
 }
