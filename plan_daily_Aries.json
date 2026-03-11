@@ -1,54 +1,55 @@
 {
-  "script_text": "Stop! Aries, the cosmos is hammering your identity right now. Mars, your ruling fire planet, is forming a tense square to Saturn in your 1st House of Self, pitting your impulsive drive against rigid structure. With Mars transiting your 4th House of Home, domestic tensions reach a boiling point. This planetary showdown forces you to redefine boundaries between personal freedom and familial duties. In love, coupled Aries face heated debates about space\u2014your partner may call you selfish. Singles might encounter a potential partner via family gatherings, but beware of projecting fantasies\u2014love bombers often surface now. Career-wise, your 10th House feels the strain: Saturn demands a mature image while Mars pulls you toward home projects. Financially, avoid impulsive home purchases. A sudden family row could become permanent\u2014count to ten and breathe before reacting today. Follow for tomorrow's reading.",
+  "script_text": "Aries, brace yourself \u2014 today's cosmic storm is charging through your 7th House of Partnerships with the force of a supernova. Mars, your ruling planet, is squaring Pluto in your 8th House of Transformation, igniting explosive power struggles in relationships that demand you wield your fiery will like a precision weapon. Single Aries, this transit attracts intense, magnetic connections \u2014 but beware the allure of power plays. Taken? Expect your partner to test your boundaries; channel this friction into deeper intimacy rather than conflict. Career-wise, Mercury in your 10th House of Public Image is trining Jupiter in Gemini, showering unexpected opportunities for recognition \u2014 but only if you avoid impulsive decisions that could derail your trajectory. The universe is gifting you a hidden blessing today: a sudden financial windfall from an unexpected source, materializing in your 2nd House of Resources. Don't ignore the warning whispers \u2014 your 1st House of Self is under a Venus-Saturn square, tempting you to overextend emotionally. Follow for tomorrow's reading to navigate the cosmic currents.",
   "captions_structure": [
     {
-      "text": "ARIES",
+      "text": "ARIES ALERT",
       "type": "header"
     },
     {
-      "text": "Stop! Aries, the cosmos is hammering your identity right now.",
+      "text": "Mars is squaring Pluto in your 8th House today...",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
-    "1",
-    "19",
+    "7",
+    "11",
     "21"
   ],
-  "lucky_color": "Scarlet Red",
-  "monthly_vibe": "Soulful Rebirth",
-  "title": "Aries \u2014 The Identity Crisis Is Here",
-  "youtube_title": "Aries: Mars Is Square Saturn Today #shorts",
-  "youtube_description": "Aries, Mars squares Saturn in your 1st House today, creating tension between your freedom and duties. This affects your home life and relationships in a specific way\u2014don't miss what to avoid. Comment your sign below!",
+  "lucky_color": "Crimson Blaze",
+  "monthly_vibe": "Intense & Transformative",
+  "title": "Aries \u2014 Mars Alert Today!",
+  "youtube_title": "Aries \u2014 Mars Alert Today! #shorts",
+  "youtube_description": "Aries, today's horoscope reveals a cosmic clash in your relationships and a hidden financial blessing. Watch as Mars squares Pluto in your 8th House \u2014 this is not a time for passive energy. Comment your sign below!",
   "youtube_tags": [
-    "aries horoscope",
-    "astrology",
-    "mars square saturn",
-    "daily horoscope",
-    "aries today",
-    "zodiac",
-    "fire signs",
-    "western astrology",
-    "aries love",
-    "aries career",
-    "horoscope today",
-    "astrology reading",
+    "Aries horoscope",
+    "Mars transit",
+    "Pluto square",
+    "7th House astrology",
+    "8th House transformation",
+    "career astrology",
+    "money astrology",
+    "relationship astrology",
+    "Aries today",
+    "fire sign astrology",
+    "astrology predictions",
     "cosmic energy",
-    "planetary transit",
-    "saturn transit",
-    "mars transit",
-    "aries season",
-    "spring equinox",
-    "spiritual",
-    "manifestation"
+    "spiritual guidance",
+    "manifestation",
+    "astrology advice",
+    "horoscope 2026",
+    "astrology for Aries",
+    "planetary transits",
+    "astrology tips",
+    "astrology news"
   ],
   "type": "daily",
   "target": "Aries",
-  "date": "March 09, 2026",
+  "date": "March 11, 2026",
   "images": [
     "assets/zodiac_signs/Aries.jpg"
   ],
   "active": true,
-  "status": "uploaded",
-  "file_name": "plan_daily_Aries.json"
+  "status": "error",
+  "file_name": "plan_daily_Aries.json",
+  "error_reason": "Upload failed"
 }
