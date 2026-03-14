@@ -1,75 +1,54 @@
 {
-  "script_text": "Halt, Taurus\u2014Venus is activating a critical point in your chart today. Your ruling planet Venus is forming a square to Saturn in your 10th House of Career, creating a tug-of-war between your earthy values and professional ambitions. Mercury's conjunction with Neptune in your 12th House blurs intuition with illusion, so trust your gut but verify details. In love, the transiting Moon in Scorpio intensifies your 8th House of intimacy, making emotional connections deep; if single, you might attract someone through shared secrets. Financially, Jupiter transiting your 2nd House of income brings growth opportunities, but avoid impulsive risks. Blessing: a hidden talent surfaces, offering unexpected recognition. Follow for tomorrow's reading to navigate the cosmic currents.",
+  "script_text": "Halt all plans, Taurus\u2014the celestial bodies are aligning in ways that demand your attention right now. Venus, your ruling planet, forms a precise sextile with expansive Jupiter, both positioned in your 2nd House of Income and Values, amplifying financial potential. Meanwhile, aggressive Mars squares restrictive Saturn in your 7th House of Partnerships, indicating tension in collaborative ventures that requires careful handling. For singles, this sextile vibe attracts someone with Earth-sign stability and a knack for abundance; for those in relationships, watch for disagreements over budgeting or joint investments that could escalate if not addressed calmly. Career-wise, the Sun's trine to transformative Pluto in your 10th House of Public Status signals a day to assert your authority\u2014propose that project or ask for the promotion you deserve, as superiors are receptive. Unexpected gift: A family member may offer financial support or a valuable item that eases your burdens. Subscribe so you don't miss tomorrow's lunar insights, which could reveal hidden opportunities.",
   "captions_structure": [
     {
-      "text": "TAURUS ALERT",
+      "text": "TAURUS",
       "type": "header"
     },
     {
-      "text": "Halt, Taurus\u2014Venus is activating a critical point in your chart today.",
-      "type": "normal"
-    },
-    {
-      "text": "Your ruling planet Venus squares Saturn in your 10th House of Career.",
-      "type": "normal"
-    },
-    {
-      "text": "In love, the Moon in Scorpio deepens 8th House intimacy.",
-      "type": "normal"
-    },
-    {
-      "text": "Financially, Jupiter in your 2nd House brings opportunities.",
-      "type": "normal"
-    },
-    {
-      "text": "Blessing: a hidden talent surfaces today.",
-      "type": "normal"
-    },
-    {
-      "text": "Follow for tomorrow's reading.",
+      "text": "Halt all plans, Taurus\u2014the celestial bodies are aligning in ways that demand your attention right now. Venus, your ruling planet, forms a precise sextile with expansive Jupiter, both positioned in your 2nd House of Income and Values, amplifying financial potential. Meanwhile, aggressive Mars squares restrictive Saturn in your 7th House of Partnerships, indicating tension in collaborative ventures that requires careful handling. For singles, this sextile vibe attracts someone with Earth-sign stability and a knack for abundance; for those in relationships, watch for disagreements over budgeting or joint investments that could escalate if not addressed calmly. Career-wise, the Sun's trine to transformative Pluto in your 10th House of Public Status signals a day to assert your authority\u2014propose that project or ask for the promotion you deserve, as superiors are receptive. Unexpected gift: A family member may offer financial support or a valuable item that eases your burdens. Subscribe so you don't miss tomorrow's lunar insights, which could reveal hidden opportunities.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
-    "7",
-    "11",
-    "21"
+    "5",
+    "14",
+    "23"
   ],
-  "lucky_color": "Emerald Green",
-  "monthly_vibe": "Reflective & Calm",
-  "title": "Taurus: Venus Squares Saturn Today",
-  "youtube_title": "Taurus Alert: What Venus and Saturn Reveal #shorts",
-  "youtube_description": "Discover how Venus squaring Saturn in your 10th House impacts career and love on March 13, 2026. This Taurus horoscope uncovers hidden blessings and warnings for your day. Comment your sign for more cosmic insights!",
+  "lucky_color": "Forest Green",
+  "monthly_vibe": "Abundant Stability",
+  "title": "Taurus: Cosmic Winds Shift in Your Favor",
+  "youtube_title": "Taurus March 14 Astrology Shock #shorts",
+  "youtube_description": "Taurus, Venus and Jupiter are aligning to boost your finances today. Discover how a planetary sextile could bring unexpected wealth and what Mars-Saturn means for your relationships. Comment your sign for a personalized cosmic tip!",
   "youtube_tags": [
     "astrology",
     "horoscope",
     "taurus",
     "taurus horoscope",
     "daily horoscope",
+    "march 2026",
+    "venus transit",
+    "jupiter sextile",
+    "mars square saturn",
     "cosmic energy",
-    "venus",
-    "saturn",
-    "planetary transit",
     "spiritual guidance",
     "manifestation",
-    "zodiac signs",
     "earth signs",
-    "love forecast",
-    "career astrology",
-    "financial horoscope",
-    "march 2026",
+    "zodiac",
+    "tarot",
+    "psychic reading",
+    "astrology prediction",
     "taurus today",
-    "spiritual awakening",
-    "cosmic wisdom"
+    "horoscope 2026",
+    "astrology for taurus"
   ],
   "type": "daily",
   "target": "Taurus",
-  "date": "March 13, 2026",
+  "date": "March 14, 2026",
   "images": [
     "assets/zodiac_signs/Taurus.jpg"
   ],
   "active": true,
-  "status": "error",
-  "file_name": "plan_daily_Taurus.json",
-  "error_reason": "Upload failed"
+  "status": "uploaded",
+  "file_name": "plan_daily_Taurus.json"
 }
