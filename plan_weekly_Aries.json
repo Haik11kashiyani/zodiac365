@@ -1,23 +1,83 @@
 {
-  "script_text": "The FULL cosmic shift for Aries this week begins with a powerful square between Mercury and the Sun in the 1st House. Wednesday is your power day because Venus enters your 5th House, amplifying charm and expression. The planetary dynamics will turn decisively\u2014Planet Mars opposes Uranus, creating tension but also clear opportunities. Reflect on how this mix influences your creative interactions.",
-  "captions_structure": {
-    "text": "ARIES"
-  },
-  "lucky_numbers": [
-    7,
-    11,
-    21
+  "script_text": "Aries, brace for a cosmic whirlwind as Mars, your ruling planet, ignites transformative dialogues this week. Early week, Sun in your 12th House fosters introspection, but Monday's Mars in Gemini trine Mercury in Aquarius energizes networking\u2014best for communication. Tuesday is worst as Venus in Capricorn squares Mars, straining love dynamics in your 10th House. Mid-week, the Sun enters your sign Wednesday, shifting to bold action in your 1st House. Late week, Thursday's Jupiter in Taurus sextile Pluto in Aquarius boosts career finances in your 2nd House, while weekend Venus trine Uranus sparks romantic spontaneity. Thursday is your power day for career gains; Tuesday tests relationships. Advice: Initiate that stalled project with fiery Aries drive. Follow for daily cosmic updates.",
+  "captions_structure": [
+    {
+      "text": "ARIES",
+      "type": "header"
+    },
+    {
+      "text": "Aries, brace for a cosmic whirlwind as Mars, your ruling planet, ignites transformative dialogues this week.",
+      "type": "normal"
+    },
+    {
+      "text": "Early week, Sun in your 12th House fosters introspection, but Monday's Mars in Gemini trine Mercury in Aquarius energizes networking\u2014best for communication.",
+      "type": "normal"
+    },
+    {
+      "text": "Tuesday is worst as Venus in Capricorn squares Mars, straining love dynamics in your 10th House.",
+      "type": "normal"
+    },
+    {
+      "text": "Mid-week, the Sun enters your sign Wednesday, shifting to bold action in your 1st House.",
+      "type": "normal"
+    },
+    {
+      "text": "Late week, Thursday's Jupiter in Taurus sextile Pluto in Aquarius boosts career finances in your 2nd House, while weekend Venus trine Uranus sparks romantic spontaneity.",
+      "type": "normal"
+    },
+    {
+      "text": "Thursday is your power day for career gains; Tuesday tests relationships.",
+      "type": "normal"
+    },
+    {
+      "text": "Advice: Initiate that stalled project with fiery Aries drive.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for daily cosmic updates.",
+      "type": "normal"
+    }
   ],
-  "lucky_color": "Royal Blue",
+  "lucky_numbers": [
+    "7",
+    "15",
+    "22"
+  ],
+  "lucky_color": "Fiery Red",
   "monthly_vibe": "Bold Action",
-  "cta": "Follow for daily updates",
+  "title": "Aries: Cosmic Turbulence Ahead",
+  "youtube_title": "Aries \u2014 Week's Transformative Shift #shorts",
+  "youtube_description": "This week, Mars trines Mercury for key talks, and the Sun enters Aries for a confidence surge. Discover your career boost from Jupiter's sextile. Comment your sign below!",
+  "youtube_tags": [
+    "aries horoscope",
+    "weekly horoscope",
+    "astrology",
+    "mars transit",
+    "sun in aries",
+    "love prediction",
+    "career horoscope",
+    "zodiac signs",
+    "fire sign",
+    "cosmic energy",
+    "spiritual guidance",
+    "manifestation",
+    "horoscope today",
+    "aries traits",
+    "planetary aspects",
+    "jupiter sextile pluto",
+    "venus square mars",
+    "12th house",
+    "1st house",
+    "numerology"
+  ],
   "type": "weekly",
   "target": "Aries",
-  "date": "Mar 08 - Mar 14",
+  "date": "Mar 15 - Mar 21",
   "images": [
     "assets/zodiac_signs/Aries.jpg"
   ],
   "active": true,
-  "status": "uploaded",
-  "file_name": "plan_weekly_Aries.json"
+  "status": "error",
+  "file_name": "plan_weekly_Aries.json",
+  "error_reason": "Upload failed"
 }
