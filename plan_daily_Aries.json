@@ -1,70 +1,82 @@
 {
-  "script_text": "Stop! Aries, the stars are screaming at you right now with urgent celestial messages. Mars, your fiery ruling planet, is in a powerful conjunction with disciplined Saturn in your 10th House of Career and Public Status. This intense alignment demands focus and may bring challenges that test your leadership, but it also builds lasting foundations. Additionally, Mercury forms a harmonious sextile with Neptune, enhancing intuition in your 12th House of the Subconscious. For love, Venus in your 7th House of Partnerships creates a tense square with Pluto, stirring deep emotions. If single, you might attract someone transformative; if taken, avoid power struggles and communicate openly. In career, the Sun illuminating your 6th House of Daily Work trines innovative Uranus in your 2nd House of Money, suggesting a breakthrough in finances through creative solutions or a sudden opportunity at work. Heed the warning to avoid impulsive purchases, as Mars's aspect could lead to regrets; instead, the blessing comes in the form of a synchronistic encounter that shifts your perspective. Follow for tomorrow's reading to navigate the cosmic waves ahead.",
+  "script_text": "Halt, Aries! The cosmos is firing a warning shot straight to your core today. Mars, your ruling planet of action and fire, is forming a tense square with Saturn in Aquarius, directly impacting your 11th House of Friendships and Social Networks. This challenging aspect demands you reassess group commitments and set firm boundaries to avoid energy drains. In love, if single, Venus in your 5th House of Romance trines Mars, attracting intense, passionate encounters\u2014focus on creative pursuits to magnetize them. If taken, watch for power struggles as Pluto opposes your 7th House of Partnerships; choose open dialogue over control. Career-wise, this square pressures your 10th House of Public Image, urging meticulous review of deals to prevent setbacks. Financial insight comes through disciplined planning in your 2nd House of Resources. Avoid impulsive arguments in team settings today. Follow for tomorrow's reading to navigate these potent cosmic currents.",
   "captions_structure": [
     {
       "text": "ARIES ALERT",
       "type": "header"
     },
     {
-      "text": "Stop! Aries, the stars are screaming at you right now with urgent celestial messages.",
+      "text": "Halt, Aries! The cosmos is firing a warning shot straight to your core today.",
       "type": "normal"
     },
     {
-      "text": "Mars, your fiery ruling planet, is in a powerful conjunction with disciplined Saturn in your 10th House of Career and Public Status. This intense alignment demands focus and may bring challenges that test your leadership, but it also builds lasting foundations. Additionally, Mercury forms a harmonious sextile with Neptune, enhancing intuition in your 12th House of the Subconscious.",
+      "text": "Mars, your ruling planet of action and fire, is forming a tense square with Saturn in Aquarius, directly impacting your 11th House of Friendships and Social Networks.",
       "type": "normal"
     },
     {
-      "text": "For love, Venus in your 7th House of Partnerships creates a tense square with Pluto, stirring deep emotions. If single, you might attract someone transformative; if taken, avoid power struggles and communicate openly.",
+      "text": "This challenging aspect demands you reassess group commitments and set firm boundaries to avoid energy drains.",
       "type": "normal"
     },
     {
-      "text": "In career, the Sun illuminating your 6th House of Daily Work trines innovative Uranus in your 2nd House of Money, suggesting a breakthrough in finances through creative solutions or a sudden opportunity at work.",
+      "text": "In love, if single, Venus in your 5th House of Romance trines Mars, attracting intense, passionate encounters\u2014focus on creative pursuits to magnetize them.",
       "type": "normal"
     },
     {
-      "text": "Heed the warning to avoid impulsive purchases, as Mars's aspect could lead to regrets; instead, the blessing comes in the form of a synchronistic encounter that shifts your perspective.",
+      "text": "If taken, watch for power struggles as Pluto opposes your 7th House of Partnerships; choose open dialogue over control.",
       "type": "normal"
     },
     {
-      "text": "Follow for tomorrow's reading to navigate the cosmic waves ahead.",
+      "text": "Career-wise, this square pressures your 10th House of Public Image, urging meticulous review of deals to prevent setbacks.",
+      "type": "normal"
+    },
+    {
+      "text": "Financial insight comes through disciplined planning in your 2nd House of Resources.",
+      "type": "normal"
+    },
+    {
+      "text": "Avoid impulsive arguments in team settings today.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for tomorrow's reading to navigate these potent cosmic currents.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
-    "8",
-    "15",
-    "23"
+    "3",
+    "18",
+    "27"
   ],
-  "lucky_color": "Crimson Blaze",
-  "monthly_vibe": "Focused Intensity",
-  "title": "Aries: The Stars Are Warning You Today",
-  "youtube_title": "Aries - Don't Miss This Cosmic Alert #shorts",
-  "youtube_description": "Mars and Saturn are conjunct in your career house, Aries, demanding your attention on March 15, 2026. This prediction reveals a financial trine with Uranus that could bring unexpected gains. Comment your sign to see how this energy affects you personally.",
+  "lucky_color": "Ruby Red",
+  "monthly_vibe": "Dynamic Shift",
+  "title": "Aries Daily Horoscope March 16, 2026",
+  "youtube_title": "Aries Stars Warn of Hidden Costs Today #shorts",
+  "youtube_description": "Today's horoscope reveals how Mars square Saturn shakes up your social circles and career path. I break down the specific pitfalls and lucky breaks for Aries on March 16. Comment your sign below to get a personalized teaser!",
   "youtube_tags": [
-    "astrology",
-    "horoscope",
-    "aries",
     "aries horoscope",
     "daily horoscope",
-    "march 2026",
-    "planetary transits",
-    "mars conjunction saturn",
-    "love prediction",
-    "career forecast",
-    "financial luck",
-    "spiritual guidance",
-    "cosmic energy",
-    "fire sign",
-    "zodiac signs",
+    "astrology",
+    "mars square saturn",
+    "fiery energy",
+    "cosmic guidance",
+    "spiritual awakening",
     "manifestation",
+    "zodiac signs",
+    "astrological predictions",
+    "aries today",
+    "love forecast",
+    "career advice",
+    "numerology",
+    "tarot",
     "spiritual tiktok",
-    "horoscope today",
-    "aries traits",
-    "celestial message"
+    "cosmic energy",
+    "mars transit",
+    "saturn influence",
+    "aries traits"
   ],
   "type": "daily",
   "target": "Aries",
-  "date": "March 15, 2026",
+  "date": "March 16, 2026",
   "images": [
     "assets/zodiac_signs/Aries.jpg"
   ],

@@ -1,86 +1,75 @@
 {
-  "script_text": "Halt! Taurus, the cosmic clock is ticking loudly for you today. Venus, your earthy ruler, is transiting your 10th House of Career and forming a harmonious trine to Saturn in your 6th House of Work. This celestial alignment promises solid progress in professional matters if you embrace discipline and patience. For singles, this Venus-Saturn trine could attract a mature, reliable partner through career circles or professional events. If you're taken, focus on balancing work demands with nurturing your relationship to avoid any feelings of neglect. With Venus blessing your 10th House, financial opportunities arise from networking, creative projects, or even a raise. Saturn's steady hand ensures that investments in skill-building and long-term planning will pay off handsomely. Avoid impulsively changing your financial plans today, as stability is your greatest ally now. Subscribe to my channel so you never miss a daily cosmic guide.",
+  "script_text": "Stop, Taurus! The celestial sphere is igniting a critical juncture in your journey today. Venus, your ruling planet in earthy Taurus, is transiting your 7th House of Partnerships, forming a harmonious trine with Jupiter in your 11th House of Friendships, while a square from Saturn in your 4th House of Home creates domestic tension. In love, this trine fosters warm social bonds; single Taureans may attract a promising connection through group events, but couples should address household stresses to avoid friction. Career-wise, Jupiter's trine brings lucrative opportunities through networking or collaborative ventures, yet Saturn's square advises grounding ambitions in practicality. Blessing: An unexpected insight from a friend could resolve a long-standing issue. Follow for tomorrow's reading to navigate the cosmic waves ahead.",
   "captions_structure": [
     {
       "text": "TAURUS ALERT",
       "type": "header"
     },
     {
-      "text": "Halt! Taurus, the cosmic clock is ticking loudly for you today.",
+      "text": "Stop, Taurus! The celestial sphere is igniting a critical juncture in your journey today.",
       "type": "normal"
     },
     {
-      "text": "Venus, your earthy ruler, is transiting your 10th House of Career and forming a harmonious trine to Saturn in your 6th House of Work.",
+      "text": "Venus, your ruling planet in earthy Taurus, is transiting your 7th House of Partnerships, forming a harmonious trine with Jupiter in your 11th House of Friendships, while a square from Saturn in your 4th House of Home creates domestic tension.",
       "type": "normal"
     },
     {
-      "text": "This celestial alignment promises solid progress in professional matters if you embrace discipline and patience.",
+      "text": "In love, this trine fosters warm social bonds; single Taureans may attract a promising connection through group events, but couples should address household stresses to avoid friction.",
       "type": "normal"
     },
     {
-      "text": "For singles, this Venus-Saturn trine could attract a mature, reliable partner through career circles or professional events.",
+      "text": "Career-wise, Jupiter's trine brings lucrative opportunities through networking or collaborative ventures, yet Saturn's square advises grounding ambitions in practicality.",
       "type": "normal"
     },
     {
-      "text": "If you're taken, focus on balancing work demands with nurturing your relationship to avoid any feelings of neglect.",
+      "text": "Blessing: An unexpected insight from a friend could resolve a long-standing issue.",
       "type": "normal"
     },
     {
-      "text": "With Venus blessing your 10th House, financial opportunities arise from networking, creative projects, or even a raise.",
-      "type": "normal"
-    },
-    {
-      "text": "Saturn's steady hand ensures that investments in skill-building and long-term planning will pay off handsomely.",
-      "type": "normal"
-    },
-    {
-      "text": "Avoid impulsively changing your financial plans today, as stability is your greatest ally now.",
-      "type": "normal"
-    },
-    {
-      "text": "Subscribe to my channel so you never miss a daily cosmic guide.",
+      "text": "Follow for tomorrow's reading to navigate the cosmic waves ahead.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
     "7",
-    "11",
-    "21"
+    "18",
+    "33"
   ],
-  "lucky_color": "Emerald Green",
-  "monthly_vibe": "Grounded Ambition",
-  "title": "Taurus: Venus Trine Saturn Today",
-  "youtube_title": "Taurus Don't Ignore This Cosmic Shift #shorts",
-  "youtube_description": "Venus trine Saturn in your career house reveals unexpected opportunities in love and money today. This prediction uncovers how to harness stable energy for growth. Comment your sign for a personalized insight!",
+  "lucky_color": "Moss Green",
+  "monthly_vibe": "Steady Growth",
+  "title": "Taurus: Stars Align for Surprises Today",
+  "youtube_title": "Taurus Alert: Cosmic Shifts Revealed #shorts",
+  "youtube_description": "Venus trine Jupiter in your 11th House is unlocking hidden opportunities in love and career for Taurus today. This prediction dives into specific planetary aspects and house placements to guide you on March 16, 2026. Comment your sign for a personalized glimpse into your horoscope.",
   "youtube_tags": [
-    "astrology",
-    "horoscope",
     "taurus horoscope",
-    "taurus today",
-    "venus transit",
-    "saturn trine",
-    "career astrology",
-    "love prediction",
     "daily horoscope",
-    "march horoscope",
+    "astrology predictions",
+    "venus trine jupiter",
+    "taurus love",
+    "taurus career",
+    "march 2026 horoscope",
     "zodiac signs",
+    "cosmic energy",
     "spiritual guidance",
     "manifestation",
-    "cosmic energy",
-    "spiritual tiktok",
+    "law of attraction",
+    "taurus today",
+    "astrological transit",
+    "house of partnerships",
     "earth signs",
-    "taurus traits",
-    "financial astrology",
-    "relationship advice",
-    "cosmic forecast"
+    "taurus element",
+    "planet venus",
+    "astrology 2026",
+    "horoscope reading"
   ],
   "type": "daily",
   "target": "Taurus",
-  "date": "March 15, 2026",
+  "date": "March 16, 2026",
   "images": [
     "assets/zodiac_signs/Taurus.jpg"
   ],
   "active": true,
-  "status": "uploaded",
-  "file_name": "plan_daily_Taurus.json"
+  "status": "error",
+  "file_name": "plan_daily_Taurus.json",
+  "error_reason": "Upload failed"
 }
