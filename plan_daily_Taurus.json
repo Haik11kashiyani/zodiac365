@@ -1,77 +1,55 @@
 {
-  "script_text": "Stop! Taurus, the cosmos flashes an urgent signal just for you.\n\nVenus, your ruling planet, is in your 2nd House of Resources trine Mars in your 6th House of Work, boosting earnings through steady effort.\n\nThis earthy alignment turns practical ideas into profit, especially when you budget with patience.\n\nIn love, attached Taurus will enjoy a deepening talk about shared values with your partner, reinforcing trust.\n\nSingle Taurus draws loyal, simple souls\u2014look for them at a farmer's market or cooking class where sincerity shines.\n\nCareer: Mercury sextile natal Saturn in your 10th House of Status sharpens talk for presentations or negotiations, bringing a modest raise or recognition for meticulous work.\n\nExpect clear paperwork to move forward, easing any bureaucratic delay.\n\nBlessing: an unexpected financial refund or rebate may appear \u2014 check your mail.\n\nSubscribe today so you don't miss tomorrow's reading.",
+  "script_text": "Hold on, Taurus \u2014 the universe just flashed a warning sign! The transiting Sun is conjunct Saturn at 0\u00b0 Aries, lighting up your 12th House of secrets and spiritual retreat. Uranus continues its trek through your 1st House of self, sextile to dreamy Neptune in your 11th House of hopes. If single, your Earth-grounded Venus draws a partner who seeks depth, loyalty, and quiet romance. If attached, watch for old insecurities from the 12th House; a candid talk tonight turns vulnerability into trust. Pluto in your 10th House pushes you to remodel a career project, while Uranus in the 1st House sextile Neptune in the 11th House sparks a breakthrough idea. Look for profit through joint ventures or tech-savvy collaborations that boost income. Avoid signing any new contracts or loans today; the Sun-Saturn conjunction can hide costly details. Subscribe so you don't miss tomorrow's reading.",
   "captions_structure": [
     {
       "text": "TAURUS ALERT",
       "type": "header"
     },
     {
-      "text": "Stop! Taurus, the cosmos flashes an urgent signal just for you."
-    },
-    {
-      "text": "Venus, your ruling planet, is in your 2nd House of Resources trine Mars in your 6th House of Work, boosting earnings through steady effort."
-    },
-    {
-      "text": "This earthy alignment turns practical ideas into profit, especially when you budget with patience."
-    },
-    {
-      "text": "In love, attached Taurus will enjoy a deepening talk about shared values with your partner, reinforcing trust."
-    },
-    {
-      "text": "Single Taurus draws loyal, simple souls\u2014look for them at a farmer's market or cooking class where sincerity shines."
-    },
-    {
-      "text": "Career: Mercury sextile natal Saturn in your 10th House of Status sharpens talk for presentations or negotiations, bringing a modest raise or recognition for meticulous work."
-    },
-    {
-      "text": "Expect clear paperwork to move forward, easing any bureaucratic delay."
-    },
-    {
-      "text": "Blessing: an unexpected financial refund or rebate may appear \u2014 check your mail."
-    },
-    {
-      "text": "Subscribe today so you don't miss tomorrow's reading."
+      "text": "Hold on, Taurus \u2014 the universe just flashed a warning sign!",
+      "type": "normal"
     }
   ],
   "lucky_numbers": [
     "4",
-    "15",
-    "28"
+    "18",
+    "27"
   ],
   "lucky_color": "Emerald Green",
-  "monthly_vibe": "Steady Growth",
-  "title": "Taurus Daily Horoscope March 19, 2026",
-  "youtube_title": "Taurus Money Boost: Venus Trine Today #shorts",
-  "youtube_description": "Today\u2019s Taurus horoscope reveals how Venus trine Mars can boost your income and love life. Discover the exact moment a financial refund may appear and what to say in a career conversation. Comment your sign if you felt the cosmic shift!",
+  "monthly_vibe": "Reflective & Calm",
+  "title": "Taurus Daily Horoscope March 20, 2026",
+  "youtube_title": "Taurus Alert: Sun-Saturn Conjunction Hits #shorts",
+  "youtube_description": "Today the Sun meets Saturn in your secret 12th House, unveiling hidden fears and a chance for deep healing. Meanwhile, Uranus in your 1st House sextile Neptune sparks a breakthrough idea that could boost your income through a collaborative venture. Comment your sign if you're ready to transform challenges into growth.",
   "youtube_tags": [
     "astrology",
     "horoscope",
-    "taurus",
     "taurus horoscope",
+    "taurus today",
     "daily horoscope",
-    "venus trine mars",
-    "financial forecast",
+    "zodiac",
+    "sun saturn conjunct",
+    "uranus neptune sextile",
     "love prediction",
     "career advice",
-    "zodiac",
-    "cosmic energy",
-    "manifestation",
-    "spiritual tiktok",
-    "star signs",
+    "financial forecast",
+    "spiritual guidance",
+    "march 2026",
     "planetary transit",
-    "taurus today",
-    "moon phase",
-    "mercury sextile saturn",
-    "refund alert",
-    "subscribe for more"
+    "earth sign",
+    "venus ruled",
+    "pluto in tenth",
+    "first house uranus",
+    "eleventh house neptune",
+    "twelfth house sun"
   ],
   "type": "daily",
   "target": "Taurus",
-  "date": "March 19, 2026",
+  "date": "March 20, 2026",
   "images": [
     "assets/zodiac_signs/Taurus.jpg"
   ],
   "active": true,
-  "status": "uploaded",
-  "file_name": "plan_daily_Taurus.json"
+  "status": "error",
+  "file_name": "plan_daily_Taurus.json",
+  "error_reason": "Upload failed"
 }
