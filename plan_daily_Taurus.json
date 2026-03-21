@@ -1,55 +1,82 @@
 {
-  "script_text": "Hold on, Taurus \u2014 the universe just flashed a warning sign! The transiting Sun is conjunct Saturn at 0\u00b0 Aries, lighting up your 12th House of secrets and spiritual retreat. Uranus continues its trek through your 1st House of self, sextile to dreamy Neptune in your 11th House of hopes. If single, your Earth-grounded Venus draws a partner who seeks depth, loyalty, and quiet romance. If attached, watch for old insecurities from the 12th House; a candid talk tonight turns vulnerability into trust. Pluto in your 10th House pushes you to remodel a career project, while Uranus in the 1st House sextile Neptune in the 11th House sparks a breakthrough idea. Look for profit through joint ventures or tech-savvy collaborations that boost income. Avoid signing any new contracts or loans today; the Sun-Saturn conjunction can hide costly details. Subscribe so you don't miss tomorrow's reading.",
+  "script_text": "Hold your breath, Taurus - the sky is about to shake your foundations. Venus, your ruling planet, is forming a precise trine to Saturn in your 6th House of work (Libra) at 28\u00b0, bringing steady discipline to your daily routines. Meanwhile, Mars is activating a dynamic sextile to Uranus in your 10th House of career (Aquarius) at 4\u00b0, sparking sudden inspiration for innovative projects. The Moon is moving through your 8th House of shared resources (Sagittarius), highlighting emotional undercurrents in joint finances. In love, Venus's trine to Saturn encourages you to deepen commitment with a partner, offering a rare chance to build lasting trust. Mercury is conjunct Venus in your 2nd House of money (Gemini), sharpening your negotiating skills and attracting extra cash. Beware of impulsive spending later today as the Moon squares Jupiter, tempting you to overindulge. Subscribe so you don't miss tomorrow's cosmic update.",
   "captions_structure": [
     {
-      "text": "TAURUS ALERT",
+      "text": "TAURUS",
       "type": "header"
     },
     {
-      "text": "Hold on, Taurus \u2014 the universe just flashed a warning sign!",
+      "text": "Hold your breath, Taurus - the sky is about to shake your foundations.",
+      "type": "normal"
+    },
+    {
+      "text": "Venus, your ruling planet, is forming a precise trine to Saturn in your 6th House of work (Libra) at 28\u00b0, bringing steady discipline to your daily routines.",
+      "type": "normal"
+    },
+    {
+      "text": "Meanwhile, Mars is activating a dynamic sextile to Uranus in your 10th House of career (Aquarius) at 4\u00b0, sparking sudden inspiration for innovative projects.",
+      "type": "normal"
+    },
+    {
+      "text": "The Moon is moving through your 8th House of shared resources (Sagittarius), highlighting emotional undercurrents in joint finances.",
+      "type": "normal"
+    },
+    {
+      "text": "In love, Venus's trine to Saturn encourages you to deepen commitment with a partner, offering a rare chance to build lasting trust.",
+      "type": "normal"
+    },
+    {
+      "text": "Mercury is conjunct Venus in your 2nd House of money (Gemini), sharpening your negotiating skills and attracting extra cash.",
+      "type": "normal"
+    },
+    {
+      "text": "Beware of impulsive spending later today as the Moon squares Jupiter, tempting you to overindulge.",
+      "type": "normal"
+    },
+    {
+      "text": "Subscribe so you don't miss tomorrow's cosmic update.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
-    "4",
-    "18",
-    "27"
+    4,
+    19,
+    27
   ],
   "lucky_color": "Emerald Green",
-  "monthly_vibe": "Reflective & Calm",
-  "title": "Taurus Daily Horoscope March 20, 2026",
-  "youtube_title": "Taurus Alert: Sun-Saturn Conjunction Hits #shorts",
-  "youtube_description": "Today the Sun meets Saturn in your secret 12th House, unveiling hidden fears and a chance for deep healing. Meanwhile, Uranus in your 1st House sextile Neptune sparks a breakthrough idea that could boost your income through a collaborative venture. Comment your sign if you're ready to transform challenges into growth.",
+  "monthly_vibe": "Steady Growth",
+  "title": "Taurus Alert: Venus Trine Saturn Shifts Your Money",
+  "youtube_title": "Taurus Money Boost: Venus Trine Saturn Today #shorts",
+  "youtube_description": "Today\u2019s horoscope reveals how Venus\u2019s trine to Saturn in your work house can steady your routine and boost your finances. Discover the surprise career spark Mars and Uranus are bringing your way. Comment your sign and share if you felt the shift!",
   "youtube_tags": [
     "astrology",
     "horoscope",
     "taurus horoscope",
     "taurus today",
     "daily horoscope",
+    "venus trine saturn",
+    "career forecast",
+    "money prediction",
     "zodiac",
-    "sun saturn conjunct",
-    "uranus neptune sextile",
-    "love prediction",
-    "career advice",
-    "financial forecast",
+    "celestial events",
     "spiritual guidance",
-    "march 2026",
+    "manifestation",
+    "cosmic energy",
+    "tiktok astrology",
+    "zodiac signs",
+    "love prediction",
+    "financial advice",
     "planetary transit",
-    "earth sign",
-    "venus ruled",
-    "pluto in tenth",
-    "first house uranus",
-    "eleventh house neptune",
-    "twelfth house sun"
+    "taurus traits",
+    "weekly forecast"
   ],
   "type": "daily",
   "target": "Taurus",
-  "date": "March 20, 2026",
+  "date": "March 21, 2026",
   "images": [
     "assets/zodiac_signs/Taurus.jpg"
   ],
   "active": true,
-  "status": "error",
-  "file_name": "plan_daily_Taurus.json",
-  "error_reason": "Upload failed"
+  "status": "uploaded",
+  "file_name": "plan_daily_Taurus.json"
 }
