@@ -1,78 +1,86 @@
 {
-  "script_text": "Aries, brace for a cosmic whirlwind as Mars, your ruling planet, ignites transformative dialogues this week. Early week, Sun in your 12th House fosters introspection, but Monday's Mars in Gemini trine Mercury in Aquarius energizes networking\u2014best for communication. Tuesday is worst as Venus in Capricorn squares Mars, straining love dynamics in your 10th House. Mid-week, the Sun enters your sign Wednesday, shifting to bold action in your 1st House. Late week, Thursday's Jupiter in Taurus sextile Pluto in Aquarius boosts career finances in your 2nd House, while weekend Venus trine Uranus sparks romantic spontaneity. Thursday is your power day for career gains; Tuesday tests relationships. Advice: Initiate that stalled project with fiery Aries drive. Follow for daily cosmic updates.",
+  "script_text": "Aries, brace yourself \u2014 Mars fuels your fire this coming week with a surge of daring momentum for you. Monday: Mars in 6th house sextiles Jupiter in 3rd, sharpening dynamic work drive and communication. Tuesday: Venus enters 5th house, igniting exciting playful love vibes and a new romance. Thursday\u2019s Sun conjunct Mars in your 10th house lights career ambition, giving confidence to lead. Friday Moon trines Uranus in your 11th house, bringing unexpected social invites and fresh ideas. Saturday warns Venus opposes Neptune in your 2nd house \u2014 avoid grandiose money schemes, stay grounded. Thursday is power day: Sun conjunct Mars in your 10th house amplifies leadership and career drive. Wednesday is toughest: Mercury squares Saturn in your 1st house, causing self\u2011doubt and delays. Use Mars\u2011Jupiter sextile to launch a new project blending bold action with clear communication, multiplying opportunities. Follow for daily updates.",
   "captions_structure": [
     {
-      "text": "ARIES",
+      "text": "ARIES ALERT",
       "type": "header"
     },
     {
-      "text": "Aries, brace for a cosmic whirlwind as Mars, your ruling planet, ignites transformative dialogues this week.",
+      "text": "Aries, brace yourself \u2014 Mars fuels your fire this coming week with a surge of daring momentum for you.",
       "type": "normal"
     },
     {
-      "text": "Early week, Sun in your 12th House fosters introspection, but Monday's Mars in Gemini trine Mercury in Aquarius energizes networking\u2014best for communication.",
+      "text": "Monday: Mars in 6th house sextiles Jupiter in 3rd, sharpening dynamic work drive and communication.",
       "type": "normal"
     },
     {
-      "text": "Tuesday is worst as Venus in Capricorn squares Mars, straining love dynamics in your 10th House.",
+      "text": "Tuesday: Venus enters 5th house, igniting exciting playful love vibes and a new romance.",
       "type": "normal"
     },
     {
-      "text": "Mid-week, the Sun enters your sign Wednesday, shifting to bold action in your 1st House.",
+      "text": "Thursday\u2019s Sun conjunct Mars in your 10th house lights career ambition, giving confidence to lead.",
       "type": "normal"
     },
     {
-      "text": "Late week, Thursday's Jupiter in Taurus sextile Pluto in Aquarius boosts career finances in your 2nd House, while weekend Venus trine Uranus sparks romantic spontaneity.",
+      "text": "Friday Moon trines Uranus in your 11th house, bringing unexpected social invites and fresh ideas.",
       "type": "normal"
     },
     {
-      "text": "Thursday is your power day for career gains; Tuesday tests relationships.",
+      "text": "Saturday warns Venus opposes Neptune in your 2nd house \u2014 avoid grandiose money schemes, stay grounded.",
       "type": "normal"
     },
     {
-      "text": "Advice: Initiate that stalled project with fiery Aries drive.",
+      "text": "Thursday is power day: Sun conjunct Mars in your 10th house amplifies leadership and career drive.",
       "type": "normal"
     },
     {
-      "text": "Follow for daily cosmic updates.",
+      "text": "Wednesday is toughest: Mercury squares Saturn in your 1st house, causing self\u2011doubt and delays.",
+      "type": "normal"
+    },
+    {
+      "text": "Use Mars\u2011Jupiter sextile to launch a new project blending bold action with clear communication, multiplying opportunities.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for daily updates.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
     "7",
-    "15",
-    "22"
+    "11",
+    "21"
   ],
-  "lucky_color": "Fiery Red",
-  "monthly_vibe": "Bold Action",
-  "title": "Aries: Cosmic Turbulence Ahead",
-  "youtube_title": "Aries \u2014 Week's Transformative Shift #shorts",
-  "youtube_description": "This week, Mars trines Mercury for key talks, and the Sun enters Aries for a confidence surge. Discover your career boost from Jupiter's sextile. Comment your sign below!",
+  "lucky_color": "Emerald Green",
+  "monthly_vibe": "Fiery Momentum",
+  "title": "Aries Week Ahead: Mars Ignites Fire",
+  "youtube_title": "Aries \u2014 This Week\u2019s Cosmic Surprise #shorts",
+  "youtube_description": "This week, Aries, Mars lights up your career while Venus sparks new romance \u2014 discover which days will boost your love life and your wallet. Find out how the Sun-Mars conjunction could change your professional game. Comment your sign and tell us what you feel!",
   "youtube_tags": [
-    "aries horoscope",
-    "weekly horoscope",
     "astrology",
+    "horoscope",
+    "aries horoscope",
+    "aries weekly",
     "mars transit",
-    "sun in aries",
+    "venus in 5th house",
+    "career astrology",
     "love prediction",
-    "career horoscope",
-    "zodiac signs",
-    "fire sign",
-    "cosmic energy",
-    "spiritual guidance",
+    "zodiac forecast",
+    "spirituality",
     "manifestation",
-    "horoscope today",
-    "aries traits",
+    "cosmic energy",
+    "tiktok astrology",
+    "star signs",
+    "daily horoscope",
+    "birth chart",
     "planetary aspects",
-    "jupiter sextile pluto",
-    "venus square mars",
-    "12th house",
-    "1st house",
-    "numerology"
+    "fire element",
+    "zodiac compatibility",
+    "astro guide"
   ],
   "type": "weekly",
   "target": "Aries",
-  "date": "Mar 15 - Mar 21",
+  "date": "Mar 22 - Mar 28",
   "images": [
     "assets/zodiac_signs/Aries.jpg"
   ],
