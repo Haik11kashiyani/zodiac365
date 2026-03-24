@@ -1,54 +1,55 @@
 {
-  "script_text": "Stop! Aries, the cosmos is shouting a urgent message just for you now. The Sun conjuncts your natal Sun in your 1st House, highlighting your fiery Aries nature, core identity, and personal ambitions. Mars trines Saturn in your 9th House, blending bold initiative with disciplined study for learning pursuits. Venus sextiles Mars in your 5th House, sparking playful flirtation and sudden romantic attractions. The Moon in your 7th House heightens emotional sensitivity, urging you to listen closely to a partner\u2019s needs. Mercury squares Saturn in your 10th House, demanding clear, patient communication to avoid costly mistakes. This aspect warns against rushed decisions; double\u2011check contracts and review financial details before acting. Unexpected financial aid may come from a past link, but avoid impulsive investments; a steady approach yields lasting rewards. Follow for tomorrow's reading and enable notifications so you never miss an important update.",
+  "script_text": "Stop! Aries, the cosmos is flashing a red alert over your personal power today. Saturn is forming a tight conjunction to your natal Sun in your 1st House of Self, while Mars, your ruling planet, is sextile Jupiter in your 3rd House of Communication. This transit brings a serious tone to partnerships; if you're attached, expect a conversation about long\u2011term goals, and if single, you\u2019ll attract someone who values stability and ambition. With Saturn lighting your 1st house, career progress feels slow but steady\u2014focus on refining your skills rather than chasing quick wins, and money flows best through projects that involve teaching or writing (3rd house). Avoid impulsive investments today; instead, a surprising insight from a sibling or neighbor could open a truly profitable side hustle. Follow for tomorrow's reading so you never miss what the stars have in store.",
   "captions_structure": [
     {
       "text": "ARIES ALERT",
       "type": "header"
     },
     {
-      "text": "Stop! Aries, the cosmos is shouting a urgent message just for you now.",
+      "text": "Stop! Aries, the cosmos is flashing a red alert over your personal power today.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
     "7",
-    "11",
-    "21"
+    "14",
+    "22"
   ],
-  "lucky_color": "Ruby Red",
-  "monthly_vibe": "Bold Action",
-  "title": "Aries \u2014 The Shocking Transit You Can\u2019t Ignore",
-  "youtube_title": "Aries Daily Horoscope: Mars Trine Saturn Today #shorts",
-  "youtube_description": "Today\u2019s Aries horoscope reveals how Mars trine Saturn in your 9th House fuels bold learning moves, while Venus sextile Mars brings unexpected romantic sparks. Discover what the Moon in your 7th House means for your relationships and why you should avoid impulsive investments. Comment your sign and share your thoughts!",
+  "lucky_color": "Crimson Red",
+  "monthly_vibe": "Determined & Focused",
+  "title": "Aries Daily Horoscope March 24, 2026",
+  "youtube_title": "Aries Alert: Saturn Tests Your Power Today #shorts",
+  "youtube_description": "Today\u2019s Saturn\u2011Sun conjunction is shaking up your sense of self, Aries. Discover how this aspect influences your love life and career moves for March 24, 2026. Comment your sign and share what you\u2019re feeling!",
   "youtube_tags": [
     "astrology",
     "horoscope",
-    "aries daily",
-    "aries horoscope march 2026",
-    "planetary transits",
-    "mars trine saturn",
-    "venus sextile mars",
-    "love prediction",
-    "career advice",
-    "financial warning",
-    "zodiac signs",
-    "fire sign",
-    "astrology tiktok",
+    "daily horoscope",
+    "aries horoscope",
+    "aries today",
+    "aries march 2026",
+    "saturn conjunct sun",
+    "mars sextile jupiter",
+    "zodiac predictions",
     "cosmic energy",
     "manifestation",
-    "daily forecast",
-    "star alignment",
-    "natal chart",
-    "aries personality",
-    "spiritual guidance"
+    "spiritual tiktok",
+    "love prediction aries",
+    "career forecast aries",
+    "money advice aries",
+    "aries lucky numbers",
+    "aries lucky color",
+    "monthly vibe aries",
+    "astro guide",
+    "star wisdom"
   ],
   "type": "daily",
   "target": "Aries",
-  "date": "March 23, 2026",
+  "date": "March 24, 2026",
   "images": [
     "assets/zodiac_signs/Aries.jpg"
   ],
   "active": true,
-  "status": "uploaded",
-  "file_name": "plan_daily_Aries.json"
+  "status": "error",
+  "file_name": "plan_daily_Aries.json",
+  "error_reason": "Upload failed"
 }
