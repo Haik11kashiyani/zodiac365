@@ -1,55 +1,82 @@
 {
-  "script_text": "Stop! Aries, the cosmos is flashing a red alert over your personal power today. Saturn is forming a tight conjunction to your natal Sun in your 1st House of Self, while Mars, your ruling planet, is sextile Jupiter in your 3rd House of Communication. This transit brings a serious tone to partnerships; if you're attached, expect a conversation about long\u2011term goals, and if single, you\u2019ll attract someone who values stability and ambition. With Saturn lighting your 1st house, career progress feels slow but steady\u2014focus on refining your skills rather than chasing quick wins, and money flows best through projects that involve teaching or writing (3rd house). Avoid impulsive investments today; instead, a surprising insight from a sibling or neighbor could open a truly profitable side hustle. Follow for tomorrow's reading so you never miss what the stars have in store.",
+  "script_text": "Stop! Aries, the cosmos flashes a red alert just for you. Mars, your ruling Fire planet, squares Pluto in your 4th House, stirring power struggles at home. Meanwhile Venus glides through your 7th House of Partnerships, sextile Jupiter in your 10th, adding charm to social ties and opening doors to new alliances. Single? The Venus-Jupiter sextile draws bold, adventurous flirtation that could spark passion; attached? Watch Pluto's square for jealousy, talk openly before resentment builds. Career-wise, Venus sextile Jupiter in your 10th House favors negotiations, promotions, or creative gains, especially in tech. Watch your 2nd House of Income later; the Moon hints at an unexpected financial cash boost today from a side hustle, and a surprise bonus from a freelance gig. Avoid signing legal docs today, Pluto's square can hide details. Subscribe so you don't miss what's coming this week.",
   "captions_structure": [
     {
       "text": "ARIES ALERT",
       "type": "header"
     },
     {
-      "text": "Stop! Aries, the cosmos is flashing a red alert over your personal power today.",
+      "text": "Stop! Aries, the cosmos flashes a red alert just for you.",
+      "type": "normal"
+    },
+    {
+      "text": "Mars, your ruling Fire planet, squares Pluto in your 4th House, stirring power struggles at home.",
+      "type": "normal"
+    },
+    {
+      "text": "Meanwhile Venus glides through your 7th House of Partnerships, sextile Jupiter in your 10th, adding charm to social ties and opening doors to new alliances.",
+      "type": "normal"
+    },
+    {
+      "text": "Single? The Venus-Jupiter sextile draws bold, adventurous flirtation that could spark passion; attached? Watch Pluto's square for jealousy, talk openly before resentment builds.",
+      "type": "normal"
+    },
+    {
+      "text": "Career-wise, Venus sextile Jupiter in your 10th House favors negotiations, promotions, or creative gains, especially in tech.",
+      "type": "normal"
+    },
+    {
+      "text": "Watch your 2nd House of Income later; the Moon hints at an unexpected financial cash boost today from a side hustle, and a surprise bonus from a freelance gig.",
+      "type": "normal"
+    },
+    {
+      "text": "Avoid signing legal docs today, Pluto's square can hide details.",
+      "type": "normal"
+    },
+    {
+      "text": "Subscribe so you don't miss what's coming this week.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
     "7",
-    "14",
-    "22"
+    "11",
+    "21"
   ],
-  "lucky_color": "Crimson Red",
-  "monthly_vibe": "Determined & Focused",
-  "title": "Aries Daily Horoscope March 24, 2026",
-  "youtube_title": "Aries Alert: Saturn Tests Your Power Today #shorts",
-  "youtube_description": "Today\u2019s Saturn\u2011Sun conjunction is shaking up your sense of self, Aries. Discover how this aspect influences your love life and career moves for March 24, 2026. Comment your sign and share what you\u2019re feeling!",
+  "lucky_color": "Emerald Green",
+  "monthly_vibe": "Bold Action",
+  "title": "Aries Alert: Mars Sparks Home Tensions",
+  "youtube_title": "Aries Alert: Mars Sparks Home Tensions #shorts",
+  "youtube_description": "Today\u2019s Aries horoscope reveals how Mars squaring Pluto shakes up your home life while Venus-Jupiter sextile brings charm to partnerships. Discover why you should avoid legal docs today and what unexpected financial boost awaits. Comment your sign and share your thoughts!",
   "youtube_tags": [
     "astrology",
     "horoscope",
-    "daily horoscope",
     "aries horoscope",
     "aries today",
-    "aries march 2026",
-    "saturn conjunct sun",
-    "mars sextile jupiter",
-    "zodiac predictions",
-    "cosmic energy",
+    "daily horoscope",
+    "zodiac",
+    "mars transit",
+    "venus jupiter sextile",
+    "pluto square",
+    "love prediction",
+    "career advice",
+    "financial forecast",
     "manifestation",
+    "cosmic energy",
     "spiritual tiktok",
-    "love prediction aries",
-    "career forecast aries",
-    "money advice aries",
-    "aries lucky numbers",
-    "aries lucky color",
-    "monthly vibe aries",
-    "astro guide",
-    "star wisdom"
+    "star signs",
+    "astrology forecast",
+    "aries personality",
+    "fire sign",
+    "weekly outlook"
   ],
   "type": "daily",
   "target": "Aries",
-  "date": "March 24, 2026",
+  "date": "March 25, 2026",
   "images": [
     "assets/zodiac_signs/Aries.jpg"
   ],
   "active": true,
-  "status": "error",
-  "file_name": "plan_daily_Aries.json",
-  "error_reason": "Upload failed"
+  "status": "uploaded",
+  "file_name": "plan_daily_Aries.json"
 }
