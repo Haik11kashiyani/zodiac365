@@ -1,54 +1,54 @@
 {
-  "script_text": "Stop! Taurus, the earthy skies are aligning to shift your inner world outward. Saturn is forming a sextile to your ruling planet Venus, linking your 12th House of the Subconscious with your 3rd House of Communication. This harmonious aspect brings deep insights that can be voiced with confidence, especially in matters of the heart. In love, expect a stimulating conversation with someone nearby\u2014a neighbor, a sibling, or a coworker\u2014that could spark a flirtatious connection if you're single, or renew intimacy through honest dialogue if you're taken. Career-wise, your disciplined behind\u2011the\u2011scenes efforts are about to be recognized; a clear, well\u2011structured proposal presented now may lead to a steady raise or a new contract tied to your practical skills. Warning: avoid letting old resentments resurface; instead, let this transit grant you an unexpected financial blessing from a forgotten source. Follow for tomorrow's reading.",
+  "script_text": "Stop! Taurus, the cosmos is lighting a fuse under your steady earth sign today. Mars in Cancer is squaring your ruling Venus in Aries, creating explosive tension in your 7th House of Partnerships. Simultaneously, Mercury in Pisces forms a mystical trine to Pluto in your 3rd House, pulling you into profound conversations. If attached, expect heated debates with your partner\u2014but hidden within the clash is a chance to transform your bond. Singles, you'll attract powerful, magnetic energy, but avoid rushing into anything. Jupiter's lavish presence in your 2nd House of Income sextiles Uranus, promising an unexpected financial opportunity. However, Mercury's influence warns: scrutinize every contract detail before signing. Do NOT make impulsive luxury purchases today\u2014Venus' frustration could trick you into overspending. Follow now for tomorrow's critical reading\u2014your Jupiter luck window is narrowing.",
   "captions_structure": [
     {
       "text": "TAURUS ALERT",
       "type": "header"
     },
     {
-      "text": "Stop! Taurus, the earthy skies are aligning to shift your inner world outward.",
+      "text": "Stop! Taurus, the cosmos is lighting a fuse under your steady earth sign today.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
-    "4",
-    "15",
-    "22"
+    "7",
+    "11",
+    "21"
   ],
-  "lucky_color": "Olive Green",
-  "monthly_vibe": "Steady Growth",
-  "title": "Taurus Alert: Saturn Sextile Venus",
-  "youtube_title": "Taurus: The Hidden Shift You Can't Ignore #shorts",
-  "youtube_description": "Today\u2019s transit reveals how Saturn\u2019s sextile to Venus can turn a quiet conversation into a love spark or career boost for Taurus. Discover what earthy insight is waiting in your 3rd house and why an old resentment could block a surprise blessing. Comment your sign and share what you\u2019re feeling!",
+  "lucky_color": "Emerald Green",
+  "monthly_vibe": "Reflective & Calm",
+  "title": "Taurus \u2014 Mars Squares Venus TODAY",
+  "youtube_description": "Mars is squaring your ruling Venus, creating chaos in partnerships. But Jupiter in your 2nd House has a surprise financial gift. Comment your sign to see if it applies to you.",
   "youtube_tags": [
-    "astrology",
-    "daily horoscope",
     "taurus horoscope",
-    "taurus today",
+    "astrology today",
+    "mars square venus",
+    "taurus love prediction",
+    "jupiter 2nd house",
+    "daily horoscope",
+    "western astrology",
+    "taurus career",
     "venus transit",
-    "saturn sextile",
-    "zodiac prediction",
-    "love forecast",
-    "career advice",
-    "earth sign",
-    "spiritual guidance",
+    "pluto trine mercury",
+    "taurus money",
     "cosmic energy",
+    "spiritual guidance",
+    "zodiac signs",
+    "taurus daily",
+    "astrology reading",
     "manifestation",
-    "tiktok astrology",
-    "horoscope 2026",
-    "mars retrograde",
-    "full moon",
-    "new moon",
-    "birth chart",
-    "planetary aspects"
+    "taurus vibe",
+    "planetary transit",
+    "horoscope march 2026"
   ],
   "type": "daily",
   "target": "Taurus",
-  "date": "March 28, 2026",
+  "date": "March 29, 2026",
   "images": [
     "assets/zodiac_signs/Taurus.jpg"
   ],
   "active": true,
-  "status": "uploaded",
-  "file_name": "plan_daily_Taurus.json"
+  "status": "error",
+  "file_name": "plan_daily_Taurus.json",
+  "error_reason": "Upload failed"
 }
