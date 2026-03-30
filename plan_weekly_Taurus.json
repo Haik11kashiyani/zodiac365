@@ -1,65 +1,25 @@
 {
-  "script_text": "Taurus, brace yourself \u2014 this week the cosmos shakes your steady earth with surprise. Mon\u2011Wed Venus Aries sextile Pluto Aquarius lights your 12th House, sparking a sudden money insight. Mercury retro Pisces clouds your 3rd House talk \u2014 double\u2011check emails Tuesday and avoid contracts till Thursday. Thursday Venus enters Taurus, conjuncting your natal Sun in the 1st House, boosting self\u2011worth and setting the tone ahead. Friday Venus in 1st House sextiles Jupiter Gemini, boosts charm, draws flirtation that could turn serious by Sat. Financially, Jupiter Gemini trines natal Pluto Aquarius, opening lucrative side\u2011hustle paying Sunday afternoon. Weekend Moon Capricorn sextiles Neptune Pisces, grounding dreams and turning inspiration into action. Best day: Friday \u2014 Venus\u2011Jupiter sextile boosts love luck and extra income. Worst day: Tuesday \u2014 Mercury retrograde squares Mars, causing miscommunication that stalls projects. Weekly advice: Journal your Sunday night intuitions; they reveal your next concrete step. Follow for daily updates.",
+  "script_text": "Brace yourself, earthy Taurus \u2014 Venus sparks a dramatic sudden shift that could transform love and finances this week. Monday: Venus in your 1st trines Saturn in 5th, stabilizing romance, urging commitment. Tuesday: Mercury sextiles Jupiter in your 10th, boosting clear talk and opening a new deal. Wednesday: Mars conjunct Pluto in your 10th ignites career breakthrough or power struggle demanding authority. Thursday\u2011Friday: Sun squares Jupiter in your 4th, creating tension but inspiring an important creative home project. Saturday: Venus sextiles Neptune in your 7th house, enhancing empathy and inviting soulful connections. Wednesday is your power day; Mars conjunct Pluto in 10th amplifies drive and reshapes career. Thursday is your toughest day; Sun squares Jupiter in 4th inflates ego and sparks conflict. Channel Mars\u2011Pluto energy into a clear plan, and let Venus\u2011Neptune\u2019s sextile soften your relationship tensions. Follow for daily Taurus updates.",
   "captions_structure": [
     {
       "text": "TAURUS ALERT",
       "type": "header"
     },
     {
-      "text": "Taurus, brace yourself \u2014 this week the cosmos shakes your steady earth with surprise.",
-      "type": "normal"
-    },
-    {
-      "text": "Mon\u2011Wed Venus Aries sextile Pluto Aquarius lights your 12th House, sparking a sudden money insight.",
-      "type": "normal"
-    },
-    {
-      "text": "Mercury retro Pisces clouds your 3rd House talk \u2014 double\u2011check emails Tuesday and avoid contracts till Thursday.",
-      "type": "normal"
-    },
-    {
-      "text": "Thursday Venus enters Taurus, conjuncting your natal Sun in the 1st House, boosting self\u2011worth and setting the tone ahead.",
-      "type": "normal"
-    },
-    {
-      "text": "Friday Venus in 1st House sextiles Jupiter Gemini, boosts charm, draws flirtation that could turn serious by Sat.",
-      "type": "normal"
-    },
-    {
-      "text": "Financially, Jupiter Gemini trines natal Pluto Aquarius, opening lucrative side\u2011hustle paying Sunday afternoon.",
-      "type": "normal"
-    },
-    {
-      "text": "Weekend Moon Capricorn sextiles Neptune Pisces, grounding dreams and turning inspiration into action.",
-      "type": "normal"
-    },
-    {
-      "text": "Best day: Friday \u2014 Venus\u2011Jupiter sextile boosts love luck and extra income.",
-      "type": "normal"
-    },
-    {
-      "text": "Worst day: Tuesday \u2014 Mercury retrograde squares Mars, causing miscommunication that stalls projects.",
-      "type": "normal"
-    },
-    {
-      "text": "Weekly advice: Journal your Sunday night intuitions; they reveal your next concrete step.",
-      "type": "normal"
-    },
-    {
-      "text": "Follow for daily updates.",
+      "text": "Brace yourself, earthy Taurus \u2014 Venus sparks a dramatic sudden shift that could transform love and finances this week.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
-    "7",
-    "14",
-    "21"
+    "4",
+    "15",
+    "22"
   ],
   "lucky_color": "Emerald Green",
   "monthly_vibe": "Grounded Growth",
-  "title": "Taurus Weekly Horoscope March 29, 2026",
-  "youtube_title": "Taurus Week Ahead: Shocking Changes #shorts",
-  "youtube_description": "This week Taurus, Venus shakes up your hidden talents while a surprise flirtation looms on Friday. Discover how Jupiter\u2019s trine to Pluto could unlock a lucrative side\u2011hustle you didn\u2019t see coming. Comment your sign and share your thoughts!",
+  "title": "Taurus Week Ahead: Love & Money Shifts",
+  "youtube_title": "Taurus Love & Money Shifts This Week #shorts",
+  "youtube_description": "This week Venus ignites a sudden shift that could transform your love life and finances. Discover which days bring career breakthroughs and romantic opportunities. Comment your sign to share your thoughts!",
   "youtube_tags": [
     "astrology",
     "horoscope",
@@ -68,28 +28,27 @@
     "zodiac",
     "weekly forecast",
     "venus transit",
-    "jupiter trine pluto",
+    "mars pluto",
     "love prediction",
-    "money forecast",
-    "moon sextile neptune",
-    "mercury retrograde",
-    "taurus love",
-    "taurus career",
-    "astrology tips",
+    "career forecast",
+    "manifestation",
     "cosmic energy",
     "spiritual tiktok",
-    "manifestation",
-    "natal chart",
-    "transit alerts"
+    "daily horoscope",
+    "star signs",
+    "taurus traits",
+    "earth sign",
+    "financial astrology",
+    "relationship astrology",
+    "weekly outlook"
   ],
   "type": "weekly",
   "target": "Taurus",
-  "date": "Mar 29 - Apr 04",
+  "date": "Mar 30 - Apr 05",
   "images": [
     "assets/zodiac_signs/Taurus.jpg"
   ],
   "active": true,
-  "status": "error",
-  "file_name": "plan_weekly_Taurus.json",
-  "error_reason": "Upload failed"
+  "status": "uploaded",
+  "file_name": "plan_weekly_Taurus.json"
 }
