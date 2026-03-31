@@ -1,46 +1,91 @@
 {
-  "script_text": "The celestial storm awaitss through Leo's volatile dance. Mars' fire ignites truths yet obscures, urging resolution before the week collapses.",
+  "script_text": "Leo, your fierce Fire nature is about to collide with a sharp Saturnian checkpoint this week. Through Wednesday, Mars squares Saturn in your seventh house, testing partnership boundaries and draining collaborative momentum. Monday becomes nearly impossible for binding contracts, while Tuesday swiftly clears the path via Mercury sextiling Uranus. A definitive turning point arrives Wednesday night when Venus shifts into Taurus, activating your tenth house of ambition. Late week energy stabilizes quickly. From Thursday onward, your ruling Sun trines Jupiter across your financial axis, unlocking a lucrative weekend offer. Romantic friction finally transforms into devoted security. Tuesday reigns as your ultimate power day because Mercury harmonizes with Uranus in your communication sector. Monday remains your most treacherous day as the Moon squares natal Saturn, clouding financial judgment. Channel your solar pride into structured delegation rather than exhausting solo execution. Follow my channel for daily astrological updates.",
   "captions_structure": [
     {
-      "text": "LEO ALERT",
+      "text": "LEO",
       "type": "header"
+    },
+    {
+      "text": "your fierce Fire nature is about to collide with a sharp Saturnian checkpoint this week.",
+      "type": "normal"
+    },
+    {
+      "text": "Through Wednesday, Mars squares Saturn in your seventh house, testing partnership boundaries and draining collaborative momentum.",
+      "type": "normal"
+    },
+    {
+      "text": "Monday becomes nearly impossible for binding contracts, while Tuesday swiftly clears the path via Mercury sextiling Uranus.",
+      "type": "normal"
+    },
+    {
+      "text": "A definitive turning point arrives Wednesday night when Venus shifts into Taurus, activating your tenth house of ambition.",
+      "type": "normal"
+    },
+    {
+      "text": "Late week energy stabilizes quickly. From Thursday onward, your ruling Sun trines Jupiter across your financial axis, unlocking a lucrative weekend offer.",
+      "type": "normal"
+    },
+    {
+      "text": "Romantic friction finally transforms into devoted security.",
+      "type": "normal"
+    },
+    {
+      "text": "Tuesday reigns as your ultimate power day because Mercury harmonizes with Uranus in your communication sector.",
+      "type": "normal"
+    },
+    {
+      "text": "Monday remains your most treacherous day as the Moon squares natal Saturn, clouding financial judgment.",
+      "type": "normal"
+    },
+    {
+      "text": "Channel your solar pride into structured delegation rather than exhausting solo execution.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow my channel for daily astrological updates.",
+      "type": "normal"
     }
   ],
   "lucky_numbers": [
-    7,
-    11,
-    21
+    "14",
+    "27",
+    "8"
   ],
-  "lucky_color": "Emerald Green",
-  "monthly_vibe": "Bold Action",
-  "title": "Leo Weekly Horoscope March 02, 2026",
-  "youtube_title": "Short punchy title under 50 chars, curiosity-driven... #shorts",
-  "youtube_description": "2-3 sentence hook; Personal tone, tease specific teaser about Leo's 5th House success.",
+  "lucky_color": "Crimson Orange",
+  "monthly_vibe": "Focused Expansion",
+  "title": "Leo: The Financial Shift Arrives",
+  "youtube_title": "Leo: The Financial Shift Arrives #shorts",
+  "youtube_description": "Mars squares Saturn in your partnership sector early this week, but a sharp Venus ingress into your career house flips the script. Watch how your ruling Sun trine Jupiter delivers a major financial opening by the weekend. Comment your sign for personalized guidance.",
   "youtube_tags": [
-    "Leo Horoscope",
-    "Stellar Influences",
-    "Cosmic Guidance",
-    "Sun Sign Curse",
-    "Dramatic Prediction"
-  ],
-  "capitations_structure": [
-    "LEO",
-    "STARDROP ONE",
-    "IX HOUSE",
-    "MATRIARCH"
-  ],
-  "exstractions": [
-    "Pattern Interrupt",
-    "Best Day: Wednesday...",
-    "CTA: Follow for daily updates."
+    "Leo horoscope",
+    "Leo weekly forecast",
+    "astrology",
+    "horoscope",
+    "zodiac",
+    "March 2026 astrology",
+    "Leo season",
+    "career horoscope",
+    "love reading",
+    "Venus in Taurus",
+    "Mercury sextile Uranus",
+    "financial astrology",
+    "Sun trine Jupiter",
+    "Mars square Saturn",
+    "spiritual guidance",
+    "cosmic energy",
+    "astrology tiktok",
+    "manifestation tips",
+    "tarot and astrology",
+    "daily horoscope"
   ],
   "type": "weekly",
   "target": "Leo",
-  "date": "Mar 02 - Mar 08",
+  "date": "Mar 31 - Apr 06",
   "images": [
     "assets/zodiac_signs/Leo.jpg"
   ],
   "active": true,
-  "status": "uploaded",
-  "file_name": "plan_weekly_Leo.json"
+  "status": "error",
+  "file_name": "plan_weekly_Leo.json",
+  "error_reason": "Upload failed"
 }
