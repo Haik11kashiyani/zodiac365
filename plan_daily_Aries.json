@@ -1,44 +1,83 @@
 {
-  "script_text": "Wait \u2014 before you scroll past this, the Moon is forming an exact opposition to Pluto today, and you need to hear this. Deep emotions are rising to the surface. Your 4th House of Home and Family is activated, which means unresolved tensions could explode \u2014 or finally heal. In your career, Mars in your 6th House is pushing you to work harder than ever. Channel that fire into one specific goal today, not ten. Love is intense right now. Venus square Neptune is creating illusions \u2014 don't believe everything you see in a new connection. Trust actions over words. The gift today is emotional clarity if you're brave enough to look within. Your power move is honesty. Subscribe so you catch tomorrow's cosmic download!",
-  "title": "Daily Cosmic Forecast March 29, 2026",
-  "youtube_title": "Something Deep Is Stirring In Your Chart #shorts",
-  "youtube_description": "Moon opposite Pluto is bringing buried emotions to the surface (March 29, 2026). Your family sector is activated and love is NOT what it seems. Comment your sign!",
-  "youtube_tags": [
-    "horoscope",
-    "astrology",
-    "zodiac",
-    "daily horoscope",
-    "moon opposite pluto",
-    "emotional healing",
-    "love horoscope",
-    "horoscope today",
-    "zodiac signs",
-    "spiritual guidance",
-    "manifestation",
-    "cosmic energy",
-    "astrology shorts",
-    "zodiac shorts",
-    "planetary transit",
-    "venus square neptune",
-    "mars 6th house",
-    "zodiac prediction",
-    "deep astrology",
-    "astrology reading"
+  "script_text": "Stop scrolling, Aries, the cosmos just flipped your chart upside down. Transiting Saturn squares your ruling planet, Mars, anchoring your 1st House while activating your 10th House of public standing. This tense aspect forces every bold Fire element impulse to face structural reality before you act. If taken, do not let workplace fatigue bleed into your evening conversations with a partner. If single, prepare for a grounded earth-sign arrival who demands consistency rather than instant chemistry. Your 2nd House of liquid assets receives a direct hit as Venus sextiles Pluto in Aquarius, clearing dormant invoices but requiring strict budget caps today. Avoid verbalizing any financial guarantees past noon, or you will accidentally lock into an unfavorable payment cycle. Follow for tomorrow\u2019s reading on how this exact transit reshapes your spring momentum.",
+  "captions_structure": [
+    {
+      "text": "ARIES",
+      "type": "header"
+    },
+    {
+      "text": "Stop scrolling, Aries, the cosmos just flipped your chart upside down.",
+      "type": "normal"
+    },
+    {
+      "text": "Transiting Saturn squares your ruling planet, Mars, anchoring your 1st House while activating your 10th House of public standing.",
+      "type": "normal"
+    },
+    {
+      "text": "This tense aspect forces every bold Fire element impulse to face structural reality before you act.",
+      "type": "normal"
+    },
+    {
+      "text": "If taken, do not let workplace fatigue bleed into your evening conversations with a partner.",
+      "type": "normal"
+    },
+    {
+      "text": "If single, prepare for a grounded earth-sign arrival who demands consistency rather than instant chemistry.",
+      "type": "normal"
+    },
+    {
+      "text": "Your 2nd House of liquid assets receives a direct hit as Venus sextiles Pluto in Aquarius, clearing dormant invoices but requiring strict budget caps today.",
+      "type": "normal"
+    },
+    {
+      "text": "Avoid verbalizing any financial guarantees past noon, or you will accidentally lock into an unfavorable payment cycle.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for tomorrow\u2019s reading on how this exact transit reshapes your spring momentum.",
+      "type": "normal"
+    }
   ],
   "lucky_numbers": [
-    "3",
-    "16",
-    "33"
+    "14",
+    "27",
+    "38"
   ],
-  "lucky_color": "Deep Violet",
-  "monthly_vibe": "Emotional Breakthrough",
+  "lucky_color": "Charcoal Gray",
+  "monthly_vibe": "Strategic Patience",
+  "title": "Aries: Do Not Ignore This Shift",
+  "youtube_title": "Aries: The Cosmic Shift You Must See #shorts",
+  "youtube_description": "Transiting Saturn squares Mars in your 10th House, forcing a critical pause before major career moves. Venus sextile Pluto lights up your financial sector, but one timing mistake could lock you into a draining cycle. Comment your sign to see how this exact aspect impacts your chart.",
+  "youtube_tags": [
+    "aries horoscope",
+    "aries today",
+    "astrology reading",
+    "daily horoscope 2026",
+    "career astrology",
+    "financial forecast",
+    "saturn transit",
+    "mars energy",
+    "zodiac predictions",
+    "fire sign energy",
+    "love astrology",
+    "venus pluto",
+    "spiritual tiktok",
+    "cosmic guidance",
+    "astrology for beginners",
+    "horoscope april",
+    "planetary aspects",
+    "western astrology",
+    "manifestation tips",
+    "zodiac compatibility"
+  ],
   "type": "daily",
   "target": "Aries",
-  "date": "March 29, 2026",
+  "date": "April 01, 2026",
   "images": [
     "assets/zodiac_signs/Aries.jpg"
   ],
   "active": true,
-  "status": "uploaded",
-  "file_name": "plan_daily_Aries.json"
+  "status": "error",
+  "file_name": "plan_daily_Aries.json",
+  "error_reason": "Upload failed"
 }

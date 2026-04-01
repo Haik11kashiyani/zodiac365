@@ -1,54 +1,90 @@
 {
-  "script_text": "Stop! Taurus, the cosmos is lighting a fuse under your steady earth sign today. Mars in Cancer is squaring your ruling Venus in Aries, creating explosive tension in your 7th House of Partnerships. Simultaneously, Mercury in Pisces forms a mystical trine to Pluto in your 3rd House, pulling you into profound conversations. If attached, expect heated debates with your partner\u2014but hidden within the clash is a chance to transform your bond. Singles, you'll attract powerful, magnetic energy, but avoid rushing into anything. Jupiter's lavish presence in your 2nd House of Income sextiles Uranus, promising an unexpected financial opportunity. However, Mercury's influence warns: scrutinize every contract detail before signing. Do NOT make impulsive luxury purchases today\u2014Venus' frustration could trick you into overspending. Follow now for tomorrow's critical reading\u2014your Jupiter luck window is narrowing.",
+  "script_text": "Stop everything, Taurus, the real cosmic ledger is flipping open. Venus, your ruling planet, forms an exact trine to heavy Saturn across your 10th House, pulling dormant professional assets into sharp focus while anchoring your earth element. This precise alignment demands tactical resource management over impulsive spending. Single bulls magnetize intense water-energy if you lead with quiet confidence. Partnered bulls, surrender the steering wheel during dinner debates. In your 2nd House, a delayed commission finally clears, yet Mercury squaring Neptune in your 6th House demands strict verification before approving vendor invoices. Never co-sign a loan tonight, or watch an unexpected professional referral dissolve. Subscribe immediately so you never miss tomorrow\u2019s forecast.",
   "captions_structure": [
     {
       "text": "TAURUS ALERT",
       "type": "header"
     },
     {
-      "text": "Stop! Taurus, the cosmos is lighting a fuse under your steady earth sign today.",
+      "text": "Stop everything, Taurus, the real cosmic ledger is flipping open.",
+      "type": "normal"
+    },
+    {
+      "text": "Venus, your ruling planet, forms an exact trine to heavy Saturn across your 10th House,",
+      "type": "normal"
+    },
+    {
+      "text": "pulling dormant professional assets into sharp focus while anchoring your earth element.",
+      "type": "normal"
+    },
+    {
+      "text": "This precise alignment demands tactical resource management over impulsive spending.",
+      "type": "normal"
+    },
+    {
+      "text": "Single bulls magnetize intense water-energy if you lead with quiet confidence.",
+      "type": "normal"
+    },
+    {
+      "text": "Partnered bulls, surrender the steering wheel during dinner debates.",
+      "type": "normal"
+    },
+    {
+      "text": "In your 2nd House, a delayed commission finally clears,",
+      "type": "normal"
+    },
+    {
+      "text": "yet Mercury squaring Neptune in your 6th House demands strict verification before approving vendor invoices.",
+      "type": "normal"
+    },
+    {
+      "text": "Never co-sign a loan tonight, or watch an unexpected professional referral dissolve.",
+      "type": "normal"
+    },
+    {
+      "text": "Subscribe immediately so you never miss tomorrow\u2019s forecast.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
-    "7",
-    "11",
-    "21"
+    "4",
+    "18",
+    "29"
   ],
-  "lucky_color": "Emerald Green",
-  "monthly_vibe": "Reflective & Calm",
-  "title": "Taurus \u2014 Mars Squares Venus TODAY",
-  "youtube_description": "Mars is squaring your ruling Venus, creating chaos in partnerships. But Jupiter in your 2nd House has a surprise financial gift. Comment your sign to see if it applies to you.",
+  "lucky_color": "Deep Olive",
+  "monthly_vibe": "Strategic Grounding",
+  "title": "Taurus \u2014 The Ledger Just Flipped",
+  "youtube_title": "Taurus: Do Not Ignore This Transit #shorts",
+  "youtube_description": "Venus is trining Saturn directly through your 10th House today, unlocking dormant assets while strictly testing your financial patience. I\u2019m breaking down exactly how this earthy transit impacts your 2nd House cash flow and evening relationship dynamics in under sixty seconds. Comment your sign below to lock in your weekly cosmic forecast.",
   "youtube_tags": [
     "taurus horoscope",
-    "astrology today",
-    "mars square venus",
-    "taurus love prediction",
-    "jupiter 2nd house",
+    "taurus today",
     "daily horoscope",
-    "western astrology",
-    "taurus career",
-    "venus transit",
-    "pluto trine mercury",
-    "taurus money",
+    "astrology",
+    "venus trine saturn",
+    "taurus forecast",
     "cosmic energy",
-    "spiritual guidance",
+    "earth signs",
+    "2nd house wealth",
+    "astrology predictions",
+    "taurus love",
+    "taurus money",
     "zodiac signs",
-    "taurus daily",
-    "astrology reading",
+    "horoscope april 2026",
+    "planetary transits",
+    "spiritual tiktok",
     "manifestation",
-    "taurus vibe",
-    "planetary transit",
-    "horoscope march 2026"
+    "astrologer advice",
+    "natal chart reading",
+    "viral astrology"
   ],
   "type": "daily",
   "target": "Taurus",
-  "date": "March 29, 2026",
+  "date": "April 01, 2026",
   "images": [
     "assets/zodiac_signs/Taurus.jpg"
   ],
   "active": true,
-  "status": "error",
-  "file_name": "plan_daily_Taurus.json",
-  "error_reason": "Upload failed"
+  "status": "uploaded",
+  "file_name": "plan_daily_Taurus.json"
 }
