@@ -1,70 +1,81 @@
 {
-  "script_text": "Stop! Virgo, the stars are screaming at you right now. Mercury, your ruling planet, is squaring fiery Mars at 8:14 AM PST in your 6th House of Daily Work\u2014expect friction between your practical tasks and impulsive colleagues. In love, single Virgos might attract a grounded yet mysterious partner today, while couples should watch for Venusian detachment lurking beneath romantic gestures. Career-wise, a sudden opportunity in your 10th House could arise, but avoid rushing that important presentation\u2014Mercury\u2019s glare demands precision over panic. DO NOT reply to that confusing email chain before noon; Mercury retrograde\u2019s ghost is haunting your inbox. Subscribe so you don\u2019t miss tomorrow\u2019s moon occultation healing your midlife tremors!",
+  "script_text": "Stop everything, because the cosmos is forcing a sudden structural pivot into your grounded Earth nature right now. Transiting Mercury, your exact ruling planet, forms a sharp square to Pluto currently activating your 6th House of daily health. This tense aspect demands you audit your sleep schedule immediately, or chronic fatigue will sabotage upcoming deadlines. If you are committed, prepare to navigate a blunt financial negotiation that ultimately clears toxic resentment. If unattached, expect a highly pragmatic romantic invitation through a shared volunteer network. Meanwhile, a supportive Venus sextile Mars lights up your 10th House of reputation, triggering a direct manager promotion or freelance payout. Trust your analytical intuition completely this morning. Avoid lending capital today, or it becomes a permanent donation. Follow now so you do not miss tomorrow\u2019s critical solar flare warning.",
   "captions_structure": [
     {
       "text": "VIRGO ALERT",
       "type": "header"
     },
     {
-      "text": "Stop! Virgo, the stars are screaming...",
+      "text": "Stop everything, because the cosmos is forcing a sudden structural pivot into your grounded Earth nature right now.",
       "type": "normal"
     },
     {
-      "text": "Mercury squares Mars in your 6th House\u2014friki...",
+      "text": "Transiting Mercury, your exact ruling planet, forms a sharp square to Pluto currently activating your 6th House of daily health.",
       "type": "normal"
     },
     {
-      "text": "Single? A grounded mystery may arrive...",
+      "text": "This tense aspect demands you audit your sleep schedule immediately, or chronic fatigue will sabotage upcoming deadlines.",
       "type": "normal"
     },
     {
-      "text": "Career chance? Hold steady before signing...",
+      "text": "If you are committed, prepare to navigate a blunt financial negotiation that ultimately clears toxic resentment.",
       "type": "normal"
     },
     {
-      "text": "DO NOT reply to that email chain...",
-      "type": "warning"
+      "text": "If unattached, expect a highly pragmatic romantic invitation through a shared volunteer network.",
+      "type": "normal"
     },
     {
-      "text": "Subscribe for tomorrow\u2019s moon occultation...",
-      "type": "call_to_action"
+      "text": "Meanwhile, a supportive Venus sextile Mars lights up your 10th House of reputation, triggering a direct manager promotion or freelance payout.",
+      "type": "normal"
+    },
+    {
+      "text": "Trust your analytical intuition completely this morning.",
+      "type": "normal"
+    },
+    {
+      "text": "Avoid lending capital today, or it becomes a permanent donation.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow now so you do not miss tomorrow\u2019s critical solar flare warning.",
+      "type": "normal"
     }
   ],
   "lucky_numbers": [
-    "7",
-    "11",
-    "21"
+    "14",
+    "23",
+    "37"
   ],
-  "lucky_color": "Emerald Green",
-  "monthly_vibe": "Reflective & Calm",
-  "title": "Mercury\u2019s Warning: Virgo\u2019s 10th House Crisis Looms",
-  "youtube_description": "Mercury squares Mars this morning\u2014how will tension erupt in your work life? Discover if today\u2019s stress sharpens your focus or fractures your relationships. Comment your sign for personalized insight!",
+  "lucky_color": "Deep Moss",
+  "monthly_vibe": "Structured Renewal",
+  "title": "Virgo \u2014 The Stars Demand This Pivot",
+  "youtube_description": "Transiting Mercury squares Pluto in your daily sector, revealing a hidden financial truth you can no longer ignore. Watch exactly how this Earth-sign transit reshapes your partnerships and unlocks a sudden reputation boost before Friday ends. Comment your sign to get personalized cosmic guidance.",
   "youtube_tags": [
-    "Virgo Horoscope",
-    "Daily Astrology",
-    "Mercury Retrograde",
-    "Sixth House Energy",
-    "Mars Influence",
-    "Love Prediction",
-    "Career Guidance",
-    "Western Astrology",
-    "Planetary Transit",
-    "Zodiac Daily",
-    "Virgo Venus",
-    "Virgo Career",
-    "Astrology Advice",
-    "Cosmic Forecast",
-    "Vibes & Elements",
-    "Earth Sign Wisdom",
-    "Mercury Retrograde 2026",
-    "10th House Activation",
-    "Love & Compatibility",
-    "Daily Star Horoscopes",
-    "Astrologer Predictions"
+    "virgo horoscope",
+    "daily horoscope",
+    "virgo today",
+    "mercury transit",
+    "pluto square",
+    "6th house astrology",
+    "10th house career",
+    "earth sign energy",
+    "western astrology",
+    "cosmic guidance",
+    "virgo love",
+    "virgo money",
+    "astrological forecast",
+    "spiritual grounding",
+    "zodiac predictions",
+    "astrology reading",
+    "planetary aspects",
+    "virgo season",
+    "career astrology",
+    "relationship forecast"
   ],
   "type": "daily",
   "target": "Virgo",
-  "date": "March 10, 2026",
+  "date": "April 04, 2026",
   "images": [
     "assets/zodiac_signs/Virgo.jpg"
   ],
