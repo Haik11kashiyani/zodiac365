@@ -1,44 +1,82 @@
 {
-  "script_text": "Stop scrolling! Mercury is making a powerful trine to Jupiter right now, and this is huge for you. Your 10th House of Career is lit up \u2014 expect a sudden opportunity from someone in authority. A boss, a mentor, or even a stranger could open a door you didn't know existed. In love, Venus is gliding through your 5th House, making you absolutely magnetic today. If you're single, pay attention to who shows up. If you're taken, tonight is the night for a deep conversation. One warning \u2014 avoid signing contracts before Thursday. Mercury's energy is expansive but not detail-oriented right now. Your ruling planet is working overtime for you. Follow for tomorrow's reading and don't miss what's coming this week!",
-  "title": "Daily Cosmic Forecast April 03, 2026",
-  "youtube_title": "The Stars Are Sending You an Urgent Sign #shorts",
-  "youtube_description": "Mercury trine Jupiter is activating your Career house TODAY (April 03, 2026). A major opportunity is heading your way \u2014 but there's one thing you need to avoid. Comment your sign!",
-  "youtube_tags": [
-    "horoscope",
-    "astrology",
-    "zodiac",
-    "daily horoscope",
-    "mercury trine jupiter",
-    "career horoscope",
-    "love horoscope",
-    "horoscope today",
-    "zodiac signs",
-    "spiritual guidance",
-    "manifestation",
-    "cosmic energy",
-    "astrology shorts",
-    "zodiac shorts",
-    "planetary transit",
-    "spiritual awakening",
-    "energy shift",
-    "zodiac prediction",
-    "venus 5th house",
-    "astrology reading"
+  "script_text": "Stop scrolling, because your ruling Fire planet Mars is igniting a major turning point right now. Transiting Saturn in your sign is conjuncting your natal Sun while squaring Neptune, creating intense structural pressure in your 3rd House of daily communication. You must anchor that fiery cardinal energy toward tangible logistics instead of getting lost in hypothetical worries. If partnered, a sudden emotional breakthrough emerges during dinner conversations, but you must soften your delivery to bypass unnecessary friction. Single Aries will magnetize a grounded admirer through shared professional networks instead. A sudden financial deposit will activate your 2nd House of resources this Thursday; lock it into high-yield accounts rather than impulse buying. Avoid signing binding contracts before noon, or you will inherit a costly loophole. Follow for tomorrow\u2019s forecast and subscribe so you absolutely never miss my planetary breakdowns.",
+  "captions_structure": [
+    {
+      "text": "ARIES",
+      "type": "header"
+    },
+    {
+      "text": "Stop scrolling, because your ruling Fire planet Mars is igniting a major turning point right now.",
+      "type": "normal"
+    },
+    {
+      "text": "Transiting Saturn in your sign is conjuncting your natal Sun while squaring Neptune, creating intense structural pressure in your 3rd House of daily communication.",
+      "type": "normal"
+    },
+    {
+      "text": "You must anchor that fiery cardinal energy toward tangible logistics instead of getting lost in hypothetical worries.",
+      "type": "normal"
+    },
+    {
+      "text": "If partnered, a sudden emotional breakthrough emerges during dinner conversations, but you must soften your delivery to bypass unnecessary friction.",
+      "type": "normal"
+    },
+    {
+      "text": "Single Aries will magnetize a grounded admirer through shared professional networks instead.",
+      "type": "normal"
+    },
+    {
+      "text": "A sudden financial deposit will activate your 2nd House of resources this Thursday; lock it into high-yield accounts rather than impulse buying.",
+      "type": "normal"
+    },
+    {
+      "text": "Avoid signing binding contracts before noon, or you will inherit a costly loophole.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for tomorrow\u2019s forecast and subscribe so you absolutely never miss my planetary breakdowns.",
+      "type": "normal"
+    }
   ],
   "lucky_numbers": [
-    "7",
-    "11",
-    "22"
+    "8",
+    "17",
+    "33"
   ],
-  "lucky_color": "Celestial Gold",
-  "monthly_vibe": "Unexpected Opportunity",
+  "lucky_color": "Crimson Ember",
+  "monthly_vibe": "Grounded Ambition",
+  "title": "Aries: The Sky Is Warning You",
+  "youtube_description": "Something heavy is shifting in your chart, and it\u2019s directly tied to a hard Saturn-Neptune square targeting your communication zones. I\u2019m breaking down exactly how this transit will shift your finances and romantic life. Comment your sign for more.",
+  "youtube_tags": [
+    "aries",
+    "aries horoscope",
+    "daily horoscope",
+    "western astrology",
+    "mars transit",
+    "saturn square neptune",
+    "astrology reading",
+    "aries today",
+    "horoscope 2026",
+    "zodiac signs",
+    "cosmic energy",
+    "spiritual tiktok",
+    "manifestation tips",
+    "fire sign energy",
+    "relationship astrology",
+    "career finance astro",
+    "planetary transits",
+    "natal chart readings",
+    "astrology forecast",
+    "aries love horoscope"
+  ],
   "type": "daily",
   "target": "Aries",
-  "date": "April 03, 2026",
+  "date": "April 05, 2026",
   "images": [
     "assets/zodiac_signs/Aries.jpg"
   ],
   "active": true,
-  "status": "uploaded",
-  "file_name": "plan_daily_Aries.json"
+  "status": "error",
+  "file_name": "plan_daily_Aries.json",
+  "error_reason": "Upload failed"
 }
