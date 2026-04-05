@@ -1,66 +1,91 @@
 {
-  "script_text": "Stop scrolling immediately because your natal chart lights up like a navigation buoy today. As Mercury, your ruling planet, sextiles Pluto in your 10th career house, Wednesday\u2019s financial negotiations will close faster than expected. However, a tight Mars square to your Earth-element foundation on Tuesday triggers friction with management over strict deadlines. Thursday\u2019s precise Mercury-Venus trine swiftly shifts focus to your 7th house of love, softening earlier tensions and clarifying romantic intent from a long-term prospect. Your analytical nature finally syncs with Venus crossing your 2nd money sector by Saturday, locking in steady passive cash flow. Late Sunday, Neptune\u2019s opposition warns you to audit emotional boundaries before signing joint ventures. Friday is your power day because Venus directly funds your savings. Tuesday is your toughest stretch because Mars fractures your schedule. Draft all binding agreements in ink before noon. Follow my channel for daily updates.",
+  "script_text": "Stop ignoring the quiet tension in your chart, Virgo\u2014this week demands strategic precision. Monday through Wednesday, Mercury trines Pluto while activating your 10th House, fueling career breakthroughs through Tuesday morning. However, Wednesday afternoon shifts energy when Venus squares Saturn in your 7th House, triggering necessary boundary conversations with romantic partners. Thursday brings a decisive pivot as the Sun conjuncts your North Node across the 6th House, realigning daily workflows. Friday through Sunday, Jupiter sextiles your natal Mercury, accelerating financial audits while grounding your Earth element through disciplined routines. Use Sunday to reconcile joint accounts and plan wealth strategies. Tuesday is your power day because Venus stabilizes your income sector, maximizing freelance payouts. Wednesday is your worst day because lunar void periods across your 3rd sector disrupt clear communication. Ground Mercury\u2019s sharp ruling logic by drafting all physical contracts twice before signing. Follow for daily updates.",
   "captions_structure": [
     {
       "text": "VIRGO ALERT",
       "type": "header"
     },
     {
-      "text": "Stop scrolling immediately because your natal chart lights up like a navigation buoy today.",
+      "text": "Stop ignoring the quiet tension in your chart, Virgo\u2014this week demands strategic precision.",
       "type": "normal"
     },
     {
-      "text": "As Mercury sextiles Pluto in your 10th house, Wednesday closes negotiations fast. Tuesday\u2019s Mars square brings management friction.",
+      "text": "Monday through Wednesday, Mercury trines Pluto while activating your 10th House, fueling career breakthroughs through Tuesday morning.",
       "type": "normal"
     },
     {
-      "text": "Thursday\u2019s Mercury-Venus trine clarifies 7th house romance. Venus hits the 2nd house Saturday for steady cash flow.",
+      "text": "However, Wednesday afternoon shifts energy when Venus squares Saturn in your 7th House, triggering necessary boundary conversations with romantic partners.",
       "type": "normal"
     },
     {
-      "text": "Friday funds your savings. Tuesday disrupts schedules. Draft agreements before noon. Follow for daily updates.",
+      "text": "Thursday brings a decisive pivot as the Sun conjuncts your North Node across the 6th House, realigning daily workflows.",
+      "type": "normal"
+    },
+    {
+      "text": "Friday through Sunday, Jupiter sextiles your natal Mercury, accelerating financial audits while grounding your Earth element through disciplined routines.",
+      "type": "normal"
+    },
+    {
+      "text": "Use Sunday to reconcile joint accounts and plan wealth strategies.",
+      "type": "normal"
+    },
+    {
+      "text": "Tuesday is your power day because Venus stabilizes your income sector, maximizing freelance payouts.",
+      "type": "normal"
+    },
+    {
+      "text": "Wednesday is your worst day because lunar void periods across your 3rd sector disrupt clear communication.",
+      "type": "normal"
+    },
+    {
+      "text": "Ground Mercury\u2019s sharp ruling logic by drafting all physical contracts twice before signing.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for daily updates.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
+    "8",
     "14",
-    "27",
-    "33"
+    "29"
   ],
-  "lucky_color": "Slate Blue",
-  "monthly_vibe": "Strategic Grounding",
-  "title": "The Stars Are Warning Virgo",
-  "youtube_title": "Virgo: The Transit You Cannot Ignore #shorts",
-  "youtube_description": "Mercury sextiling Pluto activates your 10th house career sector this week, bringing sudden financial clarity and relationship shifts you cannot miss. I break down exactly why your analytical Earth nature needs to audit boundaries before Sunday. Comment your sign for your personal weekly reading.",
+  "lucky_color": "Sage Green",
+  "monthly_vibe": "Strategic Mastery",
+  "title": "Virgo: The Hidden Money Shift",
+  "youtube_title": "Virgo \u2014 Don't Ignore This Shift #shorts",
+  "youtube_description": "Mercury\u2019s trine to Pluto is activating Virgo\u2019s 10th House this week, bringing unexpected career momentum. Watch how the Sun-North Node conjunction recalibrates your daily routines before the lunar void hits Wednesday. Comment your sign to see how this transit impacts your chart.",
   "youtube_tags": [
     "virgo horoscope",
-    "weekly astrology",
-    "virgo forecast",
-    "mercury sextile pluto",
+    "virgo weekly forecast",
+    "astrology predictions",
+    "weekly horoscope",
+    "mercury transit",
     "career astrology",
-    "love predictions",
-    "earth signs",
-    "virgo april 2026",
-    "astrology reading",
-    "weekly transits",
-    "money astrology",
-    "zodiac guidance",
-    "virgo today",
-    "planetary aspects",
-    "7th house love",
-    "astrology tips",
+    "love horoscope virgo",
+    "planetary aspects 2026",
+    "zodiac reading",
+    "astrology tiktok",
+    "spiritual guidance",
     "cosmic energy",
-    "spiritual tiktok",
-    "manifestation",
-    "daily horoscope"
+    "manifestation tips",
+    "earth sign reading",
+    "chiron healing",
+    "jupiter sextile",
+    "venus square saturn",
+    "moon void course",
+    "astrology for beginners",
+    "virgo season"
   ],
   "type": "weekly",
   "target": "Virgo",
-  "date": "Mar 31 - Apr 06",
+  "date": "Apr 05 - Apr 11",
   "images": [
     "assets/zodiac_signs/Virgo.jpg"
   ],
   "active": true,
-  "status": "uploaded",
-  "file_name": "plan_weekly_Virgo.json"
+  "status": "error",
+  "file_name": "plan_weekly_Virgo.json",
+  "error_reason": "Upload failed"
 }
