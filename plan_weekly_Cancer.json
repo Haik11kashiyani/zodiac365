@@ -1,54 +1,55 @@
 {
-  "script_text": "Stop... The stars align. Action demanded.",
+  "script_text": "Something unexpected shifts in your emotional world this week, Cancer \u2014 and it starts with tension. From Monday through Wednesday, the Moon in your 12th House forms a tense square to Venus in Aries, stirring up old feelings you thought you'd buried; this is NOT the time to start a new romance, but it IS the time to finish an old one. Wednesday brings your power moment: the Moon enters your 1st House and forms a supportive trine to Saturn in Pisces, giving you emotional clarity you've been craving since March \u2014 speak your truth in relationships now or forever hold the peace. By Thursday and Friday, Venus moves into your 5th House of pleasure and love, transforming your romantic energy entirely; if you've been single, someone from your past may reappear. The weekend brings a career opportunity: the Sun in your 10th House sextiles Jupiter in Aries on Saturday, suggesting a professional conversation could expand your ambitions. Wednesday is your power day because the Moon in your 1st House trines Saturn, grounding your emotions. Tuesday is your most challenging day due to the Moon-Saturn opposition amplifying sensitivity. Trust your gut over logic this week \u2014 your ruling planet Moon is asking you to honor what you feel before you act. Follow for daily updates.",
   "captions_structure": [
     {
-      "text": "LEO WARNING",
+      "text": "CANCER WEEKLY",
       "type": "header"
     },
     {
-      "text": "Stop scrolling...",
+      "text": "Something unexpected shifts in your emotional world this week, Cancer \u2014 and it starts with tension.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
     "7",
-    "11",
-    "21"
+    "14",
+    "28"
   ],
-  "lucky_color": "Emerald Green",
-  "monthly_vibe": "Urgent Clarity",
-  "title": "Cosmic Omen",
-  "youtube_title": "Cancer's Secret #shorts",
-  "youtube_description": "Unlock hidden patterns. Your sign awaits. Special content for you.",
+  "lucky_color": "Pearl White",
+  "monthly_vibe": "Emotional Deepening",
+  "title": "Cancer \u2014 The Hidden Emotion Emerges",
+  "youtube_title": "Cancer \u2014 The Hidden Emotion Emerges #shorts",
+  "youtube_description": "This week's cosmic weather brings a powerful emotional turning point for Cancer. With Venus shifting into your 5th House of love and the Moon activating your 1st House mid-week, something you've been holding back finally surfaces. Watch to discover what the stars have planned for your relationships and career this week. Comment your sign below!",
   "youtube_tags": [
-    "astrology",
-    "cancerhoroscope",
-    "spiritualenergy",
-    "mystic",
-    "cosmogram",
-    "signal",
-    "intuition",
-    "nightsky",
-    "mystery",
-    "guidance",
-    "starwatch",
-    "mystic, sudden",
-    "signalage",
-    "professional",
-    "insight"
+    "cancer horoscope weekly",
+    "cancer astrology april 2026",
+    "cancer horoscope",
+    "cancer zodiac",
+    "weekly horoscope",
+    "astrology reading",
+    "cancer love horoscope",
+    "cancer career horoscope",
+    "moon in cancer",
+    "venus in taurus",
+    "saturn in pisces",
+    "horoscope predictions",
+    "astrology predictions",
+    "spiritual tiktok",
+    "cosmic energy",
+    "manifestation",
+    "zodiac signs",
+    "water sign astrology",
+    "natal chart reading",
+    "horoscope tiktok"
   ],
-  "exras": {
-    "lucky_numbers": "7, 11, 21",
-    "lucky_color": "Emerald Green",
-    "monthly_vibe": "Urgent Clarity"
-  },
   "type": "weekly",
   "target": "Cancer",
-  "date": "Feb 24 - Mar 02",
+  "date": "Apr 06 - Apr 12",
   "images": [
     "assets/zodiac_signs/Cancer.jpg"
   ],
   "active": true,
-  "status": "uploaded",
-  "file_name": "plan_weekly_Cancer.json"
+  "status": "error",
+  "file_name": "plan_weekly_Cancer.json",
+  "error_reason": "Upload failed"
 }

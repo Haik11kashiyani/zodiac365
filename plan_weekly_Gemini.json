@@ -1,93 +1,85 @@
 {
-  "script_text": "Stop scrolling! You need to hear this. Monday brings Mercury trine Jupiter\u2014perfect for signing contracts and starting conversations. Tuesday's Venus square Saturn might slow romance, so keep expectations realistic. Wednesday's Sun sextile Uranus sparks brilliant ideas\u2014act fast. Thursday's Moon void-of-course warns against major decisions. Friday's Mercury sextile Uranus delivers unexpected news\u2014stay flexible. Saturday's Venus trine Mars ignites passion and creativity\u2014perfect for dates or projects. Sunday's Mercury square Mars could spark arguments\u2014choose your words carefully. BEST day: Saturday for love and creativity. WORST day: Thursday for big decisions. The cosmos is speaking\u2014are you listening?",
+  "script_text": "Something unexpected arrives on Tuesday \u2014 and it will flip your entire week on its head. Early week brings Venus in your 7th House of partnerships squaring off with your ruling planet Mercury in Taurus, stirring up relationship tension and forcing you to communicate boundaries you have been avoiding. Monday and Tuesday bring heated conversations with a partner or potential love interest, as this Aries-Taurus tension creates frustration around commitments. Wednesday is your power day because Mercury trines Neptune in your 3rd House of communication, giving you the gift of psychic intuition \u2014 pay attention to your dreams and gut feelings. Mid-week brings a turning point: the Sun in late Aries opposes Saturn in your 9th House, asking you to choose between playing it safe or taking a bold risk regarding travel, education, or your long-term beliefs. Late week shifts as Venus enters Taurus and your 8th House on Saturday, bringing deeper emotional intensity to finances and intimacy \u2014 expect an unexpected money situation or power dynamic shift. Your career sector lights up Thursday with Mars in your 10th House trining Jupiter, giving you the confidence to go after what you want. Weekend brings a needed pause for rest and reflection. Your love and career both demand attention this week, and the universe is not taking no for an answer.",
   "captions_structure": [
     {
-      "text": "GEMINI WEEKLY FORECAST",
+      "text": "GEMINI ALERT",
       "type": "header"
     },
     {
-      "text": "Stop scrolling! You need to hear this.",
+      "text": "Something unexpected arrives on Tuesday \u2014 and it will flip your entire week on its head.",
       "type": "normal"
     },
     {
-      "text": "Monday: Mercury trine Jupiter - sign contracts, start conversations",
+      "text": "Early week brings Venus in your 7th House of partnerships squaring off with your ruling planet Mercury in Taurus, stirring up relationship tension and forcing you to communicate boundaries.",
       "type": "normal"
     },
     {
-      "text": "Tuesday: Venus square Saturn - romance slows, keep expectations real",
+      "text": "Monday and Tuesday bring heated conversations with a partner or potential love interest.",
       "type": "normal"
     },
     {
-      "text": "Wednesday: Sun sextile Uranus - brilliant ideas, act fast",
+      "text": "Wednesday is your power day because Mercury trines Neptune in your 3rd House of communication, giving you the gift of psychic intuition.",
       "type": "normal"
     },
     {
-      "text": "Thursday: Moon void-of-course - avoid major decisions",
+      "text": "Mid-week turning point: The Sun in late Aries opposes Saturn in your 9th House, asking you to choose between playing it safe or taking a bold risk.",
       "type": "normal"
     },
     {
-      "text": "Friday: Mercury sextile Uranus - unexpected news, stay flexible",
+      "text": "Late week shifts as Venus enters Taurus and your 8th House on Saturday, bringing deeper emotional intensity to finances and intimacy.",
       "type": "normal"
     },
     {
-      "text": "Saturday: Venus trine Mars - passion and creativity ignite",
+      "text": "Your career sector lights up Thursday with Mars in your 10th House trining Jupiter.",
       "type": "normal"
     },
     {
-      "text": "Sunday: Mercury square Mars - arguments possible, choose words carefully",
+      "text": "Weekend brings a needed pause for rest and reflection.",
       "type": "normal"
     },
     {
-      "text": "BEST day: Saturday for love and creativity",
-      "type": "normal"
-    },
-    {
-      "text": "WORST day: Thursday for big decisions",
-      "type": "normal"
-    },
-    {
-      "text": "The cosmos is speaking\u2014are you listening?",
-      "type": "normal"
+      "text": "Follow for daily updates.",
+      "type": "cta"
     }
   ],
   "lucky_numbers": [
-    "3",
-    "14",
-    "27"
+    "7",
+    "11",
+    "21"
   ],
-  "lucky_color": "Golden Yellow",
-  "monthly_vibe": "Curious & Adaptable",
-  "title": "Gemini \u2014 Don't Ignore This Week",
-  "youtube_title": "Gemini \u2014 Don't Ignore This Week #shorts",
-  "youtube_description": "The stars have a powerful message for Gemini this week. From brilliant opportunities to potential conflicts, your cosmic roadmap is here. Which day will change everything for you? Comment your sign below!",
+  "lucky_color": "Emerald Green",
+  "monthly_vibe": "Reflective & Calm",
+  "title": "Gemini \u2014 Something Unexpected Is Coming",
+  "youtube_description": "Gemini, this week brings a major turning point that will flip your entire week on its head. Venus squares your ruling planet Mercury early week, stirring relationship tension, while Wednesday offers a powerful intuitive gift. Your career gets a Mars-Jupiter boost Thursday \u2014 but the weekend demands you slow down. Comment your sign below for your personalized reading.",
   "youtube_tags": [
     "gemini horoscope",
-    "gemini weekly forecast",
-    "mercury trine jupiter",
-    "venus trine mars",
-    "astrology forecast",
-    "zodiac predictions",
-    "gemini love life",
-    "cosmic energy",
-    "spiritual guidance",
-    "horoscope 2026",
-    "mercury sextile uranus",
-    "venus square saturn",
-    "moon void of course",
-    "gemini manifestation",
+    "gemini weekly",
+    "gemini april 2026",
+    "astrology gemini",
+    "western astrology",
+    "horoscope",
+    "daily horoscope",
     "zodiac signs",
-    "astrology tiktok",
+    "astrology prediction",
+    "gemini love",
+    "gemini career",
+    "mercury gemini",
+    "venus 7th house",
+    "mars 10th house",
     "spiritual tiktok",
-    "manifestation tips",
-    "weekly horoscope"
+    "cosmic energy",
+    "manifestation",
+    "astrology tiktok",
+    "horoscope tiktok",
+    "astrology reading"
   ],
   "type": "weekly",
   "target": "Gemini",
-  "date": "Feb 24 - Mar 02",
+  "date": "Apr 06 - Apr 12",
   "images": [
     "assets/zodiac_signs/Gemini.jpg"
   ],
   "active": true,
-  "status": "pending",
+  "status": "uploaded",
   "file_name": "plan_weekly_Gemini.json"
 }
