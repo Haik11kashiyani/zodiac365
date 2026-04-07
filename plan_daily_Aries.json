@@ -1,82 +1,54 @@
 {
-  "script_text": "Stop scrolling, because your ruling Fire planet Mars is igniting a major turning point right now. Transiting Saturn in your sign is conjuncting your natal Sun while squaring Neptune, creating intense structural pressure in your 3rd House of daily communication. You must anchor that fiery cardinal energy toward tangible logistics instead of getting lost in hypothetical worries. If partnered, a sudden emotional breakthrough emerges during dinner conversations, but you must soften your delivery to bypass unnecessary friction. Single Aries will magnetize a grounded admirer through shared professional networks instead. A sudden financial deposit will activate your 2nd House of resources this Thursday; lock it into high-yield accounts rather than impulse buying. Avoid signing binding contracts before noon, or you will inherit a costly loophole. Follow for tomorrow\u2019s forecast and subscribe so you absolutely never miss my planetary breakdowns.",
+  "script_text": "Hold the phone, Aries \u2014 Mars is lighting a fire under your chart today! Transiting Mars in Gemini is forming a tense square to your natal Mars in Aries, activating your 3rd House of Communication and sparking restless mental energy. Meanwhile, Venus in Taurus is sextile your natal Mars, bringing a warm, grounding influence to your 7th House of Partnerships and making conversations with lovers feel surprisingly steady. In love, if you're attached, expect a productive talk that clears lingering tension; if single, you'll attract someone who appreciates your directness but also offers calm patience. For career and money, Jupiter in Cancer trines your natal Sun in the 10th House, opening a door to a leadership role or a financial bonus tied to a long\u2011term project. Watch out for impulsive emails \u2014 pause before hitting send, as the Mars square could tempt you to speak too sharply. Follow for tomorrow's reading.",
   "captions_structure": [
     {
-      "text": "ARIES",
+      "text": "ARIES ALERT",
       "type": "header"
     },
     {
-      "text": "Stop scrolling, because your ruling Fire planet Mars is igniting a major turning point right now.",
-      "type": "normal"
-    },
-    {
-      "text": "Transiting Saturn in your sign is conjuncting your natal Sun while squaring Neptune, creating intense structural pressure in your 3rd House of daily communication.",
-      "type": "normal"
-    },
-    {
-      "text": "You must anchor that fiery cardinal energy toward tangible logistics instead of getting lost in hypothetical worries.",
-      "type": "normal"
-    },
-    {
-      "text": "If partnered, a sudden emotional breakthrough emerges during dinner conversations, but you must soften your delivery to bypass unnecessary friction.",
-      "type": "normal"
-    },
-    {
-      "text": "Single Aries will magnetize a grounded admirer through shared professional networks instead.",
-      "type": "normal"
-    },
-    {
-      "text": "A sudden financial deposit will activate your 2nd House of resources this Thursday; lock it into high-yield accounts rather than impulse buying.",
-      "type": "normal"
-    },
-    {
-      "text": "Avoid signing binding contracts before noon, or you will inherit a costly loophole.",
-      "type": "normal"
-    },
-    {
-      "text": "Follow for tomorrow\u2019s forecast and subscribe so you absolutely never miss my planetary breakdowns.",
+      "text": "Hold the phone, Aries \u2014 Mars is lighting a fire under your chart today! Transiting Mars in Gemini is forming a tense square to your natal Mars in Aries, activating your 3rd House of Communication and sparking restless mental energy. Meanwhile, Venus in Taurus is sextile your natal Mars, bringing a warm, grounding influence to your 7th House of Partnerships and making conversations with lovers feel surprisingly steady. In love, if you're attached, expect a productive talk that clears lingering tension; if single, you'll attract someone who appreciates your directness but also offers calm patience. For career and money, Jupiter in Cancer trines your natal Sun in the 10th House, opening a door to a leadership role or a financial bonus tied to a long\u2011term project. Watch out for impulsive emails \u2014 pause before hitting send, as the Mars square could tempt you to speak too sharply. Follow for tomorrow's reading.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
-    "8",
-    "17",
-    "33"
+    "7",
+    "14",
+    "22"
   ],
-  "lucky_color": "Crimson Ember",
-  "monthly_vibe": "Grounded Ambition",
-  "title": "Aries: The Sky Is Warning You",
-  "youtube_description": "Something heavy is shifting in your chart, and it\u2019s directly tied to a hard Saturn-Neptune square targeting your communication zones. I\u2019m breaking down exactly how this transit will shift your finances and romantic life. Comment your sign for more.",
+  "lucky_color": "Emerald Green",
+  "monthly_vibe": "Bold Action",
+  "title": "Aries Alert: Mars Ignites Your Chart Today",
+  "youtube_title": "Aries Mars Squares Bring Bold Moves #shorts",
+  "youtube_description": "Curious what Mars in Gemini means for your Aries energy today? This quick reading reveals exactly how the planetary square impacts your talk, love, and career. Comment your sign and share your thoughts!",
   "youtube_tags": [
-    "aries",
-    "aries horoscope",
+    "astrology",
+    "horoscope",
     "daily horoscope",
-    "western astrology",
-    "mars transit",
-    "saturn square neptune",
-    "astrology reading",
+    "aries horoscope",
     "aries today",
-    "horoscope 2026",
-    "zodiac signs",
+    "aries april 2026",
+    "mars transit",
+    "venus sextile",
+    "jupiter trine",
+    "zodiac predictions",
     "cosmic energy",
+    "manifestation",
     "spiritual tiktok",
-    "manifestation tips",
-    "fire sign energy",
-    "relationship astrology",
-    "career finance astro",
-    "planetary transits",
-    "natal chart readings",
-    "astrology forecast",
-    "aries love horoscope"
+    "star signs",
+    "love prediction",
+    "career forecast",
+    "money luck",
+    "aries personality",
+    "planetary aspects",
+    "astrology guide"
   ],
   "type": "daily",
   "target": "Aries",
-  "date": "April 05, 2026",
+  "date": "April 07, 2026",
   "images": [
     "assets/zodiac_signs/Aries.jpg"
   ],
   "active": true,
-  "status": "error",
-  "file_name": "plan_daily_Aries.json",
-  "error_reason": "Upload failed"
+  "status": "uploaded",
+  "file_name": "plan_daily_Aries.json"
 }
