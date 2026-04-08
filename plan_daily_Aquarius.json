@@ -1,45 +1,78 @@
 {
-  "script_text": "Stop! Aquarius, the stars are screaming at you right now. Mercury in your 10th House squares Saturn, creating career pressure that demands your attention today. Single Aquarians might attract a partner with unconventional ideas, while couples should balance independence with togetherness. Avoid impulsive career moves; focus on steady progress. This transit warns against heated debates\u2014they won't resolve anything. Follow for tomorrow's reading.",
+  "script_text": "Quiet your mind, Aquarius, because the cosmos is forcing a confrontation you can no longer ignore. Uranus, your ruling planet, is currently forming a tense square to Saturn in your 10th House of public reputation and career structure. This friction creates a sudden clash between your need for radical freedom and the rigid demands of your professional obligations. In love, a trine from Venus to your 5th House suggests a spontaneous, electrifying encounter with someone who mirrors your intellectual eccentricity. Regarding your finances, watch your 2nd House closely, as a volatile transit suggests an unexpected expenditure linked to a sudden technological upgrade. Avoid making any impulsive long-term contracts until the moon shifts houses tonight. Follow for tomorrow's reading to see how this tension resolves.",
   "captions_structure": [
     {
-      "text": "AQUARIUS ALERT",
+      "text": "AQUARIUS",
       "type": "header"
     },
     {
-      "text": "Stop! Aquarius, the stars are screaming at you right now.",
+      "text": "Quiet your mind, Aquarius, because the cosmos is forcing a confrontation you can no longer ignore.",
+      "type": "normal"
+    },
+    {
+      "text": "Uranus, your ruling planet, is forming a tense square to Saturn in your 10th House.",
+      "type": "normal"
+    },
+    {
+      "text": "This creates a clash between freedom and professional structure.",
+      "type": "normal"
+    },
+    {
+      "text": "In love, Venus trines your 5th House, bringing an electrifying new encounter.",
+      "type": "normal"
+    },
+    {
+      "text": "Watch your 2nd House for sudden, unexpected tech expenses.",
+      "type": "normal"
+    },
+    {
+      "text": "Avoid signing any long-term contracts today.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for tomorrow's reading.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
-    "7",
-    "11",
-    "21"
+    11,
+    22,
+    47
   ],
-  "lucky_color": "Emerald Green",
-  "monthly_vibe": "Reflective & Calm",
-  "title": "Aquarius \u2014 Don't Ignore This Cosmic Signal",
-  "youtube_title": "Aquarius \u2014 Don't Ignore This Cosmic Signal #shorts",
-  "youtube_description": "Mercury squares Saturn in your career sector today. What does this mean for your ambitions? Watch for unexpected insights about your path forward.",
+  "lucky_color": "Electric Violet",
+  "monthly_vibe": "Chaotic Transformation",
+  "title": "Aquarius \u2014 A Sudden Career Clash",
+  "youtube_title": "Aquarius Warning: Do Not Sign Anything Today #shorts",
+  "youtube_description": "Your ruling planet Uranus is causing a major shakeup in your career sector today. Discover why a sudden financial expense might be looming and how to navigate an unexpected romantic spark. Comment your sign below!",
   "youtube_tags": [
-    "aquarius horoscope 2026",
-    "mercury retrograde aquarius",
-    "astrology career advice",
-    "aquarius love today",
-    "saturn transit aquarius",
+    "astrology",
+    "horoscope",
+    "aquarius",
+    "aquarius horoscope",
+    "aquarius daily horoscope",
+    "aquarius today",
+    "uranus",
+    "saturn",
+    "zodiac",
     "astrology predictions",
-    "aquarius daily reading",
-    "mercury square saturn",
-    "career astrology",
-    "aquarius relationships"
+    "cosmic energy",
+    "spiritual guidance",
+    "manifestation",
+    "astrologer",
+    "aquarius personality",
+    "daily astrology",
+    "star signs",
+    "astrology transit",
+    "air sign",
+    "astrology reading"
   ],
   "type": "daily",
   "target": "Aquarius",
-  "date": "March 04, 2026",
+  "date": "April 08, 2026",
   "images": [
     "assets/zodiac_signs/Aquarius.jpg"
   ],
   "active": true,
-  "status": "error",
-  "file_name": "plan_daily_Aquarius.json",
-  "error_reason": "Upload failed"
+  "status": "uploaded",
+  "file_name": "plan_daily_Aquarius.json"
 }

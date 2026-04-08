@@ -1,49 +1,45 @@
 {
-  "script_text": "Pattern Interrupt: The Stars Align for Pisces' Elegant Paradox. Venus trines Pluto on 5th House, making love feel both deep and fleeting. Wednesday\u2019s magic demands courage.",
-  "lucky_numbers": [
-    7,
-    11,
-    21
-  ],
-  "captions_structure": [
-    {
-      "text": "PISCES",
-      "type": "header"
-    },
-    {
-      "text": "First Line..."
-    }
-  ],
-  "lucky_color": "Emerald Green",
-  "monthly_vibe": "Reflective & Calm",
-  "title": "Pisces Weekly Horoscope ...",
-  "youtube_title": "Pisces\u2019 Keys #shorts",
-  "youtube_description": "Whispers of depth and opportunity. Comment your sign.",
+  "script_text": "Stop scrolling! Mercury is making a powerful trine to Jupiter right now, and this is huge for you. Your 10th House of Career is lit up \u2014 expect a sudden opportunity from someone in authority. A boss, a mentor, or even a stranger could open a door you didn't know existed. In love, Venus is gliding through your 5th House, making you absolutely magnetic today. If you're single, pay attention to who shows up. If you're taken, tonight is the night for a deep conversation. One warning \u2014 avoid signing contracts before Thursday. Mercury's energy is expansive but not detail-oriented right now. Your ruling planet is working overtime for you. Follow for tomorrow's reading and don't miss what's coming this week!",
+  "title": "Daily Cosmic Forecast April 08, 2026",
+  "youtube_title": "The Stars Are Sending You an Urgent Sign #shorts",
+  "youtube_description": "Mercury trine Jupiter is activating your Career house TODAY (April 08, 2026). A major opportunity is heading your way \u2014 but there's one thing you need to avoid. Comment your sign!",
   "youtube_tags": [
-    "Pisces",
-    "Horoscope",
-    "Planets",
-    "Reflection",
-    "Love",
-    "Career",
-    "Cares",
-    "Eclipse"
+    "horoscope",
+    "astrology",
+    "zodiac",
+    "daily horoscope",
+    "mercury trine jupiter",
+    "career horoscope",
+    "love horoscope",
+    "horoscope today",
+    "zodiac signs",
+    "spiritual guidance",
+    "manifestation",
+    "cosmic energy",
+    "astrology shorts",
+    "zodiac shorts",
+    "planetary transit",
+    "spiritual awakening",
+    "energy shift",
+    "zodiac prediction",
+    "venus 5th house",
+    "astrology reading"
   ],
-  "captsions_structure": [
-    {
-      "text": "PISCES\"ALERT"
-    },
-    {
-      "text": "Focusing..."
-    }
+  "lucky_numbers": [
+    "7",
+    "11",
+    "22"
   ],
+  "lucky_color": "Celestial Gold",
+  "monthly_vibe": "Unexpected Opportunity",
   "type": "weekly",
   "target": "Pisces",
-  "date": "Mar 04 - Mar 10",
+  "date": "Apr 08 - Apr 14",
   "images": [
     "assets/zodiac_signs/Pisces.jpg"
   ],
   "active": true,
-  "status": "uploaded",
-  "file_name": "plan_weekly_Pisces.json"
+  "status": "error",
+  "file_name": "plan_weekly_Pisces.json",
+  "error_reason": "Upload failed"
 }
