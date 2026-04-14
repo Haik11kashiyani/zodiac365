@@ -1,45 +1,51 @@
 {
-  "script_text": "Stop scrolling! Mercury is making a powerful trine to Jupiter right now, and this is huge for you. Your 10th House of Career is lit up \u2014 expect a sudden opportunity from someone in authority. A boss, a mentor, or even a stranger could open a door you didn't know existed. In love, Venus is gliding through your 5th House, making you absolutely magnetic today. If you're single, pay attention to who shows up. If you're taken, tonight is the night for a deep conversation. One warning \u2014 avoid signing contracts before Thursday. Mercury's energy is expansive but not detail-oriented right now. Your ruling planet is working overtime for you. Follow for tomorrow's reading and don't miss what's coming this week!",
-  "title": "Daily Cosmic Forecast April 08, 2026",
-  "youtube_title": "The Stars Are Sending You an Urgent Sign #shorts",
-  "youtube_description": "Mercury trine Jupiter is activating your Career house TODAY (April 08, 2026). A major opportunity is heading your way \u2014 but there's one thing you need to avoid. Comment your sign!",
-  "youtube_tags": [
-    "horoscope",
-    "astrology",
-    "zodiac",
-    "daily horoscope",
-    "mercury trine jupiter",
-    "career horoscope",
-    "love horoscope",
-    "horoscope today",
-    "zodiac signs",
-    "spiritual guidance",
-    "manifestation",
-    "cosmic energy",
-    "astrology shorts",
-    "zodiac shorts",
-    "planetary transit",
-    "spiritual awakening",
-    "energy shift",
-    "zodiac prediction",
-    "venus 5th house",
-    "astrology reading"
+  "script_text": "Something disruptive stirs beneath the surface for Pisces this week. Ruled by Neptune and swimming in the fluid depths of the Water element, you face a sextile from Jupiter in your 10th House on Monday fueling career momentum, yet a square from Saturn in your 1st House on Tuesday creates pressure. Mid-week, the turning point arrives as the Sun trines your natal Neptune in the 4th House on Wednesday, shifting focus inward. Late week, Venus enters your 5th House, enhancing creativity and romance. Thursday brings relief and dreamy alignment. Friday is your power day because Venus enters your 5th House, boosting love luck, while Tuesday is your challenge day due to Saturn\u2019s restrictive square. This week advises balancing idealism with practical financial choices. Follow for daily updates.",
+  "captions_structure": [
+    {
+      "text": "PISCES",
+      "type": "header"
+    },
+    {
+      "text": "Something disruptive stirs beneath the surface for Pisces this week.",
+      "type": "normal"
+    }
   ],
   "lucky_numbers": [
     "7",
     "11",
-    "22"
+    "21"
   ],
-  "lucky_color": "Celestial Gold",
-  "monthly_vibe": "Unexpected Opportunity",
+  "lucky_color": "Emerald Green",
+  "monthly_vibe": "Reflective & Calm",
+  "title": "Pisces \u2014 Don't Ignore This Week",
+  "youtube_description": "Jupiter sextiles your career while Saturn challenges your identity. Comment your sign for specific guidance on navigating this cosmic tension.",
+  "youtube_tags": [
+    "pisces",
+    "pisces horoscope",
+    "pisces today",
+    "horoscope",
+    "astrology",
+    "neptune",
+    "water sign",
+    "weekly horoscope",
+    "manifestation",
+    "cosmic energy",
+    "spiritual tiktok",
+    "astrology tips",
+    "pisces love",
+    "career astrology",
+    "moon sign",
+    "solar return",
+    "zodiac",
+    "transit"
+  ],
   "type": "weekly",
   "target": "Pisces",
-  "date": "Apr 08 - Apr 14",
+  "date": "Apr 14 - Apr 20",
   "images": [
     "assets/zodiac_signs/Pisces.jpg"
   ],
   "active": true,
-  "status": "error",
-  "file_name": "plan_weekly_Pisces.json",
-  "error_reason": "Upload failed"
+  "status": "uploaded",
+  "file_name": "plan_weekly_Pisces.json"
 }

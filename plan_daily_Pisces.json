@@ -1,44 +1,52 @@
 {
-  "script_text": "Wait \u2014 before you scroll past this, the Moon is forming an exact opposition to Pluto today, and you need to hear this. Deep emotions are rising to the surface. Your 4th House of Home and Family is activated, which means unresolved tensions could explode \u2014 or finally heal. In your career, Mars in your 6th House is pushing you to work harder than ever. Channel that fire into one specific goal today, not ten. Love is intense right now. Venus square Neptune is creating illusions \u2014 don't believe everything you see in a new connection. Trust actions over words. The gift today is emotional clarity if you're brave enough to look within. Your power move is honesty. Subscribe so you catch tomorrow's cosmic download!",
-  "title": "Daily Cosmic Forecast April 08, 2026",
-  "youtube_title": "Something Deep Is Stirring In Your Chart #shorts",
-  "youtube_description": "Moon opposite Pluto is bringing buried emotions to the surface (April 08, 2026). Your family sector is activated and love is NOT what it seems. Comment your sign!",
-  "youtube_tags": [
-    "horoscope",
-    "astrology",
-    "zodiac",
-    "daily horoscope",
-    "moon opposite pluto",
-    "emotional healing",
-    "love horoscope",
-    "horoscope today",
-    "zodiac signs",
-    "spiritual guidance",
-    "manifestation",
-    "cosmic energy",
-    "astrology shorts",
-    "zodiac shorts",
-    "planetary transit",
-    "venus square neptune",
-    "mars 6th house",
-    "zodiac prediction",
-    "deep astrology",
-    "astrology reading"
+  "script_text": "Stop! Pisces, the cosmos is jolting you awake right now. Jupiter in Gemini forms a supportive sextile to your ruling planet Neptune, enhancing intuition in your 3rd House of Communication, while Venus in Taurus opposes your 9th House of Expansion, grounding your wanderlust. In love, singles should attract partners by embracing vulnerability, as this aspect opens emotional channels for genuine connection. For career and money, your 10th House of public image demands careful financial planning, avoiding impulsive risks that could destabilize gains. Beware of over-idealizing situations, as illusion can mask practical realities. Channel this energy into disciplined action to manifest stability. Follow for tomorrow's reading to navigate these shifts wisely. Subscribe so you don't miss what's coming this week.",
+  "captions_structure": [
+    {
+      "text": "PISCES",
+      "type": "header"
+    },
+    {
+      "text": "Stop! Pisces, the cosmos is jolting you awake right now.",
+      "type": "normal"
+    }
   ],
   "lucky_numbers": [
-    "3",
-    "16",
-    "33"
+    "7",
+    "11",
+    "21"
   ],
-  "lucky_color": "Deep Violet",
-  "monthly_vibe": "Emotional Breakthrough",
+  "lucky_color": "Emerald Green",
+  "monthly_vibe": "Reflective & Calm",
+  "title": "Pisces \u2014 Don't Ignore This",
+  "youtube_description": "Jupiter sextiles Neptune in your 3rd house, while Venus opposes your 9th house. This unique aspect reveals how to balance dreams with practical action. Comment your sign for personalized insights.",
+  "youtube_tags": [
+    "astrology",
+    "horoscope",
+    "pisces horoscope",
+    "pisces today",
+    "jupiter sextile neptune",
+    "venus opposition 9th house",
+    "daily horoscope",
+    "pisces 2026",
+    "spiritual tiktok",
+    "manifestation",
+    "cosmic energy",
+    "emerald green",
+    "lucky numbers",
+    "relationship advice",
+    "career guidance",
+    "financial planning",
+    "intuition",
+    "communication house"
+  ],
   "type": "daily",
   "target": "Pisces",
-  "date": "April 08, 2026",
+  "date": "April 14, 2026",
   "images": [
     "assets/zodiac_signs/Pisces.jpg"
   ],
   "active": true,
-  "status": "uploaded",
-  "file_name": "plan_daily_Pisces.json"
+  "status": "error",
+  "file_name": "plan_daily_Pisces.json",
+  "error_reason": "Upload failed"
 }

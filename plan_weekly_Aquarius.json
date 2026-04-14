@@ -1,45 +1,49 @@
 {
-  "script_text": "Wait \u2014 before you scroll past this, the Moon is forming an exact opposition to Pluto today, and you need to hear this. Deep emotions are rising to the surface. Your 4th House of Home and Family is activated, which means unresolved tensions could explode \u2014 or finally heal. In your career, Mars in your 6th House is pushing you to work harder than ever. Channel that fire into one specific goal today, not ten. Love is intense right now. Venus square Neptune is creating illusions \u2014 don't believe everything you see in a new connection. Trust actions over words. The gift today is emotional clarity if you're brave enough to look within. Your power move is honesty. Subscribe so you catch tomorrow's cosmic download!",
-  "title": "Daily Cosmic Forecast April 08, 2026",
-  "youtube_title": "Something Deep Is Stirring In Your Chart #shorts",
-  "youtube_description": "Moon opposite Pluto is bringing buried emotions to the surface (April 08, 2026). Your family sector is activated and love is NOT what it seems. Comment your sign!",
-  "youtube_tags": [
-    "horoscope",
-    "astrology",
-    "zodiac",
-    "daily horoscope",
-    "moon opposite pluto",
-    "emotional healing",
-    "love horoscope",
-    "horoscope today",
-    "zodiac signs",
-    "spiritual guidance",
-    "manifestation",
-    "cosmic energy",
-    "astrology shorts",
-    "zodiac shorts",
-    "planetary transit",
-    "venus square neptune",
-    "mars 6th house",
-    "zodiac prediction",
-    "deep astrology",
-    "astrology reading"
+  "script_text": "Something disruptive stirs beneath Aquarius as Uranus in your 10th House shakes your career foundation early. On Monday, Mars squares your natal Moon in the 1st, fueling impulsive conflicts, while Wednesday brings relief as Mercury trines Neptune in the 4th, enhancing intuition. Thursday marks the turning point when Jupiter conjoins your North Node in the 7th, shifting partnership dynamics. By Friday, Venus enters your 5th House, transforming your love life with playful authenticity and creative dates, and on Saturday, Saturn sextiles your 10th House, stabilizing finances through disciplined strategy. Wednesday is your power day because Jupiter conjoins your North Node in the 7th, and Friday is chaotic due to Mars\u2019 square to your natal Moon. Focus on grounding your ideals with practical action. Follow for daily updates.",
+  "captions_structure": [
+    {
+      "text": "AQUARIUS",
+      "type": "header"
+    },
+    {
+      "text": "First line of the script...",
+      "type": "normal"
+    }
   ],
   "lucky_numbers": [
-    "3",
-    "16",
-    "33"
+    "7",
+    "11",
+    "21"
   ],
-  "lucky_color": "Deep Violet",
-  "monthly_vibe": "Emotional Breakthrough",
+  "lucky_color": "Emerald Green",
+  "monthly_vibe": "Reflective & Calm",
+  "title": "Aquarius \u2014 Disruptive Shift in Career",
+  "youtube_description": "This week\u2019s cosmic forecast for Aquarius reveals how Jupiter and Mars reshape your work and love. Comment your sign for tailored guidance.",
+  "youtube_tags": [
+    "astrology",
+    "horoscope",
+    "aquarius horoscope",
+    "aquarius today",
+    "aquarius weekly",
+    "uranus",
+    "jupiter",
+    "saturn",
+    "mercury",
+    "venus",
+    "mars",
+    "north node",
+    "love prediction",
+    "career prediction",
+    "midweek shift",
+    "manifestation"
+  ],
   "type": "weekly",
   "target": "Aquarius",
-  "date": "Apr 08 - Apr 14",
+  "date": "Apr 14 - Apr 20",
   "images": [
     "assets/zodiac_signs/Aquarius.jpg"
   ],
   "active": true,
-  "status": "error",
-  "file_name": "plan_weekly_Aquarius.json",
-  "error_reason": "Upload failed"
+  "status": "uploaded",
+  "file_name": "plan_weekly_Aquarius.json"
 }
