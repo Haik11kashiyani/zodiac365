@@ -1,12 +1,16 @@
 {
-  "script_text": "Stop! Aries, the cosmos is flashing a red alert just for you. The Moon is currently in your 4th House of Home and Family, forming a harmonious trine to your ruling planet Mars in your 1st House of Self, while simultaneously squaring Saturn in your 7th House of Partnerships. Venus is sextile Jupiter in your 5th House of Romance, bringing a creative spark that invites playful flirtation if you're single or a deepening bond if you're attached. The Sun is conjunct Mars in your 10th House of Career, energizing your professional drive, highlighting a chance for a raise or new project, and could attract recognition from superiors. Avoid making hasty financial decisions today, as Mercury's retrograde stir in your 2nd House could cloud your judgment; instead, pause and review your budget before any big purchase. Subscribe so you don't miss what's coming this week.",
+  "script_text": "Stop! Aries, the cosmos is jolting you awake right now. Mars forms a tense square to your ruling planet, igniting friction in your 6th House of Daily Routines and health protocols. Meanwhile, Venus trines your Ascendant in the 1st House, softening your assertive edge and boosting charisma. In love, single Aries should attract partners through shared intellectual curiosity, while coupled natives must watch for impatience creeping into disagreements. Financially, your 10th House of Career demands meticulous budgeting\u2014avoid impulsive spending on status symbols. Beware an unexpected gift overspending that derails your savings goals. Follow for tomorrow's reading to navigate this planetary shift. Subscribe so you don't miss what's coming this week.",
   "captions_structure": [
     {
-      "text": "ARIES ALERT",
+      "text": "ARIES",
       "type": "header"
     },
     {
-      "text": "Stop! Aries, the cosmos is flashing a red alert just for you.",
+      "text": "Stop! Aries, the cosmos is jolting you awake right now.",
+      "type": "normal"
+    },
+    {
+      "text": "First line of the script...",
       "type": "normal"
     }
   ],
@@ -16,35 +20,34 @@
     "21"
   ],
   "lucky_color": "Emerald Green",
-  "monthly_vibe": "Bold Action",
-  "title": "Aries Daily Horoscope April 12, 2026",
-  "youtube_title": "Aries Alert: Cosmic Shockwave Today #shorts",
-  "youtube_description": "Today's planetary lineup reveals a surprise career boost and a romantic spark you won't see coming. Find out how the Moon\u2019s trine to Mars could change your day. Comment your sign and share your thoughts!",
+  "monthly_vibe": "Reflective & Calm",
+  "title": "Aries \u2014 Don't Ignore This Warning",
+  "youtube_description": "Mars squares your ruling planet while Venus brightens your 1st House today. Comment your sign for tailored guidance on handling tension and charm. What hidden opportunity will this reveal?",
   "youtube_tags": [
     "astrology",
     "horoscope",
-    "daily horoscope",
     "aries horoscope",
     "aries today",
-    "aries april 2026",
-    "zodiac",
-    "cosmic energy",
-    "manifestation",
-    "spiritual tiktok",
-    "moon trine mars",
-    "venus sextile jupiter",
-    "sun conjunct mars",
-    "mercury retrograde",
-    "finance advice",
+    "daily horoscope",
+    "mars square",
+    "venus trine",
+    "ascendant",
     "love prediction",
-    "career forecast",
-    "aries personality",
-    "fire sign",
-    "star guide"
+    "career advice",
+    "money tips",
+    "6th house",
+    "10th house",
+    "manifestation",
+    "cosmic energy",
+    "spiritual tiktok",
+    "zodiac",
+    "aries season",
+    "daily guidance",
+    "self improvement"
   ],
   "type": "daily",
   "target": "Aries",
-  "date": "April 12, 2026",
+  "date": "April 18, 2026",
   "images": [
     "assets/zodiac_signs/Aries.jpg"
   ],
