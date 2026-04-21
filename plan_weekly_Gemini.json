@@ -1,85 +1,45 @@
 {
-  "script_text": "Something unexpected arrives on Tuesday \u2014 and it will flip your entire week on its head. Early week brings Venus in your 7th House of partnerships squaring off with your ruling planet Mercury in Taurus, stirring up relationship tension and forcing you to communicate boundaries you have been avoiding. Monday and Tuesday bring heated conversations with a partner or potential love interest, as this Aries-Taurus tension creates frustration around commitments. Wednesday is your power day because Mercury trines Neptune in your 3rd House of communication, giving you the gift of psychic intuition \u2014 pay attention to your dreams and gut feelings. Mid-week brings a turning point: the Sun in late Aries opposes Saturn in your 9th House, asking you to choose between playing it safe or taking a bold risk regarding travel, education, or your long-term beliefs. Late week shifts as Venus enters Taurus and your 8th House on Saturday, bringing deeper emotional intensity to finances and intimacy \u2014 expect an unexpected money situation or power dynamic shift. Your career sector lights up Thursday with Mars in your 10th House trining Jupiter, giving you the confidence to go after what you want. Weekend brings a needed pause for rest and reflection. Your love and career both demand attention this week, and the universe is not taking no for an answer.",
-  "captions_structure": [
-    {
-      "text": "GEMINI ALERT",
-      "type": "header"
-    },
-    {
-      "text": "Something unexpected arrives on Tuesday \u2014 and it will flip your entire week on its head.",
-      "type": "normal"
-    },
-    {
-      "text": "Early week brings Venus in your 7th House of partnerships squaring off with your ruling planet Mercury in Taurus, stirring up relationship tension and forcing you to communicate boundaries.",
-      "type": "normal"
-    },
-    {
-      "text": "Monday and Tuesday bring heated conversations with a partner or potential love interest.",
-      "type": "normal"
-    },
-    {
-      "text": "Wednesday is your power day because Mercury trines Neptune in your 3rd House of communication, giving you the gift of psychic intuition.",
-      "type": "normal"
-    },
-    {
-      "text": "Mid-week turning point: The Sun in late Aries opposes Saturn in your 9th House, asking you to choose between playing it safe or taking a bold risk.",
-      "type": "normal"
-    },
-    {
-      "text": "Late week shifts as Venus enters Taurus and your 8th House on Saturday, bringing deeper emotional intensity to finances and intimacy.",
-      "type": "normal"
-    },
-    {
-      "text": "Your career sector lights up Thursday with Mars in your 10th House trining Jupiter.",
-      "type": "normal"
-    },
-    {
-      "text": "Weekend brings a needed pause for rest and reflection.",
-      "type": "normal"
-    },
-    {
-      "text": "Follow for daily updates.",
-      "type": "cta"
-    }
+  "script_text": "Stop scrolling! Mercury is making a powerful trine to Jupiter right now, and this is huge for you. Your 10th House of Career is lit up \u2014 expect a sudden opportunity from someone in authority. A boss, a mentor, or even a stranger could open a door you didn't know existed. In love, Venus is gliding through your 5th House, making you absolutely magnetic today. If you're single, pay attention to who shows up. If you're taken, tonight is the night for a deep conversation. One warning \u2014 avoid signing contracts before Thursday. Mercury's energy is expansive but not detail-oriented right now. Your ruling planet is working overtime for you. Follow for tomorrow's reading and don't miss what's coming this week!",
+  "title": "Daily Cosmic Forecast April 21, 2026",
+  "youtube_title": "The Stars Are Sending You an Urgent Sign #shorts",
+  "youtube_description": "Mercury trine Jupiter is activating your Career house TODAY (April 21, 2026). A major opportunity is heading your way \u2014 but there's one thing you need to avoid. Comment your sign!",
+  "youtube_tags": [
+    "horoscope",
+    "astrology",
+    "zodiac",
+    "daily horoscope",
+    "mercury trine jupiter",
+    "career horoscope",
+    "love horoscope",
+    "horoscope today",
+    "zodiac signs",
+    "spiritual guidance",
+    "manifestation",
+    "cosmic energy",
+    "astrology shorts",
+    "zodiac shorts",
+    "planetary transit",
+    "spiritual awakening",
+    "energy shift",
+    "zodiac prediction",
+    "venus 5th house",
+    "astrology reading"
   ],
   "lucky_numbers": [
     "7",
     "11",
-    "21"
+    "22"
   ],
-  "lucky_color": "Emerald Green",
-  "monthly_vibe": "Reflective & Calm",
-  "title": "Gemini \u2014 Something Unexpected Is Coming",
-  "youtube_description": "Gemini, this week brings a major turning point that will flip your entire week on its head. Venus squares your ruling planet Mercury early week, stirring relationship tension, while Wednesday offers a powerful intuitive gift. Your career gets a Mars-Jupiter boost Thursday \u2014 but the weekend demands you slow down. Comment your sign below for your personalized reading.",
-  "youtube_tags": [
-    "gemini horoscope",
-    "gemini weekly",
-    "gemini april 2026",
-    "astrology gemini",
-    "western astrology",
-    "horoscope",
-    "daily horoscope",
-    "zodiac signs",
-    "astrology prediction",
-    "gemini love",
-    "gemini career",
-    "mercury gemini",
-    "venus 7th house",
-    "mars 10th house",
-    "spiritual tiktok",
-    "cosmic energy",
-    "manifestation",
-    "astrology tiktok",
-    "horoscope tiktok",
-    "astrology reading"
-  ],
+  "lucky_color": "Celestial Gold",
+  "monthly_vibe": "Unexpected Opportunity",
   "type": "weekly",
   "target": "Gemini",
-  "date": "Apr 06 - Apr 12",
+  "date": "Apr 21 - Apr 27",
   "images": [
     "assets/zodiac_signs/Gemini.jpg"
   ],
   "active": true,
-  "status": "uploaded",
-  "file_name": "plan_weekly_Gemini.json"
+  "status": "error",
+  "file_name": "plan_weekly_Gemini.json",
+  "error_reason": "Upload failed"
 }
