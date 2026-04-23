@@ -1,12 +1,48 @@
 {
-  "script_text": "A seismic shift disrupts Cancer\u2019s emotional equilibrium this week. Early Monday, Mercury trine your natal Moon in the 10th House boosts career focus, while Wednesday\u2019s Sun square Saturn in the 4th tests resilience; Monday and Tuesday are best for bold moves, Thursday worst due to friction. On Thursday, the Moon enters your 6th House, pivoting your daily routines. Later, Venus trine Neptune in the 2nd enhances finances, and Mars in the 7th sparks passionate love connections. Wednesday is your power day because the Sun activates your 4th House of roots. Friday brings luck in collaborative ventures. Focus on grounding emotions to stabilize your Water element ruled by the Moon. Follow for daily updates.",
+  "script_text": "Cancer, the cosmic tides are shifting dramatically as your ruling Moon opposes Pluto in your 7th House of partnerships this week. Early on, Monday through Wednesday, Venus sextiles Uranus in your 11th House, sparking an unexpected but lucrative career opportunity or sudden social breakthrough. However, Wednesday brings tension as Mars squares Saturn in your 10th House, potentially causing friction with an authority figure or a delay in a professional project. The mid-week turning point arrives Thursday when the Sun trines intense Pluto, empowering you to transform a key relationship dynamic and take control of your shared resources. Heading into the weekend, Venus enters your romantic 5th House on Friday, promising a delightful surge in your love life and creative passions. Sunday is best for relaxation as Mercury enters Taurus in your 11th House. Tuesday is your power day because the Venus-Uranus sextile opens financial doors. Thursday is your most challenging day because Mars squares Saturn in your career sector. Trust your intuition this week, as your Water element guides you through these changing currents. Follow for daily updates.",
   "captions_structure": [
     {
-      "text": "CANCER",
+      "text": "CANCER ALERT",
       "type": "header"
     },
     {
-      "text": "This week, Mercury trine Moon sharpens your career instincts.",
+      "text": "Cancer, the cosmic tides are shifting dramatically as your ruling Moon opposes Pluto in your 7th House of partnerships this week.",
+      "type": "normal"
+    },
+    {
+      "text": "Early on, Monday through Wednesday, Venus sextiles Uranus in your 11th House, sparking an unexpected but lucrative career opportunity or sudden social breakthrough.",
+      "type": "normal"
+    },
+    {
+      "text": "However, Wednesday brings tension as Mars squares Saturn in your 10th House, potentially causing friction with an authority figure or a delay in a professional project.",
+      "type": "normal"
+    },
+    {
+      "text": "The mid-week turning point arrives Thursday when the Sun trines intense Pluto, empowering you to transform a key relationship dynamic and take control of your shared resources.",
+      "type": "normal"
+    },
+    {
+      "text": "Heading into the weekend, Venus enters your romantic 5th House on Friday, promising a delightful surge in your love life and creative passions.",
+      "type": "normal"
+    },
+    {
+      "text": "Sunday is best for relaxation as Mercury enters Taurus in your 11th House.",
+      "type": "normal"
+    },
+    {
+      "text": "Tuesday is your power day because the Venus-Uranus sextile opens financial doors.",
+      "type": "normal"
+    },
+    {
+      "text": "Thursday is your most challenging day because Mars squares Saturn in your career sector.",
+      "type": "normal"
+    },
+    {
+      "text": "Trust your intuition this week, as your Water element guides you through these changing currents.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for daily updates.",
       "type": "normal"
     }
   ],
@@ -17,36 +53,39 @@
   ],
   "lucky_color": "Emerald Green",
   "monthly_vibe": "Reflective & Calm",
-  "title": "Cancer \u2014 The Week\u2019s Hidden Shift",
-  "youtube_description": "Week ahead for Cancer with Mercury and Venus aspects revealed. See how love and career transform. Comment your sign for insights.",
+  "title": "Something Big Is Coming for Cancer",
+  "youtube_title": "Something Big Is Coming for Cancer #shorts",
+  "youtube_description": "Your ruling Moon is setting off major shifts in your career and love life this week. Discover how the Venus-Uranus sextile and Mars-Saturn square will specifically impact your path. Comment your sign to claim this energy!",
   "youtube_tags": [
-    "cancer horoscope",
-    "cancer today",
-    "cancer weekly",
+    "Cancer",
+    "Cancer horoscope",
+    "Cancer weekly horoscope",
     "astrology",
     "horoscope",
-    "moon trine mercury",
-    "sun square saturn",
-    "venus trine neptune",
-    "water sign",
-    "emotional intelligence",
-    "manifestation",
+    "Cancer April 2026",
+    "Moon opposition Pluto",
+    "Venus sextile Uranus",
+    "Mars square Saturn",
+    "Cancer zodiac",
+    "Cancer astrology",
+    "Cancer sign",
+    "Cancer prediction",
+    "Cancer love horoscope",
+    "Cancer career horoscope",
     "cosmic energy",
     "spiritual tiktok",
-    "zodiac",
-    "transit",
-    "career advice",
-    "love prediction",
-    "house astrology",
-    "natal chart"
+    "manifestation",
+    "7th House astrology",
+    "5th House Venus"
   ],
   "type": "weekly",
   "target": "Cancer",
-  "date": "Apr 21 - Apr 27",
+  "date": "Apr 23 - Apr 29",
   "images": [
     "assets/zodiac_signs/Cancer.jpg"
   ],
   "active": true,
-  "status": "uploaded",
-  "file_name": "plan_weekly_Cancer.json"
+  "status": "error",
+  "file_name": "plan_weekly_Cancer.json",
+  "error_reason": "Upload failed"
 }
