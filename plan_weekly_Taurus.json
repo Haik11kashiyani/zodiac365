@@ -1,54 +1,99 @@
 {
-  "script_text": "Fixed Earth shudders as Taurus, your ruling planet Venus, clashes with erratic Uranus, ripping routine to let destiny rewrite your worth. Early week, Monday to Wednesday, tightens as Mercury in Aries squares Pluto in Aquarius, heating the 2nd House of resources so negotiations surge then stall; Tuesday brings the worst friction while Wednesday steadies with a Venus sextile Saturn that anchors cash plans. Mid-week, Thursday, marks the turning point when the Sun trine Pluto opens your 10th House, vaulting reputation and leadership beyond limits. Late week, Venus enters your 5th House to trine Mars, gluing love in bold, loyal strokes, while Jupiter in Gemini squares your 8th House, stretching joint finances and market gambits through the weekend. Wednesday is your best day because Venus trine Saturn in your 2nd House locks profit with legacy. Friday is your worst day because Jupiter square Pluto strains shared credit lines. Command patience by journaling exact budget moves before Venus stations. Follow for daily updates.",
+  "script_text": "Brace yourself, Taurus, as the cosmos shakes your stability with a surprise celestial clash. Monday\u2019s Venus trine your 2nd House brings clear financial insight and confidence. Tuesday\u2019s Mars square 6th House creates tension that may disrupt health and work. Wednesday\u2019s Sun sextile 10th House makes it the best day for career advancement. Mid\u2011week, the Moon conjunct your 4th House sparks an emotional shift, urging you to reassess home foundations. Thursday\u2019s Venus entering your 5th House ignites romance and creative joy. Friday\u2019s Mercury trine 3rd House sharpens communication for career moves. The weekend eases with Jupiter sextile 1st House, bringing calm and personal growth. Wednesday is your power day because the Sun sextile 10th House amplifies career momentum. Tuesday is your worst day as Mars square 6th House creates health and work stress. Focus on grounding your ambitions with practical routines to harness Earth energy. Follow for daily updates.",
   "captions_structure": [
     {
-      "text": "TAURUS ALERT",
+      "text": "TAURUS",
       "type": "header"
     },
     {
-      "text": "Fixed Earth shudders as Taurus, your ruling planet Venus, clashes with erratic Uranus, ripping routine to let destiny rewrite your worth.",
+      "text": "Brace yourself, Taurus, as the cosmos shakes your stability with a surprise celestial clash.",
+      "type": "normal"
+    },
+    {
+      "text": "Monday\u2019s Venus trine your 2nd House brings clear financial insight and confidence.",
+      "type": "normal"
+    },
+    {
+      "text": "Tuesday\u2019s Mars square 6th House creates tension that may disrupt health and work.",
+      "type": "normal"
+    },
+    {
+      "text": "Wednesday\u2019s Sun sextile 10th House makes it the best day for career advancement.",
+      "type": "normal"
+    },
+    {
+      "text": "Mid\u2011week, the Moon conjunct your 4th House sparks an emotional shift, urging you to reassess home foundations.",
+      "type": "normal"
+    },
+    {
+      "text": "Thursday\u2019s Venus entering your 5th House ignites romance and creative joy.",
+      "type": "normal"
+    },
+    {
+      "text": "Friday\u2019s Mercury trine 3rd House sharpens communication for career moves.",
+      "type": "normal"
+    },
+    {
+      "text": "The weekend eases with Jupiter sextile 1st House, bringing calm and personal growth.",
+      "type": "normal"
+    },
+    {
+      "text": "Wednesday is your power day because the Sun sextile 10th House amplifies career momentum.",
+      "type": "normal"
+    },
+    {
+      "text": "Tuesday is your worst day as Mars square 6th House creates health and work stress.",
+      "type": "normal"
+    },
+    {
+      "text": "Focus on grounding your ambitions with practical routines to harness Earth energy.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for daily updates.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
     "7",
-    "11",
-    "21"
+    "14",
+    "28"
   ],
   "lucky_color": "Emerald Green",
-  "monthly_vibe": "Reflective & Calm",
-  "title": "Taurus \u2014 Don't Ignore This Cosmic Shift",
-  "youtube_title": "Taurus \u2014 Don't Ignore This Cosmic Shift #shorts",
-  "youtube_description": "Venus clashes with Uranus to ignite sudden upgrades in your values and visibility this week. I reveal how the Sun trine Pluto launches your 10th House success exactly when risk peaks. Comment your sign for a custom timing tip.",
+  "monthly_vibe": "Reflective Calm",
+  "title": "Taurus: The Stars Are Whispering",
+  "youtube_title": "Taurus: The Stars Are Whispering #shorts",
+  "youtube_description": "Find out how the Moon conjunct your 4th House and Venus entering your 5th House influence your love and career this week. Taurus, comment your sign below and let the cosmos guide you!",
   "youtube_tags": [
     "astrology",
-    "horoscope",
+    "taurus",
     "taurus horoscope",
-    "taurus today",
-    "taurus weekly",
-    "taurus love",
-    "taurus money",
+    "daily horoscope",
+    "zodiac",
+    "cosmic guidance",
     "venus transit",
-    "pluto trine",
-    "cosmic energy",
-    "spiritual growth",
-    "manifestation",
-    "zodiac forecast",
+    "moon conjunct",
+    "5th house",
+    "career astrology",
+    "love astrology",
     "earth sign",
-    "taurus season",
-    "relationship astrology",
-    "financial astrology",
-    "planetary alignment",
-    "sun transit",
-    "taurus prediction"
+    "astrology 2026",
+    "weekly forecast",
+    "spiritual awakening",
+    "manifestation",
+    "cosmic energy",
+    "zodiac signs",
+    "taurus today",
+    "astrology community"
   ],
   "type": "weekly",
   "target": "Taurus",
-  "date": "Apr 28 - May 04",
+  "date": "Apr 29 - May 05",
   "images": [
     "assets/zodiac_signs/Taurus.jpg"
   ],
   "active": true,
-  "status": "uploaded",
-  "file_name": "plan_weekly_Taurus.json"
+  "status": "error",
+  "file_name": "plan_weekly_Taurus.json",
+  "error_reason": "Upload failed"
 }
