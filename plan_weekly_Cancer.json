@@ -1,48 +1,16 @@
 {
-  "script_text": "Cancer, the cosmic tides are shifting dramatically as your ruling Moon opposes Pluto in your 7th House of partnerships this week. Early on, Monday through Wednesday, Venus sextiles Uranus in your 11th House, sparking an unexpected but lucrative career opportunity or sudden social breakthrough. However, Wednesday brings tension as Mars squares Saturn in your 10th House, potentially causing friction with an authority figure or a delay in a professional project. The mid-week turning point arrives Thursday when the Sun trines intense Pluto, empowering you to transform a key relationship dynamic and take control of your shared resources. Heading into the weekend, Venus enters your romantic 5th House on Friday, promising a delightful surge in your love life and creative passions. Sunday is best for relaxation as Mercury enters Taurus in your 11th House. Tuesday is your power day because the Venus-Uranus sextile opens financial doors. Thursday is your most challenging day because Mars squares Saturn in your career sector. Trust your intuition this week, as your Water element guides you through these changing currents. Follow for daily updates.",
+  "script_text": "Pluto demands transformation as you launch a powerful income stream this week, Cancer. Monday sees Mercury perfecting a trine to your natal Moon in the 2nd House of finances, making this an excellent day to finalize that side hustle agreement. Tuesday brings a tense square between Mars and Jupiter in your 10th House career sector, so watch your temper during meetings. Wednesday shifts beautifully as Venus glides into your passionate 5th House, igniting romantic possibilities. Thursday's Sun opposes your partnership point in the 7th House, forcing you to choose between personal dreams and committed relationships. Friday relaxes as Neptune blesses your imagination in the 12th House, bringing creative breakthroughs. Saturday's Mercury returns home to Taurus, stationing direct in your 4th House - your foundation stabilizes. Sunday's Full Moon in your 8th House reveals hidden financial gains. Monday is your power day because Mercury trines your Moon in the 2nd House. Sunday is your challenge day because the Full Moon exposes financial secrets in the 8th House. Stop avoiding difficult conversations about money with your partner. Follow for daily updates.",
   "captions_structure": [
     {
-      "text": "CANCER ALERT",
+      "text": "CANCER",
       "type": "header"
     },
     {
-      "text": "Cancer, the cosmic tides are shifting dramatically as your ruling Moon opposes Pluto in your 7th House of partnerships this week.",
+      "text": "Pluto demands transformation as you launch a powerful income stream this week, Cancer.",
       "type": "normal"
     },
     {
-      "text": "Early on, Monday through Wednesday, Venus sextiles Uranus in your 11th House, sparking an unexpected but lucrative career opportunity or sudden social breakthrough.",
-      "type": "normal"
-    },
-    {
-      "text": "However, Wednesday brings tension as Mars squares Saturn in your 10th House, potentially causing friction with an authority figure or a delay in a professional project.",
-      "type": "normal"
-    },
-    {
-      "text": "The mid-week turning point arrives Thursday when the Sun trines intense Pluto, empowering you to transform a key relationship dynamic and take control of your shared resources.",
-      "type": "normal"
-    },
-    {
-      "text": "Heading into the weekend, Venus enters your romantic 5th House on Friday, promising a delightful surge in your love life and creative passions.",
-      "type": "normal"
-    },
-    {
-      "text": "Sunday is best for relaxation as Mercury enters Taurus in your 11th House.",
-      "type": "normal"
-    },
-    {
-      "text": "Tuesday is your power day because the Venus-Uranus sextile opens financial doors.",
-      "type": "normal"
-    },
-    {
-      "text": "Thursday is your most challenging day because Mars squares Saturn in your career sector.",
-      "type": "normal"
-    },
-    {
-      "text": "Trust your intuition this week, as your Water element guides you through these changing currents.",
-      "type": "normal"
-    },
-    {
-      "text": "Follow for daily updates.",
+      "text": "Monday sees Mercury perfecting a trine to your natal Moon in the 2nd House of finances, making this an excellent day to finalize that side hustle agreement.",
       "type": "normal"
     }
   ],
@@ -53,39 +21,39 @@
   ],
   "lucky_color": "Emerald Green",
   "monthly_vibe": "Reflective & Calm",
-  "title": "Something Big Is Coming for Cancer",
-  "youtube_title": "Something Big Is Coming for Cancer #shorts",
-  "youtube_description": "Your ruling Moon is setting off major shifts in your career and love life this week. Discover how the Venus-Uranus sextile and Mars-Saturn square will specifically impact your path. Comment your sign to claim this energy!",
+  "title": "Cancer Weekly Horoscope May 01, 2026",
+  "youtube_title": "The Stars Are Warning Cancer #shorts",
+  "youtube_description": "Mercury's trine to your Moon in the 2nd House makes Monday crucial for your bank account. I reveal what Venus brings to your love life this week. Comment your sign!",
   "youtube_tags": [
-    "Cancer",
-    "Cancer horoscope",
-    "Cancer weekly horoscope",
     "astrology",
     "horoscope",
-    "Cancer April 2026",
-    "Moon opposition Pluto",
-    "Venus sextile Uranus",
-    "Mars square Saturn",
-    "Cancer zodiac",
-    "Cancer astrology",
-    "Cancer sign",
-    "Cancer prediction",
-    "Cancer love horoscope",
-    "Cancer career horoscope",
+    "cancer horoscope",
+    "cancer weekly",
+    "weekly forecast",
+    "moon child",
+    "water sign",
+    "cancer love",
+    "cancer career",
+    "financial astrology",
     "cosmic energy",
     "spiritual tiktok",
     "manifestation",
-    "7th House astrology",
-    "5th House Venus"
+    "pluto transits",
+    "venus in aries",
+    "mercury retrograde",
+    "full moon",
+    "astrology tips",
+    "birthday gemstone",
+    "embrace the chaos",
+    "stellar guidance"
   ],
   "type": "weekly",
   "target": "Cancer",
-  "date": "Apr 23 - Apr 29",
+  "date": "May 01 - May 07",
   "images": [
     "assets/zodiac_signs/Cancer.jpg"
   ],
   "active": true,
-  "status": "error",
-  "file_name": "plan_weekly_Cancer.json",
-  "error_reason": "Upload failed"
+  "status": "uploaded",
+  "file_name": "plan_weekly_Cancer.json"
 }

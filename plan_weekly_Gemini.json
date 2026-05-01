@@ -1,36 +1,40 @@
 {
-  "script_text": "Mercury-ruled Air sign Geminis, a radical shift in your communication sector is about to rewrite your entire narrative. Early in the week, Monday sees Mercury forming a tense square to Saturn in your 9th House, making professional negotiations difficult and requiring strict fact-checking. By Wednesday, the Moon in your 2nd House sextiles Jupiter, creating the perfect window to discuss a salary increase or secure a lucrative freelance contract. The mid-week turning point arrives Thursday when Venus enters Aries and your 11th House of networking, instantly electrifying your social calendar and bringing romantic sparks through group gatherings. Over the weekend, the Sun trines Pluto in your 8th House, revealing a hidden financial opportunity or a deep intimate transformation with a partner. Tuesday is your worst day due to that harsh Saturn friction stalling travel plans. Friday is your power day because Venus blesses your friendship sector with effortless charm. Schedule that important pitch for Thursday afternoon when your intellect is sharpest. Follow for daily updates.",
+  "script_text": "Gemini, this week Mercury retrograde in your 12th House is about to shake everything you thought you knew. Early week, the Sun in your 1st House squares Pluto, bringing intense confrontations that force you to shed old identities \u2014 Tuesday is the hardest day as Mercury opposes Jupiter, muddying every conversation. Mid-week, the Taurus Moon trines your natal Venus on Wednesday, unlocking a sudden romantic spark or creative breakthrough that catches you completely off guard. Late week, Mars enters your 7th House, igniting passion in relationships but also triggering power struggles with partners \u2014 Friday demands patience. Saturday brings a beautiful Venus sextile to your ruler Mercury, perfect for heartfelt talks. Your best day is Wednesday because the Moon trines Venus, flooding you with charm and magnetic energy. Your worst day is Tuesday due to the Mercury-Jupiter opposition, which amplifies miscommunication and false promises. This week, write down every dream you have \u2014 Mercury retrograde in your 12th House is sending coded messages through your subconscious. Follow for daily updates.",
   "captions_structure": [
     {
       "text": "GEMINI ALERT",
       "type": "header"
     },
     {
-      "text": "Mercury-ruled Air sign Geminis, a radical shift in your communication sector is about to rewrite your entire narrative.",
+      "text": "Gemini, this week Mercury retrograde in your 12th House is about to shake everything you thought you knew.",
       "type": "normal"
     },
     {
-      "text": "Early in the week, Monday sees Mercury forming a tense square to Saturn in your 9th House, making professional negotiations difficult.",
+      "text": "Early week, the Sun in your 1st House squares Pluto, bringing intense confrontations that force you to shed old identities.",
       "type": "normal"
     },
     {
-      "text": "By Wednesday, the Moon in your 2nd House sextiles Jupiter, creating the perfect window to discuss a salary increase.",
+      "text": "Tuesday is the hardest day as Mercury opposes Jupiter, muddying every conversation.",
       "type": "normal"
     },
     {
-      "text": "The mid-week turning point arrives Thursday when Venus enters Aries and your 11th House, electrifying your social calendar.",
+      "text": "Mid-week, the Taurus Moon trines your natal Venus on Wednesday, unlocking a sudden romantic spark or creative breakthrough.",
       "type": "normal"
     },
     {
-      "text": "Over the weekend, the Sun trines Pluto in your 8th House, revealing a hidden financial opportunity with a partner.",
+      "text": "Late week, Mars enters your 7th House, igniting passion in relationships but also triggering power struggles.",
       "type": "normal"
     },
     {
-      "text": "Tuesday is your worst day; Friday is your power day as Venus blesses your friendship sector.",
+      "text": "Friday demands patience. Saturday brings a beautiful Venus sextile to your ruler Mercury, perfect for heartfelt talks.",
       "type": "normal"
     },
     {
-      "text": "Schedule that important pitch for Thursday afternoon when your intellect is sharpest.",
+      "text": "Best day: Wednesday \u2014 Moon trines Venus, flooding you with charm. Worst day: Tuesday \u2014 Mercury-Jupiter opposition amplifies miscommunication.",
+      "type": "normal"
+    },
+    {
+      "text": "This week, write down every dream \u2014 Mercury retrograde in your 12th House is sending coded messages through your subconscious.",
       "type": "normal"
     },
     {
@@ -45,38 +49,39 @@
   ],
   "lucky_color": "Emerald Green",
   "monthly_vibe": "Reflective & Calm",
-  "title": "Something Big Is Coming for Gemini",
-  "youtube_title": "Something Big Is Coming for Gemini #shorts",
-  "youtube_description": "Get ready, Gemini, because Venus is about to shake up your 11th House starting Thursday, transforming your love life through unexpected social connections. We also look at the tricky Mercury-Saturn square early in the week that impacts your career trajectory. Comment your sign to claim this energy!",
+  "title": "Gemini Weekly Horoscope May 01, 2026",
+  "youtube_title": "Gemini \u2014 Mercury Retrograde Is Messing With Your Mind #shorts",
+  "youtube_description": "Mercury retrograde crashes into your 12th House this week, Gemini, and the cosmic messages hidden in your dreams could change everything. From a shocking romantic spark on Wednesday to power struggles in love by Friday, here is your complete weekly breakdown. Comment your sign and see if the stars agree.",
   "youtube_tags": [
-    "gemini",
     "gemini horoscope",
     "gemini weekly horoscope",
-    "astrology",
-    "horoscope",
-    "mercury",
-    "venus in aries",
-    "gemini zodiac",
-    "spiritual tiktok",
+    "mercury retrograde 2026",
+    "gemini may 2026",
+    "horoscope this week",
+    "astrology prediction",
+    "gemini love forecast",
+    "mercury retrograde effects",
+    "weekly horoscope gemini",
+    "gemini career money",
+    "astrology tiktok",
     "cosmic energy",
-    "astrology reading",
-    "gemini forecast",
-    "planetary transits",
-    "saturn square mercury",
-    "gemini love horoscope",
-    "gemini career",
-    "manifestation",
     "zodiac signs",
-    "weekly horoscope",
-    "gemini april 2026"
+    "gemini moon sign",
+    "venus trine",
+    "pluto square sun",
+    "horoscope today",
+    "spiritual awakening",
+    "gemini season",
+    "zodiac forecast"
   ],
   "type": "weekly",
   "target": "Gemini",
-  "date": "Apr 23 - Apr 29",
+  "date": "May 01 - May 07",
   "images": [
     "assets/zodiac_signs/Gemini.jpg"
   ],
   "active": true,
-  "status": "uploaded",
-  "file_name": "plan_weekly_Gemini.json"
+  "status": "error",
+  "file_name": "plan_weekly_Gemini.json",
+  "error_reason": "Upload failed"
 }
