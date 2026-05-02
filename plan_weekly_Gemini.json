@@ -1,45 +1,25 @@
 {
-  "script_text": "Gemini, this week Mercury retrograde in your 12th House is about to shake everything you thought you knew. Early week, the Sun in your 1st House squares Pluto, bringing intense confrontations that force you to shed old identities \u2014 Tuesday is the hardest day as Mercury opposes Jupiter, muddying every conversation. Mid-week, the Taurus Moon trines your natal Venus on Wednesday, unlocking a sudden romantic spark or creative breakthrough that catches you completely off guard. Late week, Mars enters your 7th House, igniting passion in relationships but also triggering power struggles with partners \u2014 Friday demands patience. Saturday brings a beautiful Venus sextile to your ruler Mercury, perfect for heartfelt talks. Your best day is Wednesday because the Moon trines Venus, flooding you with charm and magnetic energy. Your worst day is Tuesday due to the Mercury-Jupiter opposition, which amplifies miscommunication and false promises. This week, write down every dream you have \u2014 Mercury retrograde in your 12th House is sending coded messages through your subconscious. Follow for daily updates.",
+  "script_text": "Gemini, your cosmic dance card is packed this week as Mercury battles tension with Saturn while showering you in opportunity. Monday through Wednesday brings intense focus on your 4th House foundations as Saturn squares your Sun, testing home situations and family dynamics. Your ruling planet Mercury fights through obstacles in your career sector, demanding patience. Thursday shifts everything as Venus glides into your 5th House, igniting romantic spark and creative confidence. Friday through Sunday, Jupiter's generous trine to your 9th House expands your horizons through travel or philosophy. Tuesday emerges as your power day when Mercury stations direct in your 10th House, launching breakthrough career moves. Sunday struggles with Mars opposing your partnership sector, creating relationship friction. Stop waiting for perfect timing and take bold action on that passion project you've been dreaming about.",
   "captions_structure": [
     {
-      "text": "GEMINI ALERT",
+      "text": "GEMINI",
       "type": "header"
     },
     {
-      "text": "Gemini, this week Mercury retrograde in your 12th House is about to shake everything you thought you knew.",
+      "text": "Your cosmic dance card is packed this week as Mercury battles tension with Saturn while showering you in opportunity.",
       "type": "normal"
     },
     {
-      "text": "Early week, the Sun in your 1st House squares Pluto, bringing intense confrontations that force you to shed old identities.",
+      "text": "Monday through Wednesday brings intense focus on your 4th House foundations as Saturn squares your Sun, testing home situations and family dynamics.",
       "type": "normal"
     },
     {
-      "text": "Tuesday is the hardest day as Mercury opposes Jupiter, muddying every conversation.",
-      "type": "normal"
-    },
-    {
-      "text": "Mid-week, the Taurus Moon trines your natal Venus on Wednesday, unlocking a sudden romantic spark or creative breakthrough.",
-      "type": "normal"
-    },
-    {
-      "text": "Late week, Mars enters your 7th House, igniting passion in relationships but also triggering power struggles.",
-      "type": "normal"
-    },
-    {
-      "text": "Friday demands patience. Saturday brings a beautiful Venus sextile to your ruler Mercury, perfect for heartfelt talks.",
-      "type": "normal"
-    },
-    {
-      "text": "Best day: Wednesday \u2014 Moon trines Venus, flooding you with charm. Worst day: Tuesday \u2014 Mercury-Jupiter opposition amplifies miscommunication.",
-      "type": "normal"
-    },
-    {
-      "text": "This week, write down every dream \u2014 Mercury retrograde in your 12th House is sending coded messages through your subconscious.",
+      "text": "Thursday shifts everything as Venus glides into your 5th House, igniting romantic spark and creative confidence.",
       "type": "normal"
     },
     {
       "text": "Follow for daily updates.",
-      "type": "normal"
+      "type": "cta"
     }
   ],
   "lucky_numbers": [
@@ -48,40 +28,39 @@
     "21"
   ],
   "lucky_color": "Emerald Green",
-  "monthly_vibe": "Reflective & Calm",
-  "title": "Gemini Weekly Horoscope May 01, 2026",
-  "youtube_title": "Gemini \u2014 Mercury Retrograde Is Messing With Your Mind #shorts",
-  "youtube_description": "Mercury retrograde crashes into your 12th House this week, Gemini, and the cosmic messages hidden in your dreams could change everything. From a shocking romantic spark on Wednesday to power struggles in love by Friday, here is your complete weekly breakdown. Comment your sign and see if the stars agree.",
+  "monthly_vibe": "Challenged Growth",
+  "title": "Gemini Weekly Horoscope May 02, 2026",
+  "youtube_title": "The Stars Are Warning Gemini... #shorts",
+  "youtube_description": "Mercury stations direct in your career sector this Thursday, and Venus enters your 5th House igniting romance. I'm revealing exactly how these transits will impact your love life and wallet this week. Comment your sign!",
   "youtube_tags": [
+    "gemini",
     "gemini horoscope",
-    "gemini weekly horoscope",
-    "mercury retrograde 2026",
-    "gemini may 2026",
-    "horoscope this week",
-    "astrology prediction",
-    "gemini love forecast",
-    "mercury retrograde effects",
-    "weekly horoscope gemini",
-    "gemini career money",
-    "astrology tiktok",
+    "weekly horoscope",
+    "astrology",
+    "horoscope",
+    "gemini weekly",
+    "mercury direct",
+    "venus in fifth",
+    "astrology tips",
+    "spiritual",
     "cosmic energy",
-    "zodiac signs",
-    "gemini moon sign",
-    "venus trine",
-    "pluto square sun",
-    "horoscope today",
-    "spiritual awakening",
-    "gemini season",
-    "zodiac forecast"
+    "manifestation",
+    "tarot",
+    "psychic",
+    "astrologer",
+    "star sign",
+    "daily horoscope",
+    "gemini love",
+    "career forecast",
+    "money lucky"
   ],
   "type": "weekly",
   "target": "Gemini",
-  "date": "May 01 - May 07",
+  "date": "May 02 - May 08",
   "images": [
     "assets/zodiac_signs/Gemini.jpg"
   ],
   "active": true,
-  "status": "error",
-  "file_name": "plan_weekly_Gemini.json",
-  "error_reason": "Upload failed"
+  "status": "uploaded",
+  "file_name": "plan_weekly_Gemini.json"
 }
