@@ -1,12 +1,44 @@
 {
-  "script_text": "Something transformative disrupts your fixed water world this week. Early Monday, Mars in your 10th House squares Pluto, fueling career ambition yet creating friction; Tuesday brings a trine between Venus and your nodal axis, easing money flow, making Monday the worst and Tuesday the best for professional gains. Mid-week, Mercury retrograde in your 4th shifts your focus inward, altering home dynamics. Late week, Jupiter sextiles your 11th House, expanding your circle and easing social tensions by Thursday, leading into a reflective weekend focused on legacy. Wednesday is your power day because Venus enters your 5th House, sparking creative romance, while Monday challenges career momentum. Prioritize truth in love to unlock abundance. Follow for daily updates.",
+  "script_text": "Scorpio, your ruling planet Pluto is waking up something powerful in your chart this week, so buckle up. Early week, Mercury in your 10th House squares Mars in your 7th, creating tension in partnerships \u2014 Tuesday is the worst day because arguments with a business partner or lover could escalate fast. But Wednesday is your turning point as Venus sextiles your natal Sun, flooding your 5th House of romance with magnetic energy \u2014 someone unexpected reaches out. By Thursday, Jupiter trines your 2nd House of money, bringing a financial breakthrough or unexpected income through the weekend. Saturday glows with confidence as the Sun enters your 11th House, perfect for networking and social connections. Your best day is Wednesday because Venus sextiles your Sun, igniting love and creativity. Your worst day is Tuesday due to the Mercury-Mars square sparking conflict. This week, Scorpio, let your water-element intuition guide every decision \u2014 don't force outcomes. Follow for daily updates.",
   "captions_structure": [
     {
-      "text": "SCORPIO",
+      "text": "SCORPIO ALERT",
       "type": "header"
     },
     {
-      "text": "First line of the script...",
+      "text": "Scorpio, your ruling planet Pluto is waking up something powerful in your chart this week, so buckle up.",
+      "type": "normal"
+    },
+    {
+      "text": "Early week, Mercury in your 10th House squares Mars in your 7th, creating tension in partnerships \u2014 Tuesday is the worst day because arguments with a business partner or lover could escalate fast.",
+      "type": "normal"
+    },
+    {
+      "text": "But Wednesday is your turning point as Venus sextiles your natal Sun, flooding your 5th House of romance with magnetic energy \u2014 someone unexpected reaches out.",
+      "type": "normal"
+    },
+    {
+      "text": "By Thursday, Jupiter trines your 2nd House of money, bringing a financial breakthrough or unexpected income through the weekend.",
+      "type": "normal"
+    },
+    {
+      "text": "Saturday glows with confidence as the Sun enters your 11th House, perfect for networking and social connections.",
+      "type": "normal"
+    },
+    {
+      "text": "Your best day is Wednesday because Venus sextiles your Sun, igniting love and creativity.",
+      "type": "normal"
+    },
+    {
+      "text": "Your worst day is Tuesday due to the Mercury-Mars square sparking conflict.",
+      "type": "normal"
+    },
+    {
+      "text": "This week, Scorpio, let your water-element intuition guide every decision \u2014 don't force outcomes.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for daily updates.",
       "type": "normal"
     }
   ],
@@ -17,37 +49,40 @@
   ],
   "lucky_color": "Emerald Green",
   "monthly_vibe": "Reflective & Calm",
-  "title": "Scorpio \u2014 Hidden Shifts This Week",
-  "youtube_description": "This week\u2019s Mars-Pluto clash in your 10th reshapes career, while Venus sparks love. Comment your sign for specifics.",
+  "title": "Scorpio Weekly Horoscope May 03, 2026",
+  "youtube_title": "Scorpio \u2014 Venus Ignites Your Love Life This Week #shorts",
+  "youtube_description": "Scorpio, Venus is about to sextile your natal Sun and transform your romantic world this week. But there's a dangerous Mercury-Mars square you need to watch out for first. Comment your sign and see what the stars have planned for you.",
   "youtube_tags": [
-    "astrology",
-    "horoscope",
     "scorpio horoscope",
-    "scorpio today",
-    "scorpio weekly",
-    "planets",
-    "transit",
-    "mars pluto",
-    "venus sextile",
-    "mercury retrograde",
-    "midheaven",
-    "love prediction",
-    "money",
-    "10th house",
-    "5th house",
-    "manifestation",
+    "scorpio weekly horoscope",
+    "scorpio",
+    "horoscope",
+    "astrology",
+    "weekly horoscope",
+    "scorpio love horoscope",
+    "venus sextile sun",
+    "mercury square mars",
+    "scorpio 2026",
+    "zodiac signs",
     "cosmic energy",
     "spiritual tiktok",
-    "zodiac",
-    "prediction"
+    "manifestation",
+    "scorpio season",
+    "pluto transit",
+    "jupiter trine",
+    "money horoscope",
+    "astrology prediction",
+    "scorpio career",
+    "water sign"
   ],
   "type": "weekly",
   "target": "Scorpio",
-  "date": "Apr 17 - Apr 23",
+  "date": "May 03 - May 09",
   "images": [
     "assets/zodiac_signs/Scorpio.jpg"
   ],
   "active": true,
-  "status": "uploaded",
-  "file_name": "plan_weekly_Scorpio.json"
+  "status": "error",
+  "file_name": "plan_weekly_Scorpio.json",
+  "error_reason": "Upload failed"
 }
