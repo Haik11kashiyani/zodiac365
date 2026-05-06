@@ -1,95 +1,78 @@
 {
-  "script_text": "Stop! Cancer, the stars are screaming at you right now. Venus is forming a harmonious trine to your Moon today, flooding your 4th House of Home and Family with nurturing energy. This cosmic alignment creates the perfect atmosphere for emotional healing and domestic harmony. Single Cancers should expect a meaningful connection with someone who values emotional security, while those in relationships will find deeper intimacy through vulnerability. Career-wise, Mercury in your 10th House is sextiling Saturn, bringing practical solutions to workplace challenges and potential recognition for your efforts. Warning: Avoid taking things personally today \u2014 not everyone shares your emotional depth. An unexpected gift or gesture of appreciation may arrive from someone you least expect. Follow for tomorrow's reading before this energy shifts.",
+  "script_text": "Stop! Cancer, the Moon is pulling a full eclipse on your heart tonight. Jupiter in your 1st House is trining Pluto in Aquarius, amplifying power dynamics you didn't ask for. The Full Moon in Scorpio opposes Mercury in your 4th House of Home, stirring up buried emotions. In love, Venus sextiling Neptune tempts you to romanticize someone unavailable \u2014 resist the fantasy. For career, Saturn transiting your 10th House of Public Standing says don't push the promotion today, let it come. A blessing arrives through an unexpected message from someone you haven't heard from in months. Follow for tomorrow's reading.",
   "captions_structure": [
     {
       "text": "CANCER ALERT",
       "type": "header"
     },
     {
-      "text": "Stop! Cancer, the stars are screaming at you right now.",
+      "text": "Stop! Cancer, the Moon is pulling a full eclipse on your heart tonight.",
       "type": "normal"
     },
     {
-      "text": "Venus is forming a harmonious trine to your Moon today,",
+      "text": "Jupiter in your 1st House is trining Pluto in Aquarius, amplifying power dynamics you didn't ask for.",
       "type": "normal"
     },
     {
-      "text": "flooding your 4th House of Home and Family with nurturing energy.",
+      "text": "The Full Moon in Scorpio opposes Mercury in your 4th House of Home, stirring up buried emotions.",
       "type": "normal"
     },
     {
-      "text": "This cosmic alignment creates the perfect atmosphere for emotional healing.",
+      "text": "In love, Venus sextiling Neptune tempts you to romanticize someone unavailable \u2014 resist the fantasy.",
       "type": "normal"
     },
     {
-      "text": "Single Cancers should expect a meaningful connection with someone who values emotional security,",
+      "text": "For career, Saturn transiting your 10th House of Public Standing says don't push the promotion today, let it come.",
       "type": "normal"
     },
     {
-      "text": "while those in relationships will find deeper intimacy through vulnerability.",
+      "text": "A blessing arrives through an unexpected message from someone you haven't heard from in months.",
       "type": "normal"
     },
     {
-      "text": "Career-wise, Mercury in your 10th House is sextiling Saturn,",
-      "type": "normal"
-    },
-    {
-      "text": "bringing practical solutions to workplace challenges and potential recognition for your efforts.",
-      "type": "normal"
-    },
-    {
-      "text": "Warning: Avoid taking things personally today \u2014 not everyone shares your emotional depth.",
-      "type": "normal"
-    },
-    {
-      "text": "An unexpected gift or gesture of appreciation may arrive from someone you least expect.",
-      "type": "normal"
-    },
-    {
-      "text": "Follow for tomorrow's reading before this energy shifts.",
+      "text": "Follow for tomorrow's reading.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
-    "4",
-    "12",
+    "7",
+    "13",
     "28"
   ],
-  "lucky_color": "Pearl White",
-  "monthly_vibe": "Nurturing & Protective",
-  "title": "Cancer \u2014 The Stars Are Warning You",
-  "youtube_title": "Cancer \u2014 The Stars Are Warning You #shorts",
-  "youtube_description": "Cancer, Venus is creating powerful energy in your home sector today. I'm revealing what this means for your relationships and career. Comment your sign below!",
+  "lucky_color": "Midnight Blue",
+  "monthly_vibe": "Emotional Release & Power Shift",
+  "title": "Cancer \u2014 The Moon Is Screaming at You Right Now",
+  "youtube_title": "Cancer the Moon Is Screaming at You Right Now #shorts",
+  "youtube_description": "Jupiter trining Pluto and a Full Moon in Scorpio are hitting Cancer hard on May 6, 2026 \u2014 here's what it means for your love life and career. Cancer, comment your sign.",
   "youtube_tags": [
     "cancer horoscope",
     "cancer today",
-    "cancer astrology",
-    "venus trine moon",
-    "4th house astrology",
-    "cancer love prediction",
-    "cancer career",
-    "emotional healing",
     "daily horoscope",
-    "astrology tiktok",
-    "cancer zodiac",
-    "moon sign cancer",
-    "water sign energy",
-    "cosmic alignment",
-    "spiritual guidance",
-    "manifestation",
-    "astrology forecast",
-    "cancer daily reading",
+    "astrology",
+    "may 2026 astrology",
+    "cancer love prediction",
+    "jupiter pluto trine",
+    "full moon scorpio",
+    "cancer career",
+    "moon sign",
+    "water sign",
+    "western astrology",
     "planetary transits",
-    "horoscope prediction"
+    "cancer daily reading",
+    "zodiac prediction",
+    "cosmic energy",
+    "manifestation",
+    "spiritual tiktok",
+    "astrology reading",
+    "cancer moon"
   ],
   "type": "daily",
   "target": "Cancer",
-  "date": "March 08, 2026",
+  "date": "May 06, 2026",
   "images": [
     "assets/zodiac_signs/Cancer.jpg"
   ],
   "active": true,
-  "status": "error",
-  "file_name": "plan_daily_Cancer.json",
-  "error_reason": "Upload failed"
+  "status": "uploaded",
+  "file_name": "plan_daily_Cancer.json"
 }

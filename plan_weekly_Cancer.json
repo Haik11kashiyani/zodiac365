@@ -1,44 +1,48 @@
 {
-  "script_text": "Cancer, this week the cosmos is staging a full emotional reckoning \u2014 and you won't see it coming. Early week, the Moon in your 1st House opposes Pluto in your 7th House, triggering intense power dynamics in your closest relationships. Tuesday is the roughest day as Mercury squares Saturn, muddling communication at work. But Wednesday brings a stunning shift: Venus trines your ruling planet the Moon, flooding your 5th House of romance with magnetic energy \u2014 someone from your past resurfaces. By Thursday, Jupiter sextiles the Sun in your 10th House, opening a career door you didn't expect. Friday through Sunday, Mars energizes your 2nd House, boosting income and self-worth. Your best day is Wednesday because Venus trines your ruling Moon. Your worst day is Tuesday due to Mercury square Saturn. Cancer, this water sign week demands you trust your intuition over logic. Follow for daily updates.",
+  "script_text": "Cancer, the Moon that rules you is about to pull the rug from under your career plans this week. Early on, the Sun opposes Saturn in Pisces hitting your 10th house while squaring your 4th, forcing you to choose between work and home. Mercury trines Neptune around May 8, sharpening your financial instincts. Tuesday is your strongest day for money moves. Mid-week, Venus slides into your 7th house and sextiles Jupiter in Gemini, and that is love knocking on your door with a partnership offer you cannot refuse. By Thursday through Sunday, the Sun-Saturn opposition loosens, giving you breathing room. Mars squares Uranus by Sunday, so avoid impulsive decisions then. Wednesday is your power day because the Sun conjuncts Mercury in your 4th house, grounding your voice. Sunday is worst because Mars squares Uranus stirs chaos. Your tip: trust the hunch when Mercury trines Neptune on Tuesday. Follow for daily updates.",
   "captions_structure": [
     {
       "text": "CANCER ALERT",
       "type": "header"
     },
     {
-      "text": "Cancer, this week the cosmos is staging a full emotional reckoning \u2014 and you won't see it coming.",
+      "text": "Cancer, the Moon that rules you is about to pull the rug from under your career plans this week.",
       "type": "normal"
     },
     {
-      "text": "Early week, the Moon in your 1st House opposes Pluto in your 7th House, triggering intense power dynamics in your closest relationships.",
+      "text": "Early on, the Sun opposes Saturn in Pisces hitting your 10th house while squaring your 4th, forcing you to choose between work and home.",
       "type": "normal"
     },
     {
-      "text": "Tuesday is the roughest day as Mercury squares Saturn, muddling communication at work.",
+      "text": "Mercury trines Neptune around May 8, sharpening your financial instincts.",
       "type": "normal"
     },
     {
-      "text": "But Wednesday brings a stunning shift: Venus trines your ruling planet the Moon, flooding your 5th House of romance with magnetic energy \u2014 someone from your past resurfaces.",
+      "text": "Tuesday is your strongest day for money moves.",
       "type": "normal"
     },
     {
-      "text": "By Thursday, Jupiter sextiles the Sun in your 10th House, opening a career door you didn't expect.",
+      "text": "Mid-week, Venus slides into your 7th house and sextiles Jupiter in Gemini, and that is love knocking on your door with a partnership offer you cannot refuse.",
       "type": "normal"
     },
     {
-      "text": "Friday through Sunday, Mars energizes your 2nd House, boosting income and self-worth.",
+      "text": "By Thursday through Sunday, the Sun-Saturn opposition loosens, giving you breathing room.",
       "type": "normal"
     },
     {
-      "text": "Your best day is Wednesday because Venus trines your ruling Moon.",
+      "text": "Mars squares Uranus by Sunday, so avoid impulsive decisions then.",
       "type": "normal"
     },
     {
-      "text": "Your worst day is Tuesday due to Mercury square Saturn.",
+      "text": "Wednesday is your power day because the Sun conjuncts Mercury in your 4th house, grounding your voice.",
       "type": "normal"
     },
     {
-      "text": "Cancer, this water sign week demands you trust your intuition over logic.",
+      "text": "Sunday is worst because Mars squares Uranus stirs chaos.",
+      "type": "normal"
+    },
+    {
+      "text": "Your tip: trust the hunch when Mercury trines Neptune on Tuesday.",
       "type": "normal"
     },
     {
@@ -48,44 +52,43 @@
   ],
   "lucky_numbers": [
     "7",
-    "11",
-    "21"
+    "21",
+    "44"
   ],
   "lucky_color": "Emerald Green",
   "monthly_vibe": "Reflective & Calm",
-  "title": "Cancer Weekly Horoscope May 02, 2026",
-  "youtube_title": "Cancer \u2014 Venus Trines Your Moon This Week #shorts",
-  "youtube_description": "Cancer, Venus is about to trine your ruling planet the Moon and someone from your past could reappear. This weekly forecast reveals the exact day your love life ignites and a surprise career opportunity lands. Comment your sign and see what the stars have planned.",
+  "title": "Cancer Something Big Is Coming May 2026",
+  "youtube_title": "Cancer Dont Ignore This Week #shorts",
+  "youtube_description": "The Sun-Saturn opposition and Venus sextile Jupiter are reshaping your career and love life this week. I reveal exactly when the breakthrough happens. Comment your sign and tell me if you felt it.",
   "youtube_tags": [
     "cancer horoscope",
-    "cancer weekly horoscope",
-    "cancer zodiac",
-    "horoscope this week",
-    "weekly horoscope 2026",
+    "weekly horoscope",
     "astrology",
+    "cancer",
+    "may 2026",
     "zodiac signs",
-    "cancer love horoscope",
-    "cancer career horoscope",
-    "venus trine moon",
-    "mercury square saturn",
+    "planetary transits",
+    "venus sextile jupiter",
+    "sun opposition saturn",
+    "cancer love",
+    "cancer career",
+    "moon sign",
+    "astrology forecast",
     "cosmic energy",
     "spiritual tiktok",
     "manifestation",
-    "cancer season",
-    "zodiac forecast",
-    "planetary transits",
-    "astrology prediction",
-    "cancer may 2026",
-    "water sign energy"
+    "weekly forecast",
+    "zodiac weekly",
+    "cancer tarot",
+    "water signs"
   ],
   "type": "weekly",
   "target": "Cancer",
-  "date": "May 02 - May 08",
+  "date": "May 06 - May 12",
   "images": [
     "assets/zodiac_signs/Cancer.jpg"
   ],
   "active": true,
-  "status": "error",
-  "file_name": "plan_weekly_Cancer.json",
-  "error_reason": "Upload failed"
+  "status": "uploaded",
+  "file_name": "plan_weekly_Cancer.json"
 }

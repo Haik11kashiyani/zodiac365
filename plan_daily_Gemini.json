@@ -1,15 +1,83 @@
 {
-  "script_text": "Stop! Gemini, the stars are screaming at you right now with a challenging square to your ruling planet in the 7th House. Your mind will race between connections and conflicts, especially in partnerships. Today you\u2019ll need caution when welcoming new opportunities, but you\u2019ll gain clarity if you trust your gut. Focus on financial matters in your 10th House\u2014avoid impulsive deals; keep your investments steady. The cosmic message? Your communication sparkles or dims; speak with precision. Follow for tomorrow's reading to see how this unfolds.",
+  "script_text": "Stop! Gemini, Mercury just lit a fuse in your 9th House of Expansion and you need to pay attention right now. On May 6th, 2026, Jupiter and Uranus are conjunct in your 1st House of Self, a once-in-twelve-years alignment electrifying your entire identity. Mercury is sextiling your natal Sun from the 9th, pushing you toward research, travel, or publishing something bold. In love, Venus in Aries is trining your 7th House of Partnerships, so if you're single, someone unconventional could walk into your life through a long-distance connection today. Taken? Expect an exciting conversation that reignites the spark. On the career front, Pluto in your 10th House is squaring Saturn in your 12th, warning you that a hidden obligation could drain your finances if you don't set boundaries now. Avoid overcommitting to anyone who drains your energy. Follow for tomorrow's reading.",
+  "captions_structure": [
+    {
+      "text": "GEMINI",
+      "type": "header"
+    },
+    {
+      "text": "Stop! Gemini, Mercury just lit a fuse in your 9th House of Expansion and you need to pay attention right now.",
+      "type": "normal"
+    },
+    {
+      "text": "On May 6th, 2026, Jupiter and Uranus are conjunct in your 1st House of Self, a once-in-twelve-years alignment electrifying your entire identity.",
+      "type": "normal"
+    },
+    {
+      "text": "Mercury is sextiling your natal Sun from the 9th, pushing you toward research, travel, or publishing something bold.",
+      "type": "normal"
+    },
+    {
+      "text": "In love, Venus in Aries is trining your 7th House of Partnerships, so if you're single, someone unconventional could walk into your life through a long-distance connection today.",
+      "type": "normal"
+    },
+    {
+      "text": "Taken? Expect an exciting conversation that reignites the spark.",
+      "type": "normal"
+    },
+    {
+      "text": "On the career front, Pluto in your 10th House is squaring Saturn in your 12th, warning you that a hidden obligation could drain your finances if you don't set boundaries now.",
+      "type": "normal"
+    },
+    {
+      "text": "Avoid overcommitting to anyone who drains your energy.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for tomorrow's reading.",
+      "type": "normal"
+    }
+  ],
+  "lucky_numbers": [
+    "7",
+    "14",
+    "33"
+  ],
+  "lucky_color": "Deep Violet",
+  "monthly_vibe": "Transformation & Sudden Shifts",
+  "title": "Something Big Is Happening for Gemini Right Now",
+  "youtube_title": "Jupiter and Uranus Just Hit Gemini \u2014 Here's What Happens #shorts",
+  "youtube_description": "On May 6, 2026, Jupiter and Uranus conjunct in Gemini's 1st House while Pluto squares Saturn in your 12th \u2014 and this changes your love life and career overnight. Gemini, comment your sign so I know who to watch for.",
+  "youtube_tags": [
+    "gemini horoscope",
+    "gemini today",
+    "gemini daily",
+    "astrology",
+    "horoscope 2026",
+    "jupiter uranus conjunction",
+    "gemini may 2026",
+    "daily horoscope",
+    "mercury transit",
+    "air sign horoscope",
+    "astrology reading",
+    "gemini love prediction",
+    "career astrology",
+    "gemini career",
+    "planetary transits",
+    "cosmic energy",
+    "spiritual tiktok",
+    "manifestation",
+    "zodiac signs",
+    "gemini forecast"
+  ],
   "type": "daily",
   "target": "Gemini",
-  "date": "March 08, 2026",
-  "lucky_numbers": [],
-  "lucky_color": "",
-  "monthly_vibe": "",
+  "date": "May 06, 2026",
   "images": [
     "assets/zodiac_signs/Gemini.jpg"
   ],
   "active": true,
-  "status": "uploaded",
-  "file_name": "plan_daily_Gemini.json"
+  "status": "error",
+  "file_name": "plan_daily_Gemini.json",
+  "error_reason": "Upload failed"
 }
