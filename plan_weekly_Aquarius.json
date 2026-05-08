@@ -1,49 +1,83 @@
 {
-  "script_text": "Something disruptive stirs beneath Aquarius as Uranus in your 10th House shakes your career foundation early. On Monday, Mars squares your natal Moon in the 1st, fueling impulsive conflicts, while Wednesday brings relief as Mercury trines Neptune in the 4th, enhancing intuition. Thursday marks the turning point when Jupiter conjoins your North Node in the 7th, shifting partnership dynamics. By Friday, Venus enters your 5th House, transforming your love life with playful authenticity and creative dates, and on Saturday, Saturn sextiles your 10th House, stabilizing finances through disciplined strategy. Wednesday is your power day because Jupiter conjoins your North Node in the 7th, and Friday is chaotic due to Mars\u2019 square to your natal Moon. Focus on grounding your ideals with practical action. Follow for daily updates.",
+  "script_text": "Something is rewiring your identity, Aquarius, and Pluto conjunct your Sun this week won't let you pretend otherwise. Monday Venus in Taurus sextiles Uranus in your eleventh house, sparking an electric connection, but Tuesday Saturn in Aries squares Pluto in your first house, stirring ego clashes. Wednesday Venus opposes Uranus \u2014 love demands honesty you've been avoiding. Thursday Mars in Virgo trines Pluto, finally activating your tenth house career sector, and a paycheck conversation surfaces. Friday Jupiter in Cancer sextiles your fifth house, opening romance. Saturday Neptune in Aries whispers new paths home. Best day is Friday, when career money shifts. Worst day is Wednesday, when Venus opposes Uranus and misunderstandings peak. Ground yourself before reacting. Follow for daily updates.",
   "captions_structure": [
     {
-      "text": "AQUARIUS",
+      "text": "AQUARIUS ALERT",
       "type": "header"
     },
     {
-      "text": "First line of the script...",
+      "text": "Something is rewiring your identity, Aquarius, and Pluto conjunct your Sun this week won't let you pretend otherwise.",
+      "type": "normal"
+    },
+    {
+      "text": "Monday Venus in Taurus sextiles Uranus in your eleventh house, sparking an electric connection, but Tuesday Saturn in Aries squares Pluto in your first house, stirring ego clashes.",
+      "type": "normal"
+    },
+    {
+      "text": "Wednesday Venus opposes Uranus \u2014 love demands honesty you've been avoiding.",
+      "type": "normal"
+    },
+    {
+      "text": "Thursday Mars in Virgo trines Pluto, finally activating your tenth house career sector, and a paycheck conversation surfaces.",
+      "type": "normal"
+    },
+    {
+      "text": "Friday Jupiter in Cancer sextiles your fifth house, opening romance.",
+      "type": "normal"
+    },
+    {
+      "text": "Saturday Neptune in Aries whispers new paths home.",
+      "type": "normal"
+    },
+    {
+      "text": "Best day is Friday, when career money shifts. Worst day is Wednesday, when Venus opposes Uranus and misunderstandings peak.",
+      "type": "normal"
+    },
+    {
+      "text": "Ground yourself before reacting. Follow for daily updates.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
     "7",
-    "11",
-    "21"
+    "21",
+    "38"
   ],
-  "lucky_color": "Emerald Green",
-  "monthly_vibe": "Reflective & Calm",
-  "title": "Aquarius \u2014 Disruptive Shift in Career",
-  "youtube_description": "This week\u2019s cosmic forecast for Aquarius reveals how Jupiter and Mars reshape your work and love. Comment your sign for tailored guidance.",
+  "lucky_color": "Midnight Teal",
+  "monthly_vibe": "Transformative & Intense",
+  "title": "Aquarius \u2014 Pluto Is Rewiring You This Week",
+  "youtube_title": "Aquarius Weekly May 8 2026 Pluto Alert #shorts",
+  "youtube_description": "Pluto conjunct your Sun and a career breakthrough on Friday \u2014 this week is anything but quiet for Aquarius. I reveal exactly which day love turns electric and which day to steer clear. Comment your sign and tell me if you felt Pluto's pull this week.",
   "youtube_tags": [
-    "astrology",
-    "horoscope",
     "aquarius horoscope",
-    "aquarius today",
+    "weekly horoscope",
     "aquarius weekly",
-    "uranus",
-    "jupiter",
-    "saturn",
-    "mercury",
-    "venus",
-    "mars",
-    "north node",
-    "love prediction",
-    "career prediction",
-    "midweek shift",
-    "manifestation"
+    "pluto transit",
+    "may 2026 astrology",
+    "aquarius love",
+    "aquarius career",
+    "uranus in gemini",
+    "saturn in aries",
+    "astrology forecast",
+    "cosmic energy",
+    "aquarius weekly horoscope 2026",
+    "manifestation",
+    "spiritual tiktok",
+    "venus transit",
+    "mars in virgo",
+    "jupiter in cancer",
+    "neptune in aries",
+    "weekly forecast astrology",
+    "horoscope may 2026"
   ],
   "type": "weekly",
   "target": "Aquarius",
-  "date": "Apr 14 - Apr 20",
+  "date": "May 08 - May 14",
   "images": [
     "assets/zodiac_signs/Aquarius.jpg"
   ],
   "active": true,
-  "status": "uploaded",
-  "file_name": "plan_weekly_Aquarius.json"
+  "status": "error",
+  "file_name": "plan_weekly_Aquarius.json",
+  "error_reason": "Upload failed"
 }

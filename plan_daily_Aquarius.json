@@ -1,54 +1,83 @@
 {
-  "script_text": "Stop! Aquarius, the celestial currents are shifting beneath your feet. Saturn in Aquarius forms a harmonious trine to your ruling planet Uranus in the 10th House of Career, while expansive Jupiter sextiles your Ascendant, amplifying your innovative aura. This alignment boosts your professional visibility and encourages bold originality in public endeavors. In love, single Aquarians attract intriguing partners by embracing authenticity in group settings, while those attached must guard against overthinking shared commitments. Avoid reckless financial speculation in the 2nd House, as unexpected opportunities may cloud judgment. Channel this cosmic energy into structured projects that honor your vision. Follow for tomorrow's reading to navigate the next celestial wave. Subscribe so you don't miss what's coming this week.",
+  "script_text": "Stop, Aquarius, the stars just shifted under your feet. Pluto is stationing direct in your 1st House of Self at three degrees Aquarius, while Mars in your 8th House of Shared Resources squares Saturn in your 3rd House of Communication. This tense square between your desire to transform and your need to speak truth is where your power hides. If single, a heated conversation this week could spark something real \u2014 watch for someone who challenges your fixed Air. If taken, your partner may push back on a boundary; stand firm in the 7th House. Jupiter in your 6th House of Daily Work trines Pluto in your 1st, granting a rare income boost through a quiet project. Avoid signing anything financial before noon \u2014 the square peaks hard. Follow for tomorrow's reading \u2014 it gets stranger from here.",
   "captions_structure": [
     {
       "text": "AQUARIUS",
       "type": "header"
     },
     {
-      "text": "First line of the script...",
+      "text": "Stop, Aquarius, the stars just shifted under your feet.",
+      "type": "normal"
+    },
+    {
+      "text": "Pluto is stationing direct in your 1st House of Self at three degrees Aquarius.",
+      "type": "normal"
+    },
+    {
+      "text": "Mars in your 8th House squares Saturn in your 3rd House of Communication.",
+      "type": "normal"
+    },
+    {
+      "text": "If single, a heated conversation could spark something real \u2014 watch for someone who challenges your fixed Air.",
+      "type": "normal"
+    },
+    {
+      "text": "If taken, your partner may push back on a boundary; stand firm in the 7th House.",
+      "type": "normal"
+    },
+    {
+      "text": "Jupiter in your 6th House trines Pluto in your 1st \u2014 a rare income boost through a quiet project.",
+      "type": "normal"
+    },
+    {
+      "text": "Avoid signing anything financial before noon \u2014 the square peaks hard.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for tomorrow's reading \u2014 it gets stranger from here.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
     "7",
-    "11",
-    "21"
+    "21",
+    "34"
   ],
-  "lucky_color": "Emerald Green",
-  "monthly_vibe": "Reflective & Calm",
-  "title": "Aquarius \u2014 Don't Ignore This",
-  "youtube_title": "Aquarius Warning You Must See #shorts",
-  "youtube_description": "Saturn trine Uranus shapes your career today. See what this rare alignment reveals about your public path. Comment your sign.",
+  "lucky_color": "Deep Indigo",
+  "monthly_vibe": "Transformative & Tense",
+  "title": "Aquarius \u2014 Pluto Just Stationed Direct In Your 1st House",
+  "youtube_title": "Aquarius Don't Ignore This Pluto Warning #shorts",
+  "youtube_description": "Pluto is stationing direct in your 1st House while Mars squares Saturn in your 3rd \u2014 this creates a critical moment for Aquarius. The career and love prediction today is unlike anything I've seen this month. Comment your sign and let me know if you felt it.",
   "youtube_tags": [
-    "aquarius",
     "aquarius horoscope",
     "aquarius today",
-    "horoscope",
-    "astrology",
-    "astrologer",
-    "astrology reading",
-    "zodiac",
-    "capricorn horoscope",
-    "pisces horoscope",
     "daily horoscope",
-    "manifestation",
+    "astrology",
+    "horoscope 2026",
+    "pluto in aquarius",
+    "mars square saturn",
+    "aquarius love prediction",
+    "aquarius career",
+    "planetary transits",
+    "western astrology",
+    "zodiac signs",
+    "daily astrology",
+    "astrology reading",
+    "aquarius daily",
     "cosmic energy",
-    "spiritual tiktok",
-    "daily prediction",
-    "todays horoscope",
-    "birth chart",
-    "moon sign",
-    "saturn",
-    "uranus"
+    "spiritual guidance",
+    "manifestation",
+    "natal chart",
+    "air sign astrology"
   ],
   "type": "daily",
   "target": "Aquarius",
-  "date": "April 14, 2026",
+  "date": "May 08, 2026",
   "images": [
     "assets/zodiac_signs/Aquarius.jpg"
   ],
   "active": true,
-  "status": "uploaded",
-  "file_name": "plan_daily_Aquarius.json"
+  "status": "error",
+  "file_name": "plan_daily_Aquarius.json",
+  "error_reason": "Upload failed"
 }
