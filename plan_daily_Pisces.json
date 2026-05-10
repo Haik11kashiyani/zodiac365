@@ -1,75 +1,80 @@
 {
-  "script_text": "Stop! Pisces, Neptune is dragging your name into a conversation you weren't supposed to hear. Today the Moon is transiting your 12th House of hidden things while Saturn inches into your 2nd House of money, tightening the purse strings hard. Jupiter in Cancer is trining Neptune in Aries right now, and that's a massive gift \u2014 your intuitive gut is sharper than it's been in months. In love, if you're taken, your partner may bring up a financial concern that stings \u2014 don't react defensively, sit with it. If you're single, someone from your past could resurface looking different than you remember. Career wise, a detail you overlooked in a project resurfaces in the 10th House, and fixing it could unlock a promotion path. Avoid signing any contract before midday. Follow for tomorrow's reading.",
+  "script_text": "Stop! Pisces, the stars are screaming at you right now. Your ruling planet Neptune is forming a powerful trine with Mercury in your 1st House of Self, amplifying your intuition and communication like never before. In love, Venus is activating your 7th House of Partnerships, so if you're single, someone unexpected will reach out with genuine depth and emotional honesty \u2014 be open. If taken, a heartfelt conversation could deepen your bond. For career and money, Jupiter is sextile your 10th House of Career, bringing a financial opportunity through a creative project or freelance work. One thing to avoid: don't overcommit to someone else's drama today \u2014 protect your energy. Follow for tomorrow's reading so you don't miss what's coming this week.",
   "captions_structure": [
     {
       "text": "PISCES ALERT",
       "type": "header"
     },
     {
-      "text": "Stop! Pisces, Neptune is dragging your name into a conversation you weren't supposed to hear.",
+      "text": "Stop! Pisces, the stars are screaming at you right now.",
       "type": "normal"
     },
     {
-      "text": "Today the Moon is transiting your 12th House while Saturn inches into your 2nd House of money.",
+      "text": "Your ruling planet Neptune is forming a powerful trine with Mercury in your 1st House of Self, amplifying your intuition and communication like never before.",
       "type": "normal"
     },
     {
-      "text": "Jupiter in Cancer is trining Neptune in Aries \u2014 your intuitive gut is razor sharp.",
+      "text": "In love, Venus is activating your 7th House of Partnerships \u2014 if you're single, someone unexpected will reach out with genuine depth and emotional honesty.",
       "type": "normal"
     },
     {
-      "text": "Love: a past connection may resurface or a partner brings up finances.",
+      "text": "If taken, a heartfelt conversation could deepen your bond.",
       "type": "normal"
     },
     {
-      "text": "Career: a hidden detail in the 10th House could unlock a promotion.",
+      "text": "For career and money, Jupiter is sextile your 10th House of Career, bringing a financial opportunity through a creative project or freelance work.",
       "type": "normal"
     },
     {
-      "text": "Avoid signing contracts before midday. Follow for tomorrow's reading.",
+      "text": "One thing to avoid: don't overcommit to someone else's drama today \u2014 protect your energy.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for tomorrow's reading so you don't miss what's coming this week.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
     "7",
-    "14",
-    "33"
+    "11",
+    "21"
   ],
-  "lucky_color": "Deep Teal",
-  "monthly_vibe": "Intuitive Clarity",
-  "title": "Pisces \u2014 Neptune Is Screaming At You Right Now",
-  "youtube_title": "Pisces Neptune Is Telling You Something Big #shorts",
-  "youtube_description": "Neptune is activating your 12th House and Saturn is pressing on your finances \u2014 here's exactly what to do. Pisces, this transit reveals something you've been avoiding. Comment your sign.",
+  "lucky_color": "Emerald Green",
+  "monthly_vibe": "Reflective & Calm",
+  "title": "Pisces \u2014 Don't Ignore This",
+  "youtube_title": "Pisces \u2014 Don't Ignore This #shorts",
+  "youtube_description": "Neptune trines Mercury in your 1st House today, Pisces, and Venus activates your 7th House of Partnerships \u2014 someone unexpected could change everything. Jupiter sextiles your 10th House of Career, bringing money through creative work. Comment your sign and subscribe for tomorrow's reading.",
   "youtube_tags": [
     "pisces horoscope",
     "pisces today",
     "daily horoscope",
-    "astrology 2026",
-    "neptune transit",
-    "pisces love prediction",
-    "jupiter trine neptune",
-    "saturn in taurus",
-    "12th house pisces",
-    "money horoscope",
-    "career astrology",
-    "pisces daily reading",
-    "zodiac signs",
-    "astrology forecast",
+    "astrology",
+    "pisces 2026",
+    "neptune trine mercury",
+    "pisces love reading",
+    "pisces career",
     "cosmic energy",
     "spiritual tiktok",
     "manifestation",
-    "planetary transits",
-    "pisc season",
-    "neptune in aries"
+    "pisces zodiac",
+    "horoscope today",
+    "pisces forecast",
+    "jupiter sextile",
+    "venus 7th house",
+    "pisces money",
+    "zodiac signs",
+    "astrology reading",
+    "pisces intuition",
+    "neptune pisces",
+    "mercury trine"
   ],
   "type": "daily",
   "target": "Pisces",
-  "date": "May 08, 2026",
+  "date": "May 10, 2026",
   "images": [
     "assets/zodiac_signs/Pisces.jpg"
   ],
   "active": true,
-  "status": "error",
-  "file_name": "plan_daily_Pisces.json",
-  "error_reason": "Upload failed"
+  "status": "uploaded",
+  "file_name": "plan_daily_Pisces.json"
 }
