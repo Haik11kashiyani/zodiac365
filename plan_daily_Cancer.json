@@ -1,78 +1,79 @@
 {
-  "script_text": "Stop! Cancer, the Moon is pulling a full eclipse on your heart tonight. Jupiter in your 1st House is trining Pluto in Aquarius, amplifying power dynamics you didn't ask for. The Full Moon in Scorpio opposes Mercury in your 4th House of Home, stirring up buried emotions. In love, Venus sextiling Neptune tempts you to romanticize someone unavailable \u2014 resist the fantasy. For career, Saturn transiting your 10th House of Public Standing says don't push the promotion today, let it come. A blessing arrives through an unexpected message from someone you haven't heard from in months. Follow for tomorrow's reading.",
+  "script_text": "Cancer, Neptune's fog just rolled into your 1st House and your Moon-ruled instincts are on high alert \u2014 trust them. Saturn at 10 degrees Pisces is forming a tense square to the Sun transiting your 2nd House of Finances, creating real pressure around your self-worth and your wallet. Meanwhile, Venus glides through Gemini in your 3rd House, softening the rough edges with charm and opening your voice. If you're taken, expect a late-night conversation that peels back a layer you didn't know existed \u2014 don't run from the vulnerability. The Saturn-Sun clash hits hardest in your money house today, so resist impulse purchases or risky financial bets \u2014 discipline is your currency. Warning: Neptune's haze in your 1st House could have you seeing people as something they're not, so trust actions over words tonight. Subscribe and follow so you don't miss Wednesday's powerful New Moon reading for Cancer.",
   "captions_structure": [
     {
-      "text": "CANCER ALERT",
+      "text": "CANCER DAILY HOROSCOPE",
       "type": "header"
     },
     {
-      "text": "Stop! Cancer, the Moon is pulling a full eclipse on your heart tonight.",
+      "text": "Cancer, Neptune's fog just rolled into your 1st House and your Moon-ruled instincts are on high alert \u2014 trust them.",
       "type": "normal"
     },
     {
-      "text": "Jupiter in your 1st House is trining Pluto in Aquarius, amplifying power dynamics you didn't ask for.",
+      "text": "Saturn at 10 degrees Pisces is forming a tense square to the Sun in your 2nd House of Finances, creating real pressure.",
       "type": "normal"
     },
     {
-      "text": "The Full Moon in Scorpio opposes Mercury in your 4th House of Home, stirring up buried emotions.",
+      "text": "Venus glides through Gemini in your 3rd House, softening the rough edges with charm and opening your voice.",
       "type": "normal"
     },
     {
-      "text": "In love, Venus sextiling Neptune tempts you to romanticize someone unavailable \u2014 resist the fantasy.",
+      "text": "If you're taken, expect a late-night conversation that peels back a layer you didn't know existed.",
       "type": "normal"
     },
     {
-      "text": "For career, Saturn transiting your 10th House of Public Standing says don't push the promotion today, let it come.",
+      "text": "Resist impulse purchases or risky financial bets \u2014 discipline is your currency.",
       "type": "normal"
     },
     {
-      "text": "A blessing arrives through an unexpected message from someone you haven't heard from in months.",
+      "text": "Neptune's haze in your 1st House could have you seeing people as something they're not. Trust actions over words.",
       "type": "normal"
     },
     {
-      "text": "Follow for tomorrow's reading.",
+      "text": "Subscribe so you don't miss Wednesday's New Moon reading for Cancer.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
-    "7",
-    "13",
-    "28"
+    "2",
+    "14",
+    "27"
   ],
-  "lucky_color": "Midnight Blue",
-  "monthly_vibe": "Emotional Release & Power Shift",
-  "title": "Cancer \u2014 The Moon Is Screaming at You Right Now",
-  "youtube_title": "Cancer the Moon Is Screaming at You Right Now #shorts",
-  "youtube_description": "Jupiter trining Pluto and a Full Moon in Scorpio are hitting Cancer hard on May 6, 2026 \u2014 here's what it means for your love life and career. Cancer, comment your sign.",
+  "lucky_color": "Deep Ocean Blue",
+  "monthly_vibe": "Introspective & Grounded",
+  "title": "Cancer Daily Horoscope May 12, 2026",
+  "youtube_title": "Cancer \u2014 Don't Ignore the 1st House Fog #shorts",
+  "youtube_description": "Your Moon-ruled water energy is being tested right now, Cancer. Neptune slipped into your 1st House and Saturn is squaring your finances \u2014 this one hits different. Tonight's reading reveals exactly what to watch for and where the hidden opportunity is hiding. Comment your sign below.",
   "youtube_tags": [
     "cancer horoscope",
     "cancer today",
-    "daily horoscope",
+    "cancer daily horoscope",
     "astrology",
-    "may 2026 astrology",
-    "cancer love prediction",
-    "jupiter pluto trine",
-    "full moon scorpio",
-    "cancer career",
+    "horoscope may 2026",
+    "cancer zodiac",
     "moon sign",
+    "neptune transit",
+    "saturn square sun",
     "water sign",
-    "western astrology",
-    "planetary transits",
-    "cancer daily reading",
-    "zodiac prediction",
-    "cosmic energy",
-    "manifestation",
-    "spiritual tiktok",
     "astrology reading",
-    "cancer moon"
+    "daily astrology",
+    "cosmic energy",
+    "spiritual guidance",
+    "zodiac predictions",
+    "cancer season",
+    "2nd house transit",
+    "manifestation",
+    "astrology community",
+    "cancer love horoscope"
   ],
   "type": "daily",
   "target": "Cancer",
-  "date": "May 06, 2026",
+  "date": "May 12, 2026",
   "images": [
     "assets/zodiac_signs/Cancer.jpg"
   ],
   "active": true,
-  "status": "uploaded",
-  "file_name": "plan_daily_Cancer.json"
+  "status": "error",
+  "file_name": "plan_daily_Cancer.json",
+  "error_reason": "Upload failed"
 }

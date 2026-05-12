@@ -1,83 +1,78 @@
 {
-  "script_text": "Stop! Gemini, Mercury just lit a fuse in your 9th House of Expansion and you need to pay attention right now. On May 6th, 2026, Jupiter and Uranus are conjunct in your 1st House of Self, a once-in-twelve-years alignment electrifying your entire identity. Mercury is sextiling your natal Sun from the 9th, pushing you toward research, travel, or publishing something bold. In love, Venus in Aries is trining your 7th House of Partnerships, so if you're single, someone unconventional could walk into your life through a long-distance connection today. Taken? Expect an exciting conversation that reignites the spark. On the career front, Pluto in your 10th House is squaring Saturn in your 12th, warning you that a hidden obligation could drain your finances if you don't set boundaries now. Avoid overcommitting to anyone who drains your energy. Follow for tomorrow's reading.",
+  "script_text": "Stop right there, Gemini \u2014 Mercury, your ruling planet and the cosmic messenger of the air signs, is forming a rare sextile to Pluto in your 10th House of Career today, and this is not the energy to waste on small talk. Venus glides into your 2nd House of Income, signaling a financial opportunity disguised as a casual conversation heading your way before week's end. In love, a square between the Moon and Venus in your 5th House of Romance means attraction is electric but patience is essential \u2014 don't rush to label something that needs breathing room. Someone from your past could resurface through social media or a chance encounter, and this time you carry the clarity to handle it with grace. Avoid signing binding contracts before Thursday \u2014 Mercury is picking up speed and details could shift overnight. Comment your sign and follow for tomorrow's reading.",
   "captions_structure": [
     {
-      "text": "GEMINI",
+      "text": "GEMINI ALERT",
       "type": "header"
     },
     {
-      "text": "Stop! Gemini, Mercury just lit a fuse in your 9th House of Expansion and you need to pay attention right now.",
+      "text": "Mercury is forming a rare sextile to Pluto in your 10th House of Career",
       "type": "normal"
     },
     {
-      "text": "On May 6th, 2026, Jupiter and Uranus are conjunct in your 1st House of Self, a once-in-twelve-years alignment electrifying your entire identity.",
+      "text": "Venus glides into your 2nd House of Income",
       "type": "normal"
     },
     {
-      "text": "Mercury is sextiling your natal Sun from the 9th, pushing you toward research, travel, or publishing something bold.",
+      "text": "Moon square Venus in your 5th House \u2014 attraction is electric",
       "type": "normal"
     },
     {
-      "text": "In love, Venus in Aries is trining your 7th House of Partnerships, so if you're single, someone unconventional could walk into your life through a long-distance connection today.",
-      "type": "normal"
+      "text": "Avoid signing binding contracts before Thursday",
+      "type": "warning"
     },
     {
-      "text": "Taken? Expect an exciting conversation that reignites the spark.",
-      "type": "normal"
-    },
-    {
-      "text": "On the career front, Pluto in your 10th House is squaring Saturn in your 12th, warning you that a hidden obligation could drain your finances if you don't set boundaries now.",
-      "type": "normal"
-    },
-    {
-      "text": "Avoid overcommitting to anyone who drains your energy.",
-      "type": "normal"
-    },
-    {
-      "text": "Follow for tomorrow's reading.",
-      "type": "normal"
+      "text": "Comment your sign and follow for tomorrow's reading",
+      "type": "cta"
     }
   ],
   "lucky_numbers": [
-    "7",
+    "3",
     "14",
-    "33"
+    "23"
   ],
-  "lucky_color": "Deep Violet",
-  "monthly_vibe": "Transformation & Sudden Shifts",
-  "title": "Something Big Is Happening for Gemini Right Now",
-  "youtube_title": "Jupiter and Uranus Just Hit Gemini \u2014 Here's What Happens #shorts",
-  "youtube_description": "On May 6, 2026, Jupiter and Uranus conjunct in Gemini's 1st House while Pluto squares Saturn in your 12th \u2014 and this changes your love life and career overnight. Gemini, comment your sign so I know who to watch for.",
+  "lucky_color": "Electric Blue",
+  "monthly_vibe": "Electric & Transformative",
+  "title": "Gemini Daily Horoscope May 12 2026",
+  "youtube_title": "Gemini's Ruling Planet Just Made a Rare Move #shorts",
+  "youtube_description": "Mercury, your ruling planet, is forming a rare sextile to Pluto in your 10th House of Career today, and this could trigger a major professional turning point for Gemini. Venus also enters your money zone, so pay close attention to every conversation this week. Comment your sign below and let the stars guide you!",
   "youtube_tags": [
+    "astrology",
+    "horoscope",
     "gemini horoscope",
     "gemini today",
-    "gemini daily",
-    "astrology",
-    "horoscope 2026",
-    "jupiter uranus conjunction",
     "gemini may 2026",
+    "mercury sextile pluto",
+    "gemini career horoscope",
+    "gemini love horoscope",
     "daily horoscope",
-    "mercury transit",
-    "air sign horoscope",
-    "astrology reading",
-    "gemini love prediction",
-    "career astrology",
-    "gemini career",
-    "planetary transits",
-    "cosmic energy",
-    "spiritual tiktok",
-    "manifestation",
     "zodiac signs",
-    "gemini forecast"
+    "gemini zodiac",
+    "mercury transit",
+    "venus transit",
+    "astrology readings",
+    "cosmic energy",
+    "spiritual guidance",
+    "manifestation",
+    "moon sign",
+    "western astrology",
+    "gemini season",
+    "astrology today",
+    "tarot reader",
+    "spiritual awakening",
+    "mercury retrograde",
+    "10th house career",
+    "gemini money",
+    "venus in taurus",
+    "pluto in aquarius"
   ],
   "type": "daily",
   "target": "Gemini",
-  "date": "May 06, 2026",
+  "date": "May 12, 2026",
   "images": [
     "assets/zodiac_signs/Gemini.jpg"
   ],
   "active": true,
-  "status": "error",
-  "file_name": "plan_daily_Gemini.json",
-  "error_reason": "Upload failed"
+  "status": "uploaded",
+  "file_name": "plan_daily_Gemini.json"
 }
