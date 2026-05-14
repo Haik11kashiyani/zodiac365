@@ -1,50 +1,79 @@
 {
-  "script_text": "Stop! Libra, the stars are screaming at you right now. Venus trines Mars in the 12th house, weaving subtle connections. Your ability to harmonize relationships hinges on patience. Capital opportunities appear in networking events. Avoid scaling debt\u2014prioritize repayment. Follow for tomorrow's insights.",
+  "script_text": "Stop scrolling, Libra \u2014 the universe has a direct message for you right now. Saturn is applying serious pressure on your 5th House of romance while Neptune drifts through your partnership sector, blurring the line between devotion and illusion. You're being forced to see people as they truly are, not as you wish them to be. In love today, if you're taken, a buried issue will resurface \u2014 don't run from it. If you're single, stop entertaining people who only show up when it's convenient. On the career front, your 10th House is electrified \u2014 Uranus is disrupting your professional identity while Jupiter enters Cancer, a bold transit for your public ambitions. Today, focus on closing one unfinished project before chasing the next. The unexpected blessing? A mentor steps in with exactly the connection you need \u2014 accept it. Follow for tomorrow's reading \u2014 this week the cosmos doubles down on you, Libra.",
   "captions_structure": [
     {
       "text": "LIBRA ALERT",
       "type": "header"
+    },
+    {
+      "text": "Stop scrolling, Libra \u2014 the universe has a direct message for you right now.",
+      "type": "normal"
+    },
+    {
+      "text": "Saturn is applying serious pressure on your 5th House of romance.",
+      "type": "normal"
+    },
+    {
+      "text": "Neptune blurs the line between devotion and illusion.",
+      "type": "normal"
+    },
+    {
+      "text": "Love prediction \u2014 don't run from that conversation.",
+      "type": "normal"
+    },
+    {
+      "text": "Career \u2014 your 10th House is ELECTRIFIED.",
+      "type": "normal"
+    },
+    {
+      "text": "A mentor steps in with exactly the connection you need.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for tomorrow's reading.",
+      "type": "cta"
     }
   ],
   "lucky_numbers": [
-    7,
-    11,
-    33
+    "7",
+    "14",
+    "23"
   ],
   "lucky_color": "Emerald Green",
   "monthly_vibe": "Reflective & Calm",
-  "title": "Libra Daily Horoscope February 28, 2026",
-  "youtube_title": "Libra's Insight #shorts",
-  "youtube_description": "Strategic balance awaiting. Share your sign next week.",
+  "title": "Libra Daily Horoscope \u2014 May 14, 2026",
+  "youtube_title": "Libra \u2014 Saturn Is Testing You Right Now #shorts",
+  "youtube_description": "Saturn is pressuring your 5th House while Neptune clouds your love sector \u2014 today brings a powerful reckoning you didn't see coming. I reveal what Uranus in your 10th House means for your career this week. Comment your sign below!",
   "youtube_tags": [
-    "Libra Horoscope",
-    "Moon Phase",
-    "Relationship Tips",
-    "Finance"
-  ],
-  "captions_str": "LIBRA",
-  "extras": [
-    "7",
-    "11",
-    "21"
-  ],
-  "capital": "46%",
-  "clouds": "Serene",
-  "narrator": "Sunlight filters through stars",
-  "tags": [
     "astrology",
     "horoscope",
-    "sign",
-    "decoding",
-    "growth"
+    "libra horoscope",
+    "libra today",
+    "libra may 2026",
+    "daily horoscope",
+    "zodiac signs",
+    "libra zodiac",
+    "astro predictions",
+    "saturn transit 2026",
+    "neptune transit",
+    "jupiter in cancer",
+    "uranus in taurus",
+    "cosmic energy",
+    "spiritual awakening",
+    "love horoscope libra",
+    "libra love prediction",
+    "career horoscope",
+    "libra career",
+    "planetary alignment today"
   ],
   "type": "daily",
   "target": "Libra",
-  "date": "February 28, 2026",
+  "date": "May 14, 2026",
   "images": [
     "assets/zodiac_signs/Libra.jpg"
   ],
   "active": true,
-  "status": "uploaded",
-  "file_name": "plan_daily_Libra.json"
+  "status": "error",
+  "file_name": "plan_daily_Libra.json",
+  "error_reason": "Upload failed"
 }

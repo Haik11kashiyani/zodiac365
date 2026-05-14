@@ -1,54 +1,75 @@
 {
-  "script_text": "Stop! Scorpio, the stars are screaming at you right now. Mars is forming a trine to your Midheaven in the 10th House, amplifying your drive to pursue new professional opportunities. Venus in Sagittarius is opposing your IC, stirring intense emotions around home and family matters. Saturn in Pisces is squaring your 4th House, urging you to restructure personal foundations for long-term stability. Pluto, your water sign ruler, intensifies love energy, expecting a surge of magnetic intensity that can either deepen a current bond or attract a compelling new connection if you're single. If you\u2019re already in a relationship, subtle power plays may surface, so practice transparency to avoid misunderstandings. Career-wise, the cosmic push in your 10th House signals a breakthrough proposal or financial incentive that rewards your strategic insight. Avoid confronting authority figures without clear evidence, as tension may backfire. Follow for tomorrow\u2019s reading to stay ahead of the celestial shifts.",
+  "script_text": "Stop scrolling, Scorpio \u2014 Pluto just hit a nerve in your deepest house. Mercury has gone retrograde in your 7th House of Partnerships, stirring up old conversations and unfinished contracts. Meanwhile, Mars is cutting through your 8th House of Shared Finances, forming a tense square to Neptune sitting in your 5th House \u2014 blurring the line between creative risk and financial fantasy. If you're taken, expect your partner to surface something you thought was buried last year, Mercury retrograde will crack open old conversations fast. If you're single, do not rekindle a past flame today, no matter how tempting. With Mars energizing your 8th House, joint investments and debts demand your full attention, never sign a financial document without reading it twice. The unexpected blessing, Pluto's quiet transit through your 4th House is secretly rebuilding your foundation while you sleep. Follow for tomorrow's reading, Scorpio, this week is about to intensify.",
   "captions_structure": [
     {
       "text": "SCORPIO ALERT",
       "type": "header"
     },
     {
-      "text": "Stop! Scorpio, the stars are screaming at you right now.",
+      "text": "Stop scrolling \u2014 Pluto just hit a nerve in your deepest house.",
+      "type": "normal"
+    },
+    {
+      "text": "Mercury retrograde in your 7th House of Partnerships.",
+      "type": "normal"
+    },
+    {
+      "text": "Mars square Neptune \u2014 8th House of Shared Finances.",
+      "type": "normal"
+    },
+    {
+      "text": "Don't rekindle a past flame today.",
+      "type": "normal"
+    },
+    {
+      "text": "Pluto is secretly rebuilding your foundation.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for tomorrow's reading.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
     "7",
-    "22",
-    "39"
+    "14",
+    "28"
   ],
-  "lucky_color": "Deep Maroon",
-  "monthly_vibe": "Intense Transformation",
-  "title": "Scorpio Daily Horoscope February 28, 2026",
-  "youtube_title": "Scorpio's Secret Warning Sparks Massive Change #shorts",
-  "youtube_description": "The stars reveal a powerful shift in your relationships and career that could change everything. Discover what Pluto\u2019s intensity means for you and comment your sign!",
+  "lucky_color": "Deep Charcoal Black",
+  "monthly_vibe": "Transformation Under Pressure",
+  "title": "Scorpio Daily Horoscope May 14, 2026",
+  "youtube_title": "Scorpio \u2014 Pluto Just Hit Your Deepest House #shorts",
+  "youtube_description": "Pluto is stirring up your 4th House while Mercury goes retrograde in your 7th House \u2014 old relationship wounds are resurfacing and hidden financial truths are coming to light. This one hits different for Scorpio. Comment your sign and let me know what's hitting for you.",
   "youtube_tags": [
-    "scorpio",
     "scorpio horoscope",
-    "daily scorpio",
-    "astrology",
-    "horoscope",
-    "zodiac",
+    "scorpio today",
+    "scorpio may 2026",
+    "daily horoscope",
+    "western astrology",
+    "pluto transit",
+    "mercury retrograde",
     "scorpio love",
     "scorpio career",
-    "pluto transit",
-    "water sign",
-    "astrology reading",
-    "cosmic guidance",
-    "manifestation",
-    "spiritual",
-    "tarot",
-    "manifestation meditation",
+    "astrology prediction",
     "zodiac signs",
-    "astrology forecast",
-    "scorpio traits",
-    "horoscope february 2026"
+    "scorpio energy",
+    "8th house astrology",
+    "7th house partnerships",
+    "scorpio season",
+    "cosmic energy",
+    "spiritual guidance",
+    "nep astrology",
+    "mars square neptune",
+    "pluto in aquarius"
   ],
   "type": "daily",
   "target": "Scorpio",
-  "date": "February 28, 2026",
+  "date": "May 14, 2026",
   "images": [
     "assets/zodiac_signs/Scorpio.jpg"
   ],
   "active": true,
-  "status": "uploaded",
-  "file_name": "plan_daily_Scorpio.json"
+  "status": "error",
+  "file_name": "plan_daily_Scorpio.json",
+  "error_reason": "Upload failed"
 }

@@ -1,75 +1,74 @@
 {
-  "script_text": "This week, Scorpio, the cosmos pulls you from the shadows into a power play \u2014 and as your water sign nature runs deep, you'll feel every shift. The Sun and Venus align in your 7th House of Partnerships, making Monday and Tuesday golden for love and connection. Mercury sharpens communication by Wednesday. Thursday brings the pivotal shift \u2014 Jupiter in your 10th House of Career forms a powerful trine to your ruling planet Pluto, igniting your reputation. Mars in your 9th House pushes you to think bigger heading into the weekend. Stay grounded Friday as the Moon squares Saturn in your 8th House of shared resources. Wednesday is your power day as three planets concentrate in your partnership zone. Sunday is weakest with that Moon-Saturn square sparking financial friction. Lean into love early, then channel that energy into bold career moves by Thursday. Follow for daily updates.",
+  "script_text": "Your ruling planet Pluto powerfully activates your 4th House this week, Scorpio, reshaping your private world from the inside. The Water sign intensity is turned up early week as Mercury in Taurus squares your Sun through the 7th House \u2014 expect tension in partnerships around shared finances. Wednesday is your turning point as Venus enters Gemini and lands in your 8th House, deepening your magnetic pull in love and transforming financial situations. By Thursday, Jupiter in Cancer trines your natal Mars from the 9th House \u2014 career doors fly open in publishing, education, or legal matters. The weekend, the Moon sweeps your 10th House, spotlighting your reputation. Wednesday is your power day because Venus sextiles Pluto, supercharging intimacy and creative magnetism. Sunday is your worst day as Mercury squares Saturn, forcing a difficult conversation. Bottom line, Scorpio \u2014 move slowly in love but boldly in career. Follow for your daily cosmic update.",
   "captions_structure": [
     {
-      "text": "SCORPIO",
+      "text": "SCORPIO ALERT",
       "type": "header"
     },
     {
-      "text": "This week, the cosmos pulls you from the shadows into a power play.",
+      "text": "Your ruling planet Pluto powerfully activates your 4th House this week...",
       "type": "normal"
     },
     {
-      "text": "The Sun and Venus align in your 7th House of Partnerships.",
+      "text": "Mercury in Taurus squares your Sun through the 7th House early week.",
       "type": "normal"
     },
     {
-      "text": "Thursday brings the pivotal shift.",
+      "text": "Wednesday turning point \u2014 Venus enters Gemini, lands in your 8th House.",
       "type": "normal"
     },
     {
-      "text": "Jupiter in your 10th House forms a powerful trine to your ruling planet Pluto.",
+      "text": "Thursday: Jupiter trines Mars from the 9th House \u2014 career breakthrough!",
       "type": "normal"
     },
     {
-      "text": "Wednesday is your power day for love.",
+      "text": "Wednesday is your power day. Sunday is your hardest day.",
       "type": "normal"
     },
     {
-      "text": "Sunday is your weakest day \u2014 watch your spending.",
+      "text": "Move slowly in love, boldly in career. Follow for daily updates.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
     "7",
     "11",
-    "22"
+    "21"
   ],
-  "lucky_color": "Deep Crimson",
-  "monthly_vibe": "Transformative & Passionate",
-  "title": "Scorpio Weekly Horoscope May 10, 2026",
-  "youtube_title": "Pluto's Surprising Scorpio Shift This Week #shorts",
-  "youtube_description": "Scorpio, your ruling planet Pluto just got a major boost from Jupiter this week \u2014 and it's hitting your career house hard. This forecast reveals exactly when love peaks and where a hidden financial trap waits on Sunday. Don't miss what the planets have lined up exclusively for you. Comment your sign below.",
+  "lucky_color": "Emerald Green",
+  "monthly_vibe": "Reflective & Calm",
+  "title": "Scorpio Weekly Horoscope May 14, 2026",
+  "youtube_title": "Scorpio \u2014 This Week Changes Everything #shorts",
+  "youtube_description": "This week, Scorpio, Pluto activates your 4th House while Venus enters Gemini to transform your 8th House \u2014 big shifts in love and money are coming. Jupiter's trine to your natal Mars could mean a major career breakthrough by Thursday. Comment your sign and let me know what's hitting hardest!",
   "youtube_tags": [
     "scorpio horoscope",
-    "scorpio weekly horoscope",
+    "weekly horoscope",
     "scorpio may 2026",
-    "horoscope this week",
     "astrology",
-    "daily horoscope",
-    "pluto transit",
-    "jupiter trine pluto",
-    "scorpio season",
-    "scorpio love horoscope",
+    "horoscope",
+    "scorpio love",
     "scorpio career",
-    "zodiac predictions",
-    "water sign horoscope",
-    "astrology forecast",
-    "scorpio energy",
-    "manifestation",
+    "pluto transit",
+    "jupiter in cancer",
+    "venus in gemini",
+    "scorpio 2026",
+    "zodiac forecast",
+    "water sign",
+    "scorpio weekly",
     "cosmic energy",
+    "astrology readings",
+    "scorpio season",
+    "weekly zodiac",
     "spiritual guidance",
-    "moon square saturn",
-    "venus in 7th house"
+    "manifestation"
   ],
   "type": "weekly",
   "target": "Scorpio",
-  "date": "May 10 - May 16",
+  "date": "May 14 - May 20",
   "images": [
     "assets/zodiac_signs/Scorpio.jpg"
   ],
   "active": true,
-  "status": "error",
-  "file_name": "plan_weekly_Scorpio.json",
-  "error_reason": "Upload failed"
+  "status": "uploaded",
+  "file_name": "plan_weekly_Scorpio.json"
 }
