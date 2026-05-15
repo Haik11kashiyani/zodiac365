@@ -1,94 +1,76 @@
 {
-  "script_text": "Aries, the cosmos will ignite a fiery clash this week. Monday\u2019s Mercury square Mars in your 1st House sparks impulsivity, while Tuesday\u2019s Sun trine Jupiter in the 10th fuels confidence, making Tuesday your strongest day. Wednesday\u2019s Venus square Saturn in the 7th House creates relationship strain, making Wednesday the toughest day for love. Thursday\u2019s Mars conjunct Uranus in the 5th House sparks a creative surge, shifting the week\u2019s momentum. Friday\u2019s Mercury sextile Neptune in your 12th House softens communication, inviting intuitive weekend insights. Saturday\u2019s Moon trine Mars in the 3rd House boosts confidence, making Saturday ideal for networking. Sunday\u2019s Venus enters your 5th House, bringing romantic opportunities and a joyful close to the week. Tuesday is your power day as the Sun trine Jupiter in the 10th House amplifies career confidence. Wednesday is your worst day as Venus square Saturn in the 7th House creates relationship tension. Channel early week\u2019s impulsive energy into disciplined Tuesday action for lasting professional gains. Follow for daily updates.",
+  "script_text": "This week, cosmic forces collide and Aries faces a transformative seven days. Early Monday through Wednesday, the Sun transits your 2nd House in Taurus, supercharging your finances\u2014perfect for salary negotiations or a side hustle. But watch Wednesday closely: Mercury squares Saturn, creating communication roadblocks that could stall a career deal. Thursday marks your turning point as Venus in Gemini sextiles Mars in your 4th House, awakening romantic energy and heartfelt home conversations. Love intensifies over the weekend as Jupiter in Cancer continues blessing your domestic sphere\u2014plan a date night Friday or Saturday. Wednesday is your worst day because Mercury square Saturn delays contracts and muddles important messages. Friday is your power day because Venus sextiles your ruling planet Mars, magnetizing attraction and emotional breakthroughs. As a fire sign ruled by bold Mars, move with confidence but read the fine print before Thursday. Follow for daily updates.",
   "captions_structure": [
     {
-      "text": "ARIES",
+      "text": "ARIES ALERT",
       "type": "header"
     },
     {
-      "text": "Aries, the cosmos will ignite a fiery clash this week.",
+      "text": "This week, cosmic forces collide and Aries faces a transformative seven days.",
       "type": "normal"
     },
     {
-      "text": "Monday\u2019s Mercury square Mars in your 1st House sparks impulsivity, while Tuesday\u2019s Sun trine Jupiter in the 10th fuels confidence, making Tuesday your strongest day.",
+      "text": "Sun in Taurus supercharges your 2nd House of money early week.",
       "type": "normal"
     },
     {
-      "text": "Wednesday\u2019s Venus square Saturn in the 7th House creates relationship strain, making Wednesday the toughest day for love.",
+      "text": "Wednesday's Mercury square Saturn blocks your career deals.",
       "type": "normal"
     },
     {
-      "text": "Thursday\u2019s Mars conjunct Uranus in the 5th House sparks a creative surge, shifting the week\u2019s momentum.",
+      "text": "Thursday turns everything around \u2014 Venus sextiles Mars in your 4th House.",
       "type": "normal"
     },
     {
-      "text": "Friday\u2019s Mercury sextile Neptune in your 12th House softens communication, inviting intuitive weekend insights.",
-      "type": "normal"
-    },
-    {
-      "text": "Saturday\u2019s Moon trine Mars in the 3rd House boosts confidence, making Saturday ideal for networking.",
-      "type": "normal"
-    },
-    {
-      "text": "Sunday\u2019s Venus enters your 5th House, bringing romantic opportunities and a joyful close to the week.",
-      "type": "normal"
-    },
-    {
-      "text": "Tuesday is your power day as the Sun trine Jupiter in the 10th House amplifies career confidence.",
-      "type": "normal"
-    },
-    {
-      "text": "Wednesday is your worst day as Venus square Saturn in the 7th House creates relationship tension.",
-      "type": "normal"
-    },
-    {
-      "text": "Channel early week\u2019s impulsive energy into disciplined Tuesday action for lasting professional gains.",
+      "text": "Best day: Friday | Worst day: Wednesday",
       "type": "normal"
     },
     {
       "text": "Follow for daily updates.",
-      "type": "normal"
+      "type": "cta"
     }
   ],
   "lucky_numbers": [
     "7",
-    "11",
-    "21"
+    "14",
+    "23"
   ],
   "lucky_color": "Emerald Green",
-  "monthly_vibe": "Reflective Calm",
-  "title": "Aries Weekly Horoscope May 05-11 2026",
-  "youtube_title": "Aries \u2014 What the Stars Are Warning You #shorts",
-  "youtube_description": "Hey Aries, the stars are lining up to reveal a week of bold moves and surprising love. Watch how the Sun trine Jupiter and Venus square Saturn shape your path, and don\u2019t forget to comment your sign below!",
+  "monthly_vibe": "Passionate Growth",
+  "title": "Aries Weekly Horoscope May 15, 2026",
+  "youtube_title": "Aries: The Week Everything Changes #shorts",
+  "youtube_description": "This week hits different for Aries \u2014 Mercury squares Saturn midweek and could derail a major career move, while Venus and Mars align to spark your most magnetic romantic energy of the season. I'm breaking down every transit hitting your 2nd House, 4th House, and beyond so you don't miss a single cosmic detail. Comment your sign below!",
   "youtube_tags": [
-    "astrology",
-    "horoscope",
-    "aries",
     "aries horoscope",
-    "daily horoscope",
-    "may 2026",
-    "zodiac",
-    "fire sign",
-    "cosmic forecast",
-    "weekly forecast",
-    "career astrology",
-    "love astrology",
-    "career",
-    "money",
-    "astrology forecast",
-    "spiritual",
+    "weekly horoscope",
+    "aries this week",
+    "astrology 2026",
+    "aries weekly forecast",
+    "may 2026 horoscope",
+    "mars transit",
+    "venus sextile mars",
+    "mercury square saturn",
+    "aries love",
+    "aries career",
+    "second house money",
+    "fourth house astrology",
+    "fire sign horoscope",
     "cosmic energy",
-    "spiritual awakening",
-    "zodiac signs",
-    "astrology tips"
+    "spiritual guidance",
+    "zodiac predictions",
+    "astrology forecast",
+    "manifestation",
+    "aries season",
+    "western astrology"
   ],
   "type": "weekly",
   "target": "Aries",
-  "date": "May 05 - May 11",
+  "date": "May 15 - May 21",
   "images": [
     "assets/zodiac_signs/Aries.jpg"
   ],
   "active": true,
-  "status": "uploaded",
-  "file_name": "plan_weekly_Aries.json"
+  "status": "error",
+  "file_name": "plan_weekly_Aries.json",
+  "error_reason": "Upload failed"
 }

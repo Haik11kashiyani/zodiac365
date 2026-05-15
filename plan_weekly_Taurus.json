@@ -1,40 +1,48 @@
 {
-  "script_text": "Brace yourself, Taurus \u2014 this Earth sign, the cosmos rewrites your destiny with fiery precision. Monday brings a Moon square Venus in the 1st House, sparking emotional tension that peaks mid\u2011day. Tuesday shines as Venus trine Saturn in the 10th House stabilizes career and money, while Wednesday sees Mercury square Saturn creating mental blockages. Mid\u2011week, the Moon enters Leo in your 11th House, activating unexpected friendships and opportunities. Thursday sees Venus sextile Jupiter in the 2nd House boosting finances, and Friday\u2019s Sun trine Uranus in the 5th House sparks creative breakthroughs. The weekend brings a grounded vibe as Mars squares the 7th House, urging mindful relationships. Tuesday is your power day because Venus trine Saturn in the 10th House fuels career momentum, while Wednesday is your worst day as Mercury square Saturn creates mental blockages. Focus on practical patience and avoid impulsive spending this week. Follow for daily updates.",
+  "script_text": "Uranus is about to light a fire under your Sun, and you will feel it before you can name it. Monday brings Mercury squaring Neptune in your 12th House, clouding financial clarity through overthinking. Tuesday Venus glides into your 1st House, softening your edges and pulling romantic energy toward you. Wednesday Mars enters your 5th House, igniting creative passion but demanding you stop analyzing love. The mid-week turning point arrives Thursday when Jupiter trines Uranus from your 4th House, unlocking sudden breakthroughs in home and career. Friday Mars opposes Neptune, stirring confusion in your partnerships, while Saturn squares Uranus, testing your commitment to change. Saturday, Sunday, Pluto in your 10th House presses for career transformation. Wednesday is your power day because Venus graces your 1st House. Friday is your challenge day as Mars opposes Neptune. Financially, trust gut feelings over spreadsheets. Follow for daily updates.",
   "captions_structure": [
     {
-      "text": "TAURUS",
+      "text": "TAURUS ALERT",
       "type": "header"
     },
     {
-      "text": "Brace yourself, Taurus \u2014 this Earth sign, the cosmos rewrites your destiny with fiery precision.",
+      "text": "Uranus is about to light a fire under your Sun, and you will feel it before you can name it.",
       "type": "normal"
     },
     {
-      "text": "Monday brings a Moon square Venus in the 1st House, sparking emotional tension that peaks mid\u2011day.",
+      "text": "Monday brings Mercury squaring Neptune in your 12th House, clouding financial clarity through overthinking.",
       "type": "normal"
     },
     {
-      "text": "Tuesday shines as Venus trine Saturn in the 10th House stabilizes career and money, while Wednesday sees Mercury square Saturn creating mental blockages.",
+      "text": "Tuesday Venus glides into your 1st House, softening your edges and pulling romantic energy toward you.",
       "type": "normal"
     },
     {
-      "text": "Mid\u2011week, the Moon enters Leo in your 11th House, activating unexpected friendships and opportunities.",
+      "text": "Wednesday Mars enters your 5th House, igniting creative passion but demanding you stop analyzing love.",
       "type": "normal"
     },
     {
-      "text": "Thursday sees Venus sextile Jupiter in the 2nd House boosting finances, and Friday\u2019s Sun trine Uranus in the 5th House sparks creative breakthroughs.",
+      "text": "The mid-week turning point arrives Thursday when Jupiter trines Uranus from your 4th House, unlocking sudden breakthroughs in home and career.",
       "type": "normal"
     },
     {
-      "text": "The weekend brings a grounded vibe as Mars squares the 7th House, urging mindful relationships.",
+      "text": "Friday Mars opposes Neptune, stirring confusion in your partnerships, while Saturn squares Uranus, testing your commitment to change.",
       "type": "normal"
     },
     {
-      "text": "Tuesday is your power day because Venus trine Saturn in the 10th House fuels career momentum, while Wednesday is your worst day as Mercury square Saturn creates mental blockages.",
+      "text": "Saturday, Sunday, Pluto in your 10th House presses for career transformation.",
       "type": "normal"
     },
     {
-      "text": "Focus on practical patience and avoid impulsive spending this week.",
+      "text": "Wednesday is your power day because Venus graces your 1st House.",
+      "type": "normal"
+    },
+    {
+      "text": "Friday is your challenge day as Mars opposes Neptune.",
+      "type": "normal"
+    },
+    {
+      "text": "Financially, trust gut feelings over spreadsheets.",
       "type": "normal"
     },
     {
@@ -49,38 +57,39 @@
   ],
   "lucky_color": "Emerald Green",
   "monthly_vibe": "Reflective & Calm",
-  "title": "Taurus Weekly Horoscope May 05, 2026",
-  "youtube_title": "Taurus \u2014 Cosmic Shift This Week #shorts",
-  "youtube_description": "Discover how Venus trine Saturn and the Moon\u2019s move into Leo shape your career, love, and finances this week. Comment your sign below!",
+  "title": "Taurus Weekly Horoscope May 15, 2026",
+  "youtube_title": "Uranus Lights a Fire Under Taurus This Week #shorts",
+  "youtube_description": "Uranus conjuncts your Sun while Venus enters your 1st House \u2014 this week brings sudden romantic shifts and career breakthroughs. Comment your sign for a personalized reading.",
   "youtube_tags": [
-    "taurus",
     "taurus horoscope",
-    "may 2026",
-    "astrology",
-    "daily horoscope",
-    "venus",
-    "saturn",
-    "career",
-    "money",
-    "love",
-    "zodiac",
-    "weekly forecast",
-    "cosmic guidance",
-    "spiritual",
-    "manifestation",
-    "zodiac signs",
-    "taurus love",
-    "taurus career",
+    "taurus weekly forecast",
+    "may 2026 astrology",
+    "uranus transit taurus",
+    "venus in taurus",
+    "taurus love forecast",
+    "taurus career prediction",
+    "weekly horoscope",
     "astrology forecast",
-    "taurus 2026"
+    "cosmic energy",
+    "taurus today",
+    "planetary transits",
+    "astrology 2026",
+    "fixed signs astrology",
+    "manifestation",
+    "spiritual tiktok",
+    "earth sign astrology",
+    "taurus money forecast",
+    "jupiter trine uranus",
+    "weekly forecast astrology"
   ],
   "type": "weekly",
   "target": "Taurus",
-  "date": "May 05 - May 11",
+  "date": "May 15 - May 21",
   "images": [
     "assets/zodiac_signs/Taurus.jpg"
   ],
   "active": true,
-  "status": "uploaded",
-  "file_name": "plan_weekly_Taurus.json"
+  "status": "error",
+  "file_name": "plan_weekly_Taurus.json",
+  "error_reason": "Upload failed"
 }
