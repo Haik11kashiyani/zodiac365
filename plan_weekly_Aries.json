@@ -1,76 +1,90 @@
 {
-  "script_text": "This week, cosmic forces collide and Aries faces a transformative seven days. Early Monday through Wednesday, the Sun transits your 2nd House in Taurus, supercharging your finances\u2014perfect for salary negotiations or a side hustle. But watch Wednesday closely: Mercury squares Saturn, creating communication roadblocks that could stall a career deal. Thursday marks your turning point as Venus in Gemini sextiles Mars in your 4th House, awakening romantic energy and heartfelt home conversations. Love intensifies over the weekend as Jupiter in Cancer continues blessing your domestic sphere\u2014plan a date night Friday or Saturday. Wednesday is your worst day because Mercury square Saturn delays contracts and muddles important messages. Friday is your power day because Venus sextiles your ruling planet Mars, magnetizing attraction and emotional breakthroughs. As a fire sign ruled by bold Mars, move with confidence but read the fine print before Thursday. Follow for daily updates.",
+  "script_text": "Aries, Fire sign's Mars just flipped a switch on your money sector \u2014 and it's not letting you ignore it. Early week, Saturn in your 1st House squares Pluto in your 11th, firing up power struggles with friends and groups. Monday hits hardest \u2014 don't sign anything until Thursday. Mars in your 5th House trines Venus in your 4th, lighting up romance and creative sparks. The turning point hits Friday when the Sun enters your 3rd House, shifting your focus to communication and bold statements. Late week, Mercury conjuncts the Sun in Gemini energizes your words \u2014 pitch that new idea Saturday. Mars trine Jupiter in your 4th brings emotional fulfillment Sunday. Friday is your power day as Venus perfects in your 4th House. Monday is your worst \u2014 Saturn square Pluto demands patience. Channel Mars's Fire into your career pitch rather than impulsive spending. Follow for daily updates.",
   "captions_structure": [
     {
       "text": "ARIES ALERT",
       "type": "header"
     },
     {
-      "text": "This week, cosmic forces collide and Aries faces a transformative seven days.",
+      "text": "Aries, Fire sign's Mars just flipped a switch on your money sector \u2014 and it's not letting you ignore it.",
       "type": "normal"
     },
     {
-      "text": "Sun in Taurus supercharges your 2nd House of money early week.",
+      "text": "Early week, Saturn in your 1st House squares Pluto in your 11th, firing up power struggles with friends and groups.",
       "type": "normal"
     },
     {
-      "text": "Wednesday's Mercury square Saturn blocks your career deals.",
+      "text": "Monday hits hardest \u2014 don't sign anything until Thursday.",
       "type": "normal"
     },
     {
-      "text": "Thursday turns everything around \u2014 Venus sextiles Mars in your 4th House.",
+      "text": "Mars in your 5th House trines Venus in your 4th, lighting up romance and creative sparks.",
       "type": "normal"
     },
     {
-      "text": "Best day: Friday | Worst day: Wednesday",
+      "text": "The turning point hits Friday when the Sun enters your 3rd House.",
+      "type": "normal"
+    },
+    {
+      "text": "Late week, Mercury conjuncts the Sun in Gemini energizes your words.",
+      "type": "normal"
+    },
+    {
+      "text": "Friday is your power day as Venus perfects in your 4th House.",
+      "type": "normal"
+    },
+    {
+      "text": "Monday is your worst \u2014 Saturn square Pluto demands patience.",
+      "type": "normal"
+    },
+    {
+      "text": "Channel Mars's Fire into your career pitch rather than impulsive spending.",
       "type": "normal"
     },
     {
       "text": "Follow for daily updates.",
-      "type": "cta"
+      "type": "normal"
     }
   ],
   "lucky_numbers": [
     "7",
-    "14",
-    "23"
+    "21",
+    "34"
   ],
-  "lucky_color": "Emerald Green",
-  "monthly_vibe": "Passionate Growth",
-  "title": "Aries Weekly Horoscope May 15, 2026",
-  "youtube_title": "Aries: The Week Everything Changes #shorts",
-  "youtube_description": "This week hits different for Aries \u2014 Mercury squares Saturn midweek and could derail a major career move, while Venus and Mars align to spark your most magnetic romantic energy of the season. I'm breaking down every transit hitting your 2nd House, 4th House, and beyond so you don't miss a single cosmic detail. Comment your sign below!",
+  "lucky_color": "Sunset Orange",
+  "monthly_vibe": "Bold Action",
+  "title": "Aries \u2014 Something Shifts in Your Money Sector This Week",
+  "youtube_title": "Aries Money Sector Flips This Week #shorts",
+  "youtube_description": "Saturn squares Pluto in your 11th House and Mars trines Venus in your 4th \u2014 this week brings a major career and love shift for Aries. The Sun entering your 3rd House on Friday changes everything. Comment your sign and let me know if you felt this.",
   "youtube_tags": [
     "aries horoscope",
     "weekly horoscope",
-    "aries this week",
-    "astrology 2026",
-    "aries weekly forecast",
-    "may 2026 horoscope",
-    "mars transit",
-    "venus sextile mars",
-    "mercury square saturn",
     "aries love",
     "aries career",
-    "second house money",
-    "fourth house astrology",
-    "fire sign horoscope",
+    "astrology",
+    "horoscope 2026",
+    "mars transit",
+    "saturn in aries",
+    "venus trine mars",
+    "aries money",
+    "weekly forecast",
     "cosmic energy",
-    "spiritual guidance",
-    "zodiac predictions",
-    "astrology forecast",
+    "spiritual tiktok",
     "manifestation",
-    "aries season",
-    "western astrology"
+    "zodiac signs",
+    "aries weekly",
+    "planetary transits",
+    "fire sign",
+    "may 2026 astrology",
+    "aries predictions"
   ],
   "type": "weekly",
   "target": "Aries",
-  "date": "May 15 - May 21",
+  "date": "May 16 - May 22",
   "images": [
     "assets/zodiac_signs/Aries.jpg"
   ],
   "active": true,
-  "status": "error",
-  "file_name": "plan_weekly_Aries.json",
-  "error_reason": "Upload failed"
+  "status": "uploaded",
+  "file_name": "plan_weekly_Aries.json"
 }
