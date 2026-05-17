@@ -1,54 +1,91 @@
 {
-  "script_text": "Taurus, Venus in your 1st House this week\u2014your ruling planet, Earth sign\u2014ignites a love that could last a lifetime, but only if you act on May 17. Early week Venus trines your 7th House Jupiter, sweetening a partnership; Tuesday Mars in your 8th House squares Saturn, creating financial tension\u2014don\u2019t sign anything. Wednesday is your power day because the Sun enters your 2nd House, sharpening your financial focus. Mid-week Sun in your 2nd House sextiles Uranus, bringing unexpected money; career matters shift as Pluto in your 10th House opposes Neptune, urging you to clarify goals. Late week Venus trine Jupiter again, perfect for romance Friday; Saturday Sun in 2nd House opposes Neptune, avoid big purchases, and Sunday grounds you, Taurus. Best day is Wednesday, worst is Tuesday. Weekly advice: Review your budget before Friday. Your Earth element keeps you steady when chaos hits. Follow for updates.",
+  "script_text": "Something rare is about to shake your foundation. Early week Venus in your 1st House squares Saturn in Aries, testing patience, while Jupiter sextiles your Sun\u2014luck building behind the scenes. New Moon on May 18 hits your 5th House, igniting romantic urges. Wednesday is your power day because Venus enters your 5th House trining Jupiter. Mid-week the Sun enters Gemini, opposing Saturn\u2014expect career doubts. Thursday the worst day as Venus-Saturn tension peaks. Friday Venus trines Jupiter\u2014money flows. Weekend Gemini Sun opens your 8th House of shared resources. Taurus, your ruling planet Venus rewards those who act from values. Follow for daily updates.",
   "captions_structure": [
     {
-      "text": "TAURUS",
+      "text": "TAURUS ALERT",
       "type": "header"
     },
     {
-      "text": "Taurus, Venus in your 1st House this week\u2014your ruling planet, Earth sign\u2014ignites a love that could last a lifetime, but only if you act on May 17.",
+      "text": "Something rare is about to shake your foundation.",
+      "type": "normal"
+    },
+    {
+      "text": "Early week Venus in your 1st House squares Saturn in Aries, testing patience, while Jupiter sextiles your Sun\u2014luck building behind the scenes.",
+      "type": "normal"
+    },
+    {
+      "text": "New Moon on May 18 hits your 5th House, igniting romantic urges.",
+      "type": "normal"
+    },
+    {
+      "text": "Wednesday is your power day because Venus enters your 5th House trining Jupiter.",
+      "type": "normal"
+    },
+    {
+      "text": "Mid-week the Sun enters Gemini, opposing Saturn\u2014expect career doubts.",
+      "type": "normal"
+    },
+    {
+      "text": "Thursday the worst day as Venus-Saturn tension peaks.",
+      "type": "normal"
+    },
+    {
+      "text": "Friday Venus trines Jupiter\u2014money flows.",
+      "type": "normal"
+    },
+    {
+      "text": "Weekend Gemini Sun opens your 8th House of shared resources.",
+      "type": "normal"
+    },
+    {
+      "text": "Taurus, your ruling planet Venus rewards those who act from values.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for daily updates.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
     "7",
-    "16",
-    "23"
+    "18",
+    "33"
   ],
   "lucky_color": "Emerald Green",
-  "monthly_vibe": "Grounded & Intense",
-  "title": "Taurus Weekly Horoscope May 16, 2026",
-  "youtube_title": "Something Big Is Coming for Taurus #shorts",
-  "youtube_description": "Venus in your 1st House this week could change your love life forever\u2014discover which days to act and which to avoid. Comment your sign for more.",
+  "monthly_vibe": "Reflective & Calm",
+  "title": "Taurus \u2014 The Stars Are Warning You This Week",
+  "youtube_title": "Taurus Don't Ignore This Warning May 2026 #shorts",
+  "youtube_description": "Venus enters your 5th House and squares Saturn this week\u2014here's what it means for your love life and finances. The New Moon on May 18 brings a rare romantic window. Comment your sign for next week's forecast.",
   "youtube_tags": [
-    "astrology",
-    "horoscope",
     "taurus horoscope",
-    "taurus weekly",
-    "may 2026",
-    "venus transit",
-    "taurus love",
-    "taurus career",
-    "financial astrology",
-    "planetary transits",
+    "taurus weekly forecast",
+    "may 2026 astrology",
+    "taurus love forecast",
+    "taurus money prediction",
+    "weekly horoscope",
+    "astrology 2026",
+    "venus transit taurus",
+    "new moon may 2026",
+    "taurus career forecast",
+    "western astrology",
+    "horoscope this week",
+    "taurus weekly love",
     "cosmic energy",
     "spiritual tiktok",
-    "manifestation",
-    "taurus prediction",
-    "weekly horoscope",
-    "taurus today",
-    "astrology community",
-    "venus in taurus",
-    "earth sign",
-    "monthly forecast"
+    "zodiac signs",
+    "taurus season",
+    "venus square saturn",
+    "jupiter sextile sun",
+    "taurus money luck"
   ],
   "type": "weekly",
   "target": "Taurus",
-  "date": "May 16 - May 22",
+  "date": "May 17 - May 23",
   "images": [
     "assets/zodiac_signs/Taurus.jpg"
   ],
   "active": true,
-  "status": "uploaded",
-  "file_name": "plan_weekly_Taurus.json"
+  "status": "error",
+  "file_name": "plan_weekly_Taurus.json",
+  "error_reason": "Upload failed"
 }
