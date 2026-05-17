@@ -1,94 +1,90 @@
 {
-  "script_text": "Aries, the fire in your chart is about to ignite a secret that changes everything. Monday through Wednesday, Venus in your 6th House squares Mars in Leo, stirring conflict with coworkers. Tuesday is rough\u2014Mars opposes Saturn in Pisces, clouding your career clarity. Wednesday softens as Venus trines Jupiter in Cancer, opening a love door. This week starts with tension but ends with clarity. Thursday\u2019s shift: the Sun enters your 6th House, demanding focus on health and daily grind. Friday brings Mercury squaring Pluto in Aries, triggering a money revelation. Weekend: Jupiter in your 7th House aligns with Venus, making Friday your love power day. Saturday\u2019s energy is calm, perfect for reflection. Wednesday is your power day because Venus trines Jupiter. Tuesday is worst\u2014Mars opposes Saturn. Don\u2019t ignore the money revelation; act on it Thursday with confidence. Follow for daily updates and stay aligned this week.",
+  "script_text": "Something unexpected is about to rewrite your story, Aries. Monday Venus sextiles Saturn in your 1st House \u2014 responsibilities meet charm and clear boundaries. Tuesday Mercury squares Neptune in Aries, clouding decisions and miscommunications. Wednesday the Moon hits Saturn and Neptune conjunct your Ascendant \u2014 identity crisis or spiritual awakening, you choose. Thursday the Moon shifts to your 2nd House, grounding you in what you truly value. Friday Mars in your 8th House trines Jupiter in your 10th \u2014 career breakthrough incoming. Saturday Venus opposes Mars, stirring tension in partnerships. Sunday the Sun in your 2nd House sextiles Pluto in your 12th, unlocking hidden resources and clarity. Friday is your power day because Mars trines Jupiter in your 10th House. Tuesday is your worst day because Mercury squares Neptune, breeding confusion. Trust your gut over your logic this week. Follow for daily updates now, fire.",
   "captions_structure": [
     {
       "text": "ARIES ALERT",
       "type": "header"
     },
     {
-      "text": "Aries, the fire in your chart is about to ignite a secret that changes everything.",
+      "text": "Something unexpected is about to rewrite your story, Aries.",
       "type": "normal"
     },
     {
-      "text": "Monday through Wednesday, Venus in your 6th House squares Mars in Leo, stirring conflict with coworkers.",
+      "text": "Monday Venus sextiles Saturn in your 1st House \u2014 responsibilities meet charm and clear boundaries.",
       "type": "normal"
     },
     {
-      "text": "Tuesday is rough\u2014Mars opposes Saturn in Pisces, clouding your career clarity.",
+      "text": "Tuesday Mercury squares Neptune in Aries, clouding decisions and miscommunications.",
       "type": "normal"
     },
     {
-      "text": "Wednesday softens as Venus trines Jupiter in Cancer, opening a love door.",
+      "text": "Wednesday the Moon hits Saturn and Neptune conjunct your Ascendant \u2014 identity crisis or spiritual awakening, you choose.",
       "type": "normal"
     },
     {
-      "text": "This week starts with tension but ends with clarity.",
+      "text": "Thursday the Moon shifts to your 2nd House, grounding you in what you truly value.",
       "type": "normal"
     },
     {
-      "text": "Thursday\u2019s shift: the Sun enters your 6th House, demanding focus on health and daily grind.",
+      "text": "Friday Mars in your 8th House trines Jupiter in your 10th \u2014 career breakthrough incoming.",
       "type": "normal"
     },
     {
-      "text": "Friday brings Mercury squaring Pluto in Aries, triggering a money revelation.",
+      "text": "Saturday Venus opposes Mars, stirring tension in partnerships.",
       "type": "normal"
     },
     {
-      "text": "Weekend: Jupiter in your 7th House aligns with Venus, making Friday your love power day.",
+      "text": "Sunday the Sun in your 2nd House sextiles Pluto in your 12th, unlocking hidden resources and clarity.",
       "type": "normal"
     },
     {
-      "text": "Saturday\u2019s energy is calm, perfect for reflection.",
+      "text": "Friday is your power day because Mars trines Jupiter in your 10th House.",
       "type": "normal"
     },
     {
-      "text": "Wednesday is your power day because Venus trines Jupiter.",
+      "text": "Tuesday is your worst day because Mercury squares Neptune, breeding confusion.",
       "type": "normal"
     },
     {
-      "text": "Tuesday is worst\u2014Mars opposes Saturn.",
+      "text": "Trust your gut over your logic this week.",
       "type": "normal"
     },
     {
-      "text": "Don\u2019t ignore the money revelation; act on it Thursday with confidence.",
-      "type": "normal"
-    },
-    {
-      "text": "Follow for daily updates and stay aligned this week.",
+      "text": "Follow for daily updates now, fire.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
     "7",
-    "11",
-    "21"
+    "21",
+    "34"
   ],
   "lucky_color": "Emerald Green",
   "monthly_vibe": "Reflective & Calm",
-  "title": "Aries \u2014 The Secret That Changes Everything",
-  "youtube_title": "Aries \u2014 The Secret That Changes Everything #shorts",
-  "youtube_description": "Aries, your ruling planet Mars and the fire element are about to shift. Discover how Venus trine Jupiter in Cancer and Mercury square Pluto in Aries will affect your love and career this week. Comment your sign for a personalized read.",
+  "title": "Aries \u2014 Don't Ignore This Week",
+  "youtube_title": "Aries \u2014 Don't Ignore This Week #shorts",
+  "youtube_description": "Saturn and Neptune conjunct your Ascendant this week could reshape your identity, while Mars trines Jupiter in your 10th House brings a career breakthrough. Love gets tense Saturday when Venus opposes Mars. Comment your sign and find out what the stars say about you.",
   "youtube_tags": [
-    "astrology",
-    "horoscope",
     "aries horoscope",
-    "aries today",
+    "weekly horoscope",
+    "aries astrology",
+    "may 2026 horoscope",
+    "aries love prediction",
+    "mars trine jupiter",
+    "saturn neptune conjunction",
+    "fire sign aries",
+    "astrology forecast",
+    "cosmic energy",
+    "manifestation",
+    "spiritual tiktok",
+    "aries career",
     "weekly forecast",
     "planetary transits",
-    "venus trine jupiter",
-    "mars opposition saturn",
-    "mercury square pluto",
-    "aries love",
-    "aries career",
-    "money revelation",
-    "cosmic energy",
-    "spiritual tiktok",
-    "manifestation",
-    "weekly update",
-    "fire sign",
-    "mars transit",
-    "jupiter in cancer",
-    "aries weekly"
+    "aries weekly",
+    "astrology updates",
+    "venus opposition mars",
+    "aries 2026",
+    "horoscope today"
   ],
   "type": "weekly",
   "target": "Aries",
@@ -97,6 +93,7 @@
     "assets/zodiac_signs/Aries.jpg"
   ],
   "active": true,
-  "status": "uploaded",
-  "file_name": "plan_weekly_Aries.json"
+  "status": "error",
+  "file_name": "plan_weekly_Aries.json",
+  "error_reason": "Upload failed"
 }

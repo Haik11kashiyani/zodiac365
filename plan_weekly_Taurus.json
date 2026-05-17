@@ -1,82 +1,46 @@
 {
-  "script_text": "Something rare is about to shake your foundation. Early week Venus in your 1st House squares Saturn in Aries, testing patience, while Jupiter sextiles your Sun\u2014luck building behind the scenes. New Moon on May 18 hits your 5th House, igniting romantic urges. Wednesday is your power day because Venus enters your 5th House trining Jupiter. Mid-week the Sun enters Gemini, opposing Saturn\u2014expect career doubts. Thursday the worst day as Venus-Saturn tension peaks. Friday Venus trines Jupiter\u2014money flows. Weekend Gemini Sun opens your 8th House of shared resources. Taurus, your ruling planet Venus rewards those who act from values. Follow for daily updates.",
+  "script_text": "Venus squares Pluto in your 8th House \u2014 this week Taurus, you're being pulled into a financial reckoning you can't ignore. Monday May 18 Venus in Aries sextiles Jupiter in Cancer, boosting partnerships in your 7th House, but the Sun opposing Saturn in Aries brings career pressure to your 10th House by midweek. Thursday May 21 Venus enters your 2nd House, conjunct your ruling planet, turning money luck around as the Earth element grounds your finances. Weekend Venus trines Pluto in Aquarius, smoothing joint finances and easing hidden debts in your 11th House. Wednesday is your power day because Venus enters your 5th House, sparking romance and creative projects. Monday is worst as Venus squares Pluto in your 8th House, triggering financial anxiety over shared resources. Set a strict budget Sunday and review it Friday to align with Venus's financial shift. Follow for daily updates.",
   "captions_structure": [
     {
-      "text": "TAURUS ALERT",
+      "text": "TAURUS",
       "type": "header"
     },
     {
-      "text": "Something rare is about to shake your foundation.",
-      "type": "normal"
-    },
-    {
-      "text": "Early week Venus in your 1st House squares Saturn in Aries, testing patience, while Jupiter sextiles your Sun\u2014luck building behind the scenes.",
-      "type": "normal"
-    },
-    {
-      "text": "New Moon on May 18 hits your 5th House, igniting romantic urges.",
-      "type": "normal"
-    },
-    {
-      "text": "Wednesday is your power day because Venus enters your 5th House trining Jupiter.",
-      "type": "normal"
-    },
-    {
-      "text": "Mid-week the Sun enters Gemini, opposing Saturn\u2014expect career doubts.",
-      "type": "normal"
-    },
-    {
-      "text": "Thursday the worst day as Venus-Saturn tension peaks.",
-      "type": "normal"
-    },
-    {
-      "text": "Friday Venus trines Jupiter\u2014money flows.",
-      "type": "normal"
-    },
-    {
-      "text": "Weekend Gemini Sun opens your 8th House of shared resources.",
-      "type": "normal"
-    },
-    {
-      "text": "Taurus, your ruling planet Venus rewards those who act from values.",
-      "type": "normal"
-    },
-    {
-      "text": "Follow for daily updates.",
+      "text": "Venus squares Pluto in your 8th House \u2014 this week Taurus, you're being pulled into a financial reckoning you can't ignore.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
     "7",
-    "18",
-    "33"
+    "21",
+    "34"
   ],
   "lucky_color": "Emerald Green",
   "monthly_vibe": "Reflective & Calm",
-  "title": "Taurus \u2014 The Stars Are Warning You This Week",
-  "youtube_title": "Taurus Don't Ignore This Warning May 2026 #shorts",
-  "youtube_description": "Venus enters your 5th House and squares Saturn this week\u2014here's what it means for your love life and finances. The New Moon on May 18 brings a rare romantic window. Comment your sign for next week's forecast.",
+  "title": "The Stars Are Warning Taurus This Week",
+  "youtube_title": "Taurus \u2014 Don't Ignore This #shorts",
+  "youtube_description": "Venus squares Pluto in your 8th House this week \u2014 Taurus, your finances are about to shift. Comment your sign for more.",
   "youtube_tags": [
-    "taurus horoscope",
-    "taurus weekly forecast",
-    "may 2026 astrology",
-    "taurus love forecast",
-    "taurus money prediction",
+    "astrology",
+    "horoscope",
+    "taurus",
     "weekly horoscope",
-    "astrology 2026",
-    "venus transit taurus",
-    "new moon may 2026",
-    "taurus career forecast",
-    "western astrology",
-    "horoscope this week",
-    "taurus weekly love",
+    "venus transit",
+    "pluto in aquarius",
+    "financial astrology",
+    "taurus 2026",
     "cosmic energy",
     "spiritual tiktok",
-    "zodiac signs",
-    "taurus season",
-    "venus square saturn",
-    "jupiter sextile sun",
-    "taurus money luck"
+    "manifestation",
+    "taurus love",
+    "taurus money",
+    "astrology 2026",
+    "weekly forecast",
+    "venus square pluto",
+    "earth element",
+    "taurus career",
+    "taurus weekly",
+    "star signs"
   ],
   "type": "weekly",
   "target": "Taurus",
@@ -85,7 +49,6 @@
     "assets/zodiac_signs/Taurus.jpg"
   ],
   "active": true,
-  "status": "error",
-  "file_name": "plan_weekly_Taurus.json",
-  "error_reason": "Upload failed"
+  "status": "uploaded",
+  "file_name": "plan_weekly_Taurus.json"
 }
