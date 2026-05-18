@@ -1,54 +1,75 @@
 {
-  "script_text": "Stop! Taurus, the cosmos is staging a full-on standoff with your wallet and your heart right now. Mars, the planet of raw drive, has stationed in your 5th House of romance and is squaring your ruling planet Venus, who is sitting pretty in your 2nd House of personal resources. This is a tense 90-degree angle creating friction between what you desire and what you can afford. If you are flying solo, a fiery attraction demands attention but promises financial trouble. If you are committed, your partner may suggest a risky investment that sounds too good to be true. In the career sector, Venus under fire means negotiations stall. Expect a surprise bill from your 8th House of debt or taxes popping up after dinner. Do not sign that lease or click that link before 5 PM. Follow for tomorrow's reading so you catch the lunar eclipse hitting your 7th House.",
+  "script_text": "Stop! Taurus, the stars are screaming at you right now. Venus, your ruling planet, is being caught in a brutal opposition from Mars today, a tense square that lights up your 2nd House of Money and 8th House of shared resources. Meanwhile, Jupiter in Cancer is sextiling Venus, offering you a rare financial gift if you pay attention. In love, if you're single, don't chase anyone today \u2014 the Mars opposition will make you act desperate. If you're taken, your partner may bring up money issues. Watch their tone. For your career, your 10th House is buzzing \u2014 an unexpected income source could land in your lap by evening. Warning: do NOT sign anything or make financial moves before midnight, or Mars will have you regretting it. Taurus, follow for tomorrow's reading.",
   "captions_structure": [
     {
-      "text": "TAURUS",
+      "text": "TAURUS ALERT",
       "type": "header"
     },
     {
-      "text": "Stop! Taurus, the cosmos is staging a full-on standoff with your wallet and your heart right now.",
+      "text": "Stop! Taurus, the stars are screaming at you right now.",
+      "type": "normal"
+    },
+    {
+      "text": "Venus, your ruling planet, is being caught in a brutal opposition from Mars today.",
+      "type": "normal"
+    },
+    {
+      "text": "In love, if you're single, don't chase anyone today.",
+      "type": "normal"
+    },
+    {
+      "text": "For your career, your 10th House is buzzing.",
+      "type": "normal"
+    },
+    {
+      "text": "Warning: do NOT sign anything before midnight.",
+      "type": "normal"
+    },
+    {
+      "text": "Taurus, follow for tomorrow's reading.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
-    "17",
-    "44",
-    "8"
+    "7",
+    "18",
+    "33"
   ],
   "lucky_color": "Emerald Green",
   "monthly_vibe": "Reflective & Calm",
-  "title": "Taurus \u2014 The Stars Are Screaming at You",
-  "youtube_title": "Taurus, Don't Ignore This Warning #shorts",
-  "youtube_description": "Mars is squaring your ruling planet Venus in your 2nd House today. Find out why your wallet is in danger. Comment your sign!",
+  "title": "Something Big Is Coming for Taurus on May 18",
+  "youtube_title": "Taurus May 18 2026 This Transit Changes Everything #shorts",
+  "youtube_description": "Mars is opposing your ruling planet Venus today and it's hitting your money houses hard. I reveal what to do and what to avoid before midnight. Comment your sign so I know to make yours next.",
   "youtube_tags": [
+    "taurus",
     "taurus horoscope",
-    "taurus daily",
+    "taurus today",
+    "daily horoscope",
+    "may 18 2026",
+    "venus opposition mars",
+    "taurus love prediction",
+    "taurus money forecast",
     "astrology",
-    "horoscope today",
-    "may 17 2026",
-    "venus transit",
-    "mars square venus",
-    "taurus love",
-    "taurus money",
+    "western astrology",
+    "daily astrology",
+    "taurus daily reading",
+    "venus in taurus",
+    "mars transit",
+    "jupiter sextile venus",
     "cosmic energy",
     "spiritual tiktok",
     "manifestation",
     "zodiac signs",
-    "earth signs",
-    "daily horoscope",
-    "astrology reading",
-    "taurus predictions",
-    "lucky numbers",
-    "planetary transits",
-    "mystic"
+    "weekly horoscope taurus"
   ],
   "type": "daily",
   "target": "Taurus",
-  "date": "May 17, 2026",
+  "date": "May 18, 2026",
   "images": [
     "assets/zodiac_signs/Taurus.jpg"
   ],
   "active": true,
-  "status": "uploaded",
-  "file_name": "plan_daily_Taurus.json"
+  "status": "error",
+  "file_name": "plan_daily_Taurus.json",
+  "error_reason": "Upload failed"
 }

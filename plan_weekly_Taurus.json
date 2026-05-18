@@ -1,54 +1,79 @@
 {
-  "script_text": "Venus squares Pluto in your 8th House \u2014 this week Taurus, you're being pulled into a financial reckoning you can't ignore. Monday May 18 Venus in Aries sextiles Jupiter in Cancer, boosting partnerships in your 7th House, but the Sun opposing Saturn in Aries brings career pressure to your 10th House by midweek. Thursday May 21 Venus enters your 2nd House, conjunct your ruling planet, turning money luck around as the Earth element grounds your finances. Weekend Venus trines Pluto in Aquarius, smoothing joint finances and easing hidden debts in your 11th House. Wednesday is your power day because Venus enters your 5th House, sparking romance and creative projects. Monday is worst as Venus squares Pluto in your 8th House, triggering financial anxiety over shared resources. Set a strict budget Sunday and review it Friday to align with Venus's financial shift. Follow for daily updates.",
+  "script_text": "This week, Venus fires a love arrow straight through your 7th House that you cannot ignore. Monday through Wednesday, the Sun in your 1st House squares Saturn in your 12th, draining your energy\u2014Tuesday is the worst day, avoid major decisions. By Thursday, Mercury in Taurus sextiles Venus in your 5th House, sparking a candid conversation with someone you've been avoiding. The real turning point hits Friday when Venus conjuncts the Sun at 0 degrees Gemini, igniting a financial breakthrough and reigniting an old flame. Saturday through Sunday, Jupiter in Cancer trines your 9th House, bringing travel luck or a generous offer. Your power day is Friday when Venus-Sun merge in your 2nd House. Best day is Friday. Worst day is Tuesday. Anchor yourself before reacting Monday through Wednesday. Follow for daily updates.",
   "captions_structure": [
     {
-      "text": "TAURUS",
+      "text": "TAURUS ALERT",
       "type": "header"
     },
     {
-      "text": "Venus squares Pluto in your 8th House \u2014 this week Taurus, you're being pulled into a financial reckoning you can't ignore.",
+      "text": "This week, Venus fires a love arrow straight through your 7th House that you cannot ignore.",
+      "type": "normal"
+    },
+    {
+      "text": "Monday through Wednesday, the Sun in your 1st House squares Saturn in your 12th, draining your energy\u2014Tuesday is the worst day, avoid major decisions.",
+      "type": "normal"
+    },
+    {
+      "text": "By Thursday, Mercury in Taurus sextiles Venus in your 5th House, sparking a candid conversation with someone you've been avoiding.",
+      "type": "normal"
+    },
+    {
+      "text": "The real turning point hits Friday when Venus conjuncts the Sun at 0 degrees Gemini, igniting a financial breakthrough and reigniting an old flame.",
+      "type": "normal"
+    },
+    {
+      "text": "Saturday through Sunday, Jupiter in Cancer trines your 9th House, bringing travel luck or a generous offer.",
+      "type": "normal"
+    },
+    {
+      "text": "Your power day is Friday when Venus-Sun merge in your 2nd House. Best day is Friday. Worst day is Tuesday.",
+      "type": "normal"
+    },
+    {
+      "text": "Anchor yourself before reacting Monday through Wednesday. Follow for daily updates.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
     "7",
     "21",
-    "34"
+    "33"
   ],
   "lucky_color": "Emerald Green",
   "monthly_vibe": "Reflective & Calm",
-  "title": "The Stars Are Warning Taurus This Week",
-  "youtube_title": "Taurus \u2014 Don't Ignore This #shorts",
-  "youtube_description": "Venus squares Pluto in your 8th House this week \u2014 Taurus, your finances are about to shift. Comment your sign for more.",
+  "title": "Something Huge Happens for Taurus This Week",
+  "youtube_title": "Taurus gets a shockwave from Venus this week #shorts",
+  "youtube_description": "Venus conjuncts the Sun in your 2nd House on Friday, May 22, triggering a financial and romantic breakthrough you didn't see coming. This week carries a love surprise and a money shift\u2014here's the full breakdown. Comment your sign.",
   "youtube_tags": [
-    "astrology",
-    "horoscope",
-    "taurus",
+    "taurus horoscope",
+    "taurus weekly forecast",
+    "astrology 2026",
     "weekly horoscope",
+    "taurus love prediction",
     "venus transit",
-    "pluto in aquarius",
-    "financial astrology",
-    "taurus 2026",
+    "may 2026 astrology",
+    "taurus money forecast",
     "cosmic energy",
     "spiritual tiktok",
-    "manifestation",
-    "taurus love",
-    "taurus money",
-    "astrology 2026",
-    "weekly forecast",
-    "venus square pluto",
-    "earth element",
+    "astrology predictions",
     "taurus career",
+    "planetary transits",
     "taurus weekly",
-    "star signs"
+    "horoscope today",
+    "jupiter in cancer",
+    "manifestation",
+    "zodiac signs",
+    "astrology community",
+    "taurus venus conjunction"
   ],
   "type": "weekly",
   "target": "Taurus",
-  "date": "May 17 - May 23",
+  "date": "May 18 - May 24",
   "images": [
     "assets/zodiac_signs/Taurus.jpg"
   ],
   "active": true,
-  "status": "uploaded",
-  "file_name": "plan_weekly_Taurus.json"
+  "status": "error",
+  "file_name": "plan_weekly_Taurus.json",
+  "error_reason": "Upload failed"
 }

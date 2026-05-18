@@ -1,5 +1,5 @@
 {
-  "script_text": "Stop! Aries, the stars are screaming at you right now. Mars, your ruling planet, is firing across your 2nd House of money, conjunct the Sun at 27 degrees Taurus, demanding you act on financial ambitions today. Meanwhile, Venus conjunct Jupiter in Cancer lights up your 4th House of home with an unexpected gift or reconciliation you did not see coming. In love, if you are single, someone from your past may resurface through a family connection. If taken, protect the peace in your household\u2014resist the urge to control. Mercury opposes Jupiter in your 8th House of shared resources, so a financial deal or intimate conversation carries hidden terms\u2014read the fine print. Watch for impulsiveness around contracts before 3 PM. Lucky numbers are 7, 18, 33. Subscribe so you don't miss what's coming this week.",
+  "script_text": "Stop! Aries, the stars are screaming at you right now. Mars, your fiery ruling planet, is slamming a square into Saturn in Pisces today, rattling your 4th House of Home and the 10th House of Career. This clash is forcing you to confront old obligations versus your desire for bold action. In love, Venus in Gemini sextiles Neptune, so a secret admirer may finally surface, but if you're partnered, watch for a partner misreading your directness as insensitivity. In your 2nd House of Money, unexpected expenses could arise\u2014avoid impulsive spending on anything tied to emotional validation. The blessing? A surprise gift from a mentor connected to your 9th House of Expansion. Follow for tomorrow's reading.",
   "captions_structure": [
     {
       "text": "ARIES",
@@ -10,78 +10,68 @@
       "type": "normal"
     },
     {
-      "text": "Mars, your ruling planet, is firing across your 2nd House of money, conjunct the Sun at 27 degrees Taurus, demanding you act on financial ambitions today.",
+      "text": "Mars, your fiery ruling planet, is slamming a square into Saturn in Pisces today, rattling your 4th House of Home and the 10th House of Career.",
       "type": "normal"
     },
     {
-      "text": "Meanwhile, Venus conjunct Jupiter in Cancer lights up your 4th House of home with an unexpected gift or reconciliation you did not see coming.",
+      "text": "This clash is forcing you to confront old obligations versus your desire for bold action.",
       "type": "normal"
     },
     {
-      "text": "In love, if you are single, someone from your past may resurface through a family connection.",
+      "text": "In love, Venus in Gemini sextiles Neptune, so a secret admirer may finally surface, but if you're partnered, watch for a partner misreading your directness as insensitivity.",
       "type": "normal"
     },
     {
-      "text": "If taken, protect the peace in your household\u2014resist the urge to control.",
+      "text": "In your 2nd House of Money, unexpected expenses could arise\u2014avoid impulsive spending on anything tied to emotional validation.",
       "type": "normal"
     },
     {
-      "text": "Mercury opposes Jupiter in your 8th House of shared resources, so a financial deal or intimate conversation carries hidden terms\u2014read the fine print.",
+      "text": "The blessing? A surprise gift from a mentor connected to your 9th House of Expansion.",
       "type": "normal"
     },
     {
-      "text": "Watch for impulsiveness around contracts before 3 PM.",
-      "type": "normal"
-    },
-    {
-      "text": "Lucky numbers are 7, 18, 33.",
-      "type": "normal"
-    },
-    {
-      "text": "Subscribe so you don't miss what's coming this week.",
+      "text": "Follow for tomorrow's reading.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
     "7",
     "18",
-    "33"
+    "32"
   ],
-  "lucky_color": "Cream Ivory",
-  "monthly_vibe": "Emotional Grounding",
-  "title": "Aries \u2014 Don't Ignore This Warning From the Stars",
-  "youtube_title": "Aries Got a Warning They Can't Ignore #shorts",
-  "youtube_description": "Mars conjunct the Sun in your 2nd House and Venus conjunct Jupiter in your 4th \u2014 two transits colliding on one day. Aries, a financial move and a home revelation are waiting for you. Comment your sign and tell me if you felt this shift.",
+  "lucky_color": "Emerald Green",
+  "monthly_vibe": "Reflective & Calm",
+  "title": "Aries \u2014 Mars vs Saturn Today",
+  "youtube_title": "Aries, Mars is Fighting Saturn Right Now #shorts",
+  "youtube_description": "Mars in Taurus is squaring Saturn in Pisces today, shaking up your home and career. Discover how this affects your love life and wallet. Comment your sign!",
   "youtube_tags": [
+    "astrology",
+    "horoscope",
     "aries horoscope",
     "aries today",
-    "daily horoscope",
-    "astrology 2026",
-    "aries love prediction",
     "mars transit",
-    "venus jupiter conjunction",
-    "aries money forecast",
-    "taurus sun transit",
-    "fire sign astrology",
-    "aries daily reading",
+    "saturn in pisces",
+    "daily horoscope",
+    "fire sign",
+    "aries love",
+    "aries career",
     "cosmic energy",
     "spiritual tiktok",
-    "astrology reading",
-    "planetary transits",
-    "aries career",
     "manifestation",
-    "tarot and astrology",
-    "zodiac signs",
-    "horoscope today"
+    "planetary transits",
+    "aries daily reading",
+    "may 18 2026",
+    "astrology prediction",
+    "aries warning",
+    "mars square saturn"
   ],
   "type": "daily",
   "target": "Aries",
-  "date": "May 17, 2026",
+  "date": "May 18, 2026",
   "images": [
     "assets/zodiac_signs/Aries.jpg"
   ],
   "active": true,
-  "status": "error",
-  "file_name": "plan_daily_Aries.json",
-  "error_reason": "Upload failed"
+  "status": "uploaded",
+  "file_name": "plan_daily_Aries.json"
 }
