@@ -1,82 +1,87 @@
 {
-  "script_text": "Pisces, Neptune is about to rewrite your entire week. Monday through Wednesday, the Sun in late Taurus squares your 5th House, stirring creative tension while Mercury in Gemini sextiles your 7th House, sharpening conversations with partners. Wednesday is your power day because Venus enters your 5th House. The mid-week turning point hits Thursday when Jupiter in Cancer opposes your Sun from the 7th House, forcing a truth you've been avoiding in love. Thursday through Sunday, Neptune stations direct in Aries, trining your 9th House and unlocking a long-distance opportunity or spiritual breakthrough. Saturday is your worst day as Mars in Aries squares your 4th House, stirring domestic conflict. Career money peaks Friday when a Venus-Jupiter trine hits your 10th and 2nd Houses. Breathe before you speak during Thursday's opposition. Follow for daily updates.",
+  "script_text": "Something is pulling you underwater and you cannot see it coming. Pisces, with Neptune as your ruler and water as your element, this week hits hard. Monday through Wednesday, Mercury squares Saturn in your 12th House, fogging your thinking \u2014 Tuesday is worst, decisions backfire. Mid-week, the Sun enters your 7th House Thursday, shifting focus to partnerships. Late week, Venus sextiles Jupiter Friday bringing emotional breakthroughs and cash flow luck, but Saturday's full Moon in Scorpio opposes the Sun in your 1st, sparking a career revelation. Best day is Wednesday because Venus enters your 5th House, igniting romance. Worst day is Sunday as Mercury opposes Neptune, breeding miscommunication. Revisit that stalled financial plan Monday before the fog settles. Follow for daily updates.",
   "captions_structure": [
     {
       "text": "PISCES ALERT",
       "type": "header"
     },
     {
-      "text": "Pisces, Neptune is about to rewrite your entire week.",
+      "text": "Something is pulling you underwater and you cannot see it coming.",
       "type": "normal"
     },
     {
-      "text": "Monday through Wednesday, the Sun in late Taurus squares your 5th House, stirring creative tension while Mercury in Gemini sextiles your 7th House, sharpening conversations with partners.",
+      "text": "Pisces, with Neptune as your ruler and water as your element, this week hits hard.",
       "type": "normal"
     },
     {
-      "text": "Wednesday is your power day because Venus enters your 5th House.",
+      "text": "Monday through Wednesday, Mercury squares Saturn in your 12th House, fogging your thinking \u2014 Tuesday is worst, decisions backfire.",
       "type": "normal"
     },
     {
-      "text": "The mid-week turning point hits Thursday when Jupiter in Cancer opposes your Sun from the 7th House, forcing a truth you've been avoiding in love.",
+      "text": "Mid-week, the Sun enters your 7th House Thursday, shifting focus to partnerships.",
       "type": "normal"
     },
     {
-      "text": "Thursday through Sunday, Neptune stations direct in Aries, trining your 9th House and unlocking a long-distance opportunity or spiritual breakthrough.",
+      "text": "Late week, Venus sextiles Jupiter Friday bringing emotional breakthroughs and cash flow luck, but Saturday's full Moon in Scorpio opposes the Sun in your 1st, sparking a career revelation.",
       "type": "normal"
     },
     {
-      "text": "Saturday is your worst day as Mars in Aries squares your 4th House, stirring domestic conflict.",
+      "text": "Best day is Wednesday because Venus enters your 5th House, igniting romance.",
       "type": "normal"
     },
     {
-      "text": "Career money peaks Friday when a Venus-Jupiter trine hits your 10th and 2nd Houses.",
+      "text": "Worst day is Sunday as Mercury opposes Neptune, breeding miscommunication.",
       "type": "normal"
     },
     {
-      "text": "Breathe before you speak during Thursday's opposition. Follow for daily updates.",
+      "text": "Revisit that stalled financial plan Monday before the fog settles.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for daily updates.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
     "7",
     "21",
-    "38"
+    "36"
   ],
-  "lucky_color": "Emerald Green",
-  "monthly_vibe": "Reflective & Calm",
-  "title": "Pisces \u2014 Neptune Rewrites Your Week This May",
-  "youtube_title": "Pisces Neptune Rewrites Your Week May 18 #shorts",
-  "youtube_description": "Neptune stations direct and Jupiter opposes your Sun this week \u2014 one transit forces a love truth you've been hiding. Comment your sign for your forecast.",
+  "lucky_color": "Deep Sea Teal",
+  "monthly_vibe": "Unveiling & Intuitive",
+  "title": "Pisces Gets a Sudden Warning This Week",
+  "youtube_title": "Pisces This Week Brings a Shocking Shift #shorts",
+  "youtube_description": "Pisces, Saturn is tightening its grip on your 12th House this week and a love surprise arrives Wednesday \u2014 but Sunday brings chaos. Watch to see why your career just flipped. Comment your sign.",
   "youtube_tags": [
+    "pisces",
     "pisces horoscope",
     "pisces weekly",
-    "pisces forecast",
+    "weekly horoscope",
     "astrology",
     "horoscope 2026",
-    "neptune retrograde",
-    "jupiter transit",
     "pisces love",
     "pisces career",
-    "weekly horoscope",
-    "may 2026 astrology",
-    "pisces daily",
-    "astrology predictions",
+    "neptune retrograde",
+    "saturn in pisces",
+    "venus in 5th house",
+    "full moon scorpion",
+    "mercury square saturn",
+    "astrology forecast",
     "cosmic energy",
     "spiritual guidance",
+    "pisces forecast",
+    "may 2026 astrology",
     "manifestation",
-    "western astrology",
-    "pisces neptune",
-    "water sign astrology",
-    "astrology reading"
+    "western astrology"
   ],
   "type": "weekly",
   "target": "Pisces",
-  "date": "May 18 - May 24",
+  "date": "May 19 - May 25",
   "images": [
     "assets/zodiac_signs/Pisces.jpg"
   ],
   "active": true,
-  "status": "uploaded",
-  "file_name": "plan_weekly_Pisces.json"
+  "status": "error",
+  "file_name": "plan_weekly_Pisces.json",
+  "error_reason": "Upload failed"
 }

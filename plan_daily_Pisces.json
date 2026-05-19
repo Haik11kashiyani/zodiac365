@@ -1,81 +1,83 @@
 {
-  "script_text": "Stop! Pisces, Neptune's pull is splitting you in half right now. Saturn in late Taurus is squaring your 5th House of Romance, and Uranus in Taurus is firing up your 8th House of shared resources. If you're in a relationship, a jealousy flare from your partner hits around 3 PM today \u2014 don't feed it. If you're single, an old flame resurfaces through a group chat, but tread carefully. Your 10th House is buzzing with opportunity, but don't sign anything before verifying every figure in the contract. Neptune is fogging your 6th House of health \u2014 skip the midnight snack. Mercury sextile your 2nd House opens a quiet money channel by evening. Follow for tomorrow's reading so you don't miss what's coming this week.",
+  "script_text": "Stop! Pisces, the stars are screaming at you right now. Neptune, your ruling planet, is locked in an exact conjunction with the Sun in your 1st House of Self, amplifying your intuition to a razor's edge. Jupiter in Cancer is sextiling your 7th House of Partnerships, pulling a meaningful connection closer, but Saturn sitting heavy in your 4th House is demanding you confront what you've been avoiding at home. In love, if you're single, a grounded earth sign may cross your path today\u2014open your mouth, don't just dream. If taken, resist the urge to read between the lines; their words mean exactly what they say. Mercury in Taurus is opposing your 10th House, so double-check every work email before sending\u2014money leaks happen when you rush. Avoid signing contracts after 6 PM. Subscribe so you don't miss what's coming this week.",
   "captions_structure": [
     {
       "text": "PISCES ALERT",
       "type": "header"
     },
     {
-      "text": "Stop! Pisces, Neptune's pull is splitting you in half right now.",
+      "text": "Stop! Pisces, the stars are screaming at you right now.",
       "type": "normal"
     },
     {
-      "text": "Saturn in late Taurus is squaring your 5th House of Romance, and Uranus in Taurus is firing up your 8th House of shared resources.",
+      "text": "Neptune, your ruling planet, is locked in an exact conjunction with the Sun in your 1st House of Self, amplifying your intuition to a razor's edge.",
       "type": "normal"
     },
     {
-      "text": "If you're in a relationship, a jealousy flare from your partner hits around 3 PM today \u2014 don't feed it.",
+      "text": "Jupiter in Cancer is sextiling your 7th House of Partnerships, pulling a meaningful connection closer, but Saturn sitting heavy in your 4th House is demanding you confront what you've been avoiding at home.",
       "type": "normal"
     },
     {
-      "text": "If you're single, an old flame resurfaces through a group chat, but tread carefully.",
+      "text": "In love, if you're single, a grounded earth sign may cross your path today\u2014open your mouth, don't just dream.",
       "type": "normal"
     },
     {
-      "text": "Your 10th House is buzzing with opportunity, but don't sign anything before verifying every figure in the contract.",
+      "text": "If taken, resist the urge to read between the lines; their words mean exactly what they say.",
       "type": "normal"
     },
     {
-      "text": "Neptune is fogging your 6th House of health \u2014 skip the midnight snack.",
+      "text": "Mercury in Taurus is opposing your 10th House, so double-check every work email before sending\u2014money leaks happen when you rush.",
       "type": "normal"
     },
     {
-      "text": "Mercury sextile your 2nd House opens a quiet money channel by evening.",
+      "text": "Avoid signing contracts after 6 PM.",
       "type": "normal"
     },
     {
-      "text": "Follow for tomorrow's reading so you don't miss what's coming this week.",
+      "text": "Subscribe so you don't miss what's coming this week.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
     "7",
-    "23",
-    "38"
+    "21",
+    "44"
   ],
-  "lucky_color": "Seafoam Green",
-  "monthly_vibe": "Deep Reflection",
-  "title": "The Stars Are Warning Pisces \u2014 Read Before It's Too Late",
-  "youtube_title": "Pisces \u2014 One Transit Changes Everything May 18 #shorts",
-  "youtube_description": "Saturn is squaring your 5th House and Uranus is waking up your 8th \u2014 tonight reveals a hidden betrayal risk and a secret money move. Comment your sign so I can check your chart.",
+  "lucky_color": "Midnight Teal",
+  "monthly_vibe": "Deep Intuition & Grounding",
+  "title": "Pisces \u2014 Neptune Is Amplifying You Today",
+  "youtube_title": "Pisces \u2014 Neptune Is Doing Something Rare Today #shorts",
+  "youtube_description": "Neptune is forming an exact conjunction with your Sun on May 19, 2026, and Jupiter is sextiling your 7th House \u2014 here's what that means for love and money. Comment your sign so I can pull up your chart.",
   "youtube_tags": [
     "pisces horoscope",
     "pisces today",
-    "pisces daily horoscope",
-    "astrology",
-    "horoscope",
+    "daily horoscope",
     "neptune transit",
-    "saturn square",
-    "uranus taurus",
+    "jupiter sextile",
     "pisces love prediction",
-    "pisces career",
-    "daily horoscope 2026",
-    "astrology reading",
+    "astrology 2026",
+    "may 19 2026 astrology",
+    "pisces daily reading",
     "cosmic energy",
-    "spiritual tiktok",
     "manifestation",
-    "western astrology",
-    "pisces daily",
-    "astrology today",
-    "zodiac signs"
+    "spiritual tiktok",
+    "water sign astrology",
+    "neptune conjunction sun",
+    "saturn in 4th house",
+    "pisces career forecast",
+    "mercury opposition 10th house",
+    "pisces intuition",
+    "outer planet transits 2026",
+    "western astrology daily"
   ],
   "type": "daily",
   "target": "Pisces",
-  "date": "May 18, 2026",
+  "date": "May 19, 2026",
   "images": [
     "assets/zodiac_signs/Pisces.jpg"
   ],
   "active": true,
-  "status": "uploaded",
-  "file_name": "plan_daily_Pisces.json"
+  "status": "error",
+  "file_name": "plan_daily_Pisces.json",
+  "error_reason": "Upload failed"
 }

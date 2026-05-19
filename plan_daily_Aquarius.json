@@ -1,79 +1,54 @@
 {
-  "script_text": "Stop! Aquarius, the stars are screaming at you right now. The Sun is conjunct your ruling planet Uranus in Taurus, electrifying your 2nd House of finances and self-worth. At the same time, Saturn in Aries is squaring your 4th House of home and family, stirring up emotional pressure you can't sweep under the rug. In love, Venus in Gemini sextiles your 7th House of partnerships, so a genuine conversation with someone you've been overthinking could crack open real intimacy. Career-wise, Jupiter in Leo trines your 10th House of public standing \u2014 pitch that idea, Aquarius, because the room is listening. Avoid impulsive spending today when Uranus fires up your wallet. Follow for tomorrow's reading.",
+  "script_text": "Stop! Aquarius, the stars are screaming at you right now. Mars in Leo is forming a tense opposition to your ruling planet Uranus in your 11th House, creating friction between your social circles and your inner revolution. If you're single, an unexpected text from an old friend could spark something electric\u2014don\u2019t dismiss it. If taken, your partner may feel you pulling away; hold space instead of shutting down. Stay present to catch it. Your 10th House of career is lit up by Venus in Gemini sextile to your natal Sun, so a pitch you\u2019ve been refining could land you a bonus or a new client by Friday\u2014trust the process. Avoid making impulsive financial decisions before 3 PM\u2014Mercury\u2019s retrograde shadow in your 2nd House of money could trip you up. Follow for tomorrow\u2019s reading to see how this opposition shifts today.",
   "captions_structure": [
     {
-      "text": "AQUARIUS ALERT",
+      "text": "AQUARIUS",
       "type": "header"
     },
     {
       "text": "Stop! Aquarius, the stars are screaming at you right now.",
       "type": "normal"
-    },
-    {
-      "text": "The Sun is conjunct your ruling planet Uranus in Taurus, electrifying your 2nd House of finances and self-worth.",
-      "type": "normal"
-    },
-    {
-      "text": "Saturn in Aries is squaring your 4th House of home and family.",
-      "type": "normal"
-    },
-    {
-      "text": "Venus in Gemini sextiles your 7th House of partnerships.",
-      "type": "normal"
-    },
-    {
-      "text": "Jupiter in Leo trines your 10th House of public standing.",
-      "type": "normal"
-    },
-    {
-      "text": "Avoid impulsive spending today.",
-      "type": "normal"
-    },
-    {
-      "text": "Follow for tomorrow's reading.",
-      "type": "normal"
     }
   ],
   "lucky_numbers": [
     "7",
-    "21",
-    "33"
+    "11",
+    "21"
   ],
-  "lucky_color": "Electric Teal",
-  "monthly_vibe": "Electric Clarity",
-  "title": "Aquarius \u2014 Uranus Just Lit Up Your Wallet",
-  "youtube_title": "Aquarius \u2014 Your Ruling Planet Just Did Something Wild #shorts",
-  "youtube_description": "The Sun conjunct Uranus and Saturn squaring your 4th House are creating serious shifts for Aquarius on May 18, 2026. This reading reveals what to do with your finances, love, and career before the energy shifts again. Comment your sign below.",
+  "lucky_color": "Emerald Green",
+  "monthly_vibe": "Reflective & Calm",
+  "title": "The Stars Are Warning Aquarius \u2014 Don't Ignore This",
+  "youtube_title": "Something Big Is Coming for Aquarius #shorts",
+  "youtube_description": "Mars in Leo is opposing your ruling planet Uranus today\u2014this could shake up your social life. Comment your sign to get your reading.",
   "youtube_tags": [
+    "astrology",
+    "horoscope",
     "aquarius horoscope",
     "aquarius today",
-    "daily horoscope",
-    "may 18 2026",
-    "uranus transit",
-    "saturn in aries",
-    "aquarius love",
-    "aquarius career",
-    "astrology forecast",
-    "western astrology",
-    "aquarius daily",
-    "planetary transits",
-    "jupiter trine",
-    "venus sextile",
+    "manifestation",
     "cosmic energy",
+    "spiritual tiktok",
+    "daily horoscope",
+    "planetary transits",
+    "uranus",
+    "mars in leo",
+    "air sign",
+    "zodiac",
     "spiritual guidance",
-    "astrology predictions",
-    "aquarius money",
-    "air sign astrology",
-    "manifestation"
+    "inner revolution",
+    "social circles",
+    "financial decisions",
+    "retrograde shadow",
+    "victoria astrologer",
+    "aquarius daily"
   ],
   "type": "daily",
   "target": "Aquarius",
-  "date": "May 18, 2026",
+  "date": "May 19, 2026",
   "images": [
     "assets/zodiac_signs/Aquarius.jpg"
   ],
   "active": true,
-  "status": "error",
-  "file_name": "plan_daily_Aquarius.json",
-  "error_reason": "Upload failed"
+  "status": "uploaded",
+  "file_name": "plan_daily_Aquarius.json"
 }
