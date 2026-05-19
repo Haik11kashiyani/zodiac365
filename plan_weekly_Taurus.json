@@ -1,79 +1,90 @@
 {
-  "script_text": "This week, Venus fires a love arrow straight through your 7th House that you cannot ignore. Monday through Wednesday, the Sun in your 1st House squares Saturn in your 12th, draining your energy\u2014Tuesday is the worst day, avoid major decisions. By Thursday, Mercury in Taurus sextiles Venus in your 5th House, sparking a candid conversation with someone you've been avoiding. The real turning point hits Friday when Venus conjuncts the Sun at 0 degrees Gemini, igniting a financial breakthrough and reigniting an old flame. Saturday through Sunday, Jupiter in Cancer trines your 9th House, bringing travel luck or a generous offer. Your power day is Friday when Venus-Sun merge in your 2nd House. Best day is Friday. Worst day is Tuesday. Anchor yourself before reacting Monday through Wednesday. Follow for daily updates.",
+  "script_text": "Something is about to shake your financial foundation, Taurus. Monday and Tuesday Venus in Aries squares Saturn in your 2nd house of money, creating tension over cash flow you cannot ignore. Wednesday Mercury conjuncts Uranus at 8 Gemini in your 3rd house\u2014a sudden communication breakthrough. Thursday Venus enters your 7th house, and love finally moves forward. Friday the Sun opposes Neptune in your 12th house, breeding confusion in partnerships. Saturday Mars sextiles your 10th house career sector, opening a promotion door. Sunday the Sun enters Gemini activating your 6th house, so prioritize health and routines. Wednesday is your power day because Mercury conjuncts Uranus in your 3rd house. Friday is your worst day because the Sun opposes Neptune in your 12th. Hold off on signing contracts until after Thursday. Follow for daily updates.",
   "captions_structure": [
     {
-      "text": "TAURUS ALERT",
+      "text": "TAURUS",
       "type": "header"
     },
     {
-      "text": "This week, Venus fires a love arrow straight through your 7th House that you cannot ignore.",
+      "text": "Something is about to shake your financial foundation, Taurus.",
       "type": "normal"
     },
     {
-      "text": "Monday through Wednesday, the Sun in your 1st House squares Saturn in your 12th, draining your energy\u2014Tuesday is the worst day, avoid major decisions.",
+      "text": "Monday and Tuesday Venus in Aries squares Saturn in your 2nd house of money...",
       "type": "normal"
     },
     {
-      "text": "By Thursday, Mercury in Taurus sextiles Venus in your 5th House, sparking a candid conversation with someone you've been avoiding.",
+      "text": "Wednesday Mercury conjuncts Uranus at 8 Gemini in your 3rd house.",
       "type": "normal"
     },
     {
-      "text": "The real turning point hits Friday when Venus conjuncts the Sun at 0 degrees Gemini, igniting a financial breakthrough and reigniting an old flame.",
+      "text": "Thursday Venus enters your 7th house, and love finally moves forward.",
       "type": "normal"
     },
     {
-      "text": "Saturday through Sunday, Jupiter in Cancer trines your 9th House, bringing travel luck or a generous offer.",
+      "text": "Friday the Sun opposes Neptune in your 12th house.",
       "type": "normal"
     },
     {
-      "text": "Your power day is Friday when Venus-Sun merge in your 2nd House. Best day is Friday. Worst day is Tuesday.",
+      "text": "Saturday Mars sextiles your 10th house career sector.",
       "type": "normal"
     },
     {
-      "text": "Anchor yourself before reacting Monday through Wednesday. Follow for daily updates.",
+      "text": "Wednesday is your power day.",
+      "type": "normal"
+    },
+    {
+      "text": "Friday is your worst day.",
+      "type": "normal"
+    },
+    {
+      "text": "Hold off on signing contracts until after Thursday.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for daily updates.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
     "7",
-    "21",
+    "18",
     "33"
   ],
   "lucky_color": "Emerald Green",
   "monthly_vibe": "Reflective & Calm",
-  "title": "Something Huge Happens for Taurus This Week",
-  "youtube_title": "Taurus gets a shockwave from Venus this week #shorts",
-  "youtube_description": "Venus conjuncts the Sun in your 2nd House on Friday, May 22, triggering a financial and romantic breakthrough you didn't see coming. This week carries a love surprise and a money shift\u2014here's the full breakdown. Comment your sign.",
+  "title": "Taurus \u2014 Don't Ignore This Week",
+  "youtube_title": "Taurus Weekly Forecast May 19 Reveals Something Big #shorts",
+  "youtube_description": "Venus squares Saturn in your 2nd house early this week, and Mercury conjuncts Uranus mid-week\u2014revealing a secret that changes how you handle money and love. Comment your sign for a personalized reading.",
   "youtube_tags": [
     "taurus horoscope",
-    "taurus weekly forecast",
-    "astrology 2026",
     "weekly horoscope",
-    "taurus love prediction",
-    "venus transit",
+    "astrology",
+    "taurus forecast",
     "may 2026 astrology",
-    "taurus money forecast",
+    "venus transit",
+    "mercury conjunct uranus",
+    "taurus love",
+    "taurus career",
+    "financial astrology",
     "cosmic energy",
     "spiritual tiktok",
-    "astrology predictions",
-    "taurus career",
-    "planetary transits",
-    "taurus weekly",
-    "horoscope today",
-    "jupiter in cancer",
-    "manifestation",
     "zodiac signs",
-    "astrology community",
-    "taurus venus conjunction"
+    "horoscope today",
+    "taurus weekly",
+    "planetary transits",
+    "manifestation",
+    "astrology 2026",
+    "earth sign",
+    "venus in aries"
   ],
   "type": "weekly",
   "target": "Taurus",
-  "date": "May 18 - May 24",
+  "date": "May 19 - May 25",
   "images": [
     "assets/zodiac_signs/Taurus.jpg"
   ],
   "active": true,
-  "status": "error",
-  "file_name": "plan_weekly_Taurus.json",
-  "error_reason": "Upload failed"
+  "status": "uploaded",
+  "file_name": "plan_weekly_Taurus.json"
 }

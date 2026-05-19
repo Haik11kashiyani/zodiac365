@@ -1,40 +1,44 @@
 {
-  "script_text": "Something explosive is brewing in your natal first house as Neptune stations retrograde. Monday through Wednesday, your fiery ruling planet Mars in your 10th House squares Saturn entering your 2nd, stirring career and money doubts. Tuesday peaks with this square, making impulsive spending dangerous. Wednesday softens as Venus in Taurus sextiles your 7th House, reviving a romantic connection. Thursday's turning point arrives as the Sun crosses into Gemini, lighting your 3rd House and opening doors for communication, learning, and short travel that reshape your perspective. Friday through Sunday, Uranus in your 5th House conjuncts natal Venus, sparking unexpected romantic chemistry or a creative breakthrough. Saturday Jupiter in Cancer trines your 9th House. Sunday is calm for rest. Best day is Wednesday, Venus sextiles your 7th House. Worst day is Tuesday when Mars squares Saturn. Pause before signing any financial agreement this week. Follow for daily updates.",
+  "script_text": "This Aries, the cosmos is about to flip the script on your peace of mind. Early week, Mercury in your 3rd House sextiles Mars in your 5th, making Monday and Tuesday ideal for bold romance and creative pitches. Your ruling planet Mars fires up your love sector, so don't be shy about confessing feelings. Wednesday is your power day because Venus enters your 4th House, stabilizing your home base. Mid-week, however, Venus squares Jupiter in your 7th House, creating tension between partners and domestic demands. Late week brings clarity as the Sun moves into your 2nd House, urging you to lock in finances. Thursday is rough due to the Venus-Jupiter clash. Your career sector in the 10th House gets a boost from Mars trine Saturn, so leverage that Monday drive. Remember your fire element keeps you burning bright, so stay focused. Follow for daily updates.",
   "captions_structure": [
     {
       "text": "ARIES ALERT",
       "type": "header"
     },
     {
-      "text": "Something explosive is brewing in your natal first house as Neptune stations retrograde.",
+      "text": "This Aries, the cosmos is about to flip the script on your peace of mind.",
       "type": "normal"
     },
     {
-      "text": "Monday through Wednesday, your fiery ruling planet Mars in your 10th House squares Saturn entering your 2nd, stirring career and money doubts.",
+      "text": "Early week, Mercury in your 3rd House sextiles Mars in your 5th, making Monday and Tuesday ideal for bold romance and creative pitches.",
       "type": "normal"
     },
     {
-      "text": "Tuesday peaks with this square, making impulsive spending dangerous.",
+      "text": "Your ruling planet Mars fires up your love sector, so don't be shy about confessing feelings.",
       "type": "normal"
     },
     {
-      "text": "Wednesday softens as Venus in Taurus sextiles your 7th House, reviving a romantic connection.",
+      "text": "Wednesday is your power day because Venus enters your 4th House, stabilizing your home base.",
       "type": "normal"
     },
     {
-      "text": "Thursday's turning point arrives as the Sun crosses into Gemini, lighting your 3rd House.",
+      "text": "Mid-week, however, Venus squares Jupiter in your 7th House, creating tension between partners and domestic demands.",
       "type": "normal"
     },
     {
-      "text": "Friday through Sunday, Uranus in your 5th House conjuncts natal Venus, sparking unexpected romance.",
+      "text": "Late week brings clarity as the Sun moves into your 2nd House, urging you to lock in finances.",
       "type": "normal"
     },
     {
-      "text": "Best day is Wednesday. Worst day is Tuesday.",
+      "text": "Thursday is rough due to the Venus-Jupiter clash.",
       "type": "normal"
     },
     {
-      "text": "Pause before signing any financial agreement this week.",
+      "text": "Your career sector in the 10th House gets a boost from Mars trine Saturn, so leverage that Monday drive.",
+      "type": "normal"
+    },
+    {
+      "text": "Remember your fire element keeps you burning bright, so stay focused.",
       "type": "normal"
     },
     {
@@ -44,44 +48,43 @@
   ],
   "lucky_numbers": [
     "7",
-    "21",
-    "33"
+    "11",
+    "21"
   ],
-  "lucky_color": "Crimson Red",
+  "lucky_color": "Sunset Orange",
   "monthly_vibe": "Bold Action",
-  "title": "Aries \u2014 Something Big Hits Your First House",
-  "youtube_title": "Aries May 18 2026 This Transit Changes Everything #shorts",
-  "youtube_description": "Neptune stations retrograde in your first house while Mars squares Saturn in your career zone \u2014 but Wednesday brings a surprise Venus sextile to your 7th House. The love prediction will surprise you. Comment your sign.",
+  "title": "The Stars Are Warning Aries Don't Ignore This",
+  "youtube_title": "Aries Don't Ignore This Warning #shorts",
+  "youtube_description": "Mars triggers a love revelation and a financial shift this week. Comment your sign if you feel the heat.",
   "youtube_tags": [
-    "aries horoscope",
-    "aries weekly horoscope",
-    "aries may 2026",
-    "aries love prediction",
-    "aries career forecast",
-    "astrology",
+    "aries",
     "horoscope",
-    "weekly horoscope",
-    "neptune retrograde 2026",
-    "mars square saturn",
-    "venus sextile",
-    "aries weekly forecast",
-    "fire sign astrology",
+    "weekly forecast",
+    "aries weekly",
+    "mars transit",
+    "venus square jupiter",
+    "astrology",
     "cosmic energy",
+    "fire sign",
+    "love prediction",
+    "career prediction",
+    "money forecast",
+    "aries love",
+    "aries career",
+    "spiritual tiktok",
     "manifestation",
-    "spiritual guidance",
-    "astrology forecast",
+    "zodiac",
     "planetary transits",
-    "aries 2026 predictions",
-    "zodiac love"
+    "may 2026",
+    "weekly vibes"
   ],
   "type": "weekly",
   "target": "Aries",
-  "date": "May 18 - May 24",
+  "date": "May 19 - May 25",
   "images": [
     "assets/zodiac_signs/Aries.jpg"
   ],
   "active": true,
-  "status": "error",
-  "file_name": "plan_weekly_Aries.json",
-  "error_reason": "Upload failed"
+  "status": "uploaded",
+  "file_name": "plan_weekly_Aries.json"
 }
