@@ -1,8 +1,8 @@
 {
-  "script_text": "Stop! Taurus, the stars are screaming at you right now. As the Sun fires its last degree through your 1st House on the cusp of Gemini, Venus your ruling planet is forming an intense square to Saturn in your 10th House of Career, blocking your professional momentum cold. In your 7th House, Jupiter in Cancer is sextiling your natal Moon, which means a partner or potential love is about to open up emotionally in ways you did not expect. Singles, do not swipe past someone steady \u2014 that quiet energy is your match. For money, resist signing any contract until after Venus leaves that square, or you will regret the terms. A surprise message from someone you haven't heard from in years is heading your way \u2014 keep your phone close. Follow for tomorrow's reading so you don't miss what the Moon is about to reveal.",
+  "script_text": "Stop! Taurus, the stars are screaming at you right now. Venus, your ruling planet, is under pressure today as Saturn in Aries squares your 3rd House of communication, making words sharp and contracts tricky. Jupiter in Cancer is trining your 7th House of partnerships, so if you're single, someone from your past could resurface with real intention. If you're taken, tonight's energy favors honest vulnerability, not silence. Mars is activating your 10th House of career, pushing you to pitch that idea or negotiate that raise before Friday. Your lucky numbers are 7, 11, and 21, and emerald green is your power color today. Watch your bank account \u2014 impulsive spending under this Mars energy could sting. Say what you mean and don't dodge the hard conversation. Follow for tomorrow's reading.",
   "captions_structure": [
     {
-      "text": "TAURUS ALERT",
+      "text": "TAURUS",
       "type": "header"
     },
     {
@@ -10,70 +10,64 @@
       "type": "normal"
     },
     {
-      "text": "As the Sun fires its last degree through your 1st House on the cusp of Gemini, Venus your ruling planet is forming an intense square to Saturn in your 10th House of Career, blocking your professional momentum cold.",
+      "text": "Venus, your ruling planet, is under pressure today as Saturn in Aries squares your 3rd House of communication.",
       "type": "normal"
     },
     {
-      "text": "In your 7th House, Jupiter in Cancer is sextiling your natal Moon, which means a partner or potential love is about to open up emotionally in ways you did not expect.",
+      "text": "Jupiter in Cancer is trining your 7th House of partnerships \u2014 single or taken, pay attention.",
       "type": "normal"
     },
     {
-      "text": "Singles, do not swipe past someone steady \u2014 that quiet energy is your match.",
+      "text": "Mars is activating your 10th House of career \u2014 pitch that idea NOW.",
       "type": "normal"
     },
     {
-      "text": "For money, resist signing any contract until after Venus leaves that square, or you will regret the terms.",
+      "text": "Watch your bank account. Emerald green is your power color.",
       "type": "normal"
     },
     {
-      "text": "A surprise message from someone you haven't heard from in years is heading your way \u2014 keep your phone close.",
-      "type": "normal"
-    },
-    {
-      "text": "Follow for tomorrow's reading so you don't miss what the Moon is about to reveal.",
+      "text": "Follow for tomorrow's reading.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
     "7",
-    "14",
-    "28"
+    "11",
+    "21"
   ],
-  "lucky_color": "Forest Green",
-  "monthly_vibe": "Cautious & Magnetic",
-  "title": "Something Big Is Happening for Taurus \u2014 Don't Ignore It",
-  "youtube_title": "Taurus \u2014 Don't Ignore This Signal #shorts",
-  "youtube_description": "Venus is squaring Saturn in your career house on May 19 and it's about to change everything. A surprise message is coming \u2014 watch for it. Comment your sign and I'll tell you what's next for you.",
+  "lucky_color": "Emerald Green",
+  "monthly_vibe": "Reflective & Calm",
+  "title": "Taurus \u2014 The Stars Are Warning You Right Now",
+  "youtube_title": "Taurus \u2014 Don't Ignore This Signal From the Stars #shorts",
+  "youtube_description": "Venus is getting squeezed by Saturn while Jupiter opens a door in your love life \u2014 but Mars in your career house demands you act fast. Comment your sign so I can read for you next.",
   "youtube_tags": [
     "taurus horoscope",
     "taurus today",
-    "daily horoscope",
+    "taurus daily",
+    "astrology",
+    "horoscope 2026",
     "taurus love prediction",
-    "astrology 2026",
-    "venus square saturn",
     "taurus career",
-    "may 19 2026 astrology",
-    "taurus daily reading",
+    "venus transit",
+    "saturn square",
+    "jupiter trine",
+    "taurus daily horoscope",
+    "zodiac signs",
     "western astrology",
-    "taurus zodiac",
     "cosmic energy",
-    "spiritual tiktok",
-    "astrology predictions",
-    "taurus money forecast",
-    "planetary transits",
-    "jupiter in cancer",
     "manifestation",
-    "horoscope daily",
-    "tarot and astrology"
+    "spiritual tiktok",
+    "planetary transits",
+    "taurus may 2026",
+    "astrology reading"
   ],
   "type": "daily",
   "target": "Taurus",
-  "date": "May 19, 2026",
+  "date": "May 20, 2026",
   "images": [
     "assets/zodiac_signs/Taurus.jpg"
   ],
   "active": true,
-  "status": "error",
-  "file_name": "plan_daily_Taurus.json",
-  "error_reason": "Upload failed"
+  "status": "uploaded",
+  "file_name": "plan_daily_Taurus.json"
 }

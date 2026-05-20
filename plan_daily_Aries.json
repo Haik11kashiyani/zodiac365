@@ -1,32 +1,32 @@
 {
-  "script_text": "Stop! Aries, the cosmos just threw a lightning bolt at your doorstep. Mars, your ruling planet, is conjunct Saturn at fifteen degrees in your 1st House, demanding you own every reckless impulse before it costs you. Venus in Taurus is squaring this conjunction from your 4th House of Home, stirring up old resentments with someone you live with or your family. If you're single, a bold but guarded approach to someone new could ignite something real\u2014just don't rush the commitment. In your 10th House of Career, this Mars-Saturn squeeze tightens deadlines and forces a decision you've been avoiding; say yes to the opportunity that scares you. The blessing hiding in this tension: unexpected clarity about a financial matter by evening. Follow for tomorrow's reading.",
+  "script_text": "Stop! Aries, the stars are screaming at you right now. Venus in Gemini is forming an exact opposition to Jupiter in your 1st House right now, and that tension is spilling into every corner of your love life. If you're single, someone from your past could resurface with romantic intent by tonight \u2014 resist the impulse to reply without thinking. Mercury sextile Mars is lighting up your 10th House of Career, meaning a proposal or financial offer you've been waiting on could land before 3 PM. Jupiter's conjunction to your Ascendant is inflating your confidence but watch the spending. That Venus-Jupiter opposition brings one unexpected gift \u2014 forgiveness from someone you wrote off months ago. Follow for tomorrow's reading.",
   "captions_structure": [
     {
-      "text": "ARIES ALERT",
+      "text": "ARIES",
       "type": "header"
     },
     {
-      "text": "Stop! Aries, the cosmos just threw a lightning bolt at your doorstep.",
+      "text": "Stop! Aries, the stars are screaming at you right now.",
       "type": "normal"
     },
     {
-      "text": "Mars, your ruling planet, is conjunct Saturn at fifteen degrees in your 1st House, demanding you own every reckless impulse before it costs you.",
+      "text": "Venus in Gemini is forming an exact opposition to Jupiter in your 1st House right now.",
       "type": "normal"
     },
     {
-      "text": "Venus in Taurus is squaring this conjunction from your 4th House of Home, stirring up old resentments with someone you live with or your family.",
+      "text": "If you're single, someone from your past could resurface with romantic intent by tonight.",
       "type": "normal"
     },
     {
-      "text": "If you're single, a bold but guarded approach to someone new could ignite something real\u2014just don't rush the commitment.",
+      "text": "Mercury sextile Mars is lighting up your 10th House of Career.",
       "type": "normal"
     },
     {
-      "text": "In your 10th House of Career, this Mars-Saturn squeeze tightens deadlines and forces a decision you've been avoiding; say yes to the opportunity that scares you.",
+      "text": "Jupiter's conjunction to your Ascendant is inflating your confidence but watch the spending.",
       "type": "normal"
     },
     {
-      "text": "The blessing hiding in this tension: unexpected clarity about a financial matter by evening.",
+      "text": "That Venus-Jupiter opposition brings one unexpected gift \u2014 forgiveness from someone you wrote off months ago.",
       "type": "normal"
     },
     {
@@ -36,43 +36,44 @@
   ],
   "lucky_numbers": [
     "7",
-    "15",
-    "42"
+    "17",
+    "33"
   ],
-  "lucky_color": "Crimson Red",
-  "monthly_vibe": "Disciplined Fire",
-  "title": "Aries \u2014 Mars and Saturn Are Conspiring Against You",
-  "youtube_title": "Aries Dont Ignore This Warning #shorts",
-  "youtube_description": "Mars conjunct Saturn in your 1st House on May 19, 2026 is forcing you to face a truth youve been dodging. What it means for your love life and career today. Comment your sign and tell me if you felt this.",
+  "lucky_color": "Emerald Green",
+  "monthly_vibe": "Reflective & Calm",
+  "title": "Aries \u2014 Don't Ignore This Warning From Venus",
+  "youtube_title": "Aries gets a secret message from Venus today #shorts",
+  "youtube_description": "Venus opposing Jupiter in your 1st House is about to stir up an old flame and a career offer hits before lunch. Aries, pay close attention to the 10th House. Comment your sign below and let me know if this rings true.",
   "youtube_tags": [
     "aries horoscope",
-    "aries daily horoscope",
     "aries today",
-    "astrology",
-    "horoscope",
     "daily horoscope",
-    "mars transit",
-    "saturn in aries",
-    "aries love",
-    "aries career",
-    "fire sign",
-    "cosmic energy",
-    "manifestation",
-    "spiritual tiktok",
+    "astrology 2026",
+    "venus opposition jupiter",
+    "aries love prediction",
+    "aries career forecast",
+    "may 20 2026 astrology",
+    "aries daily reading",
     "zodiac signs",
-    "planetary transits",
-    "mars saturn conjunction",
-    "venus square mars",
-    "aries 2026",
-    "astrology reading"
+    "horoscope today",
+    "mercury sextile mars",
+    "fire sign astrology",
+    "aries monthly forecast",
+    "planetary transits 2026",
+    "cosmic energy",
+    "spiritual tiktok",
+    "manifestation",
+    "western astrology",
+    "aries ascendant"
   ],
   "type": "daily",
   "target": "Aries",
-  "date": "May 19, 2026",
+  "date": "May 20, 2026",
   "images": [
     "assets/zodiac_signs/Aries.jpg"
   ],
   "active": true,
-  "status": "uploaded",
-  "file_name": "plan_daily_Aries.json"
+  "status": "error",
+  "file_name": "plan_daily_Aries.json",
+  "error_reason": "Upload failed"
 }
