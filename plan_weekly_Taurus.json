@@ -1,44 +1,32 @@
 {
-  "script_text": "Something big is shifting in your chart this week, and most Taurus won't see it coming. Early week, Venus in your 1st House sextiles Jupiter in your 10th on Tuesday, opening a career door you've been chasing. But Wednesday Mars squares transiting Uranus in your 5th, sparking sudden romantic chaos. Mid-week, Venus sextiles Mars on Thursday, giving you rare courage in love. Thursday through Sunday, the Sun enters your 2nd House, tightening your financial grip. Saturday the Moon squares Saturn in your 7th, making a partner conversation feel heavy. Best day is Wednesday, Venus in your 1st House puts you in peak power. Worst day is Saturday, the Moon-Saturn square creates real partnership tension. This week, pause before replying to that heated text. Follow for daily updates.",
+  "script_text": "Something electric is about to crack open your foundation, Taurus. Early week Venus conjuncts Uranus in your 1st House on May 22, sparking sudden unexpected identity shifts \u2014 but by Wednesday the Sun squares Saturn in your 11th House, pulling finances against social demands. Tuesday fires, Wednesday stings. Thursday's turning point: Venus enters your 2nd House, Gemini, forcing you to confront deep real values versus money matters. Late week Pluto in your 10th House trines the Sun in your 2nd House on Saturday, aligning career power with financial gains \u2014 your boldest bigger professional move lands this weekend. Sunday softens into very quick reflection. Tuesday is your power day with Venus conjunct Uranus in your 1st House. Wednesday is worst with the Sun squaring Saturn in your 11th House. Protect your wallet from people-pleasing \u2014 keep resources seriously guarded this week. Follow for daily updates.",
   "captions_structure": [
     {
       "text": "TAURUS",
       "type": "header"
     },
     {
-      "text": "Something big is shifting in your chart this week, and most Taurus won't see it coming.",
+      "text": "Something electric is about to crack open your foundation, Taurus.",
       "type": "normal"
     },
     {
-      "text": "Early week, Venus in your 1st House sextiles Jupiter in your 10th on Tuesday, opening a career door you've been chasing.",
+      "text": "Early week Venus conjuncts Uranus in your 1st House on May 22, sparking sudden unexpected identity shifts \u2014 but by Wednesday the Sun squares Saturn in your 11th House, pulling finances against social demands. Tuesday fires, Wednesday stings.",
       "type": "normal"
     },
     {
-      "text": "But Wednesday Mars squares transiting Uranus in your 5th, sparking sudden romantic chaos.",
+      "text": "Thursday's turning point: Venus enters your 2nd House, Gemini, forcing you to confront deep real values versus money matters.",
       "type": "normal"
     },
     {
-      "text": "Mid-week, Venus sextiles Mars on Thursday, giving you rare courage in love.",
+      "text": "Late week Pluto in your 10th House trines the Sun in your 2nd House on Saturday, aligning career power with financial gains \u2014 your boldest bigger professional move lands this weekend. Sunday softens into very quick reflection.",
       "type": "normal"
     },
     {
-      "text": "Thursday through Sunday, the Sun enters your 2nd House, tightening your financial grip.",
+      "text": "Tuesday is your power day with Venus conjunct Uranus in your 1st House. Wednesday is worst with the Sun squaring Saturn in your 11th House.",
       "type": "normal"
     },
     {
-      "text": "Saturday the Moon squares Saturn in your 7th, making a partner conversation feel heavy.",
-      "type": "normal"
-    },
-    {
-      "text": "Best day is Wednesday, Venus in your 1st House puts you in peak power.",
-      "type": "normal"
-    },
-    {
-      "text": "Worst day is Saturday, the Moon-Saturn square creates real partnership tension.",
-      "type": "normal"
-    },
-    {
-      "text": "This week, pause before replying to that heated text.",
+      "text": "Protect your wallet from people-pleasing \u2014 keep resources seriously guarded this week.",
       "type": "normal"
     },
     {
@@ -48,43 +36,44 @@
   ],
   "lucky_numbers": [
     "7",
-    "14",
-    "29"
+    "21",
+    "38"
   ],
-  "lucky_color": "Emerald Green",
-  "monthly_vibe": "Reflective & Grounded",
-  "title": "Taurus \u2014 A Venus Transit Changes Everything This Week",
-  "youtube_title": "Venus Moves Through Taurus and Changes Your Week #shorts",
-  "youtube_description": "Venus enters your 1st House and sextiles Jupiter this week, opening a career door while Mars squares Uranus in your 5th for romantic chaos. Find out which day is your power day and which to watch out for. Comment your sign below!",
+  "lucky_color": "Deep Emerald",
+  "monthly_vibe": "Reflective & Calm",
+  "title": "The Stars Are Warning Taurus Something Big",
+  "youtube_title": "The Stars Are Warning Taurus Something Big #shorts",
+  "youtube_description": "Pluto's trine to your Sun this weekend could shift your career overnight \u2014 but first Venus conjuncts Uranus on Tuesday. Comment your sign for the full breakdown.",
   "youtube_tags": [
     "taurus horoscope",
-    "weekly horoscope",
-    "taurus love",
-    "taurus career",
-    "astrology 2026",
-    "venus transit",
     "taurus weekly forecast",
-    "horoscope may 2026",
+    "astrology 2026",
+    "may 2026 horoscope",
+    "taurus love prediction",
+    "taurus career",
+    "venus conjunct uranus",
+    "pluto trine sun",
+    "weekly horoscope",
     "taurus today",
     "astrology predictions",
-    "zodiac signs",
     "cosmic energy",
-    "taurus compatibility",
-    "weekly astrology",
-    "manifestation",
     "spiritual tiktok",
-    "taurus money",
-    "taurus love life",
-    "planetary transits",
-    "taurus weekly"
+    "manifestation",
+    "taurus personality",
+    "earth sign",
+    "venus transit",
+    "pluto in aquarius",
+    "weekly forecast 2026",
+    "taurus money"
   ],
   "type": "weekly",
   "target": "Taurus",
-  "date": "May 20 - May 26",
+  "date": "May 21 - May 27",
   "images": [
     "assets/zodiac_signs/Taurus.jpg"
   ],
   "active": true,
-  "status": "uploaded",
-  "file_name": "plan_weekly_Taurus.json"
+  "status": "error",
+  "file_name": "plan_weekly_Taurus.json",
+  "error_reason": "Upload failed"
 }

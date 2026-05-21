@@ -1,79 +1,78 @@
 {
-  "script_text": "Stop! Aries, the stars are screaming at you right now. Venus in Gemini is forming an exact opposition to Jupiter in your 1st House right now, and that tension is spilling into every corner of your love life. If you're single, someone from your past could resurface with romantic intent by tonight \u2014 resist the impulse to reply without thinking. Mercury sextile Mars is lighting up your 10th House of Career, meaning a proposal or financial offer you've been waiting on could land before 3 PM. Jupiter's conjunction to your Ascendant is inflating your confidence but watch the spending. That Venus-Jupiter opposition brings one unexpected gift \u2014 forgiveness from someone you wrote off months ago. Follow for tomorrow's reading.",
+  "script_text": "Stop, Aries, something is cracking open in your foundation right now. Mars in Leo is squaring Saturn at seventeen degrees Aries, and with the Sun crossing zero degrees Gemini, you feel a sharp tension in your 1st House of self. Saturn demands you stop running and own your authority. Venus slips into your 5th House, lighting a spark with someone whose laugh you can't ignore. But in your 10th House of career, Jupiter in Cancer opposes that Saturn, and a financial offer may look golden but carries strings. Resist signing anything before Friday. Meanwhile Neptune conjunct Saturn gifts you a quiet flash of intuitive clarity you did not expect. Follow for tomorrow's reading so you stay ahead of what's shifting this week.",
   "captions_structure": [
     {
-      "text": "ARIES",
+      "text": "ARIES ALERT",
       "type": "header"
     },
     {
-      "text": "Stop! Aries, the stars are screaming at you right now.",
+      "text": "Stop, Aries, something is cracking open in your foundation right now.",
       "type": "normal"
     },
     {
-      "text": "Venus in Gemini is forming an exact opposition to Jupiter in your 1st House right now.",
+      "text": "Mars in Leo is squaring Saturn at seventeen degrees Aries.",
       "type": "normal"
     },
     {
-      "text": "If you're single, someone from your past could resurface with romantic intent by tonight.",
+      "text": "Venus slips into your 5th House, lighting a spark with someone whose laugh you can't ignore.",
       "type": "normal"
     },
     {
-      "text": "Mercury sextile Mars is lighting up your 10th House of Career.",
+      "text": "In your 10th House, Jupiter in Cancer opposes Saturn \u2014 a financial offer may look golden but carries strings.",
       "type": "normal"
     },
     {
-      "text": "Jupiter's conjunction to your Ascendant is inflating your confidence but watch the spending.",
+      "text": "Resist signing anything before Friday.",
       "type": "normal"
     },
     {
-      "text": "That Venus-Jupiter opposition brings one unexpected gift \u2014 forgiveness from someone you wrote off months ago.",
+      "text": "Neptune conjunct Saturn gifts you a quiet flash of intuitive clarity you did not expect.",
       "type": "normal"
     },
     {
-      "text": "Follow for tomorrow's reading.",
+      "text": "Follow for tomorrow's reading so you stay ahead of what's shifting this week.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
     "7",
     "17",
-    "33"
+    "29"
   ],
   "lucky_color": "Emerald Green",
   "monthly_vibe": "Reflective & Calm",
-  "title": "Aries \u2014 Don't Ignore This Warning From Venus",
-  "youtube_title": "Aries gets a secret message from Venus today #shorts",
-  "youtube_description": "Venus opposing Jupiter in your 1st House is about to stir up an old flame and a career offer hits before lunch. Aries, pay close attention to the 10th House. Comment your sign below and let me know if this rings true.",
+  "title": "Aries \u2014 This Transit Changes Everything",
+  "youtube_title": "Aries, This Transit Changes Everything #shorts",
+  "youtube_description": "Saturn square Sun and Jupiter opposition are shaking up your 1st and 10th Houses on May 21, 2026. A career trap and a love spark collide \u2014 here's what to do. Comment your sign for a personalized nudge.",
   "youtube_tags": [
     "aries horoscope",
+    "aries daily horoscope",
     "aries today",
-    "daily horoscope",
-    "astrology 2026",
-    "venus opposition jupiter",
-    "aries love prediction",
-    "aries career forecast",
-    "may 20 2026 astrology",
-    "aries daily reading",
-    "zodiac signs",
     "horoscope today",
-    "mercury sextile mars",
-    "fire sign astrology",
-    "aries monthly forecast",
-    "planetary transits 2026",
+    "astrology",
+    "daily horoscope",
+    "aries love",
+    "aries career",
+    "mars transit",
+    "saturn in aries",
+    "jupiter in cancer",
+    "venus in gemini",
+    "astrology reading",
     "cosmic energy",
     "spiritual tiktok",
     "manifestation",
-    "western astrology",
-    "aries ascendant"
+    "aries 2026",
+    "planetary transits",
+    "zodiac signs",
+    "aries forecast"
   ],
   "type": "daily",
   "target": "Aries",
-  "date": "May 20, 2026",
+  "date": "May 21, 2026",
   "images": [
     "assets/zodiac_signs/Aries.jpg"
   ],
   "active": true,
-  "status": "error",
-  "file_name": "plan_daily_Aries.json",
-  "error_reason": "Upload failed"
+  "status": "uploaded",
+  "file_name": "plan_daily_Aries.json"
 }
