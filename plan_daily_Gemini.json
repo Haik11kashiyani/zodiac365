@@ -1,78 +1,75 @@
 {
-  "script_text": "Stop right there, Gemini \u2014 Mercury, your ruling planet and the cosmic messenger of the air signs, is forming a rare sextile to Pluto in your 10th House of Career today, and this is not the energy to waste on small talk. Venus glides into your 2nd House of Income, signaling a financial opportunity disguised as a casual conversation heading your way before week's end. In love, a square between the Moon and Venus in your 5th House of Romance means attraction is electric but patience is essential \u2014 don't rush to label something that needs breathing room. Someone from your past could resurface through social media or a chance encounter, and this time you carry the clarity to handle it with grace. Avoid signing binding contracts before Thursday \u2014 Mercury is picking up speed and details could shift overnight. Comment your sign and follow for tomorrow's reading.",
+  "script_text": "Stop! Gemini, Mercury just went rogue in your sky and the whole chart feels electric. Your ruling planet Mercury is forming a combust conjunction with Uranus in your 5th House of Romance right now, sparking sudden ideas and restlessness you can't ignore. Meanwhile, Jupiter in Leo is sextiling your 10th House of Career, which is quietly opening a door at work you didn't see coming. Love-wise, if you're single, someone surprising could slide into your DMs by tonight; if taken, your partner may push you toward an impulsive decision \u2014 pause before you say yes. In your 2nd House, Venus in Aries is squaring your chart ruler, warning you against overspending on impulse purchases. On the bright side, an unexpected message could land in your lap from someone you haven't heard from in years. Follow for tomorrow's reading.",
   "captions_structure": [
     {
       "text": "GEMINI ALERT",
       "type": "header"
     },
     {
-      "text": "Mercury is forming a rare sextile to Pluto in your 10th House of Career",
+      "text": "Stop! Gemini, Mercury just went rogue in your sky",
       "type": "normal"
     },
     {
-      "text": "Venus glides into your 2nd House of Income",
+      "text": "Your ruling planet Mercury is forming a combust conjunction with Uranus in your 5th House of Romance",
       "type": "normal"
     },
     {
-      "text": "Moon square Venus in your 5th House \u2014 attraction is electric",
+      "text": "Jupiter in Leo is sextiling your 10th House of Career",
       "type": "normal"
     },
     {
-      "text": "Avoid signing binding contracts before Thursday",
-      "type": "warning"
+      "text": "If you're single, someone surprising could slide into your DMs by tonight",
+      "type": "normal"
     },
     {
-      "text": "Comment your sign and follow for tomorrow's reading",
-      "type": "cta"
+      "text": "Venus in Aries is squaring your chart ruler in your 2nd House",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for tomorrow's reading",
+      "type": "normal"
     }
   ],
   "lucky_numbers": [
-    "3",
+    "7",
     "14",
-    "23"
+    "29"
   ],
-  "lucky_color": "Electric Blue",
-  "monthly_vibe": "Electric & Transformative",
-  "title": "Gemini Daily Horoscope May 12 2026",
-  "youtube_title": "Gemini's Ruling Planet Just Made a Rare Move #shorts",
-  "youtube_description": "Mercury, your ruling planet, is forming a rare sextile to Pluto in your 10th House of Career today, and this could trigger a major professional turning point for Gemini. Venus also enters your money zone, so pay close attention to every conversation this week. Comment your sign below and let the stars guide you!",
+  "lucky_color": "Electric Violet",
+  "monthly_vibe": "Impulsive & Electric",
+  "title": "Mercury Just Went Rogue \u2014 Gemini Hear This",
+  "youtube_title": "Mercury Just Went Rogue \u2014 Gemini Hear This #shorts",
+  "youtube_description": "Mercury is conjunct Uranus in your 5th House right now and something shocking is about to unfold in your love life. This is the transit you need to know about before it hits. Comment your sign and let me know if you felt the shift today.",
   "youtube_tags": [
-    "astrology",
-    "horoscope",
     "gemini horoscope",
     "gemini today",
-    "gemini may 2026",
-    "mercury sextile pluto",
-    "gemini career horoscope",
-    "gemini love horoscope",
     "daily horoscope",
-    "zodiac signs",
-    "gemini zodiac",
-    "mercury transit",
-    "venus transit",
-    "astrology readings",
-    "cosmic energy",
-    "spiritual guidance",
-    "manifestation",
-    "moon sign",
-    "western astrology",
-    "gemini season",
-    "astrology today",
-    "tarot reader",
-    "spiritual awakening",
-    "mercury retrograde",
+    "astrology 2026",
+    "mercury conjunction uranus",
+    "gemini love prediction",
+    "gemini career prediction",
+    "planetary transits may 2026",
+    "jupiter sextile",
+    "gemini daily reading",
+    "astrology for gemini",
+    "may 22 2026 astrology",
+    "gemini ruling planet mercury",
+    "venus square mercury",
+    "5th house romance",
     "10th house career",
-    "gemini money",
-    "venus in taurus",
-    "pluto in aquarius"
+    "gemini daily forecast",
+    "cosmic energy today",
+    "manifestation",
+    "spiritual tiktok"
   ],
   "type": "daily",
   "target": "Gemini",
-  "date": "May 12, 2026",
+  "date": "May 22, 2026",
   "images": [
     "assets/zodiac_signs/Gemini.jpg"
   ],
   "active": true,
-  "status": "uploaded",
-  "file_name": "plan_daily_Gemini.json"
+  "status": "error",
+  "file_name": "plan_daily_Gemini.json",
+  "error_reason": "Upload failed"
 }
