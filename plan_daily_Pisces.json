@@ -1,83 +1,85 @@
 {
-  "script_text": "Stop! Pisces, the stars are screaming at you right now. Neptune, your ruling planet, is locked in an exact conjunction with the Sun in your 1st House of Self, amplifying your intuition to a razor's edge. Jupiter in Cancer is sextiling your 7th House of Partnerships, pulling a meaningful connection closer, but Saturn sitting heavy in your 4th House is demanding you confront what you've been avoiding at home. In love, if you're single, a grounded earth sign may cross your path today\u2014open your mouth, don't just dream. If taken, resist the urge to read between the lines; their words mean exactly what they say. Mercury in Taurus is opposing your 10th House, so double-check every work email before sending\u2014money leaks happen when you rush. Avoid signing contracts after 6 PM. Subscribe so you don't miss what's coming this week.",
+  "script_text": "Stop, Pisces, the cosmos just threw a curveball your way. On May 24, 2026, Saturn in Aries is conjunct your 2nd House of finances, and Uranus in Gemini is squaring your 4th House of home, shaking up your foundation. Neptune, your ruling planet, amplifies everything from your 12th House, making the invisible very visible. Pluto in Aquarius opposes your 7th House of partnerships, so a hidden tension surfaces with someone close. In love, Venus in Taurus sextiles your 6th House, drawing a sensual coworker into your orbit if you're single. If taken, your partner needs extra patience today. Career-wise, Saturn demands discipline in your 2nd House\u2014review every expense before Friday. The blessing? Neptune's 12th House gift is a gut feeling you can't ignore. Don't fight it. Follow for tomorrow's reading.",
   "captions_structure": [
     {
       "text": "PISCES ALERT",
       "type": "header"
     },
     {
-      "text": "Stop! Pisces, the stars are screaming at you right now.",
+      "text": "Stop, Pisces, the cosmos just threw a curveball your way.",
       "type": "normal"
     },
     {
-      "text": "Neptune, your ruling planet, is locked in an exact conjunction with the Sun in your 1st House of Self, amplifying your intuition to a razor's edge.",
+      "text": "On May 24, 2026, Saturn in Aries is conjunct your 2nd House of finances, and Uranus in Gemini is squaring your 4th House of home, shaking up your foundation.",
       "type": "normal"
     },
     {
-      "text": "Jupiter in Cancer is sextiling your 7th House of Partnerships, pulling a meaningful connection closer, but Saturn sitting heavy in your 4th House is demanding you confront what you've been avoiding at home.",
+      "text": "Neptune, your ruling planet, amplifies everything from your 12th House, making the invisible very visible.",
       "type": "normal"
     },
     {
-      "text": "In love, if you're single, a grounded earth sign may cross your path today\u2014open your mouth, don't just dream.",
+      "text": "Pluto in Aquarius opposes your 7th House of partnerships, so a hidden tension surfaces with someone close.",
       "type": "normal"
     },
     {
-      "text": "If taken, resist the urge to read between the lines; their words mean exactly what they say.",
+      "text": "In love, Venus in Taurus sextiles your 6th House, drawing a sensual coworker into your orbit if you're single.",
       "type": "normal"
     },
     {
-      "text": "Mercury in Taurus is opposing your 10th House, so double-check every work email before sending\u2014money leaks happen when you rush.",
+      "text": "If taken, your partner needs extra patience today.",
       "type": "normal"
     },
     {
-      "text": "Avoid signing contracts after 6 PM.",
+      "text": "Career-wise, Saturn demands discipline in your 2nd House\u2014review every expense before Friday.",
       "type": "normal"
     },
     {
-      "text": "Subscribe so you don't miss what's coming this week.",
+      "text": "The blessing? Neptune's 12th House gift is a gut feeling you can't ignore. Don't fight it.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for tomorrow's reading.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
     "7",
-    "21",
-    "44"
+    "22",
+    "39"
   ],
-  "lucky_color": "Midnight Teal",
-  "monthly_vibe": "Deep Intuition & Grounding",
-  "title": "Pisces \u2014 Neptune Is Amplifying You Today",
-  "youtube_title": "Pisces \u2014 Neptune Is Doing Something Rare Today #shorts",
-  "youtube_description": "Neptune is forming an exact conjunction with your Sun on May 19, 2026, and Jupiter is sextiling your 7th House \u2014 here's what that means for love and money. Comment your sign so I can pull up your chart.",
+  "lucky_color": "Deep Sea Blue",
+  "monthly_vibe": "Spiritual Awakening",
+  "title": "Pisces \u2014 Saturn Is Testing Your Wallet Right Now",
+  "youtube_title": "Pisces Warning You About Money Today #shorts",
+  "youtube_description": "Saturn is conjunct your 2nd House and Uranus is squaring your 4th on May 24, 2026\u2014what it means for your finances, love, and hidden tensions. Comment your sign and I'll tell you what's hitting you next.",
   "youtube_tags": [
     "pisces horoscope",
+    "pisces daily horoscope",
     "pisces today",
+    "astrology",
+    "horoscope",
     "daily horoscope",
-    "neptune transit",
-    "jupiter sextile",
-    "pisces love prediction",
-    "astrology 2026",
-    "may 19 2026 astrology",
-    "pisces daily reading",
-    "cosmic energy",
-    "manifestation",
-    "spiritual tiktok",
-    "water sign astrology",
-    "neptune conjunction sun",
-    "saturn in 4th house",
-    "pisces career forecast",
-    "mercury opposition 10th house",
-    "pisces intuition",
-    "outer planet transits 2026",
-    "western astrology daily"
+    "pisces zodiac",
+    "pisces love",
+    "pisces career",
+    "pisces money",
+    "saturn transit",
+    "uranus square",
+    "neptune pisces",
+    "may 2026 horoscope",
+    "spiritual astrology",
+    "western astrology",
+    "pisces predictions",
+    "astrology reading",
+    "cosmic energy"
   ],
   "type": "daily",
   "target": "Pisces",
-  "date": "May 19, 2026",
+  "date": "May 24, 2026",
   "images": [
     "assets/zodiac_signs/Pisces.jpg"
   ],
   "active": true,
-  "status": "error",
-  "file_name": "plan_daily_Pisces.json",
-  "error_reason": "Upload failed"
+  "status": "uploaded",
+  "file_name": "plan_daily_Pisces.json"
 }
