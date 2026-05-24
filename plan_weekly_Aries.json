@@ -1,74 +1,83 @@
 {
-  "script_text": "Something is about to shake your identity, Aries \u2014 Saturn is conjuncting your natal Mars in the 1st House this week. Monday the 25th slows you down as Saturn hits your ruling planet, triggering old anger and impatience. Tuesday eases with Venus in your 2nd House sextiling Mars in your 5th, opening finances or romance doors. Wednesday turns golden \u2014 the Sun in your 3rd trines Mars in Leo, and your words carry magnetic power. Thursday shifts when the Moon enters your 7th House, pulling focus from solo ambition to partnerships. Friday and Saturday bring deep 8th House conversations and a sudden travel or study urge. Sunday wraps with reflective calm. Wednesday is your power day \u2014 Sun trine Mars in your 5th. Monday is your struggle \u2014 Saturn conjunct Mars in the 1st. Slow your impatience when Mars fires up \u2014 it's your biggest risk. Follow for daily updates.",
+  "script_text": "Aries, something is shifting inside your very identity this week and you'll feel it before you understand it. Monday through Wednesday, the Sun in your 10th House trines Jupiter in Cancer while Mercury in Gemini squares Mars, making midweek communication tense\u2014avoid signing contracts on Tuesday. The real turning point hits Thursday when Saturn enters your 1st House, demanding you take your ambitions seriously. Friday Venus sextiles your 8th House, opening doors to shared finances or deep romantic intimacy. Your career lights up as the Moon trines your 10th House Saturday\u2014expect a compliment from authority. Best day is Thursday because Saturn energizes your drive and Venus softens your approach; worst day is Wednesday when Mars opposes your natal Mars, breeding impulsive conflict. Mars, your ruling planet, needs pause, not push\u2014let Saturn's fresh energy in your 1st House settle before acting. Follow for daily updates.",
   "captions_structure": [
     {
       "text": "ARIES",
       "type": "header"
     },
     {
-      "text": "Something is about to shake your identity \u2014 Saturn conjuncts your natal Mars in the 1st House this week.",
+      "text": "Aries, something is shifting inside your very identity this week and you'll feel it before you understand it.",
       "type": "normal"
     },
     {
-      "text": "Monday the 25th slows you down as Saturn hits your ruling planet, triggering old anger. Tuesday eases with Venus in your 2nd sextiling Mars in your 5th, opening finances or romance.",
+      "text": "Monday through Wednesday, the Sun in your 10th House trines Jupiter in Cancer while Mercury in Gemini squares Mars, making midweek communication tense\u2014avoid signing contracts on Tuesday.",
       "type": "normal"
     },
     {
-      "text": "Wednesday turns golden \u2014 Sun in your 3rd trines Mars in Leo, and your words magnetize. Thursday shifts when the Moon enters your 7th House.",
+      "text": "The real turning point hits Thursday when Saturn enters your 1st House, demanding you take your ambitions seriously.",
       "type": "normal"
     },
     {
-      "text": "Friday and Saturday bring deep 8th House talks and a travel urge. Sunday wraps calm.",
+      "text": "Friday Venus sextiles your 8th House, opening doors to shared finances or deep romantic intimacy.",
       "type": "normal"
     },
     {
-      "text": "Wednesday is your power day \u2014 Sun trine Mars in your 5th. Monday is your struggle \u2014 Saturn conjunct Mars in the 1st.",
+      "text": "Your career lights up as the Moon trines your 10th House Saturday\u2014expect a compliment from authority.",
       "type": "normal"
     },
     {
-      "text": "Slow your impatience when Mars fires up \u2014 it's your biggest risk. Follow for daily updates.",
+      "text": "Best day is Thursday because Saturn energizes your drive and Venus softens your approach; worst day is Wednesday when Mars opposes your natal Mars, breeding impulsive conflict.",
+      "type": "normal"
+    },
+    {
+      "text": "Mars, your ruling planet, needs pause, not push\u2014let Saturn's fresh energy in your 1st House settle before acting.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for daily updates.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
     "7",
-    "11",
-    "21"
+    "21",
+    "38"
   ],
-  "lucky_color": "Emerald Green",
-  "monthly_vibe": "Reflective & Calm",
-  "title": "Something Big Is Coming for Aries",
-  "youtube_title": "Saturn Hits Aries Mars \u2014 Watch Out #shorts",
-  "youtube_description": "Saturn is conjuncting your natal Mars and Venus is opening your 2nd House for love and money this week. I reveal your power day and struggle day. Comment your sign.",
+  "lucky_color": "Sunset Orange",
+  "monthly_vibe": "Bold Reset",
+  "title": "Saturn Enters Aries \u2014 What It Means for You",
+  "youtube_title": "Saturn Just Entered Aries \u2014 Here's Your Warning #shorts",
+  "youtube_description": "Aries, Saturn is crossing into your 1st House this week and it changes everything about how you lead. One transit this week could either launch or stall your career\u2014find out which day to act and which to pause. Comment your sign and let me know if you felt the shift.",
   "youtube_tags": [
     "aries horoscope",
     "weekly horoscope",
-    "aries forecast",
-    "astrology",
-    "aries weekly",
-    "mars transit",
-    "saturn aries",
-    "aries love",
-    "aries career",
+    "aries weekly forecast",
+    "saturn in aries 2026",
+    "mars aries",
+    "fire sign astrology",
+    "astrology forecast",
+    "aries love prediction",
+    "aries career forecast",
+    "saturn transit 2026",
     "weekly astrology",
-    "zodiac signs",
-    "horoscope 2026",
     "aries may 2026",
-    "cosmic energy",
-    "spiritual guidance",
-    "manifestation",
-    "fire sign",
     "planetary transits",
-    "aries money",
-    "daily horoscope"
+    "mars opposition",
+    "venus sextile",
+    "sun trine jupiter",
+    "astrology update",
+    "cosmic energy",
+    "aries weekly horoscope",
+    "spiritual astrology"
   ],
   "type": "weekly",
   "target": "Aries",
-  "date": "May 23 - May 29",
+  "date": "May 24 - May 30",
   "images": [
     "assets/zodiac_signs/Aries.jpg"
   ],
   "active": true,
-  "status": "uploaded",
-  "file_name": "plan_weekly_Aries.json"
+  "status": "error",
+  "file_name": "plan_weekly_Aries.json",
+  "error_reason": "Upload failed"
 }
