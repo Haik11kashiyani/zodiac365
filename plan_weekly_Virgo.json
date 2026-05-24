@@ -1,44 +1,48 @@
 {
-  "script_text": "Mercury stations retrograde on the 13th and your entire week unravels before it even begins. Early week the Sun in your 6th House squares Saturn in Aries forcing you to choose between perfection and peace \u2014 Monday through Wednesday carry a tense Mars-Leo square to Jupiter in your 10th House that could launch your career or burn the bridge with your boss. Wednesday is your power day because Venus enters your 5th House bringing flirtation and creativity to the forefront. The turning point hits Thursday when Uranus in Gemini trines your 2nd House of income \u2014 unexpected money arrives. Weekend Mars sextiles Pluto in your 8th House deepening intimate financial partnerships. Friday is rough with Mercury retrograde opposing Neptune clouding your communication. Best day is Thursday. Worst day is Friday. Your ruling planet Mercury demands you edit before you speak this week. Follow for daily updates.",
+  "script_text": "This week Venus squares Jupiter and your quiet life gets a very loud invitation. Mercury is direct in Gemini on the 24th, firing up your 12th House mind and clearing foggy decisions. The Sun sextiles Saturn in Pisces midweek, giving you steady power to lock in a long-term commitment. Wednesday Venus enters your 4th House, pulling your focus home and into family matters. By Friday Mars in Leo squares your Sun in the 12th, stirring restless doubts about your deeper path. Weekend sees you leaning into creative risk. Thursday is your power day because Jupiter enters your 5th House, opening a flirtation you won't see coming. Saturday is rough \u2014 Venus squares Jupiter again, tempting overspending. Mercury, your ruling planet, is your ally all week if you write things down. Pause before signing contracts this week. Follow for daily updates.",
   "captions_structure": [
     {
-      "text": "VIRGO",
+      "text": "VIRGO ALERT",
       "type": "header"
     },
     {
-      "text": "Mercury stations retrograde on the 13th and your entire week unravels before it even begins.",
+      "text": "This week Venus squares Jupiter and your quiet life gets a very loud invitation.",
       "type": "normal"
     },
     {
-      "text": "Early week the Sun in your 6th House squares Saturn in Aries forcing you to choose between perfection and peace.",
+      "text": "Mercury is direct in Gemini on the 24th, firing up your 12th House mind and clearing foggy decisions.",
       "type": "normal"
     },
     {
-      "text": "Monday through Wednesday carry a tense Mars-Leo square to Jupiter in your 10th House that could launch your career or burn the bridge with your boss.",
+      "text": "The Sun sextiles Saturn in Pisces midweek, giving you steady power to lock in a long-term commitment.",
       "type": "normal"
     },
     {
-      "text": "Wednesday is your power day because Venus enters your 5th House bringing flirtation and creativity to the forefront.",
+      "text": "Wednesday Venus enters your 4th House, pulling your focus home and into family matters.",
       "type": "normal"
     },
     {
-      "text": "The turning point hits Thursday when Uranus in Gemini trines your 2nd House of income \u2014 unexpected money arrives.",
+      "text": "By Friday Mars in Leo squares your Sun in the 12th, stirring restless doubts about your deeper path.",
       "type": "normal"
     },
     {
-      "text": "Weekend Mars sextiles Pluto in your 8th House deepening intimate financial partnerships.",
+      "text": "Weekend sees you leaning into creative risk.",
       "type": "normal"
     },
     {
-      "text": "Friday is rough with Mercury retrograde opposing Neptune clouding your communication.",
+      "text": "Thursday is your power day because Jupiter enters your 5th House, opening a flirtation you won't see coming.",
       "type": "normal"
     },
     {
-      "text": "Best day is Thursday. Worst day is Friday.",
+      "text": "Saturday is rough \u2014 Venus squares Jupiter again, tempting overspending.",
       "type": "normal"
     },
     {
-      "text": "Your ruling planet Mercury demands you edit before you speak this week.",
+      "text": "Mercury, your ruling planet, is your ally all week if you write things down.",
+      "type": "normal"
+    },
+    {
+      "text": "Pause before signing contracts this week.",
       "type": "normal"
     },
     {
@@ -53,38 +57,38 @@
   ],
   "lucky_color": "Emerald Green",
   "monthly_vibe": "Reflective & Calm",
-  "title": "Virgo \u2014 May 11 Brings a Mercury Trap",
-  "youtube_title": "Virgo Don't Ignore Mercury Retrograde This Week #shorts",
-  "youtube_description": "Mercury stations retrograde on May 13 and squares Saturn in your 6th House \u2014 this week could shatter your routine or reveal hidden income. Virgo, comment your sign.",
+  "title": "Virgo \u2014 The Stars Send a Warning This Week",
+  "youtube_title": "Virgo \u2014 Don't Ignore This Forecast #shorts",
+  "youtube_description": "Venus squares Jupiter and something shifts in your home life midweek. This forecast covers the Sun sextile Saturn and Jupiter entering your 5th House \u2014 a flirtation you won't see coming. Comment your sign.",
   "youtube_tags": [
-    "astrology",
-    "horoscope",
     "virgo horoscope",
-    "virgo weekly",
-    "mercury retrograde",
-    "may 2026 astrology",
-    "cosmic energy",
-    "manifestation",
-    "spiritual tiktok",
-    "virgo love",
+    "virgo weekly forecast",
+    "virgo love prediction",
+    "astrology 2026",
+    "weekly horoscope",
     "virgo career",
-    "weekly forecast",
+    "mercury retrograde",
+    "jupiter in cancer",
+    "venus square jupiter",
+    "sun sextile saturn",
+    "zodiac signs",
+    "astrology predictions",
+    "virgo daily",
+    "cosmic energy",
+    "spiritual astrology",
+    "manifestation tips",
     "planetary transits",
-    "uranus trine",
-    "mars sextile",
-    "saturn square",
-    "earth sign",
-    "daily horoscope",
-    "zodiac predictions",
-    "virgo money"
+    "virgo may 2026",
+    "weekly astrology"
   ],
   "type": "weekly",
   "target": "Virgo",
-  "date": "May 11 - May 17",
+  "date": "May 24 - May 30",
   "images": [
     "assets/zodiac_signs/Virgo.jpg"
   ],
   "active": true,
-  "status": "uploaded",
-  "file_name": "plan_weekly_Virgo.json"
+  "status": "error",
+  "file_name": "plan_weekly_Virgo.json",
+  "error_reason": "Upload failed"
 }
