@@ -1,78 +1,75 @@
 {
-  "script_text": "Stop, Aries, something is cracking open in your foundation right now. Mars in Leo is squaring Saturn at seventeen degrees Aries, and with the Sun crossing zero degrees Gemini, you feel a sharp tension in your 1st House of self. Saturn demands you stop running and own your authority. Venus slips into your 5th House, lighting a spark with someone whose laugh you can't ignore. But in your 10th House of career, Jupiter in Cancer opposes that Saturn, and a financial offer may look golden but carries strings. Resist signing anything before Friday. Meanwhile Neptune conjunct Saturn gifts you a quiet flash of intuitive clarity you did not expect. Follow for tomorrow's reading so you stay ahead of what's shifting this week.",
+  "script_text": "Stop! Aries, the stars are screaming at you right now. Mars, your ruling planet and the engine of fire, is in your 1st House of Self forming a tense square to Saturn in your 12th House of the Subconscious, forcing you to confront buried fears that are blocking your forward momentum. Venus in your 2nd House of Values is sextiling Jupiter in your 5th House of Romance, which means single Aries could attract someone through a shared creative or intellectual passion, while partnered Aries should plan a date that surprises their lover. That same Venus-Jupiter sextile is lighting up your 2nd House of Money, so a financial opportunity tied to your talents could present itself by midday\u2014don't dismiss it. Avoid signing any contract before 3 PM, because Mercury opposing Pluto in your 8th House of Shared Resources could cause you to overcommit to a toxic arrangement. Follow for tomorrow's reading.",
   "captions_structure": [
     {
-      "text": "ARIES ALERT",
+      "text": "ARIES",
       "type": "header"
     },
     {
-      "text": "Stop, Aries, something is cracking open in your foundation right now.",
+      "text": "Stop! Aries, the stars are screaming at you right now.",
       "type": "normal"
     },
     {
-      "text": "Mars in Leo is squaring Saturn at seventeen degrees Aries.",
+      "text": "Mars, your ruling planet and the engine of fire, is in your 1st House of Self forming a tense square to Saturn in your 12th House of the Subconscious, forcing you to confront buried fears that are blocking your forward momentum.",
       "type": "normal"
     },
     {
-      "text": "Venus slips into your 5th House, lighting a spark with someone whose laugh you can't ignore.",
+      "text": "Venus in your 2nd House of Values is sextiling Jupiter in your 5th House of Romance, which means single Aries could attract someone through a shared creative or intellectual passion, while partnered Aries should plan a date that surprises their lover.",
       "type": "normal"
     },
     {
-      "text": "In your 10th House, Jupiter in Cancer opposes Saturn \u2014 a financial offer may look golden but carries strings.",
+      "text": "That same Venus-Jupiter sextile is lighting up your 2nd House of Money, so a financial opportunity tied to your talents could present itself by midday\u2014don't dismiss it.",
       "type": "normal"
     },
     {
-      "text": "Resist signing anything before Friday.",
+      "text": "Avoid signing any contract before 3 PM, because Mercury opposing Pluto in your 8th House of Shared Resources could cause you to overcommit to a toxic arrangement.",
       "type": "normal"
     },
     {
-      "text": "Neptune conjunct Saturn gifts you a quiet flash of intuitive clarity you did not expect.",
-      "type": "normal"
-    },
-    {
-      "text": "Follow for tomorrow's reading so you stay ahead of what's shifting this week.",
+      "text": "Follow for tomorrow's reading.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
     "7",
-    "17",
-    "29"
+    "21",
+    "34"
   ],
   "lucky_color": "Emerald Green",
   "monthly_vibe": "Reflective & Calm",
-  "title": "Aries \u2014 This Transit Changes Everything",
-  "youtube_title": "Aries, This Transit Changes Everything #shorts",
-  "youtube_description": "Saturn square Sun and Jupiter opposition are shaking up your 1st and 10th Houses on May 21, 2026. A career trap and a love spark collide \u2014 here's what to do. Comment your sign for a personalized nudge.",
+  "title": "Aries \u2014 Don't Ignore This Warning",
+  "youtube_title": "The Stars Are Warning Aries Right Now #shorts",
+  "youtube_description": "Mars square Saturn and Venus sextile Jupiter are reshaping your money and love today. Find out what you must avoid at 3 PM. Comment your sign for a personal touch.",
   "youtube_tags": [
     "aries horoscope",
-    "aries daily horoscope",
     "aries today",
-    "horoscope today",
-    "astrology",
     "daily horoscope",
-    "aries love",
-    "aries career",
+    "astrology 2026",
+    "aries daily reading",
     "mars transit",
-    "saturn in aries",
-    "jupiter in cancer",
-    "venus in gemini",
-    "astrology reading",
+    "venus sextile jupiter",
+    "saturn square mars",
+    "horoscope may 25 2026",
+    "fire sign energy",
+    "astrology predictions",
     "cosmic energy",
     "spiritual tiktok",
     "manifestation",
-    "aries 2026",
-    "planetary transits",
     "zodiac signs",
-    "aries forecast"
+    "aries love forecast",
+    "aries career prediction",
+    "mercury opposition pluto",
+    "weekly horoscope",
+    "daily astrology"
   ],
   "type": "daily",
   "target": "Aries",
-  "date": "May 21, 2026",
+  "date": "May 25, 2026",
   "images": [
     "assets/zodiac_signs/Aries.jpg"
   ],
   "active": true,
-  "status": "uploaded",
-  "file_name": "plan_daily_Aries.json"
+  "status": "error",
+  "file_name": "plan_daily_Aries.json",
+  "error_reason": "Upload failed"
 }
