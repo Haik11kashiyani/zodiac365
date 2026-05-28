@@ -1,5 +1,5 @@
 {
-  "script_text": "Stop! Virgo, the stars are screaming at you right now. Mercury, your ruling planet and the soul of earth's analytical mind, is locked in a tense square with Saturn in your 11th House, rattling your community ties and long-term plans. Worse, Uranus just slipped into your 12th House, stirring up hidden fears you didn't know you carried. Jupiter trining Pluto in your 9th House of higher learning deepens this spiritual pull toward purpose. If you're single, Venus in Leo your 10th House draws a magnetic coworker into your orbit\u2014don't overanalyze the chemistry. Taken, guard against snapping at your partner over petty details Thursday. Career-wise, Jupiter's trine to Pluto in the 9th brings a promotion or breakthrough call by Wednesday, possibly tied to travel. Avoid signing contracts while Mercury's retrograde shadow lingers\u2014double-check every number. Subscribe so you don't miss what's coming this week.",
+  "script_text": "Stop! Virgo, the stars are screaming at you right now. Mercury, your ruling planet, is forming a powerful trine to transformative Pluto in your 10th House of Career, unlocking deep insights about your professional path. This earth sign energy is grounding your intuition\u2014trust those gut feelings about work decisions. In love, Venus dancing through your 5th House of Romance creates magnetic attraction; if single, someone intriguing approaches you unexpectedly today. For career, that Mercury-Pluto trine in your 10th House brings recognition for behind-the-scenes work you've been perfecting. Your blessing: Unexpected financial news arrives via email or message around 2 PM. Your warning: Don't overthink\u2014let your earth element instincts guide you instead of analyzing everything to death. Follow for tomorrow's reading when Mars shakes up your partnership sector.",
   "captions_structure": [
     {
       "text": "VIRGO ALERT",
@@ -10,74 +10,73 @@
       "type": "normal"
     },
     {
-      "text": "Mercury is square Saturn in your 11th House.",
+      "text": "Mercury, your ruling planet, is forming a powerful trine to transformative Pluto in your 10th House of Career, unlocking deep insights about your professional path.",
       "type": "normal"
     },
     {
-      "text": "Uranus just entered your 12th House.",
+      "text": "This earth sign energy is grounding your intuition\u2014trust those gut feelings about work decisions.",
       "type": "normal"
     },
     {
-      "text": "Jupiter trines Pluto in your 9th House of higher learning.",
+      "text": "In love, Venus dancing through your 5th House of Romance creates magnetic attraction; if single, someone intriguing approaches you unexpectedly today.",
       "type": "normal"
     },
     {
-      "text": "Venus in Leo draws a magnetic coworker into your orbit.",
+      "text": "For career, that Mercury-Pluto trine in your 10th House brings recognition for behind-the-scenes work you've been perfecting.",
       "type": "normal"
     },
     {
-      "text": "Jupiter's trine to Pluto brings a promotion or breakthrough call by Wednesday.",
+      "text": "Your blessing: Unexpected financial news arrives via email or message around 2 PM.",
       "type": "normal"
     },
     {
-      "text": "Avoid signing contracts while Mercury's retrograde shadow lingers.",
+      "text": "Your warning: Don't overthink\u2014let your earth element instincts guide you instead of analyzing everything to death.",
       "type": "normal"
     },
     {
-      "text": "Subscribe so you don't miss what's coming this week.",
+      "text": "Follow for tomorrow's reading when Mars shakes up your partnership sector.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
-    "7",
-    "11",
-    "21"
+    "17",
+    "23",
+    "47"
   ],
-  "lucky_color": "Emerald Green",
-  "monthly_vibe": "Reflective & Calm",
-  "title": "Virgo \u2014 Don't Ignore This Warning",
-  "youtube_title": "Something Big Is Coming for Virgo #shorts",
-  "youtube_description": "Saturn is squaring your ruling planet Mercury and Uranus just hit your 12th House on May 24, 2026. This horoscope reveals a hidden career breakthrough and a love surprise you need to prepare for. Comment your sign below.",
+  "lucky_color": "Forest Green",
+  "monthly_vibe": "Grounded Transformation",
+  "title": "Virgo Daily Horoscope May 28, 2026",
+  "youtube_title": "Virgo \u2014 Mercury Trine Pluto Changes Everything Today #shorts",
+  "youtube_description": "Virgo, Mercury is aligning with Pluto in your 10th House, bringing major career breakthroughs. Plus, love energy heats up in your 5th House. What does the cosmos have planned for your earth sign intuition? Watch now to discover how today's transit affects your sign. Comment your sign below!",
   "youtube_tags": [
+    "astrology",
+    "horoscope",
+    "virgo",
     "virgo horoscope",
     "virgo today",
     "daily horoscope",
-    "astrology",
-    "mercury retrograde",
-    "jupiter transit",
-    "saturn square",
-    "virgo love",
-    "virgo career",
-    "may 2026 astrology",
+    "mercury",
+    "pluto transit",
+    "earth sign",
     "cosmic energy",
     "spiritual tiktok",
     "manifestation",
+    "virgo love",
+    "virgo career",
+    "mercury trine pluto",
+    "10th house",
+    "5th house romance",
     "zodiac signs",
-    "astrology predictions",
-    "virgo daily",
-    "planetary transits",
-    "12th house",
-    "9th house",
-    "mercury square saturn"
+    "astrologer",
+    "virgo 2026"
   ],
   "type": "daily",
   "target": "Virgo",
-  "date": "May 24, 2026",
+  "date": "May 28, 2026",
   "images": [
     "assets/zodiac_signs/Virgo.jpg"
   ],
   "active": true,
-  "status": "error",
-  "file_name": "plan_daily_Virgo.json",
-  "error_reason": "Upload failed"
+  "status": "uploaded",
+  "file_name": "plan_daily_Virgo.json"
 }
