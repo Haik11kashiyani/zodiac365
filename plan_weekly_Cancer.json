@@ -1,12 +1,24 @@
 {
-  "script_text": "The Moon's shadow falls on your 12th House this week, Cancer, and what you've been hiding is about to surface. Friday through Sunday, the Sun enters Gemini transiting your 12th House as Jupiter and Uranus amplify hidden truths. Mercury conjuncts the Sun on Saturday, sharpening your mind but stirring anxiety. Sunday Neptune in your 10th House clouds clarity. Monday Mars sextile Saturn in your 10th House ignites career demands while Uranus square Mars in your 3rd House disrupts communications. Venus enters your 11th House Taurus on Wednesday, opening love through friendships. Thursday Neptune conjunct Saturn in your 10th House dissolves career goals but births spiritual transformation. Saturday is your power day\u2014Mercury conjuncts the Sun in your 12th House granting mental clarity. Sunday is rough with Neptune fogging your 10th House. Journal your Water dreams\u201412th House Moon is begging to be heard. Follow for updates.",
+  "script_text": "Your emotional tide is about to shift dramatically, water-sign Cancer. Early this week, Sun opposes Pluto in your 10th House, exposing career pressures and power struggles at work. On Tuesday, Venus trines Jupiter in your 3rd House, sparking flirtatious messages and a romantic reconnection. Wednesday is the turning point \u2014 the New Moon in your 9th House launches fresh momentum and a sudden opportunity to expand your horizons. Thursday through Saturday, Mercury squares Saturn in your 10th House, testing your communication at work \u2014 delays and criticism may sting. Sunday soothes you as Venus sextiles Uranus in your 4th House, bringing an unexpected windfall or financial gift from family. Sunday is the best day for love and money. Wednesday is the worst for career conflicts. Protect your boundaries fiercely this week. Follow for daily updates.",
   "captions_structure": [
     {
-      "text": "CANCER",
+      "text": "CANCER ALERT",
       "type": "header"
     },
     {
-      "text": "The Moon's shadow falls on your 12th House this week, Cancer, and what you've been hiding is about to surface.",
+      "text": "Your emotional tide is about to shift dramatically, water-sign Cancer. Early this week, Sun opposes Pluto in your 10th House, exposing career pressures and power struggles at work, but on Tuesday, Venus trines Jupiter in your 3rd House, sparking flirtatious messages and a romantic reconnection.",
+      "type": "normal"
+    },
+    {
+      "text": "Wednesday is the turning point \u2014 the New Moon in your 9th House launches fresh momentum and a sudden opportunity to expand your horizons.",
+      "type": "normal"
+    },
+    {
+      "text": "Thursday through Saturday, Mercury squares Saturn in your 10th House, testing your communication at work with delays and criticism. Sunday soothes you as Venus sextiles Uranus in your 4th House, bringing an unexpected financial gift.",
+      "type": "normal"
+    },
+    {
+      "text": "Best day: Sunday for love and money. Worst: Wednesday for career conflicts. Protect your boundaries fiercely. Follow for daily updates.",
       "type": "normal"
     }
   ],
@@ -17,38 +29,39 @@
   ],
   "lucky_color": "Emerald Green",
   "monthly_vibe": "Reflective & Calm",
-  "title": "Cancer Weekly Horoscope May 22, 2026",
-  "youtube_title": "Cancer \u2014 Your 12th House Has Secrets #shorts",
-  "youtube_description": "Your 12th House is about to reveal what you've been hiding, Cancer. Neptune and Saturn are shaking up your career sector this week\u2014find out what it means for love and money. Comment your sign.",
+  "title": "Cancer Weekly Horoscope May 29, 2026",
+  "youtube_title": "Cancer \u2014 This Week Will Test Your Limits #shorts",
+  "youtube_description": "The Sun opposing Pluto exposes real career pressures for Cancer this week, while Venus trines Jupiter brings a romantic spark. Plus, a Sunday surprise could change your financial outlook. Comment your sign below and share your week!",
   "youtube_tags": [
-    "astrology",
-    "horoscope",
     "cancer horoscope",
-    "weekly horoscope",
-    "zodiac signs",
-    "cancer zodiac",
-    "may 2026 astrology",
-    "planetary transits",
-    "12th house",
-    "neptune transit",
-    "saturn transit",
-    "cancer love",
-    "cancer career",
-    "cosmic energy",
-    "manifestation",
-    "spiritual tiktok",
-    "weekly forecast",
-    "astrology 2026",
     "cancer weekly",
-    "moon transits"
+    "cancer zodiac",
+    "weekly horoscope",
+    "may 2026 horoscope",
+    "astrology",
+    "cancer sign",
+    "zodiac predictions",
+    "cancer forecast",
+    "new moon horoscope",
+    "venus trine jupiter",
+    "pluto opposition",
+    "career astrology",
+    "love horoscope cancer",
+    "cancer money horoscope",
+    "may 29 horoscope",
+    "horoscope this week",
+    "zodiac signs",
+    "cancer moon sign",
+    "cancer tarot"
   ],
   "type": "weekly",
   "target": "Cancer",
-  "date": "May 22 - May 28",
+  "date": "May 29 - Jun 04",
   "images": [
     "assets/zodiac_signs/Cancer.jpg"
   ],
   "active": true,
-  "status": "uploaded",
-  "file_name": "plan_weekly_Cancer.json"
+  "status": "error",
+  "file_name": "plan_weekly_Cancer.json",
+  "error_reason": "Upload failed"
 }
