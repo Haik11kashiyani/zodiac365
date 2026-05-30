@@ -1,44 +1,44 @@
 {
-  "script_text": "Your ruling planet Sun is about to ignite your most ambitious sector, and this week changes everything for Leo. Monday through Wednesday, Mercury in your 10th House forms a trine with Jupiter, opening massive career doors \u2014 but watch for tension on Tuesday when Mars squares your Sun, making colleagues harder to read. Wednesday afternoon is your turning point as Venus sextiles your natal Sun and enters your 5th House, flooded by creative and romantic momentum that shifts your entire week. Thursday through Sunday brings intense pleasure and connection energy \u2014 you will feel magnetic, and a financial opportunity lands via networking before Friday. Saturday holds stunning date energy with Venus illuminating your 7th House ruling planet partnerships, while Sunday glows with confidence and new beginnings. Your best day is Wednesday because Venus enters your 5th House and Saturn stabilizes your career zone, amplifying everything. Your worst day is Tuesday due to Mars creating friction across your 1st and 10th Houses. Wear emerald green this week to amplify Venus's beauty in your sign. Follow for daily updates.",
+  "script_text": "Leo, the cosmos just shifted the ground beneath your fire-sign feet \u2014 and nothing about this ordinary week will feel ordinary. The Sun, your ruling planet, is blazing through your solar 1st House right now, supercharging your confidence and personal magnetism like never before. Early this week, Mercury forms a supportive trine to your 1st House on Monday and Tuesday, making your words irresistible \u2014 negotiate, pitch, speak up. But watch Wednesday carefully: a tense square between Venus in your 7th House and Pluto in your 10th House creates friction in love and career simultaneously. A partner may demand honesty while your professional world pressures you sideways. Thursday becomes your turning point when Jupiter enters your 5th House, opening a floodgate of creative abundance and romantic possibility. By the weekend, Mars sextile your 11th House ignites bold social connections that could turn into profitable collaborations. Best day: Thursday, because Jupiter blesses your 5th House of joy and love. Worst day: Wednesday, because Venus square Pluto stirs power struggles. Keep your crown polished and your boundaries firm this week. Follow for daily updates.",
   "captions_structure": [
     {
-      "text": "LEO ALERT \ud83d\udd25",
+      "text": "LEO ALERT",
       "type": "header"
     },
     {
-      "text": "Your ruling planet Sun is about to ignite your most ambitious sector, and this week changes everything for Leo.",
+      "text": "Leo, the cosmos just shifted the ground beneath your fire-sign feet \u2014 and nothing about this ordinary week will feel ordinary.",
       "type": "normal"
     },
     {
-      "text": "Monday through Wednesday, Mercury in your 10th House forms a trine with Jupiter, opening massive career doors.",
+      "text": "The Sun, your ruling planet, is blazing through your solar 1st House right now, supercharging your confidence and personal magnetism like never before.",
       "type": "normal"
     },
     {
-      "text": "But watch for tension on Tuesday when Mars squares your Sun, making colleagues harder to read.",
+      "text": "Early this week, Mercury forms a supportive trine to your 1st House on Monday and Tuesday, making your words irresistible \u2014 negotiate, pitch, speak up.",
       "type": "normal"
     },
     {
-      "text": "Wednesday afternoon is your turning point as Venus sextiles your natal Sun and enters your 5th House, flooded by creative and romantic momentum.",
+      "text": "But watch Wednesday carefully: a tense square between Venus in your 7th House and Pluto in your 10th House creates friction in love and career simultaneously.",
       "type": "normal"
     },
     {
-      "text": "Thursday through Sunday brings intense pleasure and connection energy \u2014 a financial opportunity lands via networking before Friday.",
+      "text": "Thursday becomes your turning point when Jupiter enters your 5th House, opening a floodgate of creative abundance and romantic possibility.",
       "type": "normal"
     },
     {
-      "text": "Saturday holds stunning date energy with Venus illuminating your 7th House, while Sunday glows with new beginnings.",
+      "text": "By the weekend, Mars sextile your 11th House ignites bold social connections that could turn into profitable collaborations.",
       "type": "normal"
     },
     {
-      "text": "Best day: Wednesday. Venus enters your 5th House and Saturn stabilizes your career.",
+      "text": "Best day: Thursday \u2014 Jupiter blesses your 5th House of joy and love.",
       "type": "normal"
     },
     {
-      "text": "Worst day: Tuesday. Mars creates friction across your 1st and 10th Houses.",
+      "text": "Worst day: Wednesday \u2014 Venus square Pluto stirs power struggles.",
       "type": "normal"
     },
     {
-      "text": "Wear emerald green this week to amplify Venus's beauty.",
+      "text": "Keep your crown polished and your boundaries firm this week.",
       "type": "normal"
     },
     {
@@ -52,40 +52,39 @@
     "21"
   ],
   "lucky_color": "Emerald Green",
-  "monthly_vibe": "Passionate Momentum",
-  "title": "Leo Weekly Horoscope May 28, 2026",
-  "youtube_title": "Venus Is Changing Everything for Leo This Week #shorts",
-  "youtube_description": "Venus is entering your 5th House this week, bringing massive romantic and creative energy to Leo. Plus, a powerful career trine opens doors \u2014 but Tuesday has a warning you cannot afford to miss. Comment your sign below and see what the stars hold.",
+  "monthly_vibe": "Bold Rebirth",
+  "title": "Leo Weekly Horoscope May 30, 2026",
+  "youtube_title": "Leo \u2014 The Week Everything Shifts #shorts",
+  "youtube_description": "The Sun is charging through your 1st House right now, Leo, and Jupiter is about to transform your love life this Thursday. Find out which day could bring career tension and which day unlocks your biggest creative breakthrough. Comment your sign below.",
   "youtube_tags": [
     "leo horoscope",
-    "leo weekly forecast",
-    "leo venus transit",
-    "leo love horoscope",
-    "leo career astrology",
-    "weekly horoscope 2026",
-    "venus in leo 5th house",
-    "leo money forecast",
-    "astro leo this week",
-    "mercury jupiter trine leo",
-    "mars square sun leo",
-    "zodiac predictions leo",
-    "leo cosmic weather",
-    "astrology forecast May 2026",
-    "leo manifestation this week",
-    "fire sign horoscope",
-    "leo relationship forecast",
-    "spiritual leo reading",
-    "astrology decoded leo",
-    "leo planetary transits"
+    "leo weekly horoscope",
+    "leo forecast",
+    "astrology 2026",
+    "horoscope this week",
+    "leo love prediction",
+    "leo career forecast",
+    "mercury trine sun",
+    "venus square pluto",
+    "jupiter 5th house",
+    "fire sign energy",
+    "zodiac reading",
+    "cosmic energy",
+    "manifestation",
+    "spiritual tiktok",
+    "leo june 2026",
+    "weekly astrology",
+    "planetary transits",
+    "leo season",
+    "sun in leo"
   ],
   "type": "weekly",
   "target": "Leo",
-  "date": "May 28 - Jun 03",
+  "date": "May 30 - Jun 05",
   "images": [
     "assets/zodiac_signs/Leo.jpg"
   ],
   "active": true,
-  "status": "error",
-  "file_name": "plan_weekly_Leo.json",
-  "error_reason": "Upload failed"
+  "status": "uploaded",
+  "file_name": "plan_weekly_Leo.json"
 }
