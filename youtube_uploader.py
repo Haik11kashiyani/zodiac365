@@ -9,6 +9,57 @@ from googleapiclient.http import MediaFileUpload
 
 SCOPES = ['https://www.googleapis.com/auth/youtube.upload']
 
+# YouTube API tag limits (see Video.snippet.tags in Data API v3 docs)
+MAX_TAG_LENGTH = 30
+MAX_TAGS_CHAR_BUDGET = 500
+
+
+def _youtube_tag_char_budget(tags):
+    """Total characters YouTube counts for tags (commas + quote overhead for spaces)."""
+    length = 0
+    for tag in tags:
+        length += len(tag) + 1  # comma separator between tags
+        if ' ' in tag:
+            length += 2  # API wraps spaced tags in quotes
+    return length
+
+
+def sanitize_youtube_tags(tags):
+    """Normalize tags and trim to fit YouTube's per-tag and total character limits."""
+    cleaned = []
+    seen = set()
+
+    for t in tags:
+        if not t or not isinstance(t, str):
+            continue
+        tag = t.strip().lower().replace('#', '')
+        tag = ''.join(c for c in tag if c.isalnum() or c.isspace() or c == '-')
+        tag = ' '.join(tag.split())
+        if not tag or len(tag) < 2:
+            continue
+        if len(tag) > MAX_TAG_LENGTH:
+            tag = tag[:MAX_TAG_LENGTH].rstrip()
+        if tag in seen:
+            continue
+        seen.add(tag)
+        cleaned.append(tag)
+
+    result = []
+    for tag in cleaned:
+        candidate = result + [tag]
+        if _youtube_tag_char_budget(candidate) <= MAX_TAGS_CHAR_BUDGET:
+            result.append(tag)
+        else:
+            break
+
+    if len(result) < len(cleaned):
+        dropped = len(cleaned) - len(result)
+        print(f"[Tags] Trimmed {dropped} tag(s) to stay within {MAX_TAGS_CHAR_BUDGET} char budget "
+              f"(budget={_youtube_tag_char_budget(result)})")
+
+    return result
+
+
 def get_authenticated_service():
     """
     Authenticate with YouTube API using token.json or environment variables.
@@ -83,7 +134,7 @@ def generate_metadata(data):
     # 1. Prefer AI-Generated Metadata if available
     ai_title = data.get('youtube_title')
     ai_desc = data.get('youtube_description')
-    ai_tags = data.get('youtube_tags')
+    ai_tags = data.get('youtube_tags') or data.get('tags')
     
     target = data.get('target', 'Zodiac')
     mode = data.get('type', 'daily')
@@ -184,35 +235,27 @@ https://www.youtube.com/@Zodiac365?sub_confirmation=1
     ]
     final_tags.extend(base_tags)
     
-    # AI-generated tags (high relevance)
+    # AI-generated tags (high relevance) — added before niche so niche fills remaining budget
     if ai_tags and isinstance(ai_tags, list):
         for t in ai_tags:
-            clean_t = t.lower().replace('#', '').strip()
-            if clean_t and clean_t not in final_tags:
-                final_tags.append(clean_t)
-                
-    # Trending niche tags for reach
+            if isinstance(t, str) and t.strip():
+                final_tags.append(t)
+
+    # Trending niche tags for reach (shorter tags first to maximize count within budget)
     niche_tags = [
-        f"{target.lower()} horoscope today",
         f"{target.lower()} {current_year}",
-        f"{target.lower()} prediction",
         f"{mode} horoscope",
+        f"{target.lower()} today",
         "horoscope today",
         "astrology shorts",
         "zodiac shorts",
-        "tarot reading",
         "manifestation",
-        "spiritual guidance",
         "cosmic energy",
-        "what the stars say",
-        "universe message",
     ]
     for t in niche_tags:
-        if t not in final_tags:
-            final_tags.append(t)
-            
-    # Cap at 30 tags (YouTube allows up to 500 chars total)
-    tags = final_tags[:30]
+        final_tags.append(t)
+
+    tags = sanitize_youtube_tags(final_tags)
 
     return final_title, description, tags
 
@@ -231,8 +274,10 @@ def upload_video(file_path, data):
     if not youtube: return False
 
     title, description, tags = generate_metadata(data)
+    tag_budget = _youtube_tag_char_budget(tags)
     
     print(f"📺 Uploading to YouTube: {title}")
+    print(f"🏷️ [Tags] {len(tags)} tags, char budget={tag_budget}/{MAX_TAGS_CHAR_BUDGET}")
     
     body = {
         'snippet': {
