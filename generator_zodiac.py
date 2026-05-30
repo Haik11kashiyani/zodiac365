@@ -1,5 +1,6 @@
 import json, sys, os, datetime
 from ai_engine import ask_ai
+from youtube_uploader import sanitize_youtube_tags
 
 # Force UTF-8 for Windows Consoles
 sys.stdout.reconfigure(encoding='utf-8')
@@ -71,14 +72,14 @@ def generate_content(mode, target, date_str):
         "title": "{target} {mode.title()} Horoscope {today_context}",
         "youtube_title": "Short punchy title under 50 chars, curiosity-driven, NO hashtags, NO emojis, must include {target}",
         "youtube_description": "2-3 sentence hook that creates curiosity. Personal tone as if talking directly to {target}. Include a specific teaser about what the prediction reveals.",
-        "youtube_tags": ["tag1", "tag2", "...20 tags mixing broad and niche"]
+        "youtube_tags": ["astrology", "horoscope", "{target.lower()}", "...up to 12 short tags"]
     }}
     
     FORMAT RULES:
     1. **TITLE**: Max 50 chars. Must include "{target}". Curiosity gap style. Examples: "The Stars Are Warning {target}...", "{target} — Don't Ignore This", "Something Big Is Coming for {target}". NO hashtags. NO emojis.
     2. **SCRIPT**: MUST follow the structured sections from the main prompt. Every section must be present. No skipping.
     3. **DESCRIPTION**: 2-3 sentences that tease the specific prediction. Mention what planet or transit the video covers. Include "Comment your sign" CTA.
-    4. **TAGS**: Generate 20 tags. Mix: broad (astrology, horoscope), sign-specific ({target.lower()} horoscope, {target.lower()} today), trending (manifestation, cosmic energy, spiritual tiktok).
+    4. **TAGS**: Exactly 10-12 tags. Each tag max 25 characters. Lowercase only, NO # symbols, NO brand names (tiktok, instagram). Short phrases only (e.g. "libra horoscope", "cosmic energy"). Avoid long planetary aspect strings.
     5. **CAPTIONS_STRUCTURE**: The header MUST say "{caption_sign.upper()}" — NEVER use a different sign name.
     6. **EXTRAS**:
        - lucky_numbers: 3 distinct lucky numbers between 1-99.
@@ -88,7 +89,13 @@ def generate_content(mode, target, date_str):
     
     data = ask_ai(prompt + prompt_suffix)
     if not data: return None
-    
+
+    # Normalize and sanitize YouTube tags at generation time (prevents upload failures)
+    raw_tags = data.get('youtube_tags') or data.get('tags') or []
+    if isinstance(raw_tags, list):
+        data['youtube_tags'] = sanitize_youtube_tags(raw_tags)
+    data.pop('tags', None)
+
     # ENFORCE #SHORTS
     if 'youtube_title' in data:
         if '#shorts' not in data['youtube_title'].lower():

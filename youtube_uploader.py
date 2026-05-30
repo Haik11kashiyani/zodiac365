@@ -11,7 +11,8 @@ SCOPES = ['https://www.googleapis.com/auth/youtube.upload']
 
 # YouTube API tag limits (see Video.snippet.tags in Data API v3 docs)
 MAX_TAG_LENGTH = 30
-MAX_TAGS_CHAR_BUDGET = 500
+# Stay under documented 500 — spaced tags cost extra (quotes + commas)
+MAX_TAGS_CHAR_BUDGET = 480
 
 
 def _youtube_tag_char_budget(tags):
@@ -227,11 +228,12 @@ https://www.youtube.com/@Zodiac365?sub_confirmation=1
     # YouTube tags (hidden metadata) — mix broad + niche + trending
     final_tags = []
     
-    # Must-have discovery tags
+    # Must-have discovery tags (short tags to preserve character budget)
+    mode_label = mode if mode in ('daily', 'weekly', 'monthly', 'yearly') else 'daily'
     base_tags = [
-        "Shorts", "astrology", "horoscope", "zodiac",
+        "shorts", "astrology", "horoscope", "zodiac",
         target.lower(), f"{target.lower()} horoscope",
-        "daily horoscope", "zodiac signs"
+        f"{mode_label} horoscope", "zodiac signs",
     ]
     final_tags.extend(base_tags)
     
@@ -269,44 +271,68 @@ def get_emoji(sign):
         if k in sign: return v
     return "🔮"
 
+def build_safe_fallback_tags(target, mode='daily'):
+    """Minimal tags guaranteed to fit YouTube API limits."""
+    sign = target.lower().split(' vs ')[0].strip()
+    return sanitize_youtube_tags([
+        'shorts', 'astrology', 'horoscope', 'zodiac', sign,
+        f'{sign} horoscope', f'{mode} horoscope',
+    ])
+
+
 def upload_video(file_path, data):
     youtube = get_authenticated_service()
-    if not youtube: return False
+    if not youtube:
+        return False
 
     title, description, tags = generate_metadata(data)
-    tag_budget = _youtube_tag_char_budget(tags)
-    
-    print(f"📺 Uploading to YouTube: {title}")
-    print(f"🏷️ [Tags] {len(tags)} tags, char budget={tag_budget}/{MAX_TAGS_CHAR_BUDGET}")
-    
-    body = {
-        'snippet': {
-            'title': title,
-            'description': description,
-            'tags': tags,
-            'categoryId': '24' # Entertainment — better Shorts algorithm reach
-        },
-        'status': {
-            'privacyStatus': 'public', # CHANGE TO 'private' FOR TESTING IF NEEDED
-            'selfDeclaredMadeForKids': False
-        }
-    }
+    target = data.get('target', 'zodiac')
+    mode = data.get('type', 'daily')
+    tag_sets = [tags, build_safe_fallback_tags(target, mode)]
 
-    try:
-        media = MediaFileUpload(file_path, chunksize=-1, resumable=True)
-        request = youtube.videos().insert(
-            part=','.join(body.keys()),
-            body=body,
-            media_body=media
-        )
-        response = None
-        while response is None:
-            status, response = request.next_chunk()
-            if status:
-                print(f"   Uploaded {int(status.progress() * 100)}%")
-        
-        print(f"✅ Upload Complete! Video ID: {response.get('id')}")
-        return True
-    except Exception as e:
-        print(f"❌ Upload Failed: {e}")
-        return False
+    print(f"📺 Uploading to YouTube: {title}")
+
+    for attempt, tag_list in enumerate(tag_sets):
+        tag_budget = _youtube_tag_char_budget(tag_list)
+        label = 'primary' if attempt == 0 else 'fallback'
+        print(f"[Tags] {label}: {len(tag_list)} tags, budget={tag_budget}/{MAX_TAGS_CHAR_BUDGET}")
+
+        body = {
+            'snippet': {
+                'title': title,
+                'description': description,
+                'tags': tag_list,
+                'categoryId': '24',
+            },
+            'status': {
+                'privacyStatus': 'public',
+                'selfDeclaredMadeForKids': False,
+            },
+        }
+
+        try:
+            media = MediaFileUpload(file_path, chunksize=-1, resumable=True)
+            request = youtube.videos().insert(
+                part=','.join(body.keys()),
+                body=body,
+                media_body=media,
+            )
+            response = None
+            while response is None:
+                status, response = request.next_chunk()
+                if status:
+                    print(f"   Uploaded {int(status.progress() * 100)}%")
+
+            print(f"✅ Upload Complete! Video ID: {response.get('id')}")
+            return True
+        except googleapiclient.errors.HttpError as e:
+            if attempt == 0 and 'invalidTags' in str(e):
+                print("[Tags] invalidTags from YouTube — retrying with safe fallback tags...")
+                continue
+            print(f"❌ Upload Failed: {e}")
+            return False
+        except Exception as e:
+            print(f"❌ Upload Failed: {e}")
+            return False
+
+    return False
