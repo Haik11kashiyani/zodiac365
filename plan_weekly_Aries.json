@@ -1,50 +1,68 @@
 {
-  "script_text": "ARIES, the cosmos just slammed the brakes \u2014 Mars is about to rewrite your week. Monday Venus enters your 3rd House of Gemini, sparking a Mercury-Venus conjunction that makes you dangerously persuasive in texts and calls. Tuesday Mars in your 3rd sextiles Jupiter, amplifying your charisma \u2014 but Wednesday Saturn in your 1st House squares Pluto in your 11th, reigniting power dynamics with a friend. The shift hits Thursday when the Sun opposes Saturn, forcing you to confront overcommitment. Friday Venus sextiles Saturn, softening the tension \u2014 perfect for a career negotiation that could seal a deal. Weekend Mars fires your 3rd House, making you brilliant in interviews. Friday is your power day because Venus sextiles Saturn, opening a career door. Wednesday is your worst day because Saturn squares Pluto, stirring betrayal in a partnership. Say yes to the conversation that scares you right now.",
+  "script_text": "A week that starts with fire in your belly ends with a love surprise you never saw coming \u2014 buckle up, Aries. Monday through Wednesday, your ruling planet Mars sextiles Jupiter in your 10th House, giving you unstoppable career momentum, but Tuesday's Moon square Pluto in your 4th House triggers emotional tension at home midweek. Thursday changes everything \u2014 Venus conjuncts Uranus in your 5th House, sparking an electric, unexpected connection that could bloom into something real over the weekend. Friday through Sunday, the Sun trines Saturn in your 11th House, aligning your social circle with long-term ambitions. Wednesday is your power day because Mars energizes your career house with perfect sextile harmony, while Tuesday is your caution day as Pluto squares the Moon, exposing buried frustrations. Don't let ego block a generous offer \u2014 accept it gracefully. Follow, Aries \u2014 Jupiter's return changes everything.",
   "captions_structure": [
     {
-      "text": "ARIES",
+      "text": "ARIES ALERT",
       "type": "header"
     },
     {
-      "text": "ARIES, the cosmos just slammed the brakes \u2014 Mars is about to rewrite your week.",
+      "text": "A week that starts with fire in your belly ends with a love surprise.",
+      "type": "normal"
+    },
+    {
+      "text": "Mon-Wed: Mars sextiles Jupiter in your 10th House.",
+      "type": "normal"
+    },
+    {
+      "text": "Career momentum is unstoppable. But Tuesday's Moon square Pluto triggers home tension.",
+      "type": "normal"
+    },
+    {
+      "text": "THURSDAY: Venus conjuncts Uranus in your 5th House.",
+      "type": "normal"
+    },
+    {
+      "text": "An electric, unexpected love connection sparks immediately.",
+      "type": "normal"
+    },
+    {
+      "text": "Weekend: Sun trines Saturn in your 11th House \u2014 ambition meets allies.",
+      "type": "normal"
+    },
+    {
+      "text": "Best day: Wednesday. Worst day: Tuesday. Don't let ego block opportunities.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for daily updates, Aries \u2014 Jupiter's return changes everything.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
     "7",
-    "11",
-    "21"
+    "14",
+    "28"
   ],
-  "lucky_color": "Emerald Green",
-  "monthly_vibe": "Reflective & Calm",
-  "title": "Aries \u2014 The Stars Demand You Stop",
-  "youtube_title": "Aries \u2014 Don't Ignore What's Coming #shorts",
-  "youtube_description": "Venus enters your 3rd House this Monday, igniting a rare Mercury-Venus conjunction that supercharges your words. Saturn's square to Pluto mid-week could expose hidden power struggles \u2014 but Friday's Venus-Saturn sextile opens a career door you've been waiting for. Comment your sign.",
+  "lucky_color": "Fiery Scarlet Red",
+  "monthly_vibe": "Bold Breakthroughs",
+  "title": "Aries \u2014 A Love Shock Is Coming This Week",
+  "youtube_title": "Aries \u2014 Don't Miss This Love Surprise #shorts",
+  "youtube_description": "Aries, Mars is fueling your career house right now, but a Venus-Uranus conjunction in your 5th House drops a love twist you won't see coming. Find out which days are your power days and which ones need caution. Drop your sign in the comments!",
   "youtube_tags": [
-    "aries",
     "aries horoscope",
-    "weekly horoscope",
-    "astrology",
-    "horoscope 2026",
-    "mars transit",
-    "venus in gemini",
-    "saturn square pluto",
-    "gemini season",
-    "fire sign",
-    "aries love",
-    "aries career",
-    "cosmic energy",
-    "spiritual tiktok",
-    "manifestation",
-    "zodiac signs",
-    "weekly forecast",
     "aries weekly",
-    "planetary transits",
-    "astrology predictions"
+    "aries love forecast",
+    "aries career",
+    "mars transit",
+    "venus conjunction",
+    "astrology reading",
+    "aries 2026",
+    "horoscope aries",
+    "aries energy"
   ],
   "type": "weekly",
   "target": "Aries",
-  "date": "May 25 - May 31",
+  "date": "May 31 - Jun 06",
   "images": [
     "assets/zodiac_signs/Aries.jpg"
   ],
