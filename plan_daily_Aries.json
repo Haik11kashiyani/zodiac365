@@ -1,75 +1,45 @@
 {
-  "script_text": "Stop! Aries, the stars are screaming at you right now. Mars, your ruling planet and the engine of fire, is in your 1st House of Self forming a tense square to Saturn in your 12th House of the Subconscious, forcing you to confront buried fears that are blocking your forward momentum. Venus in your 2nd House of Values is sextiling Jupiter in your 5th House of Romance, which means single Aries could attract someone through a shared creative or intellectual passion, while partnered Aries should plan a date that surprises their lover. That same Venus-Jupiter sextile is lighting up your 2nd House of Money, so a financial opportunity tied to your talents could present itself by midday\u2014don't dismiss it. Avoid signing any contract before 3 PM, because Mercury opposing Pluto in your 8th House of Shared Resources could cause you to overcommit to a toxic arrangement. Follow for tomorrow's reading.",
+  "script_text": "Stop! Aries, the stars are screaming at you right now. Your ruling planet Mars is powering through your 10th House of Career, forming a precise trine with Jupiter in your 5th House of Passion, igniting a rare burst of fire sign confidence that won't wait. Your bold Aries leadership energy is magnetic today \u2014 a trine like this hasn't happened in months. In love, Venus skims past Mercury in your 7th House of Partnerships, bringing a soul-deep conversation with someone unexpected, single Aries may meet a magnetic connection who sees your fire. Career-wise, that Mars trine in your 10th House could trigger a breakthrough opportunity at work \u2014 someone powerful notices your initiative. Watch out for impulsive spending; Mercury retrograde debris in your 2nd House of Finances warns against spontaneous purchases. Follow for tomorrow's reading. Subscribe so you don't miss what's coming this week.",
   "captions_structure": [
     {
-      "text": "ARIES",
+      "text": "ARIES ALERT",
       "type": "header"
     },
     {
-      "text": "Stop! Aries, the stars are screaming at you right now.",
-      "type": "normal"
-    },
-    {
-      "text": "Mars, your ruling planet and the engine of fire, is in your 1st House of Self forming a tense square to Saturn in your 12th House of the Subconscious, forcing you to confront buried fears that are blocking your forward momentum.",
-      "type": "normal"
-    },
-    {
-      "text": "Venus in your 2nd House of Values is sextiling Jupiter in your 5th House of Romance, which means single Aries could attract someone through a shared creative or intellectual passion, while partnered Aries should plan a date that surprises their lover.",
-      "type": "normal"
-    },
-    {
-      "text": "That same Venus-Jupiter sextile is lighting up your 2nd House of Money, so a financial opportunity tied to your talents could present itself by midday\u2014don't dismiss it.",
-      "type": "normal"
-    },
-    {
-      "text": "Avoid signing any contract before 3 PM, because Mercury opposing Pluto in your 8th House of Shared Resources could cause you to overcommit to a toxic arrangement.",
-      "type": "normal"
-    },
-    {
-      "text": "Follow for tomorrow's reading.",
+      "text": "Stop! Aries, the stars are screaming at you right now. Your ruling planet Mars is powering through your 10th House of Career, forming a precise trine with Jupiter in your 5th House of Passion, igniting a rare burst of fire sign confidence that won't wait. Your bold Aries leadership energy is magnetic today \u2014 a trine like this hasn't happened in months. In love, Venus skims past Mercury in your 7th House of Partnerships, bringing a soul-deep conversation with someone unexpected \u2014 single Aries may meet a magnetic connection who sees your fire. Career-wise, that Mars trine in your 10th House could trigger a breakthrough opportunity at work \u2014 someone powerful notices your initiative. Watch out for impulsive spending; Mercury retrograde debris in your 2nd House of Finances warns against spontaneous purchases. Follow for tomorrow's reading. Subscribe so you don't miss what's coming this week.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
     "7",
-    "21",
-    "34"
+    "11",
+    "21"
   ],
   "lucky_color": "Emerald Green",
-  "monthly_vibe": "Reflective & Calm",
-  "title": "Aries \u2014 Don't Ignore This Warning",
-  "youtube_title": "The Stars Are Warning Aries Right Now #shorts",
-  "youtube_description": "Mars square Saturn and Venus sextile Jupiter are reshaping your money and love today. Find out what you must avoid at 3 PM. Comment your sign for a personal touch.",
+  "monthly_vibe": "Bold Breakthrough Energy",
+  "title": "Aries \u2014 Don't Ignore This",
+  "youtube_title": "Aries \u2014 Don't Ignore This Cosmic Trine Today #shorts",
+  "youtube_description": "Mars hits your 10th House and Jupiter fires up your 5th \u2014 here's the real reason this trine changes everything for Aries right now. A career breakthrough and a love surprise you won't see coming are both coded in today's transit. Comment your sign below and tell us if the stars are already showing up in your life.",
   "youtube_tags": [
-    "aries horoscope",
-    "aries today",
-    "daily horoscope",
-    "astrology 2026",
-    "aries daily reading",
-    "mars transit",
-    "venus sextile jupiter",
-    "saturn square mars",
-    "horoscope may 25 2026",
+    "aries daily horoscope",
+    "aries horoscope today",
+    "aries cosmic energy",
+    "mars trine jupiter",
+    "aries love today",
+    "aries career reading",
     "fire sign energy",
-    "astrology predictions",
-    "cosmic energy",
-    "spiritual tiktok",
-    "manifestation",
-    "zodiac signs",
-    "aries love forecast",
-    "aries career prediction",
-    "mercury opposition pluto",
-    "weekly horoscope",
-    "daily astrology"
+    "aries 2026",
+    "mercury retrograde",
+    "astrology prediction",
+    "aries money reading"
   ],
   "type": "daily",
   "target": "Aries",
-  "date": "May 25, 2026",
+  "date": "May 31, 2026",
   "images": [
     "assets/zodiac_signs/Aries.jpg"
   ],
   "active": true,
-  "status": "error",
-  "file_name": "plan_daily_Aries.json",
-  "error_reason": "Upload failed"
+  "status": "uploaded",
+  "file_name": "plan_daily_Aries.json"
 }

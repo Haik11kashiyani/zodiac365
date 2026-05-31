@@ -1,44 +1,32 @@
 {
-  "script_text": "Stop! Taurus, the stars are screaming at you right now. Mercury is forming a tense square to your ruling planet Venus in your 4th House of Home, while a grounding sextile to your 2nd House of Money is offering a rare financial escape hatch. Love is in the air, but if you're single, don't rush a new connection; a partner from your past may resurface, testing your patience. For those committed, a miscommunication with your partner is brewing in the 7th House\u2014listen more than you speak. On the career front, your 10th House is lit by a Venus-Jupiter conjunction, opening a door to a high-stakes opportunity you\u2019ve been praying for. Avoid making impulsive decisions with your finances today\u2014stability is your strength. Follow for tomorrow\u2019s reading and don\u2019t miss what the stars are plotting next.",
+  "script_text": "Stop everything, Taurus \u2014 your ruling planet Venus is locking into a powerful conjunction with unpredictable Uranus in your 1st House of Self today, and nothing will feel the same. This rare earth-sign shockwave rips open how you see yourself and how others see you right now. In love, a sudden confession or surprise message from someone you've tried arriving out of nowhere \u2014 stay open because Venus is lighting up your 7th House of Partnerships alongside this conjunction. Career-wise, Mercury retrograde in your 10th House means hold off signing contracts today, but an unexpected money opportunity surfaces through a colleague you've overlooked. Blessing: a stranger says something today that changes your entire direction. Follow me so you don't miss what Venus has planned for your week ahead.",
   "captions_structure": [
     {
       "text": "TAURUS ALERT",
       "type": "header"
     },
     {
-      "text": "Stop! Taurus, the stars are screaming at you right now.",
+      "text": "Stop everything, Taurus \u2014 your ruling planet Venus is locking into a powerful conjunction with unpredictable Uranus in your 1st House of Self today, and nothing will feel the same.",
       "type": "normal"
     },
     {
-      "text": "Mercury is forming a tense square to your ruling planet Venus in your 4th House of Home.",
+      "text": "This rare earth-sign shockwave rips open how you see yourself and how others see you right now.",
       "type": "normal"
     },
     {
-      "text": "A grounding sextile to your 2nd House of Money is offering a rare financial escape hatch.",
+      "text": "In love, a sudden confession or surprise message from someone you've thought about arrives out of nowhere.",
       "type": "normal"
     },
     {
-      "text": "Love is in the air, but if you're single, don't rush a new connection.",
+      "text": "Mercury retrograde in your 10th House means hold off signing contracts today, but unexpected money surfaces through a colleague you've overlooked.",
       "type": "normal"
     },
     {
-      "text": "A partner from your past may resurface, testing your patience.",
+      "text": "Blessing: a stranger says something today that changes your entire direction.",
       "type": "normal"
     },
     {
-      "text": "For those committed, a miscommunication with your partner is brewing in the 7th House\u2014listen more than you speak.",
-      "type": "normal"
-    },
-    {
-      "text": "On the career front, your 10th House is lit by a Venus-Jupiter conjunction.",
-      "type": "normal"
-    },
-    {
-      "text": "Avoid making impulsive decisions with your finances today\u2014stability is your strength.",
-      "type": "normal"
-    },
-    {
-      "text": "Follow for tomorrow\u2019s reading and don\u2019t miss what the stars are plotting next.",
+      "text": "Follow me so you don't miss what's coming this week.",
       "type": "normal"
     }
   ],
@@ -49,38 +37,31 @@
   ],
   "lucky_color": "Emerald Green",
   "monthly_vibe": "Reflective & Calm",
-  "title": "Taurus \u2014 Don't Ignore This Warning",
-  "youtube_title": "Taurus \u2014 Don't Ignore This Warning #shorts",
-  "youtube_description": "The stars are sending you a direct message today, Taurus. Mercury is clashing with Venus in your 4th House, and a rare sextile to your 2nd House could change your finances. Discover what the stars are plotting for you next\u2014comment your sign to get the full reading.",
+  "title": "The Stars Just Shook Taurus to the Core",
+  "youtube_title": "Taurus \u2014 Venus and Uranus Hit Your Identity #shorts",
+  "youtube_description": "Venus is conjoining Uranus in your 1st House and Taurus, this one is going to hit different. A love surprise, a career curveball, and a stranger who says exactly what you need to hear. Comment your sign below and I'll tell you what's next.",
   "youtube_tags": [
-    "astrology",
-    "horoscope",
     "taurus horoscope",
-    "taurus today",
+    "venus uranus conjunction",
+    "taurus love reading",
     "daily horoscope",
-    "taurus daily",
-    "cosmic energy",
-    "spiritual tiktok",
-    "venus transit",
-    "mercury square venus",
-    "taurus love",
-    "taurus career",
-    "financial horoscope",
-    "2026 astrology",
-    "taurus money",
-    "manifestation",
-    "taurus weekly",
-    "taurus monthly",
-    "daily astrology",
-    "planetary transits"
+    "tarot and astrology",
+    "taurus",
+    "horoscope today",
+    "astrology reading",
+    "may 31 horoscope",
+    "venus in taurus",
+    "uranus transit",
+    "cosmic energy"
   ],
   "type": "daily",
   "target": "Taurus",
-  "date": "May 25, 2026",
+  "date": "May 31, 2026",
   "images": [
     "assets/zodiac_signs/Taurus.jpg"
   ],
   "active": true,
-  "status": "uploaded",
-  "file_name": "plan_daily_Taurus.json"
+  "status": "error",
+  "file_name": "plan_daily_Taurus.json",
+  "error_reason": "Upload failed"
 }

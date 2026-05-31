@@ -1,64 +1,70 @@
 {
-  "script_text": "A week that starts with fire in your belly ends with a love surprise you never saw coming \u2014 buckle up, Aries. Monday through Wednesday, your ruling planet Mars sextiles Jupiter in your 10th House, giving you unstoppable career momentum, but Tuesday's Moon square Pluto in your 4th House triggers emotional tension at home midweek. Thursday changes everything \u2014 Venus conjuncts Uranus in your 5th House, sparking an electric, unexpected connection that could bloom into something real over the weekend. Friday through Sunday, the Sun trines Saturn in your 11th House, aligning your social circle with long-term ambitions. Wednesday is your power day because Mars energizes your career house with perfect sextile harmony, while Tuesday is your caution day as Pluto squares the Moon, exposing buried frustrations. Don't let ego block a generous offer \u2014 accept it gracefully. Follow, Aries \u2014 Jupiter's return changes everything.",
+  "script_text": "ARIES ALERT \u2014 Mars, your ruling planet, ignites a fire in your 1st House this week, and nothing will be the same. Early week, Mercury sextile Jupiter in your 3rd House fuels bold conversations Monday through Wednesday, but watch Tuesday when the Moon squares your natal Mars \u2014 tension rises, so avoid confrontations. The turning point arrives Thursday as Venus trines your 10th House of career, opening a golden window for recognition and financial opportunity. By Friday through Sunday, the Sun conjuncts your Midheaven, amplifying your public presence and love prospects \u2014 someone new may enter your orbit. Wednesday is your power day because Mercury sextile Jupiter sharpens your mind, while Tuesday is your worst day due to the Moon-Mars square sparking impulsive clashes. This week, channel your Aries fire into career moves, not arguments. Follow for daily updates.",
   "captions_structure": [
     {
       "text": "ARIES ALERT",
       "type": "header"
     },
     {
-      "text": "A week that starts with fire in your belly ends with a love surprise.",
+      "text": "Mars, your ruling planet, ignites a fire in your 1st House this week, and nothing will be the same.",
       "type": "normal"
     },
     {
-      "text": "Mon-Wed: Mars sextiles Jupiter in your 10th House.",
+      "text": "Early week, Mercury sextile Jupiter in your 3rd House fuels bold conversations Monday through Wednesday.",
       "type": "normal"
     },
     {
-      "text": "Career momentum is unstoppable. But Tuesday's Moon square Pluto triggers home tension.",
+      "text": "But watch Tuesday when the Moon squares your natal Mars \u2014 tension rises, so avoid confrontations.",
       "type": "normal"
     },
     {
-      "text": "THURSDAY: Venus conjuncts Uranus in your 5th House.",
+      "text": "The turning point arrives Thursday as Venus trines your 10th House of career, opening a golden window for recognition.",
       "type": "normal"
     },
     {
-      "text": "An electric, unexpected love connection sparks immediately.",
+      "text": "By Friday through Sunday, the Sun conjuncts your Midheaven, amplifying your public presence and love prospects.",
       "type": "normal"
     },
     {
-      "text": "Weekend: Sun trines Saturn in your 11th House \u2014 ambition meets allies.",
+      "text": "Wednesday is your power day because Mercury sextile Jupiter sharpens your mind.",
       "type": "normal"
     },
     {
-      "text": "Best day: Wednesday. Worst day: Tuesday. Don't let ego block opportunities.",
+      "text": "Tuesday is your worst day due to the Moon-Mars square sparking impulsive clashes.",
       "type": "normal"
     },
     {
-      "text": "Follow for daily updates, Aries \u2014 Jupiter's return changes everything.",
+      "text": "This week, channel your Aries fire into career moves, not arguments.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for daily updates.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
     "7",
-    "14",
-    "28"
+    "11",
+    "21"
   ],
-  "lucky_color": "Fiery Scarlet Red",
-  "monthly_vibe": "Bold Breakthroughs",
-  "title": "Aries \u2014 A Love Shock Is Coming This Week",
-  "youtube_title": "Aries \u2014 Don't Miss This Love Surprise #shorts",
-  "youtube_description": "Aries, Mars is fueling your career house right now, but a Venus-Uranus conjunction in your 5th House drops a love twist you won't see coming. Find out which days are your power days and which ones need caution. Drop your sign in the comments!",
+  "lucky_color": "Emerald Green",
+  "monthly_vibe": "Bold Momentum",
+  "title": "Aries \u2014 Mars Ignites Your 1st House This Week",
+  "youtube_title": "Aries \u2014 Mars Ignites Your 1st House This Week #shorts",
+  "youtube_description": "Mars, your ruling planet, fires up your 1st House this week, and a Venus trine in your 10th House could change your career forever. Comment your sign below.",
   "youtube_tags": [
-    "aries horoscope",
-    "aries weekly",
-    "aries love forecast",
-    "aries career",
+    "astrology",
+    "horoscope",
+    "aries",
     "mars transit",
-    "venus conjunction",
-    "astrology reading",
-    "aries 2026",
-    "horoscope aries",
-    "aries energy"
+    "venus trine",
+    "career boost",
+    "love forecast",
+    "weekly stars",
+    "fire sign",
+    "mercury sextile",
+    "moon square",
+    "sun conjunct"
   ],
   "type": "weekly",
   "target": "Aries",
@@ -67,6 +73,7 @@
     "assets/zodiac_signs/Aries.jpg"
   ],
   "active": true,
-  "status": "uploaded",
-  "file_name": "plan_weekly_Aries.json"
+  "status": "error",
+  "file_name": "plan_weekly_Aries.json",
+  "error_reason": "Upload failed"
 }
