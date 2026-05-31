@@ -81,8 +81,30 @@ def split_sentences(text):
         sentences.append(current.strip())
     return [s for s in sentences if s]
 
+def _is_ci():
+    return os.environ.get("GITHUB_ACTIONS") == "true" or os.environ.get("CI") == "true"
+
+
 def get_audio_duration(fpath):
-    """Gets audio duration using MoviePy (more reliable than system ffprobe)."""
+    """Audio duration in seconds — ffprobe first (matches Remotion/ffmpeg), MoviePy fallback."""
+    ffmpeg_exe = imageio_ffmpeg.get_ffmpeg_exe()
+    ffprobe = os.path.join(os.path.dirname(ffmpeg_exe), "ffprobe")
+    if not os.path.isfile(ffprobe):
+        ffprobe = "ffprobe"
+    try:
+        out = subprocess.check_output(
+            [
+                ffprobe, "-v", "error", "-show_entries", "format=duration",
+                "-of", "default=noprint_wrappers=1:nokey=1", fpath,
+            ],
+            text=True,
+            stderr=subprocess.DEVNULL,
+        ).strip()
+        duration = float(out)
+        if duration > 0:
+            return duration
+    except Exception:
+        pass
     try:
         with AudioFileClip(fpath) as clip:
             return clip.duration
@@ -192,11 +214,11 @@ def generate_segmented_audio(script_text, audio_out, vtt_out):
             if i < len(segments) - 1:
                 f.write(f"file '{s}'\n")
             
-    # Stitch Audio
+    # Stitch Audio — re-encode to fix MP3 DTS issues from concat -c copy (causes wrong duration)
     try:
         subprocess.run([
-            ffmpeg_exe, "-v", "error", "-f", "concat", "-safe", "0", "-i", concat_txt, 
-            "-c", "copy", "-y", audio_out
+            ffmpeg_exe, "-v", "error", "-f", "concat", "-safe", "0", "-i", concat_txt,
+            "-c:a", "libmp3lame", "-b:a", "128k", "-ar", "24000", "-ac", "1", "-y", audio_out,
         ], check=True)
     except Exception as e:
         log_error(f"Audio stitching failed: {e}")
@@ -225,10 +247,17 @@ def generate_segmented_audio(script_text, audio_out, vtt_out):
         
     write_vtt(final_captions, vtt_out)
     
-    try: shutil.rmtree(temp_dir)
-    except: pass
-    
-    return True
+    try:
+        shutil.rmtree(temp_dir)
+    except Exception:
+        pass
+
+    timeline_duration = current_offset
+    probed = get_audio_duration(audio_out)
+    if probed > 0:
+        timeline_duration = probed
+    log_info(f"Audio timeline: {timeline_duration:.2f}s (VTT offset {current_offset:.2f}s)")
+    return True, timeline_duration
 
 def parse_vtt(vtt_file):
     """Parses a WebVTT file cleanly, handling edge cases."""
@@ -440,23 +469,27 @@ def process_plan(filename):
     
     os.makedirs(os.path.dirname(audio_file), exist_ok=True)
     
-    success = generate_segmented_audio(script_text, audio_file, vtt_file)
-    if not success:
+    gen_result = generate_segmented_audio(script_text, audio_file, vtt_file)
+    if not gen_result or gen_result[0] is not True:
         log_error("Segmented Audio Generation Failed.")
         _mark_plan_failed(filename, data, 'Audio generation failed')
         return
-    
-    # 2.5 CALCULATE DURATION
-    video_duration_frames = 1800 # Default 60s
-    try:
-        if os.path.exists(audio_file):
-            with AudioFileClip(audio_file) as audio:
-                # User Request: "after the sentenc is speken... then after 0.5 sec complit the video"
-                duration_sec = audio.duration + 0.5
-                video_duration_frames = int(duration_sec * 30)
-                log_info(f"calculated duration: {duration_sec}s ({video_duration_frames} frames)")
-    except Exception as e:
-        log_error(f"Could not calculate audio duration: {e}")
+
+    timeline_duration = gen_result[1] if isinstance(gen_result, tuple) else 0.0
+
+    # 2.5 CALCULATE DURATION (must match ffmpeg/Remotion — avoids 1686 vs 1595 frame mismatch)
+    video_duration_frames = 1800  # Default 60s @ 30fps
+    duration_sec = 0.0
+    if timeline_duration > 0:
+        duration_sec = timeline_duration + 0.5
+    elif os.path.exists(audio_file):
+        duration_sec = get_audio_duration(audio_file) + 0.5
+    if duration_sec > 0:
+        video_duration_frames = int(duration_sec * 30)
+        video_duration_frames = max(90, min(video_duration_frames, 60 * 30))
+        log_info(f"calculated duration: {duration_sec:.2f}s ({video_duration_frames} frames)")
+    else:
+        log_error("Could not determine audio duration.")
     
     # 3. PARSE VTT
     captions = []
@@ -514,19 +547,21 @@ def process_plan(filename):
     # 6. BUILD VIDEO (with 20-minute timeout to prevent stuck renders)
     log_info("Building Video...")
     video_engine_dir = os.path.join(os.path.dirname(__file__), "video-engine")
-    BUILD_TIMEOUT_SECONDS = 35 * 60  # 35 minutes max per video (avoiding CI timeouts)
+    BUILD_TIMEOUT_SECONDS = 55 * 60 if _is_ci() else 35 * 60
     try:
-        # Build the command dynamically instead of using 'npm run build'
-        # Use --log=info for less noisy output
+        jpeg_q = "50" if _is_ci() else "65"
         cmd = (
             "npx remotion render src/index.tsx ZodiacVideo out/video.mp4"
             " --props=./input.json"
             " --gl=swangle"
             " --concurrency=2"
             " --timeout=300000"
-            " --jpeg-quality=65"
+            f" --jpeg-quality={jpeg_q}"
             " --log=info"
         )
+        if _is_ci():
+            cmd += " --scale=0.75"
+            log_info("CI mode: render scale=0.75 for faster builds")
         log_info(f"Executing: {cmd} (timeout: {BUILD_TIMEOUT_SECONDS}s)")
         log_info(f"Expected frames: {video_duration_frames}")
         # Use new helper to ensure process tree cleanup
@@ -585,7 +620,8 @@ def main():
 
     if args.batch:
         log_section("🔥 BATCH MODE ACTIVATED")
-        MAX_VIDEOS_PER_RUN = 6  # Cap to fit within GitHub Actions 4-hour limit
+        # CI: fewer videos per run so each render finishes before job timeout
+        MAX_VIDEOS_PER_RUN = 2 if _is_ci() else 6
         plans = glob.glob("plan_*.json")
         pending = []
         for p in plans:
