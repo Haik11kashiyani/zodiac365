@@ -1,55 +1,74 @@
 {
-  "script_text": "Aries, pause because the sky is finally locking into your fire frequency. Saturn stations direct in Aries, cementing in your 1st House. This transit overhauls your public image, replacing impulsive reactions with enduring authority. Venus enters your 5th House, trining Jupiter to ignite passionate romance. You will attract a stable partner who matches your tempo, ending casual flings for real commitment. Jupiter in your 10th House squares Mercury, triggering an executive promotion requiring strict financial audits. You will secure that raise, provided you reject verbal offers and demand written contracts. Your ruling Mars sextiles Pluto in your 3rd House, delivering explosive stamina and razor-sharp mental clarity throughout April. Watch April 12th for cleared delays and April 24th for a sudden bonus. Never co-sign leases during the April 18th Moon-Saturn opposition, or you inherit debt. Tap follow to anchor this forecast.",
-  "captions_structure": [
-    {
-      "text": "ARIES",
-      "type": "header"
-    },
-    {
-      "text": "Aries, pause because the sky is finally locking into your fire frequency.",
-      "type": "normal"
-    }
-  ],
-  "lucky_numbers": [
-    "7",
-    "19",
-    "33"
-  ],
-  "lucky_color": "Crimson Red",
-  "monthly_vibe": "Strategic Momentum",
-  "title": "The Stars Are Testing Aries Now",
-  "youtube_title": "Aries \u2014 The Sky Demands This Shift #shorts",
-  "youtube_description": "Saturn is stationing direct in your 1st House this April, completely rewriting how you command respect. Watch Jupiter and Venus trigger a major career promotion and a deeply stabilizing romance, but one mid-month lunar aspect could trap you in debt if you aren't careful. Comment your sign below to see how this transit impacts your whole chart.",
-  "youtube_tags": [
-    "aries horoscope",
-    "aries monthly forecast",
-    "april horoscope",
-    "astrology predictions",
-    "aries april 2026",
-    "western astrology",
-    "saturn in aries",
-    "jupiter transit",
-    "venus in aries",
-    "cosmic forecast",
-    "zodiac reading",
-    "career astrology",
-    "love astrology",
-    "manifestation energy",
-    "spiritual growth",
-    "planetary transits",
-    "fire sign horoscope",
-    "astrology tips",
-    "monthly cosmic guide",
-    "aries season energy"
-  ],
-  "type": "monthly",
-  "target": "Aries",
-  "date": "April 2026",
-  "images": [
-    "assets/zodiac_signs/Aries.jpg"
-  ],
-  "active": true,
-  "status": "error",
-  "file_name": "plan_monthly_Aries.json",
-  "error_reason": "Upload failed"
+    "script_text": "ARIES \u2014 cosmic earthquake incoming. This month, your life is Saturn opposing your 7th House, demanding you face every unresolved partnership truth. Venus is gliding through your 10th House, illuminating your public reputation with magnetic charm, and a sextile to natal Mars is bringing unexpected romantic sparks through professional connections. Your career is stepping into the spotlight with Jupiter trine your Midheaven, opening doors you didn't knock on. Mars in your 6th House is pushing your physical energy to its peak, so use it wisely. Watch June 8th for a career surprise, June 14th for a love revelation, and June 22nd when Mercury stationing direct clears a financial confusion. Don't avoid hard conversations in relationships. Comment your sign below and I'll send you personal guidance.",
+    "captions_structure": [
+        {
+            "text": "ARIES ALERT",
+            "type": "header"
+        },
+        {
+            "text": "ARIES \u2014 cosmic earthquake incoming!",
+            "type": "bold"
+        },
+        {
+            "text": "This month, Saturn is opposing your 7th House, demanding you face every unresolved partnership truth.",
+            "type": "normal"
+        },
+        {
+            "text": "Venus glides through your 10th House, bringing unexpected romantic sparks through professional connections.",
+            "type": "normal"
+        },
+        {
+            "text": "Jupiter trine your Midheaven is opening career doors you didn't even knock on.",
+            "type": "normal"
+        },
+        {
+            "text": "Mars in your 6th House is pushing your physical energy to its peak.",
+            "type": "normal"
+        },
+        {
+            "text": "Watch June 8th for a career surprise, June 14th for a love revelation, and June 22nd for financial clarity.",
+            "type": "normal"
+        },
+        {
+            "text": "Don't avoid hard conversations in relationships.",
+            "type": "normal"
+        },
+        {
+            "text": "Comment your sign below!",
+            "type": "normal"
+        }
+    ],
+    "lucky_numbers": [
+        "7",
+        "11",
+        "21"
+    ],
+    "lucky_color": "Emerald Green",
+    "monthly_vibe": "Bold Transformation",
+    "title": "Aries Monthly Horoscope June 01, 2026",
+    "youtube_title": "Aries \u2014 Saturn Is Testing Your Relationships #shorts",
+    "youtube_description": "Saturn is opposing your 7th House this month, Aries, and nothing will stay hidden. Venus in your 10th House is about to change your love life in a way you never expected. Comment your sign and I'll send you personal cosmic guidance.",
+    "youtube_tags": [
+        "aries horoscope",
+        "aries june 2026",
+        "saturn opposition",
+        "aries love forecast",
+        "aries career money",
+        "aries venus transit",
+        "aries monthly reading",
+        "aries cosmic energy",
+        "aries fire sign",
+        "aries lucky numbers",
+        "aries warning june",
+        "aries health energy"
+    ],
+    "type": "monthly",
+    "target": "Aries",
+    "date": "June 2026",
+    "images": [
+        "assets/zodiac_signs/Aries.jpg"
+    ],
+    "active": true,
+    "status": "pending",
+    "file_name": "plan_monthly_Aries.json"
 }

@@ -1,79 +1,94 @@
 {
-  "script_text": "ARIES ALERT \u2014 Mars, your ruling planet, ignites a fire in your 1st House this week, and nothing will be the same. Early week, Mercury sextile Jupiter in your 3rd House fuels bold conversations Monday through Wednesday, but watch Tuesday when the Moon squares your natal Mars \u2014 tension rises, so avoid confrontations. The turning point arrives Thursday as Venus trines your 10th House of career, opening a golden window for recognition and financial opportunity. By Friday through Sunday, the Sun conjuncts your Midheaven, amplifying your public presence and love prospects \u2014 someone new may enter your orbit. Wednesday is your power day because Mercury sextile Jupiter sharpens your mind, while Tuesday is your worst day due to the Moon-Mars square sparking impulsive clashes. This week, channel your Aries fire into career moves, not arguments. Follow for daily updates.",
-  "captions_structure": [
-    {
-      "text": "ARIES ALERT",
-      "type": "header"
-    },
-    {
-      "text": "Mars, your ruling planet, ignites a fire in your 1st House this week, and nothing will be the same.",
-      "type": "normal"
-    },
-    {
-      "text": "Early week, Mercury sextile Jupiter in your 3rd House fuels bold conversations Monday through Wednesday.",
-      "type": "normal"
-    },
-    {
-      "text": "But watch Tuesday when the Moon squares your natal Mars \u2014 tension rises, so avoid confrontations.",
-      "type": "normal"
-    },
-    {
-      "text": "The turning point arrives Thursday as Venus trines your 10th House of career, opening a golden window for recognition.",
-      "type": "normal"
-    },
-    {
-      "text": "By Friday through Sunday, the Sun conjuncts your Midheaven, amplifying your public presence and love prospects.",
-      "type": "normal"
-    },
-    {
-      "text": "Wednesday is your power day because Mercury sextile Jupiter sharpens your mind.",
-      "type": "normal"
-    },
-    {
-      "text": "Tuesday is your worst day due to the Moon-Mars square sparking impulsive clashes.",
-      "type": "normal"
-    },
-    {
-      "text": "This week, channel your Aries fire into career moves, not arguments.",
-      "type": "normal"
-    },
-    {
-      "text": "Follow for daily updates.",
-      "type": "normal"
-    }
-  ],
-  "lucky_numbers": [
-    "7",
-    "11",
-    "21"
-  ],
-  "lucky_color": "Emerald Green",
-  "monthly_vibe": "Bold Momentum",
-  "title": "Aries \u2014 Mars Ignites Your 1st House This Week",
-  "youtube_title": "Aries \u2014 Mars Ignites Your 1st House This Week #shorts",
-  "youtube_description": "Mars, your ruling planet, fires up your 1st House this week, and a Venus trine in your 10th House could change your career forever. Comment your sign below.",
-  "youtube_tags": [
-    "astrology",
-    "horoscope",
-    "aries",
-    "mars transit",
-    "venus trine",
-    "career boost",
-    "love forecast",
-    "weekly stars",
-    "fire sign",
-    "mercury sextile",
-    "moon square",
-    "sun conjunct"
-  ],
-  "type": "weekly",
-  "target": "Aries",
-  "date": "May 31 - Jun 06",
-  "images": [
-    "assets/zodiac_signs/Aries.jpg"
-  ],
-  "active": true,
-  "status": "error",
-  "file_name": "plan_weekly_Aries.json",
-  "error_reason": "Upload failed"
+    "script_text": "ARIES ALERT. The cosmos is hitting the gas pedal for you, fire sign. Mars, your ruling planet, fires a powerful trine to Jupiter early this week, blasting open doors in your 10th House of career\u2014Tuesday is your biggest opportunity. A major shift arrives Wednesday when Mercury enters your 4th House, turning every home conversation into a negotiation. Venus holds steady in your 7th House through Thursday, igniting romantic tension that demands honesty. Friday and the weekend bring glamour and pleasure as the Sun sextiles your natal Mars\u2014creativity surges. Best day is Tuesday, because Jupiter's trine launches your career dreams into motion. Worst day is Saturday when retrograde Saturn squares your chart, forcing patience with no shortcuts. This week, Aries\u2014speak up before the window closes. Follow for daily updates.",
+    "captions_structure": [
+        {
+            "text": "ARIES ALERT \ud83d\udd25",
+            "type": "header"
+        },
+        {
+            "text": "The cosmos is hitting the gas pedal for you, fire sign \u2648",
+            "type": "normal"
+        },
+        {
+            "text": "Early this week, Mars, YOUR ruling planet, fires a powerful trine to Jupiter...",
+            "type": "normal"
+        },
+        {
+            "text": "...blasting open doors in your 10th House of career.",
+            "type": "normal"
+        },
+        {
+            "text": "Tuesday is your biggest opportunity.",
+            "type": "normal"
+        },
+        {
+            "text": "Wednesday Mercury enters your 4th House\u2014",
+            "type": "normal"
+        },
+        {
+            "text": "every home conversation becomes a negotiation.",
+            "type": "normal"
+        },
+        {
+            "text": "Venus holds steady in your 7th House through Thursday\u2014",
+            "type": "normal"
+        },
+        {
+            "text": "romantic tension demands honesty.",
+            "type": "normal"
+        },
+        {
+            "text": "Friday weekend brings glamour as the Sun sextiles your natal Mars.",
+            "type": "normal"
+        },
+        {
+            "text": "\u2b50 Best day: Tuesday\u2014Jupiter's trine launches career dreams.",
+            "type": "normal"
+        },
+        {
+            "text": "\u26a0\ufe0f Worst day: Saturday\u2014Saturn square your chart, no shortcuts.",
+            "type": "normal"
+        },
+        {
+            "text": "This week, Aries\u2014SPEAK UP before the window closes.",
+            "type": "normal"
+        },
+        {
+            "text": "Follow for daily updates.",
+            "type": "normal"
+        }
+    ],
+    "lucky_numbers": [
+        "7",
+        "14",
+        "21"
+    ],
+    "lucky_color": "Scarlet Red",
+    "monthly_vibe": "Bold Momentum",
+    "title": "Aries Weekly Horoscope June 01, 2026",
+    "youtube_title": "Aries: Career EXPLODES This Week\u2014Jupiter Trine Mars in Full Force #shorts",
+    "youtube_description": "Mars fires a powerful trine to Jupiter in your 10th House AND Venus heats up your 7th House of love\u2014the astrological week of June 1-7 is stacked for Aries. I break down every transit, every house, and exactly which day to strike. Comment your sign below and I will see you there.",
+    "youtube_tags": [
+        "aries weekly horoscope",
+        "aries forecast",
+        "jupiter trine mars",
+        "aries career forecast",
+        "aries love forecast",
+        "aries zodiac",
+        "weekly horoscope",
+        "aries sign",
+        "venus 7th house",
+        "aries job forecast",
+        "june 2026 horoscope",
+        "cosmic energy"
+    ],
+    "type": "weekly",
+    "target": "Aries",
+    "date": "Jun 01 - Jun 07",
+    "images": [
+        "assets/zodiac_signs/Aries.jpg"
+    ],
+    "active": true,
+    "status": "pending",
+    "file_name": "plan_weekly_Aries.json"
 }

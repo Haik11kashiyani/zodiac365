@@ -1,107 +1,58 @@
 {
-  "script_text": "Taurus, Saturn just squared your Sun and everything you thought was stable is about to be tested big time. Monday through Wednesday, Venus your ruling planet sextiles Jupiter in your 2nd House, flooding your finances with unexpected opportunities, but beware Mercury opposite your Mars on Tuesday \u2014 arguments over money will drain your earth energy fast. The turning point arrives Thursday when the Moon enters your 7th House, smothering relationships in need-to-have conversations you have been avoiding for weeks, and honestly Taurus, your partner or crush finally gets what they deserve because Venus trines Pluto in your 5th House this weekend sparking deep passionate romantic breakthroughs that change everything. Late week lightens up beautifully as the Sun trines your natal Venus Sunday, gifting you warmth, creative joy, and the financial confidence you deserve. Your power day is Thursday because the 7th House Moon forces honesty that sets you free. Your worst day is Tuesday because Mercury opposite Mars breeds costly misunderstandings. This week, anchor yourself in emerald green energy and say yes to every financial opportunity that crosses your path. Follow for daily updates.",
-  "captions_structure": [
-    {
-      "text": "TAURUS - May 31 - Jun 06, 2026",
-      "type": "header"
-    },
-    {
-      "text": "Taurus, Saturn just squared your Sun and everything you thought",
-      "type": "normal"
-    },
-    {
-      "text": "was stable is about to be tested big time. Monday through Wednesday,",
-      "type": "normal"
-    },
-    {
-      "text": "Venus your ruling planet sextiles Jupiter in your 2nd House, flooding",
-      "type": "normal"
-    },
-    {
-      "text": "your finances with unexpected opportunities, but beware Mercury opposite",
-      "type": "normal"
-    },
-    {
-      "text": "your Mars on Tuesday - arguments over money will drain your earth energy",
-      "type": "normal"
-    },
-    {
-      "text": "fast. The turning point arrives Thursday when the Moon enters your 7th",
-      "type": "normal"
-    },
-    {
-      "text": "House, smothering relationships in need-to-have conversations you have",
-      "type": "normal"
-    },
-    {
-      "text": "been avoiding for weeks, and honestly Taurus, your partner or crush",
-      "type": "normal"
-    },
-    {
-      "text": "finally gets what they deserve because Venus trines Pluto in your 5th",
-      "type": "normal"
-    },
-    {
-      "text": "House this weekend sparking deep passionate romantic breakthroughs that",
-      "type": "normal"
-    },
-    {
-      "text": "change everything. Late week lightens up beautifully as the Sun trines",
-      "type": "normal"
-    },
-    {
-      "text": "your natal Venus Sunday, gifting you warmth, creative joy, and the",
-      "type": "normal"
-    },
-    {
-      "text": "financial confidence you deserve. Tuesday is your worst day because",
-      "type": "normal"
-    },
-    {
-      "text": "Mercury opposite Mars breeds costly misunderstandings. This week, anchor",
-      "type": "normal"
-    },
-    {
-      "text": "yourself in emerald green energy and say yes to every financial",
-      "type": "normal"
-    },
-    {
-      "text": "opportunity that crosses your path. Follow for daily updates.",
-      "type": "normal"
-    }
-  ],
-  "lucky_numbers": [
-    "7",
-    "14",
-    "21"
-  ],
-  "lucky_color": "Emerald Green",
-  "monthly_vibe": "Grounded Transformation",
-  "title": "Taurus - Saturn Is Testing Your Stability Now",
-  "youtube_title": "Taurus - This Week Changes Everything For You #shorts",
-  "youtube_description": "Saturn squared your Sun this week and your ruling planet Venus is about to transform your finances and love life simultaneously. Tuesday is dangerous but your weekend surprise will leave you speechless. Comment your sign below.",
-  "youtube_tags": [
-    "astrology",
-    "horoscope",
-    "taurus",
-    "taurus horoscope",
-    "weekly horoscope",
-    "venus transit",
-    "saturn square",
-    "love prediction",
-    "money forecast",
-    "planetary aspects",
-    "zodiac forecast",
-    "taurus 2026"
-  ],
-  "type": "weekly",
-  "target": "Taurus",
-  "date": "May 31 - Jun 06",
-  "images": [
-    "assets/zodiac_signs/Taurus.jpg"
-  ],
-  "active": true,
-  "status": "error",
-  "file_name": "plan_weekly_Taurus.json",
-  "error_reason": "Upload failed"
+    "script_text": "This week, Venus in your sixth house triggers cosmic realignment nobody warned you about, Taurus. Monday through Wednesday, Venus squares Mars, scattering energy across priorities mid week, creating financial conflicts between, Mercury transits seventh house, creating ideal meetings, connections, Saturn stabilizes your tenth House, demanding focused career moves, especially Thursday, when negotiations align Friday strengthens bonds Saturday delivers Saturday Sunday brings renewal Venus trines Jupiter, igniting creativity love weekends glow Emerald green amplifies everything daily updates follow",
+    "captions_structure": [
+        {
+            "text": "TAURUS ALERT",
+            "type": "header"
+        },
+        {
+            "text": "This week, Venus in your sixth house triggers cosmic realignment that nobody warned you about, Taurus. Monday through Wednesday, Venus squares Mars, scattering your energy across scattered priorities.",
+            "type": "normal"
+        },
+        {
+            "text": "Mid-week, Mercury transits your seventh house, creating ideal meeting conditions for a key connection Saturn stabilizes your tenth House Monday, especially Thursday \u2014 focused career moves bring a promising Saturday negotiation.",
+            "type": "normal"
+        },
+        {
+            "text": "By Friday Saturday Sunday brings renewal Venus trines Jupiter 10 \u2014 love Wednesday creativity glows Saturday love Sunday Emerald Green amplifies everything. Lucky numbers 7 Monday 5, 10 Saturday 21.",
+            "type": "normal"
+        },
+        {
+            "text": "Follow for daily updates!",
+            "type": "normal"
+        }
+    ],
+    "lucky_numbers": [
+        "7",
+        "11",
+        "21"
+    ],
+    "lucky_color": "Emerald Green",
+    "monthly_vibe": "Reflective & Calm",
+    "title": "Taurus Weekly Horoscope June 01, 2026",
+    "youtube_title": "The Stars Warned Taurus About This #shorts",
+    "youtube_description": "Venus triggers a realignment this week that NOBODY warned you about \u2014 and one particular day could change your financial game forever. Comment your sign and tell me if you felt it!",
+    "youtube_tags": [
+        "taurus horoscope",
+        "weekly horoscope",
+        "venus transit",
+        "love forecast",
+        "career astrology",
+        "money horoscope",
+        "mars square",
+        "jupiter trine",
+        "cosmic update",
+        "zodiac weekly",
+        "taurus june",
+        "soulmate energy"
+    ],
+    "type": "weekly",
+    "target": "Taurus",
+    "date": "Jun 01 - Jun 07",
+    "images": [
+        "assets/zodiac_signs/Taurus.jpg"
+    ],
+    "active": true,
+    "status": "pending",
+    "file_name": "plan_weekly_Taurus.json"
 }

@@ -1,32 +1,36 @@
 {
-  "script_text": "Stop everything, Taurus \u2014 your ruling planet Venus is locking into a powerful conjunction with unpredictable Uranus in your 1st House of Self today, and nothing will feel the same. This rare earth-sign shockwave rips open how you see yourself and how others see you right now. In love, a sudden confession or surprise message from someone you've tried arriving out of nowhere \u2014 stay open because Venus is lighting up your 7th House of Partnerships alongside this conjunction. Career-wise, Mercury retrograde in your 10th House means hold off signing contracts today, but an unexpected money opportunity surfaces through a colleague you've overlooked. Blessing: a stranger says something today that changes your entire direction. Follow me so you don't miss what Venus has planned for your week ahead.",
+  "script_text": "Stop! Taurus, don't ignore this cosmic warning about your safe zone today. Venus, your ruling planet, is forming a square with Pluto right now, creating intense financial pressure in your 2nd House of Money and Resources. This tension is shaking how you handle security and spending to the core. In love, an opposition between Venus and Pluto in the 7th House of Partnerships means power dynamics get tricky, so watch out for control issues even in relationships. For career and money, that financial tension shows Sudden unexpected expenses in your 2nd House, especially around shared funds or debts. But look for a chance of an unexpected help or gift coming from a family member or close friend thanks to stable Jupiter. Follow for tomorrow's reading.",
   "captions_structure": [
     {
       "text": "TAURUS ALERT",
       "type": "header"
     },
     {
-      "text": "Stop everything, Taurus \u2014 your ruling planet Venus is locking into a powerful conjunction with unpredictable Uranus in your 1st House of Self today, and nothing will feel the same.",
+      "text": "Stop! Taurus, don't ignore this cosmic warning about your safe zone today.",
       "type": "normal"
     },
     {
-      "text": "This rare earth-sign shockwave rips open how you see yourself and how others see you right now.",
+      "text": "Venus, your ruling planet, is forming a square with Pluto right now, creating intense financial pressure in your 2nd House of Money and Resources.",
       "type": "normal"
     },
     {
-      "text": "In love, a sudden confession or surprise message from someone you've thought about arrives out of nowhere.",
+      "text": "This tension is shaking how you handle security and spending to the core.",
       "type": "normal"
     },
     {
-      "text": "Mercury retrograde in your 10th House means hold off signing contracts today, but unexpected money surfaces through a colleague you've overlooked.",
+      "text": "In love, an opposition between Venus and Pluto in the 7th House of Partnerships means power dynamics get tricky, so watch out for control issues even in relationships.",
       "type": "normal"
     },
     {
-      "text": "Blessing: a stranger says something today that changes your entire direction.",
+      "text": "For career and money, that financial tension shows Sudden unexpected expenses in your 2nd House, especially around shared funds or debts.",
       "type": "normal"
     },
     {
-      "text": "Follow me so you don't miss what's coming this week.",
+      "text": "But look for a chance of an unexpected help or gift coming from a family member or close friend thanks to stable Jupiter.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for tomorrow's reading.",
       "type": "normal"
     }
   ],
@@ -37,31 +41,30 @@
   ],
   "lucky_color": "Emerald Green",
   "monthly_vibe": "Reflective & Calm",
-  "title": "The Stars Just Shook Taurus to the Core",
-  "youtube_title": "Taurus \u2014 Venus and Uranus Hit Your Identity #shorts",
-  "youtube_description": "Venus is conjoining Uranus in your 1st House and Taurus, this one is going to hit different. A love surprise, a career curveball, and a stranger who says exactly what you need to hear. Comment your sign below and I'll tell you what's next.",
+  "title": "Taurus Daily Horoscope June 01, 2026",
+  "youtube_title": "Taurus \u2014 This Changes Everything Today #shorts",
+  "youtube_description": "On June 01, Taurus faces a powerful Venus square Pluto transit shaking up your money and love life. Discover what's coming for your sign and how to protect your energy! Comment your Taurus takeaways below and let me know if you feel this one resonating. Subscribe so you don't miss tomorrow's cosmic forecast.",
   "youtube_tags": [
-    "taurus horoscope",
-    "venus uranus conjunction",
-    "taurus love reading",
-    "daily horoscope",
-    "tarot and astrology",
+    "astrology",
+    "horoscope",
     "taurus",
-    "horoscope today",
-    "astrology reading",
-    "may 31 horoscope",
-    "venus in taurus",
-    "uranus transit",
-    "cosmic energy"
+    "venus square pluto",
+    "2nd house money",
+    "partnership tension",
+    "financial pressure",
+    "power struggles love",
+    "jupiter support",
+    "taurus boundaries",
+    "june 2026 transit",
+    "cosmic warning taurus"
   ],
   "type": "daily",
   "target": "Taurus",
-  "date": "May 31, 2026",
+  "date": "June 01, 2026",
   "images": [
     "assets/zodiac_signs/Taurus.jpg"
   ],
   "active": true,
-  "status": "error",
-  "file_name": "plan_daily_Taurus.json",
-  "error_reason": "Upload failed"
+  "status": "uploaded",
+  "file_name": "plan_daily_Taurus.json"
 }
