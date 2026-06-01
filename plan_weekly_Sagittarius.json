@@ -1,43 +1,74 @@
 {
-    "script_text": "Stop scrolling! Sagittarius, this week the stars pulse with fire and insight. Monday, Mercury trine Jupiter, expands optimism\u2014perfect for setting big goals and signing contracts; write down three intentions. Tuesday, Venus squares Saturn, urges patience in relationships; avoid impulsive spending, instead plan a modest dinner. Wednesday, Sun conjunct Mars fuels courage; tackle a lingering project or start a new workout, but watch temper. Thursday, Moon opposite Uranus brings sudden ideas; journal any breakthroughs and share them with a trusted friend. Friday, Mercury sextile Neptune softens intuition\u2014great for creative writing or meditation; set a 15\u2011minute quiet time. Saturday, Jupiter square Pluto warns against overconfidence; double\u2011check finances before investing. Sunday, Sun sextile Venus highlights love and self\u2011care; schedule a relaxing walk in nature. Best day: Monday for visionary planning. Worst day: Thursday, unexpected emotional spikes; stay grounded. Remember, dear Archer, breathe deep, trust the cosmos, and thrive.",
+    "script_text": "Sagittarius, this week Jupiter ignites a cosmic explosion in your life you did not see coming. Early week, Mercury sizzles through your 9th house, forming a powerful trine to your ruling planet Jupiter as well as the North Node in your 11th house sparking bold conversations, travel ideas, and invitations you simply cannot refuse. Tuesday is your best day because Mercury sizzles through your 9th house, forming a powerful trine to your ruling planet Jupiter. By Wednesday, a tense square from Mars in your 3rd house warns you to watch your words, avoid signing documents impulsively. This is your worst day. Thursday brings the shift: Venus slips into your 5th house of romance, igniting passion and creative fire all weekend. Expect a magnetic connection to surface Friday evening. Career-wise, the Sun in your 10th house sextile Saturn means a professional opportunity arrives Saturday, so keep your eyes open. Your lucky color is emerald green, and your power numbers are 7, 11, and 21. One tip: say yes to unexpected invitations this week, the universe is rearranging your path. Follow for daily updates.",
     "captions_structure": [
         {
-            "text": "SAGITTARIUS WEEK",
+            "text": "SAGITTARIUS ALERT",
             "type": "header"
         },
         {
-            "text": "Stop scrolling, cosmic insights await.",
+            "text": "Sagittarius, this week Jupiter ignites a cosmic explosion in your life you did not see coming.",
+            "type": "normal"
+        },
+        {
+            "text": "Early week, Mercury sizzles through your 9th house, forming a powerful trine to your ruling planet Jupiter as well as the North Node in your 11th house sparking bold conversations, travel ideas, and invitations you simply cannot refuse.",
+            "type": "normal"
+        },
+        {
+            "text": "Tuesday is your best day because Mercury sizzles through your 9th house, forming a powerful trine to your ruling planet Jupiter.",
+            "type": "normal"
+        },
+        {
+            "text": "By Wednesday, a tense square from Mars in your 3rd house warns you to watch your words, avoid signing documents impulsively. This is your worst day.",
+            "type": "normal"
+        },
+        {
+            "text": "Thursday brings the shift: Venus slips into your 5th house of romance, igniting passion and creative fire all weekend.",
+            "type": "normal"
+        },
+        {
+            "text": "Expect a magnetic connection to surface Friday evening. Career-wise, the Sun in your 10th house sextile Saturn means a professional opportunity arrives Saturday, so keep your eyes open.",
+            "type": "normal"
+        },
+        {
+            "text": "Your lucky color is emerald green, and your power numbers are 7, 11, and 21.",
+            "type": "normal"
+        },
+        {
+            "text": "One tip: say yes to unexpected invitations this week, the universe is rearranging your path.",
+            "type": "normal"
+        },
+        {
+            "text": "Follow for daily updates.",
             "type": "normal"
         }
     ],
-    "title": "Sagittarius Weekly Forecast",
-    "youtube_title": "\u26a0\ufe0f WARNING: Sagittarius Star Surge! #shorts",
-    "youtube_description": "\ud83d\udea8 Your week ahead is a cosmic rollercoaster! Discover daily planetary boosts and pitfalls for Sagittarius. Best day Monday, worst Thursday. Sub to claim your personalized star guide now! #Sagittarius #Astrology #Horoscope #WeeklyForecast #CosmicTips",
+    "lucky_numbers": [
+        "7",
+        "11",
+        "21"
+    ],
+    "lucky_color": "Emerald Green",
+    "monthly_vibe": "Reflective & Calm",
+    "title": "Sagittarius Weekly Horoscope June 01, 2026",
+    "youtube_title": "Sagittarius \u2014 Jupiter Is About to Change Everything #shorts",
+    "youtube_description": "This week Mercury forms a rare trine to Jupiter in your 9th house, and Venus is about to set your 5th house of romance on fire. Sagittarius, the stars are lining up for something massive \u2014 here is exactly what to expect. Comment your sign below and see what the cosmos has planned for you.",
     "youtube_tags": [
         "astrology",
+        "horoscope",
         "sagittarius",
+        "sagittarius horoscope",
         "weekly horoscope",
-        "horoscope 2026",
-        "zodiac signs",
-        "cosmic guidance",
-        "Mercury trine Jupiter",
-        "Venus square Saturn",
-        "Sun conjunct Mars",
-        "Moon opposite Uranus",
-        "Jupiter square Pluto",
-        "Sagittarius forecast",
-        "star energy",
-        "zodiac weekly",
-        "spiritual advice",
-        "self care",
-        "love forecast",
-        "career tips",
-        "meditation",
-        "mindset"
+        "jupiter transit",
+        "mercury trine",
+        "venus 5th house",
+        "love prediction",
+        "career forecast",
+        "june 2026",
+        "cosmic energy"
     ],
     "type": "weekly",
     "target": "Sagittarius",
-    "date": "Feb 12 - Feb 18",
+    "date": "Jun 01 - Jun 07",
     "images": [
         "assets/zodiac_signs/Sagittarius.jpg"
     ],

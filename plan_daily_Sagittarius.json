@@ -1,47 +1,98 @@
 {
-    "script_text": "Stop scrolling! Mars is squaring your adventurous spirit, dear Sagittarius, igniting a restless fire that urges you to chase bold horizons. Venus whispers of unexpected romance, yet Mercury's retrograde trembles the communication lines, urging patience. Jupiter, your ruling planet, expands opportunities in career, but Saturn's stern lesson warns against overconfidence. The Moon, cloaked in mystical twilight, calls you to meditate, to align inner wisdom with outer action. Embrace the clash, for it sharpens clarity; let the tension guide you toward purposeful quests. A sudden shift in financial currents suggests a wise investment in learning, not material excess. Trust the ancient counsel of the archer: aim high, stay grounded, and share your truth with honesty. Remember, the stars speak in riddles, but your heart deciphers them. Listen, act, and thrive. May the blazing arrow guide you toward triumph and luminous fulfillment.",
-    "captions_structure": [
-        {
-            "text": "SAGITTARIUS ALERT",
-            "type": "header"
-        },
-        {
-            "text": "Stop scrolling... your cosmic fire is rising!",
-            "type": "normal"
-        }
-    ],
-    "title": "Sagittarius Daily Forecast",
-    "youtube_title": "\u26a0\ufe0f WARNING: Sagittarius Fire Surge! #shorts",
-    "youtube_description": "\u26a1\ufe0f Cosmic fire ignites your day! \ud83c\udf1f\nSub to claim exclusive insights! #astrology #sagittarius #horoscope #zodiac #shorts",
-    "youtube_tags": [
-        "astrology",
-        "sagittarius",
-        "daily horoscope",
-        "zodiac signs",
-        "mars square",
-        "venus retrograde",
-        "jupiter expansion",
-        "saturn lesson",
-        "moon meditation",
-        "career advice",
-        "financial tips",
-        "spiritual guidance",
-        "fire sign",
-        "archer wisdom",
-        "2026 forecasts",
-        "zodiac daily",
-        "horoscope 2026",
-        "star insight",
-        "cosmic energy",
-        "shorts"
-    ],
-    "type": "daily",
-    "target": "Sagittarius",
-    "date": "February 12, 2026",
-    "images": [
-        "assets/zodiac_signs/Sagittarius.jpg"
-    ],
-    "active": true,
-    "status": "pending",
-    "file_name": "plan_daily_Sagittarius.json"
+  "script_text": "Hold on, Sagittarius, Venus is sliding into a powerful conjunction with your ruling planet Jupiter right now. This fiery energy is lighting up your 9th House of adventure and higher learning. In love, a chance encounter with someone from a completely different background could spark a magnetic connection you did not see coming. For career and money, Venus in this position signals a generous surprise tied to travel, publishing, or an international opportunity in your 9th House. Be careful not to make grand promises to your partner tonight when emotions run this high. Subscribe so you do not miss what Jupiter has planned for you this week.",
+  "captions_structure": [
+    {
+      "text": "SAGITTARIUS ALERT \ud83d\udd25",
+      "type": "header"
+    },
+    {
+      "text": "Hold on, Sagittarius, Venus is sliding into a powerful",
+      "type": "normal"
+    },
+    {
+      "text": "conjunction with your ruling planet Jupiter right now.",
+      "type": "normal"
+    },
+    {
+      "text": "This fiery energy is lighting up your 9th House of",
+      "type": "normal"
+    },
+    {
+      "text": "adventure and higher learning.",
+      "type": "normal"
+    },
+    {
+      "text": "In love, a chance encounter with someone from a",
+      "type": "normal"
+    },
+    {
+      "text": "completely different background could spark a",
+      "type": "normal"
+    },
+    {
+      "text": "magnetic connection you did not see coming.",
+      "type": "normal"
+    },
+    {
+      "text": "For career and money, Venus in this position signals",
+      "type": "normal"
+    },
+    {
+      "text": "a generous surprise tied to travel, publishing,",
+      "type": "normal"
+    },
+    {
+      "text": "or an international opportunity in your 9th House.",
+      "type": "normal"
+    },
+    {
+      "text": "Be careful not to make grand promises to your",
+      "type": "normal"
+    },
+    {
+      "text": "partner tonight when emotions run this high.",
+      "type": "normal"
+    },
+    {
+      "text": "Subscribe so you do not miss what Jupiter has",
+      "type": "normal"
+    },
+    {
+      "text": "planned for you this week.",
+      "type": "normal"
+    }
+  ],
+  "lucky_numbers": [
+    "7",
+    "22",
+    "40"
+  ],
+  "lucky_color": "Sapphire Blue",
+  "monthly_vibe": "Bold Expansion",
+  "title": "Sagittarius \u2014 Something Big Is Coming",
+  "youtube_title": "Sagittarius Surprise Hits This Week #shorts",
+  "youtube_description": "Venus just joined Jupiter in your 9th House, Sagittarius, and the universe is about to hand you a love and money twist you never predicted. This fire sign reading covers the exact transit and house placement reshaping your path right now. Comment your sign and tell the stars what you are manifesting.",
+  "youtube_tags": [
+    "sagittarius horoscope",
+    "sagittarius today",
+    "venus jupiter",
+    "9th house transit",
+    "daily horoscope",
+    "fire sign energy",
+    "jupiter conjunction",
+    "astrology reading",
+    "sagittarius love",
+    "career astrology",
+    "planetary transit",
+    "cosmic alert"
+  ],
+  "type": "daily",
+  "target": "Sagittarius",
+  "date": "June 01, 2026",
+  "images": [
+    "assets/zodiac_signs/Sagittarius.jpg"
+  ],
+  "active": true,
+  "status": "uploaded",
+  "file_name": "plan_daily_Sagittarius.json"
 }

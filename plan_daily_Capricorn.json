@@ -1,47 +1,90 @@
 {
-    "script_text": "Stop! Mars is squaring your ambition, Capricorn, and the heavens whisper of restless energy. A sudden shift in Saturn\u2019s retrograde stirs deep discipline, urging you to rebuild foundations with patience. Mercury dances through your tenth house, sparking brilliant ideas for career moves\u2014listen to the inner voice of the ancient goat. Venus glides, softening the harsh edge of conflict, inviting heartfelt connections with trusted allies. The moon in Pisces casts a gentle veil, reminding you to honor emotions while you chase goals. Embrace this cosmic cocktail: blend bold action with timeless wisdom, and you\u2019ll navigate the day like a seasoned sage. Trust the rhythm of the stars, stay grounded, and let the universe guide your steps toward lasting success. Remember, Capricorn, the ancient goat climbs mountains with patience; honor your inner fire, and the cosmos will reward you with abundant blessings.",
-    "captions_structure": [
-        {
-            "text": "CAPRICORN ALERT",
-            "type": "header"
-        },
-        {
-            "text": "Stop! Mars is squaring your ambition...",
-            "type": "normal"
-        }
-    ],
-    "title": "Capricorn Daily Horoscope 2026\u201102\u201112",
-    "youtube_title": "\u26a0\ufe0f Urgent! Capricorn Cosmic Shift \u2013 Don't Ignore #shorts",
-    "youtube_description": "\u26a1\ufe0f Cosmic fire ignites your day, Capricorn! Discover the hidden forces shaping your destiny now.\nSub to claim your daily celestial guide! Dive deep into planetary tensions, love insights, and career tips tailored for the goat. Stay tuned for more ancient wisdom meets modern friend vibes.\n#Capricorn #Horoscope #Astrology #Zodiac #DailyGuidance",
-    "youtube_tags": [
-        "astrology",
-        "capricorn",
-        "daily horoscope",
-        "zodiac",
-        "2026 predictions",
-        "planetary alignment",
-        "mars square",
-        "saturn retrograde",
-        "love advice",
-        "career guidance",
-        "spirituality",
-        "self growth",
-        "horoscope today",
-        "zodiac signs",
-        "star signs",
-        "cosmic energy",
-        "ancient wisdom",
-        "modern astrology",
-        "shorts",
-        "viral horoscope"
-    ],
-    "type": "daily",
-    "target": "Capricorn",
-    "date": "February 12, 2026",
-    "images": [
-        "assets/zodiac_signs/Capricorn.jpg"
-    ],
-    "active": true,
-    "status": "pending",
-    "file_name": "plan_daily_Capricorn.json"
+  "script_text": "Stop everything, Capricorn. Pluto in Aquarius is forming a powerful trine to natal Saturn, your ruling planet, awakening deep transformation in your 1st House of Self. This is not a day to stay small. Venus in soft sextile to your 10th House of Career opens a surprising door for love to bloom through professional connections \u2014 someone in authority may see you differently today. Financially, Mercury's conjunction with Jupiter in your 2nd House of Money means a conversation about value, salary, or investment could land in your favor. Watch for a surprise blessing disguised as a last-minute meeting you almost canceled. Saturn reminds you that your patience, grounded earth wisdom, has been building toward something real. Do not ignore a gut feeling about money or love this evening. Follow for tomorrow's reading.",
+  "captions_structure": [
+    {
+      "text": "CAPRICORN \u2014 LISTEN UP",
+      "type": "header"
+    },
+    {
+      "text": "Stop everything, Capricorn.",
+      "type": "normal"
+    },
+    {
+      "text": "Pluto in Aquarius fires a trine to your ruling Saturn,",
+      "type": "normal"
+    },
+    {
+      "text": "awakening deep transformation in your 1st House of Self.",
+      "type": "normal"
+    },
+    {
+      "text": "This is NOT a day to stay small.",
+      "type": "normal"
+    },
+    {
+      "text": "Venus in sextile to your 10th House of Career",
+      "type": "normal"
+    },
+    {
+      "text": "opens love through professional connections.",
+      "type": "normal"
+    },
+    {
+      "text": "A boss or mentor may see you differently.",
+      "type": "normal"
+    },
+    {
+      "text": "Mercury conjunct Jupiter in your 2nd House of Money",
+      "type": "normal"
+    },
+    {
+      "text": "means a salary or investment talk lands in your favor.",
+      "type": "normal"
+    },
+    {
+      "text": "Watch for a blessing inside a last-minute meeting.",
+      "type": "normal"
+    },
+    {
+      "text": "Saturn says your patience is paying off.",
+      "type": "normal"
+    },
+    {
+      "text": "Don't ignore a gut feeling tonight. Follow for tomorrow.",
+      "type": "normal"
+    }
+  ],
+  "lucky_numbers": [
+    "7",
+    "11",
+    "21"
+  ],
+  "lucky_color": "Burnt Gold",
+  "monthly_vibe": "Power Rising",
+  "title": "Capricorn Don't Ignore This Cosmic Shift",
+  "youtube_title": "Capricorn \u2014 Pluto Just Activated Your 1st House #shorts",
+  "youtube_description": "Pluto in Aquarius just fired a rare trine to your ruling planet Saturn, Capricorn, and it's about to shake up your entire sense of self. Tap in and hear why today could quietly change your money, love, and identity all at once. Drop your sign below.",
+  "youtube_tags": [
+    "capricorn horoscope",
+    "capricorn daily",
+    "pluto transit",
+    "saturn aspects",
+    "career prediction",
+    "love reading",
+    "zodiac today",
+    "astrology 2026",
+    "money forecast",
+    "planetary transits",
+    "spiritual growth",
+    "horoscope june"
+  ],
+  "type": "daily",
+  "target": "Capricorn",
+  "date": "June 01, 2026",
+  "images": [
+    "assets/zodiac_signs/Capricorn.jpg"
+  ],
+  "active": true,
+  "status": "uploaded",
+  "file_name": "plan_daily_Capricorn.json"
 }
