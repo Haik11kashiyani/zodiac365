@@ -1,91 +1,46 @@
 {
-  "script_text": "Stop! Aquarius, the stars are screaming at you right now. Pluto is conjunct your natal Sun in the 1st House, and Saturn in Pisces is squaring Mercury in your 3rd House of Communication. This forces you to confront what you've been avoiding \u2014 your deepest identity shifts under this air sign's ruling planet, Uranus. If you're single, a surprising connection through a group or friend circle could spark something real. If taken, watch for a tense conversation with your partner that stems from unspoken resentment. Jupiter in your 3rd House sextiles Uranus in your 9th House, bringing an unexpected career opportunity through a long-distance contact or travel. Financially, avoid impulsive spending on luxury items. Avoid making major financial decisions before noon \u2014 the Moon's position creates emotional volatility. Instead, an unexpected gift of clarity arrives in the evening. Follow for tomorrow's reading.",
+  "script_text": "Stop, Aquarius \u2014 Saturn, your traditional ruler, stations direct today in your 1st House of self, demanding you confront what you've been avoiding. Meanwhile, Jupiter in your 5th House of romance forms a fleeting trine to your Sun, sparking unexpected sparks if you dare to say yes. In love, a wounded healer vibe surrounds you \u2014 single or attached, you'll attract intensity if you drop the water-bearer detachment and speak from the raw truth in your chest. In career, Mercury sextile your 11th House of networks means a DM or email today could unlock a lucrative side stream, so check your hidden messages this afternoon. Your blessing: a delayed payment clears before sunset. Warning: don't ghost someone who texts twice or you'll miss the thread. Follow so you don't miss tomorrow's cosmic update.",
   "captions_structure": [
     {
-      "text": "AQUARIUS",
+      "text": "AQUARIUS ALERT",
       "type": "header"
     },
     {
-      "text": "Stop! Aquarius, the stars are screaming at you right now.",
-      "type": "normal"
-    },
-    {
-      "text": "Pluto is conjunct your natal Sun in the 1st House, and Saturn in Pisces is squaring Mercury in your 3rd House of Communication.",
-      "type": "normal"
-    },
-    {
-      "text": "This forces you to confront what you've been avoiding \u2014 your deepest identity shifts under this air sign's ruling planet, Uranus.",
-      "type": "normal"
-    },
-    {
-      "text": "If you're single, a surprising connection through a group or friend circle could spark something real.",
-      "type": "normal"
-    },
-    {
-      "text": "If taken, watch for a tense conversation with your partner that stems from unspoken resentment.",
-      "type": "normal"
-    },
-    {
-      "text": "Jupiter in your 3rd House sextiles Uranus in your 9th House, bringing an unexpected career opportunity through a long-distance contact or travel.",
-      "type": "normal"
-    },
-    {
-      "text": "Financially, avoid impulsive spending on luxury items.",
-      "type": "normal"
-    },
-    {
-      "text": "Avoid making major financial decisions before noon \u2014 the Moon's position creates emotional volatility.",
-      "type": "normal"
-    },
-    {
-      "text": "Instead, an unexpected gift of clarity arrives in the evening.",
-      "type": "normal"
-    },
-    {
-      "text": "Follow for tomorrow's reading.",
+      "text": "Stop, Aquarius \u2014 Saturn, your traditional ruler, stations direct today in your 1st House of self, demanding you confront what you've been avoiding. Meanwhile, Jupiter in your 5th House of romance forms a fleeting trine to your Sun, sparking unexpected sparks if you dare to say yes. In love, a wounded healer vibe surrounds you \u2014 single or attached, you'll attract intensity if you drop the water-bearer detachment and speak from the raw truth in your chest. In career, Mercury sextile your 11th House of networks means a DM or email today could unlock a lucrative side stream, so check your hidden messages this afternoon. Your blessing: a delayed payment clears before sunset. Warning: don't ghost someone who texts twice or you'll miss the thread. Follow so you don't miss tomorrow's cosmic update.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
-    "4",
+    "7",
     "11",
-    "18"
+    "21"
   ],
-  "lucky_color": "Turquoise",
-  "monthly_vibe": "Deep Transformation",
-  "title": "Aquarius Daily Horoscope May 24, 2026",
-  "youtube_title": "The Stars Are Warning Aquarius About Pluto #shorts",
-  "youtube_description": "Pluto is conjunct your natal Sun while Saturn squares Mercury \u2014 Aquarius, this is a critical day for transformation. Comment your sign for a personalized reading.",
+  "lucky_color": "Emerald Green",
+  "monthly_vibe": "Reflective & Calm",
+  "title": "Aquarius Daily Horoscope June 02, 2026",
+  "youtube_title": "The Stars Are Warning Aquarius Today #shorts",
+  "youtube_description": "Saturn stations direct in your first house while Jupiter trine your Sun fires up your love house. Here's exactly what to do and who to watch. Drop your sign in the comments if this hits.",
   "youtube_tags": [
-    "aquarius horoscope",
-    "daily horoscope",
     "astrology",
-    "may 24 2026",
-    "aquarius today",
-    "pluto transit",
-    "saturn square mercury",
-    "uranus ruling planet",
-    "aquarius love",
-    "aquarius career",
-    "air sign",
-    "western astrology",
-    "cosmic energy",
-    "manifestation",
-    "spiritual tiktok",
-    "zodiac signs",
-    "horoscope today",
-    "astrologer",
+    "horoscope",
     "aquarius daily",
-    "planetary transits"
+    "saturn direct",
+    "jupiter trine",
+    "signs of the zodiac",
+    "astrologer reading",
+    "love prediction",
+    "career horoscope",
+    "transit today",
+    "your sign",
+    "weekly forecast"
   ],
   "type": "daily",
   "target": "Aquarius",
-  "date": "May 24, 2026",
+  "date": "June 02, 2026",
   "images": [
     "assets/zodiac_signs/Aquarius.jpg"
   ],
   "active": true,
-  "status": "error",
-  "file_name": "plan_daily_Aquarius.json",
-  "error_reason": "Upload failed"
+  "status": "uploaded",
+  "file_name": "plan_daily_Aquarius.json"
 }
