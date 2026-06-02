@@ -1,37 +1,33 @@
 {
-  "script_text": "Stop! Aries, the stars are screaming at you right now. Your ruling planet Mars is blazing through your 5th House of passion, forming a potent trine to electrifying Uranus in your 9th House of adventure right now. This fire-and-air combination ignites spontaneous creativity and electrifying romantic encounters that could rewrite your story. Love heats up unexpectedly\u2014if single, a chance meeting sparks instant chemistry; if partnered, surprise your beloved with an unplanned adventure. Career momentum builds as Mars energizes your 10th House ambitions, but avoid impulsive investments that promise quick returns without proper research. Blessing or warning: check your impulsiveness at the door of important meetings today. Follow for tomorrow's reading to see how Venus shifts your cosmic landscape.",
+  "script_text": "Stop! Aries, the fiery stars are screaming at you right now. Mars is drilling into your 9th House of Travel, forming a fierce square to Saturn in your 10th House of Career. This clash demands you balance your wanderlust with professional duties. In love, Venus brushes shoulders with Neptune in your 7th House, painting your relationships with ethereal charm. A message from someone special could spark unexpected chemistry. Your 10th House grinds against Mars\u2019 9th House push, so your ambitions hit roadblocks. Patience pays\u2014your big break comes after careful planning, not rash moves. Avoid signing anything today; a hidden clause could trap you. But a mentor\u2019s advice brings clarity. Follow for tomorrow's reading.",
   "captions_structure": [
     {
-      "text": "ARIES ALERT",
+      "text": "ARIES",
       "type": "header"
     },
     {
-      "text": "Stop! Aries, the stars are screaming at you right now.",
+      "text": "Stop! Aries, the fiery stars are screaming at you right now.",
       "type": "normal"
     },
     {
-      "text": "Your ruling planet Mars is blazing through your 5th House of passion, forming a potent trine to electrifying Uranus in your 9th House of adventure right now.",
+      "text": "Mars is drilling into your 9th House of Travel, forming a fierce square to Saturn in your 10th House of Career.",
       "type": "normal"
     },
     {
-      "text": "This fire-and-air combination ignites spontaneous creativity and electrifying romantic encounters that could rewrite your story.",
+      "text": "In love, Venus brushes shoulders with Neptune in your 7th House, painting your relationships with ethereal charm.",
       "type": "normal"
     },
     {
-      "text": "Love heats up unexpectedly\u2014if single, a chance meeting sparks instant chemistry; if partnered, surprise your beloved with an unplanned adventure.",
+      "text": "Your 10th House grinds against Mars\u2019 9th House push, so your ambitions hit roadblocks.",
       "type": "normal"
     },
     {
-      "text": "Career momentum builds as Mars energizes your 10th House ambitions, but avoid impulsive investments that promise quick returns without proper research.",
+      "text": "Avoid signing anything today; a hidden clause could trap you. But a mentor\u2019s advice brings clarity.",
       "type": "normal"
     },
     {
-      "text": "Blessing or warning: check your impulsiveness at the door of important meetings today.",
-      "type": "normal"
-    },
-    {
-      "text": "Follow for tomorrow's reading to see how Venus shifts your cosmic landscape.",
-      "type": "normal"
+      "text": "Follow for tomorrow's reading.",
+      "type": "cta"
     }
   ],
   "lucky_numbers": [
@@ -40,27 +36,27 @@
     "21"
   ],
   "lucky_color": "Emerald Green",
-  "monthly_vibe": "Reflective & Calm",
-  "title": "Aries Daily Horoscope June 01, 2026",
-  "youtube_title": "Aries \u2014 Your Ruling Planet is Igniting Something Wild #shorts",
-  "youtube_description": "Mars, your ruling planet, forms a powerful trine with Uranus today, shaking up your 5th House of romance and 9th House of adventure. Your impulsive nature gets a cosmic green light, but where should you aim that fiery energy? I reveal exactly what this means for love, career, and your biggest risks. Comment your sign below!",
+  "monthly_vibe": "Driven Clarity",
+  "title": "The Stars Are Warning Aries...",
+  "youtube_title": "Aries \u2014 Don't Ignore This #shorts",
+  "youtube_description": "Aries, today's fiery Mars-Saturn square clashes with your career drive. Venus-Neptune in your 7th House brings dreamy romance. Find out how to navigate both. Comment your sign!",
   "youtube_tags": [
+    "astrology",
+    "horoscope",
     "aries",
-    "aries horoscope",
-    "daily horoscope",
-    "mars transit",
-    "uranus aspects",
-    "love prediction",
-    "career horoscope",
-    "fire sign energy",
-    "astrology reading",
-    "cosmic forecast",
-    "weekly guidance",
-    "mars in leo"
+    "mars",
+    "saturn",
+    "venus",
+    "neptune",
+    "career",
+    "love",
+    "transits",
+    "daily",
+    "prediction"
   ],
   "type": "daily",
   "target": "Aries",
-  "date": "June 01, 2026",
+  "date": "June 02, 2026",
   "images": [
     "assets/zodiac_signs/Aries.jpg"
   ],
