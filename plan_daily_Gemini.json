@@ -1,36 +1,36 @@
 {
-  "script_text": "Stop scrolling, Gemini \u2014 your ruling planet Mercury just locked into a powerful sextile with Jupiter, and it's about to shift everything. Mercury, the swift messenger governing your Air-sign mind, forms this exact aspect firing up your 3rd House of Communication, opening a direct channel between your intellect and sudden breakthroughs. In love, this transit sparks magnetic conversations \u2014 if you're single, someone witty catches your eye today through words, not looks; if partnered, a honest talk dissolves tension you've been avoiding. Career-wise, Jupiter energizes your 6th House of Daily Work, spotlighting a side hustle or creative pitch that finally pays off financially. Avoid overcommitting to too many projects \u2014 Mercury scattered is still Mercury scattered. Follow me for tomorrow's reading because Venus enters Cancer this weekend and your love sky completely transforms.",
+  "script_text": "Stop! Gemini, Mercury is stationing direct today and your entire world is about to shift. Your ruling planet Mercury is forming a powerful trine with Jupiter in your 9th House of Expansion, while Venus squares your 10th House of Career, creating tension between your ambitions and your relationships. In love, a conversation you've been avoiding will surface unexpectedly \u2014 if you're single, someone from a completely different background catches your eye. Financially, a delayed payment or opportunity resurfaces through your 2nd House of Personal Resources, so check your accounts carefully. The warning: do not sign any contracts today, Mercury's shadow period still lingers. But here's your blessing \u2014 an old connection reaches out with news that changes your trajectory. Follow for tomorrow's reading so you don't miss what Jupiter has planned for you this week.",
   "captions_structure": [
     {
-      "text": "GEMINI ALERT \ud83c\udf29\ufe0f",
+      "text": "GEMINI ALERT",
       "type": "header"
     },
     {
-      "text": "Stop scrolling \u2014 Mercury just locked into a sextile with Jupiter.",
+      "text": "Stop! Gemini, Mercury is stationing direct today and your entire world is about to shift.",
       "type": "normal"
     },
     {
-      "text": "Your ruling planet is firing up your 3rd House of Communication.",
+      "text": "Your ruling planet Mercury is forming a powerful trine with Jupiter in your 9th House of Expansion, while Venus squares your 10th House of Career, creating tension between your ambitions and your relationships.",
       "type": "normal"
     },
     {
-      "text": "Love? Magnetic conversations today. Words attract, not looks.",
+      "text": "In love, a conversation you've been avoiding will surface unexpectedly \u2014 if you're single, someone from a completely different background catches your eye.",
       "type": "normal"
     },
     {
-      "text": "Career: Jupiter lights up your 6th House of Daily Work.",
+      "text": "Financially, a delayed payment or opportunity resurfaces through your 2nd House of Personal Resources, so check your accounts carefully.",
       "type": "normal"
     },
     {
-      "text": "A side hustle or creative pitch could finally pay off.",
+      "text": "The warning: do not sign any contracts today, Mercury's shadow period still lingers.",
       "type": "normal"
     },
     {
-      "text": "WARNING: Avoid overcommitting \u2014 Mercury scattered is still Mercury scattered.",
+      "text": "But here's your blessing \u2014 an old connection reaches out with news that changes your trajectory.",
       "type": "normal"
     },
     {
-      "text": "Follow for tomorrow\u2014Venus enters Cancer this weekend!",
+      "text": "Follow for tomorrow's reading so you don't miss what Jupiter has planned for you this week.",
       "type": "normal"
     }
   ],
@@ -39,41 +39,32 @@
     "11",
     "21"
   ],
-  "lucky_color": "Electric Yellow",
-  "monthly_vibe": "Expansive & Witty",
-  "title": "Gemini \u2014 Mercury Just Changed Everything",
-  "youtube_title": "Gemini Warning Jupiter Triggers Your Hidden Talent #shorts",
-  "youtube_description": "Mercury forms a rare sextile with Jupiter today, Gemini, and it's activating your 3rd House of Communication like never before. A side hustle you forgot about could suddenly generate income this week. Comment your sign below and tell me if messages have been flooding your inbox lately \u2014 the stars already know.",
+  "lucky_color": "Emerald Green",
+  "monthly_vibe": "Reflective & Calm",
+  "title": "Gemini Daily Horoscope June 04, 2026",
+  "youtube_title": "Gemini \u2014 Mercury Is Shifting Everything Today #shorts",
+  "youtube_description": "Mercury stations direct and Jupiter lights up your 9th House \u2014 Gemini, this is not a normal day. Venus is also squaring your career house, and the tension between love and ambition is real. Comment your sign and tell me if you felt this energy shift.",
   "youtube_tags": [
     "gemini horoscope",
-    "gemini today",
-    "daily horoscope gemini",
-    "mercury jupiter sextile",
-    "gemini may 2026",
-    "astrology today",
-    "horoscope today",
-    "gemini love tarot",
-    "gemini career horoscope",
-    "mercury trine jupiter",
-    "zodiac signs",
-    "astrology predictions",
-    "cosmic energy",
-    "spiritual tiktok",
-    "manifestation",
+    "mercury direct",
+    "jupiter trine",
+    "venus square",
     "daily horoscope",
-    "signs of the zodiac",
-    "gemini season",
-    "horoscope gemini today",
-    "planetary transit today"
+    "gemini love",
+    "career astrology",
+    "june 2026",
+    "air sign",
+    "mercury retrograde",
+    "cosmic energy",
+    "zodiac predictions"
   ],
   "type": "daily",
   "target": "Gemini",
-  "date": "May 29, 2026",
+  "date": "June 04, 2026",
   "images": [
     "assets/zodiac_signs/Gemini.jpg"
   ],
   "active": true,
-  "status": "error",
-  "file_name": "plan_daily_Gemini.json",
-  "error_reason": "Upload failed"
+  "status": "uploaded",
+  "file_name": "plan_daily_Gemini.json"
 }

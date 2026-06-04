@@ -1,127 +1,78 @@
 {
-  "script_text": "GEMINI \u2014 Mercury, your ruling planet in Air, is about to rewrite your entire week. Early Monday through Wednesday, Mercury retrograde forms a harsh square to Neptune in your 7th House of partnerships, so old flames or messy relationship dynamics resurface \u2014 stay sharp as foggy truths surface by Tuesday. Thursday marks the turning point: Venus trines your Midheaven, and your 10th House of career explodes with momentum \u2014 a promotion, a signed deal, or public recognition lands right in your lap. By Friday through Sunday, Jupiter enters your 2nd House sextile Mercury, making Saturday your power day because money literally finds you through a side hustle or unexpected bonus. Your worst day is Tuesday, when Mercury square Neptune clouds your judgment in love. My advice: hold your cards close until Thursday. Follow for daily updates.",
-  "captions_structure": [
-    {
-      "text": "GEMINI ALERT",
-      "type": "header"
-    },
-    {
-      "text": "GEMINI \u2014 Mercury, your ruling planet in Air, is about",
-      "type": "normal"
-    },
-    {
-      "text": "to rewrite your entire week.",
-      "type": "normal"
-    },
-    {
-      "text": "Early Monday through Wednesday, Mercury retrograde",
-      "type": "normal"
-    },
-    {
-      "text": "forms a harsh square to Neptune in your 7th House",
-      "type": "normal"
-    },
-    {
-      "text": "of partnerships, so old flames or messy relationship",
-      "type": "normal"
-    },
-    {
-      "text": "dynamics resurface \u2014 stay sharp as foggy truths",
-      "type": "normal"
-    },
-    {
-      "text": "surface by Tuesday.",
-      "type": "normal"
-    },
-    {
-      "text": "Thursday marks the turning point: Venus trines your",
-      "type": "normal"
-    },
-    {
-      "text": "Midheaven, and your 10th House of career explodes",
-      "type": "normal"
-    },
-    {
-      "text": "with momentum \u2014 a promotion, a signed deal, or",
-      "type": "normal"
-    },
-    {
-      "text": "public recognition lands right in your lap.",
-      "type": "normal"
-    },
-    {
-      "text": "By Friday through Sunday, Jupiter enters your 2nd",
-      "type": "normal"
-    },
-    {
-      "text": "House sextile Mercury, making Saturday your power",
-      "type": "normal"
-    },
-    {
-      "text": "day because money literally finds you through a",
-      "type": "normal"
-    },
-    {
-      "text": "side hustle or unexpected bonus.",
-      "type": "normal"
-    },
-    {
-      "text": "Your worst day is Tuesday, when Mercury square",
-      "type": "normal"
-    },
-    {
-      "text": "Neptune clouds your judgment in love.",
-      "type": "normal"
-    },
-    {
-      "text": "My advice: hold your cards close until Thursday.",
-      "type": "normal"
-    },
-    {
-      "text": "Follow for daily updates.",
-      "type": "normal"
-    }
-  ],
-  "lucky_numbers": [
-    "7",
-    "11",
-    "21"
-  ],
-  "lucky_color": "Emerald Green",
-  "monthly_vibe": "Reflective & Calm",
-  "title": "Gemini \u2014 Venus Trines Your Midheaven This Week",
-  "youtube_title": "Gemini Venus Trines Midheaven \u2014 Career Breakthrough #shorts",
-  "youtube_description": "Mercury square Neptune clouds your love life early this week, but Venus trining your Midheaven by Thursday changes everything \u2014 your 10th House of career lights up with real recognition. Comment your sign below and tell me what's happening in your world.",
-  "youtube_tags": [
-    "Gemini horoscope",
-    "Gemini weekly forecast",
-    "Gemini May 2026",
-    "Mercury retrograde 2026",
-    "Venus trine Midheaven",
-    "astrology forecast",
-    "weekly horoscope",
-    "Gemini love horoscope",
-    "Gemini career reading",
-    "zodiac predictions",
-    "horoscope today",
-    "manifestation energy",
-    "cosmic alignment",
-    "spiritual tiktok",
-    "Neptune square Mercury",
-    "Jupiter in 2nd house",
-    "Gemini money horoscope",
-    "zodiac signs",
-    "sidereal astrology",
-    "planetary transits"
-  ],
-  "type": "weekly",
-  "target": "Gemini",
-  "date": "May 29 - Jun 04",
-  "images": [
-    "assets/zodiac_signs/Gemini.jpg"
-  ],
-  "active": true,
-  "status": "error",
-  "file_name": "plan_weekly_Gemini.json",
-  "error_reason": "Upload failed"
+    "script_text": "Gemini, this week Mercury retrograde in your 3rd House is about to flip your entire communication world upside down. Early week, Mercury squares Neptune on Monday and Tuesday, creating foggy conversations and misread emails \u2014 avoid signing contracts before Wednesday. Your best early days are Tuesday and Wednesday when the Moon sextiles your ruling planet Mercury, clearing the mental static. The turning point arrives Thursday when Venus enters your 5th House, igniting romance and creative passion like a match to dry kindling. Late week, Friday through Sunday, Venus trines your Sun, making Saturday your power day for love \u2014 a surprise connection or rekindled spark is written in the stars. Career-wise, Mars in your 10th House all week pushes you toward bold professional moves, especially Sunday when opportunities land in your lap. Wednesday is your power day because the Moon sextile Mercury sharpens your legendary wit and clarity. Worst day is Monday due to that Mercury-Neptune square clouding your judgment. This week, Gemini, write down every idea that comes to you \u2014 your air element is electrified and your Mercury-ruled mind is a goldmine. Follow for daily updates.",
+    "captions_structure": [
+        {
+            "text": "GEMINI ALERT",
+            "type": "header"
+        },
+        {
+            "text": "Gemini, this week Mercury retrograde in your 3rd House is about to flip your entire communication world upside down.",
+            "type": "normal"
+        },
+        {
+            "text": "Early week, Mercury squares Neptune on Monday and Tuesday, creating foggy conversations and misread emails.",
+            "type": "normal"
+        },
+        {
+            "text": "Your best early days are Tuesday and Wednesday when the Moon sextiles your ruling planet Mercury.",
+            "type": "normal"
+        },
+        {
+            "text": "The turning point arrives Thursday when Venus enters your 5th House, igniting romance and creative passion.",
+            "type": "normal"
+        },
+        {
+            "text": "Late week, Venus trines your Sun, making Saturday your power day for love.",
+            "type": "normal"
+        },
+        {
+            "text": "Mars in your 10th House pushes bold professional moves all week.",
+            "type": "normal"
+        },
+        {
+            "text": "Wednesday is your power day. Monday is your worst day.",
+            "type": "normal"
+        },
+        {
+            "text": "Write down every idea \u2014 your Mercury-ruled mind is a goldmine this week.",
+            "type": "normal"
+        },
+        {
+            "text": "Follow for daily updates.",
+            "type": "normal"
+        }
+    ],
+    "lucky_numbers": [
+        "7",
+        "11",
+        "21"
+    ],
+    "lucky_color": "Emerald Green",
+    "monthly_vibe": "Reflective & Calm",
+    "title": "Gemini Weekly Horoscope June 04, 2026",
+    "youtube_title": "Gemini \u2014 Mercury Retrograde Changes Everything #shorts",
+    "youtube_description": "Mercury retrograde storms into Gemini's 3rd House this week, and the cosmic forecast is intense. Find out which day brings love, which day to avoid decisions, and how Mars in your 10th House supercharges your career. Comment your sign below.",
+    "youtube_tags": [
+        "astrology",
+        "horoscope",
+        "gemini",
+        "gemini horoscope",
+        "mercury retrograde",
+        "weekly horoscope",
+        "venus transit",
+        "love prediction",
+        "career forecast",
+        "june 2026",
+        "cosmic energy",
+        "zodiac signs"
+    ],
+    "type": "weekly",
+    "target": "Gemini",
+    "date": "Jun 04 - Jun 10",
+    "images": [
+        "assets/zodiac_signs/Gemini.jpg"
+    ],
+    "active": true,
+    "status": "pending",
+    "file_name": "plan_weekly_Gemini.json"
 }
