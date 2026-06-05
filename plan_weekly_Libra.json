@@ -1,85 +1,46 @@
 {
-  "script_text": "Here's your week, Libra, and it hits different. Early week, the Sun in your 10th House of career forms a sextile to Jupiter in your 7th House of partnerships on Tuesday \u2014 ambition and connection align beautifully. Monday brings Venus square Pluto stirring hidden tensions in love, so tread carefully. Wednesday marks your turning point: a New Moon in Taurus activates your 10th House of reputation, planting seeds for a major career breakthrough. Thursday through Sunday, your ruling planet Venus trines Neptune in your 9th House, flooding your romantic sector with idealism and creative inspiration. This weekend favors artistic expression or deepening a love bond. Tuesday is your power day because the Sun-Jupiter sextile supercharges your public image through collaboration. Monday is your worst day because Venus square Pluto unearths control dynamics in relationships. My advice: channel Tuesday's energy and pitch your boldest idea to the right person. Follow for daily updates.",
-  "captions_structure": [
-    {
-      "text": "LIBRA ALERT",
-      "type": "header"
-    },
-    {
-      "text": "The Sun in your 10th House is about to change everything.",
-      "type": "normal"
-    },
-    {
-      "text": "Venus square Pluto Monday \u2014 watch for control battles in love.",
-      "type": "alert"
-    },
-    {
-      "text": "Tuesday's Sun-Jupiter sextile is your golden window.",
-      "type": "highlight"
-    },
-    {
-      "text": "New Moon in Taurus Wednesday resets your career path.",
-      "type": "normal"
-    },
-    {
-      "text": "Venus trines Neptune late week \u2014 romance and creativity collide.",
-      "type": "normal"
-    },
-    {
-      "text": "Tuesday is your power day. Monday is your worst day.",
-      "type": "alert"
-    },
-    {
-      "text": "Lean into the 10th House energy all week.",
-      "type": "normal"
-    },
-    {
-      "text": "Follow for daily horoscope updates.",
-      "type": "cta"
-    }
-  ],
-  "lucky_numbers": [
-    "7",
-    "14",
-    "22"
-  ],
-  "lucky_color": "Emerald Green",
-  "monthly_vibe": "Strategic & Magnetic",
-  "title": "Libra Weekly Horoscope May 14-20, 2026",
-  "youtube_title": "Libra's Biggest Week of 2026 Starts Now #shorts",
-  "youtube_description": "This week, Libra, a New Moon in Taurus lands directly in your 10th House of career \u2014 and that's just the beginning. Venus square Pluto will test your closest relationships early in the week before a stunning Sun-Jupiter sextile opens doors you didn't know existed. Comment your sign for your own reading.",
-  "youtube_tags": [
-    "libra horoscope",
-    "libra weekly horoscope",
-    "libra may 2026",
-    "astrology",
-    "horoscope",
-    "weekly horoscope",
-    "libra today",
-    "zodiac signs",
-    "new moon taurus 2026",
-    "venus square pluto",
-    "sun jupiter sextile",
-    "libra love horoscope",
-    "libra career horoscope",
-    "astrology predictions",
-    "cosmic energy",
-    "manifestation",
-    "spiritual guidance",
-    "sun sign horoscope",
-    "10th house career",
-    "venus trine neptune",
-    "libra season",
-    "western astrology"
-  ],
-  "type": "weekly",
-  "target": "Libra",
-  "date": "May 14 - May 20",
-  "images": [
-    "assets/zodiac_signs/Libra.jpg"
-  ],
-  "active": true,
-  "status": "error",
-  "file_name": "plan_weekly_Libra.json",
-  "error_reason": "Upload failed"
+    "script_text": "Venus, your ruler, triggers a career-health clash this week that rewrites your professional path by Friday. Mon-Wed, the Sun in your ninth trines Pluto in your fifth, sparking creative risks, but Saturn in your sixth squares Jupiter in your tenth \u2014 overcommit at work and health suffers. Tuesday's Mercury-Sun conjunction in Gemini sharpens talks; pitch before 3 PM. Wednesday's First Quarter Moon in your twelfth surfaces partnership secrets \u2014 pause and process. Thursday Venus enters your tenth conjunct Jupiter \u2014 career recognition peaks. Saturday Jupiter sextiles Uranus in your eighth: sudden money via shared assets. Sunday Sun opposes Neptune in your seventh \u2014 verify a lover's word before trusting. Thursday is your power day \u2014 Venus enters your tenth conjunct Jupiter, magnetizing professional success. Sunday is your challenge day \u2014 Sun opposes Neptune in your seventh, fogging relationships with illusion. Book that career talk Thursday AM; delay romantic commitments until Monday. Follow for daily cosmic navigation.",
+    "captions_structure": [
+        {
+            "text": "LIBRA ALERT",
+            "type": "header"
+        },
+        {
+            "text": "Venus, your ruler, triggers a career-health clash this week that rewrites your professional path by Friday.",
+            "type": "normal"
+        }
+    ],
+    "lucky_numbers": [
+        "7",
+        "11",
+        "21"
+    ],
+    "lucky_color": "Rose Gold",
+    "monthly_vibe": "Strategic Balance",
+    "title": "Libra Weekly Horoscope June 05, 2026",
+    "youtube_title": "Libra: Venus Triggers Career Shift This Week #shorts",
+    "youtube_description": "Libra, Venus your ruler crashes into Jupiter this Thursday \u2014 your career gets a massive boost, but Saturn demands a health check first. I reveal the exact day to pitch your boss and why Sunday's Neptune fog makes lovers lie. Comment your rising sign for a personal read.",
+    "youtube_tags": [
+        "libra horoscope",
+        "weekly forecast",
+        "venus transit",
+        "jupiter cancer",
+        "saturn square",
+        "career astrology",
+        "love prediction",
+        "financial luck",
+        "neptune opposition",
+        "first quarter moon",
+        "cosmic guidance",
+        "air sign"
+    ],
+    "type": "weekly",
+    "target": "Libra",
+    "date": "Jun 05 - Jun 11",
+    "images": [
+        "assets/zodiac_signs/Libra.jpg"
+    ],
+    "active": true,
+    "status": "pending",
+    "file_name": "plan_weekly_Libra.json"
 }
