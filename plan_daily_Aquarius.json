@@ -1,42 +1,78 @@
 {
-  "script_text": "Stop! Aquarius, your air-sign ruler Uranus is electrifying your 5th House of genius right now. The Sun at 15 degrees Gemini forms a tight conjunction to Uranus at 20 degrees Gemini in your 5th House of creativity and risk, while Mercury at 28 degrees Gemini squares Neptune in your 3rd House of communication, blurring facts with fantasy. Venus slips into Leo tonight, activating your 7th House of partnerships \u2014 if you're single, a magnetic encounter arrives through a creative project; if attached, avoid melodrama and speak plainly. Jupiter at 29 degrees Cancer squares Saturn in your 3rd House, forcing a brutal review of your income strategy \u2014 a side hustle tied to teaching or writing demands restructuring before the solstice. Warning: don't sign contracts until Mercury clears the Neptune fog on the 8th. Follow for tomorrow's reading when Mars triggers your 8th House of shared resources.",
+  "script_text": "Stop, Aquarius \u2014 Mars in your sign is picking a fight with Saturn today. The red planet storms through your 1st House of Self, squaring the taskmaster in your 3rd House of Communication, and your ruling planet Uranus watches from the 5th House of Romance like a chaotic referee. This air-sign tension means your words cut sharper than you intend, especially before noon. In love, Uranus in Gemini trines Mars, so a sudden flirtation or volatile exchange with a lover could rewrite the script by sunset \u2014 singles, wear something unconventional. Career-wise, Saturn's grip on your 3rd House demands precision in contracts or pitches; don't sign anything until Mercury clears its shadow tomorrow. Warning: avoid heated debates with siblings or neighbors \u2014 they'll spiral fast. Blessing: a flash of genius strikes during your morning walk \u2014 write it down. Subscribe so you don't miss Thursday's Jupiter shift into your 7th House.",
   "captions_structure": [
     {
-      "text": "AQUARIUS ALERT",
+      "text": "AQUARIUS",
       "type": "header"
     },
     {
-      "text": "Stop! Aquarius, your air-sign ruler Uranus is electrifying your 5th House of genius right now. The Sun at 15 degrees Gemini forms a tight conjunction to Uranus at 20 degrees Gemini in your 5th House of creativity and risk, while Mercury at 28 degrees Gemini squares Neptune in your 3rd House of communication, blurring facts with fantasy. Venus slips into Leo tonight, activating your 7th House of partnerships \u2014 if you're single, a magnetic encounter arrives through a creative project; if attached, avoid melodrama and speak plainly. Jupiter at 29 degrees Cancer squares Saturn in your 3rd House, forcing a brutal review of your income strategy \u2014 a side hustle tied to teaching or writing demands restructuring before the solstice. Warning: don't sign contracts until Mercury clears the Neptune fog on the 8th. Follow for tomorrow's reading when Mars triggers your 8th House of shared resources.",
+      "text": "Stop, Aquarius \u2014 Mars in your sign is picking a fight with Saturn today.",
+      "type": "normal"
+    },
+    {
+      "text": "The red planet storms through your 1st House of Self, squaring the taskmaster in your 3rd House of Communication.",
+      "type": "normal"
+    },
+    {
+      "text": "Your ruling planet Uranus watches from the 5th House of Romance like a chaotic referee.",
+      "type": "normal"
+    },
+    {
+      "text": "This air-sign tension means your words cut sharper than you intend, especially before noon.",
+      "type": "normal"
+    },
+    {
+      "text": "In love, Uranus in Gemini trines Mars \u2014 a sudden flirtation could rewrite the script by sunset.",
+      "type": "normal"
+    },
+    {
+      "text": "Singles, wear something unconventional. Career-wise, Saturn demands precision in contracts or pitches.",
+      "type": "normal"
+    },
+    {
+      "text": "Don't sign anything until Mercury clears its shadow tomorrow.",
+      "type": "normal"
+    },
+    {
+      "text": "Warning: avoid heated debates with siblings or neighbors \u2014 they'll spiral fast.",
+      "type": "normal"
+    },
+    {
+      "text": "Blessing: a flash of genius strikes during your morning walk \u2014 write it down.",
+      "type": "normal"
+    },
+    {
+      "text": "Subscribe so you don't miss Thursday's Jupiter shift into your 7th House.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
-    "7",
+    "4",
     "11",
-    "21"
+    "22"
   ],
   "lucky_color": "Electric Blue",
-  "monthly_vibe": "Creative Breakthrough",
-  "title": "Aquarius Daily Horoscope June 05, 2026",
-  "youtube_title": "Aquarius: Uranus Ignites Your Genius Today #shorts",
-  "youtube_description": "Your ruling planet Uranus conjunct the Sun in your 5th House sparks a creative breakthrough \u2014 but Mercury square Neptune clouds communications. Venus entering Leo lights up your partnership sector. Comment your sign to see how this hits your chart.",
+  "monthly_vibe": "Revolutionary Clarity",
+  "title": "Aquarius Daily Horoscope June 06, 2026",
+  "youtube_title": "Mars Squares Saturn: Aquarius Alert #shorts",
+  "youtube_description": "Mars in Aquarius squares Saturn in your 3rd House today \u2014 your words carry unexpected weight. Uranus in the 5th House adds romantic chaos. Discover why you shouldn't sign contracts until tomorrow and what flashing genius awaits on your morning walk. Comment your sign below.",
   "youtube_tags": [
-    "astrology",
-    "horoscope",
-    "aquarius",
-    "daily horoscope",
+    "aquarius horoscope",
+    "daily astrology",
+    "mars square saturn",
     "uranus transit",
-    "june 2026",
-    "love prediction",
-    "career forecast",
-    "cosmic energy",
-    "zodiac signs",
-    "planetary alignment",
-    "spiritual guidance"
+    "air sign energy",
+    "june 2026 horoscope",
+    "astrology prediction",
+    "zodiac forecast",
+    "planetary aspects",
+    "cosmic guidance",
+    "aquarius love",
+    "career astrology"
   ],
   "type": "daily",
   "target": "Aquarius",
-  "date": "June 05, 2026",
+  "date": "June 06, 2026",
   "images": [
     "assets/zodiac_signs/Aquarius.jpg"
   ],
