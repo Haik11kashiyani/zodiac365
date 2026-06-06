@@ -1,81 +1,46 @@
 {
-    "script_text": "A Saturn\u2011Jupiter square hits your Aries Ascendant, shaking every routine. Monday Sun in your 3rd House sextiles Saturn, sharpening talk. Tuesday Venus conjunct Jupiter in the 4th House sparks romance; Wednesday Mars in the 2nd House sextiles Jupiter for quick cash, yet Saturn\u2019s square weighs commitments. Thursday\u2019s New Moon in Gemini lands in your 3rd House, resetting mental scripts. Friday the New Moon trines Saturn, giving support to launch the revised plan \u2014 double\u2011check details. Saturday Mars sextiles Uranus in your 2nd House, flashing sudden income \u2014 act fast, keep receipts; Sunday Venus\u2011Jupiter fades, leaving calm domestic vibes for low\u2011pressure love. Thursday is power day \u2014 the 3rd House New Moon aligns with Saturn, turning ideas into action. Wednesday drags \u2014 Saturn squares Jupiter, inflating duties and muting the Mars\u2011Jupiter cash spark. Write each new step on paper \u2014 Saturn rewards concrete plans over impulse. Follow for daily cosmic updates tuned to your fire sign.",
-    "captions_structure": [
-        {
-            "text": "ARIES",
-            "type": "header"
-        },
-        {
-            "text": "A Saturn\u2011Jupiter square hits your Aries Ascendant, shaking every routine.",
-            "type": "normal"
-        },
-        {
-            "text": "Monday Sun in your 3rd House sextiles Saturn, sharpening talk.",
-            "type": "normal"
-        },
-        {
-            "text": "Tuesday Venus conjunct Jupiter in the 4th House sparks romance; Wednesday Mars in the 2nd House sextiles Jupiter for quick cash, yet Saturn\u2019s square weighs commitments.",
-            "type": "normal"
-        },
-        {
-            "text": "Thursday\u2019s New Moon in Gemini lands in your 3rd House, resetting mental scripts.",
-            "type": "normal"
-        },
-        {
-            "text": "Friday the New Moon trines Saturn, giving support to launch the revised plan \u2014 double\u2011check details.",
-            "type": "normal"
-        },
-        {
-            "text": "Saturday Mars sextiles Uranus in your 2nd House, flashing sudden income \u2014 act fast, keep receipts; Sunday Venus\u2011Jupiter fades, leaving calm domestic vibes for low\u2011pressure love.",
-            "type": "normal"
-        },
-        {
-            "text": "Thursday is power day \u2014 the 3rd House New Moon aligns with Saturn, turning ideas into action.",
-            "type": "normal"
-        },
-        {
-            "text": "Wednesday drags \u2014 Saturn squares Jupiter, inflating duties and muting the Mars\u2011Jupiter cash spark.",
-            "type": "normal"
-        },
-        {
-            "text": "Write each new step on paper \u2014 Saturn rewards concrete plans over impulse.",
-            "type": "normal"
-        },
-        {
-            "text": "Follow for daily cosmic updates tuned to your fire sign.",
-            "type": "normal"
-        }
-    ],
-    "lucky_numbers": [
-        "7",
-        "11",
-        "21"
-    ],
-    "lucky_color": "Crimson Red",
-    "monthly_vibe": "Structured Growth",
-    "title": "Aries Weekly Horoscope June 05, 2026",
-    "youtube_title": "Aries: Saturn\u2011Jupiter Square Shakes Foundations #shorts",
-    "youtube_description": "This week a Saturn\u2011Jupiter square hits your Aries Ascendant, and a New Moon in Gemini rewrites your mental script. Discover which day gives you the power to launch a revised plan and why Wednesday feels like a drag. Comment your sign for a personalized reading.",
-    "youtube_tags": [
-        "aries horoscope",
-        "weekly forecast",
-        "saturn jupiter square",
-        "new moon gemini",
-        "mars sextile uranus",
-        "venus jupiter conjunction",
-        "fire sign astrology",
-        "career money tips",
-        "love predictions",
-        "astrology 2026",
-        "cosmic guidance"
-    ],
-    "type": "weekly",
-    "target": "Aries",
-    "date": "Jun 05 - Jun 11",
-    "images": [
-        "assets/zodiac_signs/Aries.jpg"
-    ],
-    "active": true,
-    "status": "pending",
-    "file_name": "plan_weekly_Aries.json"
+  "script_text": "Mars, your ruler, ignites your 5th House while a Sagittarius Full Moon exposes your 9th House destiny. Monday-Wednesday, Venus in your 3rd House sextiles Mars in Leo \u2014 flirtatious texts land and creative pitches win. Tuesday, the Sun in your 3rd squares Saturn-Neptune in your 1st, demanding honesty over fantasy. Wednesday's Full Moon at 19\u00b0 Sagittarius in your 9th triggers a path revelation \u2014 Mercury conjunct Uranus in your 3rd delivers the download. Thursday-Saturday, Mars in your 5th trines Chiron in your 9th, turning wounds into wisdom, but Venus squares Neptune Friday, clouding a sibling matter. Wednesday is your power day \u2014 the Sagittarius Full Moon lights your 9th while Mercury-Uranus in your 3rd sparks genius insights. Saturday tests patience \u2014 Saturn-Neptune in your 1st squares the Moon in your 6th, blurring duty and escape. Speak your truth Wednesday \u2014 your words manifest for six months. Follow for daily transit updates.",
+  "captions_structure": [
+    {
+      "text": "ARIES ALERT",
+      "type": "header"
+    },
+    {
+      "text": "Mars, your ruler, ignites your 5th House while a Sagittarius Full Moon exposes your 9th House destiny.",
+      "type": "normal"
+    }
+  ],
+  "lucky_numbers": [
+    "9",
+    "14",
+    "27"
+  ],
+  "lucky_color": "Crimson Gold",
+  "monthly_vibe": "Bold Manifestation",
+  "title": "Aries Weekly Horoscope June 06, 2026",
+  "youtube_title": "Aries: Mars Ignites Your Passion House #shorts",
+  "youtube_description": "Mars enters your 5th House this week, Aries, while a Sagittarius Full Moon blasts open your 9th. I reveal exactly which day Mercury conjunct Uranus downloads your next big move \u2014 and why Friday's Venus-Neptune square demands contract caution. Comment your sign for a personal transit check.",
+  "youtube_tags": [
+    "aries horoscope",
+    "weekly forecast",
+    "mars transit",
+    "full moon sagittarius",
+    "mercury uranus",
+    "venus sextile mars",
+    "saturn neptune",
+    "aries 2026",
+    "astrology predictions",
+    "cosmic energy",
+    "zodiac forecast",
+    "planetary aspects"
+  ],
+  "type": "weekly",
+  "target": "Aries",
+  "date": "Jun 06 - Jun 12",
+  "images": [
+    "assets/zodiac_signs/Aries.jpg"
+  ],
+  "active": true,
+  "status": "uploaded",
+  "file_name": "plan_weekly_Aries.json"
 }
