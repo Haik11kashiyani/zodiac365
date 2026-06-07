@@ -1,46 +1,45 @@
 {
-  "script_text": "Mars, your ruler, ignites your 5th House while a Sagittarius Full Moon exposes your 9th House destiny. Monday-Wednesday, Venus in your 3rd House sextiles Mars in Leo \u2014 flirtatious texts land and creative pitches win. Tuesday, the Sun in your 3rd squares Saturn-Neptune in your 1st, demanding honesty over fantasy. Wednesday's Full Moon at 19\u00b0 Sagittarius in your 9th triggers a path revelation \u2014 Mercury conjunct Uranus in your 3rd delivers the download. Thursday-Saturday, Mars in your 5th trines Chiron in your 9th, turning wounds into wisdom, but Venus squares Neptune Friday, clouding a sibling matter. Wednesday is your power day \u2014 the Sagittarius Full Moon lights your 9th while Mercury-Uranus in your 3rd sparks genius insights. Saturday tests patience \u2014 Saturn-Neptune in your 1st squares the Moon in your 6th, blurring duty and escape. Speak your truth Wednesday \u2014 your words manifest for six months. Follow for daily transit updates.",
-  "captions_structure": [
-    {
-      "text": "ARIES ALERT",
-      "type": "header"
-    },
-    {
-      "text": "Mars, your ruler, ignites your 5th House while a Sagittarius Full Moon exposes your 9th House destiny.",
-      "type": "normal"
-    }
-  ],
-  "lucky_numbers": [
-    "9",
-    "14",
-    "27"
-  ],
-  "lucky_color": "Crimson Gold",
-  "monthly_vibe": "Bold Manifestation",
-  "title": "Aries Weekly Horoscope June 06, 2026",
-  "youtube_title": "Aries: Mars Ignites Your Passion House #shorts",
-  "youtube_description": "Mars enters your 5th House this week, Aries, while a Sagittarius Full Moon blasts open your 9th. I reveal exactly which day Mercury conjunct Uranus downloads your next big move \u2014 and why Friday's Venus-Neptune square demands contract caution. Comment your sign for a personal transit check.",
-  "youtube_tags": [
-    "aries horoscope",
-    "weekly forecast",
-    "mars transit",
-    "full moon sagittarius",
-    "mercury uranus",
-    "venus sextile mars",
-    "saturn neptune",
-    "aries 2026",
-    "astrology predictions",
-    "cosmic energy",
-    "zodiac forecast",
-    "planetary aspects"
-  ],
-  "type": "weekly",
-  "target": "Aries",
-  "date": "Jun 06 - Jun 12",
-  "images": [
-    "assets/zodiac_signs/Aries.jpg"
-  ],
-  "active": true,
-  "status": "uploaded",
-  "file_name": "plan_weekly_Aries.json"
+    "script_text": "This week the cosmos flips the script for Aries as Mars, your fire\u2011ruling planet, squares Saturn in Pisces while Venus ignites your third house of communication. Early week (Mon\u2011Wed) Mars in Leo forms a square to Saturn on Monday, making Tuesday the toughest day for career moves, but Wednesday\u2019s Venus\u2011Mercury sextile in Gemini smooths love talks and opens doors. Mid\u2011week turning point arrives Thursday when the Sun enters Cancer, lighting your fourth house and triggering an emotional reset that reshapes home projects. Late week (Thu\u2011Sun) the Sun\u2011Jupiter trine in Cancer expands family finances, while Mars trines Uranus in Taurus on Saturday, sparking creative breakthroughs. Best day: Wednesday \u2014 Venus sextiles Mercury in your third house, boosting romance and contracts. Worst day: Monday \u2014 Mars squares Saturn, stalling professional momentum. Weekly advice: Schedule talks for Wednesday and protect Monday\u2019s energy for routine tasks. Follow for daily updates.",
+    "captions_structure": [
+        {
+            "text": "ARIES",
+            "type": "header"
+        },
+        {
+            "text": "This week the cosmos flips the script for Aries as Mars, your fire\u2011ruling planet, squares Saturn in Pisces while Venus ignites your third house of communication.",
+            "type": "normal"
+        }
+    ],
+    "lucky_numbers": [
+        "7",
+        "11",
+        "21"
+    ],
+    "lucky_color": "Crimson Gold",
+    "monthly_vibe": "Bold Transformation",
+    "title": "Aries Weekly Horoscope June 07, 2026",
+    "youtube_title": "Aries: Mars Squares Saturn This Week #shorts",
+    "youtube_description": "Aries, Mars squares Saturn on Monday and Venus lights up your communication sector \u2014 find out which day fuels romance and which stalls your career. Watch to see the exact transit dates and a surprise Uranus boost on Saturday. Comment your sign for a personal reading.",
+    "youtube_tags": [
+        "aries horoscope",
+        "weekly forecast",
+        "mars square saturn",
+        "venus in gemini",
+        "sun jupiter trine",
+        "uranus taurus",
+        "love predictions",
+        "career astrology",
+        "fire sign",
+        "june 2026",
+        "astrology tips"
+    ],
+    "type": "weekly",
+    "target": "Aries",
+    "date": "Jun 07 - Jun 13",
+    "images": [
+        "assets/zodiac_signs/Aries.jpg"
+    ],
+    "active": true,
+    "status": "pending",
+    "file_name": "plan_weekly_Aries.json"
 }
