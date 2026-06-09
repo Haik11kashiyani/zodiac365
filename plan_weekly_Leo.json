@@ -1,90 +1,62 @@
 {
-  "script_text": "Leo, the cosmos just shifted the ground beneath your fire-sign feet \u2014 and nothing about this ordinary week will feel ordinary. The Sun, your ruling planet, is blazing through your solar 1st House right now, supercharging your confidence and personal magnetism like never before. Early this week, Mercury forms a supportive trine to your 1st House on Monday and Tuesday, making your words irresistible \u2014 negotiate, pitch, speak up. But watch Wednesday carefully: a tense square between Venus in your 7th House and Pluto in your 10th House creates friction in love and career simultaneously. A partner may demand honesty while your professional world pressures you sideways. Thursday becomes your turning point when Jupiter enters your 5th House, opening a floodgate of creative abundance and romantic possibility. By the weekend, Mars sextile your 11th House ignites bold social connections that could turn into profitable collaborations. Best day: Thursday, because Jupiter blesses your 5th House of joy and love. Worst day: Wednesday, because Venus square Pluto stirs power struggles. Keep your crown polished and your boundaries firm this week. Follow for daily updates.",
-  "captions_structure": [
-    {
-      "text": "LEO ALERT",
-      "type": "header"
-    },
-    {
-      "text": "Leo, the cosmos just shifted the ground beneath your fire-sign feet \u2014 and nothing about this ordinary week will feel ordinary.",
-      "type": "normal"
-    },
-    {
-      "text": "The Sun, your ruling planet, is blazing through your solar 1st House right now, supercharging your confidence and personal magnetism like never before.",
-      "type": "normal"
-    },
-    {
-      "text": "Early this week, Mercury forms a supportive trine to your 1st House on Monday and Tuesday, making your words irresistible \u2014 negotiate, pitch, speak up.",
-      "type": "normal"
-    },
-    {
-      "text": "But watch Wednesday carefully: a tense square between Venus in your 7th House and Pluto in your 10th House creates friction in love and career simultaneously.",
-      "type": "normal"
-    },
-    {
-      "text": "Thursday becomes your turning point when Jupiter enters your 5th House, opening a floodgate of creative abundance and romantic possibility.",
-      "type": "normal"
-    },
-    {
-      "text": "By the weekend, Mars sextile your 11th House ignites bold social connections that could turn into profitable collaborations.",
-      "type": "normal"
-    },
-    {
-      "text": "Best day: Thursday \u2014 Jupiter blesses your 5th House of joy and love.",
-      "type": "normal"
-    },
-    {
-      "text": "Worst day: Wednesday \u2014 Venus square Pluto stirs power struggles.",
-      "type": "normal"
-    },
-    {
-      "text": "Keep your crown polished and your boundaries firm this week.",
-      "type": "normal"
-    },
-    {
-      "text": "Follow for daily updates.",
-      "type": "normal"
-    }
-  ],
-  "lucky_numbers": [
-    "7",
-    "11",
-    "21"
-  ],
-  "lucky_color": "Emerald Green",
-  "monthly_vibe": "Bold Rebirth",
-  "title": "Leo Weekly Horoscope May 30, 2026",
-  "youtube_title": "Leo \u2014 The Week Everything Shifts #shorts",
-  "youtube_description": "The Sun is charging through your 1st House right now, Leo, and Jupiter is about to transform your love life this Thursday. Find out which day could bring career tension and which day unlocks your biggest creative breakthrough. Comment your sign below.",
-  "youtube_tags": [
-    "leo horoscope",
-    "leo weekly horoscope",
-    "leo forecast",
-    "astrology 2026",
-    "horoscope this week",
-    "leo love prediction",
-    "leo career forecast",
-    "mercury trine sun",
-    "venus square pluto",
-    "jupiter 5th house",
-    "fire sign energy",
-    "zodiac reading",
-    "cosmic energy",
-    "manifestation",
-    "spiritual tiktok",
-    "leo june 2026",
-    "weekly astrology",
-    "planetary transits",
-    "leo season",
-    "sun in leo"
-  ],
-  "type": "weekly",
-  "target": "Leo",
-  "date": "May 30 - Jun 05",
-  "images": [
-    "assets/zodiac_signs/Leo.jpg"
-  ],
-  "active": true,
-  "status": "uploaded",
-  "file_name": "plan_weekly_Leo.json"
+    "script_text": "Leo, this week is no warm-up; Jupiter enters Cancer, your 12th House, while your ruler, the Sun, lights Gemini in your 11th. Early week, Tuesday is strongest for love; Wednesday is volatile because the Sagittarius Full Moon in your 5th House opposes the Sun, making romance public, while Mars in Aries trines Jupiter for career moves. The mid-week turn is Wednesday night, when the Moon enters Capricorn and your Fire element shifts from applause to deadlines. Thursday is rougher because the Capricorn Moon squares Mars in your 9th, irritating clients. Late week, the Aquarius Moon conjuncts Pluto in your 7th House, so a partner tells the truth; Sunday\u2019s Pisces Moon in your 8th tightens money boundaries. Friday is your power day because Venus sextiles Mars and your 11th House lights up. Wednesday is your worst day because the Full Moon stirs ego clashes. Pick one spotlight. Follow for daily updates.",
+    "captions_structure": [
+        {
+            "text": "LEO",
+            "type": "header"
+        },
+        {
+            "text": "Leo, this week is no warm-up; Jupiter enters Cancer, your 12th House, while your ruler, the Sun, lights Gemini in your 11th.",
+            "type": "normal"
+        },
+        {
+            "text": "Early week, Tuesday is strongest for love; Wednesday is volatile because the Sagittarius Full Moon in your 5th House opposes the Sun, making romance public, while Mars in Aries trines Jupiter for career moves.",
+            "type": "normal"
+        },
+        {
+            "text": "The mid-week turn is Wednesday night, when the Moon enters Capricorn and your Fire element shifts from applause to deadlines.",
+            "type": "normal"
+        },
+        {
+            "text": "Thursday is rougher because the Capricorn Moon squares Mars in your 9th, irritating clients. Late week, the Aquarius Moon conjuncts Pluto in your 7th House, so a partner tells the truth; Sunday\u2019s Pisces Moon in your 8th tightens money boundaries.",
+            "type": "normal"
+        },
+        {
+            "text": "Friday is your power day because Venus sextiles Mars and your 11th House lights up. Wednesday is your worst day because the Full Moon stirs ego clashes. Pick one spotlight. Follow for daily updates.",
+            "type": "normal"
+        }
+    ],
+    "lucky_numbers": [
+        "1",
+        "5",
+        "19"
+    ],
+    "lucky_color": "Royal Gold",
+    "monthly_vibe": "Focused Fire",
+    "title": "Leo, This Week Has a Twist",
+    "youtube_title": "Leo, This Week Has a Twist #shorts",
+    "youtube_description": "Leo, Jupiter enters Cancer and your 12th House while the Sagittarius Full Moon lights your 5th House, so romance and visibility get unusually loud. I\u2019m breaking down the Mars-Jupiter career boost, the Pluto 7th House truth test, and where your money boundaries tighten by Sunday. Comment your sign if you want your weekly forecast next.",
+    "youtube_tags": [
+        "leo horoscope",
+        "weekly horoscope",
+        "astrology",
+        "horoscope",
+        "leo astrology",
+        "zodiac signs",
+        "cosmic energy",
+        "love astrology",
+        "career astrology",
+        "weekly forecast",
+        "fire sign",
+        "june horoscope"
+    ],
+    "type": "weekly",
+    "target": "Leo",
+    "date": "Jun 09 - Jun 15",
+    "images": [
+        "assets/zodiac_signs/Leo.jpg"
+    ],
+    "active": true,
+    "status": "pending",
+    "file_name": "plan_weekly_Leo.json"
 }

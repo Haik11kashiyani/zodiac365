@@ -1,66 +1,64 @@
 {
-  "script_text": "Stop! Leo, your ruling planet Sun is blazing through a rare conjunction in your 1st House of Self, and it's rewriting who you are right now. Venus is forming a powerful trine to fire sign Jupiter from your 5th House of Romance, igniting passion like never before. In love, a magnetic energy surrounds you today \u2014 if you're single, someone bold is about to cross your path; if partnered, expect a heated but healing conversation that deepens your bond. Career-wise, Mercury sextile your 10th House of Ambition means a message or offer lands that could shift your financial trajectory this week. Avoid signing contracts today, though \u2014 details hidden in the fine print will cost you later. An unexpected gift from an old friend or past connection is coming your way. Follow me so you don't miss tomorrow's reading, Leo \u2014 Mars is entering your house of secrets and it's going to be explosive!",
+  "script_text": "Stop, Leo \u2014 this is not a gentle nudge; your 12th House lit a flare. Mars retrograde is conjunct Jupiter in Cancer in your 12th House, stirring old resentment, fatigue, and unfinished private business behind the scenes. Your ruling Sun in Gemini, Leo's Fire ruler, trines the Moon in Aries in your 9th House, so speak before you overpromise. In love, Venus in your 12th House trines Neptune in Pisces in the 8th: taken Leo, expect a private confession; single Leo, attract someone spiritual, unavailable, or healing. Career and money hit your 10th House: Uranus in Taurus pushes a sudden offer, title change, or invoice correction, while the Sun in Gemini activates your 11th House network. Jupiter sextiles Saturn in Pisces in your 8th, blessing a debt, tax, or refund issue. Avoid drowning a boundary in sympathy; the gift is private support from someone who knows you. Follow for tomorrow's reading.",
   "captions_structure": [
     {
-      "text": "LEO DAILY HOROSCOPE",
+      "text": "LEO",
       "type": "header"
     },
     {
-      "text": "Stop! Leo, your ruling planet Sun is blazing through a rare conjunction in your 1st House of Self, and it's rewriting who you are right now. Venus is forming a powerful trine to fire sign Jupiter from your 5th House of Romance, igniting passion like never before.",
+      "text": "Stop, Leo \u2014 this is not a gentle nudge; your 12th House lit a flare.",
       "type": "normal"
     },
     {
-      "text": "In love, a magnetic energy surrounds you today \u2014 if you're single, someone bold is about to cross your path; if partnered, expect a heated but healing conversation that deepens your bond.",
+      "text": "Mars retrograde is conjunct Jupiter in Cancer in your 12th House, stirring old resentment, fatigue, and unfinished private business behind the scenes.",
       "type": "normal"
     },
     {
-      "text": "Career-wise, Mercury sextile your 10th House of Ambition means a message or offer lands that could shift your financial trajectory this week.",
+      "text": "Your ruling Sun in Gemini, Leo's Fire ruler, trines the Moon in Aries in your 9th House, so speak before you overpromise.",
       "type": "normal"
     },
     {
-      "text": "Avoid signing contracts today \u2014 details hidden in the fine print will cost you later. An unexpected gift from an old friend is coming your way.",
+      "text": "In love, Venus in your 12th House trines Neptune in Pisces in the 8th: taken Leo, expect a private confession; single Leo, attract someone spiritual, unavailable, or healing.",
       "type": "normal"
     },
     {
-      "text": "Follow me so you don't miss tomorrow's reading, Leo \u2014 Mars is entering your house of secrets and it's going to be explosive!",
+      "text": "Career and money hit your 10th House: Uranus in Taurus pushes a sudden offer, title change, or invoice correction, while the Sun in Gemini activates your 11th House network.",
+      "type": "normal"
+    },
+    {
+      "text": "Jupiter sextiles Saturn in Pisces in your 8th, blessing a debt, tax, or refund issue.",
+      "type": "normal"
+    },
+    {
+      "text": "Avoid drowning a boundary in sympathy; the gift is private support from someone who knows you. Follow for tomorrow's reading.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
-    "7",
-    "11",
+    "12",
+    "10",
     "21"
   ],
-  "lucky_color": "Emerald Green",
-  "monthly_vibe": "Bold Transformation",
-  "title": "Leo \u2014 Don't Ignore What the Sun Is Doing Today",
-  "youtube_title": "Leo \u2014 The Stars Are Rewriting Your Future Today #shorts",
-  "youtube_description": "The Sun is conjunct your 1st House of Self right now, Leo, and it's triggering a personal awakening you've been waiting for. Venus trine Jupiter is also flooding your love sector with electric energy \u2014 here's exactly what to expect today. Comment your sign and I'll read your energy next.",
+  "lucky_color": "Royal Gold",
+  "monthly_vibe": "Private Breakthrough",
+  "title": "Leo, Your 12th House Just Flared",
+  "youtube_title": "Leo, Your 12th House Just Flared #shorts",
+  "youtube_description": "Leo, the June 9 sky is pulling Mars retrograde conjunct Jupiter through your 12th House, so hidden stress and private support are both on the table. This reading breaks down the love, money, and career warning tied to your 8th, 10th, and 11th Houses. Comment your sign if you want the next transit decoded.",
   "youtube_tags": [
     "leo horoscope",
-    "leo daily horoscope",
-    "horoscope today",
+    "daily horoscope",
     "astrology",
-    "leo today",
-    "sun in leo",
-    "venus trine jupiter",
-    "love horoscope leo",
-    "career horoscope",
-    "cosmic energy",
-    "spiritual tiktok",
-    "daily horoscope 2026",
-    "manifestation",
-    "leo sun sign",
-    "leo fire sign",
+    "horoscope 2026",
+    "leo love",
+    "leo career",
     "zodiac signs",
-    "leo prediction",
-    "astrology tiktok",
-    "leo tarot",
-    "mercury sextile"
+    "cosmic energy",
+    "astrology reading",
+    "june horoscope"
   ],
   "type": "daily",
   "target": "Leo",
-  "date": "May 28, 2026",
+  "date": "June 09, 2026",
   "images": [
     "assets/zodiac_signs/Leo.jpg"
   ],
