@@ -1,42 +1,52 @@
 {
-    "script_text": "The universe doesn't roll dice \u2014 it calculates your soul's coordinates through numbers etched in starlight. On June 8, 2026, Jupiter in Cancer trines Saturn in Pisces, activating the 9th House of higher wisdom for Lucky Numbers, a Fire sign ruled by Jupiter, revealing how numerical sequences encode karmic timing. This transit illuminates your 5th House of creativity and romance \u2014 expect a sudden numeric pattern like 7:11 or 21:21 to signal a fated encounter; professionally, the 10th House receives a sextile from Mercury in Gemini, so a contract signed on the 11th or 21st carries hidden prosperity. Chiron in Aries squares your North Node in Cancer, warning that obsession with lucky digits becomes a talismanic addiction bypassing genuine soul growth; retrograde Saturn demands you earn fortune through discipline, not superstition. Write down repeating numbers you see for seven days, then cross-reference them with your natal Jupiter house \u2014 the pattern is your roadmap. Comment your birth date and the number haunting you \u2014 I'll decode its transit message.",
+    "script_text": "Numbers are not random; they are Mercury's fingerprints. For Lucky Numbers, Mercury's Air signature turns dates into signals, and on June 11, 2026 Mercury stations direct in Gemini. The waning Moon in Taurus makes that luck measurable. It activates the 2nd House of money, while the 3rd, 7th, and 10th Houses shift. In love, Venus in Cancer sextiles Mars in Gemini, so a 7:11 PM message can restart intimacy or reveal truth. For career and money, Jupiter in Cancer trines Saturn in Aries across your 10th and 7th Houses, favoring invoices, renewals, or a water-sign contract. The shadow is Mercury retrograde residue: old screenshots, unpaid balances, or a North Node lesson about truth over lucky shortcuts. Chiron in Aries asks you to stop gambling your worth because a sequence feels sacred. During transit, write your numbers, verify the math, and sign after print review. Comment your sign for the sequence.",
     "captions_structure": [
         {
-            "text": "LUCKY NUMBERS ALERT",
+            "text": "LUCKY NUMBERS",
             "type": "header"
         },
         {
-            "text": "The universe doesn't roll dice \u2014 it calculates your soul's coordinates through numbers etched in starlight.",
+            "text": "Numbers are not random; they are Mercury's fingerprints.",
+            "type": "normal"
+        },
+        {
+            "text": "For Lucky Numbers, Mercury's Air signature turns dates into signals, and on June 11, 2026 Mercury stations direct in Gemini.",
+            "type": "normal"
+        },
+        {
+            "text": "In love, Venus in Cancer sextiles Mars in Gemini, so a 7:11 PM message can restart intimacy or reveal truth.",
+            "type": "normal"
+        },
+        {
+            "text": "For career and money, Jupiter in Cancer trines Saturn in Aries across your 10th and 7th Houses.",
             "type": "normal"
         }
     ],
     "lucky_numbers": [
-        "7",
+        "6",
         "11",
-        "21"
+        "20"
     ],
-    "lucky_color": "Emerald Green",
-    "monthly_vibe": "Reflective & Calm",
-    "title": "Lucky Numbers Special Horoscope June 08, 2026",
-    "youtube_title": "Lucky Numbers: The Code You're Missing #shorts",
-    "youtube_description": "Jupiter's trine to Saturn unlocks a numeric gateway in your 9th House \u2014 but Chiron's square to the North Node warns: are you reading the code or worshipping it? I reveal which dates in June carry hidden prosperity and the exact repeating sequence signaling a fated love encounter. Comment your sign and the number haunting your dreams.",
+    "lucky_color": "Electric Silver",
+    "monthly_vibe": "Analytic Breakthrough",
+    "title": "Lucky Numbers: The Code Breaks Today",
+    "youtube_title": "Lucky Numbers: The Code Breaks Today #shorts",
+    "youtube_description": "On June 11, 2026, Mercury stations direct in Gemini and the Lucky Numbers code gets a real astrological timestamp. This reading reveals how Venus sextile Mars shifts love, while Jupiter trine Saturn opens money and contract doors. Comment your sign if you want your personal number sequence.",
     "youtube_tags": [
         "astrology",
         "horoscope",
         "lucky numbers",
-        "jupiter transit",
-        "saturn trine",
-        "north node",
-        "chiron square",
-        "karmic timing",
-        "numerology",
-        "june 2026",
-        "cosmic code",
-        "fate signs"
+        "mercury direct",
+        "gemini season",
+        "love prediction",
+        "career horoscope",
+        "money astrology",
+        "june horoscope",
+        "cosmic signs"
     ],
     "type": "special",
     "target": "Lucky Numbers",
-    "date": "2026-06-08",
+    "date": "2026-06-11",
     "images": [],
     "active": true,
     "status": "pending",
