@@ -1,74 +1,78 @@
 {
-    "script_text": "Aries, your ruling planet Mars in your 1st House turns the week into a power move. Wednesday through Friday, Sun in your 3rd House squares Saturn in your 12th House, so contracts, calls, and approvals hit red tape; Thursday is hardest because Mercury squares Saturn, slowing texts and invoices. Your fire element is focused, not blocked. The turning point arrives Wednesday as Mercury sextiles Mars in your 1st House, giving your words a fearless edge. Into Sunday and Monday, Venus in your 3rd House trines Pluto in your 11th House, so love deepens through a colleague, while Jupiter sextile Uranus boosts money and career networking. Tuesday is your power day because Sun trines North Node in your 11th House. Thursday is your worst day because Sun squares Saturn exactly in your 12th House. Let Mars choose a decisive yes or no. Follow for daily updates.",
+    "script_text": "Aries, your Fire element gets a Mars warning: one text flips money. Thursday, Mercury stations direct in Gemini in your 3rd while Moon crosses your 2nd through Saturday; Thursday's Moon-Uranus conjunction makes an invoice, refund, or offer volatile, so verify; Thursday is best because Mars in 5th favors pitches. Jupiter trines Saturn in your 12th, backing strategy. Friday-Saturday, Moon squares Mars, inflaming impulse buys and flirting. Sunday is the pivot: Moon in your 3rd squares Saturn in your 12th, forcing a rewrite before promises. Monday-Wednesday, Gemini New Moon in your 3rd joins Mercury direct, sextiling Mars in your 5th, turning a client or investor into a career lead; Tuesday's Moon-Neptune trine favors a love talk. Best day: Wednesday, when Mercury sextiles Mars and sharpens pitches. Worst day: Saturday is hardest because Moon squares Mars, triggering spending and clashes. Act now, then follow for daily updates.",
     "captions_structure": [
         {
             "text": "ARIES",
             "type": "header"
         },
         {
-            "text": "Aries, your ruling planet Mars in your 1st House turns the week into a power move.",
+            "text": "Aries, your Fire element gets a Mars warning: one text flips money.",
             "type": "normal"
         },
         {
-            "text": "Wednesday through Friday, Sun in your 3rd House squares Saturn in your 12th House, so contracts, calls, and approvals hit red tape.",
+            "text": "Thursday, Mercury stations direct in Gemini in your 3rd while Moon crosses your 2nd through Saturday; Thursday's Moon-Uranus conjunction makes an invoice, refund, or offer volatile, so verify.",
             "type": "normal"
         },
         {
-            "text": "Thursday is hardest because Mercury squares Saturn, slowing texts and invoices.",
+            "text": "Thursday is best because Mars in 5th favors pitches. Jupiter trines Saturn in your 12th, backing strategy.",
             "type": "normal"
         },
         {
-            "text": "Your fire element is focused, not blocked.",
+            "text": "Friday-Saturday, Moon squares Mars, inflaming impulse buys and flirting.",
             "type": "normal"
         },
         {
-            "text": "The turning point arrives Wednesday as Mercury sextiles Mars in your 1st House, giving your words a fearless edge.",
+            "text": "Sunday is the pivot: Moon in your 3rd squares Saturn in your 12th, forcing a rewrite before promises.",
             "type": "normal"
         },
         {
-            "text": "Into Sunday and Monday, Venus in your 3rd House trines Pluto in your 11th House, so love deepens through a colleague, while Jupiter sextile Uranus boosts money and career networking.",
+            "text": "Monday-Wednesday, Gemini New Moon in your 3rd joins Mercury direct, sextiling Mars in your 5th, turning a client or investor into a career lead.",
             "type": "normal"
         },
         {
-            "text": "Tuesday is your power day because Sun trines North Node in your 11th House.",
+            "text": "Tuesday's Moon-Neptune trine favors a love talk.",
             "type": "normal"
         },
         {
-            "text": "Thursday is your worst day because Sun squares Saturn exactly in your 12th House.",
+            "text": "Best day: Wednesday, when Mercury sextiles Mars and sharpens pitches.",
             "type": "normal"
         },
         {
-            "text": "Let Mars choose a decisive yes or no. Follow for daily updates.",
+            "text": "Worst day: Saturday is hardest because Moon squares Mars, triggering spending and clashes.",
+            "type": "normal"
+        },
+        {
+            "text": "Act now, then follow for daily updates.",
             "type": "normal"
         }
     ],
     "lucky_numbers": [
-        "4",
-        "11",
-        "29"
+        "3",
+        "9",
+        "21"
     ],
-    "lucky_color": "Emerald Green",
-    "monthly_vibe": "Focused Fire",
-    "title": "Aries Weekly Horoscope June 10, 2026",
-    "youtube_title": "Aries: A Power Move Is Coming #shorts",
-    "youtube_description": "Aries, this week's Sun square Saturn can stall paperwork, but Mercury sextile Mars gives you the words to cut through it. Venus trine Pluto hints at a charged conversation with a colleague or friend, while Jupiter sextile Uranus opens money through networking. Comment your sign if you want your reading next.",
+    "lucky_color": "Ember Red",
+    "monthly_vibe": "Strategic Breakthroughs",
+    "title": "Aries, One Text Flips Money",
+    "youtube_title": "Aries, One Text Flips Money #shorts",
+    "youtube_description": "Aries, this week Mercury stations direct in your 3rd House while the Moon hits Uranus in your 2nd, so one message can move money fast. I'm breaking down why Saturday needs caution and why Wednesday can sharpen a career pitch through Mercury sextiling Mars. Comment your sign for your weekly forecast.",
     "youtube_tags": [
         "aries horoscope",
         "weekly horoscope",
-        "astrology",
-        "horoscope",
-        "aries weekly",
-        "cosmic energy",
+        "astrology forecast",
+        "june horoscope",
+        "mercury direct",
+        "aries love",
+        "aries career",
+        "moon uranus",
         "zodiac signs",
-        "love forecast",
-        "money forecast",
-        "career astrology",
-        "june 2026",
-        "mercury mars"
+        "cosmic energy",
+        "horoscope 2026",
+        "astrology 2026"
     ],
     "type": "weekly",
     "target": "Aries",
-    "date": "Jun 10 - Jun 16",
+    "date": "Jun 11 - Jun 17",
     "images": [
         "assets/zodiac_signs/Aries.jpg"
     ],
