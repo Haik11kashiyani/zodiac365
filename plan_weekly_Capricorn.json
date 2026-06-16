@@ -1,58 +1,80 @@
 {
-    "script_text": "Capricorn, this week cracks open a money door. Monday to Wednesday, Mercury's conjunction with Jupiter in your 7th House opens client talks, while Jupiter opposes Pluto across your 7th and 2nd Houses, making one offer serious; Tuesday is tense because Saturn, your ruling planet, retrograde in the 3rd House, tests wording. The key turn arrives mid-week as the Gemini New Moon in your 6th House resets work and health systems. Late week, Venus trines Pluto from the 6th to the 2nd, so a coworker or client connection turns magnetic. Sunday's Leo Moon lights your 8th House, making taxes, debt, or intimacy conversations more honest. Wednesday is your power day because Mercury's 7th House conjunction with Jupiter sharpens negotiations. Tuesday is your hardest day because Saturn's retrograde 3rd House tests wording. As an Earth sign, track every receipt, and reply very clearly. Follow for daily updates.",
+    "script_text": "Capricorn, this week is not a slow burn; it is Saturn handing you a signed contract with consequences. Monday into Wednesday, Venus in your 5th House trines your ruler Saturn in the 3rd, making romance, creative deals, and messages feel stable; Tuesday is best for a confession or proposal, while Monday\u2019s Sun square Neptune in the 6th can blur workplace details. Wednesday is your power day because Venus enters your 6th House, shifting desire into daily routines, health choices, and client chemistry. The mid-week turning point is Mercury in Gemini sextiling Saturn in Pisces, sharpening your voice and helping you negotiate money with precision. Late week, Mars in Taurus holds a 5th-House sextile to Pluto in Aquarius, 2nd House, so passion and income can merge through a side project or private investment. Thursday and Friday are strongest for career visibility, but Saturday\u2019s Moon in Scorpio opposing your 10th-House Sun can trigger ego friction. Sunday favors rest and budgeting. Worst day is Monday because the 6th-House Sun-Neptune square invites missed emails or medical oversights. As an Earth sign ruled by Saturn, protect your boundaries and follow through. Follow for daily updates.",
     "captions_structure": [
         {
             "text": "CAPRICORN",
             "type": "header"
         },
         {
-            "text": "Capricorn, this week cracks open a money door.",
+            "text": "Capricorn, this week is not a slow burn; it is Saturn handing you a signed contract with consequences.",
             "type": "normal"
         },
         {
-            "text": "Mercury conjuncts Jupiter in your 7th House.",
+            "text": "Monday into Wednesday, Venus in your 5th House trines your ruler Saturn in the 3rd, making romance, creative deals, and messages feel stable.",
             "type": "normal"
         },
         {
-            "text": "The Gemini New Moon resets your 6th House.",
+            "text": "Tuesday is best for a confession or proposal, while Monday\u2019s Sun square Neptune in the 6th can blur workplace details.",
             "type": "normal"
         },
         {
-            "text": "Venus trines Pluto: magnetic work or client energy.",
+            "text": "Wednesday is your power day because Venus enters your 6th House, shifting desire into daily routines, health choices, and client chemistry.",
             "type": "normal"
         },
         {
-            "text": "Wednesday is your power day. Follow for daily updates.",
+            "text": "The mid-week turning point is Mercury in Gemini sextiling Saturn in Pisces, sharpening your voice and helping you negotiate money with precision.",
+            "type": "normal"
+        },
+        {
+            "text": "Late week, Mars in Taurus holds a 5th-House sextile to Pluto in Aquarius, 2nd House, so passion and income can merge through a side project or private investment.",
+            "type": "normal"
+        },
+        {
+            "text": "Thursday and Friday are strongest for career visibility, but Saturday\u2019s Moon in Scorpio opposing your 10th-House Sun can trigger ego friction.",
+            "type": "normal"
+        },
+        {
+            "text": "Sunday favors rest and budgeting.",
+            "type": "normal"
+        },
+        {
+            "text": "Worst day is Monday because the 6th-House Sun-Neptune square invites missed emails or medical oversights.",
+            "type": "normal"
+        },
+        {
+            "text": "As an Earth sign ruled by Saturn, protect your boundaries and follow through.",
+            "type": "normal"
+        },
+        {
+            "text": "Follow for daily updates.",
             "type": "normal"
         }
     ],
     "lucky_numbers": [
-        "3",
-        "17",
-        "29"
+        "7",
+        "16",
+        "28"
     ],
-    "lucky_color": "Deep Emerald",
-    "monthly_vibe": "Strategic Renewal",
-    "title": "Capricorn's Money Door Opens",
-    "youtube_title": "Capricorn's Money Door Opens #shorts",
-    "youtube_description": "Capricorn, this week Saturn retrograde in your 3rd House tests one contract before Mercury's 7th House conjunction with Jupiter sharpens negotiations. Watch for the Gemini New Moon in your 6th House and Venus trining Pluto from your 6th to 2nd, revealing a money-linked romance spark. Comment your sign for your daily forecast.",
+    "lucky_color": "Emerald Green",
+    "monthly_vibe": "Earned Momentum",
+    "title": "Capricorn, Saturn Has a Contract",
+    "youtube_title": "Capricorn, Saturn Has News #shorts",
+    "youtube_description": "Capricorn, this week Saturn and Venus activate your 5th, 6th, and 10th Houses, revealing when romance, money, and career timing are truly in your favor. Watch to see why Wednesday becomes your power day and why Monday needs extra caution. Comment your sign.",
     "youtube_tags": [
+        "capricorn",
         "capricorn horoscope",
         "weekly horoscope",
-        "capricorn weekly",
-        "june horoscope",
-        "astrology forecast",
-        "saturn retrograde",
-        "mercury jupiter",
-        "venus pluto",
-        "love horoscope",
-        "career horoscope",
-        "money astrology",
-        "zodiac signs"
+        "astrology",
+        "zodiac",
+        "saturn",
+        "cosmic energy",
+        "love forecast",
+        "career forecast",
+        "june 2026"
     ],
     "type": "weekly",
     "target": "Capricorn",
-    "date": "Jun 12 - Jun 18",
+    "date": "Jun 16 - Jun 22",
     "images": [
         "assets/zodiac_signs/Capricorn.jpg"
     ],
