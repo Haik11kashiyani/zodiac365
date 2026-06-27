@@ -1,44 +1,46 @@
 {
-    "script_text": "Taurus, a Venusian spark ignites your earthy routine, turning Monday into a love adventure. From Monday through Wednesday, Venus trines your 5th House, so Tuesday glows with dates. Yet Mercury squares your 8th House on Wednesday, stirring financial doubts and tension, making Wednesday the week\u2019s most stressful day. Mid-week, Jupiter stations direct in your 1st House on Thursday, boosting confidence and opening new income streams. Friday the Moon settles in your 4th House, sweetening home life, while Saturday\u2019s Uranus sextiles your 6th House, delivering career breakthroughs. Sunday\u2019s Mars conjoints your 7th House, prompting bold partnership moves that boost love and business. Saturday shines as the Sun trines your 10th House, unlocking career recognition. Wednesday is toughest as Mercury\u2019s square to your 8th House fuels financial turbulence. Seize Thursday\u2019s Jupiter boost by pitching a bold idea at work to capture new income. Follow for daily updates.",
-    "captions_structure": [
-        {
-            "text": "TAURUS",
-            "type": "header"
-        },
-        {
-            "text": "Taurus, a Venusian spark ignites your earthy routine, turning Monday into a love adventure.",
-            "type": "normal"
-        }
-    ],
-    "lucky_numbers": [
-        "7",
-        "11",
-        "21"
-    ],
-    "lucky_color": "Emerald Green",
-    "monthly_vibe": "Reflective & Calm",
-    "title": "Taurus Weekly Horoscope June 26, 2026",
-    "youtube_title": "Something Big Is Coming for Taurus #shorts",
-    "youtube_description": "Find out how Venus reignites romance and Jupiter unlocks new income for Taurus this week. This forecast breaks down the key transits, love moments, and career boosts you won\u2019t want to miss. Comment your sign for a personalized reading!",
-    "youtube_tags": [
-        "taurus weekly forecast",
-        "venus in 5th house",
-        "mercury square 8th house",
-        "jupiter direct 1st house",
-        "sun trine 10th house",
-        "mars conjoints 7th house",
-        "career breakthrough",
-        "love predictions",
-        "earth element",
-        "weekly astrology"
-    ],
-    "type": "weekly",
-    "target": "Taurus",
-    "date": "Jun 26 - Jul 02",
-    "images": [
-        "assets/zodiac_signs/Taurus.jpg"
-    ],
-    "active": true,
-    "status": "pending",
-    "file_name": "plan_weekly_Taurus.json"
+  "title": "Taurus Brace for This Week\u2019s Venus Shift",
+  "youtube_title": "Taurus Week: Venus Shakes Romance and Money #shorts",
+  "youtube_description": "Discover how Venus and Mercury will reshape Taurus love and finances this week. Our detailed forecast highlights the best and worst days, plus a powerful career boost on Wednesday. Comment your sign for a personalized reading!",
+  "script_text": "Taurus, brace for week where Venus shatters romance and Mercury reshapes money. Monday\u2019s Mercury square Venus in the 7th House talk that sours love agreements and stalls work deals. Wednesday\u2019s Mars\u2011Saturn sextile in the 10th and 1st Houses boosts career ambition tests earthy stamina, giving a lift. Thursday\u2019s Sun conjunct Pluto in the 4th House forces a home\u2011vs\u2011career clash, urging authenticity. Friday\u2019s Venus trine Neptune in the 5th House sparks romance warning of financial illusion. Saturday\u2019s Mercury opposes Uranus in the 3rd, delivering income ideas. Sunday\u2019s Leo Moon squares Jupiter in the 7th, energizing expression, cautioning partnership agreements, delivering a finish. Best day: Venus moves into the 5th House, igniting a romance. Worst day: Monday, Mercury\u2019s square to Venus in the 7th House sparks breakdowns souring love and money. Use 5th House Venus for a date that builds affection and prudence. Follow for daily updates.",
+  "captions_structure": [
+    {
+      "text": "TAURUS",
+      "type": "header"
+    },
+    {
+      "text": "Taurus, brace for week where Venus shatters romance and Mercury reshapes money.",
+      "type": "normal"
+    }
+  ],
+  "lucky_numbers": [
+    "7",
+    "13",
+    "21"
+  ],
+  "lucky_color": "Emerald Green",
+  "monthly_vibe": "Earthly Renewal",
+  "youtube_tags": [
+    "taurus weekly horoscope",
+    "venus transit love",
+    "mercury career shift",
+    "mars saturn sextile",
+    "sun pluto conjunction",
+    "jupiter moon square",
+    "financial illusion warning",
+    "relationship test monday",
+    "romance weekend forecast",
+    "cosmic energy overview",
+    "weekly astro guide",
+    "earth element focus"
+  ],
+  "type": "weekly",
+  "target": "Taurus",
+  "date": "Jun 27 - Jul 03",
+  "images": [
+    "assets/zodiac_signs/Taurus.jpg"
+  ],
+  "active": true,
+  "status": "uploaded",
+  "file_name": "plan_weekly_Taurus.json"
 }
