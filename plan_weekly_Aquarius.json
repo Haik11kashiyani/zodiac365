@@ -1,42 +1,40 @@
 {
-    "title": "Aquarius \u2014 The Big Shift This Week",
-    "youtube_title": "Aquarius \u2014 The Big Shift This Week #shorts",
-    "youtube_description": "Aquarius, Uranus\u2019s Air\u2011charged influence sparks breakthroughs and love turbulence this week. Our forecast covers Mercury\u2019s trine on Monday, Venus\u2019s gentle sextile on Thursday, and Jupiter\u2019s entry into the 5th House, plus career insights from the Sun\u2019s square to Saturn. Comment your sign for a personal reading and stay tuned for daily updates.",
-    "youtube_tags": [
-        "aquarius horoscope",
-        "weekly astrology",
-        "venus transit",
-        "mercury aspects",
-        "jupiter movement",
-        "sun saturn square",
-        "air element",
-        "uranus influence",
-        "house aspects",
-        "love forecast",
-        "career insight",
-        "thursday luck"
-    ],
+    "script_text": "Uranus jolts your 10th House this week, sparking bold breakthroughs of change. Monday\u2019s Venus trine to your 7th House truly lifts love flows, perfect for new romance. Wednesday\u2019s Mars square to your 10th House triggers career tension, forcing protective boundaries. Thursday\u2019s Mercury\u2011Uranus conjunction in your 1st House shatters routine thought patterns, igniting fresh ideas. Friday\u2019s Jupiter sextile to your 5th House lifts confidence, boosting romance and creative flair. Saturday\u2019s Neptune opposition to your 2nd House clouds finances, advising against impulsive spending. Sunday remains calm, allowing you to consolidate the week\u2019s innovative insights. Wednesday shines as Venus trines your 5th House, deeply energizing love and self\u2011expression. Tuesday weighs heavy with Saturn\u2019s retrograde in Pisces, demanding patience for career moves. A short sunrise meditation Friday will truly anchor the Uranian surge and keep your emotions steady. Follow for daily updates to stay ahead of the cosmic shifts.",
     "captions_structure": [
         {
             "text": "AQUARIUS",
             "type": "header"
         },
         {
-            "text": "Uranus, your ruling planet, sparks an Air\u2011charged week of breakthroughs and love turbulence!",
+            "text": "Uranus jolts your 10th House this week, sparking bold breakthroughs of change.",
             "type": "normal"
         }
     ],
-    "script_text": "Uranus, your ruling planet, sparks an Air\u2011charged week of breakthroughs and love turbulence!\nEarly this week, Mercury trines Uranus in the 1st House Monday, boosting ideas and talk, making Monday your peak. Wednesday drags as the Sun squares Saturn in the 10th House, stalling career moves and weighing you down. Mid\u2011week Thursday, Venus sextiles Neptune in the 7th House, easing doubts and opening romance. Late week brightens: Jupiter slips into the 5th House Saturday, fueling creative love and artistic luck, while a tense Mercury\u2011opposition\u2011Pluto on Sunday creates office power plays to navigate. Thursday shines as your lucky day Venus gently sextiles Neptune in the 7th House, magnifying romance. Wednesday stays tough as the Sun squares Saturn in the 10th House, throttling ambition. Tip: lock in that project proposal before Thursday\u2019s Venus boost fades and voice your ideas at work. Follow for daily updates.",
     "lucky_numbers": [
         "7",
         "11",
         "21"
     ],
     "lucky_color": "Emerald Green",
-    "monthly_vibe": "Reflective & Calm",
+    "monthly_vibe": "Inventive Surge",
+    "title": "Aquarius \u2013 Bold Breakthroughs This Week",
+    "youtube_title": "Aquarius \u2013 Unexpected Breakthrough This Week #shorts",
+    "youtube_description": "This week Aquarius faces a Uranian jolt to the 10th House, igniting bold career shifts and love breakthroughs. Thursday\u2019s Mercury\u2011Uranus conjunction in the 1st House shatters routine thinking, sparking fresh ideas you can act on immediately. Comment your sign for a personalized reading and daily updates!",
+    "youtube_tags": [
+        "aquarius horoscope",
+        "air element",
+        "uranus transit",
+        "love forecast",
+        "career insights",
+        "mercury uranus",
+        "jupiter sextile",
+        "neptune opposition",
+        "saturn retrograde",
+        "weekly astrology"
+    ],
     "type": "weekly",
     "target": "Aquarius",
-    "date": "Jun 26 - Jul 02",
+    "date": "Jun 27 - Jul 03",
     "images": [
         "assets/zodiac_signs/Aquarius.jpg"
     ],
