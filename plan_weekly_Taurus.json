@@ -1,45 +1,45 @@
 {
-  "script_text": "Taurus, Venus\u2011square Mars ignites romance drama, urging you to stay grounded and calm now. Monday\u2019s Venus square Mars sparks heated arguments, while Saturn\u2019s trine steadies finances. Tuesday\u2019s Mercury trine Jupiter gives a surprise bonus, boosting career. Wednesday\u2019s Sun opposition Pluto tests creative confidence, urging genuine passion. Mid\u2011week, Mercury turns direct in the 12th House on Thursday, dissolving doubts and opening a romantic door. Thursday\u2019s Moon sextile Neptune and Friday\u2019s Venus sextile Saturn ease talk and stabilize bonds this week. Saturday\u2019s Sun square Uranus jolts routine, prompting bold expression that may surprise you, Taurus. Your best day is Thursday, when Mercury turns direct and romance glows. Your worst day is Wednesday, with Sun opposition Pluto stirring power struggles, draining energy. Keep honest dialogue with your partner, avoid impulsive spending, and let Venus\u2019s steadiness deeply guide love and money. Follow for daily updates and deeper cosmic guidance.",
-  "captions_structure": [
-    {
-      "text": "TAURUS",
-      "type": "header"
-    },
-    {
-      "text": "Taurus, Venus\u2011square Mars ignites romance drama, urging you to stay grounded and calm now.",
-      "type": "normal"
-    }
-  ],
-  "title": "Taurus \u2013 Venus\u2011Mars Drama This Week",
-  "youtube_title": "Your Taurus Weekly Horoscope: Venus\u2011Mars Clash #shorts",
-  "youtube_description": "Discover how a fierce Venus\u2011square Mars transforms Taurus love this week, plus a surprise career boost from Mercury\u2019s trine. Find out your best and worst days, and what to prioritize for romance and money. Comment your sign for a personalized reading!",
-  "youtube_tags": [
-    "taurus horoscope",
-    "venus square mars",
-    "mercury trine jupiter",
-    "sun opposition pluto",
-    "moon sextile neptune",
-    "venus sextile saturn",
-    "sun square uranus",
-    "best day thursday",
-    "worst day wednesday",
-    "weekly advice love money",
-    "cosmic guidance"
-  ],
-  "lucky_numbers": [
-    7,
-    11,
-    23
-  ],
-  "lucky_color": "Emerald Green",
-  "monthly_vibe": "Reflective Calm",
-  "type": "weekly",
-  "target": "Taurus",
-  "date": "Jun 28 - Jul 04",
-  "images": [
-    "assets/zodiac_signs/Taurus.jpg"
-  ],
-  "active": true,
-  "status": "uploaded",
-  "file_name": "plan_weekly_Taurus.json"
+    "script_text": "Brace yourself, Taurus\u2014this week the heavens brew a love\u2011fueled upheaval.\n\nMonday, Venus trines your 5th House, sparking romance as an earth sign deepens sensuality. Tuesday, Mercury sextiles Jupiter in your 2nd House, smoothing money talks and spotting income chances. Wednesday, Sun square Saturn in your 10th House raises career doubts, making it week\u2019s toughest day. Thursday, Mars stations direct in your 1st House, blasting fog and igniting drive. This shift restores confidence and sets weekend up for progress. Through Saturday, the Sun moves into your 7th House, highlighting partnerships. Sunday\u2019s Mercury sextile Neptune sparks ideas, stay grounded. Overall the weekend favors dating, socializing, collaboration. Best day: Thursday, when Mars powers your 1st House, fueling new starts and momentum. Worst day: Wednesday, Sun square Saturn strains career ambitions and raises doubts. Take a concrete action toward a financial goal on Tuesday to cash in Mercury\u2013Jupiter boost. Follow for daily updates.",
+    "captions_structure": [
+        {
+            "text": "TAURUS",
+            "type": "header"
+        },
+        {
+            "text": "Brace yourself, Taurus\u2014this week the heavens brew a love\u2011fueled upheaval.",
+            "type": "normal"
+        }
+    ],
+    "lucky_numbers": [
+        "7",
+        "11",
+        "21"
+    ],
+    "lucky_color": "Emerald Green",
+    "monthly_vibe": "Reflective & Calm",
+    "title": "Taurus Weekly Horoscope June 28, 2026",
+    "youtube_title": "Taurus: Something Big Is Coming #shorts",
+    "youtube_description": "Discover how Venus trines love and Mars jolts action for Taurus this week. Comment your sign for a personalized reading!",
+    "youtube_tags": [
+        "taurus horoscope",
+        "venus trine",
+        "mars station",
+        "love forecast",
+        "career prediction",
+        "june 2026 astrology",
+        "weekly forecast",
+        "mercury sextile",
+        "sun square saturn",
+        "earth element",
+        "taurus weekly"
+    ],
+    "type": "weekly",
+    "target": "Taurus",
+    "date": "Jun 28 - Jul 04",
+    "images": [
+        "assets/zodiac_signs/Taurus.jpg"
+    ],
+    "active": true,
+    "status": "pending",
+    "file_name": "plan_weekly_Taurus.json"
 }
