@@ -1,12 +1,12 @@
 {
-  "script_text": "Aries, the fiery cosmos is flipping a volatile switch, demanding your immediate attention. Mars, your ruling planet, now squares Neptune across the 7th House of love, creating emotional blur and hidden tension. Mercury in Leo stations in your 10th House, boosting your voice at work, but Mars\u2011Neptune friction makes trust feel fragile. If you're on the market, the fuzzy 7th House square draws charismatic firebrands, yet a skeptical eye guards against surface charm. If you're coupled, the Mars\u2011Neptune clash could breed suspicion, so verify words before reacting. Your 2nd House of resources enjoys a gentle trine from Jupiter, hinting a small bonus, while Mercury's voice in the 10th pushes you to claim that promotion. Skip legal or financial commitments under Mars\u2011Neptune's fog, or you'll invite a hidden clause\u2014let today's creative spark be your unexpected blessing. Follow for tomorrow's reading and stay ahead of the celestial currents.",
+  "script_text": "Stop! Aries, the stars are screaming at you right now. Mars, your ruling planet, now forms a square to Pluto in your 6th House, demanding you confront hidden obstacles at work and turn that fiery Aries energy into focused action. Venus glides into a sextile with your Sun in the 10th House, brightening your public image and opening romantic doors. If single, Venus's sextile ignites a magnetic charm that draws Fire signs, and your Fire element sparkles. If taken, expect deeper talks that dissolve misunderstandings. Career and finances shine as the Sun\u2019s trine to Jupiter in your 10th House boosts visibility and a modest raise is on the horizon, rewarding your persistent fire. Avoid charging headlong into conflict; the Mars\u2011Pluto square can make snap decisions destructive, so pause and breathe before you act. Follow for tomorrow's reading and stay ahead of the celestial currents.",
   "captions_structure": [
     {
-      "text": "ARIES ALERT",
+      "text": "ARIES",
       "type": "header"
     },
     {
-      "text": "First line of the script...",
+      "text": "Stop! Aries, the stars are screaming at you right now.",
       "type": "normal"
     }
   ],
@@ -15,27 +15,27 @@
     "11",
     "21"
   ],
-  "lucky_color": "Emerald Green",
-  "monthly_vibe": "Reflective & Calm",
-  "title": "The Stars Warn Aries Today",
-  "youtube_title": "Aries \u2014 Big Cosmic Warning Today #shorts",
-  "youtube_description": "Today's reading zeroes in on Mars squaring Neptune in your 7th House, spilling love clues and a tiny career boost from a Jupiter trine. You'll also hear a caution about paperwork that could hide a clause. Comment your sign for a custom cosmic guide!",
+  "lucky_color": "Crimson Red",
+  "monthly_vibe": "Bold Action & Insight",
+  "title": "Aries \u2014 The Stars Are Warning You",
+  "youtube_title": "The Hidden War Aries Is Facing #shorts",
+  "youtube_description": "Aries, Mars is flexing a square to Pluto in your 6th House, stirring intense work pressure and hidden obstacles. Venus is shining with a sextile to your Sun in the 10th House, opening romantic doors and boosting your public image. Comment your sign for a deeper dive into today's cosmic blueprint!",
   "youtube_tags": [
     "aries horoscope",
-    "mars square aspect",
-    "neptune in love house",
-    "career rise advice",
-    "jupiter trine wealth",
-    "fire element forecast",
-    "daily astrology insight",
-    "relationship insight",
-    "financial boost sign",
-    "celestial warning",
-    "follow for updates"
+    "mars square",
+    "venus sextile",
+    "career luck",
+    "love forecast",
+    "house six",
+    "fire element",
+    "pluto transit",
+    "jupiter trine",
+    "daily astrology",
+    "sun sign"
   ],
   "type": "daily",
   "target": "Aries",
-  "date": "June 28, 2026",
+  "date": "June 29, 2026",
   "images": [
     "assets/zodiac_signs/Aries.jpg"
   ],
