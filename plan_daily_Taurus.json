@@ -1,41 +1,78 @@
 {
-  "script_text": "Stop! Taurus, the stars are screaming at you right now. Mercury is forming a crisp sextile to your ruling planet Venus in Taurus's earthy 5th House, boosting creative confidence and grounding your ideas. At the same time, a restless square from Mars in Scorpio is pressuring your 10th House of Career, urging you to act with earthy determination. In love, Venus's gentle trine to Neptune in your 7th House whispers romance for singles, while couples will feel a deepening emotional bond\u2014if you listen. Career-wise, Saturn\u2019s opposition to your Ascendant in the 2nd House warns of budgeting pitfalls today, so count your expenses before any big purchase. Avoid making impulsive decisions under the Mercurial glare, or else you\u2019ll miss the unexpected gift of a lucky break that appears by noon. Follow for tomorrow's reading and see how the lunar shift will reshape your week.",
+  "script_text": "Stop, Taurus! The earth beneath your feet is rumbling tonight as Saturn sits in opposition to your ruling planet Venus, activating your 8th House of Deep Bonds and Shared Resources. This isn't a gentle nudge \u2014 it's a full confrontation with truth. Your normally solid, patient energy is being tested hard. In love, a partner's hidden resentment or financial secret may surface through unspoken tension, and you'll feel compelled to finally address what's been lurking beneath the surface. Regarding career, Saturn's pressure in your 8th House demands you renegotiate a contract or restructure someone else's money that flows to you. Watch for power plays in your 10th House of Public Standing \u2014 a superior may test your authority. Today's warning: avoid stubborn silence when a difficult conversation calls. Your gift is unexpected loyalty from someone close. Follow for tomorrow's reading.",
   "captions_structure": [
     {
-      "text": "TAURUS",
+      "text": "TAURUS \u26a0\ufe0f",
       "type": "header"
     },
     {
-      "text": "Stop! Taurus, the stars are screaming at you right now.",
+      "text": "Stop, Taurus! Tonight Saturn is forming a direct opposition",
+      "type": "normal"
+    },
+    {
+      "text": "to your ruling planet Venus, activating your 8th House",
+      "type": "normal"
+    },
+    {
+      "text": "of Deep Bonds and Shared Resources. This isn't a gentle nudge.",
+      "type": "normal"
+    },
+    {
+      "text": "In love, your 8th House activation demands that you address",
+      "type": "normal"
+    },
+    {
+      "text": "either trust issues or a financial entanglement with someone close.",
+      "type": "normal"
+    },
+    {
+      "text": "Some of you may receive important news about shared finances or debt.",
+      "type": "normal"
+    },
+    {
+      "text": "In career, Saturn's pressure on your 8th House demands",
+      "type": "normal"
+    },
+    {
+      "text": "you renegotiate a contract or restructure someone else's money",
+      "type": "normal"
+    },
+    {
+      "text": "that flows to you. Watch for power plays in your 10th House.",
+      "type": "normal"
+    },
+    {
+      "text": "Today's stubborn silence will cost you.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
-    "7",
-    "13",
-    "23"
+    "2",
+    "9",
+    "17"
   ],
-  "lucky_color": "Emerald Green",
-  "monthly_vibe": "Reflective & Calm",
-  "title": "Taurus Daily Horoscope June 29, 2026",
-  "youtube_title": "Taurus, something big is coming your way #shorts",
-  "youtube_description": "Today, Mercury forms a powerful sextile to Venus, boosting Taurus's creativity and finances. Discover how love and career shift under this cosmic alignment\u2014don't miss the details. Comment your sign for a personalized reading!",
+  "lucky_color": "Deep Emerald",
+  "monthly_vibe": "Transformation & Power",
+  "title": "Taurus Daily Horoscope June 30, 2026",
+  "youtube_title": "Saturn vs Taurus \u2014 Read This Now #shorts",
+  "youtube_description": "Saturn is in opposition to your ruling planet Venus and it's shaking up your 8th House of deep bonds. This horoscope reveals the financial truth emerging in your partnerships. Comment your sign to resonate with today's energy.",
   "youtube_tags": [
-    "taurus horoscope june 29",
-    "mercury venus sextile",
-    "love career forecast 2026",
-    "saturn opposition house 2",
-    "daily astrology reading",
-    "venus neptune trine",
-    "mars scorpio square",
-    "earth element stability",
-    "venus ruling planet",
-    "cosmic transit taurus",
-    "taurus daily insight"
+    "taurus horoscope",
+    "daily horoscope",
+    "venus opposition saturn",
+    "taurus 2026",
+    "earth sign",
+    "8th house transit",
+    "love astrology",
+    "career horoscope",
+    "shared resources",
+    "power dynamics",
+    "june 30 horoscope",
+    "taurus today"
   ],
   "type": "daily",
   "target": "Taurus",
-  "date": "June 29, 2026",
+  "date": "June 30, 2026",
   "images": [
     "assets/zodiac_signs/Taurus.jpg"
   ],
