@@ -1,40 +1,58 @@
 {
-  "script_text": "Stop! Pisces, the stars are screaming at you right now. Jupiter is now forming a sextile to your ruling planet Neptune, igniting your Water element and your 8th House of transformation. This precise sextile enhances psychic clarity, making hidden streams actionable. The aspect also encourages you to trust intuition when negotiating contracts or investments. Your 7th House of partnerships benefits from a trine between Venus and Neptune, heightening empathy and romance for your Water element. Singles will attract a mysterious, artistic soul, while couples deepen intimacy through shared creative dreams. Your 10th House of career receives a steady square from Saturn, reminding you that disciplined effort beats impulsive shortcuts. Your 2nd House of finances enjoys a Mercury trine, sharpening communication with banks. Don\u2019t idealize new bonds, waste sextile gifts, and keep a budget for Saturn pressure. Follow for tomorrow's reading and stay tuned for the week's cosmic game\u2011changer.",
+  "script_text": "Stop! Pisces, Neptune\u2019s glow is being torn apart by Pluto\u2019s grip right now. Neptune squares Pluto in your 10th House of Career, forcing you to confront illusions about your professional path\u2014today, your dream job might feel like a mirage under harsh scrutiny. In love, if taken, your partner\u2019s emotional withdrawal could mirror this cosmic clash; if single, avoid romanticizing strangers\u2014your Neptune-ruled intuition is clouded. In your 10th House, Mars trines Saturn, making it critical to double-check contracts or deadlines\u2014ambition meets structure, but haste could backfire. Avoid signing anything impulsively; a hidden detail might surface by week\u2019s end. Follow for tomorrow\u2019s reading\u2014Neptune\u2019s next move could shift everything.",
   "captions_structure": [
     {
-      "text": "PISCES",
+      "text": "PISCES ALERT",
       "type": "header"
     },
     {
-      "text": "Stop! Pisces, the stars are screaming at you right now.",
+      "text": "Stop! Pisces, Neptune\u2019s glow is being torn apart by Pluto\u2019s grip right now.",
+      "type": "normal"
+    },
+    {
+      "text": "Neptune squares Pluto in your 10th House of Career, forcing you to confront illusions about your professional path\u2014today, your dream job might feel like a mirage under harsh scrutiny.",
+      "type": "normal"
+    },
+    {
+      "text": "In love, if taken, your partner\u2019s emotional withdrawal could mirror this cosmic clash; if single, avoid romanticizing strangers\u2014your Neptune-ruled intuition is clouded.",
+      "type": "normal"
+    },
+    {
+      "text": "In your 10th House, Mars trines Saturn, making it critical to double-check contracts or deadlines\u2014ambition meets structure, but haste could backfire.",
+      "type": "normal"
+    },
+    {
+      "text": "Avoid signing anything impulsively; a hidden detail might surface by week\u2019s end. Follow for tomorrow\u2019s reading\u2014Neptune\u2019s next move could shift everything.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
-    "7",
-    "11",
-    "21"
+    "4",
+    "13",
+    "22"
   ],
-  "lucky_color": "Emerald Green",
-  "monthly_vibe": "Reflective & Calm",
-  "title": "Pisces Daily Horoscope \u2013 July 2, 2026",
-  "youtube_title": "Pisces, something big is coming today #shorts",
-  "youtube_description": "Today Jupiter\u2019s sextile to Neptune sparks hidden opportunities in your 8th House, while a trine between Venus and Neptune lights up your love life. Meanwhile, a Saturn square pressures your career and a Mercury trine clears financial talks. Comment your sign for a personalized reading!",
+  "lucky_color": "Deep Sea Teal",
+  "monthly_vibe": "Truth Revealed",
+  "title": "Pisces: Neptune vs Pluto in Your 10th House",
+  "youtube_title": "Pisces Career Crisis \u2014 Neptune Squares Pluto #shorts",
+  "youtube_description": "Today\u2019s Neptune-Pluto square in your 10th House is exposing professional illusions, Pisces. Mars trines Saturn\u2014double-check deadlines or contracts. What\u2019s hidden will surface. Comment your sign!",
   "youtube_tags": [
-    "pisces horoscope",
-    "jupiter sextile neptune",
-    "venus trine pisces",
-    "saturn square career",
-    "love forecast pisces",
-    "water element pisces",
-    "daily astrology",
-    "neptune ruling pisces",
-    "house 7 partnership",
-    "house 10 career"
+    "pisces",
+    "horoscope",
+    "astrology",
+    "neptune",
+    "pluto",
+    "career",
+    "10th house",
+    "mars",
+    "saturn",
+    "daily horoscope",
+    "pisces 2026",
+    "cosmic warning"
   ],
   "type": "daily",
   "target": "Pisces",
-  "date": "July 02, 2026",
+  "date": "July 03, 2026",
   "images": [
     "assets/zodiac_signs/Pisces.jpg"
   ],
