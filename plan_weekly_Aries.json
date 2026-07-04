@@ -1,46 +1,46 @@
 {
-    "script_text": "Aries, Mars slams into your 10th House this week, igniting career firestorms you can't ignore. Monday through Wednesday, Mars squares Pluto in your work sector while your Sun opposes Saturn in Pisces\u2014expect boss battles and budget leaks, worst Tuesday when ambition meets accountability. Thursday's Sun-Pluto square forces a power pivot: what you've been avoiding surfaces in brutal clarity. Friday through Sunday, Jupiter sextiles your Aries Sun from your 9th House, unlocking promotions and surprise checks\u2014Saturday shines with Venus trining Mars in your 5th, perfect for romantic risk-taking. Wednesday is your power day because Venus trines Mars in your 5th House, while Thursday is your worst day when Sun squares Pluto in your 10th House. Channel that Aries impulsivity into strategic action\u2014write that proposal you've been hesitating on. Follow for daily updates.",
-    "captions_structure": [
-        {
-            "text": "ARIES ALERT",
-            "type": "header"
-        },
-        {
-            "text": "Aries, Mars slams into your 10th House this week, igniting career firestorms you can't ignore.",
-            "type": "normal"
-        }
-    ],
-    "lucky_numbers": [
-        "7",
-        "11",
-        "21"
-    ],
-    "lucky_color": "Emerald Green",
-    "monthly_vibe": "Reflective & Calm",
-    "title": "Aries Weekly Horoscope July 03, 2026",
-    "youtube_title": "The Stars Are Warning Aries #shorts",
-    "youtube_description": "Your Mars-Pluto square in the 10th House is blowing up your work life this week. I reveal exactly when to take that career risk and when to play it safe. Comment your sign below!",
-    "youtube_tags": [
-        "aries",
-        "horoscope",
-        "astrology",
-        "weekly",
-        "career",
-        "love",
-        "mars",
-        "pluto",
-        "jupiter",
-        "venus",
-        "saturn",
-        "transit"
-    ],
-    "type": "weekly",
-    "target": "Aries",
-    "date": "Jul 03 - Jul 09",
-    "images": [
-        "assets/zodiac_signs/Aries.jpg"
-    ],
-    "active": true,
-    "status": "pending",
-    "file_name": "plan_weekly_Aries.json"
+  "script_text": "ARIES ALERT\u2014Chaos erupts this week as Mars squares Pluto in your 10th House, threatening to blow up your career plans. Early week (Mon-Wed) is a battlefield: Mars in Gemini squares Pluto in Capricorn, amplifying power struggles at work, while Mercury in Cancer sextiles Neptune in Pisces, clouding your judgment in relationships. Monday and Tuesday are worst due to Mars-Pluto tension; Wednesday offers relief with Mercury trining Mars, clarifying your path. Mid-week turning point: Mercury goes direct Thursday in Leo, trining your Aries Mars and unlocking breakthroughs in communication. Late week (Thu-Sun) sees Venus entering your 5th House, sparking passionate connections, but Mars-Pluto opposition lingers, risking explosive arguments at home. Thursday is worst as Venus squares Mars, igniting love-career conflicts. Wednesday is your power day because Mercury trines Mars, aligning your instincts with purpose. Career advice: Channel Mars\u2019 fire into strategic action\u2014don\u2019t chase recognition, build legacy. Follow for daily updates.",
+  "captions_structure": [
+    {
+      "text": "ARIES ALERT",
+      "type": "header"
+    },
+    {
+      "text": "Chaos erupts this week as Mars squares Pluto in your 10th House...",
+      "type": "normal"
+    }
+  ],
+  "lucky_numbers": [
+    "7",
+    "11",
+    "21"
+  ],
+  "lucky_color": "Emerald Green",
+  "monthly_vibe": "Reflective & Calm",
+  "title": "Aries Weekly Horoscope July 04, 2026",
+  "youtube_title": "Aries Warned: Mars vs Pluto Drama This Week #shorts",
+  "youtube_description": "This week\u2019s Mars-Pluto square in your 10th House could upend your career ambitions. Discover how Venus in your 5th House ignites love drama by Thursday. Comment your sign!",
+  "youtube_tags": [
+    "astrology",
+    "horoscope",
+    "aries",
+    "mars",
+    "pluto",
+    "venus",
+    "career",
+    "love",
+    "transit",
+    "weekly",
+    "prediction",
+    "2026"
+  ],
+  "type": "weekly",
+  "target": "Aries",
+  "date": "Jul 04 - Jul 10",
+  "images": [
+    "assets/zodiac_signs/Aries.jpg"
+  ],
+  "active": true,
+  "status": "uploaded",
+  "file_name": "plan_weekly_Aries.json"
 }
