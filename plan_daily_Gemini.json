@@ -1,40 +1,58 @@
 {
-  "script_text": "Stop! Gemini, the stars are screaming at you right now. Mercury, your ruler, is squaring Saturn in the 6th House, creating a tense grind that pushes you to prove your worth. Meanwhile, Venus in Leo forms a harmonious trine to Jupiter in your 7th House, amplifying love opportunities. If you're single, a charismatic communicator will draw you in like a moth to flame, and if you're paired, keep an eye on ego clashes triggered by Venus' fiery Leo energy. Transiting Mars activates your 10th House, giving you the drive to clinch a promotion or close a big deal, but beware of impulsive overdrive. Your income may spike unexpectedly, so keep your receipts handy. Avoid making irreversible decisions under the Mercury\u2011Saturn tension, or miss the unexpected gift of a lucky freelance offer appearing out of the blue. Follow for tomorrow's reading so you stay ahead of the cosmic curve.",
+  "script_text": "Stop! Gemini, the stars are tearing through your 7th House of Partnerships right now. Mars is forming a harsh square to Mercury, your ruling planet, igniting communication breakdowns with loved ones today. Love will feel like walking through a minefield\u2014single Geminis, avoid impulsive texts; taken Geminis, double-check tone before replying to avoid explosive arguments. In your 10th House, Saturn\u2019s restrictive influence clashes with Mercury\u2019s chatter, so hold off on signing contracts or pitching bold ideas until after 3 PM. A surprise call or message could shift your day\u2014don\u2019t ignore it. Follow for tomorrow\u2019s reading when Jupiter\u2019s trine to your Mercury brings clarity.",
   "captions_structure": [
     {
-      "text": "GEMINI",
+      "text": "GEMINI ALERT",
       "type": "header"
     },
     {
-      "text": "Stop! Gemini, the stars are screaming at you right now.",
+      "text": "Stop! Gemini, the stars are tearing through your 7th House of Partnerships right now.",
+      "type": "normal"
+    },
+    {
+      "text": "Mars is forming a harsh square to Mercury, your ruling planet, igniting communication breakdowns with loved ones today.",
+      "type": "normal"
+    },
+    {
+      "text": "Love will feel like walking through a minefield\u2014single Geminis, avoid impulsive texts; taken Geminis, double-check tone before replying to avoid explosive arguments.",
+      "type": "normal"
+    },
+    {
+      "text": "In your 10th House, Saturn\u2019s restrictive influence clashes with Mercury\u2019s chatter, so hold off on signing contracts or pitching bold ideas until after 3 PM.",
+      "type": "normal"
+    },
+    {
+      "text": "A surprise call or message could shift your day\u2014don\u2019t ignore it. Follow for tomorrow\u2019s reading when Jupiter\u2019s trine to your Mercury brings clarity.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
     "7",
-    "13",
-    "21"
+    "14",
+    "23"
   ],
-  "lucky_color": "Emerald Green",
-  "monthly_vibe": "Reflective & Calm",
-  "title": "Gemini \u2014 Big Changes Ahead",
-  "youtube_title": "Gemini \u2014 Don't Miss This Cosmic Shift #shorts",
-  "youtube_description": "Today's breakdown shows exactly how Mercury's square to Saturn will shape your focus at work and love life, while Venus' trine to Jupiter lights up romance. Plus, a hidden freelance opportunity awaits if you stay alert. Comment your sign for a personal deep\u2011div!",
+  "lucky_color": "Silver Blue",
+  "monthly_vibe": "Strategic Growth",
+  "title": "Gemini Daily Horoscope July 06, 2026",
+  "youtube_title": "Gemini: Mars Squares Mercury \u2014 Crisis or Clarity? #shorts",
+  "youtube_description": "Mercury under siege by Mars today! Discover how this square in your 7th House will shake your relationships and career moves. Comment your sign if you felt this energy. What\u2019s your Mercury doing right now?",
   "youtube_tags": [
-    "astrology forecast",
-    "gemini horoscope",
-    "mercury square saturn",
-    "venus trine jupiter",
-    "love reading gemini",
-    "career prediction",
-    "june 21 2026 astrology",
-    "west coast daily horoscope",
-    "psychic reading gemini",
-    "cosmic insight gemini"
+    "gemini",
+    "daily horoscope",
+    "mercury",
+    "mars square",
+    "astrology",
+    "gemini daily",
+    "love forecast",
+    "career advice",
+    "horoscope today",
+    "planetary transit",
+    "gemini 2026",
+    "astrology predictions"
   ],
   "type": "daily",
   "target": "Gemini",
-  "date": "June 21, 2026",
+  "date": "July 06, 2026",
   "images": [
     "assets/zodiac_signs/Gemini.jpg"
   ],

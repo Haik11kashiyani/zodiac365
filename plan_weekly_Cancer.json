@@ -1,40 +1,66 @@
 {
-    "script_text": "Cancer, the Moon\u2019s tide surges this week, pulling hidden emotions to the surface and urging insight. Monday the Moon trines Mercury in your third house, boosting intuitive communication and swift decisions. On Wednesday the Sun squares Neptune in the twelfth house, creating confusion and over\u2011thinking personal goals. Thursday Mercury stations direct at 22\u00b0 Cancer, ending retrograde fog and restoring clarity to your routine. Friday Venus conjoins your fifth house, igniting romance and boosting creative confidence. Saturday Saturn opposes your tenth house, demanding discipline and steady effort to advance career. Sunday the Sun sextiles Pluto in the seventh house, empowering partnerships and giving you confidence to assert needs. Friday is your love day as Venus conjoins your fifth house, igniting romance. Saturday is toughest as Saturn squares your tenth house, demanding extra effort. Channel the Moon\u2019s water energy by journaling each night to turn emotions into action. Follow for daily updates.",
+    "script_text": "The Moon's volatile square to Mars in your 8th House turns your emotional defenses into a demolition derby this week. Early Week (Mon-Wed) crackles with intensity as Mercury in Leo sextiles your 5th House, sparking passionate conversations but also Mercury's square to Pluto in your 2nd House creates financial anxiety\u2014Tuesday's worst day when Uranus opposes your Sun, triggering unexpected expenses. Mid-Week Turning Point arrives Wednesday when Venus trines your 10th House, transforming career ambitions into magnetic attraction that could unlock a promotion or raise. Late Week (Thu-Sun) brings relief as Jupiter sextiles your Moon in your 4th House, so family connections heal wounds and weekend plans solidify. Wednesday is your power day because Venus trines your 10th House, aligning love and career momentum. Sunday is your worst day because Saturn squares your Moon, amplifying emotional stagnation. Trust your intuition during the full Moon in your 8th House on Thursday\u2014it reveals hidden relationship truths. Follow for daily updates.",
     "captions_structure": [
         {
-            "text": "CANCER",
+            "text": "CANCER ALERT",
             "type": "header"
         },
         {
-            "text": "Cancer, the Moon\u2019s tide surges this week, pulling hidden emotions to the surface and urging insight.",
+            "text": "The Moon's volatile square to Mars in your 8th House turns your emotional defenses into a demolition derby this week.",
+            "type": "normal"
+        },
+        {
+            "text": "Early Week (Mon-Wed) crackles with intensity as Mercury in Leo sextiles your 5th House, sparking passionate conversations but also Mercury's square to Pluto in your 2nd House creates financial anxiety\u2014Tuesday's worst day when Uranus opposes your Sun, triggering unexpected expenses.",
+            "type": "normal"
+        },
+        {
+            "text": "Mid-Week Turning Point arrives Wednesday when Venus trines your 10th House, transforming career ambitions into magnetic attraction that could unlock a promotion or raise.",
+            "type": "normal"
+        },
+        {
+            "text": "Late Week (Thu-Sun) brings relief as Jupiter sextiles your Moon in your 4th House, so family connections heal wounds and weekend plans solidify.",
+            "type": "normal"
+        },
+        {
+            "text": "Wednesday is your power day because Venus trines your 10th House, aligning love and career momentum. Sunday is your worst day because Saturn squares your Moon, amplifying emotional stagnation.",
+            "type": "normal"
+        },
+        {
+            "text": "Trust your intuition during the full Moon in your 8th House on Thursday\u2014it reveals hidden relationship truths.",
+            "type": "normal"
+        },
+        {
+            "text": "Follow for daily updates.",
             "type": "normal"
         }
     ],
     "lucky_numbers": [
         "7",
-        "11",
-        "21"
+        "14",
+        "23"
     ],
-    "lucky_color": "Emerald Green",
-    "monthly_vibe": "Reflective & Calm",
-    "title": "Cancer \u2014 Big Changes Unfold This Week",
-    "youtube_title": "Cancer \u2013 Something Big Is Coming #shorts",
-    "youtube_description": "This week Cancer feels the Moon\u2019s tide surge, with Venus sparking romance and Saturn testing career resolve. Discover how Mercury\u2019s direct shift clears the fog and why love and work both demand extra focus. Comment your sign for your personalized reading!",
+    "lucky_color": "Moonstone Silver",
+    "monthly_vibe": "Emotional Alchemy",
+    "title": "Cancer \u2014 Moon Squares Mars This Week",
+    "youtube_title": "Cancer Weekly Horoscope July 2026 #shorts",
+    "youtube_description": "This week brings a volatile Moon-Mars square in your 8th House that could shake your emotional foundations. Venus trines your 10th House mid-week, potentially unlocking career breakthroughs. Comment your sign below!",
     "youtube_tags": [
-        "cancer weekly horoscope",
-        "moon transit cancer",
-        "venus in cancer",
-        "saturn opposite tenth",
-        "mercury direct cancer",
-        "love forecast cancer",
-        "career insight cancer",
-        "water element cancer",
-        "june 2026 cancer",
-        "planet aspects cancer"
+        "cancer",
+        "horoscope",
+        "moon square mars",
+        "venus trine",
+        "weekly forecast",
+        "astrology",
+        "cancer weekly",
+        "emotional healing",
+        "career prediction",
+        "love forecast",
+        "full moon",
+        "saturn square moon"
     ],
     "type": "weekly",
     "target": "Cancer",
-    "date": "Jun 21 - Jun 27",
+    "date": "Jul 06 - Jul 12",
     "images": [
         "assets/zodiac_signs/Cancer.jpg"
     ],
