@@ -1,42 +1,66 @@
 {
-    "script_text": "The cosmic storm is here\u2014Neptune squares Pluto as your ruling planet begins a radical transformation. Monday through Wednesday opens with Mercury trining your 10th House, amplifying career clarity on Tuesday, yet Mars squares Neptune on Wednesday, clouding decisions. Mid-week, Jupiter sextiles your 2nd House, unlocking unexpected financial opportunities Thursday. Late week, Venus enters your 5th House Wednesday, igniting passionate connections, while the Sun opposes your 10th House Friday, creating career tension. Wednesday is your power day because Venus sextiles Pluto in your 7th House, enhancing deep relationships. Tuesday is worst due to Mars square Neptune causing mental fog. Trust intuition over logic this week. Follow for daily updates that reveal hidden cosmic patterns.",
+    "script_text": "Mercury's retrograde in your 12th House of secrets is scrambling your subconscious patterns this week, Pisces. Early week Monday through Wednesday brings Neptune trining Mars in your 1st House, amplifying intuitive instincts but creating communication fog\u2014Tuesday worst when Mercury squares Saturn in your 4th, sparking family friction. Midweek Wednesday brings Venus conjunct Jupiter in your 5th House, sparking unexpected romance or creative breakthroughs. Late week Thursday through Sunday sees Mars sextiling Pluto in your 10th House, forcing career reckoning\u2014Friday through Sunday golden for professional moves. Wednesday is your power day because Venus conjuncts Jupiter in your 5th House, igniting love opportunities. Thursday is your power day because Mars sextiles Pluto in your 10th House, advancing career goals. Navigate financial decisions with extreme caution this week\u2014your intuitive Neptune is playing tricks in the money sector. Follow for daily updates.",
     "captions_structure": [
         {
             "text": "PISCES ALERT",
             "type": "header"
         },
         {
-            "text": "The cosmic storm is here\u2014Neptune squares Pluto as your ruling planet begins a radical transformation.",
+            "text": "Mercury's retrograde in your 12th House of secrets is scrambling your subconscious patterns this week, Pisces.",
+            "type": "normal"
+        },
+        {
+            "text": "Early week Monday through Wednesday brings Neptune trining Mars in your 1st House, amplifying intuitive instincts but creating communication fog\u2014Tuesday worst when Mercury squares Saturn in your 4th, spurring family friction.",
+            "type": "normal"
+        },
+        {
+            "text": "Midweek Wednesday brings Venus conjunct Jupiter in your 5th House, sparking unexpected romance or creative breakthroughs.",
+            "type": "normal"
+        },
+        {
+            "text": "Late week Thursday through Sunday sees Mars sextiling Pluto in your 10th House, forcing career reckoning\u2014Friday through Sunday golden for professional moves.",
+            "type": "normal"
+        },
+        {
+            "text": "Wednesday is your power day because Venus conjuncts Jupiter in your 5th House, igniting love opportunities. Thursday is your power day because Mars sextiles Pluto in your 10th House, advancing career goals.",
+            "type": "normal"
+        },
+        {
+            "text": "Navigate financial decisions with extreme caution this week\u2014your intuitive Neptune is playing tricks in the money sector.",
+            "type": "normal"
+        },
+        {
+            "text": "Follow for daily updates.",
             "type": "normal"
         }
     ],
     "lucky_numbers": [
         "7",
-        "14",
-        "23"
+        "11",
+        "21"
     ],
-    "lucky_color": "Oceanic Teal",
-    "monthly_vibe": "Transformative Awakening",
-    "title": "Pisces Weekly Horoscope July 05, 2026",
-    "youtube_title": "Pisces\u2014Neptune's Cosmic Shift Revealed #shorts",
-    "youtube_description": "This week, Neptune's tension with Pluto triggers profound changes for Pisces. Discover how Venus in your 5th House unlocks passionate connections and Jupiter's financial boost in your 2nd House. Comment your sign below!",
+    "lucky_color": "Ocean Blue",
+    "monthly_vibe": "Spiritual Awakening",
+    "title": "Pisces \u2014 Neptune's Retrograde Shakes Your Foundation",
+    "youtube_title": "Pisces \u2014 Neptune's Retrograde Shakes Your Foundation #shorts",
+    "youtube_description": "This week Mercury's retrograde in your 12th House exposes hidden issues Pisces, while Venus conjuncts Jupiter in your 5th House for unexpected romance. Discover what Wednesday's power alignment means for your love life and career breakthrough. Comment your sign below!",
     "youtube_tags": [
-        "pisces",
-        "horoscope",
         "astrology",
-        "weekly reading",
-        "neptune transit",
-        "jupiter trine",
-        "pisces love",
+        "horoscope",
+        "pisces",
+        "neptune retrograde",
+        "venus jupiter",
+        "pisces weekly",
+        "astrological transits",
+        "romance forecast",
         "career astrology",
-        "daily horoscope",
-        "mars square neptune",
-        "venus sextile pluto",
-        "pisces weekly"
+        "pisces 2026",
+        "mercury retrograde",
+        "weekly horoscope"
     ],
     "type": "weekly",
     "target": "Pisces",
-    "date": "Jul 05 - Jul 11",
+    "date": "Jul 06 - Jul 12",
     "images": [
         "assets/zodiac_signs/Pisces.jpg"
     ],
