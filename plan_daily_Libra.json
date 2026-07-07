@@ -1,41 +1,58 @@
 {
-  "script_text": "Stop! Libra, the stars are screaming at you right now. Venus, your ruling planet, creates a hopeful sextile with Mercury in the 7th House, sharpening love communication. Mars is also tightening a square to your Midheaven in the 10th House, stirring tension in career matters. Saturn now slips into the 2nd House, urging fiscal responsibility before indulgences. If you're single, the Venus\u2011Mercury sextile sparks a charming connection at a group gathering, drawing you into lively talks as an Air sign craving mental spark. If you're in a relationship, pay close attention to tone, as the Mars square can provoke impulsive arguments. If career moves feel stuck under Mars\u2019 square to the Midheaven, delegate tasks and curb spending as Saturn's entry into the 2nd House reinforces budgeting discipline. Avoid making quick financial commitments today, or you may lose the balance you so fiercely cherish. Subscribe so you don't miss tomorrow's reading.",
+  "script_text": "Stop! Libra, Venus your ruling planet is caught in a harsh square to Pluto in your 4th House of home. As an Air sign, this tense aspect drags buried family power struggles into the light. In love, singles attract through calm intellect, but taken Libras must avoid silent resentment brewing in the 7th House. Career wise, a Mercury trine to Jupiter in your 10th House of status brings a lucrative offer if you speak up by noon. Warning: do not sign any lease under today's oppositional Moon. Subscribe so you don't miss what's coming this week.",
   "captions_structure": [
     {
       "text": "LIBRA",
       "type": "header"
     },
     {
-      "text": "First line of the script...",
+      "text": "Stop! Venus square Pluto hits your 4th House.",
+      "type": "normal"
+    },
+    {
+      "text": "Singles attract via calm mind, couples watch 7th.",
+      "type": "normal"
+    },
+    {
+      "text": "Mercury trine Jupiter boosts 10th House career.",
+      "type": "normal"
+    },
+    {
+      "text": "Don't sign leases under oppositional Moon.",
+      "type": "normal"
+    },
+    {
+      "text": "Subscribe for the week's forecast.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
     "7",
-    "13",
-    "33"
+    "19",
+    "42"
   ],
-  "lucky_color": "Emerald Green",
-  "monthly_vibe": "Thoughtful Balance",
-  "title": "Libra Daily Horoscope June 25, 2026",
-  "youtube_title": "Libra \u2014 A Cosmic Warning You Can't Ignore #shorts",
-  "youtube_description": "Discover the powerful Venus\u2011Mercury sextile fuelling romance and the Mars square pressuring career ambitions today. This reading reveals exactly how to balance love and work for Libra on June 25, 2026. Comment your sign for a personalized insight!",
+  "lucky_color": "Pale Aqua",
+  "monthly_vibe": "Tense Transformation",
+  "title": "Libra \u2014 Don't Ignore This",
+  "youtube_title": "Libra \u2014 Don't Ignore This #shorts",
+  "youtube_description": "Venus square Pluto is ripping through your 4th House today, Libra, exposing what's been hidden at home. This reading reveals the Mercury-Jupiter trine opening a real career door in your 10th House. Comment your sign.",
   "youtube_tags": [
     "libra horoscope",
-    "venus transit",
-    "mars square",
+    "daily astrology",
+    "venus pluto",
     "air sign",
-    "love forecast",
-    "career insight",
-    "june 2026",
-    "cosmic guidance",
-    "house 7th",
-    "relationship advice",
-    "financial caution"
+    "4th house",
+    "7th house",
+    "10th house",
+    "love reading",
+    "career astrology",
+    "cosmic warning",
+    "zodiac libra",
+    "transit forecast"
   ],
   "type": "daily",
   "target": "Libra",
-  "date": "June 25, 2026",
+  "date": "July 07, 2026",
   "images": [
     "assets/zodiac_signs/Libra.jpg"
   ],
