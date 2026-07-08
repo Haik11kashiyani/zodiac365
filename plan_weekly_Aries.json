@@ -1,62 +1,86 @@
 {
-    "script_text": "Aries, your fiery element collides with a rare cosmic crosswire that rewrites your entire week. Early week Monday through Wednesday, Mars your ruling planet squares Saturn in your 10th House career zone, making Tuesday the worst day as boss pressure mounts and a raise stalls. By midweek the turning point hits Wednesday when Venus sextiles Jupiter from your 5th House of love, unlocking romantic surprise. Late week Thursday to Sunday, Sun trines Pluto in your 2nd House of money, Friday sparks a freelance cheque and weekend invites passion with a new crush. Wednesday is your power day because Venus enters your 5th House blessing love. Sunday is your worst day as Mercury retrograde shadows your 7th House partnerships causing arguments. Negotiate career terms Tuesday before the square peaks. Follow for daily updates.",
-    "captions_structure": [
-        {
-            "text": "ARIES",
-            "type": "header"
-        },
-        {
-            "text": "Aries, your fiery element collides with a rare cosmic crosswire that rewrites your entire week.",
-            "type": "normal"
-        },
-        {
-            "text": "Early week Mars squares Saturn in your 10th House, Tuesday worst for career.",
-            "type": "normal"
-        },
-        {
-            "text": "Midweek Venus sextiles Jupiter in your 5th House unlocking romantic surprise.",
-            "type": "normal"
-        },
-        {
-            "text": "Late week Sun trines Pluto in 2nd House, Friday money win, weekend love.",
-            "type": "normal"
-        },
-        {
-            "text": "Wednesday power day, Sunday worst with Mercury retrograde in 7th.",
-            "type": "normal"
-        }
-    ],
-    "lucky_numbers": [
-        "7",
-        "14",
-        "29"
-    ],
-    "lucky_color": "Molten Crimson",
-    "monthly_vibe": "Fierce Shift",
-    "title": "Aries \u2014 Don't Ignore This Week",
-    "youtube_title": "Aries \u2014 Don't Ignore This Week #shorts",
-    "youtube_description": "Mars squares Saturn in your 10th House and Venus shifts your love life this week, Aries. The video reveals exactly which day brings career block and which opens your heart. Comment your sign.",
-    "youtube_tags": [
-        "astrology",
-        "horoscope",
-        "aries",
-        "mars",
-        "saturn",
-        "venus",
-        "5th house",
-        "10th house",
-        "love",
-        "career",
-        "weekly forecast",
-        "zodiac"
-    ],
-    "type": "weekly",
-    "target": "Aries",
-    "date": "Jul 07 - Jul 13",
-    "images": [
-        "assets/zodiac_signs/Aries.jpg"
-    ],
-    "active": true,
-    "status": "pending",
-    "file_name": "plan_weekly_Aries.json"
+  "script_text": "Aries, the cosmic forge of fate tests your fiery Aries identity this week. Monday\u2019s Sun in your natal 4th House squares Mars in Leo, draining energy and sparking household clashes early. Tuesday settles quietly, but Wednesday\u2019s Venus enters your 5th House, blessing love and opening creative income. The pivot hits Thursday as ruling Mars exits Leo for Virgo, activating your 6th House of work. This grounds your fire element into systematic daily routine. Saturday\u2019s Venus in Leo trine Saturn in your 1st House stabilizes a career partnership with steady authority. Sunday\u2019s Sun opposes Pluto in your 11th House, warning of power struggles in money networks now. Wednesday is your power day because Venus enters your 5th House. Monday is your worst day because the Sun-Mars square fractures focus. Channel Saturn in your 1st House by locking one career task before Friday. Follow for daily updates.",
+  "captions_structure": [
+    {
+      "text": "ARIES",
+      "type": "header"
+    },
+    {
+      "text": "Aries, the cosmic forge of fate tests your fiery Aries identity this week.",
+      "type": "normal"
+    },
+    {
+      "text": "Monday\u2019s Sun in your natal 4th House squares Mars in Leo, draining energy and sparking household clashes early.",
+      "type": "normal"
+    },
+    {
+      "text": "Tuesday settles quietly, but Wednesday\u2019s Venus enters your 5th House, blessing love and opening creative income.",
+      "type": "normal"
+    },
+    {
+      "text": "The pivot hits Thursday as ruling Mars exits Leo for Virgo, activating your 6th House of work.",
+      "type": "normal"
+    },
+    {
+      "text": "This grounds your fire element into systematic daily routine.",
+      "type": "normal"
+    },
+    {
+      "text": "Saturday\u2019s Venus in Leo trine Saturn in your 1st House stabilizes a career partnership with steady authority.",
+      "type": "normal"
+    },
+    {
+      "text": "Sunday\u2019s Sun opposes Pluto in your 11th House, warning of power struggles in money networks now.",
+      "type": "normal"
+    },
+    {
+      "text": "Wednesday is your power day because Venus enters your 5th House.",
+      "type": "normal"
+    },
+    {
+      "text": "Monday is your worst day because the Sun-Mars square fractures focus.",
+      "type": "normal"
+    },
+    {
+      "text": "Channel Saturn in your 1st House by locking one career task before Friday.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for daily updates.",
+      "type": "normal"
+    }
+  ],
+  "lucky_numbers": [
+    "9",
+    "15",
+    "27"
+  ],
+  "lucky_color": "Crimson Ember",
+  "monthly_vibe": "Focused Restructuring",
+  "title": "Aries \u2014 Don't Ignore This",
+  "youtube_title": "Something Big Is Coming for Aries #shorts",
+  "youtube_description": "Aries, your ruling Mars leaps into Virgo this Thursday, rewriting your work life and daily health. Venus in your 5th House midweek sparks a love breakthrough you can't ignore. Comment your sign to see your personal message.",
+  "youtube_tags": [
+    "aries horoscope",
+    "weekly astrology",
+    "mars transit",
+    "venus love",
+    "saturn house",
+    "fire sign",
+    "cancer sun",
+    "virgo mars",
+    "cosmic shift",
+    "zodiac forecast",
+    "planetary aspects",
+    "aries prediction"
+  ],
+  "type": "weekly",
+  "target": "Aries",
+  "date": "Jul 08 - Jul 14",
+  "images": [
+    "assets/zodiac_signs/Aries.jpg"
+  ],
+  "active": true,
+  "status": "uploaded",
+  "file_name": "plan_weekly_Aries.json"
 }
