@@ -1,76 +1,54 @@
 {
-  "script_text": "Taurus, a rare cosmic shake-up is about to redefine your financial security this week. On Monday Venus\u2014your earth-sign ruler\u2014squares Saturn in your 10th House, delaying a promotion. Tuesday\u2019s Moon opposes Pluto in your 8th House stirring debt fears, but Wednesday\u2019s Mercury sextile to Jupiter in your 2nd House lands a lucrative contract. Thursday\u2019s Sun in your 3rd House trine Neptune in your 11th House clears a social misunderstanding. Friday sees Venus enter your 5th House, sparking sweet love for singles and creativity for couples. The weekend\u2019s earth-element grounding with Mars in your 6th House streamlines health and work routines. Wednesday is your power day because Mercury\u2019s sextile to Jupiter in your 2nd House multiplies income. Tuesday is your worst day because Pluto\u2019s opposition in your 8th House triggers control battles. This week, negotiate any salary raise only after Wednesday\u2019s clarity strikes. Follow for daily updates.",
-  "captions_structure": [
-    {
-      "text": "TAURUS",
-      "type": "header"
-    },
-    {
-      "text": "Taurus, a rare cosmic shake-up is about to redefine your financial security this week.",
-      "type": "normal"
-    },
-    {
-      "text": "On Monday Venus\u2014your earth-sign ruler\u2014squares Saturn in your 10th House, delaying a promotion.",
-      "type": "normal"
-    },
-    {
-      "text": "Tuesday\u2019s Moon opposes Pluto in your 8th House stirring debt fears, but Wednesday\u2019s Mercury sextile to Jupiter in your 2nd House lands a lucrative contract.",
-      "type": "normal"
-    },
-    {
-      "text": "Thursday\u2019s Sun in your 3rd House trine Neptune in your 11th House clears a social misunderstanding.",
-      "type": "normal"
-    },
-    {
-      "text": "Friday sees Venus enter your 5th House, sparking sweet love for singles and creativity for couples.",
-      "type": "normal"
-    },
-    {
-      "text": "The weekend\u2019s earth-element grounding with Mars in your 6th House streamlines health and work routines.",
-      "type": "normal"
-    },
-    {
-      "text": "Wednesday is your power day because Mercury\u2019s sextile to Jupiter in your 2nd House multiplies income.",
-      "type": "normal"
-    },
-    {
-      "text": "Tuesday is your worst day because Pluto\u2019s opposition in your 8th House triggers control battles.",
-      "type": "normal"
-    },
-    {
-      "text": "This week, negotiate any salary raise only after Wednesday\u2019s clarity strikes. Follow for daily updates.",
-      "type": "normal"
-    }
-  ],
-  "lucky_numbers": [
-    "8",
-    "17",
-    "29"
-  ],
-  "lucky_color": "Emerald Green",
-  "monthly_vibe": "Grounded Shifts",
-  "title": "Taurus \u2014 Don't Ignore This",
-  "youtube_title": "Taurus \u2014 Don't Ignore This #shorts",
-  "youtube_description": "Taurus, this week Venus squares Saturn in your 10th House then enters your 5th House of love\u2014big shifts ahead. Discover why Wednesday is your power day and Tuesday bites hardest. Comment your sign for a personal note.",
-  "youtube_tags": [
-    "taurus horoscope",
-    "weekly astrology",
-    "venus square saturn",
-    "earth sign",
-    "love forecast",
-    "career astrology",
-    "planetary transit",
-    "zodiac taurus",
-    "cosmic update",
-    "horoscope reading"
-  ],
-  "type": "weekly",
-  "target": "Taurus",
-  "date": "Jul 08 - Jul 14",
-  "images": [
-    "assets/zodiac_signs/Taurus.jpg"
-  ],
-  "active": true,
-  "status": "uploaded",
-  "file_name": "plan_weekly_Taurus.json"
+    "script_text": "Taurus, your financial bedrock cracks this week as Venus demands a bold rewrite. Early week: Monday\u2019s Mercury in your 11th House squares Uranus in your 2nd House, jolting abrupt career cash flow. Tuesday, your earthy ruler Venus trines Saturn in your 4th House, sealing loyal love. Wednesday\u2019s Mars-Neptune conjunction in your 12th House clouds judgment, worst for deals. Mid-week turning point: Thursday Venus enters Virgo, igniting your 5th House of romance. Late week: Venus trines Jupiter in your 3rd House, sparking sweet weekend dating joy. Sunday\u2019s Sun sextile Pluto in your 10th House brings real career acclaim. The weekend glows for pragmatic stable earth sign Taurus. Wednesday is your worst day because Mars-Neptune fog in your 12th House confuses. Saturday is your power day because Venus-Jupiter trine magnifies 5th House passion. Clearly review budgets Tuesday before Uranus hits your 2nd House. Follow for daily updates.",
+    "captions_structure": [
+        {
+            "text": "TAURUS",
+            "type": "header"
+        },
+        {
+            "text": "Taurus, your financial bedrock cracks this week as Venus demands a bold rewrite. Early week: Monday\u2019s Mercury in your 11th House squares Uranus in your 2nd House, jolting abrupt career cash flow. Tuesday, your earthy ruler Venus trines Saturn in your 4th House, sealing loyal love. Wednesday\u2019s Mars-Neptune conjunction in your 12th House clouds judgment, worst for deals.",
+            "type": "normal"
+        },
+        {
+            "text": "Mid-week turning point: Thursday Venus enters Virgo, igniting your 5th House of romance. Late week: Venus trines Jupiter in your 3rd House, sparking sweet weekend dating joy. Sunday\u2019s Sun sextile Pluto in your 10th House brings real career acclaim. The weekend glows for pragmatic stable earth sign Taurus.",
+            "type": "normal"
+        },
+        {
+            "text": "Wednesday is your worst day because Mars-Neptune fog in your 12th House confuses. Saturday is your power day because Venus-Jupiter trine magnifies 5th House passion. Clearly review budgets Tuesday before Uranus hits your 2nd House. Follow for daily updates.",
+            "type": "normal"
+        }
+    ],
+    "lucky_numbers": [
+        "7",
+        "11",
+        "21"
+    ],
+    "lucky_color": "Emerald Green",
+    "monthly_vibe": "Grounding & Shifting",
+    "title": "Taurus Weekly Horoscope July 09, 2026",
+    "youtube_title": "Taurus: Venus Demands Rewrite #shorts",
+    "youtube_description": "Taurus, this week Venus triggers a sudden rewrite of your cash flow and love life through exact house transits. We break down the July 9-15 alignments that spark career acclaim and weekend romance. Comment your sign to get your personalized reading.",
+    "youtube_tags": [
+        "taurus horoscope",
+        "weekly astrology",
+        "venus transit",
+        "earth sign",
+        "love prediction",
+        "career money",
+        "house placements",
+        "planetary aspects",
+        "taurus july 2026",
+        "cosmic forecast",
+        "zodiac taurus",
+        "astrology update"
+    ],
+    "type": "weekly",
+    "target": "Taurus",
+    "date": "Jul 09 - Jul 15",
+    "images": [
+        "assets/zodiac_signs/Taurus.jpg"
+    ],
+    "active": true,
+    "status": "pending",
+    "file_name": "plan_weekly_Taurus.json"
 }
