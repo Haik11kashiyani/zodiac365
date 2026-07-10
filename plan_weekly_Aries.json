@@ -1,50 +1,70 @@
 {
-    "script_text": "Aries, a rare fire storm ignites your chart this week, shaking the foundations of love and ambition. On Monday, Mars your ruling planet squares Pluto in your 11th House, stirring deep friend conflict and delay. Tuesday, Mercury sextiles Jupiter in your 5th House, sparking romantic messages and extra side income. Wednesday, Sun in your 4th House opposes Saturn in your 1st House, forcing home identity clashes. Midweek shifts as Thursday Venus enters Leo in your 5th House, radiant for love creativity. Thursday through Sunday, Jupiter in your 5th House draws new suitors while Saturday\u2019s Sun trine Uranus in your 10th House triggers sudden career bonus. The weekend blends playful fire with real professional reward. Thursday is your power day because Venus enters your 5th House. Monday is your worst day because Mars squares Pluto in your 11th House tension. Channel your fire element by launching that bold creative pitch before Saturday. Follow for daily updates.",
+    "script_text": "A cosmic eruption in your first house shatters Aries' old identity this week. Your ruling planet Mars, fire personified, squares Saturn in your 1st house Monday and Tuesday, sparking 7th-house partnership friction. Yet Mercury in your 5th trines Jupiter in your 4th on Wednesday, funding a creative venture; Venus in Leo heats love until the 12th, while career pressure peaks Tuesday. The July 12 Venus entrance into Virgo, your 6th house, shifts romance to practical service. Thursday's Sun in Cancer sextiles Mars in Libra, easing negotiations and joint finances. Weekend favors career as Jupiter in your 4th backs a property move; Sunday's quiet fire aids reflection. Thursday is your power day because Sun sextiles Mars in your 7th house. Tuesday is worst as Mars squares Saturn in your 1st. Formalize a home income stream under Saturn's discipline. Follow for daily updates.",
     "captions_structure": [
         {
             "text": "ARIES",
             "type": "header"
         },
         {
-            "text": "A rare fire storm ignites your chart this week, shaking foundations of love and ambition.",
+            "text": "A cosmic eruption in your first house shatters Aries' old identity this week.",
             "type": "normal"
         },
         {
-            "text": "Mars squares Pluto in your 11th House Monday; Mercury sextiles Jupiter in 5th Tuesday.",
+            "text": "Your ruling planet Mars, fire personified, squares Saturn in your 1st house Monday and Tuesday, sparking 7th-house partnership friction.",
             "type": "normal"
         },
         {
-            "text": "Thursday Venus enters your 5th House\u2014your power day for love and creativity.",
+            "text": "Yet Mercury in your 5th trines Jupiter in your 4th on Wednesday, funding a creative venture; Venus in Leo heats love until the 12th, while career pressure peaks Tuesday.",
+            "type": "normal"
+        },
+        {
+            "text": "The July 12 Venus entrance into Virgo, your 6th house, shifts romance to practical service.",
+            "type": "normal"
+        },
+        {
+            "text": "Thursday's Sun in Cancer sextiles Mars in Libra, easing negotiations and joint finances.",
+            "type": "normal"
+        },
+        {
+            "text": "Weekend favors career as Jupiter in your 4th backs a property move; Sunday's quiet fire aids reflection.",
+            "type": "normal"
+        },
+        {
+            "text": "Thursday is your power day because Sun sextiles Mars in your 7th house. Tuesday is worst as Mars squares Saturn in your 1st.",
+            "type": "normal"
+        },
+        {
+            "text": "Formalize a home income stream under Saturn's discipline. Follow for daily updates.",
             "type": "normal"
         }
     ],
     "lucky_numbers": [
-        "8",
-        "17",
-        "29"
+        "9",
+        "14",
+        "27"
     ],
-    "lucky_color": "Ruby Red",
-    "monthly_vibe": "Fiery Momentum",
-    "title": "Aries \u2014 Fire Storm Shakes Your Week",
-    "youtube_title": "Aries: Rare Fire Storm This Week #shorts",
-    "youtube_description": "Aries, Mars squares Pluto in your 11th House and Venus enters your 5th House midweek\u2014love and career are about to shift hard. Watch to see why Thursday is your power day and Monday bites. Comment your sign!",
+    "lucky_color": "Crimson Red",
+    "monthly_vibe": "Structural Rebirth",
+    "title": "Aries: Why July 12 Changes You",
+    "youtube_title": "Aries: Why July 12 Changes You #shorts",
+    "youtube_description": "Aries, your ruling Mars squares Saturn this week, shaking partnerships to the core. Discover how Venus entering Virgo on July 12 redirects your love life and career. Comment your sign for a personal reading.",
     "youtube_tags": [
         "aries horoscope",
         "weekly astrology",
+        "mars saturn",
+        "venus virgo",
+        "cancer season",
         "fire sign",
-        "mars pluto",
-        "venus leo",
-        "5th house",
-        "career forecast",
-        "love prediction",
-        "planetary transit",
-        "cosmic energy",
-        "zodiac forecast",
-        "midweek shift"
+        "love forecast",
+        "career astrology",
+        "saturn first house",
+        "jupiter fourth house",
+        "cosmic transit",
+        "zodiac prediction"
     ],
     "type": "weekly",
     "target": "Aries",
-    "date": "Jul 09 - Jul 15",
+    "date": "Jul 10 - Jul 16",
     "images": [
         "assets/zodiac_signs/Aries.jpg"
     ],
