@@ -1,74 +1,62 @@
 {
-    "script_text": "A cosmic eruption in your first house shatters Aries' old identity this week. Your ruling planet Mars, fire personified, squares Saturn in your 1st house Monday and Tuesday, sparking 7th-house partnership friction. Yet Mercury in your 5th trines Jupiter in your 4th on Wednesday, funding a creative venture; Venus in Leo heats love until the 12th, while career pressure peaks Tuesday. The July 12 Venus entrance into Virgo, your 6th house, shifts romance to practical service. Thursday's Sun in Cancer sextiles Mars in Libra, easing negotiations and joint finances. Weekend favors career as Jupiter in your 4th backs a property move; Sunday's quiet fire aids reflection. Thursday is your power day because Sun sextiles Mars in your 7th house. Tuesday is worst as Mars squares Saturn in your 1st. Formalize a home income stream under Saturn's discipline. Follow for daily updates.",
-    "captions_structure": [
-        {
-            "text": "ARIES",
-            "type": "header"
-        },
-        {
-            "text": "A cosmic eruption in your first house shatters Aries' old identity this week.",
-            "type": "normal"
-        },
-        {
-            "text": "Your ruling planet Mars, fire personified, squares Saturn in your 1st house Monday and Tuesday, sparking 7th-house partnership friction.",
-            "type": "normal"
-        },
-        {
-            "text": "Yet Mercury in your 5th trines Jupiter in your 4th on Wednesday, funding a creative venture; Venus in Leo heats love until the 12th, while career pressure peaks Tuesday.",
-            "type": "normal"
-        },
-        {
-            "text": "The July 12 Venus entrance into Virgo, your 6th house, shifts romance to practical service.",
-            "type": "normal"
-        },
-        {
-            "text": "Thursday's Sun in Cancer sextiles Mars in Libra, easing negotiations and joint finances.",
-            "type": "normal"
-        },
-        {
-            "text": "Weekend favors career as Jupiter in your 4th backs a property move; Sunday's quiet fire aids reflection.",
-            "type": "normal"
-        },
-        {
-            "text": "Thursday is your power day because Sun sextiles Mars in your 7th house. Tuesday is worst as Mars squares Saturn in your 1st.",
-            "type": "normal"
-        },
-        {
-            "text": "Formalize a home income stream under Saturn's discipline. Follow for daily updates.",
-            "type": "normal"
-        }
-    ],
-    "lucky_numbers": [
-        "9",
-        "14",
-        "27"
-    ],
-    "lucky_color": "Crimson Red",
-    "monthly_vibe": "Structural Rebirth",
-    "title": "Aries: Why July 12 Changes You",
-    "youtube_title": "Aries: Why July 12 Changes You #shorts",
-    "youtube_description": "Aries, your ruling Mars squares Saturn this week, shaking partnerships to the core. Discover how Venus entering Virgo on July 12 redirects your love life and career. Comment your sign for a personal reading.",
-    "youtube_tags": [
-        "aries horoscope",
-        "weekly astrology",
-        "mars saturn",
-        "venus virgo",
-        "cancer season",
-        "fire sign",
-        "love forecast",
-        "career astrology",
-        "saturn first house",
-        "jupiter fourth house",
-        "cosmic transit",
-        "zodiac prediction"
-    ],
-    "type": "weekly",
-    "target": "Aries",
-    "date": "Jul 10 - Jul 16",
-    "images": [
-        "assets/zodiac_signs/Aries.jpg"
-    ],
-    "active": true,
-    "status": "pending",
-    "file_name": "plan_weekly_Aries.json"
+  "script_text": "A cosmic reckoning ignites your 1st House as Saturn freezes your Fire element. Monday\u2019s Sun in your 4th House squares ruling Mars in your 6th, sparking work-family tension. Tuesday\u2019s Mercury in your 5th sextiles Mars, boosting career communication and romantic charm. Wednesday\u2019s Venus enters your 5th House, amplifying romantic allure and speculative income. Thursday\u2019s Uranus in your 3rd House squares Saturn in your 1st, forcing sudden self-reinvention. This aspect disrupts routines but clarifies your fiery purpose. Friday\u2019s Venus in your 5th trine Neptune in your 1st blesses love with mystic fire. Saturday\u2019s Sun-Jupiter opposition across your 4th and 10th Houses strains career against home life. Friday is your power day because Venus in your 5th trines Neptune in your 1st. Monday is your worst day because Sun squares Mars across 4th and 6th Houses. Use your Fire element to launch a bold 10th-House career move now. Follow for daily updates.",
+  "captions_structure": [
+    {
+      "text": "ARIES",
+      "type": "header"
+    },
+    {
+      "text": "A cosmic reckoning ignites your 1st House as Saturn freezes your Fire element.",
+      "type": "normal"
+    },
+    {
+      "text": "Monday\u2019s Sun in your 4th House squares ruling Mars in your 6th, sparking work-family tension.",
+      "type": "normal"
+    },
+    {
+      "text": "Wednesday\u2019s Venus enters your 5th House, amplifying romantic allure and speculative income.",
+      "type": "normal"
+    },
+    {
+      "text": "Friday\u2019s Venus in your 5th trine Neptune in your 1st blesses love with mystic fire.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for daily updates.",
+      "type": "normal"
+    }
+  ],
+  "lucky_numbers": [
+    "3",
+    "17",
+    "29"
+  ],
+  "lucky_color": "Crimson Ember",
+  "monthly_vibe": "Bold Restructuring",
+  "title": "Aries \u2014 Don't Ignore Saturn's Grip",
+  "youtube_title": "Aries \u2014 Don't Ignore Saturn's Grip #shorts",
+  "youtube_description": "This week Saturn in your 1st House triggers a fiery reckoning that reshapes love and career paths. Discover why Friday\u2019s Venus-Neptune trine is your romantic breakthrough and how the Sun-Jupiter opposition tests your ambition. Comment your sign to get your personalized reading.",
+  "youtube_tags": [
+    "aries horoscope",
+    "saturn in aries",
+    "venus trine neptune",
+    "weekly astrology",
+    "fire sign",
+    "career forecast",
+    "love prediction",
+    "mars ruling",
+    "cosmic transit",
+    "zodiac forecast",
+    "astrology update",
+    "house placements"
+  ],
+  "type": "weekly",
+  "target": "Aries",
+  "date": "Jul 11 - Jul 17",
+  "images": [
+    "assets/zodiac_signs/Aries.jpg"
+  ],
+  "active": true,
+  "status": "uploaded",
+  "file_name": "plan_weekly_Aries.json"
 }
