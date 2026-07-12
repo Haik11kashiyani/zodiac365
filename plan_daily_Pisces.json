@@ -1,5 +1,5 @@
 {
-  "script_text": "Stop! Pisces, the stars are screaming at you right now. Your ruling planet Neptune, modern governor of Pisces and master of illusion, sits in Aries and forms an exact tightening square to the Sun in Cancer. This frictional aspect pulses through your 2nd House of personal resources and your 5th House of romantic creativity, deeply unsettling the usually fluid Water sign rhythm. If you are single, the nebulous 5th House mist attracts a dreamy Pisces-compatible Scorpio; if committed, beware a lover blurring lines around joint savings tonight. Meanwhile, your 10th House of career status receives a bright trine from Mercury in Leo to Neptune, signaling an unsolicited promotion or client referral from a charismatic leader. Unexpected blessing: a stalled royalty payment clears before midnight, flooding your 2nd House with surprise income. Subscribe so you don't miss what's coming this week.",
+  "script_text": "Stop! Pisces, the stars are screaming at you right now. Mars in Virgo squares your ruling planet Neptune in Aries, firing friction through your 7th House of Partnerships while Neptune\u2019s water element churns your 2nd House of money. Venus in Gemini trines Jupiter in Cancer, lighting your 5th House of romance with expansive grace. This alignment exposes where dreamy illusion meets daily obligation. Singles should attract a soulful water-sign match by radiating mystical allure. Couples must clarify vague financial vows before nightfall or Neptune\u2019s haze breeds resentment. In your 10th House of Career, Pluto in Aquarius sextiles Saturn in Aries, rewarding a disciplined creative pitch with sudden promotion and lasting influence. Avoid lending money under Mercury\u2019s shadow in your 3rd House of communication, or a betrayed confidence will cost you. Subscribe so you don\u2019t miss what\u2019s coming this week.",
   "captions_structure": [
     {
       "text": "PISCES",
@@ -10,53 +10,57 @@
       "type": "normal"
     },
     {
-      "text": "Your ruling planet Neptune, modern governor of Pisces and master of illusion, sits in Aries and forms an exact tightening square to the Sun in Cancer.",
+      "text": "Mars squares Neptune in Aries, friction in 7th House.",
       "type": "normal"
     },
     {
-      "text": "This frictional aspect pulses through your 2nd House of personal resources and your 5th House of romantic creativity, deeply unsettling the usually fluid Water sign rhythm.",
+      "text": "Venus trines Jupiter in your 5th House of romance.",
       "type": "normal"
     },
     {
-      "text": "If you are single, the nebulous 5th House mist attracts a dreamy Pisces-compatible Scorpio; if committed, beware a lover blurring lines around joint savings tonight.",
+      "text": "Singles attract water-sign love; couples clarify finances.",
       "type": "normal"
     },
     {
-      "text": "Meanwhile, your 10th House of career status receives a bright trine from Mercury in Leo to Neptune, signaling an unsolicited promotion or client referral from a charismatic leader.",
+      "text": "Career: Pluto sextiles Saturn in 10th House.",
       "type": "normal"
     },
     {
-      "text": "Unexpected blessing: a stalled royalty payment clears before midnight, flooding your 2nd House with surprise income. Subscribe so you don't miss what's coming this week.",
+      "text": "Avoid loans under Mercury shadow in 3rd House.",
+      "type": "normal"
+    },
+    {
+      "text": "Subscribe so you don\u2019t miss what\u2019s coming this week.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
     "4",
-    "13",
-    "28"
+    "17",
+    "29"
   ],
-  "lucky_color": "Seafoam Teal",
-  "monthly_vibe": "Mystical Transition",
-  "title": "Pisces \u2014 Neptune Square Sun Warning",
-  "youtube_title": "Pisces \u2014 Neptune Square Sun Warning #shorts",
-  "youtube_description": "Pisces, your ruling Neptune is squaring the Sun and stirring your money and love sectors on July 11. Discover the unexpected blessing heading to your 2nd House tonight. Comment your sign to activate your personalized reading.",
+  "lucky_color": "Aquamarine Blue",
+  "monthly_vibe": "Dreamy Introspection",
+  "title": "Pisces \u2014 Don't Ignore This Cosmic Warning",
+  "youtube_title": "Pisces Stars Scream a Warning Today #shorts",
+  "youtube_description": "Pisces, Mars is squaring your ruler Neptune right now, stirring partnership and money clashes you can't ignore. This reading reveals how Venus trine Jupiter opens your love sector and what to avoid in communication. Comment your sign for a personalized insight.",
   "youtube_tags": [
     "pisces horoscope",
     "daily astrology",
-    "neptune square",
-    "sun in cancer",
-    "5th house love",
-    "10th house career",
+    "neptune transit",
+    "mars square",
+    "love prediction",
+    "career astrology",
     "water sign",
-    "lucky color",
+    "zodiac reading",
     "cosmic warning",
-    "birth chart",
-    "zodiac pisces",
-    "planetary transit"
+    "planetary aspects",
+    "horoscope july 2026",
+    "astrology forecast"
   ],
   "type": "daily",
   "target": "Pisces",
-  "date": "July 11, 2026",
+  "date": "July 12, 2026",
   "images": [
     "assets/zodiac_signs/Pisces.jpg"
   ],
