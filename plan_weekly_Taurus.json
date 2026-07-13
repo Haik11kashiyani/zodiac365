@@ -1,78 +1,58 @@
 {
-  "script_text": "Taurus, the ground beneath your quiet world is about to shift in ways you can't ignore. Early week, Monday's Mars-Saturn square across your 11th and 2nd houses hits your wallet hard, making joint ventures tense. By Wednesday, Venus\u2014your earthy ruler\u2014trines Pluto in your 10th house, turning a snag into promotion talk. The key shift arrives Thursday when Mercury enters Virgo in your 5th house, rewriting your love language. Late week, that Mercury placement sparks weekend flirtations that turn serious under Saturday's Sun-Venus sextile boosting romantic income. Pluto steady in your 10th house rewards a bold Sunday career proposal. Wednesday is your power day because Venus trines Pluto in your 10th House, unlocking career leverage. Monday is your worst day because Mars squares Saturn in your 2nd and 11th Houses, freezing cash flow. Ground your earth sign by signing only after Thursday's Mercury clarity. Follow for daily updates.",
-  "captions_structure": [
-    {
-      "text": "TAURUS",
-      "type": "header"
-    },
-    {
-      "text": "Taurus, the ground beneath your quiet world is about to shift in ways you can't ignore.",
-      "type": "normal"
-    },
-    {
-      "text": "Early week, Monday's Mars-Saturn square across your 11th and 2nd houses hits your wallet hard, making joint ventures tense.",
-      "type": "normal"
-    },
-    {
-      "text": "By Wednesday, Venus\u2014your earthy ruler\u2014trines Pluto in your 10th house, turning a snag into promotion talk.",
-      "type": "normal"
-    },
-    {
-      "text": "The key shift arrives Thursday when Mercury enters Virgo in your 5th house, rewriting your love language.",
-      "type": "normal"
-    },
-    {
-      "text": "Late week, that Mercury placement sparks weekend flirtations that turn serious under Saturday's Sun-Venus sextile boosting romantic income.",
-      "type": "normal"
-    },
-    {
-      "text": "Pluto steady in your 10th house rewards a bold Sunday career proposal.",
-      "type": "normal"
-    },
-    {
-      "text": "Wednesday is your power day because Venus trines Pluto in your 10th House, unlocking career leverage.",
-      "type": "normal"
-    },
-    {
-      "text": "Monday is your worst day because Mars squares Saturn in your 2nd and 11th Houses, freezing cash flow.",
-      "type": "normal"
-    },
-    {
-      "text": "Ground your earth sign by signing only after Thursday's Mercury clarity. Follow for daily updates.",
-      "type": "normal"
-    }
-  ],
-  "lucky_numbers": [
-    "7",
-    "11",
-    "21"
-  ],
-  "lucky_color": "Emerald Green",
-  "monthly_vibe": "Earthy Shift",
-  "title": "Taurus Weekly Horoscope July 12, 2026",
-  "youtube_title": "Taurus Ground Shift You Can't Ignore #shorts",
-  "youtube_description": "Taurus, this week a rare Venus-Pluto trine in your 10th house could reshape your career path while Monday's Mars-Saturn square threatens cash flow. Discover the exact turning point that rewrites your love life. Comment your sign for a personalized reading.",
-  "youtube_tags": [
-    "taurus horoscope",
-    "weekly astrology",
-    "venus pluto",
-    "earth sign",
-    "career prediction",
-    "love forecast",
-    "mercury virgo",
-    "saturn square",
-    "cosmic shift",
-    "zodiac taurus",
-    "astrology reading",
-    "planetary transit"
-  ],
-  "type": "weekly",
-  "target": "Taurus",
-  "date": "Jul 12 - Jul 18",
-  "images": [
-    "assets/zodiac_signs/Taurus.jpg"
-  ],
-  "active": true,
-  "status": "uploaded",
-  "file_name": "plan_weekly_Taurus.json"
+    "script_text": "A silent seismic shift in your values rocks Taurus this week. Monday sees Venus, your Earth-ruling planet, sextile Pluto in your 10th House, sparking career money gains. Tuesday\u2019s Mars-Saturn square across your 7th and 4th Houses breeds love and home strife\u2014your worst day. Wednesday Sun trine Uranus in your 12th House brings news. The midweek turning point comes as Mercury opposite Neptune in your 4th and 10th Houses blurs focus. Thursday through Sunday, Sun trines Mars in your 7th House, lifting partnerships and weekend joy. Friday\u2019s Jupiter in your 1st House trine Venus in your 5th House boosts love and side income. The weekend favors earth-element grounding to secure gains. Thursday is your power day because Venus enters your 5th House of romance. Tuesday is worst as Mars square Saturn hits love and career. Anchor money in tangible earth routines, not whims. Follow for daily updates.",
+    "captions_structure": [
+        {
+            "text": "TAURUS",
+            "type": "header"
+        },
+        {
+            "text": "A silent seismic shift in your values rocks Taurus this week.",
+            "type": "normal"
+        },
+        {
+            "text": "Venus sextiles Pluto in your 10th House Monday for career gains.",
+            "type": "normal"
+        },
+        {
+            "text": "Midweek Mercury opposite Neptune blurs home and work focus.",
+            "type": "normal"
+        },
+        {
+            "text": "Thursday power day: Venus enters your 5th House of romance.",
+            "type": "normal"
+        }
+    ],
+    "lucky_numbers": [
+        "7",
+        "18",
+        "29"
+    ],
+    "lucky_color": "Emerald Green",
+    "monthly_vibe": "Grounding & Shift",
+    "title": "Taurus \u2014 A Silent Shift In Values",
+    "youtube_title": "Taurus Silent Shift Rocks Your Values #shorts",
+    "youtube_description": "Taurus, a silent seismic shift in your values begins as Venus sextiles Pluto in your 10th House, opening career money gains. Tuesday\u2019s Mars-Saturn square warns of love and home strife\u2014your worst day. Comment your sign.",
+    "youtube_tags": [
+        "astrology",
+        "horoscope",
+        "taurus",
+        "weekly forecast",
+        "venus transit",
+        "earth sign",
+        "love horoscope",
+        "career astrology",
+        "planetary aspects",
+        "taurus horoscope",
+        "cosmic prediction",
+        "zodiac taurus"
+    ],
+    "type": "weekly",
+    "target": "Taurus",
+    "date": "Jul 13 - Jul 19",
+    "images": [
+        "assets/zodiac_signs/Taurus.jpg"
+    ],
+    "active": true,
+    "status": "pending",
+    "file_name": "plan_weekly_Taurus.json"
 }
