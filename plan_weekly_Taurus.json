@@ -1,58 +1,86 @@
 {
-    "script_text": "A silent seismic shift in your values rocks Taurus this week. Monday sees Venus, your Earth-ruling planet, sextile Pluto in your 10th House, sparking career money gains. Tuesday\u2019s Mars-Saturn square across your 7th and 4th Houses breeds love and home strife\u2014your worst day. Wednesday Sun trine Uranus in your 12th House brings news. The midweek turning point comes as Mercury opposite Neptune in your 4th and 10th Houses blurs focus. Thursday through Sunday, Sun trines Mars in your 7th House, lifting partnerships and weekend joy. Friday\u2019s Jupiter in your 1st House trine Venus in your 5th House boosts love and side income. The weekend favors earth-element grounding to secure gains. Thursday is your power day because Venus enters your 5th House of romance. Tuesday is worst as Mars square Saturn hits love and career. Anchor money in tangible earth routines, not whims. Follow for daily updates.",
-    "captions_structure": [
-        {
-            "text": "TAURUS",
-            "type": "header"
-        },
-        {
-            "text": "A silent seismic shift in your values rocks Taurus this week.",
-            "type": "normal"
-        },
-        {
-            "text": "Venus sextiles Pluto in your 10th House Monday for career gains.",
-            "type": "normal"
-        },
-        {
-            "text": "Midweek Mercury opposite Neptune blurs home and work focus.",
-            "type": "normal"
-        },
-        {
-            "text": "Thursday power day: Venus enters your 5th House of romance.",
-            "type": "normal"
-        }
-    ],
-    "lucky_numbers": [
-        "7",
-        "18",
-        "29"
-    ],
-    "lucky_color": "Emerald Green",
-    "monthly_vibe": "Grounding & Shift",
-    "title": "Taurus \u2014 A Silent Shift In Values",
-    "youtube_title": "Taurus Silent Shift Rocks Your Values #shorts",
-    "youtube_description": "Taurus, a silent seismic shift in your values begins as Venus sextiles Pluto in your 10th House, opening career money gains. Tuesday\u2019s Mars-Saturn square warns of love and home strife\u2014your worst day. Comment your sign.",
-    "youtube_tags": [
-        "astrology",
-        "horoscope",
-        "taurus",
-        "weekly forecast",
-        "venus transit",
-        "earth sign",
-        "love horoscope",
-        "career astrology",
-        "planetary aspects",
-        "taurus horoscope",
-        "cosmic prediction",
-        "zodiac taurus"
-    ],
-    "type": "weekly",
-    "target": "Taurus",
-    "date": "Jul 13 - Jul 19",
-    "images": [
-        "assets/zodiac_signs/Taurus.jpg"
-    ],
-    "active": true,
-    "status": "pending",
-    "file_name": "plan_weekly_Taurus.json"
+  "script_text": "A cosmic quake rattles your steady earthy Taurus world this week. Your ruling Venus in Virgo trines Pluto in Aquarius in your 10th House Monday, fueling career acclaim from authority. Tuesday Mars in Virgo squares Jupiter in Leo in your 4th House, sparking home-work clash\u2014worst for contracts. Earth element grounds you as Sun conjunct Mercury in your 3rd House sharpens client talks. Wednesday Mercury enters Leo in your 4th House, pivoting your focus to domestic safety. Thursday Sun sextiles Uranus in Gemini in your 2nd House, delivering surprise income. Over the weekend, Venus opposes Neptune in Aries in your 12th House, so love feels illusory\u2014stay pragmatic. Wednesday is your power day as Mercury lights your 4th House. Tuesday is worst as Mars squares Jupiter disrupting peace. Use earthy pragmatism to audit budget before signing. Follow for daily updates.",
+  "captions_structure": [
+    {
+      "text": "TAURUS",
+      "type": "header"
+    },
+    {
+      "text": "A cosmic quake rattles your steady earthy Taurus world this week.",
+      "type": "normal"
+    },
+    {
+      "text": "Your ruling Venus in Virgo trines Pluto in Aquarius in your 10th House Monday, fueling career acclaim from authority.",
+      "type": "normal"
+    },
+    {
+      "text": "Tuesday Mars in Virgo squares Jupiter in Leo in your 4th House, sparking home-work clash\u2014worst for contracts.",
+      "type": "normal"
+    },
+    {
+      "text": "Earth element grounds you as Sun conjunct Mercury in your 3rd House sharpens client talks.",
+      "type": "normal"
+    },
+    {
+      "text": "Wednesday Mercury enters Leo in your 4th House, pivoting your focus to domestic safety.",
+      "type": "normal"
+    },
+    {
+      "text": "Thursday Sun sextiles Uranus in Gemini in your 2nd House, delivering surprise income.",
+      "type": "normal"
+    },
+    {
+      "text": "Over the weekend, Venus opposes Neptune in Aries in your 12th House, so love feels illusory\u2014stay pragmatic.",
+      "type": "normal"
+    },
+    {
+      "text": "Wednesday is your power day as Mercury lights your 4th House.",
+      "type": "normal"
+    },
+    {
+      "text": "Tuesday is worst as Mars squares Jupiter disrupting peace.",
+      "type": "normal"
+    },
+    {
+      "text": "Use earthy pragmatism to audit budget before signing.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for daily updates.",
+      "type": "normal"
+    }
+  ],
+  "lucky_numbers": [
+    "4",
+    "17",
+    "29"
+  ],
+  "lucky_color": "Emerald Green",
+  "monthly_vibe": "Earthy Shifts",
+  "title": "Taurus \u2014 Don't Ignore This",
+  "youtube_title": "Taurus: A Cosmic Quake Incoming #shorts",
+  "youtube_description": "Your ruling Venus trines Pluto in your 10th House this week, Taurus, opening a rare career door. But Tuesday's Mars square Jupiter could wreck home peace. Comment your sign for a personal read.",
+  "youtube_tags": [
+    "taurus horoscope",
+    "weekly astrology",
+    "venus trine pluto",
+    "earth sign",
+    "career prediction",
+    "love horoscope",
+    "sun sextile uranus",
+    "mars square jupiter",
+    "zodiac forecast",
+    "cosmic energy",
+    "planetary transit",
+    "taurus weekly"
+  ],
+  "type": "weekly",
+  "target": "Taurus",
+  "date": "Jul 14 - Jul 20",
+  "images": [
+    "assets/zodiac_signs/Taurus.jpg"
+  ],
+  "active": true,
+  "status": "uploaded",
+  "file_name": "plan_weekly_Taurus.json"
 }
