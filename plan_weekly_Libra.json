@@ -1,56 +1,66 @@
 {
-  "script_text": "Libra, a hidden cosmic alliance is rewriting your destiny this week. As an Air sign ruled by Venus, her Monday trine to Saturn in your 7th House secures a partnership pledge. Wednesday\u2019s Mercury-Jupiter conjunction in your 10th House wins a raise; Tuesday\u2019s Venus-Mars sextile in your 9th sparks love abroad. The Thursday Capricorn Full Moon in your 4th House of roots forces a home-life reckoning. Weekend Sun trine Neptune in your 7th House heals bonds; Pluto in Aquarius (5th) squares your 2nd, cautioning risky spending. Sunday\u2019s Airy calm restores Libra equilibrium. A small creative commission arrives Saturday. Wednesday is your power day because Mercury-Jupiter in your 10th House magnifies career triumph. Friday is your worst day because Mars square Pluto in your 5th House fuels love strife. Write down monetary goals before Thursday\u2019s Full Moon to protect your 2nd House. Follow for daily updates.",
-  "captions_structure": [
-    {
-      "text": "LIBRA",
-      "type": "header"
-    },
-    {
-      "text": "Libra, a hidden cosmic alliance is rewriting your destiny this week.",
-      "type": "normal"
-    },
-    {
-      "text": "As an Air sign ruled by Venus, her Monday trine to Saturn in your 7th House secures a partnership pledge.",
-      "type": "normal"
-    },
-    {
-      "text": "Wednesday\u2019s Mercury-Jupiter conjunction in your 10th House wins a raise; Tuesday\u2019s Venus-Mars sextile in your 9th sparks love abroad.",
-      "type": "normal"
-    },
-    {
-      "text": "The Thursday Capricorn Full Moon in your 4th House of roots forces a home-life reckoning.",
-      "type": "normal"
-    }
-  ],
-  "lucky_numbers": [
-    "8",
-    "15",
-    "22"
-  ],
-  "lucky_color": "Sky Blue",
-  "monthly_vibe": "Airy Transformation",
-  "title": "Libra \u2014 Don't Ignore This Cosmic Shift",
-  "youtube_title": "Libra \u2014 Don't Ignore This Cosmic Shift #shorts",
-  "youtube_description": "Libra, your ruling Venus is triggering fated moves in your 7th and 10th houses this week\u2014partnerships and career collide. The Thursday Full Moon in your 4th will force a home truth you can't unsee. Comment your sign to unlock your personal reading.",
-  "youtube_tags": [
-    "libra horoscope",
-    "weekly astrology",
-    "venus transit",
-    "saturn trine",
-    "full moon",
-    "career prediction",
-    "love forecast",
-    "air sign",
-    "cosmic shift",
-    "planetary aspects"
-  ],
-  "type": "weekly",
-  "target": "Libra",
-  "date": "Jul 12 - Jul 18",
-  "images": [
-    "assets/zodiac_signs/Libra.jpg"
-  ],
-  "active": true,
-  "status": "uploaded",
-  "file_name": "plan_weekly_Libra.json"
+    "script_text": "A dramatic cosmic shake-up targets your balance this week, Libra. As an Air sign ruled by Venus, you'll feel Monday's Sun in your 10th House square Saturn in your 7th House, making it your worst day as work clashes with partnership. Tuesday brings relief when Venus sextiles Mars in your 2nd House, sparking financial gains and flirtatious charm. Midweek Venus enters your 5th House of romance on Wednesday, shifting your heart toward playful love and marking your power day. Late week Jupiter enters Leo your 11th House on Thursday, expanding networks and visibility, while weekend Sun trine Neptune sweetens intuitive money moves. Wednesday is your power day because Venus enters your 5th House of love. Monday is your worst day because Sun square Saturn strains your 10th and 7th House obligations. Launch that joint venture with a partner before Thursday's Jupiter boost. Follow for daily updates.",
+    "captions_structure": [
+        {
+            "text": "LIBRA",
+            "type": "header"
+        },
+        {
+            "text": "A dramatic cosmic shake-up targets your balance this week, Libra.",
+            "type": "normal"
+        },
+        {
+            "text": "As an Air sign ruled by Venus, you'll feel Monday's Sun in your 10th House square Saturn in your 7th House, making it your worst day as work clashes with partnership. Tuesday brings relief when Venus sextiles Mars in your 2nd House, sparking financial gains and flirtatious charm.",
+            "type": "normal"
+        },
+        {
+            "text": "Midweek Venus enters your 5th House of romance on Wednesday, shifting your heart toward playful love and marking your power day.",
+            "type": "normal"
+        },
+        {
+            "text": "Late week Jupiter enters Leo your 11th House on Thursday, expanding networks and visibility, while weekend Sun trine Neptune sweetens intuitive money moves.",
+            "type": "normal"
+        },
+        {
+            "text": "Wednesday is your power day because Venus enters your 5th House of love. Monday is your worst day because Sun square Saturn strains your 10th and 7th House obligations.",
+            "type": "normal"
+        },
+        {
+            "text": "Launch that joint venture with a partner before Thursday's Jupiter boost. Follow for daily updates.",
+            "type": "normal"
+        }
+    ],
+    "lucky_numbers": [
+        "7",
+        "14",
+        "29"
+    ],
+    "lucky_color": "Celestial Blue",
+    "monthly_vibe": "Network Growth",
+    "title": "Libra \u2014 Jupiter Enters Your 11th",
+    "youtube_title": "Libra: Jupiter's Power Move This Week #shorts",
+    "youtube_description": "This week a rare Jupiter shift into your 11th House reshapes your social and career path, Libra. Venus also sparks romance in your 5th House midweek\u2014don't miss it. Comment your sign.",
+    "youtube_tags": [
+        "libra horoscope",
+        "cosmic energy",
+        "jupiter transit",
+        "saturn square",
+        "venus ruler",
+        "air sign",
+        "weekly forecast",
+        "love prediction",
+        "career astrology",
+        "midweek shift",
+        "lucky color",
+        "astrology 2026"
+    ],
+    "type": "weekly",
+    "target": "Libra",
+    "date": "Jul 15 - Jul 21",
+    "images": [
+        "assets/zodiac_signs/Libra.jpg"
+    ],
+    "active": true,
+    "status": "pending",
+    "file_name": "plan_weekly_Libra.json"
 }

@@ -1,78 +1,50 @@
 {
-  "script_text": "Scorpio, your watery depths are about to be rocked by a rare planetary shift that rewrites your destiny. Monday Mercury in your 9th House squares Saturn in your 6th House, delaying career moves and marking worst day. Wednesday Venus trines Pluto your ruling planet in your 4th House, deepening love and security. On Thursday, Jupiter enters your 10th House Leo, marking a massive career breakthrough and public recognition. Friday\u2019s Sun in your 9th House sextiles Uranus in your 7th House, bringing surprising partnership offers. The weekend sees Neptune soften your 5th House, making love playful and inspired. Wednesday is your power day because Venus trines Pluto in your 4th House, amplifying intimacy. Monday is your worst day because Mercury squares Saturn in your 6th House, blocking progress. Channel your Water element\u2019s intuition by journaling before signing any career contract this week. Follow for daily updates.",
-  "captions_structure": [
-    {
-      "text": "SCORPIO",
-      "type": "header"
-    },
-    {
-      "text": "Scorpio, your watery depths are about to be rocked by a rare planetary shift that rewrites your destiny.",
-      "type": "normal"
-    },
-    {
-      "text": "Monday Mercury in your 9th House squares Saturn in your 6th House, delaying career moves and marking worst day.",
-      "type": "normal"
-    },
-    {
-      "text": "Wednesday Venus trines Pluto your ruling planet in your 4th House, deepening love and security.",
-      "type": "normal"
-    },
-    {
-      "text": "On Thursday, Jupiter enters your 10th House Leo, marking a massive career breakthrough and public recognition.",
-      "type": "normal"
-    },
-    {
-      "text": "Friday\u2019s Sun in your 9th House sextiles Uranus in your 7th House, bringing surprising partnership offers.",
-      "type": "normal"
-    },
-    {
-      "text": "The weekend sees Neptune soften your 5th House, making love playful and inspired.",
-      "type": "normal"
-    },
-    {
-      "text": "Wednesday is your power day because Venus trines Pluto in your 4th House, amplifying intimacy.",
-      "type": "normal"
-    },
-    {
-      "text": "Monday is your worst day because Mercury squares Saturn in your 6th House, blocking progress.",
-      "type": "normal"
-    },
-    {
-      "text": "Channel your Water element\u2019s intuition by journaling before signing any career contract this week. Follow for daily updates.",
-      "type": "normal"
-    }
-  ],
-  "lucky_numbers": [
-    "8",
-    "15",
-    "29"
-  ],
-  "lucky_color": "Deep Teal",
-  "monthly_vibe": "Transformative Flow",
-  "title": "Scorpio \u2014 Rare Shift Rewrites Destiny",
-  "youtube_title": "Scorpio: Destiny Rewritten This Week #shorts",
-  "youtube_description": "Scorpio, a rare Jupiter entrance into your 10th House is about to flip your career path. This weekly forecast reveals the exact day love deepens and work stalls. Comment your sign to get your personalized reading.",
-  "youtube_tags": [
-    "scorpio horoscope",
-    "weekly astrology",
-    "pluto transit",
-    "water sign",
-    "career forecast",
-    "love prediction",
-    "jupiter leo",
-    "saturn square",
-    "venus trine",
-    "planetary aspects",
-    "cosmic guide",
-    "scorpio weekly"
-  ],
-  "type": "weekly",
-  "target": "Scorpio",
-  "date": "Jul 12 - Jul 18",
-  "images": [
-    "assets/zodiac_signs/Scorpio.jpg"
-  ],
-  "active": true,
-  "status": "uploaded",
-  "file_name": "plan_weekly_Scorpio.json"
+    "script_text": "A hidden tidal wave of transformation crashes into your watery Scorpio soul this week. Monday and Tuesday, aggressive Mars in Gemini opposes your ruling Pluto in Aquarius, sparking 10th House career clashes and power struggles. Mercury squares Neptune in your 8th House of shared resources Monday, so avoid money merges. Wednesday is your power day because Venus enters Pisces, your 5th House of love. Thursday\u2019s Sun in Cancer sextile Jupiter in Virgo shifts your focus to financial growth and abundance. Friday sees Pluto\u2019s water element trine Venus, deepening romantic bonds. Weekend Moon in your 11th House aids career networking and income. Sunday\u2019s Mercury Saturn trine stabilizes long-term work plans. Wednesday is your power day because Venus enters your 5th House of romance. Monday is your worst day because Mars opposes Pluto. Channel water sign sensitivity into a mentor meeting before Friday. Follow for daily updates.",
+    "captions_structure": [
+        {
+            "text": "SCORPIO",
+            "type": "header"
+        },
+        {
+            "text": "A hidden tidal wave of transformation crashes into your watery Scorpio soul this week.",
+            "type": "normal"
+        },
+        {
+            "text": "Monday and Tuesday, aggressive Mars in Gemini opposes your ruling Pluto in Aquarius, sparking 10th House career clashes.",
+            "type": "normal"
+        }
+    ],
+    "lucky_numbers": [
+        "8",
+        "15",
+        "29"
+    ],
+    "lucky_color": "Deep Teal",
+    "monthly_vibe": "Transformative Depths",
+    "title": "Scorpio \u2014 Don't Ignore This Week",
+    "youtube_title": "Scorpio's Secret Cosmic Shift This Week #shorts",
+    "youtube_description": "This week a rare Mars-Pluto opposition strikes your 10th House career sector, Scorpio, while Venus enters your 5th House to ignite unexpected romance. Comment your sign to see your personalized forecast.",
+    "youtube_tags": [
+        "scorpio horoscope",
+        "weekly astrology",
+        "pluto transit",
+        "venus love",
+        "career forecast",
+        "water sign",
+        "mars opposition",
+        "sextile jupiter",
+        "5th house",
+        "11th house",
+        "cosmic shift",
+        "scorpio 2026"
+    ],
+    "type": "weekly",
+    "target": "Scorpio",
+    "date": "Jul 15 - Jul 21",
+    "images": [
+        "assets/zodiac_signs/Scorpio.jpg"
+    ],
+    "active": true,
+    "status": "pending",
+    "file_name": "plan_weekly_Scorpio.json"
 }
