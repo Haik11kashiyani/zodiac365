@@ -1,82 +1,58 @@
 {
-    "script_text": "Leo, the cosmos pulls you into a hidden reset before your fiery season ignites. Monday-Wednesday, your ruling Sun in Cancer (12th House) sextiles Neptune in Taurus (10th House), aiding career intuition. Fire retreats, boundaries blur. Tuesday\u2019s Mars in Virgo (2nd House) opposing Saturn in Pisces (8th House) strains finances. The midweek shift: Wednesday\u2019s Mercury direct in your 12th House clears fog. Thursday, Venus enters Leo (1st House), boosting love and creativity for romance. Friday\u2019s Sun sextile Jupiter in Virgo (2nd House) opens a money win for career. Weekend glows with romantic play under Venus. Friday is your power day because the Sun-Jupiter sextile across your 12th and 2nd Houses draws abundant income. Tuesday is your most challenging day because Mars opposes Saturn across your 2nd and 8th Houses, exposing debt friction. Privately journal 12th-House fears before Venus crowns your 1st House. Follow for daily updates.",
-    "captions_structure": [
-        {
-            "text": "LEO",
-            "type": "header"
-        },
-        {
-            "text": "Leo, the cosmos pulls you into a hidden reset before your fiery season ignites.",
-            "type": "normal"
-        },
-        {
-            "text": "Monday-Wednesday, your ruling Sun in Cancer (12th House) sextiles Neptune in Taurus (10th House), aiding career intuition.",
-            "type": "normal"
-        },
-        {
-            "text": "Fire retreats, boundaries blur. Tuesday\u2019s Mars in Virgo (2nd House) opposing Saturn in Pisces (8th House) strains finances.",
-            "type": "normal"
-        },
-        {
-            "text": "The midweek shift: Wednesday\u2019s Mercury direct in your 12th House clears fog.",
-            "type": "normal"
-        },
-        {
-            "text": "Thursday, Venus enters Leo (1st House), boosting love and creativity for romance.",
-            "type": "normal"
-        },
-        {
-            "text": "Friday\u2019s Sun sextile Jupiter in Virgo (2nd House) opens a money win for career.",
-            "type": "normal"
-        },
-        {
-            "text": "Weekend glows with romantic play under Venus.",
-            "type": "normal"
-        },
-        {
-            "text": "Friday is your power day because the Sun-Jupiter sextile across your 12th and 2nd Houses draws abundant income.",
-            "type": "normal"
-        },
-        {
-            "text": "Tuesday is your most challenging day because Mars opposes Saturn across your 2nd and 8th Houses, exposing debt friction.",
-            "type": "normal"
-        },
-        {
-            "text": "Privately journal 12th-House fears before Venus crowns your 1st House. Follow for daily updates.",
-            "type": "normal"
-        }
-    ],
-    "lucky_numbers": [
-        "8",
-        "19",
-        "33"
-    ],
-    "lucky_color": "Ruby Red",
-    "monthly_vibe": "Hidden Renewal",
-    "title": "Leo's Hidden Reset Before Birthday",
-    "youtube_title": "Leo's Hidden Reset Before Birthday #shorts",
-    "youtube_description": "Leo, your ruling Sun in the 12th House triggers a secret reset before Venus enters your 1st House to boost love. Tuesday\u2019s Mars-Saturn opposition could strain your finances\u2014watch contracts. Comment your sign for a personalized reading.",
-    "youtube_tags": [
-        "leo horoscope",
-        "weekly astrology",
-        "sun in cancer",
-        "venus leo",
-        "mars saturn",
-        "12th house",
-        "career intuition",
-        "love forecast",
-        "financial astrology",
-        "cosmic reset",
-        "mercury direct",
-        "zodiac leo"
-    ],
-    "type": "weekly",
-    "target": "Leo",
-    "date": "Jul 12 - Jul 18",
-    "images": [
-        "assets/zodiac_signs/Leo.jpg"
-    ],
-    "active": true,
-    "status": "pending",
-    "file_name": "plan_weekly_Leo.json"
+  "script_text": "Leo, the cosmos is about to ignite a fire under your throne you did not see coming. Early week, your ruling Sun in your 1st House squares Uranus in your 10th House on Monday, sparking career disruption\u2014avoid power plays Tuesday when Mercury retrograde shadows your 2nd House finances. Mid-week, the turning point arrives as Venus sextiles Neptune in your 8th House Thursday, softening debts and intimate bonds through graceful negotiation. Late week, Mars trines Pluto in your 5th House of romance Friday through Sunday, fueling passionate love confessions and a weekend creative surge\u2014your bold element of Fire burns bright. Wednesday is your power day because Venus enters your 5th House of love. Sunday is your worst day because Sun-Uranus tension lingers in career. Channel Sun-ruled confidence: sign contracts only after Thursday\u2019s aspect clears. Follow for daily updates.",
+  "captions_structure": [
+    {
+      "text": "LEO",
+      "type": "header"
+    },
+    {
+      "text": "Leo, the cosmos is about to ignite a fire under your throne you did not see coming.",
+      "type": "normal"
+    },
+    {
+      "text": "Early week, your ruling Sun in your 1st House squares Uranus in your 10th House on Monday, sparking career disruption.",
+      "type": "normal"
+    },
+    {
+      "text": "Wednesday is your power day because Venus enters your 5th House of love.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for daily updates.",
+      "type": "normal"
+    }
+  ],
+  "lucky_numbers": [
+    "7",
+    "11",
+    "21"
+  ],
+  "lucky_color": "Golden Amber",
+  "monthly_vibe": "Electric Shift",
+  "title": "Leo \u2014 Don't Ignore This Week",
+  "youtube_title": "Leo \u2014 Don't Ignore This Week #shorts",
+  "youtube_description": "Your ruling Sun squares Uranus in the 10th House, shaking your career path early week. Venus enters your 5th House midweek to transform love\u2014comment your sign.",
+  "youtube_tags": [
+    "astrology",
+    "horoscope",
+    "leo",
+    "sun sign",
+    "uranus",
+    "venus",
+    "5th house",
+    "career",
+    "love",
+    "transits",
+    "zodiac",
+    "weekly"
+  ],
+  "type": "weekly",
+  "target": "Leo",
+  "date": "Jul 17 - Jul 23",
+  "images": [
+    "assets/zodiac_signs/Leo.jpg"
+  ],
+  "active": true,
+  "status": "uploaded",
+  "file_name": "plan_weekly_Leo.json"
 }

@@ -1,62 +1,66 @@
 {
-    "script_text": "A hidden cosmic storm is about to reshape your meticulous world, Virgo, with intensity. On Monday, Mercury your ruling planet of Virgo\u2019s Earth element squares Saturn in your 8th House, stalling joint finances and demanding caution. Tuesday\u2019s Venus in your 11th House trines Mars, igniting a friends-to-lovers spark and lifting career morale. Wednesday is rough as Sun in 11th opposes Pluto in 2nd House, exposing a money power struggle at work. Thursday\u2019s Jupiter in 12th sextiles Mercury in 1st, granting strategic insight. Friday\u2019s New Moon in 11th renews professional networks, while weekend Venus enters 12th easing hidden romance. Sunday Mercury trine Neptune sparks lucrative career ideas. Tuesday is your power day because Venus trines Mars boosting social love. Wednesday is your worst day because Sun opposes Pluto threatening career cash flow. Audit shared accounts before Thursday\u2019s Jupiter sextile. Follow for daily updates.",
-    "captions_structure": [
-        {
-            "text": "VIRGO",
-            "type": "header"
-        },
-        {
-            "text": "A hidden cosmic storm is about to reshape your meticulous world, Virgo, with intensity.",
-            "type": "normal"
-        },
-        {
-            "text": "Mercury squares Saturn in your 8th House Monday, stalling joint finances.",
-            "type": "normal"
-        },
-        {
-            "text": "Tuesday Venus trines Mars sparking love; Wednesday Sun opposes Pluto hits money.",
-            "type": "normal"
-        },
-        {
-            "text": "Thursday Jupiter sextiles Mercury; weekend Venus eases hidden romance.",
-            "type": "normal"
-        },
-        {
-            "text": "Tuesday power day, Wednesday worst. Audit accounts. Follow for daily updates.",
-            "type": "normal"
-        }
-    ],
-    "lucky_numbers": [
-        "3",
-        "17",
-        "42"
-    ],
-    "lucky_color": "Moss Green",
-    "monthly_vibe": "Practical Shift",
-    "title": "Virgo Weekly Horoscope July 12, 2026",
-    "youtube_title": "Virgo: A Hidden Cosmic Storm #shorts",
-    "youtube_description": "This week a rare Mercury-Saturn square strikes your 8th House, Virgo, shaking joint finances and love boundaries. Thursday\u2019s Jupiter sextile to your ruling Mercury reveals a career breakthrough you can\u2019t ignore. Comment your sign.",
-    "youtube_tags": [
-        "virgo horoscope",
-        "weekly astrology",
-        "mercury saturn",
-        "earth sign",
-        "love forecast",
-        "career astrology",
-        "planetary transit",
-        "cosmic insight",
-        "zodiac virgo",
-        "horoscope july",
-        "astrology reading",
-        "virgo prediction"
-    ],
-    "type": "weekly",
-    "target": "Virgo",
-    "date": "Jul 12 - Jul 18",
-    "images": [
-        "assets/zodiac_signs/Virgo.jpg"
-    ],
-    "active": true,
-    "status": "pending",
-    "file_name": "plan_weekly_Virgo.json"
+  "script_text": "Your meticulous world tilts as Mercury, Virgo's ruling planet, drags earth-element routines into chaos this week. Early on, Monday's Sun in Cancer square your Mercury in your 11th House clouds group plans, while Wednesday's Venus trine Pluto from your 9th to 5th sparks a fated love meeting. Mid-week, the turning point arrives Thursday as Mars enters your 2nd House, igniting career money drives through assertive action. Late week, Jupiter sextile Saturn in your 10th and 3rd Houses stabilizes a work contract by Friday, and the weekend glows with Mercury entering Leo in your 12th for restful romance. Tuesday is your worst day due to the Mercury square causing miscommunication; Wednesday is your power day because Venus trine Pluto opens your heart. Audit your budget before Mars hits your 2nd House Thursday. Follow for daily updates.",
+  "captions_structure": [
+    {
+      "text": "VIRGO",
+      "type": "header"
+    },
+    {
+      "text": "Your meticulous world tilts as Mercury, Virgo's ruling planet, drags earth-element routines into chaos this week.",
+      "type": "normal"
+    },
+    {
+      "text": "Early on, Monday's Sun in Cancer square your Mercury in your 11th House clouds group plans, while Wednesday's Venus trine Pluto from your 9th to 5th sparks a fated love meeting.",
+      "type": "normal"
+    },
+    {
+      "text": "Mid-week, the turning point arrives Thursday as Mars enters your 2nd House, igniting career money drives through assertive action.",
+      "type": "normal"
+    },
+    {
+      "text": "Late week, Jupiter sextile Saturn in your 10th and 3rd Houses stabilizes a work contract by Friday, and the weekend glows with Mercury entering Leo in your 12th for restful romance.",
+      "type": "normal"
+    },
+    {
+      "text": "Tuesday is your worst day due to the Mercury square causing miscommunication; Wednesday is your power day because Venus trine Pluto opens your heart.",
+      "type": "normal"
+    },
+    {
+      "text": "Audit your budget before Mars hits your 2nd House Thursday. Follow for daily updates.",
+      "type": "normal"
+    }
+  ],
+  "lucky_numbers": [
+    "7",
+    "11",
+    "21"
+  ],
+  "lucky_color": "Emerald Green",
+  "monthly_vibe": "Reflective & Calm",
+  "title": "Virgo \u2014 Don't Ignore This Week",
+  "youtube_title": "Virgo \u2014 Don't Ignore This Week #shorts",
+  "youtube_description": "This week Mercury and Mars shake Virgo's routine and money house in ways you can't afford to miss. We reveal the exact transit sparking fated love and a career contract. Comment your sign.",
+  "youtube_tags": [
+    "astrology",
+    "horoscope",
+    "virgo",
+    "weekly forecast",
+    "mercury",
+    "mars",
+    "venus",
+    "love",
+    "career",
+    "zodiac",
+    "earth sign",
+    "transits"
+  ],
+  "type": "weekly",
+  "target": "Virgo",
+  "date": "Jul 17 - Jul 23",
+  "images": [
+    "assets/zodiac_signs/Virgo.jpg"
+  ],
+  "active": true,
+  "status": "uploaded",
+  "file_name": "plan_weekly_Virgo.json"
 }
