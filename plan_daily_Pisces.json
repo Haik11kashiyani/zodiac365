@@ -1,50 +1,66 @@
 {
-  "script_text": "Hold still, Pisces \u2014 the cosmos is cracking open a door you didn't know was locked. Your modern ruling planet Neptune, the misty lord of your water sign, is stationed in Aries. Right now the Sun in Cancer forms a flowing trine to Neptune, illuminating your 2nd House of finances and 5th House of pleasure. This rare water alignment melts confusion around resources since late June. If you're single, the trine invites you to attract a sensitive creative type near your workspace. If partnered, watch for dreamy escapism around shared money. Career-wise, Jupiter in Leo blesses your 6th House of daily work, suggesting a raise or new health routine boosts income. Pitch that side project; mentors notice your water-sign intuition. Avoid signing vague contracts today \u2014 the Neptune haze could cloud fine print and cost you later. Subscribe so you don't miss what's coming this week.",
+  "script_text": "Stop! Pisces, the stars are screaming at you right now. Neptune, your ruling planet of water and dreams, is sextiling Pluto in your 11th House of alliances while Venus opposes Saturn in your 2nd House of money. In love, if single you attract a soulful healer through artistic circles; if taken, avoid cold budget talks that trigger distance. Career-wise, a 6th House trine from Mercury to Jupiter brings paid detail work\u2014invoice by noon. Warning: do not lend cash to a sibling under this Saturn pressure. Follow for tomorrow's reading.",
   "captions_structure": [
     {
       "text": "PISCES",
       "type": "header"
     },
     {
-      "text": "Hold still, Pisces \u2014 the cosmos is cracking open a door you didn't know was locked.",
+      "text": "Stop! The stars are screaming at you.",
       "type": "normal"
     },
     {
-      "text": "Your modern ruling planet Neptune, the misty lord of your water sign, is stationed in Aries.",
+      "text": "Neptune sextiles Pluto in 11th House.",
       "type": "normal"
     },
     {
-      "text": "Right now the Sun in Cancer forms a flowing trine to Neptune, illuminating your 2nd House of finances and 5th House of pleasure.",
+      "text": "Venus opposes Saturn in 2nd House.",
+      "type": "normal"
+    },
+    {
+      "text": "Love: soulful healer or cold talks.",
+      "type": "normal"
+    },
+    {
+      "text": "Career: Mercury trine Jupiter, 6th House.",
+      "type": "normal"
+    },
+    {
+      "text": "Warning: don't lend to sibling.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for tomorrow's reading.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
     "7",
-    "15",
-    "22"
+    "11",
+    "21"
   ],
   "lucky_color": "Seafoam Green",
-  "monthly_vibe": "Dreamy & Strategic",
-  "title": "Pisces \u2014 Neptune Reveals Hidden Money",
-  "youtube_title": "Pisces \u2014 Neptune Reveals Hidden Money #shorts",
-  "youtube_description": "Your ruling planet Neptune is opening a door to unexpected income, Pisces, but a fog is warning you. In this reading we expose the trine activating your 2nd house and the love shift coming. Comment your sign to get your personalized insight.",
+  "monthly_vibe": "Intuitive Restraint",
+  "title": "Pisces \u2014 Don't Ignore This Transit",
+  "youtube_title": "Pisces \u2014 Don't Ignore This Transit #shorts",
+  "youtube_description": "Your ruler Neptune is lighting up your 11th House while Venus opposes Saturn in your money zone. This reading reveals the love and cash moves you must make today. Comment your sign.",
   "youtube_tags": [
-    "pisces horoscope",
-    "daily astrology",
-    "neptune transit",
+    "astrology",
+    "horoscope",
+    "pisces",
+    "neptune",
+    "venus saturn",
+    "11th house",
+    "2nd house",
+    "love reading",
+    "career money",
+    "daily horoscope",
     "water sign",
-    "love prediction",
-    "career advice",
-    "sun trine neptune",
-    "jupiter in leo",
-    "cosmic warning",
-    "horoscope july 2026",
-    "zodiac pisces",
-    "spiritual guide"
+    "cosmic warning"
   ],
   "type": "daily",
   "target": "Pisces",
-  "date": "July 15, 2026",
+  "date": "July 17, 2026",
   "images": [
     "assets/zodiac_signs/Pisces.jpg"
   ],
