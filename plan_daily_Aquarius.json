@@ -1,58 +1,62 @@
 {
-  "script_text": "Stop! Aquarius, Uranus is crackling through your 4th House of roots while Venus sextiles your ruling planet from the 7th. The fixed air of your sign meets a square from Mars in the 9th, igniting restless friction between home and far horizons. Singles: a Mercury trine pulls curious minds into your orbit through intellectual banter. Taken ones: watch passive jabs in partnership talks tonight. Careerwise, Jupiter's trine to your 2nd House of money signals a surprise client or raise if you pitch before noon. Avoid signing leases under this Mars tension. Blessing: an old friend texts unexpected aid. Follow for tomorrow's reading.",
+  "script_text": "Stop! Aquarius, the stars are screaming at you right now. Uranus, your ruling planet of sudden change, forms a tense square to Mercury retrograding through your 6th House of work, sparking miscommunication with colleagues. As an Air sign, this static disrupts your mental flow. In love, if single you attract a curious Gemini type through 7th House banter; taken ones must avoid snapping over small chores. Career-wise, the 2nd House Venus trine to Pluto urges you to renegotiate a stalled payment or side income today. Warning: do NOT sign any contract before Mercury clears shadow on the 22nd. Follow for tomorrow's reading.",
   "captions_structure": [
     {
       "text": "AQUARIUS",
       "type": "header"
     },
     {
-      "text": "Stop! Uranus crackles your 4th House",
+      "text": "Stop! The stars are screaming at you.",
       "type": "normal"
     },
     {
-      "text": "Venus sextiles ruling Uranus from 7th",
+      "text": "Uranus squares Mercury in your 6th House.",
       "type": "normal"
     },
     {
-      "text": "Singles attract via Mercury trine chat",
+      "text": "Love: attract Gemini energy, avoid snapping.",
       "type": "normal"
     },
     {
-      "text": "Jupiter trines 2nd House money gain",
+      "text": "Career: Venus trine Pluto in 2nd House money.",
       "type": "normal"
     },
     {
-      "text": "Don't sign leases, friend aids you",
+      "text": "Warning: no contracts before July 22.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for tomorrow's reading.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
-    "7",
-    "11",
-    "21"
+    "4",
+    "17",
+    "29"
   ],
-  "lucky_color": "Electric Indigo",
-  "monthly_vibe": "Restless Grounding",
-  "title": "Aquarius \u2014 Don't Ignore This",
-  "youtube_title": "Aquarius \u2014 Don't Ignore This #shorts",
-  "youtube_description": "Uranus is shaking your 4th House and Venus is sextiling your ruler on July 18, 2026 \u2014 find out what's cracking in love and money. Comment your sign to see your reading next.",
+  "lucky_color": "Electric Violet",
+  "monthly_vibe": "Disruptive Clarity",
+  "title": "Aquarius \u2014 Don't Ignore This Signal",
+  "youtube_title": "Aquarius Don't Ignore This Signal #shorts",
+  "youtube_description": "Your ruling Uranus is squaring retrograde Mercury in the 6th House, and it changes everything about your work and love today. This reading reveals the exact warning you need before July 22. Comment your sign.",
   "youtube_tags": [
     "astrology",
     "horoscope",
     "aquarius",
+    "uranus",
+    "mercury retrograde",
+    "6th house",
+    "love reading",
+    "career advice",
+    "air sign",
     "daily horoscope",
-    "uranus transit",
-    "venus sextile",
-    "love prediction",
-    "career astrology",
-    "zodiac",
-    "cosmic guide",
-    "ruling planet",
-    "house placements"
+    "venus pluto",
+    "cosmic warning"
   ],
   "type": "daily",
   "target": "Aquarius",
-  "date": "July 18, 2026",
+  "date": "July 19, 2026",
   "images": [
     "assets/zodiac_signs/Aquarius.jpg"
   ],
