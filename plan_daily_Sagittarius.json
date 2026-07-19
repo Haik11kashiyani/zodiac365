@@ -1,66 +1,54 @@
 {
-  "script_text": "Stop! Sagittarius, the stars are flashing a financial flare across your chart. As a Fire Archer ruled by Jupiter, you need to hear this: Jupiter in Cancer, your 8th House, is trining Neptune in Aries while sextiling Saturn in Aries, both lighting your 5th House of romance, creativity, and risk. The Moon in Cancer is also squaring Mars in Taurus in your 6th House, stirring urgent work demands and workplace tension. In love, Venus in Gemini activates your 7th House, so a direct message, date, or contract talk can turn intimate fast; attached Archers, avoid reading between the lines. Career and money: the 8th House Moon-Mars square warns against rushed refunds, loans, taxes, or shared expenses\u2014check one invoice twice before you sign. Your blessing is a bold creative idea that attracts cash if you document it and date it. Follow for tomorrow's reading.",
+  "script_text": "Stop! Sagittarius, the cosmos is detonating a truth you cannot unsee. Jupiter, your ruling planet of fire, sits in Virgo forming a tense square to Neptune in your 4th House of home, blurring boundaries between reality and fantasy. In love, if single, a sextile from Venus in your 9th House draws a foreign or intellectually magnetic suitor; if taken, avoid vague promises tonight. Career-wise, Mercury retrograde in your 8th House of shared resources warns against signing loans\u2014recheck statements before noon. Blessing: an unexpected cheque or refund arrives via the 2nd House. Follow for tomorrow's reading.",
   "captions_structure": [
     {
       "text": "SAGITTARIUS",
       "type": "header"
     },
     {
-      "text": "Stop! Sagittarius, the stars are flashing a financial flare across your chart.",
+      "text": "Stop! The cosmos is detonating a truth.",
       "type": "normal"
     },
     {
-      "text": "As a Fire Archer ruled by Jupiter, you need to hear this: Jupiter in Cancer, your 8th House, is trining Neptune in Aries while sextiling Saturn in Aries, both lighting your 5th House of romance, creativity, and risk.",
+      "text": "Jupiter squares Neptune in your 4th House.",
       "type": "normal"
     },
     {
-      "text": "The Moon in Cancer is also squaring Mars in Taurus in your 6th House, stirring urgent work demands and workplace tension.",
+      "text": "Venus sextiles love; Mercury Rx hits 8th House cash.",
       "type": "normal"
     },
     {
-      "text": "In love, Venus in Gemini activates your 7th House, so a direct message, date, or contract talk can turn intimate fast; attached Archers, avoid reading between the lines.",
-      "type": "normal"
-    },
-    {
-      "text": "Career and money: the 8th House Moon-Mars square warns against rushed refunds, loans, taxes, or shared expenses\u2014check one invoice twice before you sign.",
-      "type": "normal"
-    },
-    {
-      "text": "Your blessing is a bold creative idea that attracts cash if you document it and date it.",
-      "type": "normal"
-    },
-    {
-      "text": "Follow for tomorrow's reading.",
+      "text": "Blessing: refund via 2nd House. Follow for more.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
-    "5",
-    "13",
-    "27"
+    "7",
+    "18",
+    "33"
   ],
-  "lucky_color": "Royal Emerald",
-  "monthly_vibe": "Creative Wealth",
-  "title": "Sagittarius: Don't Ignore This",
-  "youtube_title": "Sagittarius: Don't Ignore This #shorts",
-  "youtube_description": "Sagittarius, June 16 brings a rare Jupiter in Cancer trine Neptune in Aries, lighting up your 5th House of romance, creativity, and risk. The Moon in Cancer squares Mars in Taurus, so money talks, invoices, and workplace boundaries need your attention. Comment your sign if you want tomorrow's reading.",
+  "lucky_color": "Copper Gold",
+  "monthly_vibe": "Grounded Expansion",
+  "title": "Sagittarius \u2014 Don't Ignore This",
+  "youtube_title": "Sagittarius \u2014 Don't Ignore This #shorts",
+  "youtube_description": "Jupiter square Neptune is shaking your home sector and a Mercury retrograde is targeting your money. This reading reveals the love and career twists arriving July 19. Comment your sign.",
   "youtube_tags": [
     "astrology",
     "horoscope",
     "sagittarius",
+    "jupiter",
+    "neptune",
+    "mercury retrograde",
+    "love reading",
+    "career advice",
     "daily horoscope",
-    "sagittarius horoscope",
-    "june horoscope",
     "fire sign",
-    "love forecast",
-    "money forecast",
-    "cosmic energy",
-    "zodiac signs",
-    "astrology reading"
+    "4th house",
+    "8th house"
   ],
   "type": "daily",
   "target": "Sagittarius",
-  "date": "June 16, 2026",
+  "date": "July 19, 2026",
   "images": [
     "assets/zodiac_signs/Sagittarius.jpg"
   ],
