@@ -1,66 +1,62 @@
 {
-    "script_text": "A rare celestial storm is shaking your scales this week, Libra. As an Air sign ruled by Venus, you feel Monday\u2019s Venus\u2013Saturn square from your 10th House pressuring career status and a boss confrontation. By Wednesday, Mercury trine Jupiter in your 9th House opens a money windfall through foreign contracts. Mid-week, the Sun enters your 11th House on Thursday, shifting friendships into destiny. Late week, Venus sextile Mars in your 7th House sparks passionate love confessions Friday through Sunday\u2019s calm brunch dates. Wednesday is your power day because Mercury trine Jupiter boosts income. Monday is worst due to Venus\u2013Saturn career tension. Negotiate raises midweek and avoid power struggles Monday. Follow for daily updates.",
-    "captions_structure": [
-        {
-            "text": "LIBRA",
-            "type": "header"
-        },
-        {
-            "text": "A rare celestial storm is shaking your scales this week, Libra.",
-            "type": "normal"
-        },
-        {
-            "text": "As an Air sign ruled by Venus, Monday\u2019s Venus\u2013Saturn square from 10th House pressures career.",
-            "type": "normal"
-        },
-        {
-            "text": "Wednesday Mercury trine Jupiter in 9th House opens money through foreign contracts.",
-            "type": "normal"
-        },
-        {
-            "text": "Mid-week Sun enters 11th House shifting friendships to destiny.",
-            "type": "normal"
-        },
-        {
-            "text": "Late week Venus sextile Mars in 7th House sparks love confessions.",
-            "type": "normal"
-        },
-        {
-            "text": "Wednesday power day, Monday worst. Negotiate midweek. Follow for daily updates.",
-            "type": "normal"
-        }
-    ],
-    "lucky_numbers": [
-        "7",
-        "11",
-        "21"
-    ],
-    "lucky_color": "Emerald Green",
-    "monthly_vibe": "Reflective & Calm",
-    "title": "Libra \u2014 Don't Ignore This Week",
-    "youtube_title": "Libra \u2014 Don't Ignore This Week #shorts",
-    "youtube_description": "This week Venus and Saturn clash in your 10th House while Mercury trine Jupiter opens unexpected income. Find out the exact day love ignites in your 7th House and what to avoid on Monday. Comment your sign.",
-    "youtube_tags": [
-        "astrology",
-        "horoscope",
-        "libra",
-        "libra weekly",
-        "venus saturn",
-        "mercury jupiter",
-        "career",
-        "love",
-        "air sign",
-        "cosmic energy",
-        "zodiac",
-        "prediction"
-    ],
-    "type": "weekly",
-    "target": "Libra",
-    "date": "Jul 16 - Jul 22",
-    "images": [
-        "assets/zodiac_signs/Libra.jpg"
-    ],
-    "active": true,
-    "status": "pending",
-    "file_name": "plan_weekly_Libra.json"
+  "script_text": "Libra, the cosmos is about to tilt your scales in a way you didn't see coming. Early week, Monday through Wednesday, Venus your ruling planet forms a tense square to Mars in your 10th House of career, sparking conflict with authority but also a surprise money offer by Wednesday. Mid-week, the turning point hits Thursday as the Sun in your 10th House trines Pluto in your 2nd House, transforming your financial foundation through career recognition. Late week, Thursday through Sunday, Mercury enters your 11th House sextiling Jupiter, boosting networking luck and a love spark with someone from your circle Saturday. Wednesday is your power day because Venus squares Mars forcing clarity in career money. Sunday is your worst day because Moon opposes your Libra Sun stirring relationship doubts. As an Air sign, journal your career intentions nightly. Follow for daily updates.",
+  "captions_structure": [
+    {
+      "text": "LIBRA",
+      "type": "header"
+    },
+    {
+      "text": "Libra, the cosmos is about to tilt your scales in a way you didn't see coming.",
+      "type": "normal"
+    },
+    {
+      "text": "Early week, Venus your ruler squares Mars in your 10th House, career clash but money offer Wednesday.",
+      "type": "normal"
+    },
+    {
+      "text": "Mid-week Sun trines Pluto in your 2nd House, transforming finances via career recognition.",
+      "type": "normal"
+    },
+    {
+      "text": "Late week Mercury in 11th sextiles Jupiter, networking and love spark Saturday.",
+      "type": "normal"
+    },
+    {
+      "text": "Wednesday power day, Sunday worst for relationship doubts. Journal as Air sign. Follow for daily updates.",
+      "type": "normal"
+    }
+  ],
+  "lucky_numbers": [
+    "7",
+    "11",
+    "21"
+  ],
+  "lucky_color": "Emerald Green",
+  "monthly_vibe": "Reflective & Calm",
+  "title": "Libra \u2014 Don't Ignore This Week",
+  "youtube_title": "Libra \u2014 Don't Ignore This Week #shorts",
+  "youtube_description": "Your ruling Venus squares Mars in the 10th House, shaking career and money while love sparks Saturday. This forecast reveals the exact mid-week transit rewriting your finances. Comment your sign.",
+  "youtube_tags": [
+    "libra horoscope",
+    "venus square mars",
+    "career astrology",
+    "libra love",
+    "sun pluto trine",
+    "air sign",
+    "weekly forecast",
+    "cosmic energy",
+    "money transit",
+    "relationship stars",
+    "libra july",
+    "planetary aspects"
+  ],
+  "type": "weekly",
+  "target": "Libra",
+  "date": "Jul 19 - Jul 25",
+  "images": [
+    "assets/zodiac_signs/Libra.jpg"
+  ],
+  "active": true,
+  "status": "uploaded",
+  "file_name": "plan_weekly_Libra.json"
 }

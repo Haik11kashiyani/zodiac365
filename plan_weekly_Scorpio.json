@@ -1,66 +1,66 @@
 {
-    "script_text": "A seismic psychic rip is tearing through your private waters this week, Scorpio. On Monday, your ruling planet Pluto in your 3rd House squares Mercury retrograde in your 9th House, fogging contracts and travel\u2014avoid signed deals Tuesday. By Wednesday, Venus in your 2nd House trines Mars in your 6th House, sparking a lucrative career offer through disciplined routine. Mid-week, the Sun in your 10th House opposes Saturn in your 4th House, forcing a hard boundary between ambition and home. Thursday through Sunday, Jupiter in your 7th House sextiles Neptune in your 5th House, blessing a clandestine romance with dreamy depth and creative flow. Saturday is your power day because Venus trines Mars for money magic; Tuesday is your worst day because Pluto squares Mercury wrecking communication. Audit one recurring expense to reclaim control. Follow for daily updates.",
-    "captions_structure": [
-        {
-            "text": "SCORPIO",
-            "type": "header"
-        },
-        {
-            "text": "A seismic psychic rip is tearing through your private waters this week, Scorpio.",
-            "type": "normal"
-        },
-        {
-            "text": "On Monday, Pluto in your 3rd House squares Mercury retrograde in your 9th House.",
-            "type": "normal"
-        },
-        {
-            "text": "Wednesday: Venus trines Mars for a lucrative career offer.",
-            "type": "normal"
-        },
-        {
-            "text": "Mid-week Sun opposes Saturn: bound ambition from home.",
-            "type": "normal"
-        },
-        {
-            "text": "Late week Jupiter sextiles Neptune: dreamy romance blooms.",
-            "type": "normal"
-        },
-        {
-            "text": "Saturday power day, Tuesday worst day. Follow for daily updates.",
-            "type": "normal"
-        }
-    ],
-    "lucky_numbers": [
-        "7",
-        "11",
-        "21"
-    ],
-    "lucky_color": "Emerald Green",
-    "monthly_vibe": "Deep Reflection",
-    "title": "Scorpio \u2014 Don't Ignore This",
-    "youtube_title": "Scorpio \u2014 Don't Ignore This Week #shorts",
-    "youtube_description": "Your ruling Pluto is squaring Mercury and shaking your contracts, Scorpio\u2014but a Venus-Mars trine midweek hides a money breakthrough. This forecast reveals the exact days love and career shift under real transits. Comment your sign.",
-    "youtube_tags": [
-        "astrology",
-        "horoscope",
-        "scorpio",
-        "pluto transit",
-        "mercury retro",
-        "venus mars",
-        "career money",
-        "love forecast",
-        "weekly stars",
-        "saturn opposition",
-        "jupiter neptune",
-        "scorpio ruling"
-    ],
-    "type": "weekly",
-    "target": "Scorpio",
-    "date": "Jul 16 - Jul 22",
-    "images": [
-        "assets/zodiac_signs/Scorpio.jpg"
-    ],
-    "active": true,
-    "status": "pending",
-    "file_name": "plan_weekly_Scorpio.json"
+  "script_text": "This week the cosmos forces your hidden depths to surface, Scorpio. As your ruling planet Pluto stations retrograde in your 3rd House on Monday, mental obsessions intensify but Tuesday's Sun sextile Jupiter in your 8th House brings career money through a secret investor. Midweek, Venus squares Saturn in your 7th House on Wednesday, exposing relationship power struggles that demand boundary work. By Thursday, Mercury trine Neptune in your 5th House sparks romantic fantasy, and the weekend favors intimate connection as Mars trines Pluto Saturday. Wednesday is your power day because Venus squares Saturn clarifying partnership terms. Sunday is your worst day due to Moon opposition your Sun causing emotional volatility. Water sign Scorpio, journal your shadow insights daily. Follow for daily updates.",
+  "captions_structure": [
+    {
+      "text": "SCORPIO",
+      "type": "header"
+    },
+    {
+      "text": "This week the cosmos forces your hidden depths to surface, Scorpio.",
+      "type": "normal"
+    },
+    {
+      "text": "As your ruling planet Pluto stations retrograde in your 3rd House on Monday...",
+      "type": "normal"
+    },
+    {
+      "text": "Midweek, Venus squares Saturn in your 7th House on Wednesday...",
+      "type": "normal"
+    },
+    {
+      "text": "By Thursday, Mercury trine Neptune in your 5th House sparks romantic fantasy...",
+      "type": "normal"
+    },
+    {
+      "text": "Wednesday is your power day because Venus squares Saturn clarifying partnership terms.",
+      "type": "normal"
+    },
+    {
+      "text": "Water sign Scorpio, journal your shadow insights daily. Follow for daily updates.",
+      "type": "normal"
+    }
+  ],
+  "lucky_numbers": [
+    "8",
+    "15",
+    "29"
+  ],
+  "lucky_color": "Obsidian Black",
+  "monthly_vibe": "Deep Transformation",
+  "title": "Scorpio \u2014 Don't Ignore This",
+  "youtube_title": "Scorpio \u2014 Don't Ignore This #shorts",
+  "youtube_description": "Pluto retrograde and a Venus-Saturn square are rewriting your love and money story this week. Discover the exact day your partnerships hit a turning point and what to do. Comment your sign.",
+  "youtube_tags": [
+    "astrology",
+    "horoscope",
+    "scorpio",
+    "pluto retrograde",
+    "venus saturn",
+    "weekly forecast",
+    "love reading",
+    "career money",
+    "water sign",
+    "cosmic shift",
+    "birth chart",
+    "zodiac scoop"
+  ],
+  "type": "weekly",
+  "target": "Scorpio",
+  "date": "Jul 19 - Jul 25",
+  "images": [
+    "assets/zodiac_signs/Scorpio.jpg"
+  ],
+  "active": true,
+  "status": "uploaded",
+  "file_name": "plan_weekly_Scorpio.json"
 }
