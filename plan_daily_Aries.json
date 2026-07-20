@@ -1,28 +1,24 @@
 {
-  "script_text": "Stop! Aries, the stars are screaming at you right now. Mars, your ruling fire planet, sits in Virgo forming a tense square to Neptune in Pisces, rattling your 6th House of work and 12th House of secrets. Venus in Gemini trines your 1st House of self, making you magnetic but slippery in love\u2014singles attract a witty air sign if they speak first. Taken Aries: watch for vague excuses from a partner under this fog. In career, that Mars-Neptune square disrupts your 2nd House of money; delay signing contracts until July 22. Blessing: a surprise debt clears via an unexpected 8th House refund. Follow for tomorrow's reading.",
+  "script_text": "Stop! Aries, the cosmos is detonating a warning you cannot afford to miss. Your ruling planet Mars is sextiling Pluto in your 10th House of Career while the Sun opposes Saturn in your 4th House of Home, exposing cracks in your foundation. Single Aries, a Venus trine to your 5th House pulls in passionate fire-element suitors through creative circles. Taken ones, watch power struggles with a partner triggered by that 4th House opposition. Career-wise, the Mars-Pluto link demands ruthless ambition in the 10th House\u2014pitch the bold proposal now. Avoid signing anything under Saturn's pressure or you'll regret it by August. Follow for tomorrow's reading.",
   "captions_structure": [
     {
       "text": "ARIES",
       "type": "header"
     },
     {
-      "text": "Stop! Aries, the stars are screaming at you right now.",
+      "text": "Stop! Aries, the cosmos is detonating a warning you cannot afford to miss.",
       "type": "normal"
     },
     {
-      "text": "Mars squares Neptune in your 6th and 12th Houses.",
+      "text": "Your ruling planet Mars is sextiling Pluto in your 10th House of Career while the Sun opposes Saturn in your 4th House of Home.",
       "type": "normal"
     },
     {
-      "text": "Venus trines your 1st House\u2014singles attract air signs.",
+      "text": "Single Aries, Venus trine to your 5th House pulls in fire-element suitors. Taken ones, watch 4th House power struggles.",
       "type": "normal"
     },
     {
-      "text": "Mars-Neptune hits your 2nd House money\u2014delay contracts.",
-      "type": "normal"
-    },
-    {
-      "text": "Blessing: surprise 8th House refund clears a debt.",
+      "text": "Career: Mars-Pluto demands ambition in the 10th House. Avoid signing under Saturn's pressure.",
       "type": "normal"
     },
     {
@@ -35,28 +31,28 @@
     "11",
     "21"
   ],
-  "lucky_color": "Emerald Green",
-  "monthly_vibe": "Reflective & Calm",
-  "title": "Aries \u2014 Don't Ignore This Signal",
-  "youtube_title": "Aries \u2014 Don't Ignore This Signal #shorts",
-  "youtube_description": "Your ruling Mars is squaring Neptune today, shaking your work and money sectors in ways you can't ignore. This reading reveals the love lure and the career stop-sign for July 19. Comment your sign.",
+  "lucky_color": "Ember Red",
+  "monthly_vibe": "Power & Pressure",
+  "title": "Aries \u2014 Don't Ignore This",
+  "youtube_title": "Aries \u2014 Don't Ignore This Warning #shorts",
+  "youtube_description": "Mars sextiles Pluto in your 10th House while the Sun opposes Saturn in your 4th\u2014your career and home life are colliding. Comment your sign to get your personal transit breakdown.",
   "youtube_tags": [
     "astrology",
     "horoscope",
     "aries",
-    "mars transit",
-    "neptune square",
-    "love reading",
-    "career advice",
-    "daily horoscope",
-    "zodiac",
+    "mars pluto",
+    "sun saturn",
+    "career house",
+    "love prediction",
     "fire sign",
-    "venus trine",
-    "money forecast"
+    "daily reading",
+    "cosmic warning",
+    "transit report",
+    "zodiac aria"
   ],
   "type": "daily",
   "target": "Aries",
-  "date": "July 19, 2026",
+  "date": "July 20, 2026",
   "images": [
     "assets/zodiac_signs/Aries.jpg"
   ],

@@ -1,28 +1,28 @@
 {
-  "script_text": "Stop! Taurus, Venus is dragging your comfort zone into chaos this morning. Your ruling planet Venus forms a tense square to Pluto in your 9th House of Belief while the Sun trines Uranus in your 2nd House of Money, earth sign, shaking values. Single Taurus, a surprising flirt arrives through travel talk; taken ones, avoid power struggles over finances with lovers. Career-wise, that Uranus trine sparks unexpected income via your 2nd House\u2014negotiate boldly but read contracts twice. Warning: do not lend cash to a sibling under this 3rd House Mercury opposition. Follow for tomorrow's reading.",
+  "script_text": "Stop! Taurus, Venus in your 4th House is sextiling Uranus in your 1st House and shaking your foundation right now. As an Earth sign ruled by Venus, you're feeling sudden shifts in home and self-image as Mars opposes Saturn in your 10th House of career, tightening professional pressure. In love, singles attract unconventional partners through relaxed home gatherings, while couples must avoid power struggles over domestic duties. Career-wise, the 10th House opposition warns against reckless launches; secure pending contracts before noon. Blessing: an unexpected check arrives from a forgotten account. Follow for tomorrow's reading.",
   "captions_structure": [
     {
       "text": "TAURUS",
       "type": "header"
     },
     {
-      "text": "Stop! Venus dragging comfort into chaos.",
+      "text": "Stop! Venus sextiles Uranus in your 4th.",
       "type": "normal"
     },
     {
-      "text": "Venus square Pluto 9th, Sun trine Uranus 2nd.",
+      "text": "Mars opposes Saturn in your 10th House.",
       "type": "normal"
     },
     {
-      "text": "Love: surprise flirt or money clash.",
+      "text": "Singles attract via home; couples avoid fights.",
       "type": "normal"
     },
     {
-      "text": "Career: bold negotiate, 2nd House gain.",
+      "text": "Career: secure contracts, don't launch reckless.",
       "type": "normal"
     },
     {
-      "text": "Warning: no loans to siblings today.",
+      "text": "Blessing: forgotten account pays out.",
       "type": "normal"
     },
     {
@@ -35,26 +35,28 @@
     "14",
     "29"
   ],
-  "lucky_color": "Forest Green",
-  "monthly_vibe": "Disruptive Growth",
-  "title": "Taurus \u2014 Don't Ignore This",
-  "youtube_title": "Taurus \u2014 Don't Ignore This Warning #shorts",
-  "youtube_description": "Venus square Pluto is rattling your 9th House and Uranus is shaking your 2nd House money today. Comment your sign to see what the stars reveal about your love and cash flow next.",
+  "lucky_color": "Moss Green",
+  "monthly_vibe": "Sudden Shifts",
+  "title": "Taurus Don't Ignore This Shift",
+  "youtube_title": "Taurus Don't Ignore This Shift #shorts",
+  "youtube_description": "Venus and Uranus are rearranging your home life while Mars opposes Saturn in your career sector. This reading reveals the unexpected money blessing coming your way. Comment your sign.",
   "youtube_tags": [
     "astrology",
     "horoscope",
     "taurus",
-    "venus pluto",
-    "uranus trine",
+    "venus",
+    "uranus",
+    "mars",
+    "saturn",
+    "4th house",
+    "10th house",
     "daily reading",
-    "love prediction",
-    "money advice",
     "earth sign",
-    "transit alert"
+    "love money"
   ],
   "type": "daily",
   "target": "Taurus",
-  "date": "July 19, 2026",
+  "date": "July 20, 2026",
   "images": [
     "assets/zodiac_signs/Taurus.jpg"
   ],
