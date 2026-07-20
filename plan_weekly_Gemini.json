@@ -1,58 +1,66 @@
 {
-  "script_text": "A volatile sky is about to rattle your airy Mercury-ruled world, Gemini. Early week, Monday\u2019s Sun in your 3rd House squares Saturn in your 12th, dragging communication delays and a career email snag on Tuesday. Wednesday saves you as Venus sextiles Jupiter, sparking a 5th House love spark with someone witty. Mid-week, the quarter Moon in your 10th House forces a career pivot you can\u2019t ignore. Late week, Mercury trine Neptune in your 11th eases money talks Thursday, and the weekend flows as Mars enters your 2nd House boosting earnings confidence. Wednesday is your power day because Venus sextile Jupiter lights romance. Friday is worst due to Sun-Saturn tension lingering in work. Send that risky text to the crush and invoice the client. Follow for daily updates.",
-  "captions_structure": [
-    {
-      "text": "GEMINI",
-      "type": "header"
-    },
-    {
-      "text": "A volatile sky is about to rattle your airy Mercury-ruled world, Gemini.",
-      "type": "normal"
-    },
-    {
-      "text": "Early week, Sun squares Saturn, Venus saves midweek with romance.",
-      "type": "normal"
-    },
-    {
-      "text": "Quarter Moon pivots career; Mercury trine Neptune eases money.",
-      "type": "normal"
-    },
-    {
-      "text": "Wednesday power day, Friday worst. Text crush, invoice now.",
-      "type": "normal"
-    }
-  ],
-  "lucky_numbers": [
-    "7",
-    "11",
-    "21"
-  ],
-  "lucky_color": "Emerald Green",
-  "monthly_vibe": "Reflective & Calm",
-  "title": "Gemini \u2014 Don't Ignore This Week",
-  "youtube_title": "Gemini \u2014 Don't Ignore This Week #shorts",
-  "youtube_description": "This week a Sun-Saturn square and Venus-Jupiter sextile reshape your love and career path. I reveal why Wednesday is your romantic power day and what the 10th House Moon demands. Comment your sign.",
-  "youtube_tags": [
-    "astrology",
-    "horoscope",
-    "gemini",
-    "weekly forecast",
-    "mercury ruled",
-    "love prediction",
-    "career money",
-    "sun saturn",
-    "venus jupiter",
-    "moon transit",
-    "air sign",
-    "zodiac gemini"
-  ],
-  "type": "weekly",
-  "target": "Gemini",
-  "date": "Jul 18 - Jul 24",
-  "images": [
-    "assets/zodiac_signs/Gemini.jpg"
-  ],
-  "active": true,
-  "status": "uploaded",
-  "file_name": "plan_weekly_Gemini.json"
+    "script_text": "A rare Mercury\u2013Pluto square is about to crack open your usual mental chatter, Gemini. Early week Monday through Wednesday, your ruler Mercury in your 2nd House squares Pluto in your 8th House, making Tuesday worst for career negotiations as power struggles erupt over money. Venus in your 7th House sextiles Jupiter on Wednesday, blessing love with a spontaneous romantic invitation. Mid-week, the Sun enters your 3rd House on Thursday, shifting focus from resources to communication and local connections. Late week Thursday through Sunday, Mercury trines Saturn in your 10th House, stabilizing a career proposal by Friday; the weekend favors light social flirting as air sign energy lifts your mutable spirit. Wednesday is your power day because Venus sextiles Jupiter in your relationship sector. Tuesday is your worst day because Pluto square breeds financial control battles. Write down three career ideas Thursday when Sun clarifies your voice. Follow for daily updates.",
+    "captions_structure": [
+        {
+            "text": "GEMINI",
+            "type": "header"
+        },
+        {
+            "text": "A rare Mercury\u2013Pluto square is about to crack open your usual mental chatter, Gemini.",
+            "type": "normal"
+        },
+        {
+            "text": "Early week Mercury squares Pluto in 2nd and 8th Houses; Tuesday tough for money talks.",
+            "type": "normal"
+        },
+        {
+            "text": "Venus sextiles Jupiter Wednesday boosting love in your 7th House.",
+            "type": "normal"
+        },
+        {
+            "text": "Sun enters 3rd House Thursday shifting to communication.",
+            "type": "normal"
+        },
+        {
+            "text": "Late week Mercury trines Saturn in 10th House stabilizing career.",
+            "type": "normal"
+        },
+        {
+            "text": "Wednesday power day, Tuesday worst. Follow for daily updates.",
+            "type": "normal"
+        }
+    ],
+    "lucky_numbers": [
+        "7",
+        "14",
+        "29"
+    ],
+    "lucky_color": "Sky Blue",
+    "monthly_vibe": "Mental Shift",
+    "title": "Gemini \u2014 Don't Ignore This",
+    "youtube_title": "Gemini \u2014 Don't Ignore This Week's Sky #shorts",
+    "youtube_description": "Your ruler Mercury squares Pluto this week, exposing money and love tensions you can't fake your way through. This forecast reveals exactly when Venus opens your 7th House for romance and when Saturn saves your career. Comment your sign.",
+    "youtube_tags": [
+        "astrology",
+        "horoscope",
+        "gemini",
+        "mercury pluto",
+        "venus jupiter",
+        "career money",
+        "love forecast",
+        "weekly stars",
+        "sun 3rd house",
+        "saturn trine",
+        "air sign",
+        "cosmic guide"
+    ],
+    "type": "weekly",
+    "target": "Gemini",
+    "date": "Jul 20 - Jul 26",
+    "images": [
+        "assets/zodiac_signs/Gemini.jpg"
+    ],
+    "active": true,
+    "status": "pending",
+    "file_name": "plan_weekly_Gemini.json"
 }
