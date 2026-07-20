@@ -1,41 +1,62 @@
 {
-    "title": "Mercury Retrograde Hidden Cosmic Secrets",
-    "youtube_title": "Mercury Retrograde \u2014 Something Big Is Coming #shorts",
-    "youtube_description": "Discover how Mercury's backward dance will shake up love and career this week. Our reading reveals hidden challenges and surprising opportunities for every sign. Comment your zodiac sign for your personalized forecast!",
-    "youtube_tags": [
-        "astrology horoscope",
-        "mercury retrograde",
-        "love luck",
-        "career advice",
-        "house transits",
-        "planets aspect",
-        "north node",
-        "chiron healing",
-        "air element",
-        "communication shifts",
-        "weekly forecast"
-    ],
+    "script_text": "Something is whispering backwards through the stars and you feel it before you know it. Mercury Retrograde is when Mercury, ruler of communication and an Air element planet, appears to move backward from our view on Earth. This reversal scrambles messages and reroutes plans for all signs, sparking missed emails and delayed travel. In your 7th House of partnership, old lovers resurface with unresolved words while a Mercury square to Mars in your 10th House stalls career deals and triggers invoice errors. The shadow side is karmic: Retrograde meets your North Node in Pisces and Chiron in Aries, forcing healing of spoken wounds before soul progress. Back up devices and avoid signing contracts until August 11. Watch your sign's full reading now and comment your sign below.",
     "captions_structure": [
         {
             "text": "MERCURY RETROGRADE",
             "type": "header"
         },
         {
-            "text": "THE AIR WHISPERS OF MERCURY'S BACKWARD MARCH, REVEALING HIDDEN MESSAGES.",
+            "text": "Something is whispering backwards through the stars",
+            "type": "normal"
+        },
+        {
+            "text": "Mercury rules communication, an Air planet, going backward",
+            "type": "normal"
+        },
+        {
+            "text": "All signs feel scrambled messages and delayed travel",
+            "type": "normal"
+        },
+        {
+            "text": "7th House love returns, 10th House career stalls",
+            "type": "normal"
+        },
+        {
+            "text": "Karmic Retrograde with North Node and Chiron healing",
+            "type": "normal"
+        },
+        {
+            "text": "Back up data, avoid contracts til August 11",
             "type": "normal"
         }
     ],
-    "script_text": "THE AIR WHISPERS OF MERCURY'S BACKWARD MARCH, REVEALING HIDDEN MESSAGES.\n\nMercury Retrograde marks Mercury, ruler of Air element, moving backward as it retraces its orbit, causing communication glitches and a chance to reassess. This period stalls plans and urges you to pause before contracts.\n\nHow it affects you: A square to Saturn in the 10th House stalls career, urging caution with contracts. A trine to Venus in the 7th House sparks unexpected love for Libras, yet a conjunction with Chiron reopens old wounds. Those with planets in the 1st House may speak impulsively, so listen before you act.\n\nShadow side/karmic lesson: This retrograde demands a karmic review of your speech, guiding North Node toward truthful expression. Chiron highlights emotional wounds that need healing now.\n\nSurvival tip: Write down vital info, postpone agreements, and double\u2011check emails until Mercury moves forward.\n\nCTA: Share your Mercury Retrograde story below for a personalized reading!",
     "lucky_numbers": [
-        7,
-        13,
-        21
+        "7",
+        "11",
+        "21"
     ],
-    "lucky_color": "Royal Purple",
-    "monthly_vibe": "Quiet Transformation",
+    "lucky_color": "Emerald Green",
+    "monthly_vibe": "Reflective & Calm",
+    "title": "Mercury Retrograde Don't Ignore This",
+    "youtube_title": "Mercury Retrograde Don't Ignore This #shorts",
+    "youtube_description": "Mercury Retrograde is reversing through your 7th and 10th Houses with a harsh Mars square. I reveal which signs get ghosted by exes and which lose money this July. Comment your sign to claim your full reading.",
+    "youtube_tags": [
+        "astrology",
+        "horoscope",
+        "mercury retrograde",
+        "air sign",
+        "7th house",
+        "10th house",
+        "chiron",
+        "north node",
+        "love forecast",
+        "career money",
+        "retrograde tip",
+        "july 2026"
+    ],
     "type": "special",
     "target": "Mercury Retrograde",
-    "date": "2026-06-28",
+    "date": "2026-07-20",
     "images": [],
     "active": true,
     "status": "pending",

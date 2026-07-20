@@ -1,32 +1,28 @@
 {
-  "script_text": "Stop! Aquarius, the stars are screaming at you right now. Uranus, your ruling planet of sudden change, forms a tense square to Mercury retrograding through your 6th House of work, sparking miscommunication with colleagues. As an Air sign, this static disrupts your mental flow. In love, if single you attract a curious Gemini type through 7th House banter; taken ones must avoid snapping over small chores. Career-wise, the 2nd House Venus trine to Pluto urges you to renegotiate a stalled payment or side income today. Warning: do NOT sign any contract before Mercury clears shadow on the 22nd. Follow for tomorrow's reading.",
+  "script_text": "Stop! Aquarius, Uranus your ruling planet is locked in a harsh square to Mercury in your 3rd House of communication right now. This air-sign tension sparks mental static and blurred messages as the Sun trines Pluto in your 12th House of secrets. Singles, a mysterious stranger arrives through encrypted chats if you drop the aloof act. Taken ones, watch for passive-aggressive texts around 6pm. Career-wise, Saturn retrograde in your 10th House of status demands you redo a proposal before Thursday or lose the account. Avoid signing anything before noon or a buried clause bites you. Follow for tomorrow's reading.",
   "captions_structure": [
     {
       "text": "AQUARIUS",
       "type": "header"
     },
     {
-      "text": "Stop! The stars are screaming at you.",
+      "text": "Stop! Uranus your ruler squares Mercury in your 3rd House.",
       "type": "normal"
     },
     {
-      "text": "Uranus squares Mercury in your 6th House.",
+      "text": "Sun trines Pluto in your 12th House of secrets.",
       "type": "normal"
     },
     {
-      "text": "Love: attract Gemini energy, avoid snapping.",
+      "text": "Singles meet a mystery via chats; couples watch texts at 6pm.",
       "type": "normal"
     },
     {
-      "text": "Career: Venus trine Pluto in 2nd House money.",
+      "text": "Saturn Rx in 10th House: redo proposal or lose account.",
       "type": "normal"
     },
     {
-      "text": "Warning: no contracts before July 22.",
-      "type": "normal"
-    },
-    {
-      "text": "Follow for tomorrow's reading.",
+      "text": "Don't sign before noon. Follow for tomorrow's reading.",
       "type": "normal"
     }
   ],
@@ -37,26 +33,26 @@
   ],
   "lucky_color": "Electric Violet",
   "monthly_vibe": "Disruptive Clarity",
-  "title": "Aquarius \u2014 Don't Ignore This Signal",
+  "title": "Aquarius Don't Ignore This Signal",
   "youtube_title": "Aquarius Don't Ignore This Signal #shorts",
-  "youtube_description": "Your ruling Uranus is squaring retrograde Mercury in the 6th House, and it changes everything about your work and love today. This reading reveals the exact warning you need before July 22. Comment your sign.",
+  "youtube_description": "Uranus is squaring Mercury in your 3rd House and the static is real. This reading reveals the love spark and the career redo Saturn demands in your 10th House. Comment your sign.",
   "youtube_tags": [
     "astrology",
     "horoscope",
     "aquarius",
     "uranus",
-    "mercury retrograde",
-    "6th house",
-    "love reading",
-    "career advice",
-    "air sign",
-    "daily horoscope",
-    "venus pluto",
-    "cosmic warning"
+    "mercury square",
+    "3rd house",
+    "12th house",
+    "10th house",
+    "saturn retrograde",
+    "love forecast",
+    "career astrology",
+    "daily reading"
   ],
   "type": "daily",
   "target": "Aquarius",
-  "date": "July 19, 2026",
+  "date": "July 20, 2026",
   "images": [
     "assets/zodiac_signs/Aquarius.jpg"
   ],
