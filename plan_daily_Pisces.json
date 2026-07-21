@@ -1,62 +1,62 @@
 {
-  "script_text": "Stop! Pisces, the stars are screaming at you right now. Neptune, your ruling planet of the Water element, is locked in a harsh square to Mercury retrograding through your 6th House of work and health. This friction clouds contracts and daily routines with illusion. In love, Venus trines your 5th House of romance from the 1st, so singles attract dreamy admirers by showing vulnerability. Taken Pisces must watch secretive moods spark petty clashes. Career-wise, that Mercury square threatens delayed payments in the 6th, so recheck invoices before noon. Blessing: a surprise refund lands in your account by dusk. Follow for tomorrow's reading.",
+  "script_text": "Stop! Pisces, the stars are sending you a warning right now. Mars blazes through Leo, forming a sharp square to your ruling planet Neptune in the 11th House of Friends and Groups\u2014this cosmic clash ignites chaotic energy in your social circles. Avoid overpromising to friends in chaotic situations; your Piscean empathy is being tested by Mars\u2019 fiery square to Neptune. If single, channel your creative allure through artistic pursuits to attract a partner who values depth over drama. Career-wise, Mercury trines Pluto in your 10th House, signaling a breakthrough in your professional path\u2014be ready to leverage your unique insights for advancement. Unexpected support arrives through a mentor figure today. Follow for tomorrow\u2019s cosmic update!",
   "captions_structure": [
     {
-      "text": "PISCES",
+      "text": "PISCES ALERT",
       "type": "header"
     },
     {
-      "text": "Stop! Pisces, the stars are screaming at you right now.",
+      "text": "Stop! Pisces, the stars are sending you a warning right now.",
       "type": "normal"
     },
     {
-      "text": "Neptune squares Mercury retrograde in your 6th House.",
+      "text": "Mars blazes through Leo, forming a sharp square to your ruling planet Neptune in the 11th House of Friends and Groups\u2014this cosmic clash ignites chaotic energy in your social circles.",
       "type": "normal"
     },
     {
-      "text": "Venus trines your 5th House \u2014 love is dreamy.",
+      "text": "If single, channel your creative allure through artistic pursuits to attract a partner who values depth over drama.",
       "type": "normal"
     },
     {
-      "text": "Mercury square risks delayed pay; recheck invoices.",
+      "text": "Career-wise, Mercury trines Pluto in your 10th House, signaling a breakthrough in your professional path\u2014be ready to leverage your unique insights for advancement.",
       "type": "normal"
     },
     {
-      "text": "Blessing: surprise refund by dusk.",
+      "text": "Unexpected support arrives through a mentor figure today.",
       "type": "normal"
     },
     {
-      "text": "Follow for tomorrow's reading.",
+      "text": "Follow for tomorrow\u2019s cosmic update!",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
     "7",
-    "14",
-    "29"
+    "11",
+    "21"
   ],
-  "lucky_color": "Seafoam Teal",
-  "monthly_vibe": "Dreamy Introspection",
-  "title": "Pisces \u2014 Don't Ignore This",
-  "youtube_title": "Pisces \u2014 Don't Ignore This Transit #shorts",
-  "youtube_description": "Neptune is squaring retrograde Mercury in your 6th House, and it's messing with your money and love life. This reading reveals the exact clash and the surprise blessing coming at dusk. Comment your sign.",
+  "lucky_color": "Emerald Green",
+  "monthly_vibe": "Reflective & Calm",
+  "title": "Pisces Daily Horoscope July 21, 2026",
+  "youtube_title": "Pisces: Mars Squares Neptune\u2014Critical Warning! #shorts",
+  "youtube_description": "Mars and Neptune are locked in a destructive square today, testing your empathy and social bonds. Discover how this transit will reshape your career path through Mercury-Pluto energy. Comment your sign below!",
   "youtube_tags": [
     "astrology",
     "horoscope",
     "pisces",
+    "mars",
     "neptune",
-    "mercury retrograde",
-    "6th house",
-    "love reading",
-    "career advice",
-    "water sign",
+    "mercury",
+    "pluto",
     "daily horoscope",
-    "venus trine",
-    "cosmic warning"
+    "pisces forecast",
+    "cosmic energy",
+    "astrological transit",
+    "zodiac reading"
   ],
   "type": "daily",
   "target": "Pisces",
-  "date": "July 20, 2026",
+  "date": "July 21, 2026",
   "images": [
     "assets/zodiac_signs/Pisces.jpg"
   ],
