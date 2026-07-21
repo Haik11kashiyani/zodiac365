@@ -1,62 +1,44 @@
 {
-    "script_text": "Aries, the cosmos is igniting a firestorm in your chart that you cannot afford to sleep through. Early week, your ruling planet Mars squares Saturn in your 10th House on Monday, pressuring career goals but Tuesday brings a Venus sextile to your 1st House, softening conflicts and boosting charm for love. Mid-week, the Sun trine Neptune in your 12th House on Wednesday dissolves confusion, opening intuitive clarity. Late week, Mercury enters your 5th House Thursday improving romantic communication, while a Jupiter opposition to Pluto Friday warns of money power struggles at work. Monday is your worst day due to the harsh Mars-Saturn square blocking ambition. Wednesday is your power day because Venus lights your 1st House with magnetic confidence. Channel Mars fire into one bold career move before Friday's Pluto tension. Follow for daily updates.",
-    "captions_structure": [
-        {
-            "text": "ARIES",
-            "type": "header"
-        },
-        {
-            "text": "Aries, the cosmos is igniting a firestorm in your chart that you cannot afford to sleep through.",
-            "type": "normal"
-        },
-        {
-            "text": "Early week, Mars squares Saturn in your 10th House Monday, pressuring career, but Venus sextiles your 1st House Tuesday boosting love.",
-            "type": "normal"
-        },
-        {
-            "text": "Mid-week, Sun trines Neptune in your 12th House Wednesday, opening intuitive clarity.",
-            "type": "normal"
-        },
-        {
-            "text": "Late week Mercury enters your 5th House Thursday aiding romance; Jupiter opposes Pluto Friday on money.",
-            "type": "normal"
-        },
-        {
-            "text": "Monday worst, Wednesday best via Venus in 1st. Move boldly before Friday. Follow for daily updates.",
-            "type": "normal"
-        }
-    ],
-    "lucky_numbers": [
-        "7",
-        "14",
-        "29"
-    ],
-    "lucky_color": "Crimson Red",
-    "monthly_vibe": "Fiery Transformation",
-    "title": "Aries \u2014 Don't Ignore This Week",
-    "youtube_title": "Aries \u2014 Don't Ignore This Week #shorts",
-    "youtube_description": "Mars squares Saturn in your 10th House and Venus shifts your love life this week, Aries. The video reveals exactly when to act and when to lay low. Comment your sign.",
-    "youtube_tags": [
-        "astrology",
-        "horoscope",
-        "aries",
-        "mars",
-        "saturn",
-        "venus",
-        "5th house",
-        "10th house",
-        "weekly forecast",
-        "love",
-        "career",
-        "transits"
-    ],
-    "type": "weekly",
-    "target": "Aries",
-    "date": "Jul 20 - Jul 26",
-    "images": [
-        "assets/zodiac_signs/Aries.jpg"
-    ],
-    "active": true,
-    "status": "pending",
-    "file_name": "plan_weekly_Aries.json"
+  "title": "Aries Weekly Cosmic Firestorm",
+  "youtube_title": "Aries \u2014 Something Big Is Coming #shorts",
+  "youtube_description": "In this Aries update I break down the Mars-fueled week ahead, including a bold Uranus shift and love tweaks. Don\u2019t miss the daily insights on career boosts and romance sparks. Comment your sign for a personalized reading!",
+  "youtube_tags": [
+    "aries horoscope",
+    "weekly astrology",
+    "mars fire",
+    "venus transit",
+    "career boost",
+    "love forecast",
+    "uranus direct",
+    "saturn trine",
+    "jupiter sextile",
+    "weekly predictions"
+  ],
+  "captions_structure": [
+    {
+      "text": "ARIES",
+      "type": "header"
+    },
+    {
+      "text": "Get ready, Aries, for a week as Mars fuels your fire.",
+      "type": "normal"
+    }
+  ],
+  "lucky_numbers": [
+    "7",
+    "13",
+    "21"
+  ],
+  "lucky_color": "Crimson Scarlet",
+  "monthly_vibe": "Blazing Momentum",
+  "script_text": "Get ready, Aries, for a week as Mars fuels your fire. Monday sees Mars in the 10th house trine Saturn in the 4th, boosting career. Tuesday Mercury square Venus in 7th, stirring love tension and miscommunication. Wednesday\u2019s Sun sextile Jupiter in the 5th house lifts creativity and romance, best day. Thursday, Uranus stations direct in your 1st house, igniting confidence and bold self\u2011expression. Thursday\u2019s Uranus surge with Venus\u2011Pluto conjunction in the 7th deepens love intensity and transformative bonds. Friday\u2019s Mars square Neptune in 2nd clouds finances, warning spending. Saturday\u2019s Moon trine Mercury in 10th restores clarity, favoring career moves and networking. Wednesday shines as Sun sextile Jupiter activates 5th house, fueling romance and success. Tuesday strains as Mercury square Venus ignites love missteps, marking the worst day. Channel Mars's fire into a project each day to avoid burnout and keep progress steady. Follow for updates.",
+  "type": "weekly",
+  "target": "Aries",
+  "date": "Jul 21 - Jul 27",
+  "images": [
+    "assets/zodiac_signs/Aries.jpg"
+  ],
+  "active": true,
+  "status": "uploaded",
+  "file_name": "plan_weekly_Aries.json"
 }

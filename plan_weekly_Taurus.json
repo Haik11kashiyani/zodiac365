@@ -1,62 +1,44 @@
 {
-    "script_text": "The cosmos is about to shake your secure earth foundations, Taurus. As Venus, your ruling planet, forms a tense square to Saturn in your 10th House on Monday, career delays sting but Tuesday brings relief when the Sun trines Pluto in your 2nd House, boosting money flow. Midweek, a Mercury sextile to Jupiter in your 3rd House on Wednesday opens lucrative communication. Thursday through Sunday, Venus enters your 5th House, igniting passionate love and creative play; the weekend glows with romantic promise. Wednesday is your power day because Venus trines Jupiter for career clarity. Monday is your worst day because Saturn squares Venus blocking promotion. Review contracts before signing to protect your resources. Follow for daily updates.",
-    "captions_structure": [
-        {
-            "text": "TAURUS",
-            "type": "header"
-        },
-        {
-            "text": "The cosmos is about to shake your secure earth foundations, Taurus.",
-            "type": "normal"
-        },
-        {
-            "text": "Venus squares Saturn in 10th House Monday; Sun trines Pluto 2nd Tuesday.",
-            "type": "normal"
-        },
-        {
-            "text": "Midweek Mercury sextiles Jupiter in 3rd House for career gains.",
-            "type": "normal"
-        },
-        {
-            "text": "Venus enters 5th House Thursday bringing love and weekend joy.",
-            "type": "normal"
-        },
-        {
-            "text": "Wednesday power day, Monday worst. Review contracts. Follow for daily.",
-            "type": "normal"
-        }
-    ],
-    "lucky_numbers": [
-        "7",
-        "11",
-        "21"
-    ],
-    "lucky_color": "Emerald Green",
-    "monthly_vibe": "Reflective & Calm",
-    "title": "Taurus \u2014 Don't Ignore This Week",
-    "youtube_title": "Taurus \u2014 Don't Ignore This Week #shorts",
-    "youtube_description": "This week Venus squares Saturn in your 10th House then enters your 5th House for love. Discover the exact days money and romance shift for you. Comment your sign.",
-    "youtube_tags": [
-        "astrology",
-        "horoscope",
-        "taurus",
-        "venus saturn",
-        "5th house",
-        "career",
-        "love",
-        "earth sign",
-        "weekly forecast",
-        "transits",
-        "pluto trine",
-        "mercury jupiter"
-    ],
-    "type": "weekly",
-    "target": "Taurus",
-    "date": "Jul 20 - Jul 26",
-    "images": [
-        "assets/zodiac_signs/Taurus.jpg"
-    ],
-    "active": true,
-    "status": "pending",
-    "file_name": "plan_weekly_Taurus.json"
+  "script_text": "Taurus, brace yourself\u2014this week\u2019s clash will ignite love and money in one burst. On Monday, Venus trines Uranus in your 5th House, sparking romance. Tuesday brings a Mars\u2011Saturn square in your 10th House, testing career. Wednesday shines as Venus enters your 5th House, boosting confidence and allure. Mid\u2011week, Thursday\u2019s Jupiter joins your natal Moon in the 2nd House, boosting finances with growth. Friday, Mercury opposes Pluto in your 8th House, creating emotional revelations that could shake partnerships. Saturday, a Saturn sextile to ascendant brings stability, good for long\u2011term planning. Sunday, the Sun squares Neptune in the 12th House, urging calm reflection over social excess. Your strongest day is Wednesday, with Venus\u2019s 5th House boost igniting romance. Your most draining day is Tuesday, when the Mars\u2011Saturn square hammers career pressures. Anchor Thursday\u2019s Jupiter boost for money moves and guard feelings Friday with simple talk. Follow for daily updates.",
+  "captions_structure": [
+    {
+      "text": "TAURUS",
+      "type": "header"
+    },
+    {
+      "text": "Taurus, brace yourself\u2014this week\u2019s clash will ignite love and money in one burst.",
+      "type": "normal"
+    }
+  ],
+  "lucky_numbers": [
+    "7",
+    "11",
+    "21"
+  ],
+  "lucky_color": "Emerald Green",
+  "monthly_vibe": "Reflective & Calm",
+  "title": "Taurus \u2013 This Week\u2019s Love & Money Clash",
+  "youtube_title": "Taurus \u2013 Love & Money Clash This Week #shorts",
+  "youtube_description": "Discover how Venus and Jupiter will shape your love life and finances this week. Our detailed Taurus forecast breaks down the key transits, from a romance\u2011sparking trine to a money\u2011boosting conjunction. Comment your sign for your personalized reading!",
+  "youtube_tags": [
+    "taurus horoscope",
+    "weekly astrology",
+    "love prediction",
+    "career forecast",
+    "venus transit",
+    "jupiter insight",
+    "house 5",
+    "house 2",
+    "moon sign",
+    "planetary aspects"
+  ],
+  "type": "weekly",
+  "target": "Taurus",
+  "date": "Jul 21 - Jul 27",
+  "images": [
+    "assets/zodiac_signs/Taurus.jpg"
+  ],
+  "active": true,
+  "status": "uploaded",
+  "file_name": "plan_weekly_Taurus.json"
 }
