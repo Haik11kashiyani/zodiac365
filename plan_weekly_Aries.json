@@ -1,40 +1,58 @@
 {
-  "title": "Aries Weekly Cosmic Firestorm",
-  "youtube_title": "Aries \u2014 Something Big Is Coming #shorts",
-  "youtube_description": "In this Aries update I break down the Mars-fueled week ahead, including a bold Uranus shift and love tweaks. Don\u2019t miss the daily insights on career boosts and romance sparks. Comment your sign for a personalized reading!",
-  "youtube_tags": [
-    "aries horoscope",
-    "weekly astrology",
-    "mars fire",
-    "venus transit",
-    "career boost",
-    "love forecast",
-    "uranus direct",
-    "saturn trine",
-    "jupiter sextile",
-    "weekly predictions"
-  ],
+  "script_text": "Aries, your week ignites with Mars squaring your 10th House ruler Saturn \u2014 career tension peaks early. Monday brings Mercury trine your 5th House ruler Venus, sparking passionate conversations in love, but Tuesday's Moon opposes your 7th House Mars creates friction in partnerships. Wednesday's turning point arrives as Jupiter enters your 9th House, expanding your philosophical outlook and travel opportunities. Thursday through Sunday, the Sun sextiles your 1st House ruler Mars, boosting your natural confidence and physical energy. Friday is your power day because Venus trines your 10th House Saturn, attracting career recognition. Sunday feels heavy as Saturn squares your 4th House Moon, stirring family tensions. This fiery Ram, lean into your cardinal fire element and let Mars guide bold moves. Follow for daily updates.",
   "captions_structure": [
     {
       "text": "ARIES",
       "type": "header"
     },
     {
-      "text": "Get ready, Aries, for a week as Mars fuels your fire.",
+      "text": "Your week ignites with Mars squaring your 10th House ruler Saturn \u2014 career tension peaks early.",
+      "type": "normal"
+    },
+    {
+      "text": "Monday brings Mercury trine your 5th House ruler Venus, sparking passionate conversations in love.",
+      "type": "normal"
+    },
+    {
+      "text": "Wednesday's turning point arrives as Jupiter enters your 9th House, expanding your philosophical outlook.",
+      "type": "normal"
+    },
+    {
+      "text": "Friday is your power day because Venus trines your 10th House Saturn, attracting career recognition.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for daily updates.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
-    "7",
-    "13",
-    "21"
+    "3",
+    "14",
+    "27"
   ],
-  "lucky_color": "Crimson Scarlet",
-  "monthly_vibe": "Blazing Momentum",
-  "script_text": "Get ready, Aries, for a week as Mars fuels your fire. Monday sees Mars in the 10th house trine Saturn in the 4th, boosting career. Tuesday Mercury square Venus in 7th, stirring love tension and miscommunication. Wednesday\u2019s Sun sextile Jupiter in the 5th house lifts creativity and romance, best day. Thursday, Uranus stations direct in your 1st house, igniting confidence and bold self\u2011expression. Thursday\u2019s Uranus surge with Venus\u2011Pluto conjunction in the 7th deepens love intensity and transformative bonds. Friday\u2019s Mars square Neptune in 2nd clouds finances, warning spending. Saturday\u2019s Moon trine Mercury in 10th restores clarity, favoring career moves and networking. Wednesday shines as Sun sextile Jupiter activates 5th house, fueling romance and success. Tuesday strains as Mercury square Venus ignites love missteps, marking the worst day. Channel Mars's fire into a project each day to avoid burnout and keep progress steady. Follow for updates.",
+  "lucky_color": "Cardinal Red",
+  "monthly_vibe": "Bold Action",
+  "title": "Aries \u2014 Major Career Shift This Week",
+  "youtube_title": "Aries \u2014 Major Career Shift This Week #shorts",
+  "youtube_description": "Your week ignites with Mars squaring your 10th House ruler Saturn, creating career tension that peaks early. Discover what Jupiter entering your 9th House means for your love life and why Friday could bring major recognition. Comment your sign below!",
+  "youtube_tags": [
+    "aries horoscope",
+    "weekly horoscope",
+    "aries weekly",
+    "astrology predictions",
+    "love horoscope",
+    "career horoscope",
+    "aries july 2026",
+    "mars in leo",
+    "venus trine saturn",
+    "jupiter in gemini",
+    "tenth house",
+    "cardinal signs"
+  ],
   "type": "weekly",
   "target": "Aries",
-  "date": "Jul 21 - Jul 27",
+  "date": "Jul 22 - Jul 28",
   "images": [
     "assets/zodiac_signs/Aries.jpg"
   ],
