@@ -1,42 +1,55 @@
 {
-  "script_text": "Stop! Pisces, Neptune is dragging you into a fog of confusion that won't lift until midnight. Jupiter in your 9th House is forming a stubborn sextile to your Moon, expanding your need for spiritual certainty but creating blind spots in practical matters. Your romantic life feels like a movie with missing scenes\u2014trust the intuitive flashes from your subconscious rather than what's said aloud. In your career, Saturn's tight trine to your Midheaven demands you structure a creative project you've been avoiding; the universe is offering solid foundation if you'll just build it. Watch for unexpected financial gifts through old friends\u2014someone will send you something meaningful by day's end. Follow for tomorrow's reading where the planets reveal your weekend destiny.",
+  "script_text": "Stop, Pisces \u2014 the planets are demanding your attention right now. Neptune, your ruler, is completing a sextile to Saturn in your 10th House of Career, signaling a quiet but powerful shift in your professional recognition. The emotional tides of water are clashing with structure, and you will feel this tension in your daily work. In love, Venus is moving into a harmonious trine with Jupiter in your 7th House of Partnerships, drawing a deeply meaningful connection your way if you are single, or awakening tenderness in a current bond. Career money flows through the 10th House \u2014 expect an unexpected opportunity or recognition that reshapes your path. A warning: do not abandon your boundaries out of pity today. Follow for tomorrow's reading.",
   "captions_structure": [
     {
-      "text": "PISCES ALERT",
+      "text": "PISCES",
       "type": "header"
     },
     {
-      "text": "Stop! Pisces, Neptune is dragging you into a fog of confusion...",
+      "text": "Neptune sextile Saturn shifts your career path today.",
+      "type": "normal"
+    },
+    {
+      "text": "Venus trine Jupiter opens your heart.",
+      "type": "normal"
+    },
+    {
+      "text": "Set boundaries \u2014 do not give from exhaustion.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for tomorrow's reading.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
     "7",
-    "14",
-    "28"
+    "19",
+    "42"
   ],
-  "lucky_color": "Deep Sea Teal",
-  "monthly_vibe": "Spiritual Awakening",
-  "title": "Pisces Daily Horoscope July 23, 2026",
-  "youtube_title": "Pisces \u2014 Neptune's Fog Will Lift at Midnight #shorts",
-  "youtube_description": "Today's Neptune-Jupiter aspect is creating serious confusion in your 12th House, Pisces. You'll need to trust intuition over words in relationships, and an unexpected gift from an old friend could clear your path financially. Comment your sign below!",
+  "lucky_color": "Seafoam Green",
+  "monthly_vibe": "Quiet Authority",
+  "title": "Pisces: The Stars Demand Your Attention Now",
+  "youtube_title": "Pisces: A Career Shift is Coming July 24 #shorts",
+  "youtube_description": "Neptune and Saturn are aligning in Pisces's career house this week, unlocking a powerful shift in recognition and purpose. Venus and Jupiter are opening the door to a transformative connection. Comment your sign and hit follow to see what this means for you.",
   "youtube_tags": [
     "pisces horoscope",
+    "daily astrology",
     "neptune transit",
-    "jupiter sextile moon",
-    "pisces daily",
-    "astrology 2026",
-    "spiritual guidance",
-    "love prediction",
+    "saturn in aquarius",
+    "venus trine jupiter",
     "career astrology",
-    "pisces 12th house",
-    "planetary timing",
-    "daily horoscope",
-    "pisces warning"
+    "love prediction",
+    "pisces energy",
+    "planetary shifts",
+    "zodiac secrets",
+    "celestial guidance",
+    "cosmic timing"
   ],
+  "word_count": 112,
   "type": "daily",
   "target": "Pisces",
-  "date": "July 23, 2026",
+  "date": "July 24, 2026",
   "images": [
     "assets/zodiac_signs/Pisces.jpg"
   ],
