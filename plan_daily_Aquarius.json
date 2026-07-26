@@ -1,62 +1,74 @@
 {
-  "script_text": "Stop! Aquarius, the stars are screaming at you right now. Uranus is firing a conjunction directly into your 10th House of Career, while Saturn squares your natal Venus in the 7th House of Partnerships. This air sign is feeling the pressure to make bold professional moves, but relationship tensions are building underneath. If you're single, the 5th House spotlight is revealing a creative confidence that magnetizes the kind of partner you've been avoiding. In love, watch for an older authority figure crossing your path in an unexpected way. In finances, the 2nd House income sector is catching a powerful alignment with Jupiter, signaling a bonus or windfall coming before month's end. Avoid making impulsive romantic decisions before the 28th, because the Mercury retrograde shadow is actively clouding your judgment. Follow for tomorrow's reading and let the cosmos guide your week.",
+  "script_text": "Stop, Aquarius \u2014 the cosmos just flipped a switch under your feet. Mars in Taurus is forming a tense square to Uranus, ruler of your Air element, activating your 1st House of Identity and your 7th House of Partnerships. Powerful shifts and sudden breakthroughs are reshaping how you connect with others tonight. Love Prediction: If single, the square is pulling an unexpected, magnetic connection through a shared creative circle \u2014 stay open to unconventional energy and bold surprises. If taken, boundary battles are peaking, do NOT shrink yourself to avoid tension. Career and Money: Jupiter in Cancer is trining your 10th House of Career, bringing a surge of recognition and a promotion opportunity that surprises you. Step into visibility with confident intention. Warning: Do not make impulsive financial decisions under this chaotic square \u2014 the cosmos rewards patience over gambling instincts. Subscribe so you don't miss the readings ahead.",
   "captions_structure": [
     {
-      "text": "AQUARIUS ALERT",
+      "text": "AQUARIUS DAILY HOROSCOPE",
       "type": "header"
     },
     {
-      "text": "Stop! Aquarius, the stars are screaming at you right now.",
+      "text": "Stop, Aquarius \u2014 the cosmos just flipped a switch under your feet.",
       "type": "normal"
     },
     {
-      "text": "Uranus is firing a conjunction into your 10th House of Career while Saturn squares Venus in your 7th House.",
+      "text": "Mars in Taurus is forming a tense square to Uranus, ruler of your Air element, activating your 1st House of Identity and your 7th House of Partnerships.",
       "type": "normal"
     },
     {
-      "text": "If you're single, the 5th House spotlight reveals creative confidence that magnetizes a partner you've been avoiding.",
+      "text": "Powerful shifts and sudden breakthroughs are reshaping how you connect with others tonight.",
       "type": "normal"
     },
     {
-      "text": "Financially, Jupiter aligns with your 2nd House income sector \u2014 a bonus or windfall is coming.",
+      "text": "Love Prediction: If single, the square is pulling an unexpected, magnetic connection through a shared creative circle \u2014 stay open to unconventional energy and bold surprises.",
       "type": "normal"
     },
     {
-      "text": "Avoid impulsive romantic decisions before the 28th.",
+      "text": "If taken, boundary battles are peaking \u2014 do NOT shrink yourself to avoid tension.",
       "type": "normal"
     },
     {
-      "text": "Follow for tomorrow's reading.",
+      "text": "Career and Money: Jupiter in Cancer is trining your 10th House of Career, bringing a surge of recognition and a promotion opportunity that surprises you.",
       "type": "normal"
+    },
+    {
+      "text": "Step into visibility with confident intention.",
+      "type": "normal"
+    },
+    {
+      "text": "Warning: Do not make impulsive financial decisions under this chaotic square \u2014 the cosmos rewards patience over gambling instincts.",
+      "type": "warning"
+    },
+    {
+      "text": "Subscribe so you don't miss the readings ahead.",
+      "type": "cta"
     }
   ],
   "lucky_numbers": [
     "7",
-    "19",
-    "44"
+    "11",
+    "23"
   ],
-  "lucky_color": "Electric Violet",
-  "monthly_vibe": "Electric Awakening",
-  "title": "Aquarius \u2014 The Warning the Stars Won't Whisper",
-  "youtube_title": "Aquarius \u2014 Uranus Is Shifting Your Destiny #shorts",
-  "youtube_description": "Aquarius, Uranus is conjunct your 10th House midheaven on July 25th, igniting a career shift you didn't see coming. Saturn is simultaneously crossing your 7th House, forcing tough truths in relationships. Comment your sign and share this reading \u2014 the cosmos has something urgent to tell you.",
+  "lucky_color": "Celestial Green",
+  "monthly_vibe": "Electric and Focused",
+  "title": "Aquarius \u2014 The Stars Are Warning You",
+  "youtube_title": "Aquarius: A Cosmic Tension You Can't Ignore #shorts",
+  "youtube_description": "The Mars square to Uranus is creating electric tension in Aquarius's chart today \u2014 especially around relationships and career visibility. In this reading, I reveal exactly which transit is opening unexpected doors for Aquarius and where you need to hold your ground. Comment your sign so we can see how this aspect hits everyone.",
   "youtube_tags": [
     "aquarius horoscope",
     "daily astrology",
-    "uranus transit",
-    "crystal ball",
     "zodiac predictions",
-    "astrology reading",
+    "uranus transit",
+    "mars square uranus",
     "aquarius love",
-    "saturn aspect",
-    "career horoscope",
-    "planetary transits",
-    "mercury retrograde",
-    "cosmic energy"
+    "career astrology",
+    "cosmic energy",
+    "jupiter trine",
+    "horoscope today",
+    "astrology reading",
+    "zodiac signs"
   ],
   "type": "daily",
   "target": "Aquarius",
-  "date": "July 25, 2026",
+  "date": "July 26, 2026",
   "images": [
     "assets/zodiac_signs/Aquarius.jpg"
   ],
