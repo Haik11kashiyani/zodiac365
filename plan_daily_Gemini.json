@@ -1,58 +1,70 @@
 {
-  "script_text": "Stop! Gemini, the stars are screaming at you right now. Mercury, your ruling planet, is retrograde in Leo and squaring Saturn in your 9th House of Belief, dragging your airy element into a clash over truth and travel plans. In love, singles attract a fiery communicator if they ditch small talk, while taken Geminis must watch passive-aggressive texts from a partner. Career-wise, a Venus trine to Jupiter in your 2nd House of Money signals an unexpected raise or client bonus if you invoice by noon. Warning: avoid signing any contract under Mercury's shadow or you'll regret the fine print. Follow for tomorrow's reading.",
+  "script_text": "Stop, Gemini \u2014 Mercury squares Mars in the 3rd House of Communication today and the Air sign intensity is making every word feel dangerous. Venus in Cancer is forming a sextile with Jupiter flowing through your 10th House of Career, igniting a wave of authority and recognition. This aspect specifically activates opportunities connected to female figures in your professional life \u2014 pay attention. For single Geminis, this Venus-Jupiter sextile magnetizes someone emotionally intelligent \u2014 don't deflect their sincerity. If you're taken, a past disagreement quietly resolves itself when you stop overthinking the other person's intentions. Jupiter transiting your 10th House pushes your visibility skyward \u2014 pitch that unconventional project before Friday and watch how quickly doors open. A blessing arrives in the form of an unexpected text from someone you haven't heard from in over a year. Follow so you don't miss what's coming for Gemini this week.",
   "captions_structure": [
     {
-      "text": "GEMINI",
+      "text": "GEMINI DAILY HOROSCOPE",
       "type": "header"
     },
     {
-      "text": "Stop! Gemini, the stars are screaming at you right now.",
+      "text": "Stop, Gemini \u2014 Mercury squares Mars in the 3rd House of Communication today and the Air sign intensity is making every word feel dangerous.",
       "type": "normal"
     },
     {
-      "text": "Mercury retrograde squares Saturn in your 9th House.",
+      "text": "Venus in Cancer is forming a sextile with Jupiter flowing through your 10th House of Career, igniting a wave of authority and recognition.",
       "type": "normal"
     },
     {
-      "text": "Singles attract fire; couples watch texts.",
+      "text": "This aspect specifically activates opportunities connected to female figures in your professional life \u2014 pay attention.",
       "type": "normal"
     },
     {
-      "text": "Venus trine Jupiter boosts your 2nd House money.",
+      "text": "For single Geminis, this Venus-Jupiter sextile magnetizes someone emotionally intelligent \u2014 don't deflect their sincerity.",
       "type": "normal"
     },
     {
-      "text": "Don't sign contracts today. Follow for tomorrow.",
+      "text": "If you're taken, a past disagreement quietly resolves itself when you stop overthinking the other person's intentions.",
+      "type": "normal"
+    },
+    {
+      "text": "Jupiter transiting your 10th House pushes your visibility skyward \u2014 pitch that unconventional project before Friday and watch how quickly doors open.",
+      "type": "normal"
+    },
+    {
+      "text": "A blessing arrives in the form of an unexpected text from someone you haven't heard from in over a year.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow so you don't miss what's coming for Gemini this week.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
     "7",
     "14",
-    "29"
+    "23"
   ],
-  "lucky_color": "Electric Yellow",
-  "monthly_vibe": "Disrupted Communication",
-  "title": "Gemini \u2014 Don't Ignore This",
-  "youtube_title": "Gemini Don't Ignore This Retro Warning #shorts",
-  "youtube_description": "Your Mercury retrograde is squaring Saturn in the 9th House today, and it's messing with love and money. This reading reveals the exact move to protect your cash and heart. Comment your sign.",
+  "lucky_color": "Silver Moonlight",
+  "monthly_vibe": "Restless Intensity",
+  "title": "Gemini \u2014 Mercury Warns You Today",
+  "youtube_title": "Gemini Horoscope \u2014 Mercury Warns You Today #shorts",
+  "youtube_description": "Mercury is squaring Mars in Gemini's 3rd House, creating a communication power struggle you can't ignore. The Venus-Jupiter sextile to your 10th House reveals a career breakthrough on the way \u2014 and it's connected to someone you least expect. Comment your sign and I'll tell you how this transit hits YOUR chart.",
   "youtube_tags": [
-    "astrology",
-    "horoscope",
-    "gemini",
-    "mercury retrograde",
-    "saturn square",
-    "love forecast",
-    "career money",
-    "daily reading",
-    "zodiac",
-    "cosmic warning",
-    "gemini 2026",
-    "transit update"
+    "gemini daily horoscope",
+    "mercury transit gemini",
+    "mars square mercury",
+    "astrology predictions",
+    "career horoscope 2026",
+    "love transit today",
+    "zodiac energy",
+    "planetary aspects",
+    "venus transit gemini",
+    "jupiter career transit",
+    "gemini love forecast",
+    "weekly astrology reading"
   ],
   "type": "daily",
   "target": "Gemini",
-  "date": "July 20, 2026",
+  "date": "July 26, 2026",
   "images": [
     "assets/zodiac_signs/Gemini.jpg"
   ],

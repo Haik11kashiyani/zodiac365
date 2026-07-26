@@ -1,58 +1,74 @@
 {
-    "script_text": "A tidal wave of cosmic change is crashing into your shell this week, Cancer. Early on, your ruling Moon squares Saturn in your 10th House on Monday, bringing career delays and a harsh boss review, while Tuesday offers relief as Mercury sextiles Venus in your 2nd House boosting money talks. Mid-week, the turning point hits Wednesday when the Sun enters your 1st House, flooding your watery element with self-confidence and visibility. Late week, Mars trines Pluto in your 7th House Thursday sparking passionate love commitments, and the weekend flows gently for home nesting as Neptune soothes your 4th House. Wednesday is your power day because the Sun ignites your 1st House with personal power. Monday is your worst day because Moon-Saturn square blocks career progress. Write down three career goals Monday to outsmart Saturn. Follow for daily updates.",
+    "script_text": "Cancer, the Moon rules this Water sign and this week it unleashes a tide you cannot ignore. Early week, Mars squares Neptune in your 12th House on Monday, blurring your intuition \u2014 skip decisions until Wednesday. By Tuesday, a Jupiter trine activates your ruling Moon in the 4th House, grounding emotions and restoring inner peace. Mid-week turning point, Venus enters your 5th House on Wednesday, flooding your love life with opportunity and creative sparks \u2014 this is the shift everything changes. Late week, Saturn sextiles Pluto in your 8th House on Thursday, unlocking shared finances and career leverage through collaborators. Wednesday is your power day because Venus entering your 5th House ignites romance and confidence. Monday is your worst day because Mars square Neptune disguises reality and drains motivation. Before Friday, speak your career ambitions aloud \u2014 the stars align to reward bold self-assertion. Follow for daily updates.",
     "captions_structure": [
         {
-            "text": "CANCER",
+            "text": "CANCER ALERT",
             "type": "header"
         },
         {
-            "text": "A tidal wave of cosmic change is crashing into your shell this week, Cancer.",
+            "text": "Cancer, the Moon rules this Water sign and this week it unleashes a tide you cannot ignore.",
             "type": "normal"
         },
         {
-            "text": "Early on, your ruling Moon squares Saturn in your 10th House on Monday, bringing career delays...",
+            "text": "Early week, Mars squares Neptune in your 12th House on Monday, blurring intuition.",
             "type": "normal"
         },
         {
-            "text": "Mid-week, the Sun enters your 1st House, flooding your watery element with self-confidence.",
+            "text": "By Tuesday, Jupiter trine your ruling Moon in the 4th House restores inner peace.",
             "type": "normal"
         },
         {
-            "text": "Late week, Mars trines Pluto in your 7th House Thursday sparking passionate love commitments.",
+            "text": "Mid-week turning point: Venus enters your 5th House on Wednesday.",
             "type": "normal"
         },
         {
-            "text": "Wednesday is your power day. Monday is your worst day. Follow for daily updates.",
+            "text": "Late week, Saturn sextiles Pluto in your 8th House unlocking shared finances.",
+            "type": "normal"
+        },
+        {
+            "text": "Wednesday is your power day \u2014 Venus ignites romance and confidence.",
+            "type": "normal"
+        },
+        {
+            "text": "Monday is your worst day because Mars square Neptune disguises reality.",
+            "type": "normal"
+        },
+        {
+            "text": "Before Friday, speak your career ambitions aloud \u2014 the stars reward bold self-assertion.",
+            "type": "normal"
+        },
+        {
+            "text": "Follow for daily updates.",
             "type": "normal"
         }
     ],
     "lucky_numbers": [
         "7",
-        "11",
-        "21"
+        "19",
+        "44"
     ],
-    "lucky_color": "Emerald Green",
-    "monthly_vibe": "Reflective & Calm",
-    "title": "Cancer \u2014 Don't Ignore This Week",
-    "youtube_title": "Cancer \u2014 Don't Ignore This Week #shorts",
-    "youtube_description": "Your ruling Moon squares Saturn in the 10th House Monday, blocking career moves, then the Sun enters your 1st House midweek. Comment your sign to see what Mars-Pluto reveals for your love life Thursday.",
+    "lucky_color": "Silver Blue",
+    "monthly_vibe": "Emotional Awakening",
+    "title": "Something Shifts for Cancer This Week",
+    "youtube_title": "Cancer \u2014 Venus Enters Your 5th House #shorts",
+    "youtube_description": "The cosmos is activating powerful love and money transits for Cancer this week. Venus entering your 5th House opens a romantic door you've been waiting for \u2014 but don't wait too long. Comment your sign below so I can tell you what's coming next.",
     "youtube_tags": [
-        "astrology",
-        "horoscope",
-        "cancer",
-        "moon",
-        "saturn",
-        "sun",
-        "mars",
-        "pluto",
-        "love",
-        "career",
-        "weekly",
-        "zodiac"
+        "cancer weekly",
+        "moon sign",
+        "venus transit",
+        "astrology tips",
+        "water signs",
+        "jupiter trine",
+        "cancer love",
+        "cancer career",
+        "saturn sextile",
+        "weekly horoscope",
+        "zodiac predictions",
+        "moon rules cancer"
     ],
     "type": "weekly",
     "target": "Cancer",
-    "date": "Jul 20 - Jul 26",
+    "date": "Jul 26 - Aug 01",
     "images": [
         "assets/zodiac_signs/Cancer.jpg"
     ],
