@@ -1,46 +1,45 @@
 {
-  "script_text": "The cosmos just flipped your world upside down, Aries \u2014 the week ahead proves everything I say. Ruling planet and Fire element Mars sits in your 3rd House forming a tense square to the Sun in your 5th House, creating bold romance but also explosive arguments by Wednesday. Avoid reactive spending early. Midweek Venus enters your 4th House dissolving emotional tension and flooding your life with creative warmth. That shift rewires everything. By Thursday the Moon fires through Aries activating your Fire element 1st House with fearless confidence and career breakthroughs. The weekend brings a Jupiter trine to your Descendant signaling a meaningful new connection. Wednesday is your power day because Venus enters your 4th House blessing deep love and home abundance. Friday is your worst day \u2014 Mercury square Mars triggers costly miscommunication and money mistakes. Channel this fire into decisive career action. Follow for daily updates.",
-  "captions_structure": [
-    {
-      "text": "ARIES",
-      "type": "header"
-    },
-    {
-      "text": "The cosmos just flipped your world upside down, Aries \u2014 the week ahead proves everything I say.",
-      "type": "normal"
-    }
-  ],
-  "lucky_numbers": [
-    "7",
-    "11",
-    "21"
-  ],
-  "lucky_color": "Emerald Green",
-  "monthly_vibe": "Fierce Transformation",
-  "title": "The Stars Are Warning Aries",
-  "youtube_title": "Aries: Your World Changes This Week #shorts",
-  "youtube_description": "Venus enters Aries's 4th House this week triggering massive emotional shifts beneath the surface. Mars squares your Sun creating a make-or-break career moment you cannot ignore. Comment your sign below for a personalized reading.",
-  "youtube_tags": [
-    "aries weekly",
-    "aries horoscope",
-    "aries love",
-    "aries career",
-    "aries astrology",
-    "cosmic energy",
-    "weekly horoscope",
-    "mars transit",
-    "aries 2026",
-    "venus enters house",
-    "aries money",
-    "astrology predictions"
-  ],
-  "type": "weekly",
-  "target": "Aries",
-  "date": "Jul 26 - Aug 01",
-  "images": [
-    "assets/zodiac_signs/Aries.jpg"
-  ],
-  "active": true,
-  "status": "uploaded",
-  "file_name": "plan_weekly_Aries.json"
+    "script_text": "Your ruling fire-sign planet Mars finally breaks free from Saturn's heavy grip this week. Mercury squares your 10th House Mars Monday, sparking career conflict that drains you through Tuesday. Wednesday rescues everything when Venus sextiles your 7th House partnerships, reconnecting emotional trust instantly. The mid-week turning point arrives when Mars conjoins the North Node, unlocking authentic self-expression that changes everything permanently. Mars trine Neptune then flows through your 12th House, drawing romantic secrets from deep within. By Sunday this quiet current reaches beautiful emotional depth you won't see coming. Thursday is your power day because Venus enters Aries's 5th House, igniting fearless passionate love connections and brilliant creative breakthroughs. Wednesday is your worst day when Mercury square Mars in your 10th House forces career confusion and avoidable professional missteps. Slow down and write one clear intention before tensions shift direction tomorrow. Follow for daily updates.",
+    "captions_structure": [
+        {
+            "text": "ARIES",
+            "type": "header"
+        },
+        {
+            "text": "Your ruling fire-sign planet Mars finally breaks free from Saturn's heavy grip this week. Mercury squares your 10th House Mars Monday, sparking career conflict that drains you through Tuesday. Wednesday rescues everything when Venus sextiles your 7th House partnerships, reconnecting emotional trust instantly. The mid-week turning point arrives when Mars conjoins the North Node, unlocking authentic self-expression that changes everything permanently. Mars trine Neptune then flows through your 12th House, drawing romantic secrets from deep within. By Sunday this quiet current reaches beautiful emotional depth you won't see coming. Thursday is your power day because Venus enters Aries's 5th House, igniting fearless passionate love connections and brilliant creative breakthroughs. Wednesday is your worst day when Mercury square Mars in your 10th House forces career confusion and avoidable professional missteps. Slow down and write one clear intention before tensions shift direction tomorrow. Follow for daily updates.",
+            "type": "normal"
+        }
+    ],
+    "lucky_numbers": [
+        "3",
+        "17",
+        "33"
+    ],
+    "lucky_color": "Fiery Coral",
+    "monthly_vibe": "Breaking Free",
+    "title": "Aries \u2014 A Hidden Shift Changes Everything",
+    "youtube_title": "Aries: Don't Ignore What's Breaking Free #shorts",
+    "youtube_description": "This week Mars finally shatters Saturn's hold on Aries \u2014 triggering a major career reset and a romantic awakening you won't expect. Venus drops into your passionate 5th House while Mercury stirs hard truths in your 10th House of career. The midweek North Node conjunction rewires how you express yourself forever.",
+    "youtube_tags": [
+        "aries horoscope",
+        "weekly astrology",
+        "mars transit",
+        "venus 5th house",
+        "aries love forecast",
+        "aries career horoscope",
+        "fire sign astrology",
+        "planetary transits",
+        "north node aries",
+        "mercury square mars",
+        "weekend astrology"
+    ],
+    "type": "weekly",
+    "target": "Aries",
+    "date": "Jul 27 - Aug 02",
+    "images": [
+        "assets/zodiac_signs/Aries.jpg"
+    ],
+    "active": true,
+    "status": "pending",
+    "file_name": "plan_weekly_Aries.json"
 }
