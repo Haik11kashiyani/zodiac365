@@ -1,68 +1,72 @@
 {
-  "script_text": "Cancer, stop \u2014 the Moon just slipped into the 12th House of Hidden Power, and something is shifting beneath the surface right now. Saturn in Pisces is trining your ruling Moon from the 12th, activating subconscious clarity you've been denying yourself. Mars in Sagittarius is squaring natal Neptune in your 9th House of Beliefs, so trust what your gut whispers over what you think you know. In love, if you're single, a water-sign presence from your past is circling back \u2014 pay attention to your dreams tonight. If taken, a small misunderstanding will surface but only honesty resolves it. On the career front, Jupiter expands Gemini in your 3rd House of Communication, and a message arriving late this week could unlock unexpected income. Avoid any financial decision during that late-afternoon window when emotions spike. Follow for tomorrow's reading \u2014 Mercury enters Cancer and shifts everything.",
+  "script_text": "Cancer, the cosmos just slammed a red flag on you and it's impossible to ignore. Saturn is dragging a heavy square through your 4th House of Home and Family, stirring unresolved emotions buried deep in your water element. The Moon is forming a tense opposition to Mercury in your 10th House of Career, making communication dangerously misaligned. If you're single, a past connection resurfaces under this transit, but don't rush back in. If taken, a private conversation this afternoon will reveal what's been left unsaid. Your 2nd House of Income is receiving a rare Jupiter trine, signaling a financial opportunity or raise that lands before August. Do not make any major purchase or sign a contract right now \u2014 the Mercury-Saturn tension in your 10th House will twist the fine print against you. Subscribe so you don't miss what the outer planets are doing to your chart next week.",
   "captions_structure": [
     {
-      "text": "CANCER",
+      "text": "CANCER ALERT",
       "type": "header"
     },
     {
-      "text": "Cancer, stop \u2014 the Moon just slipped into the 12th House of Hidden Power, and something is shifting beneath the surface right now.",
+      "text": "Cancer, the cosmos just slammed a red flag on you and it's impossible to ignore.",
       "type": "normal"
     },
     {
-      "text": "Saturn in Pisces is trining your ruling Moon from the 12th, activating subconscious clarity you've been denying yourself.",
+      "text": "Saturn is dragging a heavy square through your 4th House of Home and Family...",
+      "type": "continue"
+    },
+    {
+      "text": "...stirring unresolved emotions buried deep in your water element.",
+      "type": "continue"
+    },
+    {
+      "text": "The Moon is forming a tense opposition to Mercury in your 10th House of Career...",
       "type": "normal"
     },
     {
-      "text": "Mars in Sagittarius is squaring natal Neptune in your 9th House of Beliefs, so trust what your gut whispers over what you think you know.",
+      "text": "...making communication dangerously misaligned.",
+      "type": "continue"
+    },
+    {
+      "text": "If you're single, a past connection resurfaces, but don't rush back in.",
       "type": "normal"
     },
     {
-      "text": "In love, if you're single, a water-sign presence from your past is circling back \u2014 pay attention to your dreams tonight.",
+      "text": "If taken, a private conversation this afternoon will reveal what's been left unsaid.",
       "type": "normal"
     },
     {
-      "text": "If taken, a small misunderstanding will surface but only honesty resolves it.",
+      "text": "Your 2nd House of Income is getting a rare Jupiter trine \u2014 financial opportunity before August.",
       "type": "normal"
     },
     {
-      "text": "On the career front, Jupiter expands Gemini in your 3rd House of Communication, and a message arriving late this week could unlock unexpected income.",
-      "type": "normal"
-    },
-    {
-      "text": "Avoid any financial decision during that late-afternoon window when emotions spike.",
-      "type": "normal"
-    },
-    {
-      "text": "Follow for tomorrow's reading \u2014 Mercury enters Cancer and shifts everything.",
+      "text": "Do not sign any contract right now. Subscribe so you don't miss next week's outer planet shift.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
-    "9",
-    "14",
+    "7",
+    "11",
     "33"
   ],
-  "lucky_color": "Silver Moon",
-  "monthly_vibe": "Deep Surrender and Quiet Strength",
-  "title": "Cancer \u2014 Moon Moves Into Your Hidden House",
-  "youtube_title": "Cancer's Hidden Power Is About to Activate #shorts",
-  "youtube_description": "Saturn is trining Cancer's ruling Moon this week, pulling buried truths to the surface like never before. Mars is challenging your beliefs, and a quiet shift in income is unfolding behind the scenes. Comment your sign below \u2014 I'll tell you exactly what this transit means for your chart.",
+  "lucky_color": "Emerald Green",
+  "monthly_vibe": "Deep Emotional Ground",
+  "title": "Cancer \u2014 The Cosmos Just Slammed a Red Flag",
+  "youtube_title": "Cancer, the Worst Transit of the Month #shorts",
+  "youtube_description": "Saturn is hitting Cancer's 4th House hard this week, resurfacing family wounds that refuse to stay buried. A rare Jupiter trine to the 2nd House is unlocking a financial windfall \u2014 but only if Cancer handles it with precision. Comment your sign so I can break down exactly where this transit hits your chart.",
   "youtube_tags": [
     "cancer horoscope",
-    "moon transit today",
-    "astrology daily",
-    "saturn aspect",
-    "zodiac reading",
-    "cancer love",
-    "emotional astrology",
-    "daily horoscope",
-    "planet aspects",
-    "career astrology"
+    "daily astrology",
+    "cancer zodiac",
+    "astrology readings",
+    "saturn transit",
+    "moon sign astrology",
+    "cancer love horoscope",
+    "career horoscope",
+    "water signs",
+    "cosmic energy"
   ],
   "type": "daily",
   "target": "Cancer",
-  "date": "July 26, 2026",
+  "date": "July 27, 2026",
   "images": [
     "assets/zodiac_signs/Cancer.jpg"
   ],
