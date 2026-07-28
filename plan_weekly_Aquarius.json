@@ -1,12 +1,44 @@
 {
-    "script_text": "Uranus meets Pluto this week, Aquarius \u2014 your Air nature is about to crack open. Sun trines Jupiter at two degrees Aquarius boosting your income and career standing from Monday. But Mars squares Uranus on Tuesday, so hold back on all impulsive financial moves. Wednesday shifts everything as the Moon enters your tenth House, activating the Sun-Jupiter trine and supercharging your professional visibility. By Thursday Mercury goes retrograde, asking you to carefully review important contracts and communications. Saturday's Full Moon hits your seventh House of partnerships, vulnerability here opens real love doors. Wednesday is your power day because Venus enters your fifth House in Pisces, igniting creative romance. Monday is your weakest day because Mars squares your ruling planet Uranus, creating dangerous financial volatility. Guard your resources early in the week, then let Wednesday's creative energy carry your career and love forward. Follow for daily updates.",
+    "script_text": "Aquarius, the universe just flipped a switch this week. Early week, Mars squares your ruler Uranus in the 9th House on Monday, creating impulsive tension \u2014 avoid risky arguments. By Tuesday, the Moon sextiles natal Venus in the 7th House, easing relationship friction. Wednesday brings the turning point: Jupiter conjunct your natal Pluto in the 1st House igniting a personal rebirth you feel within hours. Late week shifts as Mercury enters your 10th House of career Thursday, aligning with Saturn to open a promotion or financial breakthrough. The weekend rewards bold love \u2014 Venus trine Pluto in your 8th House deepens emotional intimacy Sunday. Wednesday is your power day because Jupiter conjuncts Pluto in the 1st House, amplifying everything you touch. Thursday is your worst day because Mars squares Uranus, sparking unnecessary conflict. Trust your Air-sign patience this week. Comment your sign below and follow for daily updates.",
     "captions_structure": [
         {
-            "text": "AQUARIUS ALERT",
+            "text": "AQUARIUS",
             "type": "header"
         },
         {
-            "text": "Uranus meets Pluto this week, Aquarius \u2014 your Air nature is about to crack open.",
+            "text": "Aquarius, the universe just flipped a switch this week.",
+            "type": "normal"
+        },
+        {
+            "text": "Early week, Mars squares your ruler Uranus in the 9th House on Monday, creating impulsive tension \u2014 avoid risky arguments.",
+            "type": "normal"
+        },
+        {
+            "text": "By Tuesday, the Moon sextiles natal Venus in the 7th House, easing relationship friction.",
+            "type": "normal"
+        },
+        {
+            "text": "Wednesday brings the turning point: Jupiter conjunct your natal Pluto in the 1st House igniting a personal rebirth you feel within hours.",
+            "type": "normal"
+        },
+        {
+            "text": "Late week shifts as Mercury enters your 10th House of career Thursday, aligning with Saturn to open a promotion or financial breakthrough.",
+            "type": "normal"
+        },
+        {
+            "text": "The weekend rewards bold love \u2014 Venus trine Pluto in your 8th House deepens emotional intimacy Sunday.",
+            "type": "normal"
+        },
+        {
+            "text": "Wednesday is your power day because Jupiter conjuncts Pluto in the 1st House, amplifying everything you touch.",
+            "type": "normal"
+        },
+        {
+            "text": "Thursday is your worst day because Mars squares Uranus, sparking unnecessary conflict.",
+            "type": "normal"
+        },
+        {
+            "text": "Trust your Air-sign patience this week. Comment your sign below and follow for daily updates.",
             "type": "normal"
         }
     ],
@@ -15,28 +47,26 @@
         "11",
         "33"
     ],
-    "lucky_color": "Electric Cyan",
-    "monthly_vibe": "Electrifying Transformation",
-    "title": "Aquarius \u2014 The Week That Breaks You Open",
-    "youtube_title": "Aquarius: The Uranus Pluto Shift #shorts",
-    "youtube_description": "This week, Aquarius, Uranus and Pluto make a powerful move in your world \u2014 especially around money and career. Saturn activates your seventh House, demanding honesty in partnerships. Comment your sign so I can reveal what the stars have in store for you.",
+    "lucky_color": "Electric Violet",
+    "monthly_vibe": "Rebirth & Expansion",
+    "title": "Aquarius \u2014 The Stars Just Shifted",
+    "youtube_title": "Aquarius: A Powerful Week Ahead #shorts",
+    "youtube_description": "Jupiter conjunct Pluto is rewriting your identity this week, Aquarius. Mercury enters your career house on Thursday with Saturn, unlocking a serious breakthrough. Comment your sign below \u2014 I break down exactly what this transit means for you.",
     "youtube_tags": [
         "aquarius horoscope",
-        "weekly horoscope",
-        "uranus transit",
-        "love prediction",
-        "career astrology",
-        "aquarius weekly",
-        "saturn in pisces",
-        "mercury retrograde",
-        "cosmic energy",
-        "jupiter trine",
-        "astrology forecast",
-        "pisces moon"
+        "weekly astrology",
+        "jupiter conjunct pluto",
+        "aquarius love",
+        "mercury transit",
+        "aquarius career",
+        "planetary alignment 2026",
+        "zodiac predictions",
+        "aquarius energy",
+        "saturn transit"
     ],
     "type": "weekly",
     "target": "Aquarius",
-    "date": "Jul 26 - Aug 01",
+    "date": "Jul 28 - Aug 03",
     "images": [
         "assets/zodiac_signs/Aquarius.jpg"
     ],
