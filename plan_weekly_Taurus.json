@@ -1,58 +1,78 @@
 {
-    "script_text": "Saturn is squaring your natal Venus this week, Taurus \u2014 the universe forces a reckoning you cannot ignore. Mars squares Venus inside your 6th House, draining social energy Monday through Wednesday. A Mercury-Uranus conjunction hits your 3rd House by Wednesday, bringing sudden messages and sharp misunderstandings. Thursday changes everything as Venus enters your 5th House and trines Jupiter, opening your romantic life to unexpected joy. The weekend shifts when Saturn trines your 10th House Friday evening, clearing career fog for your earth sign. The grounded Moon Saturday deepens emotional connection and steadies your intuition. Thursday is your power day because Venus enters your 5th House and trines Jupiter for creative breakthroughs and love. Wednesday is your worst day because Mercury square natal Venus in your 6th House sparks conflict. Use Saturn's 6th House pressure to write one bold career proposal before the weekend ends. Follow for daily updates.",
+    "script_text": "Taurus, the universe is shifting the tectonic plates of your life \u2014 don't look away. Monday brings a harsh Mars square to Saturn in your 6th House, grinding productivity to a halt. Through Wednesday, the tension lingers, but a Venus trine with the Sun eases it by midweek. Thursday is where everything pivots \u2014 Venus trines Neptune in your 7th House of Partnerships, rewriting your Earth-sign love story. Saturday's Sun sextile Jupiter in your 10th House lights up career momentum and a money opportunity. The weekend Moon in Cancer wraps you in emotional safety and quiet reflection. Wednesday is your best day because Venus trines the Sun, boosting creativity and romantic confidence. Monday is your worst day because Mars squares Saturn in your 6th House, flooding you with frustration. Lean into the Thursday energy where Venus trines Neptune for love and trust the weekend for career clarity. Follow for daily updates.",
     "captions_structure": [
         {
             "text": "TAURUS ALERT",
             "type": "header"
         },
         {
-            "text": "Saturn is squaring your natal Venus this week, Taurus \u2014 the universe forces a reckoning you cannot ignore.",
+            "text": "Taurus, the universe is shifting the tectonic plates of your life \u2014 don't look away.",
             "type": "normal"
         },
         {
-            "text": "Mars squares Venus inside your 6th House, draining social energy Monday through Wednesday.",
+            "text": "Monday brings a harsh Mars square to Saturn in your 6th House, grinding productivity to a halt.",
             "type": "normal"
         },
         {
-            "text": "A Mercury-Uranus conjunction hits your 3rd House by Wednesday, bringing sudden messages and sharp misunderstandings.",
+            "text": "Through Wednesday, the tension lingers, but a Venus trine with the Sun eases it by midweek.",
             "type": "normal"
         },
         {
-            "text": "Thursday changes everything as Venus enters your 5th House and trines Jupiter.",
+            "text": "Thursday is where everything pivots \u2014 Venus trines Neptune in your 7th House of Partnerships, rewriting your Earth-sign love story.",
             "type": "normal"
         },
         {
-            "text": "Thursday is your power day because Venus enters your 5th House and trines Jupiter for creative breakthroughs and love.",
+            "text": "Saturday's Sun sextile Jupiter in your 10th House lights up career momentum and a money opportunity.",
+            "type": "normal"
+        },
+        {
+            "text": "The weekend Moon in Cancer wraps you in emotional safety and quiet reflection.",
+            "type": "normal"
+        },
+        {
+            "text": "Wednesday is your best day because Venus trines the Sun, boosting creativity and romantic confidence.",
+            "type": "normal"
+        },
+        {
+            "text": "Monday is your worst day because Mars squares Saturn in your 6th House, flooding you with frustration.",
+            "type": "normal"
+        },
+        {
+            "text": "Lean into the Thursday energy where Venus trines Neptune for love and trust the weekend for career clarity.",
+            "type": "normal"
+        },
+        {
+            "text": "Follow for daily updates.",
             "type": "normal"
         }
     ],
     "lucky_numbers": [
         "7",
         "14",
-        "42"
+        "31"
     ],
-    "lucky_color": "Forest Green",
-    "monthly_vibe": "Steady Growth",
-    "title": "Saturn Warns Taurus \u2014 Heed This Warning",
-    "youtube_title": "Taurus: Saturn's Square Reveals Hidden Truths #shorts",
-    "youtube_description": "Saturn is creating a powerful square to Taurus's ruling planet Venus this week, forcing uncomfortable truths to the surface. There's a specific love breakthrough waiting \u2014 but only if you take the right career move by Friday. Comment your sign below so I can reveal what the cosmos holds for you.",
+    "lucky_color": "Emerald Green",
+    "monthly_vibe": "Reflective and Steady",
+    "title": "Taurus \u2014 Something Big Is Coming This Week",
+    "youtube_title": "Beware This Taurus Transit Now #shorts",
+    "youtube_description": "Saturn presses hard on Taurus early this week \u2014 but a Venus-Neptune trine on Thursday rewrites everything in love and money. Comment your sign to see how this cosmic shift hits YOUR chart.",
     "youtube_tags": [
         "taurus horoscope",
-        "taurus weekly forecast",
-        "astrology predictions",
-        "saturn square venus",
-        "earth sign horoscope",
-        "love horoscope taurus",
-        "career astrology",
+        "astrology",
         "weekly horoscope",
-        "taurus love prediction",
-        "cosmic transit taurus",
-        "venus enters 5th house",
-        "jupiter trine taurus"
+        "venus trine",
+        "saturn square",
+        "taurus love",
+        "career astrology",
+        "celestial forecasts",
+        "jupiter sextile",
+        "neptune transit",
+        "daily horoscope",
+        "planet transit"
     ],
     "type": "weekly",
     "target": "Taurus",
-    "date": "Jul 28 - Aug 03",
+    "date": "Jul 29 - Aug 04",
     "images": [
         "assets/zodiac_signs/Taurus.jpg"
     ],
