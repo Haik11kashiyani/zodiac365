@@ -1,42 +1,78 @@
 {
-    "script_text": "Something deeply ancient stirs beneath your surface \u2014 the Full Moon demands your attention. On July 29th, the Aquarius Full Moon forms a precise opposition to the Leo Sun. This opposition activates the 8th House of transformation through the Moon's ruling Water element, revealing hidden emotional truths. This transit ignites the 7th House of partnership as Chiron conjunct Venus demands an honest confrontation with a lover about buried needs reshaping your bond. Saturn squares your 10th House midheaven, forcing a painful career and financial decision you've been avoiding. Chiron retrograde in your 4th House wounds your sense of home and safety, blocking the emotional abundance this Full Moon seeks to deliver. The North Node pulls firmly toward your 2nd House demanding you surrender and trust. Write down what you must release \u2014 burn it under the Full Moon's light. Comment your zodiac sign \u2014 what the Moon reveals belongs to you.",
+    "script_text": "Something is cracking open in the cosmos tonight \u2014 the Full Moon Ritual exposes your deepest shadows. The Full Moon in Aquarius activates the 11th House of community, casting an opposition between the Sun in Leo and the Moon in Aquarius. This Water-element lunar event amplifies emotional revelations. The Moon conjunct Uranus in Taurus triggers sudden breakthroughs in relationships and financial reality. Expect a surprising message that reshapes your daily routines. The square to Mars in Aquarius sparks bold action you can't ignore. Chiron conjunct the North Node in Aries reveals a karmic wound around self-identity this Full Moon demands you confront. Retrograde Saturn in Pisces presses you to release illusions buried in your 12th House shadows. Light a candle, write down three truths, and burn the paper before midnight to release their hold. Comment your sun sign below so I can reveal exactly which house this Full Moon activates for you.",
     "captions_structure": [
         {
-            "text": "FULL MOON RITUAL",
+            "text": "FULL MOON RITUAL ALERT",
             "type": "header"
         },
         {
-            "text": "Something deeply ancient stirs beneath your surface \u2014 the Full Moon demands your attention.",
+            "text": "Something is cracking open in the cosmos tonight \u2014 the Full Moon Ritual exposes your deepest shadows.",
+            "type": "normal"
+        },
+        {
+            "text": "The Full Moon in Aquarius activates the 11th House of community, casting an opposition between the Sun in Leo and the Moon in Aquarius.",
+            "type": "normal"
+        },
+        {
+            "text": "This Water-element lunar event amplifies emotional revelations.",
+            "type": "normal"
+        },
+        {
+            "text": "The Moon conjunct Uranus in Taurus triggers sudden breakthroughs in relationships and financial reality.",
+            "type": "normal"
+        },
+        {
+            "text": "Expect a surprising message that reshapes your daily routines.",
+            "type": "normal"
+        },
+        {
+            "text": "The square to Mars in Aquarius sparks bold action you can't ignore.",
+            "type": "normal"
+        },
+        {
+            "text": "Chiron conjunct the North Node in Aries reveals a karmic wound around self-identity this Full Moon demands you confront.",
+            "type": "normal"
+        },
+        {
+            "text": "Retrograde Saturn in Pisces presses you to release illusions buried in your 12th House shadows.",
+            "type": "normal"
+        },
+        {
+            "text": "Light a candle, write down three truths, and burn the paper before midnight to release their hold.",
+            "type": "normal"
+        },
+        {
+            "text": "Comment your sun sign below so I can reveal exactly which house this Full Moon activates for you.",
             "type": "normal"
         }
     ],
     "lucky_numbers": [
         "7",
         "14",
-        "23"
+        "29"
     ],
-    "lucky_color": "Silver Moonlight",
-    "monthly_vibe": "Release & Emotional Truth",
-    "title": "Full Moon Ritual \u2014 Don't Ignore This",
-    "youtube_title": "Full Moon Ritual Hides a Dangerous Truth #shorts",
-    "youtube_description": "On July 29th, Saturn's square to the Full Moon midheaven exposes hidden career tensions and forces financial decisions you've been avoiding. Chiron's conjunction with Venus in the 7th House reveals a love confrontation that will reshape your closest bond. Comment your zodiac sign \u2014 what follows is deeply personal to you.",
+    "lucky_color": "Silver Blue",
+    "monthly_vibe": "Revealing & Transformative",
+    "title": "Full Moon Ritual \u2014 The Stars Are Warning You",
+    "youtube_title": "Full Moon Ritual: What the Stars Won't Tell You #shorts",
+    "youtube_description": "The Full Moon in Aquarius is activating your 11th House and a shocking Uranus conjunction that will expose hidden truths in your relationships and finances. I reveal the exact karmic transit involving Chiron and the North Node \u2014 and what it demands you confront before the month ends. Comment your sign below.",
     "youtube_tags": [
         "full moon ritual",
-        "moon opposition sun",
-        "water astrology",
-        "emotional revelation",
-        "chiron retrograde",
-        "north node transit",
         "aquarius full moon",
-        "love astrology",
-        "career astrology",
-        "8th house transit",
-        "saturn square transit",
-        "moon ritual magic"
+        "astrology predictions",
+        "moon transit",
+        "chiron north node",
+        "uranus conjunct moon",
+        "11th house activation",
+        "retrograde saturn",
+        "emotional breakthrough",
+        "full moon ritual 2026",
+        "cosmic secrets",
+        "water element moon"
     ],
     "type": "special",
     "target": "Full Moon Ritual",
-    "date": "2026-07-29",
+    "date": "2026-08-01",
     "images": [],
     "active": true,
     "status": "pending",
