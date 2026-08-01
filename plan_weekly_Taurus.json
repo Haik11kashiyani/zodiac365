@@ -1,78 +1,74 @@
 {
-    "script_text": "Earth signs \u2014 a rare Mars-Jupiter conjunction will shake your career foundation hard this week. Mercury in Leo squares your Taurus Sun in the 1st House from Monday through Wednesday, breeding deep miscommunication and frustrating self-doubt. A Mars trine Jupiter quietly activates your 10th House on Monday, and Tuesday is the roughest day. Thursday transforms everything as Venus enters Scorpio, flooding your 8th House with a hidden love interest of magnetic intensity. Over the weekend, Venus trines Neptune in Pisces, revealing emotional clarity in your 7th House and a financial truth about shared resources. Wednesday is your power day because Venus enters Scorpio, activating transformative passion in your 8th House. Tuesday is your worst day \u2014 Mercury squares your Sun in the 1st House, clouding judgment and breeding unnecessary conflict. Write your career goals on paper before the Mars-Jupiter window closes \u2014 the 10th House won't wait. Follow for daily updates.",
-    "captions_structure": [
-        {
-            "text": "TAURUS",
-            "type": "header"
-        },
-        {
-            "text": "Earth signs \u2014 a rare Mars-Jupiter conjunction will shake your career foundation hard this week.",
-            "type": "normal"
-        },
-        {
-            "text": "Mercury in Leo squares your Taurus Sun in the 1st House from Monday through Wednesday, breeding deep miscommunication and frustrating self-doubt.",
-            "type": "normal"
-        },
-        {
-            "text": "A Mars trine Jupiter quietly activates your 10th House on Monday, and Tuesday is the roughest day.",
-            "type": "normal"
-        },
-        {
-            "text": "Thursday transforms everything as Venus enters Scorpio, flooding your 8th House with a hidden love interest of magnetic intensity.",
-            "type": "normal"
-        },
-        {
-            "text": "Over the weekend, Venus trines Neptune in Pisces, revealing emotional clarity in your 7th House and a financial truth about shared resources.",
-            "type": "normal"
-        },
-        {
-            "text": "Wednesday is your power day because Venus enters Scorpio, activating transformative passion in your 8th House.",
-            "type": "normal"
-        },
-        {
-            "text": "Tuesday is your worst day \u2014 Mercury squares your Sun in the 1st House, clouding judgment and breeding unnecessary conflict.",
-            "type": "normal"
-        },
-        {
-            "text": "Write your career goals on paper before the Mars-Jupiter window closes \u2014 the 10th House won't wait.",
-            "type": "normal"
-        },
-        {
-            "text": "Follow for daily updates.",
-            "type": "normal"
-        }
-    ],
-    "lucky_numbers": [
-        "6",
-        "14",
-        "33"
-    ],
-    "lucky_color": "Emerald Green",
-    "monthly_vibe": "Steady Transformation",
-    "title": "Taurus \u2014 The Mars-Jupiter Shift Is Coming",
-    "youtube_title": "Taurus: A Love and Career Shock This Week #shorts",
-    "youtube_description": "This week, Venus and Mercury hit hard for Taurus with career shifts and a sudden hidden love reveal. One prediction about shared finances and intimacy changes everything \u2014 but you need to watch Thursday to find out. Comment your sign below for a personalized reading.",
-    "youtube_tags": [
-        "taurus horoscope",
-        "weekly astrology",
-        "venus in scorpio",
-        "taurus love",
-        "planet transits",
-        "astrology daily",
-        "earth signs",
-        "10th house career",
-        "scorpio transit",
-        "pisces transit",
-        "taurus career",
-        "mercury square"
-    ],
-    "type": "weekly",
-    "target": "Taurus",
-    "date": "Jul 31 - Aug 06",
-    "images": [
-        "assets/zodiac_signs/Taurus.jpg"
-    ],
-    "active": true,
-    "status": "pending",
-    "file_name": "plan_weekly_Taurus.json"
+  "script_text": "Saturn squares your natal Sun this week, Taurus \u2014 brace for a reality check that reshapes everything. Early week, Mercury in Leo trines your ruling planet Venus in the 2nd House of income, opening financial clarity Monday and Tuesday, but Mercury square Mars on Wednesday creates friction in communication \u2014 avoid arguments with partners. Mid-week, the Sun enters your 10th House of career, igniting a professional spotlight demanding you step forward. Late week, Venus conjunct Jupiter in your 7th House of partnerships brings unexpected romantic alignment Thursday and Friday, while the weekend shifts toward home and emotional grounding under the Earth element you thrive in. Wednesday is your power day because the Sun moves into your 10th House, amplifying career momentum. Thursday is your worst day because Mercury square Mars triggers miscommunication in love. Trust your instincts and make one bold financial decision before Friday. Follow for daily updates.",
+  "captions_structure": [
+    {
+      "text": "TAURUS",
+      "type": "header"
+    },
+    {
+      "text": "Saturn squares your natal Sun this week \u2014 brace for a reality check that reshapes everything.",
+      "type": "normal"
+    },
+    {
+      "text": "Early week, Mercury in Leo trines Venus in your 2nd House of income, opening financial clarity Monday and Tuesday.",
+      "type": "normal"
+    },
+    {
+      "text": "But Mercury square Mars on Wednesday creates friction \u2014 avoid arguments with partners.",
+      "type": "normal"
+    },
+    {
+      "text": "Mid-week, the Sun enters your 10th House of career, igniting a professional spotlight.",
+      "type": "normal"
+    },
+    {
+      "text": "Late week, Venus conjunct Jupiter in your 7th House brings unexpected romantic alignment Thursday and Friday.",
+      "type": "normal"
+    },
+    {
+      "text": "Wednesday is your power day. Thursday is your worst day.",
+      "type": "normal"
+    },
+    {
+      "text": "Trust your instincts and make one bold financial decision before Friday.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for daily updates.",
+      "type": "normal"
+    }
+  ],
+  "lucky_numbers": [
+    "7",
+    "14",
+    "29"
+  ],
+  "lucky_color": "Emerald Green",
+  "monthly_vibe": "Steady Transformation",
+  "title": "Taurus \u2014 The Stars Are Shifting This Week",
+  "youtube_title": "Taurus: A Cosmic Power Shift This Week #shorts",
+  "youtube_description": "Saturn is activating deep transformation in Taurus's natal Sun this week, and the midweek career shift is bigger than expected. Venus conjunct Jupiter in the 7th House is bringing a surprising romantic opportunity you won't want to miss. Comment your sign below to see how this transit hits your chart.",
+  "youtube_tags": [
+    "taurus horoscope",
+    "weekly horoscope",
+    "astrology predictions",
+    "saturn transit",
+    "venus conjunct jupiter",
+    "taurus love",
+    "taurus career",
+    "earth sign astrology",
+    "planetary transits",
+    "horoscope august 2026",
+    "taurus weekly",
+    "cosmic energy"
+  ],
+  "type": "weekly",
+  "target": "Taurus",
+  "date": "Aug 01 - Aug 07",
+  "images": [
+    "assets/zodiac_signs/Taurus.jpg"
+  ],
+  "active": true,
+  "status": "uploaded",
+  "file_name": "plan_weekly_Taurus.json"
 }
