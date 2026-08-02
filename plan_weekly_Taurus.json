@@ -1,82 +1,86 @@
 {
-  "script_text": "Taurus, this week exposes a hidden truth shaking your entire foundation to its core. On Monday, Saturn squares your ruling planet Venus in your 2nd House of income, creating tension around money and self-worth. Wednesday brings the Sun opposing Neptune in your 8th House, fogging shared finances \u2014 avoid major purchases early. Thursday shifts everything when Venus enters your 5th House of love and creativity, trining Jupiter in your 1st House of identity \u2014 this is your romantic breakthrough. The weekend ignites as Mars enters your 10th House of career, sextile Pluto, signaling a powerful professional move. Earth grounds you through it all, Taurus. Thursday is your power day because Venus enters your 5th House. Monday is your worst day because Saturn squares Venus in your 2nd House. Channel the midweek Venus-Jupiter trine into one bold romantic or creative act this week. Follow for your daily updates.",
-  "captions_structure": [
-    {
-      "text": "TAURUS",
-      "type": "header"
-    },
-    {
-      "text": "Taurus, this week exposes a hidden truth shaking your entire foundation to its core.",
-      "type": "normal"
-    },
-    {
-      "text": "On Monday, Saturn squares your ruling planet Venus in your 2nd House of income, creating tension around money and self-worth.",
-      "type": "normal"
-    },
-    {
-      "text": "Wednesday brings the Sun opposing Neptune in your 8th House, fogging shared finances \u2014 avoid major purchases early.",
-      "type": "normal"
-    },
-    {
-      "text": "Thursday shifts everything when Venus enters your 5th House of love and creativity, trining Jupiter in your 1st House of identity \u2014 this is your romantic breakthrough.",
-      "type": "normal"
-    },
-    {
-      "text": "The weekend ignites as Mars enters your 10th House of career, sextile Pluto, signaling a powerful professional move.",
-      "type": "normal"
-    },
-    {
-      "text": "Earth grounds you through it all, Taurus.",
-      "type": "normal"
-    },
-    {
-      "text": "Thursday is your power day because Venus enters your 5th House.",
-      "type": "normal"
-    },
-    {
-      "text": "Monday is your worst day because Saturn squares Venus in your 2nd House.",
-      "type": "normal"
-    },
-    {
-      "text": "Channel the midweek Venus-Jupiter trine into one bold romantic or creative act this week.",
-      "type": "normal"
-    },
-    {
-      "text": "Follow for your daily updates.",
-      "type": "normal"
-    }
-  ],
-  "lucky_numbers": [
-    "7",
-    "14",
-    "29"
-  ],
-  "lucky_color": "Emerald Green",
-  "monthly_vibe": "Steady Transformation",
-  "title": "Taurus: A Hidden Truth Emerges This Week",
-  "youtube_title": "Taurus: A Hidden Truth Emerges This Week #shorts",
-  "youtube_description": "This week, Venus enters your 5th House and trines Jupiter \u2014 a rare romantic alignment that will reshape your love life in ways you never expected. Saturn also squares your finances, so watch your money closely. Comment your sign below and I'll tell you what's coming for you next.",
-  "youtube_tags": [
-    "taurus horoscope",
-    "weekly astrology",
-    "venus transit",
-    "taurus love",
-    "taurus career",
-    "saturn square venus",
-    "astrology predictions",
-    "earth sign horoscope",
-    "jupiter trine",
-    "mars in capricorn",
-    "daily horoscope",
-    "cosmic energy"
-  ],
-  "type": "weekly",
-  "target": "Taurus",
-  "date": "Aug 02 - Aug 08",
-  "images": [
-    "assets/zodiac_signs/Taurus.jpg"
-  ],
-  "active": true,
-  "status": "uploaded",
-  "file_name": "plan_weekly_Taurus.json"
+    "script_text": "Taurus, this week completely rewrites everything you thought you knew about love and career ambition. Mercury squares your 10th House of career Monday, causing serious miscommunications at work. Mars trines your 4th House Tuesday, restoring quiet inner energy. Wednesday morning remains your weakest point. The major turning point arrives Wednesday when Venus, ruler of your Earth sign Taurus, enters your 5th House of romance and creativity, opening a bright door to unexpected love. By Thursday, Sun joins Jupiter in Leo activating your 11th House, boosting social connections and career visibility. Saturn opposes your 7th House on Sunday, so avoid forcing relationship conversations. Wednesday is your true power day because Venus enters your 5th House. Monday is your worst day because Mercury squares your 10th House and clouds professional judgment. Channel the Venus transit by pursuing a creative passion project Wednesday evening. Follow for daily updates.",
+    "captions_structure": [
+        {
+            "text": "TAURUS",
+            "type": "header"
+        },
+        {
+            "text": "Taurus, this week completely rewrites everything you thought you knew about love and career ambition.",
+            "type": "normal"
+        },
+        {
+            "text": "Mercury squares your 10th House of career Monday, causing serious miscommunications at work.",
+            "type": "normal"
+        },
+        {
+            "text": "Mars trines your 4th House Tuesday, restoring quiet inner energy.",
+            "type": "normal"
+        },
+        {
+            "text": "Wednesday morning remains your weakest point.",
+            "type": "normal"
+        },
+        {
+            "text": "The major turning point arrives Wednesday when Venus, ruler of your Earth sign Taurus, enters your 5th House of romance and creativity, opening a bright door to unexpected love.",
+            "type": "normal"
+        },
+        {
+            "text": "By Thursday, Sun joins Jupiter in Leo activating your 11th House, boosting social connections and career visibility.",
+            "type": "normal"
+        },
+        {
+            "text": "Saturn opposes your 7th House on Sunday, so avoid forcing relationship conversations.",
+            "type": "normal"
+        },
+        {
+            "text": "Wednesday is your true power day because Venus enters your 5th House.",
+            "type": "normal"
+        },
+        {
+            "text": "Monday is your worst day because Mercury squares your 10th House and clouds professional judgment.",
+            "type": "normal"
+        },
+        {
+            "text": "Channel the Venus transit by pursuing a creative passion project Wednesday evening.",
+            "type": "normal"
+        },
+        {
+            "text": "Follow for daily updates.",
+            "type": "normal"
+        }
+    ],
+    "lucky_numbers": [
+        "7",
+        "14",
+        "33"
+    ],
+    "lucky_color": "Emerald Green",
+    "monthly_vibe": "Grounded Transformation",
+    "title": "Something Big Is Coming for Taurus",
+    "youtube_title": "Taurus: Venus Shifts Your Love Life This Week #shorts",
+    "youtube_description": "This week Venus enters Taurus's 5th House bringing unexpected romantic opportunities while Saturn challenges your 7th House relationships. The prediction reveals a career visibility boost you cannot ignore \u2014 Comment your sign below for personalized insights.",
+    "youtube_tags": [
+        "taurus horoscope",
+        "weekly horoscope",
+        "venus transit",
+        "taurus love",
+        "astrology predictions",
+        "earth sign",
+        "career horoscope",
+        "planetary transits",
+        "taurus weekly",
+        "cosmic energy",
+        "love prediction",
+        "astrology tips"
+    ],
+    "type": "weekly",
+    "target": "Taurus",
+    "date": "Aug 02 - Aug 08",
+    "images": [
+        "assets/zodiac_signs/Taurus.jpg"
+    ],
+    "active": true,
+    "status": "pending",
+    "file_name": "plan_weekly_Taurus.json"
 }

@@ -1,82 +1,62 @@
 {
-  "script_text": "Aries, Mars squares Saturn this week, and fire energy demands you stop running from the hard stuff. Mercury opposes Neptune on Monday, so double-check contracts and don't trust every text you receive. By Tuesday, the Sun trines Jupiter in your 4th House, making home decisions feel effortless. Wednesday shifts everything when Venus enters your 5th House, igniting romance and creative confidence. Mars fires up your 10th House of career on Friday, so pitch that project you've been avoiding. The weekend brings lunar eclipse energy Sunday \u2014 rest, don't force anything. Tuesday is your power day because the Sun trines Jupiter in your 4th House, blessing your home and emotional foundation. Monday is your worst day because Mercury opposes Neptune, clouding judgment and inviting miscommunication. Let Mars in your 10th House drive your career moves this week, but check every email twice before sending. Follow for daily updates.",
-  "captions_structure": [
-    {
-      "text": "ARIES",
-      "type": "header"
-    },
-    {
-      "text": "Aries, Mars squares Saturn this week, and fire energy demands you stop running from the hard stuff.",
-      "type": "normal"
-    },
-    {
-      "text": "Mercury opposes Neptune on Monday, so double-check contracts and don't trust every text you receive.",
-      "type": "normal"
-    },
-    {
-      "text": "By Tuesday, the Sun trines Jupiter in your 4th House, making home decisions feel effortless.",
-      "type": "normal"
-    },
-    {
-      "text": "Wednesday shifts everything when Venus enters your 5th House, igniting romance and creative confidence.",
-      "type": "normal"
-    },
-    {
-      "text": "Mars fires up your 10th House of career on Friday, so pitch that project you've been avoiding.",
-      "type": "normal"
-    },
-    {
-      "text": "The weekend brings lunar eclipse energy Sunday \u2014 rest, don't force anything.",
-      "type": "normal"
-    },
-    {
-      "text": "Tuesday is your power day because the Sun trines Jupiter in your 4th House, blessing your home and emotional foundation.",
-      "type": "normal"
-    },
-    {
-      "text": "Monday is your worst day because Mercury opposes Neptune, clouding judgment and inviting miscommunication.",
-      "type": "normal"
-    },
-    {
-      "text": "Let Mars in your 10th House drive your career moves this week, but check every email twice before sending.",
-      "type": "normal"
-    },
-    {
-      "text": "Follow for daily updates.",
-      "type": "normal"
-    }
-  ],
-  "lucky_numbers": [
-    "7",
-    "19",
-    "33"
-  ],
-  "lucky_color": "Crimson Red",
-  "monthly_vibe": "Courageous Grounding",
-  "title": "Aries \u2014 Mars Demands You Stop Hiding",
-  "youtube_title": "Aries: Mars Squares Saturn This Week #shorts",
-  "youtube_description": "Mars squares Saturn in Aries this week, creating a powerful push toward career breakthroughs and relationship clarity. I break down exactly when Venus enters your 5th House to ignite romance and why Monday is a communication trap. Comment your sign below \u2014 I'll tell you how this transit hits YOUR chart.",
-  "youtube_tags": [
-    "aries weekly forecast",
-    "mars square saturn",
-    "aries love horoscope",
-    "aries career advice",
-    "astrology predictions",
-    "weekly horoscope aries",
-    "cosmic energy today",
-    "fire sign astrology",
-    "venus enters 5th house",
-    "saturn transit",
-    "aries daily horoscope",
-    "mars in 10th house"
-  ],
-  "type": "weekly",
-  "target": "Aries",
-  "date": "Aug 02 - Aug 08",
-  "images": [
-    "assets/zodiac_signs/Aries.jpg"
-  ],
-  "active": true,
-  "status": "uploaded",
-  "file_name": "plan_weekly_Aries.json"
+    "script_text": "Aries, this week Mars in Gemini squares your natal Sun, igniting a storm you cannot ignore. Early week, Mercury in Leo trines your ruling Mars, sharpening career communication and Fire element clarity. Monday through Wednesday, the Sun opposing your 7th House partners creates relationship tension demanding honest conversation. Mid-week turning point: Venus enters your 5th House on Wednesday, unlocking romantic and creative energy that was blocked. Late week shifts into professional power as Jupiter transits your 10th House, amplifying career visibility Thursday through Sunday. The weekend favors reflection over bold action. Wednesday is your power day because Venus enters your 5th House, supercharging love life and creative projects. Tuesday is your worst day because the Sun opposes your 7th House, creating partnership friction that truly escalates if you react impulsively. Channel Mars's Gemini square into focused career strategy, not domestic drama. Follow for daily updates.",
+    "captions_structure": [
+        {
+            "text": "ARIES ALERT",
+            "type": "header"
+        },
+        {
+            "text": "Aries, this week Mars in Gemini squares your natal Sun, igniting a storm you cannot ignore.",
+            "type": "normal"
+        },
+        {
+            "text": "Early week, Mercury in Leo trines your ruling Mars, sharpening career communication and Fire element clarity.",
+            "type": "normal"
+        },
+        {
+            "text": "Mid-week turning point: Venus enters your 5th House on Wednesday, unlocking romantic and creative energy.",
+            "type": "normal"
+        },
+        {
+            "text": "Wednesday is your power day because Venus enters your 5th House, supercharging love life and creative projects.",
+            "type": "normal"
+        },
+        {
+            "text": "Follow for daily updates.",
+            "type": "normal"
+        }
+    ],
+    "lucky_numbers": [
+        "7",
+        "11",
+        "21"
+    ],
+    "lucky_color": "Emerald Green",
+    "monthly_vibe": "Reflective & Calm",
+    "title": "Aries \u2014 The Stars Are Warning You",
+    "youtube_title": "Aries: A Cosmic Shift This Week #shorts",
+    "youtube_description": "This week Mars squares Aries's natal Sun while Venus enters the 5th House \u2014 unlocking a romantic and creative surge you won't want to miss. The prediction reveals a career visibility window you must seize. Comment your sign below!",
+    "youtube_tags": [
+        "aries horoscope",
+        "aries weekly forecast",
+        "mars in gemini",
+        "venus 5th house",
+        "astrology predictions",
+        "zodiac weekly",
+        "aries love forecast",
+        "career astrology",
+        "gemini transit",
+        "jupiter 10th house",
+        "aries fire sign",
+        "weekly horoscope 2026"
+    ],
+    "type": "weekly",
+    "target": "Aries",
+    "date": "Aug 02 - Aug 08",
+    "images": [
+        "assets/zodiac_signs/Aries.jpg"
+    ],
+    "active": true,
+    "status": "pending",
+    "file_name": "plan_weekly_Aries.json"
 }
