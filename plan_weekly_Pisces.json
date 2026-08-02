@@ -1,74 +1,42 @@
 {
-    "script_text": "Pisces, the universe pulls back on what you've been avoiding. Early week, Mars in Aries squares your natal Sun in the 1st House, creating friction \u2014 avoid Monday. By Tuesday, Venus enters Cancer and trines Jupiter, opening your 8th House of intimacy and resources as Neptune, your ruling planet, deepens bonds. Wednesday shifts everything as the Sun enters your 12th House of hidden opportunities, and Mercury station-direct in Leo activates your dormant channel. Thursday through Sunday, the Moon flows through Scorpio and Cancer, amplifying Water intuition illuminating your 4th House of home. Tuesday is your power day because Venus enters Cancer and trines Jupiter in your 8th House, igniting love and financial breakthroughs. Monday is your worst day because Mars squares your natal Sun in the 1st House, creating tension. Note hidden desires \u2014 12th House transit demands you confront what you've suppressed. Follow for daily updates.",
+    "script_text": "Neptune, your ruling planet and the water element's force, opposes the full Moon this Monday, flooding Pisces with raw emotional intensity. From Monday through Wednesday, the Sun in Leo squares Neptune in your 12th House, clouding intuition and draining energy. Avoid major decisions Tuesday when Mercury stations retrograde in your 6th House of routine. Thursday brings Venus conjunct Jupiter into your 5th House of love, sparking a transformative romantic encounter. Saturn trine Pluto activates your 10th House of career, opening a door to recognition this weekend. Sunday's Moon in Scorpio grounds your 4th House, bringing peace at home. Wednesday is your power day because Venus enters your 5th House and sparks passion. Tuesday is your worst day as Mercury retrograde disrupts work in your 6th House. Write down your dreams Sunday night \u2014 Neptune hides a career-changing insight in your 12th House. Follow for daily updates.",
     "captions_structure": [
         {
-            "text": "PISCES ALERT",
+            "text": "PISCES",
             "type": "header"
         },
         {
-            "text": "Pisces, the universe pulls back on what you've been avoiding.",
-            "type": "normal"
-        },
-        {
-            "text": "Early week, Mars in Aries squares your natal Sun in the 1st House, creating friction \u2014 avoid Monday.",
-            "type": "normal"
-        },
-        {
-            "text": "By Tuesday, Venus enters Cancer and trines Jupiter, opening your 8th House of intimacy and resources as Neptune, your ruling planet, deepens bonds.",
-            "type": "normal"
-        },
-        {
-            "text": "Wednesday shifts everything as the Sun enters your 12th House of hidden opportunities, and Mercury station-direct in Leo activates your dormant channel.",
-            "type": "normal"
-        },
-        {
-            "text": "Thursday through Sunday, the Moon flows through Scorpio and Cancer, amplifying Water intuition illuminating your 4th House of home.",
-            "type": "normal"
-        },
-        {
-            "text": "Tuesday is your power day because Venus enters Cancer and trines Jupiter in your 8th House, igniting love and financial breakthroughs.",
-            "type": "normal"
-        },
-        {
-            "text": "Monday is your worst day because Mars squares your natal Sun in the 1st House, creating tension.",
-            "type": "normal"
-        },
-        {
-            "text": "Note hidden desires \u2014 12th House transit demands you confront what you've suppressed.",
-            "type": "normal"
-        },
-        {
-            "text": "Follow for daily updates.",
+            "text": "Neptune, your ruling planet and the water element's force, opposes the full Moon this Monday, flooding Pisces with raw emotional intensity.",
             "type": "normal"
         }
     ],
     "lucky_numbers": [
         "7",
-        "11",
-        "21"
+        "14",
+        "33"
     ],
     "lucky_color": "Emerald Green",
-    "monthly_vibe": "Reflective & Calm",
-    "title": "Pisces \u2014 Don't Ignore This Week",
-    "youtube_title": "Pisces: A Cosmic Shift Is Coming #shorts",
-    "youtube_description": "This week, Neptune and Jupiter align to unlock hidden opportunities for Pisces. Venus enters Cancer on Tuesday, igniting both love and financial breakthroughs \u2014 but Monday brings tension. Comment your sign below!",
+    "monthly_vibe": "Intense Transformation",
+    "title": "Pisces \u2014 The Stars Are Warning You",
+    "youtube_title": "Pisces: A Hidden Power Awakening This Week #shorts",
+    "youtube_description": "This week Neptune and Venus align in a way that will shake Pisces's love life and career to the core. Saturn trine Pluto is opening doors you didn't know existed \u2014 but only if you act on the right day. Comment your sign below.",
     "youtube_tags": [
-        "pisces horoscope",
-        "weekly astrology",
-        "pisces weekly forecast",
+        "astrology",
+        "horoscope",
+        "pisces",
         "neptune transit",
-        "jupiter trine",
-        "cosmic energy",
-        "water sign horoscope",
+        "venus conjunct jupiter",
+        "saturn trine pluto",
+        "water sign",
+        "weekly forecast",
         "pisces love",
-        "astrology predictions",
         "pisces career",
-        "venus enters cancer",
-        "daily horoscope"
+        "mercury retrograde",
+        "full moon leo"
     ],
     "type": "weekly",
     "target": "Pisces",
-    "date": "Aug 01 - Aug 07",
+    "date": "Aug 02 - Aug 08",
     "images": [
         "assets/zodiac_signs/Pisces.jpg"
     ],
