@@ -1,32 +1,36 @@
 {
-  "script_text": "Stop, Taurus \u2014 Venus is locking into a tense conjunction with Pluto in your 8th House of Shared Resources, and the Earth element is amplifying this intensity. Saturn is squaring your natal Moon in the 4th House of Home, creating friction between comfort and change. Jupiter is trining Uranus in your 2nd House of Income, opening unexpected financial doors. If single, the 5th House of Romance is supercharging your charm tonight \u2014 wear something bold. If taken, Mercury's echoes in your 7th House could surface an unspoken conversation you need to have. Neptune is moving through your 10th House of Public Image, so trust your gut on a creative project that could redefine your career path. Avoid lending money to anyone who hasn't repaid you before \u2014 this transit amplifies financial risk. Subscribe so you don't miss what's coming this week \u2014 the stars have big things ahead for Taurus.",
+  "script_text": "Stop, Taurus \u2014 Venus is igniting your 10th House of Career right now and the cosmos will not let you look away. Saturn is forming a demanding square to your natal Venus in the 10th House, forcing you to confront what's been neglected in your professional life. Earth energy is grounding every impulsive decision you're tempted to make today. In love, a tense opposition between Mars and your 7th House ruler is creating real friction with a partner \u2014 choose patience over pride tonight. Financially, Jupiter's conjunction with your 2nd House of Income signals an unexpected windfall or raise arriving within the next two weeks. Avoid signing any contracts before Friday \u2014 Mercury retrograde shadows are still lurking in your 3rd House of Communication. Follow for tomorrow's reading so you don't miss what Pluto is unlocking in your 8th House of Shared Resources.",
   "captions_structure": [
     {
-      "text": "TAURUS",
+      "text": "TAURUS ALERT",
       "type": "header"
     },
     {
-      "text": "Stop, Taurus \u2014 Venus is locking into a tense conjunction with Pluto in your 8th House of Shared Resources, and the Earth element is amplifying this intensity.",
+      "text": "Stop, Taurus \u2014 Venus is igniting your 10th House of Career right now and the cosmos will not let you look away.",
       "type": "normal"
     },
     {
-      "text": "Saturn is squaring your natal Moon in the 4th House of Home, creating friction between comfort and change. Jupiter is trining Uranus in your 2nd House of Income, opening unexpected financial doors.",
+      "text": "Saturn is forming a demanding square to your natal Venus in the 10th House, forcing you to confront what's been neglected in your professional life.",
       "type": "normal"
     },
     {
-      "text": "If single, the 5th House of Romance is supercharging your charm tonight \u2014 wear something bold. If taken, Mercury's echoes in your 7th House could surface an unspoken conversation you need to have.",
+      "text": "Earth energy is grounding every impulsive decision you're tempted to make today.",
       "type": "normal"
     },
     {
-      "text": "Neptune is moving through your 10th House of Public Image, so trust your gut on a creative project that could redefine your career path.",
+      "text": "In love, a tense opposition between Mars and your 7th House ruler is creating real friction with a partner \u2014 choose patience over pride tonight.",
       "type": "normal"
     },
     {
-      "text": "Avoid lending money to anyone who hasn't repaid you before \u2014 this transit amplifies financial risk.",
+      "text": "Financially, Jupiter's conjunction with your 2nd House of Income signals an unexpected windfall or raise arriving within the next two weeks.",
       "type": "normal"
     },
     {
-      "text": "Subscribe so you don't miss what's coming this week \u2014 the stars have big things ahead for Taurus.",
+      "text": "Avoid signing any contracts before Friday \u2014 Mercury retrograde shadows are still lurking in your 3rd House of Communication.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for tomorrow's reading so you don't miss what Pluto is unlocking in your 8th House of Shared Resources.",
       "type": "normal"
     }
   ],
@@ -36,27 +40,27 @@
     "33"
   ],
   "lucky_color": "Emerald Green",
-  "monthly_vibe": "Grounded Transformation",
+  "monthly_vibe": "Grounded Ambition",
   "title": "Taurus \u2014 The Stars Are Warning You",
-  "youtube_title": "Taurus: A Cosmic Warning You Can't Ignore #shorts",
-  "youtube_description": "Venus is clashing with Pluto in Taurus's 8th House this week, triggering massive shifts in money, love, and power dynamics. Saturn is tightening its grip on your emotional foundations \u2014 what you do next matters more than you think. Comment your sign below.",
+  "youtube_title": "Taurus \u2014 A Career Shift Is Coming #shorts",
+  "youtube_description": "Saturn is pressing hard on Taurus's 10th House of Career, and Jupiter is about to deliver a financial surprise through the 2nd House of Income. Comment your sign below \u2014 you won't want to miss what Pluto is unlocking for Taurus this week.",
   "youtube_tags": [
     "taurus horoscope",
     "daily astrology",
+    "taurus daily",
     "venus transit",
-    "taurus love",
-    "cosmic predictions",
-    "astrology reading",
-    "taurus career",
-    "planetary transits",
-    "zodiac signs",
-    "taurus money",
-    "astrology tips",
-    "horoscope today"
+    "saturn square",
+    "jupiter conjunction",
+    "career astrology",
+    "love horoscope",
+    "earth sign",
+    "pluto transit",
+    "mercury retrograde",
+    "house astrology"
   ],
   "type": "daily",
   "target": "Taurus",
-  "date": "August 03, 2026",
+  "date": "August 04, 2026",
   "images": [
     "assets/zodiac_signs/Taurus.jpg"
   ],
