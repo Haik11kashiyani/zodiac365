@@ -1,86 +1,82 @@
 {
-  "script_text": "Leo, the cosmos flipped a switch \u2014 this week rewrites your story. Monday, the Sun enters your 1st House in Leo, igniting your fire sign identity with raw confidence. Tuesday, Mercury in Cancer sextiles your natal Sun, sharpening personal communication. Wednesday, Mars squares Saturn in Pisces, creating frustrating delays that test your patience. Thursday shifts everything when Venus enters your 7th House, opening a doorway for love and meaningful partnership. The weekend brings Jupiter trining your natal Sun in the 1st House, flooding your career and public life with unexpected opportunity. Sunday's full moon in Aquarius activates your 10th House, revealing a truth. Thursday is your true power day because Venus enters your 7th House and activates love. Wednesday is your worst day because Mars squares Saturn in Pisces, blocking all momentum. Use Wednesday's tension to plan strategically rather than react emotionally. Follow for daily updates.",
-  "captions_structure": [
-    {
-      "text": "LEO",
-      "type": "header"
-    },
-    {
-      "text": "Leo, the cosmos flipped a switch \u2014 this week rewrites your story.",
-      "type": "normal"
-    },
-    {
-      "text": "Monday, the Sun enters your 1st House in Leo, igniting your fire sign identity with raw confidence.",
-      "type": "normal"
-    },
-    {
-      "text": "Tuesday, Mercury in Cancer sextiles your natal Sun, sharpening personal communication.",
-      "type": "normal"
-    },
-    {
-      "text": "Wednesday, Mars squares Saturn in Pisces, creating frustrating delays that test your patience.",
-      "type": "normal"
-    },
-    {
-      "text": "Thursday shifts everything when Venus enters your 7th House, opening a doorway for love and meaningful partnership.",
-      "type": "normal"
-    },
-    {
-      "text": "The weekend brings Jupiter trining your natal Sun in the 1st House, flooding your career and public life with unexpected opportunity.",
-      "type": "normal"
-    },
-    {
-      "text": "Sunday's full moon in Aquarius activates your 10th House, revealing a truth.",
-      "type": "normal"
-    },
-    {
-      "text": "Thursday is your true power day because Venus enters your 7th House and activates love.",
-      "type": "normal"
-    },
-    {
-      "text": "Wednesday is your worst day because Mars squares Saturn in Pisces, blocking all momentum.",
-      "type": "normal"
-    },
-    {
-      "text": "Use Wednesday's tension to plan strategically rather than react emotionally.",
-      "type": "normal"
-    },
-    {
-      "text": "Follow for daily updates.",
-      "type": "normal"
-    }
-  ],
-  "lucky_numbers": [
-    "7",
-    "11",
-    "21"
-  ],
-  "lucky_color": "Emerald Green",
-  "monthly_vibe": "Reflective & Calm",
-  "title": "Leo \u2014 The Stars Just Changed Everything",
-  "youtube_title": "Leo's Week of Big Cosmic Shifts #shorts",
-  "youtube_description": "Leo, this week brings a powerful Venus transit into your partnership sector that will transform your love life. Jupiter activates your career house, revealing an opportunity you cannot ignore. Comment your sign below and let me tell you what the stars have in store.",
-  "youtube_tags": [
-    "leo weekly horoscope",
-    "leo astrology",
-    "weekly horoscope",
-    "cosmic energy",
-    "leo love prediction",
-    "leo career",
-    "astrology tips",
-    "planetary transits",
-    "zodiac signs",
-    "horoscope 2026",
-    "leo season",
-    "natal chart"
-  ],
-  "type": "weekly",
-  "target": "Leo",
-  "date": "Aug 02 - Aug 08",
-  "images": [
-    "assets/zodiac_signs/Leo.jpg"
-  ],
-  "active": true,
-  "status": "uploaded",
-  "file_name": "plan_weekly_Leo.json"
+    "script_text": "Saturn squares your Sun this week, Leo \u2014 brace for raw tension between ambition and exhaustion demanding strategic patience. Early week, Mercury conjunct Jupiter in your 3rd House sharpens communication, making Tuesday your strongest day for negotiations. Monday suffers because Mars opposes Saturn, draining your fire element confidence and creating friction in relationships. Mid-week turning point, Venus enters your 5th House on Wednesday, igniting romance and creative inspiration after the grind. Late week Thursday through Sunday, the Sun advances toward your 10th House career sector. A Jupiter trine to your natal Sun reveals a financial opportunity \u2014 possibly a promotion or an unexpected income. Wednesday is your power day because Venus enters your 5th House, supercharging love and creative self-expression. Monday is your worst day because the Mars-Saturn opposition drains confidence and creates frustrating delays. Focus on one bold career move this week. Follow for daily updates.",
+    "captions_structure": [
+        {
+            "text": "LEO",
+            "type": "header"
+        },
+        {
+            "text": "Saturn squares your Sun this week, Leo \u2014 brace for raw tension between ambition and exhaustion demanding strategic patience.",
+            "type": "normal"
+        },
+        {
+            "text": "Early week, Mercury conjunct Jupiter in your 3rd House sharpens communication, making Tuesday your strongest day for negotiations.",
+            "type": "normal"
+        },
+        {
+            "text": "Monday suffers because Mars opposes Saturn, draining your fire element confidence and creating friction in relationships.",
+            "type": "normal"
+        },
+        {
+            "text": "Mid-week turning point, Venus enters your 5th House on Wednesday, igniting romance and creative inspiration after the grind.",
+            "type": "normal"
+        },
+        {
+            "text": "Late week Thursday through Sunday, the Sun advances toward your 10th House career sector.",
+            "type": "normal"
+        },
+        {
+            "text": "A Jupiter trine to your natal Sun reveals a financial opportunity \u2014 possibly a promotion or an unexpected income.",
+            "type": "normal"
+        },
+        {
+            "text": "Wednesday is your power day because Venus enters your 5th House, supercharging love and creative self-expression.",
+            "type": "normal"
+        },
+        {
+            "text": "Monday is your worst day because the Mars-Saturn opposition drains confidence and creates frustrating delays.",
+            "type": "normal"
+        },
+        {
+            "text": "Focus on one bold career move this week.",
+            "type": "normal"
+        },
+        {
+            "text": "Follow for daily updates.",
+            "type": "normal"
+        }
+    ],
+    "lucky_numbers": [
+        "7",
+        "11",
+        "21"
+    ],
+    "lucky_color": "Emerald Green",
+    "monthly_vibe": "Strategic Patience",
+    "title": "Leo \u2014 The Stars Have a Warning This Week",
+    "youtube_title": "Leo's Saturn Square Week Demands Patience #shorts",
+    "youtube_description": "Saturn squares Leo's Sun this week, triggering a power struggle between ambition and burnout. Venus enters the 5th House mid-week, unlocking a love and creativity surge you won't want to miss. Comment your sign below for personalized insights.",
+    "youtube_tags": [
+        "leo weekly horoscope",
+        "saturn in aquarius",
+        "venus enters leo",
+        "astrology predictions",
+        "leo love horoscope",
+        "career astrology",
+        "jupiter trine sun",
+        "fire sign horoscope",
+        "weekly tarot",
+        "planetary transits",
+        "leo money forecast",
+        "cosmic energy"
+    ],
+    "type": "weekly",
+    "target": "Leo",
+    "date": "Aug 05 - Aug 11",
+    "images": [
+        "assets/zodiac_signs/Leo.jpg"
+    ],
+    "active": true,
+    "status": "pending",
+    "file_name": "plan_weekly_Leo.json"
 }

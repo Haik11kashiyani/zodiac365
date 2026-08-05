@@ -1,74 +1,74 @@
 {
-  "script_text": "Virgo, the cosmos just threw a massive curveball your way this week. Early week, Mercury your ruling planet conjoins Mars in your 2nd House of Income, igniting bold career moves and financial opportunities you cannot ignore\u2014Tuesday and Wednesday are strongest days. Mid-week turning point: the Sun squares Neptune in your 12th House on Thursday, blurring boundaries and demanding you reclaim energy before illusions drain you. Late week shifts as Venus enters your 7th House of Partnerships on Friday, opening a love door that Virgo Earth needs\u2014expect a meaningful connection or renewed commitment this weekend. Tuesday is your power day because Mercury conjoins Mars in your 2nd House, supercharging earning potential. Wednesday is your worst day because the Moon squares Saturn, creating emotional blockages around self-worth. Speak your boundaries clearly at work\u2014your Earth element intuition is razor-sharp right now. Follow for daily updates.",
-  "captions_structure": [
-    {
-      "text": "VIRGO ALERT",
-      "type": "header"
-    },
-    {
-      "text": "Virgo, the cosmos just threw a massive curveball your way this week.",
-      "type": "normal"
-    },
-    {
-      "text": "Early week, Mercury your ruling planet conjoins Mars in your 2nd House of Income, igniting bold career moves and financial opportunities you cannot ignore\u2014Tuesday and Wednesday are strongest days.",
-      "type": "normal"
-    },
-    {
-      "text": "Mid-week turning point: the Sun squares Neptune in your 12th House on Thursday, blurring boundaries and demanding you reclaim energy before illusions drain you.",
-      "type": "normal"
-    },
-    {
-      "text": "Late week shifts as Venus enters your 7th House of Partnerships on Friday, opening a love door that Virgo Earth needs\u2014expect a meaningful connection or renewed commitment this weekend.",
-      "type": "normal"
-    },
-    {
-      "text": "Tuesday is your power day because Mercury conjoins Mars in your 2nd House, supercharging earning potential.",
-      "type": "normal"
-    },
-    {
-      "text": "Wednesday is your worst day because the Moon squares Saturn, creating emotional blockages around self-worth.",
-      "type": "normal"
-    },
-    {
-      "text": "Speak your boundaries clearly at work\u2014your Earth element intuition is razor-sharp right now.",
-      "type": "normal"
-    },
-    {
-      "text": "Follow for daily updates.",
-      "type": "normal"
-    }
-  ],
-  "lucky_numbers": [
-    "7",
-    "11",
-    "21"
-  ],
-  "lucky_color": "Emerald Green",
-  "monthly_vibe": "Quiet Power",
-  "title": "Virgo \u2014 The Cosmos Just Changed Everything",
-  "youtube_title": "Virgo's Cosmic Shift This Week Changes Everything #shorts",
-  "youtube_description": "Mercury conjoins Mars in Virgo's 2nd House this week, unlocking a rare financial window most astrologers miss. Venus enters the 7th House on Friday, opening a love door that could reshape your relationships permanently. Comment your sign below and I'll tell you what this transit means for you.",
-  "youtube_tags": [
-    "virgo horoscope",
-    "weekly astrology",
-    "mercury transit",
-    "venus in cancer",
-    "love prediction",
-    "career astrology",
-    "earth signs",
-    "planetary aspects",
-    "virgo energy",
-    "cosmic forecast",
-    "astrology reading",
-    "horoscope weekly"
-  ],
-  "type": "weekly",
-  "target": "Virgo",
-  "date": "Aug 02 - Aug 08",
-  "images": [
-    "assets/zodiac_signs/Virgo.jpg"
-  ],
-  "active": true,
-  "status": "uploaded",
-  "file_name": "plan_weekly_Virgo.json"
+    "script_text": "Virgo, as an Earth sign, this week Mercury fires a rare trine with Jupiter that will truly reshape your entire week. From Monday through Wednesday, the Sun sits in your fifth house igniting creative energy, but Mercury squares Saturn on Tuesday \u2014 your worst day for contracts or decisions. Wednesday marks the turning point when Venus enters your seventh house of partnership, shifting your focus toward love. Thursday through Sunday, the Moon activates your tenth house spotlighting career and public reputation. The weekend brings a Mars-Pluto conjunction unlocking a professional breakthrough. Wednesday is your power day because Venus enters your seventh house, opening doors in love and partnerships. Tuesday is your worst day because Mercury squares Saturn, creating delays and miscommunications that could cost you. Hold off on major financial commitments until Thursday, when your career sector lights up with supportive energy. Follow for daily updates.",
+    "captions_structure": [
+        {
+            "text": "VIRGO",
+            "type": "header"
+        },
+        {
+            "text": "Virgo, as an Earth sign, this week Mercury fires a rare trine with Jupiter that will truly reshape your entire week.",
+            "type": "normal"
+        },
+        {
+            "text": "From Monday through Wednesday, the Sun sits in your fifth house igniting creative energy, but Mercury squares Saturn on Tuesday \u2014 your worst day for contracts or decisions.",
+            "type": "normal"
+        },
+        {
+            "text": "Wednesday marks the turning point when Venus enters your seventh house of partnership, shifting your focus toward love.",
+            "type": "normal"
+        },
+        {
+            "text": "Thursday through Sunday, the Moon activates your tenth house spotlighting career and public reputation. The weekend brings a Mars-Pluto conjunction unlocking a professional breakthrough.",
+            "type": "normal"
+        },
+        {
+            "text": "Wednesday is your power day because Venus enters your seventh house, opening doors in love and partnerships.",
+            "type": "normal"
+        },
+        {
+            "text": "Tuesday is your worst day because Mercury squares Saturn, creating delays and miscommunications that could cost you.",
+            "type": "normal"
+        },
+        {
+            "text": "Hold off on major financial commitments until Thursday, when your career sector lights up with supportive energy.",
+            "type": "normal"
+        },
+        {
+            "text": "Follow for daily updates.",
+            "type": "normal"
+        }
+    ],
+    "lucky_numbers": [
+        "7",
+        "14",
+        "33"
+    ],
+    "lucky_color": "Emerald Green",
+    "monthly_vibe": "Reflective & Grounded",
+    "title": "Virgo \u2014 This Week Changes Everything",
+    "youtube_title": "Virgo's Cosmic Shift This Week #shorts",
+    "youtube_description": "Mercury's trine with Jupiter is about to unlock major shifts for Virgo this week. When Venus enters the seventh house midweek, love and partnerships take center stage. Comment your sign below for your personalized reading.",
+    "youtube_tags": [
+        "virgo horoscope",
+        "weekly horoscope",
+        "mercury transit",
+        "virgo love",
+        "virgo career",
+        "astrology predictions",
+        "earth sign",
+        "planetary transits",
+        "virgo weekly",
+        "cosmic energy",
+        "jupiter trine",
+        "saturn square"
+    ],
+    "type": "weekly",
+    "target": "Virgo",
+    "date": "Aug 05 - Aug 11",
+    "images": [
+        "assets/zodiac_signs/Virgo.jpg"
+    ],
+    "active": true,
+    "status": "pending",
+    "file_name": "plan_weekly_Virgo.json"
 }
