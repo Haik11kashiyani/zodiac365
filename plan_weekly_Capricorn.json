@@ -1,46 +1,45 @@
 {
-    "script_text": "CAPRICORN \u2014 Saturn rules your Earth sign, and this week it's tightening its grip, demanding strategy over patience. Early Monday through Wednesday, Saturn in your 12th House squares your natal Moon, draining energy and stirring buried emotions \u2014 avoid major financial decisions Tuesday when Mercury shadows your 2nd House of income. Midweek, Venus enters your 5th House of love, trining Jupiter in your 4th House, igniting a passionate home connection that heals emotional walls. The weekend shifts dramatically as Mars aligns with your ruling planet Saturn, bringing career momentum \u2014 a hidden opportunity surfaces Sunday that reshapes your professional path. Wednesday is your power day because Venus enters your 5th House, unlocking creative confidence and romantic clarity. Thursday is your worst day \u2014 Sun square Saturn tension peaks, testing your resolve at work. Delegate one heavy burden this week and let Saturn reward your discipline. Follow for daily updates.",
-    "captions_structure": [
-        {
-            "text": "CAPRICORN ALERT",
-            "type": "header"
-        },
-        {
-            "text": "CAPRICORN \u2014 Saturn rules your Earth sign, and this week it's tightening its grip, demanding strategy over patience.",
-            "type": "normal"
-        }
-    ],
-    "lucky_numbers": [
-        "7",
-        "14",
-        "29"
-    ],
-    "lucky_color": "Emerald Green",
-    "monthly_vibe": "Disciplined Growth",
-    "title": "Capricorn \u2014 The Stars Have a Warning",
-    "youtube_title": "Capricorn: Saturn Demands Strategy This Week #shorts",
-    "youtube_description": "Saturn is activating Capricorn's 12th House this week, triggering deep emotional shifts and career crossroads. Venus enters the love and creativity house midweek \u2014 here's what that means for your relationships and creative energy. Comment your sign below for a personalized reading.",
-    "youtube_tags": [
-        "capricorn horoscope",
-        "saturn transit",
-        "weekly astrology",
-        "earth sign energy",
-        "capricorn love",
-        "capricorn career",
-        "venus transit",
-        "jupiter trine",
-        "astrology predictions",
-        "horoscope weekly",
-        "cosmic guidance",
-        "saturn in pisces"
-    ],
-    "type": "weekly",
-    "target": "Capricorn",
-    "date": "Aug 06 - Aug 12",
-    "images": [
-        "assets/zodiac_signs/Capricorn.jpg"
-    ],
-    "active": true,
-    "status": "pending",
-    "file_name": "plan_weekly_Capricorn.json"
+  "script_text": "This week demands emotional discipline, but the stars are about to shake your foundation and bring you out of your comfort zone. Monday, Mars enters your 1st house, igniting drive under Saturn, your ruling planet and Earth element. Tuesday, the Sun squares Saturn in the 7th House, straining relationships. Wednesday, Venus enters the 5th House, sparking genuine connection for love. The key shift happens Wednesday when Venus enters the 5th House, transforming romantic outlook. Thursday, Saturn aligns with Jupiter in the 10th House, opening new career opportunities. The weekend brings the Moon into the 12th House, offering inner peace and emotional release. Wednesday is your power day because Venus enters your 5th House. Thursday is your challenging day because Saturn in the 10th House pressures your career. Anchor your goals in daily rituals, even when the energy feels uncertain and chaotic. Follow for daily updates.",
+  "captions_structure": [
+    {
+      "text": "CAPRICORN ALERT",
+      "type": "header"
+    },
+    {
+      "text": "This week demands emotional discipline, but the stars are about to shake your foundation and bring you out of your comfort zone.",
+      "type": "normal"
+    }
+  ],
+  "lucky_numbers": [
+    "7",
+    "11",
+    "21"
+  ],
+  "lucky_color": "Emerald Green",
+  "monthly_vibe": "Reflective & Calm",
+  "title": "Capricorn Weekly Horoscope August 07, 2026",
+  "youtube_title": "Capricorn: The Shocking Shift That Changes Your Love #shorts",
+  "youtube_description": "A week of emotional and career shifts for Capricorn. The Moon enters the 12th House for spiritual growth while Venus shifts your love life. Will you find the courage to embrace change? Comment your sign for more.",
+  "youtube_tags": [
+    "capricorn horoscope",
+    "weekly forecast",
+    "astrology",
+    "transit",
+    "love prediction",
+    "career tips",
+    "planetary alignment",
+    "daily update",
+    "intuitive reading",
+    "moons phase",
+    "cosmic energy"
+  ],
+  "type": "weekly",
+  "target": "Capricorn",
+  "date": "Aug 07 - Aug 13",
+  "images": [
+    "assets/zodiac_signs/Capricorn.jpg"
+  ],
+  "active": true,
+  "status": "uploaded",
+  "file_name": "plan_weekly_Capricorn.json"
 }

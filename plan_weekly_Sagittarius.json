@@ -1,74 +1,47 @@
 {
-    "script_text": "Saturn squares your fiery natal Sun this week, Sagittarius \u2014 expect a sudden reality check that completely reshapes your priorities. Early in the week, Mercury in Leo forms a trine to your natal Jupiter in Gemini, giving you sharp communication energy Monday through Wednesday, though Tuesday carries a Mars-Saturn tension that delays important decisions. By Wednesday, Venus enters Leo and slips into your 5th House, igniting romantic creativity and a magnetic pull toward someone unexpected. Thursday through Sunday, the Sun opposes Neptune in Aries, blurring your career boundaries \u2014 be cautious with financial commitments late in the week. Wednesday is your power day because Venus enters your 5th House, awakening passion and creative confidence. Friday is your worst day because Mercury squares Uranus, causing miscommunications and impulsive choices. Trust your instincts but verify every detail before signing anything this week. Follow for daily updates.",
-    "captions_structure": [
-        {
-            "text": "SAGITTARIUS",
-            "type": "header"
-        },
-        {
-            "text": "Saturn squares your fiery natal Sun this week, Sagittarius \u2014 expect a sudden reality check that completely reshapes your priorities.",
-            "type": "normal"
-        },
-        {
-            "text": "Early in the week, Mercury in Leo forms a trine to your natal Jupiter in Gemini, giving you sharp communication energy Monday through Wednesday, though Tuesday carries a Mars-Saturn tension that delays important decisions.",
-            "type": "normal"
-        },
-        {
-            "text": "By Wednesday, Venus enters Leo and slips into your 5th House, igniting romantic creativity and a magnetic pull toward someone unexpected.",
-            "type": "normal"
-        },
-        {
-            "text": "Thursday through Sunday, the Sun opposes Neptune in Aries, blurring your career boundaries \u2014 be cautious with financial commitments late in the week.",
-            "type": "normal"
-        },
-        {
-            "text": "Wednesday is your power day because Venus enters your 5th House, awakening passion and creative confidence.",
-            "type": "normal"
-        },
-        {
-            "text": "Friday is your worst day because Mercury squares Uranus, causing miscommunications and impulsive choices.",
-            "type": "normal"
-        },
-        {
-            "text": "Trust your instincts but verify every detail before signing anything this week.",
-            "type": "normal"
-        },
-        {
-            "text": "Follow for daily updates.",
-            "type": "normal"
-        }
-    ],
-    "lucky_numbers": [
-        "7",
-        "19",
-        "34"
-    ],
-    "lucky_color": "Deep Emerald",
-    "monthly_vibe": "Courageous Realignment",
-    "title": "Sagittarius \u2014 Saturn Demands Change This Week",
-    "youtube_title": "Sagittarius \u2014 Saturn Demands Change This Week #shorts",
-    "youtube_description": "Saturn is forcing Sagittarius to confront buried truths this week, and Venus in Leo brings a surprising romantic shift midweek. The planetary alignments reveal exactly when to act and when to hold back \u2014 don't miss Wednesday's transit. Comment your sign below for a personalized reading.",
-    "youtube_tags": [
-        "sagittarius",
-        "weekly horoscope",
-        "saturn transit",
-        "venus in leo",
-        "astrology predictions",
-        "fire sign horoscope",
-        "jupiter transit",
-        "sagittarius love",
-        "career astrology",
-        "planetary transits",
-        "weekly forecast",
-        "sagittarius advice"
-    ],
-    "type": "weekly",
-    "target": "Sagittarius",
-    "date": "Aug 06 - Aug 12",
-    "images": [
-        "assets/zodiac_signs/Sagittarius.jpg"
-    ],
-    "active": true,
-    "status": "pending",
-    "file_name": "plan_weekly_Sagittarius.json"
+  "script_text": "This week, Jupiter's fiery transit through your 9th House will force you to rethink everything about fate. On Monday, Uranus squares Jupiter in your 1st House, shattering illusions about security. Tuesday brings Jupiter trine Mercury in the 5th House, unlocking creative energy and revealing your love will bloom. Midweek, Saturn enters your 10th House to oppose Jupiter, triggering your career ambitions. By Thursday, Jupiter enters the 4th House to ground your deep energy into roots. The weekend asks you to step into authentic power. Friday is your power day because Jupiter aligns with Mercury in the 12th House, bringing clarity to your path. Saturday is your worst day because Saturn occupies your 10th House, compressing your career energy. Trust your intuition and take bold action, just knowing the universe is conspiring in your favor. Follow for daily updates to stay aligned with your cosmic path.",
+  "captions_structure": [
+    {
+      "text": "SAGITTARIUS",
+      "type": "header"
+    },
+    {
+      "text": "This week, Jupiter's fiery transit through your 9th House will force you to rethink everything about fate.",
+      "type": "normal"
+    }
+  ],
+  "lucky_numbers": [
+    "7",
+    "11",
+    "21"
+  ],
+  "lucky_color": "Emerald Green",
+  "monthly_vibe": "Reflective & Calm",
+  "title": "Sagittarius Weekly Horoscope August 07, 2026",
+  "youtube_title": "Something Big Is Coming for Sagittarius #shorts",
+  "youtube_description": "A powerful astrologer predicts the biggest shift in your career and love this week. Jupiter's fiery transit through the 9th House reveals unexpected opportunities that will transform your outlook. Comment your sign for more!",
+  "youtube_tags": [
+    "astrology",
+    "horoscope",
+    "sagittarius",
+    "transit",
+    "jupiter",
+    "love prediction",
+    "career forecast",
+    "weekly outlook",
+    "cosmic energy",
+    "sun signs",
+    "astrology forecast",
+    "tarot signs"
+  ],
+  "type": "weekly",
+  "target": "Sagittarius",
+  "date": "Aug 07 - Aug 13",
+  "images": [
+    "assets/zodiac_signs/Sagittarius.jpg"
+  ],
+  "active": true,
+  "status": "error",
+  "file_name": "plan_weekly_Sagittarius.json",
+  "error_reason": "Upload failed"
 }
