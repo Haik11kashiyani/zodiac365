@@ -1,70 +1,67 @@
 {
-  "script_text": "Stop scrolling, Taurus \u2014 Saturn is throwing a cold, hard square straight at your ruling planet Venus today. With Saturn grinding through Pisces, it's pressing on your 9th House of Expansion, while Mars conjunct Pluto in Aquarius ignites your 6th House of Daily Work. The Earth element in you feels every ounce of this heavy pressure. In love, Venus under this Saturn square demands honesty \u2014 if you're single, someone with real depth and patience will catch your eye; if taken, a conversation about long-term commitment can't be avoided. Career-wise, that Mars-Pluto conjunction pushes you to restructure your daily routine, and a surprising opportunity tied to the 10th House of Career could surface by week's end. Don't let stubbornness trap you in a comfort zone that's actually holding your growth back. Subscribe so you don't miss what's coming for Taurus this week.",
+  "script_text": "Stop! Taurus, the stars are screaming at you right now. Venus, your ruling planet, is forming a powerful trine to your 2nd House of Finances while the Moon opposes your 10th House of Career, creating intense tension between your values and public standing. If you're in a relationship, someone may challenge your need for stability today\u2014expect conversations about long-term commitments. Financially, a windfall could arrive through an inheritance or bonus, but don't sign contracts without reading the fine print. Avoid impulsive purchases, especially luxury items\u2014your budget needs breathing room. Your patience and practical wisdom will transform an obstacle into an opportunity. Subscribe so you don't miss what's coming this week.",
   "captions_structure": [
     {
-      "text": "TAURUS ALERT",
+      "text": "TAURUS",
       "type": "header"
     },
     {
-      "text": "Stop scrolling, Taurus \u2014 Saturn is throwing a cold, hard square straight at your ruling planet Venus today.",
+      "text": "Stop! Taurus, the stars are screaming at you right now.",
       "type": "normal"
     },
     {
-      "text": "With Saturn grinding through Pisces, it's pressing on your 9th House of Expansion, while Mars conjunct Pluto in Aquarius ignites your 6th House of Daily Work.",
+      "text": "Venus trines your 2nd House while Moon opposes your 10th House.",
       "type": "normal"
     },
     {
-      "text": "The Earth element in you feels every ounce of this heavy pressure.",
+      "text": "Relationship tensions today\u2014commitment conversations ahead.",
       "type": "normal"
     },
     {
-      "text": "In love, Venus under this Saturn square demands honesty \u2014 if you're single, someone with real depth and patience will catch your eye; if taken, a conversation about long-term commitment can't be avoided.",
+      "text": "Financial windfall possible through inheritance or bonus.",
       "type": "normal"
     },
     {
-      "text": "Career-wise, that Mars-Pluto conjunction pushes you to restructure your daily routine, and a surprising opportunity tied to the 10th House of Career could surface by week's end.",
+      "text": "Avoid impulsive luxury purchases\u2014budget needs breathing room.",
       "type": "normal"
     },
     {
-      "text": "Don't let stubbornness trap you in a comfort zone that's actually holding your growth back.",
-      "type": "normal"
-    },
-    {
-      "text": "Subscribe so you don't miss what's coming for Taurus this week.",
+      "text": "Subscribe so you don't miss what's coming this week.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
     "7",
     "14",
-    "33"
+    "23"
   ],
-  "lucky_color": "Emerald Green",
-  "monthly_vibe": "Grounded Transformation",
-  "title": "Taurus \u2014 The Stars Are Warning You",
-  "youtube_title": "Taurus \u2014 A Hard Truth the Stars Reveal #shorts",
-  "youtube_description": "Taurus, Saturn is forming a brutal square to your ruling planet Venus, and the cosmic consequences are real. This transit is forcing deep honesty in your relationships and a career shake-up you can't ignore. Comment your sign below and let the stars guide you.",
+  "lucky_color": "Sage Green",
+  "monthly_vibe": "Grounded & Abundant",
+  "title": "Taurus Stars Are Transforming You",
+  "youtube_title": "Taurus Stars Are Transforming You #shorts",
+  "youtube_description": "Taurus, Venus is trining your 2nd House of Finances while the Moon opposes your 10th House of Career. This powerful cosmic dance reveals a hidden financial opportunity that could change everything. Discover what the stars are revealing about your money and relationships today\u2014Comment your sign below!",
   "youtube_tags": [
     "taurus horoscope",
-    "daily astrology",
-    "saturn transit",
-    "venus astrology",
-    "earth sign",
-    "horoscope today",
-    "taurus love",
-    "career astrology",
-    "planetary transit",
-    "astrology predictions",
+    "daily horoscope",
+    "august astrology",
+    "venus transit",
+    "taurus money",
+    "love prediction",
+    "career horoscope",
     "cosmic energy",
-    "star signs"
+    "astro truth",
+    "zodiac wisdom",
+    "taurus daily",
+    "moon opposition"
   ],
   "type": "daily",
   "target": "Taurus",
-  "date": "August 06, 2026",
+  "date": "August 07, 2026",
   "images": [
     "assets/zodiac_signs/Taurus.jpg"
   ],
   "active": true,
-  "status": "uploaded",
-  "file_name": "plan_daily_Taurus.json"
+  "status": "error",
+  "file_name": "plan_daily_Taurus.json",
+  "error_reason": "Upload failed"
 }
