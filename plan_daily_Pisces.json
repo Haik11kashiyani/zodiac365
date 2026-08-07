@@ -1,66 +1,47 @@
 {
-  "script_text": "Stop \u2014 Pisces, Neptune is pressing down on your natal Sun and the stars refuse to let you look away. Saturn is forming a difficult square to Neptune in your 1st House of Identity, creating a thick fog that clouds your instincts and second-guesses your decisions. The water element flowing through you is stagnant today, so don't trust every impulse. Venus in your 7th House of Partnerships is sextile Jupiter, pulling a past connection back toward you \u2014 if single, this energy attracts someone genuine; if taken, an unspoken tension needs addressing before it grows. Pluto activates your 10th House of Career, signaling a power shift at work \u2014 claim your authority rather than retreating. A sudden financial gift tied to a creative project is coming your way \u2014 accept it without hesitation. Follow for tomorrow's reading so you don't miss what the cosmos has planned for Pisces next.",
+  "script_text": "Stop, Pisces, Saturn is directly squaring your 5th House of Creativity right now, and that slow pressure is reshaping the way you see romance and passion under Jupiter, the ruling planet of Pisces, the Water element. Jupiter is forming a sharp square to your 10th House of Career and Public Purpose, placing powerful energy of expansion directly into your professional path. Venus is placing a gentle trine to your 1st House of Self, inviting you to embrace vulnerability and trust that love will arrive softly but with absolute certainty. Saturn is directly conjunct your 6th House of Work, forcing you to channel disciplined pressure into a tangible breakthrough before Friday's new moon. Avoid any attachments that pull you away from your 2nd House of Personal Value, for the stars will strip away anything lacking financial grounding. Subscribe now so you never miss what Jupiter is building through your 7th House.",
   "captions_structure": [
     {
-      "text": "PISCES ALERT",
+      "text": "PISCES",
       "type": "header"
     },
     {
-      "text": "Stop \u2014 Pisces, Neptune is pressing down on your natal Sun and the stars refuse to let you look away.",
-      "type": "normal"
-    },
-    {
-      "text": "Saturn is forming a difficult square to Neptune in your 1st House of Identity, creating a thick fog that clouds your instincts.",
-      "type": "normal"
-    },
-    {
-      "text": "Venus in your 7th House of Partnerships is sextile Jupiter \u2014 a past connection is returning.",
-      "type": "normal"
-    },
-    {
-      "text": "Pluto activates your 10th House of Career, signaling a power shift at work.",
-      "type": "normal"
-    },
-    {
-      "text": "A sudden financial gift tied to a creative project is coming your way.",
-      "type": "normal"
-    },
-    {
-      "text": "Follow for tomorrow's reading so you don't miss what the cosmos has planned for Pisces next.",
+      "text": "Stop, Pisces, Saturn is directly squaring your 5th House of Creativity right now, and that slow pressure is reshaping the way you see romance and passion under Jupiter, the ruling planet of Pisces, the Water element.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
     "7",
-    "14",
-    "33"
+    "11",
+    "21"
   ],
-  "lucky_color": "Seafoam Green",
-  "monthly_vibe": "Intuitive & Renewed",
-  "title": "Pisces \u2014 The Stars Are Warning You",
-  "youtube_title": "Pisces \u2014 A Hidden Power Shift Is Coming #shorts",
-  "youtube_description": "Saturn is squaring Neptune in Pisces's 1st House, creating a fog that clouds instincts and drains energy. Venus is sextile Jupiter in the 7th House, pulling a past connection back \u2014 but there's a catch. Pluto is activating the 10th House, and a career power shift is unavoidable. Comment your sign below.",
+  "lucky_color": "Emerald Green",
+  "monthly_vibe": "Reflective & Calm",
+  "title": "The Stars Warn Pisces",
+  "youtube_title": "The Stars Are Calling Pisces #shorts",
+  "youtube_description": "Pisces, Jupiter is squaring your 10th House of Career, reshaping your professional path under watery transformation. What love and career shifts await this week? Comment your sign to see your unique reading.",
   "youtube_tags": [
-    "pisces horoscope",
-    "neptune transit",
-    "astrology daily",
-    "pisces love",
-    "cancer horoscope",
-    "10th house astrology",
-    "venus sextile jupiter",
-    "saturn square neptune",
-    "water sign astrology",
-    "pisces career",
-    "daily horoscope 2026",
-    "pluto transit"
+    "astrology",
+    "horoscope",
+    "pisces",
+    "transit",
+    "jupiter",
+    "water sign",
+    "love prediction",
+    "career",
+    "weekly forecast",
+    "cosmic energy",
+    "planetary energy",
+    "daily reading"
   ],
   "type": "daily",
   "target": "Pisces",
-  "date": "August 06, 2026",
+  "date": "August 07, 2026",
   "images": [
     "assets/zodiac_signs/Pisces.jpg"
   ],
   "active": true,
-  "status": "uploaded",
-  "file_name": "plan_daily_Pisces.json"
+  "status": "error",
+  "file_name": "plan_daily_Pisces.json",
+  "error_reason": "Upload failed"
 }
