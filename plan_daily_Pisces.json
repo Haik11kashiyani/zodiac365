@@ -1,47 +1,66 @@
 {
-  "script_text": "Stop, Pisces, Saturn is directly squaring your 5th House of Creativity right now, and that slow pressure is reshaping the way you see romance and passion under Jupiter, the ruling planet of Pisces, the Water element. Jupiter is forming a sharp square to your 10th House of Career and Public Purpose, placing powerful energy of expansion directly into your professional path. Venus is placing a gentle trine to your 1st House of Self, inviting you to embrace vulnerability and trust that love will arrive softly but with absolute certainty. Saturn is directly conjunct your 6th House of Work, forcing you to channel disciplined pressure into a tangible breakthrough before Friday's new moon. Avoid any attachments that pull you away from your 2nd House of Personal Value, for the stars will strip away anything lacking financial grounding. Subscribe now so you never miss what Jupiter is building through your 7th House.",
+  "script_text": "Stop! Pisces, the cosmic waves are crashing hard right now. Neptune, your modern ruler, is stationing retrograde in your 12th House of secrets, while Jupiter in your 7th House forms a powerful trine to transformative Pluto in your 10th House. This alignment amplifies your intuition and draws opportunities through partnerships. If you're single, a deep soul-level connection could spark from an honest conversation\u2014lean into vulnerability. If taken, your partner senses your inner turmoil; share your fears before they widen. Financially, Mercury in your 8th House warns against impulsive investments or shared expenses\u2014pause before signing anything. Avoid escaping into fantasy when practical decisions arise; ground yourself through meditation instead. Follow for tomorrow's reading so you don't miss what the stars reveal next.",
   "captions_structure": [
     {
       "text": "PISCES",
       "type": "header"
     },
     {
-      "text": "Stop, Pisces, Saturn is directly squaring your 5th House of Creativity right now, and that slow pressure is reshaping the way you see romance and passion under Jupiter, the ruling planet of Pisces, the Water element.",
+      "text": "Stop! Pisces, the cosmic waves are crashing hard right now.",
+      "type": "normal"
+    },
+    {
+      "text": "Neptune stations retrograde in your 12th House while Jupiter trines Pluto in your 10th.",
+      "type": "normal"
+    },
+    {
+      "text": "Single: a soul connection sparks from honest conversation. Taken: share fears before they deepen.",
+      "type": "normal"
+    },
+    {
+      "text": "Mercury in your 8th House warns against impulsive financial moves\u2014pause before signing.",
+      "type": "normal"
+    },
+    {
+      "text": "Avoid escaping into fantasy\u2014ground yourself through meditation.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for tomorrow's cosmic forecast.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
-    "7",
-    "11",
-    "21"
+    "3",
+    "16",
+    "29"
   ],
-  "lucky_color": "Emerald Green",
-  "monthly_vibe": "Reflective & Calm",
-  "title": "The Stars Warn Pisces",
-  "youtube_title": "The Stars Are Calling Pisces #shorts",
-  "youtube_description": "Pisces, Jupiter is squaring your 10th House of Career, reshaping your professional path under watery transformation. What love and career shifts await this week? Comment your sign to see your unique reading.",
+  "lucky_color": "Midnight Blue",
+  "monthly_vibe": "Soulful Awakening",
+  "title": "Pisces - Secrets Reveal Tomorrow",
+  "youtube_title": "Pisces Secrets Revealed Soon #shorts",
+  "youtube_description": "Neptune's retrograde in your 12th House is stirring deep revelations, Pisces. Discover how Jupiter's cosmic boost affects your relationships and finances today \u2014 plus what to avoid when making major decisions. Comment your sign below and let the stars guide you.",
   "youtube_tags": [
-    "astrology",
-    "horoscope",
-    "pisces",
-    "transit",
-    "jupiter",
-    "water sign",
-    "love prediction",
-    "career",
-    "weekly forecast",
+    "pisces horoscope",
+    "daily astrology",
+    "neptune retrograde",
+    "jupiter trine pluto",
+    "pisces love",
+    "money horoscope",
+    "12th house",
+    "10th house",
     "cosmic energy",
-    "planetary energy",
-    "daily reading"
+    "intuitive signs",
+    "pisces vibes",
+    "star sign"
   ],
   "type": "daily",
   "target": "Pisces",
-  "date": "August 07, 2026",
+  "date": "August 08, 2026",
   "images": [
     "assets/zodiac_signs/Pisces.jpg"
   ],
   "active": true,
-  "status": "error",
-  "file_name": "plan_daily_Pisces.json",
-  "error_reason": "Upload failed"
+  "status": "uploaded",
+  "file_name": "plan_daily_Pisces.json"
 }

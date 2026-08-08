@@ -1,12 +1,36 @@
 {
-    "script_text": "Something ancient stirs beneath the surface \u2014 Spirit Animals are about to demand your attention. Spirit Animals are governed by Neptune in the watery element, channeling primal instinct through the 12th House of the unconscious. This transit bridges the seen and unseen through animal archetypes awakening within you. Neptune trines the North Node in the 1st House, awakening spirit guides to emerge. Jupiter conjunct Saturn in the 10th House signals a pivotal career opportunity to align your path with your totem. Venus opposes Pluto in the 7th House, forcing soul-level confrontations that transform love or expose truth. Chiron retrograde in the 5th House holds the karmic lesson. Wounds from past-life bonds with animal spirits demand healing before you can channel their wisdom. Spend time in nature daily to clear Neptune's mist and let your true totem surface. Comment your spirit animal below and let the cosmos reveal what awaits.",
+    "script_text": "Have you felt your animal guide growing restless? Spirit Animals channel the Moon's intuitive power through Water's emotional depths. With Neptune in your 12th House trining Jupiter in your 8th House, psychic sensitivity spikes \u2014 expect vivid dreams guiding love decisions and career moves. Romance beckons through unexpected spiritual connections, while money opportunities emerge from hidden inheritances or shared resources. The shadow warns of confusion between intuition and illusion; your North Node in Taurus demands grounding. Chiron's retrograde urges you to heal ancestral wounds through animal symbolism. Light sage and meditate with your spirit ally daily. Comment your sign below and share which animal has been visiting your dreams.",
     "captions_structure": [
         {
-            "text": "SPIRIT ANIMALS ALERT",
+            "text": "SPIRIT ANIMALS",
             "type": "header"
         },
         {
-            "text": "Something ancient stirs beneath the surface \u2014 Spirit Animals are about to demand your attention.",
+            "text": "Have you felt your animal guide growing restless? Spirit Animals channel the Moon's intuitive power through Water's emotional depths.",
+            "type": "normal"
+        },
+        {
+            "text": "With Neptune in your 12th House trining Jupiter in your 8th House, psychic sensitivity spikes \u2014 expect vivid dreams guiding love decisions and career moves.",
+            "type": "normal"
+        },
+        {
+            "text": "Romance beckons through unexpected spiritual connections, while money opportunities emerge from hidden inheritances or shared resources.",
+            "type": "normal"
+        },
+        {
+            "text": "The shadow warns of confusion between intuition and illusion; your North Node in Taurus demands grounding.",
+            "type": "normal"
+        },
+        {
+            "text": "Chiron's retrograde urges you to heal ancestral wounds through animal symbolism.",
+            "type": "normal"
+        },
+        {
+            "text": "Light sage and meditate with your spirit ally daily.",
+            "type": "normal"
+        },
+        {
+            "text": "Comment your sign below and share which animal has been visiting your dreams.",
             "type": "normal"
         }
     ],
@@ -16,27 +40,27 @@
         "21"
     ],
     "lucky_color": "Emerald Green",
-    "monthly_vibe": "Reflective & Calm",
-    "title": "Spirit Animals \u2014 The Cosmos Is Calling",
-    "youtube_title": "Spirit Animals: The Hidden Transits of August #shorts",
-    "youtube_description": "Spirit Animals are under a powerful Neptune transit this August, awakening deep soul connections through animal archetypes. Jupiter and Saturn align in your career sector, while Venus and Pluto force a love reckoning. Comment your sign below \u2014 the stars are about to reveal what your spirit animal already knows.",
+    "monthly_vibe": "Mystical & Transformative",
+    "title": "Spirit Animals \u2014 Hidden Powers Activated",
+    "youtube_title": "Spirit Animals \u2014 Hidden Powers Activated #shorts",
+    "youtube_description": "The Moon's transit through your spiritual 12th House is awakening your animal guides right now. Discover which spirit beast is trying to reach you and what major love or career shift is coming your way. Comment your sign below!",
     "youtube_tags": [
-        "astrology",
-        "horoscope",
         "spirit animals",
+        "moon astrology",
+        "water sign",
+        "psychic dreams",
         "neptune transit",
-        "north node",
-        "chiron retrograde",
-        "soul animal",
-        "cosmic energy",
-        "august horoscope",
-        "astrology predictions",
+        "8th house",
+        "12th house",
+        "animal spirit",
+        "intuition",
+        "tarot reading",
         "spiritual guidance",
-        "animal totem"
+        "chiron healing"
     ],
     "type": "special",
     "target": "Spirit Animals",
-    "date": "2026-08-04",
+    "date": "2026-08-08",
     "images": [],
     "active": true,
     "status": "pending",

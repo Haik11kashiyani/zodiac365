@@ -1,16 +1,36 @@
 {
-    "script_text": "Your world tilts on its axis this week, Aquarius, as Uranus squares your Sun. Early week brings communication tensions with Mercury retrograde opposing your 7th House, making Tuesday the day to delay important conversations. Wednesday offers clarity as the Moon trines your ruler Uranus in the 11th House. The turning point comes Thursday when the Sun trines Pluto in your career sector, shifting focus from relationships to professional revelations. Late week favors career moves, with Friday perfect for financial negotiations as Venus squares your 10th House ruler. Saturday brings unexpected networking opportunities, while Sunday's full Moon in your 5th House sparks romantic surprises. Wednesday is your power day because Venus enters your 5th House. Avoid major decisions on Monday when Mars squares your natal Neptune. Focus on long-term career strategy over short-term pleasures. Follow for daily updates.",
+    "script_text": "Aquarius, your ruling planet Saturn retrograde in your 10th House of career is demanding restructuring \u2014 don't resist the shakeup coming this week. Early week brings Mercury in Virgo trining your 7th House of partnerships, making Tuesday ideal for negotiations or romantic conversations. However, the Sun squaring your 1st House of self-expression on Monday may create friction with authority figures. Mid-week shift: Jupiter enters your 8th House of shared resources on Wednesday, transforming your financial landscape. By Thursday, Venus sextiles your 5th House of love, intensifying romantic opportunities \u2014 single Aquarius, that stranger who catches your eye could be significant. Career-wise, expect a surprise windfall or inheritance discussion around Friday as Pluto in your 2nd House activates. Weekend brings emotional clarity as the Moon trines your 4th House of home.",
     "captions_structure": [
         {
             "text": "AQUARIUS",
             "type": "header"
         },
         {
-            "text": "Your world tilts on its axis this week, Aquarius, as Uranus squares your Sun.",
+            "text": "Aquarius, your ruling planet Saturn retrograde in your 10th House of career is demanding restructuring \u2014 don't resist the shakeup coming this week.",
             "type": "normal"
         },
         {
-            "text": "Early week brings communication tensions with Mercury retrograde opposing your 7th House...",
+            "text": "Early week brings Mercury in Virgo trining your 7th House of partnerships, making Tuesday ideal for negotiations or romantic conversations.",
+            "type": "normal"
+        },
+        {
+            "text": "However, the Sun squaring your 1st House of self-expression on Monday may create friction with authority figures.",
+            "type": "normal"
+        },
+        {
+            "text": "Mid-week shift: Jupiter enters your 8th House of shared resources on Wednesday, transforming your financial landscape.",
+            "type": "normal"
+        },
+        {
+            "text": "By Thursday, Venus sextiles your 5th House of love, intensifying romantic opportunities \u2014 single Aquarius, that stranger who catches your eye could be significant.",
+            "type": "normal"
+        },
+        {
+            "text": "Career-wise, expect a surprise windfall or inheritance discussion around Friday as Pluto in your 2nd House activates.",
+            "type": "normal"
+        },
+        {
+            "text": "Weekend brings emotional clarity as the Moon trines your 4th House of home.",
             "type": "normal"
         }
     ],
@@ -19,28 +39,28 @@
         "11",
         "21"
     ],
-    "lucky_color": "Electric Blue",
-    "monthly_vibe": "Transformational Shifts",
-    "title": "Aquarius \u2014 The Stars Are Warning You",
-    "youtube_title": "Aquarius -- The Stars Are Warning You #shorts",
-    "youtube_description": "Aquarius, a powerful Uranus square to your Sun signals major planetary shifts this week. Discover what the Sun-Pluto trine reveals about your career destiny and why Wednesday's Venus entry could transform your love life. Comment your sign below!",
+    "lucky_color": "Electric Violet",
+    "monthly_vibe": "Transformational Clarity",
+    "title": "Aquarius \u2014 Major Career Shift Coming",
+    "youtube_title": "Aquarius \u2014 Major Career Shift Coming #shorts",
+    "youtube_description": "Your ruling planet Saturn is shaking up your career sector this week with unexpected changes. Discover what the stars reveal about your love life and finances \u2014 Comment your sign below!",
     "youtube_tags": [
-        "aquarius horoscope",
-        "weekly astrology",
-        "uranus square sun",
-        "aquarius weekly",
+        "aquarius",
+        "horoscope",
+        "astrology",
+        "weekly forecast",
+        "saturn retrograde",
+        "career prediction",
         "love horoscope",
-        "career astrology",
-        "august 2026",
-        "air sign luck",
+        "financial insight",
+        "planet jupiter",
+        "venus transit",
         "cosmic energy",
-        "planetary shifts",
-        "fifth house venus",
-        "tenth house"
+        "august 2026"
     ],
     "type": "weekly",
     "target": "Aquarius",
-    "date": "Aug 07 - Aug 13",
+    "date": "Aug 08 - Aug 14",
     "images": [
         "assets/zodiac_signs/Aquarius.jpg"
     ],
