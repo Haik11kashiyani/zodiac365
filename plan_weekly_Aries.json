@@ -1,70 +1,44 @@
 {
-    "script_text": "Mars, your ruling planet, fires up a bold opposition to Pluto in your 7th House this week, Aries \u2014 expect a power struggle reshaping your closest relationships. Mercury squares Neptune in your 3rd House on Monday, creating communication confusion, while a Venus trine Jupiter in your 2nd House on Tuesday brings a financial opportunity you must seize by Wednesday. Thursday, the Sun conjunct your natal Mars in the 1st House ignites fiery confidence and personal authority. By Friday, Mars sextiles Uranus in your 11th House, opening career doors, and the weekend invites you to channel this momentum into vision. Wednesday is your power day because Venus trines Jupiter in your 2nd House, unlocking financial clarity. Monday is your worst day because Mercury squares Neptune in your 3rd House, distorting every message you send. Review all contracts \u2014 Mercury's deceptive square hides critical details. Follow for daily updates.",
-    "captions_structure": [
-        {
-            "text": "ARIES",
-            "type": "header"
-        },
-        {
-            "text": "Mars, your ruling planet, fires up a bold opposition to Pluto in your 7th House this week \u2014 expect a power struggle reshaping your closest relationships.",
-            "type": "normal"
-        },
-        {
-            "text": "Mercury squares Neptune in your 3rd House on Monday, creating communication confusion, while a Venus trine Jupiter in your 2nd House on Tuesday brings a financial opportunity you must seize by Wednesday.",
-            "type": "normal"
-        },
-        {
-            "text": "Thursday, the Sun conjunct your natal Mars in the 1st House ignites fiery confidence and personal authority.",
-            "type": "normal"
-        },
-        {
-            "text": "By Friday, Mars sextiles Uranus in your 11th House, opening career doors, and the weekend invites you to channel this momentum into vision.",
-            "type": "normal"
-        },
-        {
-            "text": "Wednesday is your power day because Venus trines Jupiter in your 2nd House, unlocking financial clarity.",
-            "type": "normal"
-        },
-        {
-            "text": "Monday is your worst day because Mercury squares Neptune in your 3rd House, distorting every message you send.",
-            "type": "normal"
-        },
-        {
-            "text": "Review all contracts \u2014 Mercury's deceptive square hides critical details. Follow for daily updates.",
-            "type": "normal"
-        }
-    ],
-    "lucky_numbers": [
-        "7",
-        "19",
-        "44"
-    ],
-    "lucky_color": "Crimson Red",
-    "monthly_vibe": "Fiery Transformation",
-    "title": "Aries \u2014 Don't Ignore This Week",
-    "youtube_title": "Aries: The Week That Changes Everything #shorts",
-    "youtube_description": "Mars opposes Pluto in Aries's 7th House this week, triggering a raw power struggle in relationships that could redefine who you trust. Mercury's deceptive square to Neptune hides critical details in contracts \u2014 I reveal exactly what to watch for. Comment your sign below.",
-    "youtube_tags": [
-        "aries horoscope",
-        "weekly astrology",
-        "aries weekly forecast",
-        "mars opposition pluto",
-        "aries love prediction",
-        "aries career forecast",
-        "astrology predictions",
-        "aries 2026",
-        "mercury square neptune",
-        "venus trine jupiter",
-        "aries transit",
-        "cosmic updates"
-    ],
-    "type": "weekly",
-    "target": "Aries",
-    "date": "Aug 06 - Aug 12",
-    "images": [
-        "assets/zodiac_signs/Aries.jpg"
-    ],
-    "active": true,
-    "status": "pending",
-    "file_name": "plan_weekly_Aries.json"
+  "script_text": "Aries is ruled by Mars and Fire, and Mars ignites your 10th House, reshaping your professional destiny. Monday brings Jupiter trine the 4th House, offering emotional grounding. Tuesday features Mars entering the 8th House, igniting financial shifts. Wednesday is the worst day as Saturn squares the 2nd House, weighing down your career energy. The key shift comes when Mercury trines the 7th House on Thursday, revealing new relationship dynamics. Thursday's energy transitions into a dynamic flow when Venus trines the 11th House, bringing creative collaboration. Saturday closes the week with Mars in the 12th House, bringing introspection and the need for inner work. Tuesday is your worst day because Mars sharpens the 8th House, amplifying volatility and emotional instability. Wednesday is your power day because Venus trines your 5th House, sparking love. Ground your ambitions in the 11th House through service. Follow for daily updates.",
+  "captions_structure": [
+    {
+      "text": "ARIES ALERT",
+      "type": "header"
+    },
+    {
+      "text": "Aries is ruled by Mars and Fire, and Mars ignites your 10th House, reshaping your professional destiny.",
+      "type": "normal"
+    }
+  ],
+  "lucky_numbers": [
+    "7",
+    "11",
+    "21"
+  ],
+  "lucky_color": "Emerald Green",
+  "monthly_vibe": "Reflective & Calm",
+  "title": "Aries \u2014 What the Stars Reveal",
+  "youtube_title": "Aries: What the Stars Reveal #shorts",
+  "youtube_description": "You'll discover how Mars in the 10th House transforms your professional trajectory this week. The Venus trine to your 5th House sparks an unexpected love connection. Comment your sign to unlock the full reading.",
+  "youtube_tags": [
+    "aries",
+    "horoscope",
+    "transit",
+    "cosmic",
+    "energy",
+    "love",
+    "career",
+    "weekly",
+    "aug 09",
+    "mars"
+  ],
+  "type": "weekly",
+  "target": "Aries",
+  "date": "Aug 09 - Aug 15",
+  "images": [
+    "assets/zodiac_signs/Aries.jpg"
+  ],
+  "active": true,
+  "status": "uploaded",
+  "file_name": "plan_weekly_Aries.json"
 }

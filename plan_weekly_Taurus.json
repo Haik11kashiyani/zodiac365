@@ -1,46 +1,46 @@
 {
-    "script_text": "Taurus, as an Earth sign ruled by Venus, this week your planet shifts into your 5th House, igniting a love surge that catches you completely off guard. Mars squares your Sun in the 10th House, making Monday tense for career. Wednesday's Mercury trine to your 2nd House sharpens financial instincts. Thursday shifts everything when Venus conjuncts Jupiter in your 5th House, unlocking romantic and creative doors you've kept locked. Saturn trines your natal Moon in the 4th House by late week, grounding your emotions. The weekend feels restorative, especially Sunday when the Moon enters your 1st House. Thursday is your power day because Venus conjuncts Jupiter in your 5th House. Monday is your worst day because Mars squares your Sun in the 10th House. Use Thursday's Venus-Jupiter alignment to pursue the creative project or relationship conversation you've been avoiding. Follow for your daily horoscope updates.",
-    "captions_structure": [
-        {
-            "text": "TAURUS ALERT",
-            "type": "header"
-        },
-        {
-            "text": "Taurus, as an Earth sign ruled by Venus, this week your planet shifts into your 5th House, igniting a love surge that catches you completely off guard.",
-            "type": "normal"
-        }
-    ],
-    "lucky_numbers": [
-        "7",
-        "14",
-        "29"
-    ],
-    "lucky_color": "Emerald Green",
-    "monthly_vibe": "Reflective & Grounded",
-    "title": "Taurus \u2014 The Stars Are Shifting This Week",
-    "youtube_title": "Taurus: Venus Shifts Into Your 5th House #shorts",
-    "youtube_description": "This week Venus enters Taurus's 5th House and conjuncts Jupiter, unlocking major romantic and creative doors. Saturn grounds your emotions by late week, bringing deep calm. Comment your sign below!",
-    "youtube_tags": [
-        "taurus horoscope",
-        "weekly horoscope",
-        "venus transit",
-        "astrology predictions",
-        "earth sign",
-        "love horoscope",
-        "career astrology",
-        "planetary transits",
-        "taurus weekly",
-        "cosmic energy",
-        "jupiter conjunction",
-        "saturn trine"
-    ],
-    "type": "weekly",
-    "target": "Taurus",
-    "date": "Aug 06 - Aug 12",
-    "images": [
-        "assets/zodiac_signs/Taurus.jpg"
-    ],
-    "active": true,
-    "status": "pending",
-    "file_name": "plan_weekly_Taurus.json"
+  "script_text": "Taurus, ruled by Venus and the Earth element, transits the 6th House, transforming your daily grind. Monday brings tense square between the Sun in Aries and the Moon in Capricorn, draining energy. Wednesday is your best day because Venus trines Mercury at the 10th House, bringing clarity to your work. Mid-week, the transiting Sun enters the 4th House, forming a trine with the Moon in the 6th House, bringing deep emotional stability. By Thursday, Venus enters the 7th House, creating a trine with Mars in the 11th House. This fuels a desire for deeper companionship. The weekend brings a relaxed, reflective energy. Wednesday is your power day because Venus enters the 6th House, forming a trine with Mercury at the 10th House, transforming your work. Channel this calm energy by scheduling your tasks during the mid-week trine to the 10th House. Follow for daily updates.",
+  "captions_structure": [
+    {
+      "text": "TAURUS ALERT",
+      "type": "header"
+    },
+    {
+      "text": "Taurus, ruled by Venus and the Earth element, transits the 6th House, transforming your daily grind.",
+      "type": "normal"
+    }
+  ],
+  "lucky_numbers": [
+    "7",
+    "11",
+    "21"
+  ],
+  "lucky_color": "Emerald Green",
+  "monthly_vibe": "Reflective & Calm",
+  "title": "Taurus \u2014 Unlock the 6th House Transformation",
+  "youtube_title": "Taurus \u2014 Discover the 6th House Shift #shorts",
+  "youtube_description": "A personal insight for Taurus revealing the transiting Venus in the 6th House, bringing clarity to your work and fueling deep companionship. Curious about the week's energy? Explore the full details.",
+  "youtube_tags": [
+    "astrology",
+    "horoscope",
+    "taurus",
+    "6th house",
+    "planet",
+    "venus",
+    "trine",
+    "mercury",
+    "love",
+    "career",
+    "weekly",
+    "cosmic energy"
+  ],
+  "type": "weekly",
+  "target": "Taurus",
+  "date": "Aug 09 - Aug 15",
+  "images": [
+    "assets/zodiac_signs/Taurus.jpg"
+  ],
+  "active": true,
+  "status": "uploaded",
+  "file_name": "plan_weekly_Taurus.json"
 }
