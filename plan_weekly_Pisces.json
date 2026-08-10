@@ -1,78 +1,62 @@
 {
-  "script_text": "This week, Neptune's influence on your 12th House will reveal hidden truths. Mercury in retrograde aspects your 7th House of partnerships on Monday and Wednesday, creating miscommunications and emotional turbulence in love. Tuesday brings tension as Saturn squares your 10th House, so avoid signing contracts or making career moves. Thursday marks a powerful turning point as Jupiter trines your 2nd House of finance and income, shifting luck toward money and stability. The weekend brings clarity as the Sun sextiles your 5th House of romance, making Saturday ideal for heartfelt conversations and new connections. Friday is your power day because Jupiter strengthens your financial sector, amplifying prosperity. Sunday is challenging due to Neptune's haze clouding your 12th House, so avoid major decisions. Focus on open dialogue and trust your intuition this week. Follow for daily updates.",
-  "captions_structure": [
-    {
-      "text": "PISCES",
-      "type": "header"
-    },
-    {
-      "text": "This week, Neptune's influence on your 12th House will reveal hidden truths.",
-      "type": "normal"
-    },
-    {
-      "text": "Mercury in retrograde aspects your 7th House on Monday and Wednesday, creating miscommunications in love.",
-      "type": "normal"
-    },
-    {
-      "text": "Tuesday brings tension as Saturn squares your 10th House, so avoid signing contracts.",
-      "type": "normal"
-    },
-    {
-      "text": "Thursday marks a powerful turning point as Jupiter trines your 2nd House of finance.",
-      "type": "normal"
-    },
-    {
-      "text": "The weekend brings clarity as the Sun sextiles your 5th House of romance.",
-      "type": "normal"
-    },
-    {
-      "text": "Friday is your power day because Jupiter strengthens your financial sector.",
-      "type": "normal"
-    },
-    {
-      "text": "Sunday is challenging due to Neptune's haze clouding your 12th House, so avoid major decisions.",
-      "type": "normal"
-    },
-    {
-      "text": "Focus on open dialogue and trust your intuition this week.",
-      "type": "normal"
-    },
-    {
-      "text": "Follow for daily updates.",
-      "type": "normal"
-    }
-  ],
-  "lucky_numbers": [
-    "7",
-    "19",
-    "33"
-  ],
-  "lucky_color": "Seafoam Blue",
-  "monthly_vibe": "Intuitive Reflection",
-  "title": "Pisces, Neptune's Hidden Message This Week",
-  "youtube_title": "Pisces, Neptune's Hidden Message This Week #shorts",
-  "youtube_description": "This week's Pisces horoscope reveals how Neptune's influence on your 12th House will uncover hidden truths. Discover what the stars say about love and career for your sign. Comment your sign below and let the universe guide you.",
-  "youtube_tags": [
-    "pisces horoscope",
-    "weekly astrology",
-    "neptune transit",
-    "pisces love",
-    "pisces career",
-    "2nd house money",
-    "5th house romance",
-    "12th house secrets",
-    "mercury retrograde",
-    "jupiter trine",
-    "saturn square",
-    "cosmic guidance"
-  ],
-  "type": "weekly",
-  "target": "Pisces",
-  "date": "Aug 09 - Aug 15",
-  "images": [
-    "assets/zodiac_signs/Pisces.jpg"
-  ],
-  "active": true,
-  "status": "uploaded",
-  "file_name": "plan_weekly_Pisces.json"
+    "script_text": "Your dreams are about to collide with reality \u2014 and it starts now. Neptune, your ruling planet, trines your 10th House of career on Monday, amplifying your intuition around money opportunities. But Mars squares your 7th House on Tuesday, so avoid emotional confrontations in love. The turning point hits Wednesday when Jupiter sextiles Neptune, bringing sudden clarity to a hidden relationship dynamic. By Thursday, Saturn in your 4th House squares your 10th House, shifting family responsibilities versus career ambitions. Friday and Saturday bring Mercury retrograde in your 12th House, so don't sign contracts. Sunday's Venus opposition to your 1st House offers a breakthrough moment in romance. Wednesday is your power day because Jupiter sextiles Neptune. Tuesday is your weakest day due to Mars square your 7th House. Trust your gut instincts this week \u2014 they're laser-sharp.",
+    "captions_structure": [
+        {
+            "text": "PISCES ALERT",
+            "type": "header"
+        },
+        {
+            "text": "Your dreams are about to collide with reality \u2014 and it starts now.",
+            "type": "normal"
+        },
+        {
+            "text": "Neptune trines your 10th House on Monday \u2014 money insights incoming.",
+            "type": "normal"
+        },
+        {
+            "text": "Mars squares your 7th House Tuesday \u2014 avoid relationship drama.",
+            "type": "normal"
+        },
+        {
+            "text": "Wednesday: Jupiter sextiles Neptune \u2014 love breakthrough!",
+            "type": "normal"
+        },
+        {
+            "text": "Follow for daily updates.",
+            "type": "normal"
+        }
+    ],
+    "lucky_numbers": [
+        "7",
+        "11",
+        "21"
+    ],
+    "lucky_color": "Emerald Green",
+    "monthly_vibe": "Mystic Clarity",
+    "title": "Pisces \u2014 Hidden Truth Revealed",
+    "youtube_title": "Pisces \u2014 Hidden Truth Revealed #shorts",
+    "youtube_description": "Pisces, your ruling planet Neptune activates your career sector this week \u2014 here's what the stars reveal about your money and love life. Comment your sign below!",
+    "youtube_tags": [
+        "pisces horoscope",
+        "weekly astrology",
+        "neptune transit",
+        "career guidance",
+        "love prediction",
+        "pisces weekly",
+        "astrology update",
+        "cosmic energy",
+        "zodiac insight",
+        "neptune pisces",
+        "jupiter sextile",
+        "saturn square"
+    ],
+    "type": "weekly",
+    "target": "Pisces",
+    "date": "Aug 10 - Aug 16",
+    "images": [
+        "assets/zodiac_signs/Pisces.jpg"
+    ],
+    "active": true,
+    "status": "pending",
+    "file_name": "plan_weekly_Pisces.json"
 }

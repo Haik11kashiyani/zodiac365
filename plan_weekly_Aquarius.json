@@ -1,46 +1,46 @@
 {
-  "script_text": "Uranus shatters Aquarius' Air-filled stability with a harsh square to the 6th House. Monday brings Saturn square Uranus at 11 degrees Capricorn, disrupting your 2nd House finances and shattering your 4th House foundation. Tuesday delivers a trine between Mars and Uranus in the 8th House, sparking health transformations. Mid-week, Uranus' trine with Jupiter sparks a profound shift at the 10th House cusp Thursday, unlocking emotional wisdom. Thursday brings Uranus entering the 9th House, expanding your worldview and bringing spiritual insights. The weekend fuels the Sun's alignment with Mars at 10 degrees Aries, giving you the strength to take bold action on your 2nd House projects. Wednesday is your power day because Venus enters the 5th House. Friday is your worst day as Pluto squares Venus in the 11th House. Set boundaries with your 11th House friends to avoid the Uranus-Pluto tension. Follow for daily updates.",
-  "captions_structure": [
-    {
-      "text": "AQUARIUS",
-      "type": "header"
-    },
-    {
-      "text": "Uranus shatters Aquarius' Air-filled stability with a harsh square to the 6th House.",
-      "type": "normal"
-    }
-  ],
-  "lucky_numbers": [
-    "7",
-    "11",
-    "21"
-  ],
-  "lucky_color": "Emerald Green",
-  "monthly_vibe": "Reflective & Calm",
-  "title": "Aquarius \u2014 The Eclipse is Rising",
-  "youtube_title": "Aquarius: The Eclipse is Coming #shorts",
-  "youtube_description": "A deep dive into Uranus' square to the 6th House for Aquarius. This transit reveals how your foundation will shatter and what unexpected shifts await. Comment your sign!",
-  "youtube_tags": [
-    "aquarius horoscope",
-    "transit",
-    "cosmic energy",
-    "weekly forecast",
-    "uranus transit",
-    "week 8",
-    "august 2026",
-    "love prediction",
-    "career",
-    "astrology",
-    "daily update",
-    "weekly outlook"
-  ],
-  "type": "weekly",
-  "target": "Aquarius",
-  "date": "Aug 09 - Aug 15",
-  "images": [
-    "assets/zodiac_signs/Aquarius.jpg"
-  ],
-  "active": true,
-  "status": "uploaded",
-  "file_name": "plan_weekly_Aquarius.json"
+    "script_text": "Saturn's brutal square to your Sun explodes your sense of personal worth this week, Aquarius, forcing you to confront every self-doubt you've been rationalizing away. Mercury sextiles your Sun Monday through Wednesday, making Tuesday the optimal day for financial communications\u2014especially if you're negotiating that raise you've been avoiding since Uranus trines your 10th House yesterday, amplifying your innovative career potential. Mid-week Thursday brings Mars opposing your Moon in your 7th House, sparking emotional confrontations in relationships that feel like wake-up calls rather than conflicts. The weekend transforms completely as Jupiter enters your 5th House for the first time since 2024, bringing divine timing to romance and creative projects you've been neglecting\u2014Saturday's Gemini Sun creates magical synchronicities if you're single or revitalizing your partnership through shared adventures. Wednesday is your power day because Jupiter's sextile to Neptune dissolves boundaries between fantasy and reality in matters of the heart. Friday is your kryptonite\u2014avoid major commitments as Mars squares your Sun, triggering passive-aggressive relationship sabotage. Activate your Aquarius archetype: embrace your rebel heart and share your authentic insights on social platforms. Follow for daily updates.",
+    "captions_structure": [
+        {
+            "text": "AQUARIUS ALERT",
+            "type": "header"
+        },
+        {
+            "text": "Saturn's brutal square to your Sun explodes your sense of personal worth this week, Aquarius, forcing you to confront every self-doubt you've been rationalizing away.",
+            "type": "normal"
+        }
+    ],
+    "lucky_numbers": [
+        "7",
+        "11",
+        "23"
+    ],
+    "lucky_color": "Electric Violet",
+    "monthly_vibe": "Revolutionary Awakening",
+    "title": "Saturn Squares Your Sun - Aquarius Truth Bomb",
+    "youtube_title": "Aquarius Saturn Square - Brutal Truth Revealed #shorts",
+    "youtube_description": "Saturn is square your Sun this week, Aquarius, exposing every limiting belief you've been unconsciously maintaining. Discover how Jupiter's entry into your 5th House completely transforms your love life by Saturday. Comment your sign below!",
+    "youtube_tags": [
+        "astrology",
+        "horoscope",
+        "aquarius",
+        "saturn square",
+        "jupiter transit",
+        "7th house",
+        "career reading",
+        "love horoscope",
+        "eclectic astrology",
+        "weekly horoscope",
+        "aqua",
+        "gemini sun"
+    ],
+    "type": "weekly",
+    "target": "Aquarius",
+    "date": "Aug 10 - Aug 16",
+    "images": [
+        "assets/zodiac_signs/Aquarius.jpg"
+    ],
+    "active": true,
+    "status": "pending",
+    "file_name": "plan_weekly_Aquarius.json"
 }
