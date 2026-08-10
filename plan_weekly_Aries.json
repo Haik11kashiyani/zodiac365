@@ -1,40 +1,62 @@
 {
-  "script_text": "Aries is ruled by Mars and Fire, and Mars ignites your 10th House, reshaping your professional destiny. Monday brings Jupiter trine the 4th House, offering emotional grounding. Tuesday features Mars entering the 8th House, igniting financial shifts. Wednesday is the worst day as Saturn squares the 2nd House, weighing down your career energy. The key shift comes when Mercury trines the 7th House on Thursday, revealing new relationship dynamics. Thursday's energy transitions into a dynamic flow when Venus trines the 11th House, bringing creative collaboration. Saturday closes the week with Mars in the 12th House, bringing introspection and the need for inner work. Tuesday is your worst day because Mars sharpens the 8th House, amplifying volatility and emotional instability. Wednesday is your power day because Venus trines your 5th House, sparking love. Ground your ambitions in the 11th House through service. Follow for daily updates.",
+  "script_text": "The cosmos doesn't whisper to Aries this week \u2014 Mars, your fiery ruler, demands action. Tuesday brings challenging Saturn square your 10th House, testing your authority at work, but Mercury trine Neptune blesses love communications \u2014 text that special someone. Thursday's full moon in your 7th House shifts everything: partnership energy peaks as Mars enters your 11th House, expanding friendships and team projects. This weekend, Venus sextile Pluto ignites passion \u2014 single Aries, expect an electric encounter. Your career gets a boost as Jupiter trines your 10th House, bringing recognition or a raise opportunity. Wednesday is your power day because Venus enters your 5th House. Monday drags \u2014 Pluto opposes your 12th House, creating hidden tensions. Take the high road on conflicts and invest in bold moves. Follow for daily updates.",
   "captions_structure": [
     {
-      "text": "ARIES ALERT",
+      "text": "ARIES",
       "type": "header"
     },
     {
-      "text": "Aries is ruled by Mars and Fire, and Mars ignites your 10th House, reshaping your professional destiny.",
+      "text": "The cosmos doesn't whisper to Aries this week \u2014 Mars, your fiery ruler, demands action.",
+      "type": "normal"
+    },
+    {
+      "text": "Tuesday: Saturn square 10th House tests career authority. Mercury trine Neptune boosts love.",
+      "type": "normal"
+    },
+    {
+      "text": "Thursday full moon in 7th House \u2014 partnership peak energy.",
+      "type": "normal"
+    },
+    {
+      "text": "Weekend: Venus sextile Pluto ignites passion. Jupiter trines 10th House for career gains.",
+      "type": "normal"
+    },
+    {
+      "text": "Power day Wednesday: Venus enters 5th House.",
+      "type": "normal"
+    },
+    {
+      "text": "Monday worst \u2014 Pluto opposes 12th House.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
-    "7",
-    "11",
-    "21"
+    "3",
+    "17",
+    "28"
   ],
-  "lucky_color": "Emerald Green",
-  "monthly_vibe": "Reflective & Calm",
-  "title": "Aries \u2014 What the Stars Reveal",
-  "youtube_title": "Aries: What the Stars Reveal #shorts",
-  "youtube_description": "You'll discover how Mars in the 10th House transforms your professional trajectory this week. The Venus trine to your 5th House sparks an unexpected love connection. Comment your sign to unlock the full reading.",
+  "lucky_color": "Cardinal Red",
+  "monthly_vibe": "Bold Initiative",
+  "title": "Mars Powers Aries This Week",
+  "youtube_title": "Mars Energizes Aries This Week #shorts",
+  "youtube_description": "Your ruling planet Mars makes major moves this week, Aries. Discover how the full moon in your 7th House transforms your relationships and why a career opportunity could change everything. Comment your sign below!",
   "youtube_tags": [
-    "aries",
-    "horoscope",
-    "transit",
-    "cosmic",
-    "energy",
-    "love",
-    "career",
-    "weekly",
-    "aug 09",
-    "mars"
+    "aries weekly",
+    "mars in aries",
+    "aries horoscope",
+    "full moon 7th",
+    "career astrology",
+    "love predictions",
+    "aries february",
+    "7th house love",
+    "10th house career",
+    "venus in 5th",
+    "pluto aspects",
+    "mercury trine"
   ],
   "type": "weekly",
   "target": "Aries",
-  "date": "Aug 09 - Aug 15",
+  "date": "Aug 10 - Aug 16",
   "images": [
     "assets/zodiac_signs/Aries.jpg"
   ],
