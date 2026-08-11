@@ -1,84 +1,45 @@
 {
-    "script_text": "Gemini, Mercury squares Saturn this week, forcing you to confront what you've been avoiding. Early week, Mercury trines Jupiter in Cancer, sparking Air-element breakthroughs in your 5th House of self-expression. Tuesday's Moon enters Scorpio, activating your 8th House \u2014 shared finances and money shift unexpectedly. Wednesday, Mercury opposes Neptune, so delay contracts until clarity returns. Thursday transforms everything when Venus enters Leo, conjuncting your Sun and flooding the 1st House with romantic magnetism and charm. The weekend Moon in Aries ignites your 9th House \u2014 travel or education opportunities emerge. Sunday's Mercury sextile Mars fuels career momentum. Thursday is your power day because Venus enters Leo and conjoins your Sun in the 1st House. Wednesday is your worst day \u2014 Mercury squares Neptune, clouding communication in your 3rd House of daily exchanges. Pause before signing any partnership deals until Venus aligns your 7th House. Follow for daily updates.",
-    "captions_structure": [
-        {
-            "text": "GEMINI",
-            "type": "header"
-        },
-        {
-            "text": "Gemini, Mercury squares Saturn this week, forcing you to confront what you've been avoiding.",
-            "type": "normal"
-        },
-        {
-            "text": "Early week, Mercury trines Jupiter in Cancer, sparking Air-element breakthroughs in your 5th House of self-expression.",
-            "type": "normal"
-        },
-        {
-            "text": "Tuesday's Moon enters Scorpio, activating your 8th House \u2014 shared finances and money shift unexpectedly.",
-            "type": "normal"
-        },
-        {
-            "text": "Wednesday, Mercury opposes Neptune, so delay contracts until clarity returns.",
-            "type": "normal"
-        },
-        {
-            "text": "Thursday transforms everything when Venus enters Leo, conjuncting your Sun and flooding the 1st House with romantic magnetism and charm.",
-            "type": "normal"
-        },
-        {
-            "text": "The weekend Moon in Aries ignites your 9th House \u2014 travel or education opportunities emerge.",
-            "type": "normal"
-        },
-        {
-            "text": "Sunday's Mercury sextile Mars fuels career momentum.",
-            "type": "normal"
-        },
-        {
-            "text": "Thursday is your power day because Venus enters Leo and conjoins your Sun in the 1st House.",
-            "type": "normal"
-        },
-        {
-            "text": "Wednesday is your worst day \u2014 Mercury squares Neptune, clouding communication in your 3rd House of daily exchanges.",
-            "type": "normal"
-        },
-        {
-            "text": "Pause before signing any partnership deals until Venus aligns your 7th House.",
-            "type": "normal"
-        },
-        {
-            "text": "Follow for daily updates.",
-            "type": "normal"
-        }
-    ],
-    "lucky_numbers": [
-        "7",
-        "11",
-        "21"
-    ],
-    "lucky_color": "Emerald Green",
-    "monthly_vibe": "Cautious Transformation",
-    "title": "Gemini \u2014 The Stars Are Warning You",
-    "youtube_title": "Gemini's Mercury Square Saturn Alert #shorts",
-    "youtube_description": "This week Mercury squares Saturn for Gemini, triggering a rare Venus transit into Leo that reshapes both love and finances. The prediction reveals a surprising romantic opportunity on Thursday \u2014 comment your sign below to see how this affects you.",
-    "youtube_tags": [
-        "gemini horoscope",
-        "mercury transit",
-        "saturn square",
-        "venus in leo",
-        "weekly horoscope",
-        "astrology predictions",
-        "love forecast",
-        "career horoscope",
-        "gemini weekly",
-        "cosmic energy"
-    ],
-    "type": "weekly",
-    "target": "Gemini",
-    "date": "Aug 03 - Aug 09",
-    "images": [
-        "assets/zodiac_signs/Gemini.jpg"
-    ],
-    "active": true,
-    "status": "pending",
-    "file_name": "plan_weekly_Gemini.json"
+  "script_text": "Gemini, Mercury is about to unleash a sudden mental tremor that will shake your routines to the core. On Monday, Mercury squares the Moon in the 1st House, fogging your emotions and making you quite indecisive. By Wednesday, Mercury enters the 10th House, square with Uranus, causing chaotic shifts and deep insomnia. The turning point is Thursday, when Mercury forms a hard square with the Moon in the 8th House, igniting a psychological surge that tests your intuition. Thursday and Friday, Mercury enters the 7th House, trine Venus, bringing a diplomatic charm that opens a surprising love. Saturday, Mercury enters the 5th House, square Pluto, a potent shift in your creative energy. Wednesday is your power day because Venus enters your 5th House, sparking a romance. Saturday is your worst day because Mercury squares the Sun in the 12th House, creating mental fog that sabotages your plans. Mercury's fire fuels your creative projects, but resist the urge to overthink everything. Follow for daily updates.",
+  "captions_structure": [
+    {
+      "text": "GEMINI",
+      "type": "header"
+    },
+    {
+      "text": "First line of the script...",
+      "type": "normal"
+    }
+  ],
+  "lucky_numbers": [
+    "7",
+    "11",
+    "21"
+  ],
+  "lucky_color": "Emerald Green",
+  "monthly_vibe": "Reflective & Calm",
+  "title": "Gemini Weekly Horoscope August 11, 2026",
+  "youtube_title": "Gemini Horoscope August 11-17 #shorts",
+  "youtube_description": "Gemini, Mercury's energy this week brings a mental tremor, a career shift, and a love spark. What the stars reveal...",
+  "youtube_tags": [
+    "astrology",
+    "horoscope",
+    "gemini",
+    "weekly forecast",
+    "transits",
+    "mercury",
+    "uranus",
+    "planets",
+    "weekly reading",
+    "cosmic energy",
+    "magical"
+  ],
+  "type": "weekly",
+  "target": "Gemini",
+  "date": "Aug 11 - Aug 17",
+  "images": [
+    "assets/zodiac_signs/Gemini.jpg"
+  ],
+  "active": true,
+  "status": "uploaded",
+  "file_name": "plan_weekly_Gemini.json"
 }

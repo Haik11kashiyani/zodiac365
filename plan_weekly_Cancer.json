@@ -1,86 +1,44 @@
 {
-    "script_text": "The Moon is about to ignite your 7th House, Cancer, and love is about to flip. Mars squares your ruling Moon Monday, creating tension in relationships and making you reactive. Wednesday is your worst day because Mercury opposes Neptune in your 7th House, clouding communication. Hold back before reacting \u2014 the fog lifts by Thursday. Venus enters Virgo and lands in your 8th House Wednesday night, transforming shared finances and intimacy. Jupiter trines your Sun in Leo this weekend, opening a doorway for career recognition and money growth. The water element stabilizes, letting you make clear, confident moves. Thursday is your power day because Venus enters your 8th House, unlocking hidden opportunities in love and money. Tuesday is your worst day because Mars squares your Moon, triggering unnecessary conflict at home. Let the Moon guide your career decisions \u2014 trust intuition over logic when opportunities arise. Follow for daily updates.",
-    "captions_structure": [
-        {
-            "text": "CANCER",
-            "type": "header"
-        },
-        {
-            "text": "The Moon is about to ignite your 7th House, Cancer, and love is about to flip.",
-            "type": "normal"
-        },
-        {
-            "text": "Mars squares your ruling Moon Monday, creating tension in relationships and making you reactive.",
-            "type": "normal"
-        },
-        {
-            "text": "Wednesday is your worst day because Mercury opposes Neptune in your 7th House, clouding communication.",
-            "type": "normal"
-        },
-        {
-            "text": "Hold back before reacting \u2014 the fog lifts by Thursday.",
-            "type": "normal"
-        },
-        {
-            "text": "Venus enters Virgo and lands in your 8th House Wednesday night, transforming shared finances and intimacy.",
-            "type": "normal"
-        },
-        {
-            "text": "Jupiter trines your Sun in Leo this weekend, opening a doorway for career recognition and money growth.",
-            "type": "normal"
-        },
-        {
-            "text": "The water element stabilizes, letting you make clear, confident moves.",
-            "type": "normal"
-        },
-        {
-            "text": "Thursday is your power day because Venus enters your 8th House, unlocking hidden opportunities in love and money.",
-            "type": "normal"
-        },
-        {
-            "text": "Tuesday is your worst day because Mars squares your Moon, triggering unnecessary conflict at home.",
-            "type": "normal"
-        },
-        {
-            "text": "Let the Moon guide your career decisions \u2014 trust intuition over logic when opportunities arise.",
-            "type": "normal"
-        },
-        {
-            "text": "Follow for daily updates.",
-            "type": "normal"
-        }
-    ],
-    "lucky_numbers": [
-        "7",
-        "11",
-        "21"
-    ],
-    "lucky_color": "Emerald Green",
-    "monthly_vibe": "Reflective & Calm",
-    "title": "Cancer \u2014 The Moon Is Setting Up a Big Week",
-    "youtube_title": "Cancer's Moon Is About to Change Everything #shorts",
-    "youtube_description": "This week, Venus enters Cancer's 8th House and Jupiter trines the Sun \u2014 revealing a hidden doorway in love and career that most horoscopes miss. The Moon rules your sign, and this transit is bringing a clarity you did not expect. Comment your sign below.",
-    "youtube_tags": [
-        "cancer horoscope",
-        "weekly horoscope",
-        "cancer weekly forecast",
-        "moon signs",
-        "astrology predictions",
-        "cancer love horoscope",
-        "cancer career",
-        "venus transit",
-        "jupiter trine",
-        "water signs",
-        "leo horoscope",
-        "daily horoscope"
-    ],
-    "type": "weekly",
-    "target": "Cancer",
-    "date": "Aug 03 - Aug 09",
-    "images": [
-        "assets/zodiac_signs/Cancer.jpg"
-    ],
-    "active": true,
-    "status": "pending",
-    "file_name": "plan_weekly_Cancer.json"
+  "script_text": "This week, the Moon slams a devastating blow into your 5th House as it transits Cancer's waters. Monday brings the Sun transiting your 1st House, activating your emotional landscape. Wednesday brings the Moon to the 5th House for love, forming square with the Sun in the 1st House, making this the worst day for romantic attachments. Mid-week, the Moon enters the 7th House, triggering shift in your relationship dynamics. Thursday brings the Sun entering the 3rd House for the communication. By weekend, the Moon transits the 10th House, shifting energy to career milestones. Wednesday is the worst day for love due to the Moon at the 5th House; Saturday is your power day because the Sun enters the 10th House. Channel this emotional energy into weekly plans to master the tides of your romance. Follow for daily updates to stay ahead of the cosmic currents.",
+  "captions_structure": [
+    {
+      "text": "CANCER ALERT",
+      "type": "header"
+    },
+    {
+      "text": "This week, the Moon slams a devastating blow into your 5th House as it transits Cancer's waters. Monday brings the Sun transiting your 1st House, activating your emotional landscape. Wednesday brings the Moon to the 5th House for love, forming square with the Sun in the 1st House, making this the worst day for romantic attachments. Mid-week, the Moon enters the 7th House, triggering shift in your relationship dynamics. Thursday brings the Sun entering the 3rd House for the communication. By weekend, the Moon transits the 10th House, shifting energy to career milestones. Wednesday is the worst day for love due to the Moon at the 5th House; Saturday is your power day because the Sun enters the 10th House. Channel this emotional energy into weekly plans to master the tides of your romance. Follow for daily updates to stay ahead of the cosmic currents.",
+      "type": "normal"
+    }
+  ],
+  "lucky_numbers": [
+    "7",
+    "11",
+    "21"
+  ],
+  "lucky_color": "Emerald Green",
+  "monthly_vibe": "Reflective & Calm",
+  "title": "Cancer \u2014 The Cosmic Warning",
+  "youtube_title": "Cancer \u2014 Don't Ignore This #shorts",
+  "youtube_description": "You won't believe what the Moon does to your 5th House this week. The transits create a Love prediction unlike any other. Comment your sign for deeper readings.",
+  "youtube_tags": [
+    "cancer horoscope",
+    "moon transit",
+    "water element",
+    "love prediction",
+    "career and money",
+    "astrology forecast",
+    "cancer love",
+    "weekly cosmic energy",
+    "cancer astrology",
+    "cosmic energy"
+  ],
+  "type": "weekly",
+  "target": "Cancer",
+  "date": "Aug 11 - Aug 17",
+  "images": [
+    "assets/zodiac_signs/Cancer.jpg"
+  ],
+  "active": true,
+  "status": "uploaded",
+  "file_name": "plan_weekly_Cancer.json"
 }
