@@ -1,62 +1,42 @@
 {
-    "script_text": "Something is whispering backwards through the stars and you feel it before you know it. Mercury Retrograde is when Mercury, ruler of communication and an Air element planet, appears to move backward from our view on Earth. This reversal scrambles messages and reroutes plans for all signs, sparking missed emails and delayed travel. In your 7th House of partnership, old lovers resurface with unresolved words while a Mercury square to Mars in your 10th House stalls career deals and triggers invoice errors. The shadow side is karmic: Retrograde meets your North Node in Pisces and Chiron in Aries, forcing healing of spoken wounds before soul progress. Back up devices and avoid signing contracts until August 11. Watch your sign's full reading now and comment your sign below.",
+    "script_text": "THE COSMIC MIRROR SUDDENLY FRACTURES, AND MERCURY RETROGRADE WHISPERS FROM THE SHADOWS. Mercury retrograde, ruler of Gemini (Air), moves backward through the zodiac for three weeks, altering thought, communication, and technology. As its energy slows, reflection replaces action, urging review over launch. The retrograde squares Neptune in the 12th House, fogging intuition, while a sextile to Uranus in the 11th sparks group insights. Romance may stall for 5th House planets, yet a trine to Venus in the 7th revives connections. Career pauses when Mercury opposes Jupiter in the 9th, expanding long-term vision. This retrograde invites a replay of old communication patterns, tied to the North Node and Chiron's wound in speech. Healing emerges when we pause, listen, and rewrite the stories we tell. Triple-check messages, delay signing contracts, and use the pause to review rather than initiate. Comment your sign to see how this transit touches your natal chart.",
     "captions_structure": [
         {
             "text": "MERCURY RETROGRADE",
             "type": "header"
         },
         {
-            "text": "Something is whispering backwards through the stars",
-            "type": "normal"
-        },
-        {
-            "text": "Mercury rules communication, an Air planet, going backward",
-            "type": "normal"
-        },
-        {
-            "text": "All signs feel scrambled messages and delayed travel",
-            "type": "normal"
-        },
-        {
-            "text": "7th House love returns, 10th House career stalls",
-            "type": "normal"
-        },
-        {
-            "text": "Karmic Retrograde with North Node and Chiron healing",
-            "type": "normal"
-        },
-        {
-            "text": "Back up data, avoid contracts til August 11",
+            "text": "THE COSMIC MIRROR SUDDENLY FRACTURES, AND MERCURY RETROGRADE WHISPERS FROM THE SHADOWS.",
             "type": "normal"
         }
     ],
     "lucky_numbers": [
-        "7",
-        "11",
-        "21"
+        7,
+        21,
+        33
     ],
     "lucky_color": "Emerald Green",
-    "monthly_vibe": "Reflective & Calm",
-    "title": "Mercury Retrograde Don't Ignore This",
-    "youtube_title": "Mercury Retrograde Don't Ignore This #shorts",
-    "youtube_description": "Mercury Retrograde is reversing through your 7th and 10th Houses with a harsh Mars square. I reveal which signs get ghosted by exes and which lose money this July. Comment your sign to claim your full reading.",
+    "monthly_vibe": "Inner Reflection",
+    "title": "Mercury Retrograde: When The Mirror Shifts",
+    "youtube_title": "Mercury Retrograde Whispers From The Shadows #shorts",
+    "youtube_description": "Mercury retrograde now glides backward, reshaping thoughts and bonds. Learn how the 12th-house square to Neptune and 7th-house trine to Venus will affect your heart and wallet.",
     "youtube_tags": [
-        "astrology",
-        "horoscope",
         "mercury retrograde",
-        "air sign",
-        "7th house",
-        "10th house",
-        "chiron",
-        "north node",
-        "love forecast",
-        "career money",
-        "retrograde tip",
-        "july 2026"
+        "horoscope",
+        "astrology",
+        "zodiac",
+        "communication",
+        "retrograde period",
+        "gemini season",
+        "cosmic energy",
+        "horoscope 2026",
+        "planetary transit",
+        "shadow self",
+        "career forecast"
     ],
     "type": "special",
     "target": "Mercury Retrograde",
-    "date": "2026-07-20",
+    "date": "2026-08-13",
     "images": [],
     "active": true,
     "status": "pending",
