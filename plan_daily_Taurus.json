@@ -1,42 +1,65 @@
 {
-  "script_text": "Stop! Taurus, the stars are screaming at you right now. Mars forms a tense square to your ruling planet Venus, creating friction in your 7th House of Partnerships. Meanwhile, Jupiter stations direct in your 2nd House of Finances, blessing income potential with unexpected opportunities. In love, single Taurus should watch for unexpected encounters at creative events, as Venus's trine to Neptune heightens romantic idealism and genuine connection potential. Those already coupled may feel a restless urge to redefine relationship boundaries, requiring honest conversations about unmet needs. Professionally, this is a powerful day to negotiate raises or launch financial projects, as your practical Earth sign skills shine under Jupiter's optimistic gaze and organizational talents receive public recognition from authority figures. Your stubbornness is the only obstacle so release control and trust the process as a surprising blessing arrives through an unexpected financial windfall or promotion. Follow for tomorrow's reading.",
+  "script_text": "Stop! Taurus, the stars are screaming at you right now. Venus, your ruling planet, is forming a challenging opposition to Pluto in your 8th House, forcing you to confront buried emotional truths. This earth sign energy demands authenticity in intimacy. If you're taken, expect a powerful conversation that reshapes trust. Singles, release old patterns to attract deep, transformative love. Financially, the 2nd House of income faces a square from Saturn\u2014budget carefully and avoid impulsive purchases. Blessing alert: unexpected support arrives through a friend. Follow for tomorrow's reading \u2014 Taurus, your cosmic roadmap is unfolding.",
   "captions_structure": [
     {
       "text": "TAURUS",
       "type": "header"
     },
     {
-      "text": "Stop! Taurus, the stars are screaming at you right now.",
+      "text": "Stop! The stars are screaming at you right now.",
+      "type": "normal"
+    },
+    {
+      "text": "Venus forms opposition to Pluto in your 8th House.",
+      "type": "normal"
+    },
+    {
+      "text": "If taken, expect a powerful conversation about trust.",
+      "type": "normal"
+    },
+    {
+      "text": "Singles, release old patterns to attract deep love.",
+      "type": "normal"
+    },
+    {
+      "text": "2nd House faces Saturn square\u2014budget carefully.",
+      "type": "normal"
+    },
+    {
+      "text": "Blessing: unexpected support arrives through a friend.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for tomorrow's reading.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
-    6,
-    14,
-    23
+    "7",
+    "11",
+    "21"
   ],
   "lucky_color": "Emerald Green",
-  "monthly_vibe": "Grounded Growth",
-  "title": "Taurus Daily Horoscope August 13, 2026",
-  "youtube_title": "Taurus: Mars Square Venus Warning #shorts",
-  "youtube_description": "Taurus, today the stars warn of relationship friction but bless financial gains. Your ruling planet Venus clashes with Mars while Jupiter gifts unexpected opportunities. What does this mean for your heart and wallet?",
+  "monthly_vibe": "Emotional Transformation",
+  "title": "Taurus\u2014Hidden Truths Revealed",
+  "youtube_title": "Taurus\u2014Hidden Truths Revealed #shorts",
+  "youtube_description": "Taurus, Venus opposes Pluto today, igniting intense emotional revelations in your 8th House. Discover what secrets are surfacing and how to navigate them. Comment your sign.",
   "youtube_tags": [
-    "taurus horoscope",
-    "daily astrology",
-    "mars square venus",
-    "zodiac reading",
-    "earth sign",
-    "finance astrology",
+    "astrology",
+    "horoscope",
+    "taurus",
+    "daily horoscope",
+    "venus pluto",
+    "8th house",
+    "emotional truth",
     "love prediction",
-    "venus transit",
-    "jupiter direct",
-    "relationship advice",
-    "career horoscope",
-    "zodiac insights"
+    "career advice",
+    "cosmic energy",
+    "taurus vibe"
   ],
   "type": "daily",
   "target": "Taurus",
-  "date": "August 13, 2026",
+  "date": "August 14, 2026",
   "images": [
     "assets/zodiac_signs/Taurus.jpg"
   ],
