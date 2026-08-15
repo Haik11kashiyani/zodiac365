@@ -1,40 +1,70 @@
 {
-  "script_text": "Stop! Aries, the Mars transit is striking your 1st House with a powerful square today, igniting raw ambition but testing your patience with impulsivity that threatens your stability. Mars squares your ruling planet in the 1st House of Self, demanding decisive action while warning against reckless self-starting that could burn bridges and damage your professional reputation. Your romantic energy turns fiery today\u2014expect passionate connections that demand deep commitment; those who chase too quickly may find their heart left behind when they rush into things without proper reflection. The 10th House of Career receives Mercury's attention, suggesting lucrative opportunities for strategic communication that could elevate your professional standing and bring unexpected recognition. Avoid overcommitting to new projects before fully assessing them\u2014the urgent pace can scatter your focus and result in costly missed deadlines that drain your energy. Follow for tomorrow's reading to witness how these celestial forces shape your path forward and unlock hidden potential.",
+  "script_text": "Stop! Aries, the stars are screaming at you right now. Mars, your fiery ruling planet, is forming a tense square to Venus in your 7th House of Partnerships, creating friction and misunderstandings in your closest relationships. Simultaneously, Jupiter trines your 10th House of Career, opening doors for professional growth and recognition. If you're single, this passionate energy attracts intense but potentially chaotic connections; focus on your own fire before diving in. If you're taken, watch for unresolved arguments that could escalate over trivial matters today, especially with a Mars-Venus clash. In your career, your 10th House is brilliantly lit by Jupiter, so seize leadership opportunities and speak up in meetings. Financially, avoid impulsive spending in your 2nd House of Income; a sudden, profound insight about your true path may come from an unexpected mentor as a blessing. Follow for tomorrow's reading.",
   "captions_structure": [
     {
       "text": "ARIES ALERT",
       "type": "header"
     },
     {
-      "text": "Stop! Aries, the Mars transit is striking your 1st House with a powerful square today, igniting raw ambition but testing your patience with impulsivity that threatens your stability.",
+      "text": "Stop! Aries, the stars are screaming at you right now.",
+      "type": "normal"
+    },
+    {
+      "text": "Mars, your fiery ruling planet, is forming a tense square to Venus in your 7th House of Partnerships, creating friction and misunderstandings in your closest relationships.",
+      "type": "normal"
+    },
+    {
+      "text": "Simultaneously, Jupiter trines your 10th House of Career, opening doors for professional growth and recognition.",
+      "type": "normal"
+    },
+    {
+      "text": "If you're single, this passionate energy attracts intense but potentially chaotic connections; focus on your own fire before diving in.",
+      "type": "normal"
+    },
+    {
+      "text": "If you're taken, watch for unresolved arguments that could escalate over trivial matters today, especially with a Mars-Venus clash.",
+      "type": "normal"
+    },
+    {
+      "text": "In your career, your 10th House is brilliantly lit by Jupiter, so seize leadership opportunities and speak up in meetings.",
+      "type": "normal"
+    },
+    {
+      "text": "Financially, avoid impulsive spending in your 2nd House of Income; a sudden, profound insight about your true path may come from an unexpected mentor as a blessing.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for tomorrow's reading.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
-    7,
-    11,
-    21
+    "7",
+    "11",
+    "21"
   ],
   "lucky_color": "Emerald Green",
   "monthly_vibe": "Reflective & Calm",
-  "title": "Aries Daily Horoscope August 14, 2026",
-  "youtube_title": "Mars Square Aries First House #shorts",
-  "youtube_description": "Today Aries faces a challenging square from Mars in the 1st House. Expect intense self-drive and romantic passion but watch for impulsive decisions. Comment your sign to receive personalized insights.",
+  "title": "Aries Daily Horoscope August 15, 2026",
+  "youtube_title": "Aries: Mars Square Venus Today - Find Out Why #shorts",
+  "youtube_description": "Aries, today Mars squares Venus, bringing tension to your relationships, but Jupiter trines your career house, offering growth opportunities. This transit could reshape your love life and professional path. Comment your sign for more cosmic insights.",
   "youtube_tags": [
     "aries horoscope",
-    "mars transit",
-    "first house",
+    "mars square venus",
+    "jupiter trine",
+    "daily astrology",
     "fire sign",
-    "personal growth",
-    "relationship energy",
-    "career opportunity",
-    "emotional intensity",
-    "self drive",
-    "professional rise"
+    "august 15 2026",
+    "love prediction",
+    "career advice",
+    "astrology transit",
+    "aries energy",
+    "horoscope today",
+    "cosmic guidance"
   ],
   "type": "daily",
   "target": "Aries",
-  "date": "August 14, 2026",
+  "date": "August 15, 2026",
   "images": [
     "assets/zodiac_signs/Aries.jpg"
   ],
