@@ -1,42 +1,80 @@
 {
-    "script_text": "The cosmos unleashes a massive powerful cosmic tidal surge that will sweep Pisces into unexpected depths this week. Monday the Sun in Leo trines Neptune, amplifying your intuition and emotional clarity. Tuesday and Wednesday bring Venus trine Neptune, softening relationship tensions and opening your 5th House to romantic possibilities. Thursday the Moon enters your 11th House, signaling a shift toward community networks and future aspirations. Thursday\u2011Friday the Venus\u2011Pluto sextile clears financial blockages, boosting your 2nd House earnings potential. Saturday\u2011Sunday the Sun\u2011Jupiter square eases, letting long\u2011term goals solidify and compassion guide actions. Wednesday is your power day because Venus trines your 5th House, supercharging creativity and love. Tuesday\u2019s Mars square Neptune creates emotional fog, so avoid major decisions when feelings feel overwhelming. Practice daily meditation during the Neptune trine to keep your watery energy balanced and focused. Follow for daily cosmic updates and deeper natal insights.",
+    "script_text": "Neptune, your ruler, stirs the 12th House, pulling you into a mysterious current. On Monday, Mercury squares your 9th House, sharpening communication but creating friction in travel plans. Meanwhile, Venus trines your 5th House, igniting romance and boosting creative expression. Your Water element intensifies the emotional tides daily. Midweek, the Sun enters your 7th House, shifting focus to partnerships and revealing hidden alliances. By Thursday, Mars opposes your 2nd House, stirring financial tension and urging careful budgeting. Yet Jupiter in your 10th House offers a career breakthrough, especially if you present your ideas confidently. Wednesday is your power day because Venus enters your 5th House, amplifying love and joy. Tuesday is your worst day as Mercury squares your 9th House, causing miscommunication and travel delays. Use the Venus trine to express affection boldly and review contracts before Mars opposes your finances. Follow for daily updates.",
     "captions_structure": [
         {
             "text": "PISCES",
             "type": "header"
         },
         {
-            "text": "The cosmos unleashes a massive powerful cosmic tidal surge that will sweep Pisces into unexpected depths this week.",
+            "text": "Neptune, your ruler, stirs the 12th House, pulling you into a mysterious current.",
+            "type": "normal"
+        },
+        {
+            "text": "On Monday, Mercury squares your 9th House, sharpening communication but creating friction in travel plans.",
+            "type": "normal"
+        },
+        {
+            "text": "Meanwhile, Venus trines your 5th House, igniting romance and boosting creative expression.",
+            "type": "normal"
+        },
+        {
+            "text": "Your Water element intensifies the emotional tides daily.",
+            "type": "normal"
+        },
+        {
+            "text": "Midweek, the Sun enters your 7th House, shifting focus to partnerships and revealing hidden alliances.",
+            "type": "normal"
+        },
+        {
+            "text": "By Thursday, Mars opposes your 2nd House, stirring financial tension and urging careful budgeting.",
+            "type": "normal"
+        },
+        {
+            "text": "Yet Jupiter in your 10th House offers a career breakthrough, especially if you present your ideas confidently.",
+            "type": "normal"
+        },
+        {
+            "text": "Wednesday is your power day because Venus enters your 5th House, amplifying love and joy.",
+            "type": "normal"
+        },
+        {
+            "text": "Tuesday is your worst day as Mercury squares your 9th House, causing miscommunication and travel delays.",
+            "type": "normal"
+        },
+        {
+            "text": "Use the Venus trine to express affection boldly and review contracts before Mars opposes your finances.",
+            "type": "normal"
+        },
+        {
+            "text": "Follow for daily updates.",
             "type": "normal"
         }
     ],
     "lucky_numbers": [
-        7,
-        16,
-        33
+        "7",
+        "11",
+        "21"
     ],
-    "lucky_color": "Seafoam Teal",
-    "monthly_vibe": "Intuitive Calm",
-    "title": "Cosmic Tidal Surge Warns Pisces This Week",
-    "youtube_title": "Pisces Tidal Forecast Weekly Insights #shorts",
-    "youtube_description": "This week the cosmos unleashes a tidal surge that will sweep you into unexpected depths. Discover how Venus trines Neptune to soften love tensions and boost your earnings.",
+    "lucky_color": "Emerald Green",
+    "monthly_vibe": "Reflective & Calm",
+    "title": "Pisces Weekly Horoscope August 16, 2026",
+    "youtube_title": "Pisces \u2014 Don't Ignore This Week's Signs #shorts",
+    "youtube_description": "This week, Pisces, Neptune's shift could alter your hidden paths and reveal a surprising career opportunity. Discover how the planetary alignment affects your love life and finances, and comment your sign for a personalized insight.",
     "youtube_tags": [
-        "pisces",
-        "horoscope",
+        "pisces horoscope",
         "weekly forecast",
-        "astrology",
+        "neptune transit",
+        "love prediction",
+        "career outlook",
+        "water element",
+        "astrology guide",
         "cosmic energy",
-        "neptune",
-        "love",
-        "career",
-        "money",
-        "water sign",
-        "intuition",
-        "zodiac"
+        "planetary aspects",
+        "pisces weekly"
     ],
     "type": "weekly",
     "target": "Pisces",
-    "date": "Aug 15 - Aug 21",
+    "date": "Aug 16 - Aug 22",
     "images": [
         "assets/zodiac_signs/Pisces.jpg"
     ],
