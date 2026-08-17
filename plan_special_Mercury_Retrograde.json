@@ -1,42 +1,58 @@
 {
-    "script_text": "THE COSMIC MIRROR SUDDENLY FRACTURES, AND MERCURY RETROGRADE WHISPERS FROM THE SHADOWS. Mercury retrograde, ruler of Gemini (Air), moves backward through the zodiac for three weeks, altering thought, communication, and technology. As its energy slows, reflection replaces action, urging review over launch. The retrograde squares Neptune in the 12th House, fogging intuition, while a sextile to Uranus in the 11th sparks group insights. Romance may stall for 5th House planets, yet a trine to Venus in the 7th revives connections. Career pauses when Mercury opposes Jupiter in the 9th, expanding long-term vision. This retrograde invites a replay of old communication patterns, tied to the North Node and Chiron's wound in speech. Healing emerges when we pause, listen, and rewrite the stories we tell. Triple-check messages, delay signing contracts, and use the pause to review rather than initiate. Comment your sign to see how this transit touches your natal chart.",
+    "script_text": "The cosmic currents are shifting, and Mercury Retrograde is pulling the strings of your daily reality. Mercury Retrograde is the infamous planetary backtrack where communication, technology, and travel slow down. Governed by Mercury, the ruler of Air and Earth, this transit forces us to revisit and revise the details of our lives. On August 17, 2026, Mercury Retrograde in your 7th House squares Neptune in the 1st House, bringing confusion to your closest relationships. In love, expect miscommunications and blurred boundaries. In your career, Mercury Retrograde in your 10th House trines Saturn, allowing you to restructure your professional legacy, though financial contracts may experience sudden delays. Karmically, this Retrograde is a mirror for your North Node, asking you to heal old wounds. Chiron's influence highlights where you must speak your truth. Double-check your agreements and back up your digital files. Comment your sign to receive your cosmic guide.",
     "captions_structure": [
         {
-            "text": "MERCURY RETROGRADE",
+            "text": "MERCURY RETROGRADE ALERT",
             "type": "header"
         },
         {
-            "text": "THE COSMIC MIRROR SUDDENLY FRACTURES, AND MERCURY RETROGRADE WHISPERS FROM THE SHADOWS.",
+            "text": "The cosmic currents are shifting, and Mercury Retrograde is pulling the strings of your daily reality.",
+            "type": "normal"
+        },
+        {
+            "text": "On August 17, 2026, Mercury Retrograde in your 7th House squares Neptune, bringing confusion to your closest relationships.",
+            "type": "normal"
+        },
+        {
+            "text": "In love, expect miscommunications, and in your career, financial contracts may experience sudden delays.",
+            "type": "normal"
+        },
+        {
+            "text": "Karmically, this Retrograde is a mirror for your North Node, asking you to heal old wounds.",
+            "type": "normal"
+        },
+        {
+            "text": "Double-check your agreements and back up your digital files. Comment your sign to receive your cosmic guide.",
             "type": "normal"
         }
     ],
     "lucky_numbers": [
-        7,
-        21,
-        33
+        "7",
+        "11",
+        "21"
     ],
     "lucky_color": "Emerald Green",
-    "monthly_vibe": "Inner Reflection",
-    "title": "Mercury Retrograde: When The Mirror Shifts",
-    "youtube_title": "Mercury Retrograde Whispers From The Shadows #shorts",
-    "youtube_description": "Mercury retrograde now glides backward, reshaping thoughts and bonds. Learn how the 12th-house square to Neptune and 7th-house trine to Venus will affect your heart and wallet.",
+    "monthly_vibe": "Reflective & Calm",
+    "title": "Mercury Retrograde Horoscope: August 17, 2026",
+    "youtube_title": "Mercury Retrograde: The Hidden Truth Revealed #shorts",
+    "youtube_description": "Mercury Retrograde is pulling the strings of your daily reality on August 17, 2026. Are you ready to uncover the hidden cosmic truths about your love, career, and karmic path? This prediction reveals how Mercury's retrograde transit affects your 7th House of relationships and 10th House of career. Comment your sign to receive your personalized cosmic guide.",
     "youtube_tags": [
         "mercury retrograde",
-        "horoscope",
-        "astrology",
-        "zodiac",
-        "communication",
-        "retrograde period",
-        "gemini season",
-        "cosmic energy",
-        "horoscope 2026",
-        "planetary transit",
-        "shadow self",
-        "career forecast"
+        "august 2026 horoscope",
+        "astrology predictions",
+        "retrograde mercury",
+        "cosmic guidance",
+        "daily horoscope",
+        "spiritual awakening",
+        "mercury in virgo",
+        "love horoscope",
+        "career horoscope",
+        "karmic lessons",
+        "chiron astrology"
     ],
     "type": "special",
     "target": "Mercury Retrograde",
-    "date": "2026-08-13",
+    "date": "2026-08-17",
     "images": [],
     "active": true,
     "status": "pending",
