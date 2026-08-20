@@ -1,42 +1,62 @@
 {
-  "script_text": "Stop. Cancer, the cosmic current is pulling you toward a breakthrough you've been avoiding. The sky whispers your deepest truth. Look within. Venus is currently in a trine to your natal Moon in the 1st House, releasing emotional knots and inner peace. The Moon's energy flows smoothly, making today ideal day for self-reflection and heart-centered work. Today, a rare conjunction between Venus and your natal Sun in the 7th House will draw a deeply emotional partner into your orbit, urging you to open your heart. Your natal 10th House of work is being activated by Mars in the 5th House, sparking bold unconventional move in your professional life. Avoid major financial moves until the Moon moves out of the 1st House, as lunar energy could cloud your judgment. Follow for tomorrow's reading to catch the next wave of cosmic insight.",
+  "script_text": "Stop! Cancer, the stars are screaming at you right now. Jupiter is sitting directly in your 1st House of Self, massively expanding your confidence and energy, while your ruling planet, the Moon, amplifies your intuitive water element. Meanwhile, Mars in your 12th House forms a tense square to Neptune in the 9th House, bringing hidden confusion to your long-term goals. If you're single, your magnetic energy is drawing in passionate admirers, but if you're taken, watch for miscommunication in your partnership today. The Sun in your 2nd House of Income trines Jupiter, bringing a sudden financial breakthrough or a lucrative career opportunity in your 10th House. Avoid making major travel plans today as the Mars-Neptune square clouds your judgment, but expect an unexpected financial gift to land in your inbox. Follow for tomorrow's reading so you don't miss what's coming this week.",
   "captions_structure": [
     {
-      "text": "CANCER",
+      "text": "CANCER ALERT",
       "type": "header"
     },
     {
-      "text": "Stop. Cancer, the cosmic current is pulling you toward a breakthrough you've been avoiding. The sky whispers your deepest truth. Look within. Venus is currently in a trine to your natal Moon in the 1st House, releasing emotional knots and inner peace. The Moon's energy flows smoothly, making today ideal day for self-reflection and heart-centered work. Today, a rare conjunction between Venus and your natal Sun in the 7th House will draw a deeply emotional partner into your orbit, urging you to open your heart. Your natal 10th House of work is being activated by Mars in the 5th House, sparking bold unconventional move in your professional life. Avoid major financial moves until the Moon moves out of the 1st House, as lunar energy could cloud your judgment. Follow for tomorrow's reading to catch the next wave of cosmic insight.",
+      "text": "Stop! Cancer, the stars are screaming at you right now.",
+      "type": "normal"
+    },
+    {
+      "text": "Jupiter is sitting directly in your 1st House of Self, massively expanding your confidence and energy, while your ruling planet, the Moon, amplifies your intuitive water element. Meanwhile, Mars in your 12th House forms a tense square to Neptune in the 9th House, bringing hidden confusion to your long-term goals.",
+      "type": "normal"
+    },
+    {
+      "text": "If you're single, your magnetic energy is drawing in passionate admirers, but if you're taken, watch for miscommunication in your partnership today.",
+      "type": "normal"
+    },
+    {
+      "text": "The Sun in your 2nd House of Income trines Jupiter, bringing a sudden financial breakthrough or a lucrative career opportunity in your 10th House.",
+      "type": "normal"
+    },
+    {
+      "text": "Avoid making major travel plans today as the Mars-Neptune square clouds your judgment, but expect an unexpected financial gift to land in your inbox.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for tomorrow's reading so you don't miss what's coming this week.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
     "7",
-    "11",
-    "21"
+    "12",
+    "29"
   ],
-  "lucky_color": "Emerald Green",
-  "monthly_vibe": "Reflective & Calm",
-  "title": "The Stars Are Warning Cancer",
-  "youtube_title": "The Stars Warn Cancer You Must See #shorts",
-  "youtube_description": "Explore the specific planetary transit shaping your career and love life on August 09, 2026. Discover how the Moon and Venus are revealing the truth about your emotional world. Comment your sign for a personalized reading!",
+  "lucky_color": "Deep Sea Blue",
+  "monthly_vibe": "Expansive & Confident",
+  "title": "Cancer Daily Horoscope August 20, 2026",
+  "youtube_title": "The Stars Are Warning Cancer Right Now! #shorts",
+  "youtube_description": "Cancer, Jupiter is sitting directly in your 1st House of Self, bringing massive expansion to your personal life, but a tense Mars-Neptune square is creating hidden confusion in your 9th House. Are you ready to seize the financial breakthrough waiting in your 10th House of Career? Comment your sign below and let me know if you're feeling this cosmic shift!",
   "youtube_tags": [
     "cancer horoscope",
-    "astrology",
-    "moon transits",
-    "love prediction",
-    "career guidance",
+    "cancer daily",
+    "august 2026 horoscope",
+    "astrology today",
+    "cancer sign",
     "cosmic energy",
-    "horoscope august",
-    "weekly reading",
-    "planetary positions",
-    "inner peace",
-    "self reflection",
-    "emotional intelligence"
+    "jupiter in cancer",
+    "mars square neptune",
+    "love horoscope",
+    "career horoscope",
+    "daily prediction",
+    "astrology guide"
   ],
   "type": "daily",
   "target": "Cancer",
-  "date": "August 09, 2026",
+  "date": "August 20, 2026",
   "images": [
     "assets/zodiac_signs/Cancer.jpg"
   ],
