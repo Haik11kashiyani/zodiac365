@@ -1,62 +1,78 @@
 {
-  "script_text": "Stop! Cancer, the stars are screaming at you right now. Jupiter is sitting directly in your 1st House of Self, massively expanding your confidence and energy, while your ruling planet, the Moon, amplifies your intuitive water element. Meanwhile, Mars in your 12th House forms a tense square to Neptune in the 9th House, bringing hidden confusion to your long-term goals. If you're single, your magnetic energy is drawing in passionate admirers, but if you're taken, watch for miscommunication in your partnership today. The Sun in your 2nd House of Income trines Jupiter, bringing a sudden financial breakthrough or a lucrative career opportunity in your 10th House. Avoid making major travel plans today as the Mars-Neptune square clouds your judgment, but expect an unexpected financial gift to land in your inbox. Follow for tomorrow's reading so you don't miss what's coming this week.",
+  "script_text": "Stop! Cancer, the cosmos just flipped a switch in your chart. Your ruler, the Moon, glides through Sagittarius in your 6th House of Work, locking into a grounding trine with Saturn in your 10th House of Career \u2014 slow, steady effort earns cosmic approval today. But listen closely: Mars is storming through your own sign, your 1st House of Self, squaring Saturn and dreamy Neptune in Aries. As a water sign, you'll feel this tension in your bones before anyone speaks. Expect friction between what you want and what authority demands. In love, Venus in your 4th House of Home sextiles lucky Jupiter in your 2nd \u2014 a cozy night in turns deeply bonding; single Crabs, someone warm appears through family circles. Financially, Jupiter in your 2nd House of Income backs a bold ask \u2014 pitch numbers, not feelings. Warning: with Mars squaring Neptune, read every contract twice. Follow for tomorrow's reading!",
   "captions_structure": [
     {
       "text": "CANCER ALERT",
       "type": "header"
     },
     {
-      "text": "Stop! Cancer, the stars are screaming at you right now.",
+      "text": "Stop! Cancer, the cosmos just flipped a switch in your chart.",
       "type": "normal"
     },
     {
-      "text": "Jupiter is sitting directly in your 1st House of Self, massively expanding your confidence and energy, while your ruling planet, the Moon, amplifies your intuitive water element. Meanwhile, Mars in your 12th House forms a tense square to Neptune in the 9th House, bringing hidden confusion to your long-term goals.",
+      "text": "Your ruler, the Moon, glides through Sagittarius in your 6th House of Work, locking into a grounding trine with Saturn in your 10th House of Career.",
       "type": "normal"
     },
     {
-      "text": "If you're single, your magnetic energy is drawing in passionate admirers, but if you're taken, watch for miscommunication in your partnership today.",
+      "text": "Slow, steady effort earns cosmic approval today.",
+      "type": "emphasis"
+    },
+    {
+      "text": "But listen closely: Mars is storming through your own sign, your 1st House of Self, squaring Saturn and dreamy Neptune in Aries.",
       "type": "normal"
     },
     {
-      "text": "The Sun in your 2nd House of Income trines Jupiter, bringing a sudden financial breakthrough or a lucrative career opportunity in your 10th House.",
+      "text": "As a water sign, you'll feel this tension in your bones before anyone speaks.",
       "type": "normal"
     },
     {
-      "text": "Avoid making major travel plans today as the Mars-Neptune square clouds your judgment, but expect an unexpected financial gift to land in your inbox.",
+      "text": "In love, Venus in your 4th House of Home sextiles lucky Jupiter in your 2nd \u2014 a cozy night in turns deeply bonding.",
+      "type": "emphasis"
+    },
+    {
+      "text": "Single Crabs, someone warm appears through family circles.",
       "type": "normal"
     },
     {
-      "text": "Follow for tomorrow's reading so you don't miss what's coming this week.",
+      "text": "Financially, Jupiter in your 2nd House of Income backs a bold ask \u2014 pitch numbers, not feelings.",
       "type": "normal"
+    },
+    {
+      "text": "Warning: with Mars squaring Neptune, read every contract twice.",
+      "type": "warning"
+    },
+    {
+      "text": "Follow for tomorrow's reading!",
+      "type": "cta"
     }
   ],
   "lucky_numbers": [
-    "7",
-    "12",
-    "29"
+    "4",
+    "17",
+    "28"
   ],
-  "lucky_color": "Deep Sea Blue",
-  "monthly_vibe": "Expansive & Confident",
-  "title": "Cancer Daily Horoscope August 20, 2026",
-  "youtube_title": "The Stars Are Warning Cancer Right Now! #shorts",
-  "youtube_description": "Cancer, Jupiter is sitting directly in your 1st House of Self, bringing massive expansion to your personal life, but a tense Mars-Neptune square is creating hidden confusion in your 9th House. Are you ready to seize the financial breakthrough waiting in your 10th House of Career? Comment your sign below and let me know if you're feeling this cosmic shift!",
+  "lucky_color": "Moonlight Silver",
+  "monthly_vibe": "Grounded Power",
+  "title": "Cancer Daily Horoscope August 21, 2026",
+  "youtube_title": "Cancer, Mars Just Lit a Fire in Your Chart #shorts",
+  "youtube_description": "Mars is squaring Saturn and Neptune straight out of your 1st House, Cancer, and that friction lands squarely on your career before the day ends. But Venus is hiding a tender gift in your 4th House tonight that could change everything at home. Watch before you make one move \u2014 and comment your sign so I know you're here.",
   "youtube_tags": [
     "cancer horoscope",
-    "cancer daily",
-    "august 2026 horoscope",
+    "daily horoscope",
     "astrology today",
-    "cancer sign",
-    "cosmic energy",
-    "jupiter in cancer",
-    "mars square neptune",
-    "love horoscope",
+    "cancer daily reading",
+    "mars transit",
+    "zodiac signs",
+    "horoscope august 2026",
+    "water signs",
+    "moon astrology",
     "career horoscope",
-    "daily prediction",
-    "astrology guide"
+    "love horoscope",
+    "cosmic energy"
   ],
   "type": "daily",
   "target": "Cancer",
-  "date": "August 20, 2026",
+  "date": "August 21, 2026",
   "images": [
     "assets/zodiac_signs/Cancer.jpg"
   ],
