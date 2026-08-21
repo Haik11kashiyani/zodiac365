@@ -1,42 +1,74 @@
 {
-  "script_text": "Stop! Pisces, the stars are screaming at you right now. Neptune, your ruling planet, is forming a harmonious trine to Jupiter in the 9th House, which expands your philosophical outlook and invites Water exploration. Mercury is opposing Mars in the 3rd House, creating friction in your communications and possibly leading to misunderstandings with colleagues or friends. If you're single, Venus in the 5th House ignites a flirtatious encounter, yet you must avoid idealizing your new admirer. For those in a relationship, the Moon in the 7th House highlights partnership dynamics, urging an honest and heartfelt conversation. The Sun in the 10th House squares Pluto, signaling a power struggle at work that could affect your professional reputation and finances. A sudden influx of money may appear from a side project, but impulsive spending could undermine its benefits. Avoid signing any contracts under the stressful Mercury\u2011Venus square. Follow for tomorrow's reading.",
+  "script_text": "Stop! Pisces, one week from today, a total lunar eclipse erupts in YOUR sign \u2014 at 4 degrees of Pisces, right in your 1st House of Self. The cosmos is already shifting beneath your feet. Right now, Jupiter, your traditional ruling planet, sits exalted in Cancer in your 5th House of Romance, forming a flowing water trine to Mars in Scorpio in your 9th House of Expansion. Meanwhile Neptune, your modern ruler, drifts retrograde through Aries in your 2nd House of Income. In love, Venus joins Jupiter in that 5th House \u2014 a confession or second chance arrives before the eclipse. Career-wise, today's Moon in Sagittarius crosses your 10th House of Ambition: pitch the idea, ask for the raise \u2014 decision-makers are watching. But with Neptune retrograde in your 2nd House, do NOT sign contracts or lend money this week. You're a Water sign \u2014 trust the tide, not the turbulence. Follow for tomorrow's reading.",
   "captions_structure": [
     {
-      "text": "PISCES",
+      "text": "PISCES ALERT",
       "type": "header"
     },
     {
-      "text": "Stop! Pisces, the stars are screaming at you right now. Neptune, your ruling planet, is forming a harmonious trine to Jupiter in the 9th House, which expands your philosophical outlook and invites Water exploration. Mercury is opposing Mars in the 3rd House, creating friction in your communications and possibly leading to misunderstandings with colleagues or friends. If you're single, Venus in the 5th House ignites a flirtatious encounter, yet you must avoid idealizing your new admirer. For those in a relationship, the Moon in the 7th House highlights partnership dynamics, urging an honest and heartfelt conversation. The Sun in the 10th House squares Pluto, signaling a power struggle at work that could affect your professional reputation and finances. A sudden influx of money may appear from a side project, but impulsive spending could undermine its benefits. Avoid signing any contracts under the stressful Mercury\u2011Venus square. Follow for tomorrow's reading.",
+      "text": "Stop! Pisces, one week from today, a total lunar eclipse erupts in YOUR sign \u2014 at 4 degrees of Pisces, right in your 1st House of Self.",
+      "type": "normal"
+    },
+    {
+      "text": "The cosmos is already shifting beneath your feet.",
+      "type": "normal"
+    },
+    {
+      "text": "Jupiter, your traditional ruling planet, sits exalted in Cancer in your 5th House of Romance, trine to Mars in Scorpio in your 9th House of Expansion.",
+      "type": "normal"
+    },
+    {
+      "text": "Meanwhile Neptune, your modern ruler, drifts retrograde through Aries in your 2nd House of Income.",
+      "type": "normal"
+    },
+    {
+      "text": "In love, Venus joins Jupiter in that 5th House \u2014 a confession or second chance arrives before the eclipse.",
+      "type": "normal"
+    },
+    {
+      "text": "Career-wise, today's Moon in Sagittarius crosses your 10th House of Ambition: pitch the idea, ask for the raise \u2014 decision-makers are watching.",
+      "type": "normal"
+    },
+    {
+      "text": "But with Neptune retrograde in your 2nd House, do NOT sign contracts or lend money this week.",
+      "type": "normal"
+    },
+    {
+      "text": "You're a Water sign \u2014 trust the tide, not the turbulence.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for tomorrow's reading.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
-    "7",
-    "11",
-    "21"
+    "4",
+    "17",
+    "28"
   ],
-  "lucky_color": "Emerald Green",
-  "monthly_vibe": "Mystical Flow",
-  "title": "Pisces \u2014 Don't Ignore This",
-  "youtube_title": "Pisces, This Transit Changes Everything #shorts",
-  "youtube_description": "Today, Neptune's trine to Jupiter is unlocking hidden opportunities for Pisces, while Mercury's opposition to Mars could spark misunderstandings. Comment your sign.",
+  "lucky_color": "Moonlit Silver",
+  "monthly_vibe": "Eclipse Awakening",
+  "title": "Pisces: An Eclipse Changes Everything",
+  "youtube_title": "Pisces, A Rare Eclipse Is Coming For You #shorts",
+  "youtube_description": "Pisces, a total lunar eclipse hits YOUR sign in just seven days \u2014 and Jupiter, your ruling planet, is already opening a door in your 5th House of Romance. But Neptune retrograde in your 2nd House means one financial move this week could cost you dearly. Watch now before it happens \u2014 and comment your sign below.",
   "youtube_tags": [
     "pisces horoscope",
-    "daily astrology",
-    "neptune transit",
-    "mercury aspect",
-    "love prediction",
-    "career guidance",
-    "water element",
+    "daily horoscope",
     "astrology today",
-    "cosmic energy",
-    "zodiac sign",
-    "pisces daily",
-    "astrology forecast"
+    "pisces eclipse",
+    "zodiac signs",
+    "pisces love",
+    "astrology prediction",
+    "water signs",
+    "jupiter transit",
+    "pisces career",
+    "lunar eclipse",
+    "horoscope today"
   ],
   "type": "daily",
   "target": "Pisces",
-  "date": "August 20, 2026",
+  "date": "August 21, 2026",
   "images": [
     "assets/zodiac_signs/Pisces.jpg"
   ],
