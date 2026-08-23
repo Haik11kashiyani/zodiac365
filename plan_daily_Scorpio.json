@@ -1,60 +1,74 @@
 {
-  "script_text": "Stop! Scorpio, the stars are screaming at you right now. The Sun in Leo is forming an opposition to your ruling planet Pluto in Aquarius, and this is creating pressure between your 10th House of career and your 4th House of home. Meanwhile, Jupiter in Cancer is forming a trine to Neptune in Pisces, flooding your 5th House of romance and creativity with opportunities. If you're single, this trine is drawing in mysterious, soulful connections that resonate with your water element; if you're taken, watch for tension between your partner and your family. The Moon in Sagittarius is forming a trine to Mars in Leo, lighting up your 2nd House of income with action from your 10th House. Avoid making decisions about your home while the Sun opposes Pluto. Focus on your 11th House, where Mercury in Virgo sextiles Jupiter in Cancer, bringing a networking gift. Follow for tomorrow's reading.",
+  "script_text": "Stop scrolling, Scorpio \u2014 the cosmos just rewired your social circuitry. Overnight, the Sun made its annual leap into Virgo, switching on your 11th House of alliances, where it locks into a razor-sharp sextile with Mars in your 9th House of expansion. As a fixed water sign co-ruled by Mars and Pluto, this is rare, potent fuel. Meanwhile, the waxing Moon in Capricorn activates your 3rd House of negotiation \u2014 speak deliberately today. In love, if you're single, expect a friend-of-a-friend to suddenly look interesting after dark \u2014 say yes to the group invite. Attached? Channel this electricity into planning one wild trip together before autumn. Money-wise, someone inside your network mentions your name in a room you can't see; follow up on every lead because your 10th House of career is quietly cashing in. Avoid lending money to a Sagittarius colleague. Follow now so tomorrow's reading doesn't pass you by.",
   "captions_structure": [
     {
-      "text": "SCORPIO ALERT",
+      "text": "SCORPIO",
       "type": "header"
     },
     {
-      "text": "Stop! Scorpio, the stars are screaming at you right now.",
+      "text": "Stop scrolling, Scorpio \u2014 the cosmos just rewired your social circuitry.",
       "type": "normal"
     },
     {
-      "text": "The Sun in Leo is forming an opposition to your ruling planet Pluto in Aquarius, and this is creating pressure between your 10th House of career and your 4th House of home. Meanwhile, Jupiter in Cancer is forming a trine to Neptune in Pisces, flooding your 5th House of romance and creativity with opportunities.",
+      "text": "Overnight, the Sun made its annual leap into Virgo, switching on your 11th House of alliances.",
       "type": "normal"
     },
     {
-      "text": "If you're single, this trine is drawing in mysterious, soulful connections that resonate with your water element; if you're taken, watch for tension between your partner and your family.",
+      "text": "It locks into a razor-sharp sextile with Mars in your 9th House of expansion.",
       "type": "normal"
     },
     {
-      "text": "The Moon in Sagittarius is forming a trine to Mars in Leo, lighting up your 2nd House of income with action from your 10th House.",
+      "text": "As a fixed water sign co-ruled by Mars and Pluto, this is rare, potent fuel.",
       "type": "normal"
     },
     {
-      "text": "Avoid making decisions about your home while the Sun opposes Pluto. Focus on your 11th House, where Mercury in Virgo sextiles Jupiter in Cancer, bringing a networking gift.",
+      "text": "Single? A friend-of-a-friend looks interesting after dark.",
+      "type": "emphasis"
+    },
+    {
+      "text": "Attached? Plan one wild trip together before autumn.",
+      "type": "emphasis"
+    },
+    {
+      "text": "Someone in your network is saying your name in rooms you can't see.",
       "type": "normal"
+    },
+    {
+      "text": "Avoid lending money to a Sagittarius colleague.",
+      "type": "warning"
     },
     {
       "text": "Follow for tomorrow's reading.",
-      "type": "normal"
+      "type": "cta"
     }
   ],
   "lucky_numbers": [
-    "7",
-    "11",
-    "21"
+    "8",
+    "17",
+    "26"
   ],
-  "lucky_color": "Deep Scarlet",
-  "monthly_vibe": "Intense Transformation",
-  "title": "Scorpio Daily Horoscope August 19, 2026",
-  "youtube_title": "Scorpio \u2014 Don't Ignore This Sign #shorts",
-  "youtube_description": "Scorpio, the stars are screaming at you right now. This reading reveals how the Sun's opposition to Pluto is affecting your career and home, and what opportunities are waiting in your love life. Comment your sign and let me know if you feel this energy.",
+  "lucky_color": "Deep Burgundy",
+  "monthly_vibe": "Powerful Alliances",
+  "title": "Scorpio Daily Horoscope August 23, 2026",
+  "youtube_title": "Scorpio, Someone Said Your Name Today #shorts",
+  "youtube_description": "Scorpio, the Sun just landed in your 11th House and fired a sextile straight at Mars \u2014 and it's pointing directly at your love life and your bank account. I'll tell you who's whispering your name behind closed doors and the one mistake that could cost you money this week. Comment your sign below so I know you're here.",
   "youtube_tags": [
     "scorpio horoscope",
-    "daily astrology",
-    "scorpio daily",
-    "august 2026 horoscope",
-    "scorpio love",
-    "scorpio career",
-    "pluto transit",
-    "scorpio water sign",
+    "daily horoscope",
+    "astrology",
+    "zodiac",
+    "virgo season",
+    "water signs",
+    "pluto energy",
+    "love prediction",
+    "career horoscope",
     "cosmic energy",
-    "tarot reading"
+    "scorpio today",
+    "august horoscope"
   ],
   "type": "daily",
   "target": "Scorpio",
-  "date": "August 19, 2026",
+  "date": "August 23, 2026",
   "images": [
     "assets/zodiac_signs/Scorpio.jpg"
   ],

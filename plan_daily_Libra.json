@@ -1,41 +1,65 @@
 {
-  "script_text": "Stop! Libra, the stars are screaming at you right now. Mars is forming a tense square to your ruling planet Venus, igniting friction in your 7th House of Partnerships and stirring tension in your relationships. At the same time, Jupiter trines your 10th House of Career, delivering a sudden surge in professional visibility and an opportunity for recognition. As an air sign, your mind is buzzing with fresh ideas that could spark a romantic connection. If you're single, a charismatic stranger may appear; if you're taken, watch for unresolved arguments surfacing. In the realm of money, the 2nd House of Income receives an unexpected bonus from a side venture, boosting your financial outlook. Avoid impulsive spending today, as Mercury retrograde in your 6th House can cause miscommunication and errors. Consider this a cosmic nudge to pause and reassess. Follow for tomorrow's reading.",
+  "script_text": "Stop scrolling, Libra \u2014 your ruling planet is under pressure, and the stars refuse to whisper. Evening-star Venus, your celestial ruler, blazes in your 1st House of Self at her brightest in months, opposing stern Saturn retrograde in your 7th House of Partnership, while the Sun slips into Virgo and your private 12th House. In love, expect a defining moment: a partner pushes the 'where is this going' conversation, and Saturn demands proof, not pretty promises. Single? Your Air-sign charm magnetizes someone older, karmic, unmistakably serious. Money flows through people today \u2014 Jupiter in your 11th House of Networks shows that one bold ask to a well-connected friend unlocks a door you assumed was locked forever. Warning: as an Air sign you'll rationalize it \u2014 do NOT sign contracts while Saturn retrogrades. Follow now, because tomorrow's Venus-Saturn breakthrough will reward exactly who showed up today.",
   "captions_structure": [
     {
       "text": "LIBRA ALERT",
       "type": "header"
     },
     {
-      "text": "Stop! Libra, the stars are screaming at you right now.",
+      "text": "Stop scrolling, Libra \u2014 your ruling planet is under pressure, and the stars refuse to whisper.",
+      "type": "normal"
+    },
+    {
+      "text": "Evening-star Venus, your celestial ruler, blazes in your 1st House of Self, opposing stern Saturn retrograde in your 7th House of Partnership.",
+      "type": "normal"
+    },
+    {
+      "text": "A partner pushes the 'where is this going' conversation \u2014 Saturn demands proof, not pretty promises.",
+      "type": "normal"
+    },
+    {
+      "text": "Single? Your Air-sign charm magnetizes someone older, karmic, unmistakably serious.",
+      "type": "normal"
+    },
+    {
+      "text": "Jupiter in your 11th House of Networks: one bold ask unlocks a door you assumed was locked.",
+      "type": "normal"
+    },
+    {
+      "text": "Do NOT sign contracts while Saturn retrogrades.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for tomorrow's Venus-Saturn breakthrough.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
     "7",
-    "11",
-    "21"
+    "16",
+    "38"
   ],
-  "lucky_color": "Emerald Green",
-  "monthly_vibe": "Dynamic Balance",
-  "title": "Libra: A Cosmic Shift Is Coming",
-  "youtube_title": "Libra \u2014 The Stars Are Shifting #shorts",
-  "youtube_description": "Mars is forming a tense square to Venus, shaking your partnerships, while Jupiter trines your career house, offering a sudden boost. Comment your sign to receive your personalized insight.",
+  "lucky_color": "Velvet Rose",
+  "monthly_vibe": "Karmic Alignment",
+  "title": "Libra Daily Horoscope August 23, 2026",
+  "youtube_title": "Libra, Saturn Is Testing Your Heart Today #shorts",
+  "youtube_description": "Libra, your ruling planet Venus is facing off with Saturn retrograde right across your partnership axis \u2014 and today a relationship reaches its defining moment. I'm also revealing why Jupiter in your 11th House makes ONE bold ask worth a fortune right now. Watch before you speak to them today. Comment your sign below.",
   "youtube_tags": [
+    "astrology",
+    "horoscope",
+    "libra",
     "libra horoscope",
-    "daily astrology",
-    "libra love",
-    "career prediction",
+    "daily horoscope",
+    "libra today",
     "venus transit",
-    "mars square",
-    "jupiter trine",
-    "air sign",
-    "cosmic energy",
-    "astrology tips",
-    "libra daily"
+    "saturn retrograde",
+    "love horoscope",
+    "zodiac signs",
+    "cosmic energy"
   ],
   "type": "daily",
   "target": "Libra",
-  "date": "August 19, 2026",
+  "date": "August 23, 2026",
   "images": [
     "assets/zodiac_signs/Libra.jpg"
   ],
