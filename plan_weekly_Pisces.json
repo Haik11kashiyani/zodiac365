@@ -1,44 +1,44 @@
 {
-    "script_text": "Pisces, this week builds toward a Full Moon in your sign \u2014 and a hidden truth surfaces. Jupiter, your traditional ruler, glows in your 6th house of work \u2014 pitch that promotion Friday. Saturday, the Sun enters Virgo and your 7th, where Mars opposes your watery Sun: partnership friction. Midweek, Venus in Cancer, your 5th house of romance, trines your Sun \u2014 a soulful spark near water. Thursday, the Sun squares Uranus in your 4th house \u2014 expect a domestic surprise. Friday's Full Moon in Pisces illuminates your 1st house, revealing which relationships truly fit. Monday the 24th is your power day because the Capricorn Moon trines Mars from your 11th to 7th houses, delivering a decisive ally. Thursday the 27th is your hardest day, when that Sun-Uranus square peaks. Channel water-sign empathy, but renegotiate pay \u2014 Saturn retrograde in your 2nd house rewards the ask. Follow for daily updates.",
+    "script_text": "Pisces, a lunar eclipse hits YOUR sign Friday \u2014 and exposes a hidden secret. Early week, the Sun enters Virgo and your seventh House of partnership, while Saturn and Neptune \u2014 your ruling planets \u2014 retrograde in your second House of income: avoid signing deals before Tuesday's Capricorn Moon lights your eleventh House of networking. Wednesday's game-changer: Venus in Libra trines Jupiter in Leo, linking your eighth House of shared money to your sixth House of work \u2014 expect a raise, bonus, or investor. Then Friday, August twenty-eighth, the Partial Lunar Eclipse at five degrees Pisces ignites your first House: a romantic confession or commitment decision arrives. Weekend: the Sun squares Uranus in your fourth House, shaking home plans. Friday is your power day \u2014 the eclipse Moon makes you magnetic in love. Sunday stings most: that square rattles family plans. Water signs heal by flowing \u2014 journal Thursday night before choosing. Follow for daily updates.",
     "captions_structure": [
         {
-            "text": "PISCES",
+            "text": "PISCES ALERT",
             "type": "header"
         },
         {
-            "text": "This week builds toward a Full Moon in your sign \u2014 and a hidden truth surfaces.",
+            "text": "A lunar eclipse hits YOUR sign Friday \u2014 and exposes a hidden secret.",
+            "type": "header"
+        },
+        {
+            "text": "Early week, the Sun enters Virgo and your 7th House of partnership.",
             "type": "normal"
         },
         {
-            "text": "Jupiter, your traditional ruler, glows in your 6th house of work \u2014 pitch that promotion Friday.",
+            "text": "Saturn and Neptune \u2014 your ruling planets \u2014 retrograde in your 2nd House of income.",
             "type": "normal"
         },
         {
-            "text": "Saturday, the Sun enters Virgo and your 7th, where Mars opposes your watery Sun: partnership friction.",
+            "text": "Avoid signing deals before Tuesday's Capricorn Moon lights your 11th House.",
             "type": "normal"
         },
         {
-            "text": "Midweek, Venus in Cancer, your 5th house of romance, trines your Sun \u2014 a soulful spark near water.",
+            "text": "Wednesday: Venus trine Jupiter links your 8th and 6th Houses \u2014 a raise or investor appears.",
             "type": "normal"
         },
         {
-            "text": "Thursday, the Sun squares Uranus in your 4th house \u2014 expect a domestic surprise.",
+            "text": "Friday, Aug 28: Partial Lunar Eclipse at 5\u00b0 Pisces ignites your 1st House.",
+            "type": "header"
+        },
+        {
+            "text": "A romantic confession or commitment decision arrives.",
             "type": "normal"
         },
         {
-            "text": "Friday's Full Moon in Pisces illuminates your 1st house, revealing which relationships truly fit.",
+            "text": "Weekend: Sun squares Uranus in your 4th House \u2014 home plans shake.",
             "type": "normal"
         },
         {
-            "text": "Monday the 24th is your power day \u2014 the Capricorn Moon trines Mars, delivering a decisive ally.",
-            "type": "normal"
-        },
-        {
-            "text": "Thursday the 27th is your hardest day, when that Sun-Uranus square peaks.",
-            "type": "normal"
-        },
-        {
-            "text": "Renegotiate pay now \u2014 Saturn retrograde in your 2nd house rewards the ask.",
+            "text": "Friday is your power day. Sunday stings most.",
             "type": "normal"
         },
         {
@@ -47,32 +47,32 @@
         }
     ],
     "lucky_numbers": [
-        "3",
-        "12",
-        "29"
+        "5",
+        "16",
+        "28"
     ],
-    "lucky_color": "Aquamarine",
-    "monthly_vibe": "Emotional Clarity",
-    "title": "Pisces Weekly Horoscope August 21, 2026",
-    "youtube_title": "Pisces: The Full Moon Changes Everything #shorts",
-    "youtube_description": "Pisces, a Full Moon lands in your sign on August 28th \u2014 and it's about to expose a truth you've felt building all summer. This week Venus heats up your 5th house of romance while Saturn retrograde demands you renegotiate your worth at work. Watch before Thursday's Sun-Uranus square throws you a curveball, and comment your sign so I know you're here.",
+    "lucky_color": "Moonlit Silver",
+    "monthly_vibe": "Fated Revelations",
+    "title": "Pisces \u2014 The Eclipse Exposes Everything",
+    "youtube_title": "The Eclipse Reveals Pisces' Hidden Truth #shorts",
+    "youtube_description": "Pisces, this week closes with a partial lunar eclipse landing directly in YOUR sign \u2014 and it's dragging a hidden truth into the light. I break down Wednesday's Venus-Jupiter trine that could hand you a raise, and why Friday makes you absolutely magnetic in love. Watch before Friday, and comment your sign below!",
     "youtube_tags": [
         "pisces horoscope",
-        "pisces weekly horoscope",
+        "pisces weekly",
         "astrology",
         "horoscope today",
-        "zodiac signs",
-        "pisces love horoscope",
-        "full moon pisces",
-        "astrology forecast",
-        "water signs",
+        "lunar eclipse astrology",
+        "pisces love forecast",
         "pisces career",
-        "august horoscope",
-        "zodiac energy"
+        "august 2026 astrology",
+        "zodiac signs",
+        "water sign energy",
+        "eclipse season",
+        "astrology predictions"
     ],
     "type": "weekly",
     "target": "Pisces",
-    "date": "Aug 21 - Aug 27",
+    "date": "Aug 23 - Aug 29",
     "images": [
         "assets/zodiac_signs/Pisces.jpg"
     ],
