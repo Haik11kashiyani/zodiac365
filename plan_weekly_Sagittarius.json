@@ -1,47 +1,74 @@
 {
-  "script_text": "This week, Jupiter's fiery transit through your 9th House will force you to rethink everything about fate. On Monday, Uranus squares Jupiter in your 1st House, shattering illusions about security. Tuesday brings Jupiter trine Mercury in the 5th House, unlocking creative energy and revealing your love will bloom. Midweek, Saturn enters your 10th House to oppose Jupiter, triggering your career ambitions. By Thursday, Jupiter enters the 4th House to ground your deep energy into roots. The weekend asks you to step into authentic power. Friday is your power day because Jupiter aligns with Mercury in the 12th House, bringing clarity to your path. Saturday is your worst day because Saturn occupies your 10th House, compressing your career energy. Trust your intuition and take bold action, just knowing the universe is conspiring in your favor. Follow for daily updates to stay aligned with your cosmic path.",
+  "script_text": "Sagittarius, a lunar eclipse detonates across your chart this week \u2014 brace your foundations. Monday through Wednesday, Mercury in your 9th House sextiles Mars in your 7th, sharpening every pitch, negotiation, and bold ask. Your ruler Jupiter blazes through fire sign Leo in your 9th House, sextile Uranus \u2014 unexpected money flows through partnerships. Thursday, the Virgo Sun trines Uranus in your 10th House \u2014 career doors fly open. But Friday's Partial Lunar Eclipse in Pisces strikes your 4th House of home, squaring Uranus in your 7th \u2014 family or partner bombshells land. In love, Mars ignites your 7th House \u2014 a relationship plot twist is fate. Sunday, Venus in your 11th House heals \u2014 warm reconciliations win. Wednesday is your power day because Mercury sextile Mars supercharges every conversation. Friday is your hardest day \u2014 avoid ultimatums under eclipse fog. Delay every big decision seventy-two hours. Follow for daily updates.",
   "captions_structure": [
     {
       "text": "SAGITTARIUS",
       "type": "header"
     },
     {
-      "text": "This week, Jupiter's fiery transit through your 9th House will force you to rethink everything about fate.",
+      "text": "A lunar eclipse detonates across your chart this week \u2014 brace your foundations.",
+      "type": "normal"
+    },
+    {
+      "text": "Mon-Wed: Mercury in your 9th House sextiles Mars in your 7th \u2014 pitch, negotiate, ask big.",
+      "type": "normal"
+    },
+    {
+      "text": "Ruler Jupiter in fire sign Leo sextiles Uranus \u2014 unexpected money via partnerships.",
+      "type": "normal"
+    },
+    {
+      "text": "Thursday: Virgo Sun trines Uranus in your 10th \u2014 career doors fly open.",
+      "type": "normal"
+    },
+    {
+      "text": "FRIDAY AUG 28: Partial Lunar Eclipse in Pisces hits your 4th House, squaring Uranus in your 7th.",
+      "type": "normal"
+    },
+    {
+      "text": "Love: Mars ignites your 7th \u2014 a fated relationship plot twist.",
+      "type": "normal"
+    },
+    {
+      "text": "Power Day: Wednesday | Hardest Day: Friday",
+      "type": "normal"
+    },
+    {
+      "text": "Advice: delay big decisions 72 hours. Follow for daily updates.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
-    "7",
-    "11",
+    "3",
+    "9",
     "21"
   ],
-  "lucky_color": "Emerald Green",
-  "monthly_vibe": "Reflective & Calm",
-  "title": "Sagittarius Weekly Horoscope August 07, 2026",
-  "youtube_title": "Something Big Is Coming for Sagittarius #shorts",
-  "youtube_description": "A powerful astrologer predicts the biggest shift in your career and love this week. Jupiter's fiery transit through the 9th House reveals unexpected opportunities that will transform your outlook. Comment your sign for more!",
+  "lucky_color": "Imperial Purple",
+  "monthly_vibe": "Fated Crossroads",
+  "title": "Sagittarius \u2014 An Eclipse Changes Everything",
+  "youtube_title": "Sagittarius: The Eclipse Knows Something #shorts",
+  "youtube_description": "Sagittarius, a Partial Lunar Eclipse strikes your 4th House on August 28 and squares Uranus \u2014 home, family, and love are about to collide. Your ruler Jupiter hands you unexpected money early in the week, but Friday delivers the plot twist you cannot ignore. Comment your sign and follow for daily updates.",
   "youtube_tags": [
-    "astrology",
-    "horoscope",
-    "sagittarius",
-    "transit",
-    "jupiter",
-    "love prediction",
-    "career forecast",
-    "weekly outlook",
-    "cosmic energy",
-    "sun signs",
+    "sagittarius horoscope",
+    "weekly horoscope",
     "astrology forecast",
-    "tarot signs"
+    "lunar eclipse august",
+    "sagittarius love",
+    "sagittarius career",
+    "zodiac predictions",
+    "astrology transit",
+    "full moon pisces",
+    "jupiter in leo",
+    "fire signs",
+    "cosmic guidance"
   ],
   "type": "weekly",
   "target": "Sagittarius",
-  "date": "Aug 07 - Aug 13",
+  "date": "Aug 24 - Aug 30",
   "images": [
     "assets/zodiac_signs/Sagittarius.jpg"
   ],
   "active": true,
-  "status": "error",
-  "file_name": "plan_weekly_Sagittarius.json",
-  "error_reason": "Upload failed"
+  "status": "uploaded",
+  "file_name": "plan_weekly_Sagittarius.json"
 }
