@@ -1,66 +1,70 @@
 {
-  "script_text": "Stop scrolling, Taurus \u2014 the stars just flipped a switch on your entire chart. The Sun has slipped into Virgo, igniting your 5th House of Romance, and it's squaring electric Uranus in Gemini, rattling your 2nd House of Money. Your ruling planet, Venus, sits dignified in her home sign Libra, steadying your 6th House of Daily Work \u2014 your earth-sign patience pays off beautifully there. Single? A precise, soft-spoken Virgo energy enters through your friend circle this week. Committed? Brace for a deeply vulnerable confession under the Pisces full moon eclipse striking your 11th House on August 28th. Financially, Mars in your 2nd House delivers surprise cash before month's end \u2014 renegotiate that stale rate now, with Pluto empowering your 10th House of Career. Avoid lending money out today; Uranus makes generosity expensive. Follow now so tomorrow's big eclipse-week reading finds you first.",
+  "script_text": "Stop scrolling, Taurus \u2014 the cosmos just flipped your entire week upside down. Your ruling planet Venus has slipped into detail-loving Virgo, joining the Sun in your 5th House of Romance, while Jupiter locks into a tense opposition with Pluto, pulling your 4th House of Home into a standoff against your 10th House of Career. As an earth sign, you feel every tremor \u2014 and today delivers two. In love: someone from your past or your workplace will confess feelings beneath this grounded Virgo sky; if you're committed, schedule one honest conversation before midnight. Financially, Uranus, newly settled in Gemini, is electrifying your 2nd House of Income \u2014 a surprise payment or an unexpected bill lands within seventy-two hours. Avoid signing any contract before Friday; Saturn retrograde in your 12th House is burying fine print in shadows. Follow for tomorrow's reading \u2014 a major money door swings open.",
   "captions_structure": [
     {
       "text": "TAURUS ALERT",
       "type": "header"
     },
     {
-      "text": "Stop scrolling, Taurus \u2014 the stars just flipped a switch on your entire chart.",
+      "text": "Stop scrolling, Taurus \u2014 the cosmos just flipped your entire week upside down.",
       "type": "normal"
     },
     {
-      "text": "Sun enters Virgo \u2192 your 5th House of Love, squaring Uranus in your 2nd House of Money",
-      "type": "emphasis"
-    },
-    {
-      "text": "Venus dignified in Libra blesses your 6th House of Work",
+      "text": "Your ruling planet Venus slips into Virgo, joining the Sun in your 5th House of Romance.",
       "type": "normal"
     },
     {
-      "text": "A confession arrives under the Pisces Full Moon Eclipse \u2014 Aug 28, your 11th House",
-      "type": "emphasis"
+      "text": "Jupiter opposes Pluto \u2014 your 4th House of Home vs your 10th House of Career.",
+      "type": "normal"
     },
     {
-      "text": "Mars drops surprise cash before month's end",
-      "type": "emphasis"
+      "text": "In love: someone from your past will confess feelings under this grounded Virgo sky.",
+      "type": "normal"
     },
     {
-      "text": "AVOID: lending money out today",
-      "type": "warning"
+      "text": "Committed? Schedule one honest conversation before midnight.",
+      "type": "normal"
     },
     {
-      "text": "Follow for tomorrow's eclipse-week reading",
-      "type": "cta"
+      "text": "Money: Uranus electrifies your 2nd House of Income \u2014 a surprise lands within 72 hours.",
+      "type": "normal"
+    },
+    {
+      "text": "Avoid signing contracts before Friday \u2014 Saturn retrograde in your 12th House hides the fine print.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for tomorrow \u2014 a major money door swings open.",
+      "type": "normal"
     }
   ],
   "lucky_numbers": [
-    "6",
-    "14",
-    "28"
+    "4",
+    "18",
+    "27"
   ],
-  "lucky_color": "Blush Rose",
-  "monthly_vibe": "Eclipse Revelations",
-  "title": "Taurus Daily Horoscope August 23, 2026",
-  "youtube_title": "Taurus \u2014 The Eclipse Just Flipped Your Chart #shorts",
-  "youtube_description": "Taurus, the Sun just lit up your 5th House of Love and instantly squared Uranus \u2014 and whatever surfaces under the August 28 eclipse could flip your heart AND your wallet. I'm revealing the exact moment the confession comes and the one money move you can't afford to delay. Comment your sign so I know you're here!",
+  "lucky_color": "Rose Quartz Pink",
+  "monthly_vibe": "Steady Transformation",
+  "title": "Taurus Daily Horoscope August 24, 2026",
+  "youtube_title": "Taurus: Don't Sign Anything Before Friday #shorts",
+  "youtube_description": "Taurus, your ruling planet Venus just slipped into your 5th House of Romance \u2014 and someone is preparing to confess feelings you never saw coming. At the same time, Uranus is electrifying your money sector, which means a financial surprise hits within 72 hours. Watch before you sign anything this week, and comment your sign below.",
   "youtube_tags": [
     "taurus horoscope",
     "daily horoscope",
-    "taurus love forecast",
-    "taurus money",
-    "eclipse astrology",
-    "virgo season",
+    "taurus daily",
     "astrology today",
-    "zodiac predictions",
     "taurus august 2026",
+    "zodiac predictions",
+    "venus in virgo",
+    "earth signs",
+    "horoscope reading",
     "cosmic energy",
-    "astrology shorts",
-    "horoscope today"
+    "taurus love",
+    "money horoscope"
   ],
   "type": "daily",
   "target": "Taurus",
-  "date": "August 23, 2026",
+  "date": "August 24, 2026",
   "images": [
     "assets/zodiac_signs/Taurus.jpg"
   ],
