@@ -1,41 +1,66 @@
 {
-    "script_text": "The cosmos has awakened Lucky Numbers today with a profound activation. These Earth-ruled celestial energies, commanded by Saturn's meticulous will, are entering their most powerful alignment of the year through a harmonious trine in the 7th house while simultaneously facing a challenging square in the 10th house. In love, you will experience unexpected harmony as partners recognize your true worth, drawing connections that affirm your intrinsic value. Career and money prospects shine through strategic collaborations in the 10th house, where patience yields significant advancement and financial stability. The karmic lesson here involves mastering delay and restraint\u2014Saturn teaches us that true power comes from controlled execution rather than impulsive action. Additionally, the 1st house receives subtle influence, encouraging personal discipline to manifest these outcomes. For survival during this transit, prioritize self-discipline and trust your inner timing. Share your zodiac sign below to receive your personalized Lucky Numbers forecast.",
+    "script_text": "Stop scrolling \u2014 if 11:11 keeps finding you, the cosmos is calling tonight. Lucky numbers are planetary frequencies. Three belongs to Jupiter, seven to Neptune, eleven to awakening \u2014 each ignites when its ruler stirs. Right now, Jupiter blazes through fiery Leo as Mars in Gemini sextiles Jupiter on August 24 \u2014 a luck portal opens for dates reducing to 3, 7, or 21. In love, the August 28 lunar eclipse in Pisces draws someone whose birthday matches your number straight into your 7th House \u2014 fated commitment energy. Money-wise, sign contracts on a three or twenty-one day; Mars fires your 10th House, bringing an offer within nine days. Saturn retrograde in Aries punishes greedy gambles, while Chiron retrograde resurfaces old scarcity wounds. Under the North Node in Aquarius, your karmic lesson is shared abundance \u2014 never hoarded luck. Write your number in emerald green. Comment your sign below \u2014 I'll reveal your code.",
     "captions_structure": [
         {
-            "text": "LUCKY NUMBERS",
+            "text": "LUCKY NUMBERS ALERT",
             "type": "header"
         },
         {
-            "text": "The stars whisper secrets today as Lucky Numbers enter their most powerful alignment of the year.",
+            "text": "Stop scrolling \u2014 if 11:11 keeps finding you, the cosmos is calling tonight.",
             "type": "normal"
+        },
+        {
+            "text": "Three belongs to Jupiter, seven to Neptune, eleven to awakening.",
+            "type": "normal"
+        },
+        {
+            "text": "A luck portal opens for dates reducing to 3, 7, or 21.",
+            "type": "emphasis"
+        },
+        {
+            "text": "In love, the August 28 lunar eclipse draws someone fated into your 7th House.",
+            "type": "normal"
+        },
+        {
+            "text": "Sign contracts on a 3 or 21 day \u2014 an offer comes within nine days.",
+            "type": "emphasis"
+        },
+        {
+            "text": "Your karmic lesson is shared abundance \u2014 never hoarded luck.",
+            "type": "normal"
+        },
+        {
+            "text": "Comment your sign below \u2014 I'll reveal your code.",
+            "type": "cta"
         }
     ],
     "lucky_numbers": [
+        "3",
         "7",
-        "11",
         "21"
     ],
     "lucky_color": "Emerald Green",
-    "monthly_vibe": "Reflective & Calm",
-    "title": "Lucky Numbers Awakening August 20, 2026",
-    "youtube_title": "Lucky Numbers Activation Horoscope #shorts",
-    "youtube_description": "Today's transit brings Lucky Numbers into peak power through a trine in the 7th house and a square in the 10th house. Discover how this aligns with your relationships and career path. Comment your sign to unlock your personalized fortune.",
+    "monthly_vibe": "Fated Alignment",
+    "title": "The Cosmos Is Dialing Lucky Numbers Tonight",
+    "youtube_title": "Why You Keep Seeing 11:11 \u2014 Lucky Numbers #shorts",
+    "youtube_description": "If 11:11 keeps appearing, Jupiter in fiery Leo and Mars in Gemini are opening a rare luck portal just for you. Inside, I reveal which dates carry money magic, why the August 28 lunar eclipse could deliver a fated love match through your 7th House, and the greedy trap Saturn retrograde wants you to avoid. Comment your sign below for your personal number decoding.",
     "youtube_tags": [
-        "lucky-numbers",
+        "astrology",
         "horoscope",
+        "lucky numbers",
         "numerology",
-        "saturn-transit",
-        "earth-energy",
-        "love-harmony",
-        "career-advance",
-        "reflective-mind",
-        "personal-fortune",
-        "spiritual-growth",
-        "karmic-lesson"
+        "jupiter in leo",
+        "1111 meaning",
+        "angel numbers",
+        "daily horoscope",
+        "astrology predictions",
+        "manifestation",
+        "zodiac signs",
+        "cosmic energy"
     ],
     "type": "special",
     "target": "Lucky Numbers",
-    "date": "2026-08-20",
+    "date": "2026-08-24",
     "images": [],
     "active": true,
     "status": "pending",
