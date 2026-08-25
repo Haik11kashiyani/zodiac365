@@ -1,66 +1,42 @@
 {
-    "script_text": "Stop scrolling \u2014 if 11:11 keeps finding you, the cosmos is calling tonight. Lucky numbers are planetary frequencies. Three belongs to Jupiter, seven to Neptune, eleven to awakening \u2014 each ignites when its ruler stirs. Right now, Jupiter blazes through fiery Leo as Mars in Gemini sextiles Jupiter on August 24 \u2014 a luck portal opens for dates reducing to 3, 7, or 21. In love, the August 28 lunar eclipse in Pisces draws someone whose birthday matches your number straight into your 7th House \u2014 fated commitment energy. Money-wise, sign contracts on a three or twenty-one day; Mars fires your 10th House, bringing an offer within nine days. Saturn retrograde in Aries punishes greedy gambles, while Chiron retrograde resurfaces old scarcity wounds. Under the North Node in Aquarius, your karmic lesson is shared abundance \u2014 never hoarded luck. Write your number in emerald green. Comment your sign below \u2014 I'll reveal your code.",
+    "script_text": "Are you ready to unlock the hidden code of your destiny? This celestial alignment is a rare Jupiter\u2011Saturn trine in your 1st House, amplifying your innate charisma. It marks a convergence of planetary forces that reshape your personal timeline. Lucky Numbers, ruled by Jupiter and infused with Fire, will feel this expansion most acutely. In the 7th House, Venus squares Mars, igniting passionate yet turbulent romance, while a Mercury\u2011Neptune sextile in the 10th House offers a subtle boost to your career finances. A concurrent Saturn square to your natal Moon may trigger emotional testing, demanding resilience. The shadow side warns that a Retrograde North Node may pull you into old patterns, demanding you confront Chiron's wound within. This karmic current could surface unresolved emotions from past lives, urging integration. To survive this surge, focus on grounded actions and avoid impulsive risks. Embrace the energy, and watch your fortunes unfold.",
     "captions_structure": [
         {
             "text": "LUCKY NUMBERS ALERT",
             "type": "header"
         },
         {
-            "text": "Stop scrolling \u2014 if 11:11 keeps finding you, the cosmos is calling tonight.",
+            "text": "Are you ready to unlock the hidden code of your destiny? This celestial alignment is a rare Jupiter\u2011Saturn trine in your 1st House, amplifying your innate charisma. It marks a convergence of planetary forces that reshape your personal timeline. Lucky Numbers, ruled by Jupiter and infused with Fire, will feel this expansion most acutely. In the 7th House, Venus squares Mars, igniting passionate yet turbulent romance, while a Mercury\u2011Neptune sextile in the 10th House offers a subtle boost to your career finances. A concurrent Saturn square to your natal Moon may trigger emotional testing, demanding resilience. The shadow side warns that a Retrograde North Node may pull you into old patterns, demanding you confront Chiron's wound within. This karmic current could surface unresolved emotions from past lives, urging integration. To survive this surge, focus on grounded actions and avoid impulsive risks. Embrace the energy, and watch your fortunes unfold.",
             "type": "normal"
-        },
-        {
-            "text": "Three belongs to Jupiter, seven to Neptune, eleven to awakening.",
-            "type": "normal"
-        },
-        {
-            "text": "A luck portal opens for dates reducing to 3, 7, or 21.",
-            "type": "emphasis"
-        },
-        {
-            "text": "In love, the August 28 lunar eclipse draws someone fated into your 7th House.",
-            "type": "normal"
-        },
-        {
-            "text": "Sign contracts on a 3 or 21 day \u2014 an offer comes within nine days.",
-            "type": "emphasis"
-        },
-        {
-            "text": "Your karmic lesson is shared abundance \u2014 never hoarded luck.",
-            "type": "normal"
-        },
-        {
-            "text": "Comment your sign below \u2014 I'll reveal your code.",
-            "type": "cta"
         }
     ],
     "lucky_numbers": [
-        "3",
         "7",
+        "11",
         "21"
     ],
     "lucky_color": "Emerald Green",
-    "monthly_vibe": "Fated Alignment",
-    "title": "The Cosmos Is Dialing Lucky Numbers Tonight",
-    "youtube_title": "Why You Keep Seeing 11:11 \u2014 Lucky Numbers #shorts",
-    "youtube_description": "If 11:11 keeps appearing, Jupiter in fiery Leo and Mars in Gemini are opening a rare luck portal just for you. Inside, I reveal which dates carry money magic, why the August 28 lunar eclipse could deliver a fated love match through your 7th House, and the greedy trap Saturn retrograde wants you to avoid. Comment your sign below for your personal number decoding.",
+    "monthly_vibe": "Reflective & Calm",
+    "title": "The Stars Are Warning Lucky Numbers",
+    "youtube_title": "Lucky Numbers \u2014 Don't Ignore This #shorts",
+    "youtube_description": "Are you ready to discover how the cosmos is aligning for Lucky Numbers today? This video reveals a rare Jupiter\u2011Saturn trine that could transform your love life and career. Comment your sign to receive a personalized insight.",
     "youtube_tags": [
-        "astrology",
-        "horoscope",
         "lucky numbers",
-        "numerology",
-        "jupiter in leo",
-        "1111 meaning",
-        "angel numbers",
-        "daily horoscope",
-        "astrology predictions",
-        "manifestation",
-        "zodiac signs",
-        "cosmic energy"
+        "jupiter transit",
+        "venus square mars",
+        "career horoscope",
+        "love prediction",
+        "retrograde north node",
+        "chiron aspect",
+        "first house",
+        "seventh house",
+        "tenth house",
+        "fire element",
+        "astrology guide"
     ],
     "type": "special",
     "target": "Lucky Numbers",
-    "date": "2026-08-24",
+    "date": "2026-08-25",
     "images": [],
     "active": true,
     "status": "pending",

@@ -1,70 +1,66 @@
 {
-  "script_text": "Stop scrolling, Pisces \u2014 the stars are quietly rewriting your bank account this week. Taskmaster Saturn sits retrograde in Aries, activating your 2nd House of Money and demanding a brutal audit of every dollar you've ignored since spring. Meanwhile, your ruling planet Neptune drifts through that same house, blurring financial boundaries \u2014 and as a mutable water sign, you're absorbing all of it. Tonight, the waxing Moon crosses your 12th House of Secrets, charging toward the year's only Full Moon in Pisces this Friday. In love, Venus in Libra illuminates your 8th House of Intimacy: expect someone to confess feelings or propose merging finances \u2014 take neither lightly. Career-wise, lucky Jupiter in your 6th House of Daily Work forms a sextile to Venus \u2014 a raise or freelance windfall lands before Friday. Warning: don't lend money today. Follow now \u2014 Friday's Full Moon reading reveals what Saturn's been hiding.",
+  "script_text": "Stop! Pisces, the stars are screaming at you right now. Neptune, your ruling water planet, is forming a tense square to Mars in your 7th House of Partnerships, creating friction in your relationships today. This aspect demands direct communication, as hidden resentments could surface. If you're single, the cosmic energy is urging you to attract a partner who values your dreamy depth; if you're taken, watch for power struggles with your partner over shared responsibilities. Your 10th House of career is lit up by a Jupiter trine, signaling a sudden opportunity for advancement or a financial windfall from a creative project. Avoid making major commitments today, as the Neptune-Mars square could cloud your judgment and lead to regret; instead, trust your intuition when it comes to financial decisions. Follow for tomorrow's reading and subscribe so you don't miss what's coming this week.",
   "captions_structure": [
     {
       "text": "PISCES ALERT",
       "type": "header"
     },
     {
-      "text": "Stop scrolling, Pisces \u2014 the stars are quietly rewriting your bank account this week.",
+      "text": "Stop! Pisces, the stars are screaming at you right now.",
       "type": "normal"
     },
     {
-      "text": "Saturn retrograde in your 2nd House of Money demands a brutal audit.",
-      "type": "emphasis"
-    },
-    {
-      "text": "Neptune, your ruler, is blurring those financial boundaries.",
+      "text": "Neptune, your ruling water planet, is forming a tense square to Mars in your 7th House of Partnerships, creating friction in your relationships today.",
       "type": "normal"
     },
     {
-      "text": "The Moon charges toward the year's ONLY Full Moon in Pisces \u2014 Friday.",
-      "type": "emphasis"
-    },
-    {
-      "text": "Venus in your 8th House: a confession or a proposal to merge finances.",
+      "text": "This aspect demands direct communication, as hidden resentments could surface.",
       "type": "normal"
     },
     {
-      "text": "Jupiter sextile Venus \u2014 a raise or windfall lands before Friday.",
-      "type": "emphasis"
+      "text": "If you're single, the cosmic energy is urging you to attract a partner who values your dreamy depth; if you're taken, watch for power struggles with your partner over shared responsibilities.",
+      "type": "normal"
     },
     {
-      "text": "Warning: do NOT lend money today.",
-      "type": "warning"
+      "text": "Your 10th House of career is lit up by a Jupiter trine, signaling a sudden opportunity for advancement or a financial windfall from a creative project.",
+      "type": "normal"
     },
     {
-      "text": "Follow for Friday's Full Moon reveal.",
-      "type": "cta"
+      "text": "Avoid making major commitments today, as the Neptune-Mars square could cloud your judgment and lead to regret; instead, trust your intuition when it comes to financial decisions.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for tomorrow's reading and subscribe so you don't miss what's coming this week.",
+      "type": "normal"
     }
   ],
   "lucky_numbers": [
-    "3",
-    "12",
-    "28"
+    "7",
+    "11",
+    "21"
   ],
-  "lucky_color": "Seafoam Green",
-  "monthly_vibe": "Reveal & Release",
-  "title": "Pisces: Saturn Just Exposed Your Blind Spot",
-  "youtube_title": "Pisces: Saturn Just Exposed Your Blind Spot #shorts",
-  "youtube_description": "Pisces, Saturn is sitting retrograde in your money house right now \u2014 auditing everything you've avoided facing since spring. Today I reveal why Friday's Full Moon in YOUR sign will drag a hidden truth into the light, especially in love and finances. Comment your sign below so the universe knows where to send this energy.",
+  "lucky_color": "Emerald Green",
+  "monthly_vibe": "Reflective & Calm",
+  "title": "Pisces Daily Horoscope August 25, 2026",
+  "youtube_title": "Something Big Is Coming for Pisces #shorts",
+  "youtube_description": "Pisces, today's sky holds a powerful message for you. Neptune's square to Mars is shaking up your partnerships, and Jupiter is ready to boost your career. Comment your sign to unlock your personalized reading.",
   "youtube_tags": [
     "pisces horoscope",
+    "daily astrology",
+    "neptune transit",
+    "mars square",
+    "love prediction",
+    "career guidance",
+    "water sign",
+    "august 2026 horoscope",
+    "cosmic energy",
+    "astrology tips",
     "pisces daily",
-    "daily horoscope",
-    "astrology today",
-    "zodiac signs",
-    "full moon pisces",
-    "saturn retrograde",
-    "water signs",
-    "neptune energy",
-    "venus transit",
-    "cosmic forecast",
-    "money horoscope"
+    "horoscope today"
   ],
   "type": "daily",
   "target": "Pisces",
-  "date": "August 24, 2026",
+  "date": "August 25, 2026",
   "images": [
     "assets/zodiac_signs/Pisces.jpg"
   ],
