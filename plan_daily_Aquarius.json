@@ -1,60 +1,70 @@
 {
-  "script_text": "Stop! Aquarius, Saturn is forming a tense square to Uranus in your 8th House of Shared Resources, forcing you to confront hidden debts and transform rigid structures through sudden revelation. Mercury forms a challenging aspect to your ruling planet Uranus in the 9th House of Higher Learning, bringing abrupt intellectual breakthroughs and urgent communication needs. In love, expect a rare moment of profound connection as old patterns dissolve, inviting you to explore unconventional partnerships that honor your independent spirit. For career, the 10th House shows transformation opportunities as you shed outdated identities and embrace innovative leadership roles. Avoid clinging to familiar routines that no longer serve your growth; instead, trust the disruption as a catalyst for genuine progress. Subscribe so you don't miss what's coming this week.",
+  "script_text": "Aquarius, stop scrolling \u2014 the cosmos just flipped your entire script. Right now, transformative Pluto sits deep in your 1st House of Self, forming a rare trine with your ruling planet Uranus, currently charging through your 5th House of Romance. Today, the Moon slides into airy Aquarius \u2014 your element \u2014 to join Pluto, electrifying everything you touch, and this alignment won't repeat for decades. In love? Single Water Bearers, a familiar face turns unexpectedly magnetic tonight \u2014 this is not a drill. Attached? Expect a spontaneous confession that reignites the spark. Money-wise, sharp Mercury in Virgo activates your 8th House of Shared Resources: a delayed payment, debt settlement, or stalled investment finally clears \u2014 confirm it before month's end. One warning: don't let fixed-sign pride sabotage a door swinging wide open today. Follow me now so tomorrow's potent Full Moon reading reaches you first.",
   "captions_structure": [
     {
-      "text": "AQUARIUS",
+      "text": "AQUARIUS ALERT",
       "type": "header"
     },
     {
-      "text": "Stop! Aquarius, Saturn is forming a tense square to Uranus in your 8th House of Shared Resources, forcing you to confront hidden debts and transform rigid structures through sudden revelation.",
+      "text": "Aquarius, stop scrolling \u2014 the cosmos just flipped your entire script.",
       "type": "normal"
     },
     {
-      "text": "Mercury forms a challenging aspect to your ruling planet Uranus in the 9th House of Higher Learning, bringing abrupt intellectual breakthroughs and urgent communication needs.",
+      "text": "Pluto in your 1st House forms a rare trine with your ruler Uranus in the 5th House of Romance.",
+      "type": "highlight"
+    },
+    {
+      "text": "Today the Moon joins Pluto in Aquarius \u2014 your element \u2014 electrifying everything.",
       "type": "normal"
     },
     {
-      "text": "In love, expect a rare moment of profound connection as old patterns dissolve, inviting you to explore unconventional partnerships that honor your independent spirit.",
+      "text": "Single? A familiar face turns magnetic tonight.",
+      "type": "highlight"
+    },
+    {
+      "text": "Attached? Expect a spontaneous confession that reignites the spark.",
       "type": "normal"
     },
     {
-      "text": "For career, the 10th House shows transformation opportunities as you shed outdated identities and embrace innovative leadership roles.",
-      "type": "normal"
+      "text": "Mercury in Virgo activates your 8th House \u2014 delayed money finally clears.",
+      "type": "highlight"
     },
     {
-      "text": "Avoid clinging to familiar routines that no longer serve your growth; instead, trust the disruption as a catalyst for genuine progress.",
-      "type": "normal"
+      "text": "Warning: don't let fixed-sign pride sabotage a door opening today.",
+      "type": "warning"
     },
     {
-      "text": "Subscribe so you don't miss what's coming this week.",
-      "type": "normal"
+      "text": "Follow for tomorrow's Full Moon reading!",
+      "type": "cta"
     }
   ],
   "lucky_numbers": [
-    "7",
-    "11",
-    "21"
+    "4",
+    "17",
+    "38"
   ],
-  "lucky_color": "Emerald Green",
-  "monthly_vibe": "Reflective & Calm",
-  "title": "Aquarius \u2014 Cosmic Shift Approaching",
-  "youtube_title": "Cosmic Shift for Aquarius #shorts",
-  "youtube_description": "Discover how Uranus' square to Saturn in your 8th House will reshape your shared resources and open doors to transformative education. This reading reveals the exact timing of your breakthrough communication and the path forward for both love and career.",
+  "lucky_color": "Electric Teal",
+  "monthly_vibe": "Electric Transformation",
+  "title": "Aquarius Daily Horoscope August 26, 2026",
+  "youtube_title": "The Stars Just Flipped Aquarius' Script #shorts",
+  "youtube_description": "Aquarius, Pluto is parked in your 1st House right now, forming a rare trine to your ruler Uranus \u2014 and today the Moon joins it, supercharging your magnetism. A love surprise and long-delayed money are both in motion for you. Watch for the one mistake that could cost you everything, and comment your sign below!",
   "youtube_tags": [
     "aquarius horoscope",
-    "cosmic shift",
-    "air sign",
-    "relationship insight",
-    "career transformation",
-    "emerald green",
-    "reflective energy",
-    "unexpected blessing",
-    "disruption growth",
-    "mental clarity"
+    "aquarius daily",
+    "daily horoscope",
+    "astrology",
+    "horoscope today",
+    "aquarius today",
+    "pluto in aquarius",
+    "zodiac signs",
+    "astrology predictions",
+    "aquarius love",
+    "aquarius money",
+    "full moon august"
   ],
   "type": "daily",
   "target": "Aquarius",
-  "date": "August 25, 2026",
+  "date": "August 26, 2026",
   "images": [
     "assets/zodiac_signs/Aquarius.jpg"
   ],
