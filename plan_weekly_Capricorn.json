@@ -1,82 +1,44 @@
 {
-  "script_text": "Capricorn, this week brings a confession, a contract, and a curveball. Your ruler Saturn, retrograde in Aries in your fourth house, stirs family ghosts. Monday stings: Mars, newly in Cancer and your seventh house, squares Neptune, blurring a partner's motives. Tuesday, the Moon crosses Capricorn, restoring your iron will. Wednesday's Mercury-Uranus square, Virgo to Gemini, cracks a rigid plan across your ninth and sixth houses \u2014 the forced pivot is the gift. Thursday, Venus dignified in Libra shines through your tenth house \u2014 visible career praise; push forward. Friday's Full Moon in Pisces lights your third house \u2014 the awaited message or offer lands. Weekend Moon in Aries turns things homeward \u2014 recharge. Thursday is your power day because Venus rules Libra from your tenth-house career stage. Monday is your worst day, drowned in Mars-Neptune fog. Verify every detail twice; precision is your earth-sign edge. Follow for daily updates.",
-  "captions_structure": [
-    {
-      "text": "CAPRICORN ALERT",
-      "type": "header"
-    },
-    {
-      "text": "This week brings a confession, a contract, and a curveball.",
-      "type": "normal"
-    },
-    {
-      "text": "Your ruler Saturn, retrograde in Aries, sits in your 4th house \u2014 family ghosts stir.",
-      "type": "normal"
-    },
-    {
-      "text": "Monday: Mars in your 7th house squares Neptune. Don't assume \u2014 verify a partner's motives.",
-      "type": "normal"
-    },
-    {
-      "text": "Tuesday: the Moon crosses Capricorn. Your iron will returns.",
-      "type": "normal"
-    },
-    {
-      "text": "Wednesday: Mercury-Uranus square cracks a rigid plan across your 9th and 6th houses.",
-      "type": "normal"
-    },
-    {
-      "text": "Thursday: Venus in Libra beams through your 10th house \u2014 visible career praise.",
-      "type": "normal"
-    },
-    {
-      "text": "Friday's Full Moon in Pisces lights your 3rd house \u2014 the awaited message or offer lands.",
-      "type": "normal"
-    },
-    {
-      "text": "Weekend: Moon in Aries pulls you homeward. Recharge.",
-      "type": "normal"
-    },
-    {
-      "text": "POWER DAY: Thursday | AVOID: Monday",
-      "type": "header"
-    },
-    {
-      "text": "Precision is your earth-sign edge. Follow for daily updates.",
-      "type": "normal"
-    }
-  ],
-  "lucky_numbers": [
-    "4",
-    "17",
-    "28"
-  ],
-  "lucky_color": "Forest Green",
-  "monthly_vibe": "Grounded Ambition",
-  "title": "Capricorn: A Confession, a Contract, a Curveball",
-  "youtube_title": "Capricorn, Don't Sign Anything Before Friday #shorts",
-  "youtube_description": "Capricorn, Mars has just entered your seventh house, and Monday's Mars-Neptune square could blur a partner's true intentions \u2014 don't assume, verify. By Thursday, Venus in Libra crowns your tenth house of career with rare recognition, and Friday's Full Moon in Pisces delivers the message or offer you've been waiting on. Comment your sign below and follow for daily cosmic guidance.",
-  "youtube_tags": [
-    "capricorn horoscope",
-    "weekly horoscope",
-    "astrology",
-    "zodiac signs",
-    "august horoscope",
-    "full moon in pisces",
-    "venus in libra",
-    "saturn retrograde",
-    "career horoscope",
-    "love horoscope",
-    "earth signs",
-    "mars in cancer"
-  ],
-  "type": "weekly",
-  "target": "Capricorn",
-  "date": "Aug 24 - Aug 30",
-  "images": [
-    "assets/zodiac_signs/Capricorn.jpg"
-  ],
-  "active": true,
-  "status": "uploaded",
-  "file_name": "plan_weekly_Capricorn.json"
+    "script_text": "Stop everything, Capricorn, because Saturn is forcing a massive awakening this week. Monday through Wednesday, Mars squares Uranus in your 10th House, creating sudden career disruptions and impulsive money decisions. Saturn trines your natal Venus in the 7th House, bringing romantic stability despite the chaos. Tuesday is your absolute worst day because this tense aspect peaks. The turning point occurs when the Sun enters your 7th House, shifting your focus entirely to partnerships. From Thursday through Sunday, Venus sextiles Saturn, smoothing your professional path and attracting wealthy admirers. Your weekend is filled with harmonious energy, rewarding your patience with tangible Earth element manifestations. Wednesday is your power day because the Sun trines your natal Mercury in the 11th House. Tuesday is your worst day because of the Mars-Uranus square. Trust your powerful Saturnian discipline to navigate any sudden shifts without panic. Follow for daily updates.",
+    "captions_structure": [
+        {
+            "text": "CAPRICORN",
+            "type": "header"
+        },
+        {
+            "text": "Stop everything, Capricorn, because Saturn is forcing a massive awakening this week.",
+            "type": "normal"
+        }
+    ],
+    "lucky_numbers": [
+        "4",
+        "12",
+        "27"
+    ],
+    "lucky_color": "Slate Blue",
+    "monthly_vibe": "Disciplined & Grounded",
+    "title": "Capricorn \u2014 The Stars Demand This Radical Shift",
+    "youtube_description": "This week brings intense career shifts and romantic breakthroughs for Capricorn. Saturn and Venus align to test your patience but reward your discipline. Comment your sign to see how these transits affect you.",
+    "youtube_tags": [
+        "capricorn",
+        "capricorn weekly",
+        "saturn transit",
+        "mars square uranus",
+        "astrology forecast",
+        "horoscope today",
+        "earth sign",
+        "7th house transit",
+        "venus sextile saturn",
+        "zodiac predictions",
+        "astrology tips"
+    ],
+    "type": "weekly",
+    "target": "Capricorn",
+    "date": "Aug 27 - Sep 02",
+    "images": [
+        "assets/zodiac_signs/Capricorn.jpg"
+    ],
+    "active": true,
+    "status": "pending",
+    "file_name": "plan_weekly_Capricorn.json"
 }
