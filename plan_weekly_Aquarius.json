@@ -1,70 +1,46 @@
 {
-    "script_text": "Aquarius, this week the stars are rearranging your entire reality, demanding your quick air element wit. Early on, Monday brings a tense square between Mars in your 10th House of career and Saturn in your 7th House of partnerships, creating professional friction and relationship delays. Tuesday eases slightly as Venus in your 11th House trines Uranus, bringing unexpected social breakthroughs. The major midweek turning point hits on Wednesday when the Sun trines your ruling planet Uranus in the 1st House, injecting sudden confidence and bold inspiration directly into your personal life. By late week, Mars enters your 11th House of social circles, opening doors to lucrative career networks and collaborative love opportunities. Wednesday is your power day because the Sun trines Uranus in your 1st House, while Monday is your worst day due to the stressful Mars Saturn square. Embrace your intuitive flashes, Aquarius, and follow for daily updates.",
-    "captions_structure": [
-        {
-            "text": "AQUARIUS ALERT",
-            "type": "header"
-        },
-        {
-            "text": "Aquarius, this week the stars are rearranging your entire reality, demanding your quick air element wit.",
-            "type": "normal"
-        },
-        {
-            "text": "Early on, Monday brings a tense square between Mars in your 10th House of career and Saturn in your 7th House of partnerships, creating professional friction and relationship delays.",
-            "type": "normal"
-        },
-        {
-            "text": "Tuesday eases slightly as Venus in your 11th House trines Uranus, bringing unexpected social breakthroughs.",
-            "type": "normal"
-        },
-        {
-            "text": "The major midweek turning point hits on Wednesday when the Sun trines your ruling planet Uranus in the 1st House, injecting sudden confidence and bold inspiration directly into your personal life.",
-            "type": "normal"
-        },
-        {
-            "text": "By late week, Mars enters your 11th House of social circles, opening doors to lucrative career networks and collaborative love opportunities.",
-            "type": "normal"
-        },
-        {
-            "text": "Wednesday is your power day because the Sun trines Uranus in your 1st House, while Monday is your worst day due to the stressful Mars Saturn square.",
-            "type": "normal"
-        },
-        {
-            "text": "Embrace your intuitive flashes, Aquarius, and follow for daily updates.",
-            "type": "normal"
-        }
-    ],
-    "lucky_numbers": [
-        "7",
-        "11",
-        "21"
-    ],
-    "lucky_color": "Electric Blue",
-    "monthly_vibe": "Cosmic Realignment",
-    "title": "Aquarius Weekly Horoscope August 26, 2026",
-    "youtube_title": "Aquarius \u2014 The Stars Are Rearranging Your Life #shorts",
-    "youtube_description": "Aquarius, the cosmic currents are shifting dramatically this week, and your ruling planet Uranus is ready to inject sudden confidence and bold inspiration directly into your personal life. Are you ready to embrace the unexpected social breakthroughs and lucrative career networks coming your way? Comment your sign below to claim your weekly fortune.",
-    "youtube_tags": [
-        "aquarius weekly horoscope",
-        "august 2026 astrology",
-        "uranus transit aquarius",
-        "career and love forecast",
-        "air element horoscope",
-        "weekly cosmic shifts",
-        "aquarius fortune teller",
-        "astrology predictions 2026",
-        "venus trine aquarius",
-        "mars square saturn",
-        "aquarius weekly luck",
-        "horoscope august september"
-    ],
-    "type": "weekly",
-    "target": "Aquarius",
-    "date": "Aug 26 - Sep 01",
-    "images": [
-        "assets/zodiac_signs/Aquarius.jpg"
-    ],
-    "active": true,
-    "status": "pending",
-    "file_name": "plan_weekly_Aquarius.json"
+  "script_text": "Big cosmic shifts accelerate this week, Aquarius, as your ruling planet Uranus drives the charge. Early on, Venus in your 5th House of romance trines Uranus, sparking sudden romance and creative breakthroughs. However, Wednesday brings a stressful square between Mars in your 10th House of career and Saturn in your 7th House of partnerships, signaling professional friction. The key shift happens mid-week as Mercury squares Pluto, forcing honest conversations that transform your routine. The energy shifts by Thursday as Jupiter in your 9th House sextiles Mars, opening expansion opportunities for a hopeful weekend. Wednesday is your power day because Venus enters your 5th House, but Tuesday is your worst day due to a tense communication opposition. Embrace the electrical energy of your air element and channel your brilliant ideas into concrete, actionable steps this week. Follow for daily updates to navigate these powerful cosmic currents.",
+  "captions_structure": [
+    {
+      "text": "AQUARIUS ALERT",
+      "type": "header"
+    },
+    {
+      "text": "Big cosmic shifts accelerate this week, Aquarius, as your ruling planet Uranus drives the charge.",
+      "type": "normal"
+    }
+  ],
+  "lucky_numbers": [
+    "7",
+    "11",
+    "21"
+  ],
+  "lucky_color": "Electric Blue",
+  "monthly_vibe": "Dynamic Shifts",
+  "title": "Aquarius Weekly Horoscope August 27, 2026",
+  "youtube_title": "Aquarius: Big Cosmic Shifts Are Coming This Week #shorts",
+  "youtube_description": "Aquarius, the stars are aligning for a week of sudden shifts and major breakthroughs, especially in your career and love life. Discover how Uranus and Jupiter will impact your air element energy this week. Comment your sign below!",
+  "youtube_tags": [
+    "aquarius horoscope",
+    "weekly forecast",
+    "august 2026 astrology",
+    "uranus transit",
+    "venus in 5th house",
+    "career astrology",
+    "love horoscope",
+    "air signs",
+    "aquarius weekly",
+    "cosmic shifts",
+    "astrology forecast",
+    "august horoscope"
+  ],
+  "type": "weekly",
+  "target": "Aquarius",
+  "date": "Aug 27 - Sep 02",
+  "images": [
+    "assets/zodiac_signs/Aquarius.jpg"
+  ],
+  "active": true,
+  "status": "uploaded",
+  "file_name": "plan_weekly_Aquarius.json"
 }

@@ -1,78 +1,45 @@
 {
-    "script_text": "Pisces, Friday's lunar eclipse erupts in YOUR sign \u2014 and it rewrites your love story. Your ruler Neptune sits beside Saturn in your 2nd house of money, so open the week with a brutal budget review. Wednesday shines: Mercury conjunct Jupiter in Leo lights your 6th house \u2014 pitch, negotiate, ask for that raise. Then Friday's partial eclipse at five degrees Pisces opposes the Virgo Sun in your 7th house: a relationship truth surfaces, while its square to Uranus in your 4th stirs sudden home news. The weekend softens: swim, soak, let your water element reset, and by Tuesday Mercury enters Virgo and your 7th, cooling conflict into calm conversation. Sunday is your power day because the Moon joins Saturn and Neptune, grounding money decisions. Avoid Friday's eclipse fog for contracts or confrontations. Feel deeply Friday, but finalize choices once Mercury sharpens your 7th house. Follow for daily updates.",
-    "captions_structure": [
-        {
-            "text": "PISCES",
-            "type": "header"
-        },
-        {
-            "text": "Friday's lunar eclipse erupts in YOUR sign",
-            "type": "normal"
-        },
-        {
-            "text": "Ruler Neptune + Saturn demand a money reality check",
-            "type": "normal"
-        },
-        {
-            "text": "Wednesday: Mercury conjunct Jupiter \u2014 ask for the raise",
-            "type": "normal"
-        },
-        {
-            "text": "Eclipse at 5\u00b0 Pisces opposes the Sun in your 7th House",
-            "type": "normal"
-        },
-        {
-            "text": "A relationship truth surfaces",
-            "type": "normal"
-        },
-        {
-            "text": "Square Uranus in your 4th House = sudden home news",
-            "type": "normal"
-        },
-        {
-            "text": "Sunday is your power day",
-            "type": "normal"
-        },
-        {
-            "text": "Sign nothing during Friday's eclipse fog",
-            "type": "normal"
-        },
-        {
-            "text": "Follow for daily updates",
-            "type": "normal"
-        }
-    ],
-    "lucky_numbers": [
-        "5",
-        "17",
-        "28"
-    ],
-    "lucky_color": "Moonlit Silver",
-    "monthly_vibe": "Emotional Reset",
-    "title": "Pisces Weekly: An Eclipse Rewrites Your Story",
-    "youtube_title": "This Week Rewrites Pisces' Love Story #shorts",
-    "youtube_description": "Pisces, a rare lunar eclipse lands in YOUR sign on August 28 \u2014 and it's exposing a relationship truth you can't unsee. I also pinpointed the exact day to ask for the raise, thanks to Mercury meeting Jupiter in your 6th house. Watch before Friday and comment your sign below!",
-    "youtube_tags": [
-        "pisces horoscope",
-        "pisces weekly horoscope",
-        "astrology",
-        "horoscope today",
-        "lunar eclipse pisces",
-        "pisces love horoscope",
-        "zodiac signs",
-        "astrology forecast",
-        "pisces career",
-        "august 2026 astrology",
-        "mercury jupiter",
-        "water sign"
-    ],
-    "type": "weekly",
-    "target": "Pisces",
-    "date": "Aug 26 - Sep 01",
-    "images": [
-        "assets/zodiac_signs/Pisces.jpg"
-    ],
-    "active": true,
-    "status": "pending",
-    "file_name": "plan_weekly_Pisces.json"
+  "script_text": "The watery energies of Pisces face a week where Jupiter's influence clashes with Neptune's currents, creating tension between expansion and transformation. Monday through Wednesday brings squares from Neptune in Capricorn to your 8th House while Jupiter in Libra trines your 5th House, giving you inspiration but sensitivity. Tuesday's opposition from Pluto in Scorpio tests your boundaries, making Thursday the hardest day as Neptune's illusions cloud judgment. Mid-week, Jupiter's grand trine to your 10th House of public image arrives, shifting focus toward career recognition and financial opportunities. Thursday through Sunday sees Uranus in Aquarius spark breakthroughs, while the energy settles into calm reflection by Sunday evening. Wednesday is your power day because Venus enters your 5th House; Friday is your worst day due to Neptune's disillusionment. Trust your intuition when making decisions about relationships and investments. Follow for daily updates.",
+  "captions_structure": [
+    {
+      "text": "PISCES",
+      "type": "header"
+    },
+    {
+      "text": "The watery energies of Pisces face a week where Jupiter's influence clashes with Neptune's currents, creating tension between expansion and transformation.",
+      "type": "normal"
+    }
+  ],
+  "lucky_numbers": [
+    "7",
+    "11",
+    "21"
+  ],
+  "lucky_color": "Emerald Green",
+  "monthly_vibe": "Reflective & Calm",
+  "title": "Pisces Weekly Horizon August 27-September 2, 2026",
+  "youtube_title": "Pisces Weekly Forecast August 27 #shorts",
+  "youtube_description": "This week's cosmic map shows Venus entering your 5th House bringing romantic clarity, while Jupiter's trine to your 10th House opens doors to new career paths. Watch how Neptune's influence tests your emotional resilience.",
+  "youtube_tags": [
+    "pisces horoscope",
+    "water sign",
+    "jupiter transit",
+    "neptune moon",
+    "career guidance",
+    "love and money",
+    "august 2026",
+    "astrology tips",
+    "water energy",
+    "piscine insights",
+    "weekly forecast"
+  ],
+  "type": "weekly",
+  "target": "Pisces",
+  "date": "Aug 27 - Sep 02",
+  "images": [
+    "assets/zodiac_signs/Pisces.jpg"
+  ],
+  "active": true,
+  "status": "uploaded",
+  "file_name": "plan_weekly_Pisces.json"
 }
