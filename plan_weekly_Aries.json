@@ -1,74 +1,45 @@
 {
-  "script_text": "Stop scrolling \u2014 a lunar eclipse is about to rewrite your weekend, Aries. Your ruling planet Mars just entered Gemini and your 3rd House, and Tuesday it trines Pluto in your 11th House: one conversation opens a career door. But Wednesday, Mars squares the Virgo Sun in your 6th House \u2014 workplace chaos, missed details, don't sign contracts. Then Thursday delivers the turning point: Venus in Libra, your 7th House, sextiles Jupiter in Leo, your 5th House \u2014 a once-a-year love blessing. Single? Someone magnetic appears through friends. Attached? Commitment talks go beautifully. Friday's Full Moon lunar eclipse in Pisces floods your 12th House: old emotions surface, so clear space, rest, and release what's finished before Monday. Your fire sign needs recovery time. Tuesday is your power day thanks to Mars-Pluto ambition. Wednesday is your worst \u2014 impulsive words cost money. Pause before reacting; then follow for daily updates.",
-  "captions_structure": [
-    {
-      "text": "ARIES",
-      "type": "header"
-    },
-    {
-      "text": "Stop scrolling \u2014 a lunar eclipse is about to rewrite your weekend, Aries.",
-      "type": "normal"
-    },
-    {
-      "text": "Your ruling planet Mars just entered Gemini and your 3rd House, and Tuesday it trines Pluto in your 11th House: one conversation opens a career door.",
-      "type": "normal"
-    },
-    {
-      "text": "But Wednesday, Mars squares the Virgo Sun in your 6th House \u2014 workplace chaos, missed details, don't sign contracts.",
-      "type": "normal"
-    },
-    {
-      "text": "Thursday delivers the turning point: Venus in Libra, your 7th House, sextiles Jupiter in Leo, your 5th House \u2014 a once-a-year love blessing.",
-      "type": "normal"
-    },
-    {
-      "text": "Single? Someone magnetic appears through friends. Attached? Commitment talks go beautifully.",
-      "type": "normal"
-    },
-    {
-      "text": "Friday's Full Moon lunar eclipse in Pisces floods your 12th House \u2014 clear space, rest, release what's finished.",
-      "type": "normal"
-    },
-    {
-      "text": "Tuesday is your power day. Wednesday is your worst.",
-      "type": "normal"
-    },
-    {
-      "text": "Pause before reacting; then follow for daily updates.",
-      "type": "normal"
-    }
-  ],
-  "lucky_numbers": [
-    "3",
-    "18",
-    "27"
-  ],
-  "lucky_color": "Crimson Red",
-  "monthly_vibe": "Bold Release",
-  "title": "Aries \u2014 This Eclipse Rewrites Your Week",
-  "youtube_title": "This Eclipse Rewrites Aries' Week #shorts",
-  "youtube_description": "Aries, Mars just shifted into your communication sector \u2014 but the real story is Friday's lunar eclipse hitting your 12th House of closure. I'm breaking down the exact day a single conversation could open a major career door, plus a rare Venus-Jupiter blessing for your love life. Comment your sign below.",
-  "youtube_tags": [
-    "aries horoscope",
-    "weekly astrology",
-    "astrology forecast",
-    "lunar eclipse",
-    "aries weekly",
-    "zodiac signs",
-    "horoscope today",
-    "venus transit",
-    "mars astrology",
-    "fire signs",
-    "astrology tips",
-    "cosmic energy"
-  ],
-  "type": "weekly",
-  "target": "Aries",
-  "date": "Aug 23 - Aug 29",
-  "images": [
-    "assets/zodiac_signs/Aries.jpg"
-  ],
-  "active": true,
-  "status": "uploaded",
-  "file_name": "plan_weekly_Aries.json"
+    "script_text": "Stop everything, because Saturn\u2019s strict square to your ruling Mars ignites an unavoidable crisis in your 10th House of career this week. Monday and Tuesday bring heavy Saturnine pressure, making them your worst days as very intense financial disputes stall your professional progress. However, Wednesday shifts as Venus enters your 7th House of love, trining Jupiter in Cancer to manifest a truly beautiful romantic connection through a mutual friend. The cosmic turning point arrives Thursday when Mars trines Uranus in your 2nd House, sparking sudden financial breakthrough. This fiery alignment carries into the weekend. It transforms professional tension into explosive monetary gains. Wednesday is your power day because Venus trines Jupiter in your 7th House. Tuesday is your worst day due to Saturn squaring your natal Mars. Harness this Fire element energy by releasing control over your career and trusting these sudden alignments. Follow for daily horoscope updates.",
+    "captions_structure": [
+        {
+            "text": "ARIES",
+            "type": "header"
+        },
+        {
+            "text": "Stop everything, because Saturn\u2019s strict square to your ruling Mars ignites an unavoidable crisis in your 10th House of career this week.",
+            "type": "normal"
+        }
+    ],
+    "lucky_numbers": [
+        "7",
+        "11",
+        "21"
+    ],
+    "lucky_color": "Emerald Green",
+    "monthly_vibe": "Reflective & Calm",
+    "title": "Aries \u2014 Don't Ignore This Saturn Shift",
+    "youtube_description": "Saturn is forcing a major career crisis for Aries this week, but Venus brings unexpected romantic breakthroughs. Discover how Mars trines Uranus will spark sudden financial gains. Comment your sign below to see how the stars align for you!",
+    "youtube_tags": [
+        "aries",
+        "aries horoscope",
+        "weekly horoscope",
+        "mars transit",
+        "saturn square",
+        "venus trine",
+        "astrology",
+        "cancer astrology",
+        "fire sign",
+        "astrology predictions",
+        "natal chart",
+        "cosmic energy"
+    ],
+    "type": "weekly",
+    "target": "Aries",
+    "date": "Aug 27 - Sep 02",
+    "images": [
+        "assets/zodiac_signs/Aries.jpg"
+    ],
+    "active": true,
+    "status": "pending",
+    "file_name": "plan_weekly_Aries.json"
 }

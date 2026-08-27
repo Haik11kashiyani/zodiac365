@@ -1,82 +1,43 @@
 {
-  "script_text": "Stop scrolling, Taurus \u2014 Friday's lunar eclipse exposes who truly belongs in your inner circle. Monday, your ruling planet Venus sextiles Jupiter from your 6th house to your 4th \u2014 ask for that raise; career doors swing wide. All week the Sun in Virgo lights your 5th house of love, so flirtation turns serious fast. But Wednesday gets heavy as Mercury in Virgo opposes Saturn in your 12th house \u2014 expect delays, don't sign. Thursday clears the fog, then Friday's Partial Lunar Eclipse in Pisces electrifies your 11th house \u2014 a hidden ally steps forward while Uranus in your 2nd drops surprise cash. Weekend Venus square Mars tests patience with a lover. Monday is your power day because Venus sextile Jupiter multiplies every move; Wednesday is your worst for signing anything binding. One actionable tip: ground your earth-sign energy nightly \u2014 journal to decode eclipse messages. Follow for daily updates.",
-  "captions_structure": [
-    {
-      "text": "TAURUS ALERT",
-      "type": "header"
-    },
-    {
-      "text": "Stop scrolling \u2014 Friday's lunar eclipse exposes who belongs in your circle.",
-      "type": "normal"
-    },
-    {
-      "text": "Monday: your ruler Venus sextiles Jupiter \u2014 ask for that raise",
-      "type": "normal"
-    },
-    {
-      "text": "Sun in your 5th house \u2014 flirtation turns serious",
-      "type": "normal"
-    },
-    {
-      "text": "Wednesday: Mercury opposes Saturn \u2014 don't sign anything",
-      "type": "normal"
-    },
-    {
-      "text": "Friday's eclipse hits your 11th house \u2014 hidden ally revealed",
-      "type": "normal"
-    },
-    {
-      "text": "Uranus in your 2nd \u2014 surprise cash lands",
-      "type": "normal"
-    },
-    {
-      "text": "Weekend: Venus square Mars \u2014 lover friction",
-      "type": "normal"
-    },
-    {
-      "text": "Power day: Monday | Worst day: Wednesday",
-      "type": "normal"
-    },
-    {
-      "text": "Journal nightly to decode the eclipse",
-      "type": "normal"
-    },
-    {
-      "text": "Follow for daily updates",
-      "type": "normal"
-    }
-  ],
-  "lucky_numbers": [
-    "6",
-    "14",
-    "28"
-  ],
-  "lucky_color": "Emerald Green",
-  "monthly_vibe": "Eclipse Revelations",
-  "title": "Taurus \u2014 This Eclipse Exposes Everything",
-  "youtube_title": "Taurus \u2014 Don't Ignore Friday's Eclipse #shorts",
-  "youtube_description": "Taurus, your ruling planet Venus locks into a lucky sextile with Jupiter on Monday \u2014 what you ask for could reshape your bank account. But Wednesday's Mercury-Saturn opposition warns against signing anything, and Friday's Partial Lunar Eclipse in your 11th house finally reveals which friends are truly loyal. Comment your sign so I know you're here!",
-  "youtube_tags": [
-    "taurus horoscope",
-    "taurus weekly",
-    "horoscope today",
-    "astrology forecast",
-    "lunar eclipse august",
-    "taurus love",
-    "taurus money",
-    "earth signs",
-    "zodiac energy",
-    "astrology reading",
-    "august 2026",
-    "venus transit"
-  ],
-  "type": "weekly",
-  "target": "Taurus",
-  "date": "Aug 23 - Aug 29",
-  "images": [
-    "assets/zodiac_signs/Taurus.jpg"
-  ],
-  "active": true,
-  "status": "uploaded",
-  "file_name": "plan_weekly_Taurus.json"
+    "script_text": "Taurus, a dramatic cosmic storm is actively rewriting your entire future this very week. Early this week, Venus sextiles Jupiter in your 4th House of home, igniting a profound love connection that brings immense joy. Meanwhile, Mars squares Neptune in your 12th House of hidden secrets, severely draining your career funds on Monday. The turning point arrives now when the Moon enters your 10th House of career, demanding immediate professional action that you absolutely cannot ignore today. Late week brings Venus trine your natal Venus in your 1st House of self, finally restoring your Earth element vitality. This brings confidence across the whole weekend. Wednesday is your power day because the Moon enters your 10th House. Monday is your worst day now because Mars squares Neptune in your 12th House. You must always trust your intuition when managing money this week. Follow for daily updates.",
+    "captions_structure": [
+        {
+            "text": "TAURUS",
+            "type": "header"
+        },
+        {
+            "text": "Taurus, a dramatic cosmic storm is actively rewriting your entire future this very week.",
+            "type": "normal"
+        }
+    ],
+    "lucky_numbers": [
+        "7",
+        "11",
+        "21"
+    ],
+    "lucky_color": "Emerald Green",
+    "monthly_vibe": "Reflective & Calm",
+    "title": "The Stars Are Warning Taurus",
+    "youtube_description": "A dramatic cosmic storm is rewriting your future this week. We uncover the exact Venus and Mars transits impacting your love and career. Comment your sign below.",
+    "youtube_tags": [
+        "taurus horoscope",
+        "weekly horoscope",
+        "astrology",
+        "taurus prediction",
+        "venus transit",
+        "mars square",
+        "love predictions",
+        "career horoscope",
+        "cosmic energy",
+        "earth sign"
+    ],
+    "type": "weekly",
+    "target": "Taurus",
+    "date": "Aug 27 - Sep 02",
+    "images": [
+        "assets/zodiac_signs/Taurus.jpg"
+    ],
+    "active": true,
+    "status": "pending",
+    "file_name": "plan_weekly_Taurus.json"
 }

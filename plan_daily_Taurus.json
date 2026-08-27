@@ -1,74 +1,60 @@
 {
-  "script_text": "Stop scrolling, Taurus \u2014 the universe just moved two heavyweight players onto your board. Your ruling planet, Venus, slipped into grounded Virgo overnight, joining the Sun in your 5th House of Romance and Creative Fire. At the same time, powerhouse Pluto in your 10th House of Career holds a slow-burning square demanding patience, not panic. As a fixed Earth sign, you feel these shifts in your bones. Single? You'll attract someone quiet, observant, and fiercely loyal \u2014 watch whoever offers practical help today. Attached? Guard against Venus-in-Virgo's shadow: criticism disguised as helpfulness could bruise your partner's pride tonight. Money-wise, Mars firing through your 2nd House of Earned Income opens a perfect window to negotiate a raise or chase overdue invoices \u2014 move before Friday. Avoid dissecting a midnight text; clarity arrives tomorrow morning. Bonus blessing: an old colleague surfaces with a financial lead. Follow for tomorrow's reading!",
+  "script_text": "Stop, Taurus, the cosmos is igniting a fierce and undeniable battle in your personal arena! Mars is rapidly sprinting through your 10th House of Career in Aquarius, forming a tense square to your ruling planet Venus in your 4th House of Home in Leo. This Earth element friction forces your ambitious professional goals to violently collide with your domestic comfort zone right now. If you are taken, this friction threatens to spill heavy workplace stress directly into your partnership, requiring immense patience; if single, a captivating but unstable figure enters your life. Expect a sudden financial pivot in your 10th House sector, as a delayed promotion finally clears the air, but you must fiercely defend your newly acquired boundaries at all costs. Avoid signing any contracts today, as a hidden clause threatens to completely reverse your recent professional progress. Follow for tomorrow's reading to see how this intense planetary energy resolves.",
   "captions_structure": [
     {
-      "text": "TAURUS ALERT",
+      "text": "TAURUS",
       "type": "header"
     },
     {
-      "text": "Stop scrolling, Taurus \u2014 the universe just moved two heavyweight players onto your board.",
+      "text": "Stop, Taurus, the cosmos is igniting a fierce and undeniable battle in your personal arena!",
       "type": "normal"
     },
     {
-      "text": "Your ruling planet, Venus, slipped into grounded Virgo overnight, joining the Sun in your 5th House of Romance and Creative Fire.",
+      "text": "Mars is rapidly sprinting through your 10th House of Career in Aquarius, forming a tense square to your ruling planet Venus in your 4th House of Home in Leo. This Earth element friction forces your ambitious professional goals to violently collide with your domestic comfort zone right now.",
       "type": "normal"
     },
     {
-      "text": "Powerhouse Pluto in your 10th House of Career holds a slow-burning square demanding patience, not panic.",
+      "text": "If you are taken, this friction threatens to spill heavy workplace stress directly into your partnership, requiring immense patience; if single, a captivating but unstable figure enters your life.",
       "type": "normal"
     },
     {
-      "text": "Single? You'll attract someone quiet, observant, and fiercely loyal.",
-      "type": "highlight"
+      "text": "Expect a sudden financial pivot in your 10th House sector, as a delayed promotion finally clears the air, but you must fiercely defend your newly acquired boundaries at all costs.",
+      "type": "normal"
     },
     {
-      "text": "Attached? Criticism disguised as helpfulness could bruise your partner's pride tonight.",
-      "type": "warning"
+      "text": "Avoid signing any contracts today, as a hidden clause threatens to completely reverse your recent professional progress.",
+      "type": "normal"
     },
     {
-      "text": "Mars fires through your 2nd House of Earned Income \u2014 negotiate that raise before Friday.",
-      "type": "money"
-    },
-    {
-      "text": "Avoid dissecting a midnight text; clarity arrives tomorrow morning.",
-      "type": "warning"
-    },
-    {
-      "text": "An old colleague surfaces with a financial lead.",
-      "type": "blessing"
-    },
-    {
-      "text": "Follow for tomorrow's reading!",
-      "type": "cta"
+      "text": "Follow for tomorrow's reading to see how this intense planetary energy resolves.",
+      "type": "normal"
     }
   ],
   "lucky_numbers": [
-    "6",
-    "15",
-    "24"
+    "7",
+    "11",
+    "21"
   ],
-  "lucky_color": "Blush Rose",
-  "monthly_vibe": "Grounded Ambition",
-  "title": "Taurus Daily Horoscope August 26, 2026",
-  "youtube_title": "Taurus \u2014 Pluto Is Testing You Today #shorts",
-  "youtube_description": "Taurus, Venus just slipped into your 5th House of Romance while Pluto applies serious pressure in your 10th House of Career \u2014 and Mars is handing you a rare money window you can't afford to miss. Find out why tonight could make or break a relationship moment and exactly when to ask for that raise. Comment your sign below so I know who's watching.",
+  "lucky_color": "Emerald Green",
+  "monthly_vibe": "Reflective & Calm",
+  "title": "Taurus \u2014 Don't Ignore This Warning",
+  "youtube_title": "Taurus \u2014 Don't Ignore This Warning #shorts",
+  "youtube_description": "Mars is squaring Venus in your home sector today, creating unexpected tension. Comment your sign to see how this transit impacts your specific chart.",
   "youtube_tags": [
-    "taurus",
-    "taurus horoscope",
-    "daily horoscope",
     "astrology",
-    "zodiac signs",
-    "venus in virgo",
-    "pluto transit",
-    "love horoscope",
-    "money horoscope",
-    "taurus today",
-    "earth signs",
-    "cosmic energy"
+    "horoscope",
+    "taurus",
+    "venus transit",
+    "mars square",
+    "daily reading",
+    "zodiac predictions",
+    "cosmic energy",
+    "west astrology",
+    "sign forecasts"
   ],
   "type": "daily",
   "target": "Taurus",
-  "date": "August 26, 2026",
+  "date": "August 27, 2026",
   "images": [
     "assets/zodiac_signs/Taurus.jpg"
   ],
