@@ -1,46 +1,43 @@
 {
-  "script_text": "Big cosmic shifts accelerate this week, Aquarius, as your ruling planet Uranus drives the charge. Early on, Venus in your 5th House of romance trines Uranus, sparking sudden romance and creative breakthroughs. However, Wednesday brings a stressful square between Mars in your 10th House of career and Saturn in your 7th House of partnerships, signaling professional friction. The key shift happens mid-week as Mercury squares Pluto, forcing honest conversations that transform your routine. The energy shifts by Thursday as Jupiter in your 9th House sextiles Mars, opening expansion opportunities for a hopeful weekend. Wednesday is your power day because Venus enters your 5th House, but Tuesday is your worst day due to a tense communication opposition. Embrace the electrical energy of your air element and channel your brilliant ideas into concrete, actionable steps this week. Follow for daily updates to navigate these powerful cosmic currents.",
-  "captions_structure": [
-    {
-      "text": "AQUARIUS ALERT",
-      "type": "header"
-    },
-    {
-      "text": "Big cosmic shifts accelerate this week, Aquarius, as your ruling planet Uranus drives the charge.",
-      "type": "normal"
-    }
-  ],
-  "lucky_numbers": [
-    "7",
-    "11",
-    "21"
-  ],
-  "lucky_color": "Electric Blue",
-  "monthly_vibe": "Dynamic Shifts",
-  "title": "Aquarius Weekly Horoscope August 27, 2026",
-  "youtube_title": "Aquarius: Big Cosmic Shifts Are Coming This Week #shorts",
-  "youtube_description": "Aquarius, the stars are aligning for a week of sudden shifts and major breakthroughs, especially in your career and love life. Discover how Uranus and Jupiter will impact your air element energy this week. Comment your sign below!",
-  "youtube_tags": [
-    "aquarius horoscope",
-    "weekly forecast",
-    "august 2026 astrology",
-    "uranus transit",
-    "venus in 5th house",
-    "career astrology",
-    "love horoscope",
-    "air signs",
-    "aquarius weekly",
-    "cosmic shifts",
-    "astrology forecast",
-    "august horoscope"
-  ],
-  "type": "weekly",
-  "target": "Aquarius",
-  "date": "Aug 27 - Sep 02",
-  "images": [
-    "assets/zodiac_signs/Aquarius.jpg"
-  ],
-  "active": true,
-  "status": "uploaded",
-  "file_name": "plan_weekly_Aquarius.json"
+    "script_text": "A shocking and disruptive cosmic storm is about to violently strike your Air element reality this week. From Monday through Wednesday, Mercury sextiles your ruling planet Uranus, sparking brilliant mental clarity. However, Mars squares your sensitive Moon, making Tuesday your absolute worst day due to intense emotional explosions. Wednesday night brings the crucial turning point as the Sun enters Libra and directly opposes your 7th House Uranus, sparking an unexpected love awakening. Thursday through Sunday, Venus enters your 7th House, bringing a sudden romantic breakthrough into your love life. The weekend provides emotional grounding for your restless Air mind. Wednesday is your power day because Mercury conjuncts Jupiter in your 10th House, securing a sudden career breakthrough, whereas Tuesday is your worst day because Mars squares your Moon. Trust your deeply intuitive Air nature to navigate these sudden Uranian shifts gracefully and without any further panic. Follow for daily updates.",
+    "captions_structure": [
+        {
+            "text": "AQUARIUS ALERT",
+            "type": "header"
+        },
+        {
+            "text": "A shocking and disruptive cosmic storm is about to violently strike your Air element reality this week.",
+            "type": "normal"
+        }
+    ],
+    "lucky_numbers": [
+        "7",
+        "11",
+        "21"
+    ],
+    "lucky_color": "Emerald Green",
+    "monthly_vibe": "Reflective & Calm",
+    "title": "Aquarius \u2014 Don't Ignore This Cosmic Warning",
+    "youtube_description": "The stars are aligning for a massive shift this week. With Mercury conjunct Jupiter in your 10th House, a career breakthrough is imminent. Comment your sign to see how the cosmos affects you!",
+    "youtube_tags": [
+        "aquarius horoscope",
+        "weekly astrology",
+        "mercury transit",
+        "cancer moon",
+        "air signs",
+        "uranus transit",
+        "astrology prediction",
+        "love forecast",
+        "career advice",
+        "cosmic energy"
+    ],
+    "type": "weekly",
+    "target": "Aquarius",
+    "date": "Aug 28 - Sep 03",
+    "images": [
+        "assets/zodiac_signs/Aquarius.jpg"
+    ],
+    "active": true,
+    "status": "pending",
+    "file_name": "plan_weekly_Aquarius.json"
 }
