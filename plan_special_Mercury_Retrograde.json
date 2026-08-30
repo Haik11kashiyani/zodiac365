@@ -1,78 +1,73 @@
 {
-    "script_text": "Stop scrolling \u2014 the sky is about to turn your own words against you. On October 24th, Mercury stations retrograde in Scorpio \u2014 an apparent backward drift that occurs when Earth overtakes it in orbit. Ruler of Gemini and Virgo, this airy planet governs messages, contracts, and travel \u2014 and reversed, it scrambles all three. Your 3rd House texts vanish, your 7th House partner mishears you, and 10th House deals stall mid-signature until November 13th. Love? Mid-cycle, when retrograde Mercury fuses with the Sun in exact conjunction, an old lover resurfaces. Money? A payment owed through your 2nd House arrives late \u2014 but it arrives. Karmically, this Retrograde is a cosmic audit. Your North Node drags up unfinished soul contracts while Chiron exposes the wound buried beneath them. Survive it: back up your data, reread every line, choose review over reaction. Comment your sign and follow \u2014 your sign-by-sign survival map drops tomorrow.",
+    "script_text": "Wait \u2014 your phone just glitched, didn't it? Mercury Retrograde is an astrological illusion where Mercury appears to reverse through the zodiac while governing your communication, contracts, and partnerships. As Mercury rules Gemini and Virgo in the Air element, every agreement now carries hidden weight. Saturn forms a square aspect to Mercury, delaying love \u2014 expect an old flame to resurface in your 7th House with unfinished words. Mercury conjunct the South Node squares your 10th House career, exposing a professional secret that shifts your trajectory overnight. The deeper Retrograde reveals Chiron wounds in your 1st House, demanding you face buried communication scars. Only by releasing these attachments tied to your North Node can you reclaim your voice. During this Mercury Retrograde, write every promise and deal in ink \u2014 recorded words survive cosmic confusion. Comment your sign \u2014 the stars will reveal your exact retrograde path.",
     "captions_structure": [
         {
-            "text": "MERCURY RETROGRADE ALERT",
+            "text": "MERCURY RETROGRADE",
             "type": "header"
         },
         {
-            "text": "Stop scrolling \u2014 the sky is about to turn your own words against you.",
+            "text": "Wait \u2014 your phone just glitched, didn't it?",
             "type": "normal"
         },
         {
-            "text": "On October 24th, Mercury stations retrograde in Scorpio.",
+            "text": "Mercury Retrograde is an astrological illusion where Mercury appears to reverse through the zodiac while governing your communication, contracts, and partnerships.",
             "type": "normal"
         },
         {
-            "text": "An apparent backward drift \u2014 caused when Earth overtakes it in orbit.",
+            "text": "As Mercury rules Gemini and Virgo in the Air element, every agreement now carries hidden weight.",
             "type": "normal"
         },
         {
-            "text": "Ruler of Gemini and Virgo, this airy planet governs messages, contracts, and travel \u2014 and reversed, it scrambles all three.",
+            "text": "Saturn forms a square aspect to Mercury, delaying love \u2014 expect an old flame to resurface in your 7th House with unfinished words.",
             "type": "normal"
         },
         {
-            "text": "3rd House texts vanish. 7th House partners mishear you. 10th House deals stall until November 13th.",
+            "text": "Mercury conjunct the South Node squares your 10th House career, exposing a professional secret that shifts your trajectory overnight.",
             "type": "normal"
         },
         {
-            "text": "LOVE: Mid-cycle, retrograde Mercury fuses with the Sun in exact conjunction \u2014 an old lover resurfaces.",
+            "text": "The deeper Retrograde reveals Chiron wounds in your 1st House, demanding you face buried communication scars.",
             "type": "normal"
         },
         {
-            "text": "MONEY: A payment owed through your 2nd House arrives late \u2014 but it arrives.",
+            "text": "Only by releasing these attachments tied to your North Node can you reclaim your voice.",
             "type": "normal"
         },
         {
-            "text": "Karmic audit: your North Node drags up unfinished soul contracts while Chiron exposes the wound beneath.",
+            "text": "During this Mercury Retrograde, write every promise and deal in ink \u2014 recorded words survive cosmic confusion.",
             "type": "normal"
         },
         {
-            "text": "SURVIVAL TIP: Back up your data, reread every line, choose review over reaction.",
-            "type": "normal"
-        },
-        {
-            "text": "Comment your sign and follow \u2014 your sign-by-sign survival map drops tomorrow.",
+            "text": "Comment your sign \u2014 the stars will reveal your exact retrograde path.",
             "type": "normal"
         }
     ],
     "lucky_numbers": [
-        "5",
-        "14",
-        "23"
+        "7",
+        "11",
+        "21"
     ],
-    "lucky_color": "Obsidian Black",
-    "monthly_vibe": "Deep Reflection",
-    "title": "Mercury Retrograde \u2014 Read This Before It Hits",
-    "youtube_title": "Mercury Retrograde Starts Soon \u2014 Are You Ready? #shorts",
-    "youtube_description": "Have your texts been vanishing and your patience thinning lately? On October 24th Mercury stations retrograde in Scorpio, and this reading reveals exactly which houses get scrambled, why an old lover resurfaces at the mid-cycle conjunction, and the one deal you should never sign before November 13th. Comment your sign below for your personal survival window.",
+    "lucky_color": "Emerald Green",
+    "monthly_vibe": "Reflective & Calm",
+    "title": "Mercury Retrograde \u2014 Don't Ignore This",
+    "youtube_description": "The cosmos is about to shake everything you thought you knew about communication. Mercury Retrograde is activating hidden chords in your chart that could change your love life and career forever. Comment your sign below \u2014 the stars are about to speak.",
     "youtube_tags": [
         "mercury retrograde",
         "astrology",
         "horoscope",
-        "retrograde season",
-        "mercury in scorpio",
-        "zodiac signs",
-        "astrology forecast",
-        "retrograde survival",
+        "zodiac predictions",
+        "love horoscope",
+        "career astrology",
+        "mercury transit",
         "cosmic energy",
-        "spiritual awakening",
-        "north node",
-        "chiron healing"
+        "star signs",
+        "daily horoscope",
+        "zodiac guidance",
+        "astrology tips"
     ],
     "type": "special",
     "target": "Mercury Retrograde",
-    "date": "2026-08-23",
+    "date": "2026-08-30",
     "images": [],
     "active": true,
     "status": "pending",
