@@ -1,45 +1,66 @@
 {
-  "script_text": "Gemini, Mercury is about to unleash a sudden mental tremor that will shake your routines to the core. On Monday, Mercury squares the Moon in the 1st House, fogging your emotions and making you quite indecisive. By Wednesday, Mercury enters the 10th House, square with Uranus, causing chaotic shifts and deep insomnia. The turning point is Thursday, when Mercury forms a hard square with the Moon in the 8th House, igniting a psychological surge that tests your intuition. Thursday and Friday, Mercury enters the 7th House, trine Venus, bringing a diplomatic charm that opens a surprising love. Saturday, Mercury enters the 5th House, square Pluto, a potent shift in your creative energy. Wednesday is your power day because Venus enters your 5th House, sparking a romance. Saturday is your worst day because Mercury squares the Sun in the 12th House, creating mental fog that sabotages your plans. Mercury's fire fuels your creative projects, but resist the urge to overthink everything. Follow for daily updates.",
-  "captions_structure": [
-    {
-      "text": "GEMINI",
-      "type": "header"
-    },
-    {
-      "text": "First line of the script...",
-      "type": "normal"
-    }
-  ],
-  "lucky_numbers": [
-    "7",
-    "11",
-    "21"
-  ],
-  "lucky_color": "Emerald Green",
-  "monthly_vibe": "Reflective & Calm",
-  "title": "Gemini Weekly Horoscope August 11, 2026",
-  "youtube_title": "Gemini Horoscope August 11-17 #shorts",
-  "youtube_description": "Gemini, Mercury's energy this week brings a mental tremor, a career shift, and a love spark. What the stars reveal...",
-  "youtube_tags": [
-    "astrology",
-    "horoscope",
-    "gemini",
-    "weekly forecast",
-    "transits",
-    "mercury",
-    "uranus",
-    "planets",
-    "weekly reading",
-    "cosmic energy",
-    "magical"
-  ],
-  "type": "weekly",
-  "target": "Gemini",
-  "date": "Aug 11 - Aug 17",
-  "images": [
-    "assets/zodiac_signs/Gemini.jpg"
-  ],
-  "active": true,
-  "status": "uploaded",
-  "file_name": "plan_weekly_Gemini.json"
+    "script_text": "Something is shifting in your cosmic blueprint this week, Gemini \u2014 the Air-ruled universe is about to rearrange your entire reality. Monday brings a Mercury sextile Mars in your 6th House, making it your strongest day for career breakthroughs and urgent projects. But Tuesday turns rocky when the Moon squares Jupiter in your 10th House, creating overconfidence that risks your money and reputation. Wednesday marks your turning point when Mercury conjuncts Venus in your 11th House, opening love connections through social circles. Thursday through Sunday, Venus drifts into your 12th House, bringing deep emotional clarity for your restorative weekend. Wednesday is your power day because Mercury conjuncts Venus in your 11th House. Tuesday is your worst day because the Moon squares Jupiter in your 10th House. Let your Mercury-ruled logic guide every decision and ignore the noise pulling you off course. Follow for daily updates.",
+    "captions_structure": [
+        {
+            "text": "GEMINI",
+            "type": "header"
+        },
+        {
+            "text": "Something is shifting in your cosmic blueprint this week, Gemini \u2014 the Air-ruled universe is about to rearrange your entire reality.",
+            "type": "normal"
+        },
+        {
+            "text": "Monday brings a Mercury sextile Mars in your 6th House, making it your strongest day for career breakthroughs.",
+            "type": "normal"
+        },
+        {
+            "text": "But Tuesday turns rocky when the Moon squares Jupiter in your 10th House \u2014 watch your money decisions.",
+            "type": "normal"
+        },
+        {
+            "text": "Wednesday marks your turning point when Mercury conjuncts Venus in your 11th House, opening love connections through social circles.",
+            "type": "highlight"
+        },
+        {
+            "text": "Thursday through Sunday, Venus drifts into your 12th House, bringing deep emotional clarity for a restorative weekend.",
+            "type": "normal"
+        },
+        {
+            "text": "Wednesday is your power day. Tuesday is your worst day. Follow for daily updates.",
+            "type": "normal"
+        }
+    ],
+    "lucky_numbers": [
+        "7",
+        "14",
+        "22"
+    ],
+    "lucky_color": "Bright Silver",
+    "monthly_vibe": "Social & Strategic",
+    "title": "Gemini Weekly Horoscope August 31, 2026",
+    "youtube_title": "Gemini \u2014 The Cosmos Just Moved Your Houses #shorts",
+    "youtube_description": "Mercury and Venus are creating a major conjunction in Gemini's 11th House this week, and it's about to completely shift your love life and social world. This transit hasn't activated your chart in years \u2014 find out exactly what it reveals. Comment your sign below and let's decode what the stars have in store for you.",
+    "youtube_tags": [
+        "gemini horoscope",
+        "weekly astrology",
+        "mercury transit",
+        "zodiac predictions",
+        "gemini weekly",
+        "star signs",
+        "astrology predictions",
+        "love horoscope",
+        "career astrology",
+        "cosmic energy",
+        "mercury conjunct venus",
+        "air sign astrology"
+    ],
+    "type": "weekly",
+    "target": "Gemini",
+    "date": "Aug 31 - Sep 06",
+    "images": [
+        "assets/zodiac_signs/Gemini.jpg"
+    ],
+    "active": true,
+    "status": "pending",
+    "file_name": "plan_weekly_Gemini.json"
 }

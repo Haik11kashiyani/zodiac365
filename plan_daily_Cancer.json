@@ -1,78 +1,64 @@
 {
-  "script_text": "Stop! Cancer, the cosmos just flipped a switch in your chart. Your ruler, the Moon, glides through Sagittarius in your 6th House of Work, locking into a grounding trine with Saturn in your 10th House of Career \u2014 slow, steady effort earns cosmic approval today. But listen closely: Mars is storming through your own sign, your 1st House of Self, squaring Saturn and dreamy Neptune in Aries. As a water sign, you'll feel this tension in your bones before anyone speaks. Expect friction between what you want and what authority demands. In love, Venus in your 4th House of Home sextiles lucky Jupiter in your 2nd \u2014 a cozy night in turns deeply bonding; single Crabs, someone warm appears through family circles. Financially, Jupiter in your 2nd House of Income backs a bold ask \u2014 pitch numbers, not feelings. Warning: with Mars squaring Neptune, read every contract twice. Follow for tomorrow's reading!",
+  "script_text": "Stop, Cancer, the cosmos is violently shaking your very foundation right now! Mars is forming a tense square to your ruling planet, the Moon, creating intense friction in your 7th House of Partnerships. Your Water element is feeling the harsh, unforgiving heat of this Fire clash, pushing you toward a major emotional confrontation. If you are currently taken, this aspect demands you address unresolved arguments before sunset; if single, a magnetic but volatile stranger is rapidly approaching your path. In your 10th House of Career, this transit forces a bold power shift, meaning a lucrative promotion is on the line but requires aggressive and highly strategic negotiation to secure your future. Avoid signing any legal documents today, as a hidden clause will ultimately sabotage your financial stability. Follow for tomorrow's reading to see exactly how the stars recover this momentum for you.",
   "captions_structure": [
     {
-      "text": "CANCER ALERT",
+      "text": "CANCER",
       "type": "header"
     },
     {
-      "text": "Stop! Cancer, the cosmos just flipped a switch in your chart.",
+      "text": "Stop, Cancer, the cosmos is violently shaking your very foundation right now!",
       "type": "normal"
     },
     {
-      "text": "Your ruler, the Moon, glides through Sagittarius in your 6th House of Work, locking into a grounding trine with Saturn in your 10th House of Career.",
+      "text": "Mars is forming a tense square to your ruling planet, the Moon, creating intense friction in your 7th House of Partnerships.",
       "type": "normal"
     },
     {
-      "text": "Slow, steady effort earns cosmic approval today.",
-      "type": "emphasis"
-    },
-    {
-      "text": "But listen closely: Mars is storming through your own sign, your 1st House of Self, squaring Saturn and dreamy Neptune in Aries.",
+      "text": "Your Water element is feeling the harsh, unforgiving heat of this Fire clash, pushing you toward a major emotional confrontation.",
       "type": "normal"
     },
     {
-      "text": "As a water sign, you'll feel this tension in your bones before anyone speaks.",
+      "text": "If you are currently taken, this aspect demands you address unresolved arguments before sunset; if single, a magnetic but volatile stranger is rapidly approaching your path.",
       "type": "normal"
     },
     {
-      "text": "In love, Venus in your 4th House of Home sextiles lucky Jupiter in your 2nd \u2014 a cozy night in turns deeply bonding.",
-      "type": "emphasis"
-    },
-    {
-      "text": "Single Crabs, someone warm appears through family circles.",
+      "text": "In your 10th House of Career, this transit forces a bold power shift, meaning a lucrative promotion is on the line but requires aggressive and highly strategic negotiation to secure your future.",
       "type": "normal"
     },
     {
-      "text": "Financially, Jupiter in your 2nd House of Income backs a bold ask \u2014 pitch numbers, not feelings.",
+      "text": "Avoid signing any legal documents today, as a hidden clause will ultimately sabotage your financial stability.",
       "type": "normal"
     },
     {
-      "text": "Warning: with Mars squaring Neptune, read every contract twice.",
-      "type": "warning"
-    },
-    {
-      "text": "Follow for tomorrow's reading!",
-      "type": "cta"
+      "text": "Follow for tomorrow's reading to see exactly how the stars recover this momentum for you.",
+      "type": "normal"
     }
   ],
   "lucky_numbers": [
-    "4",
-    "17",
-    "28"
+    "7",
+    "11",
+    "21"
   ],
-  "lucky_color": "Moonlight Silver",
-  "monthly_vibe": "Grounded Power",
-  "title": "Cancer Daily Horoscope August 21, 2026",
-  "youtube_title": "Cancer, Mars Just Lit a Fire in Your Chart #shorts",
-  "youtube_description": "Mars is squaring Saturn and Neptune straight out of your 1st House, Cancer, and that friction lands squarely on your career before the day ends. But Venus is hiding a tender gift in your 4th House tonight that could change everything at home. Watch before you make one move \u2014 and comment your sign so I know you're here.",
+  "lucky_color": "Silver",
+  "monthly_vibe": "Intense Reflection",
+  "title": "Cancer: The Stars Are Warning You",
+  "youtube_description": "Mars is about to clash with your Moon, triggering a major confrontation in your partnerships. Discover the exact cosmic shift waiting for you this week. Comment your sign below to see how this transit impacts you!",
   "youtube_tags": [
     "cancer horoscope",
-    "daily horoscope",
-    "astrology today",
-    "cancer daily reading",
-    "mars transit",
-    "zodiac signs",
-    "horoscope august 2026",
-    "water signs",
-    "moon astrology",
-    "career horoscope",
-    "love horoscope",
-    "cosmic energy"
+    "astrology",
+    "moon transit",
+    "mars square",
+    "zodiac forecast",
+    "horoscope today",
+    "water sign",
+    "cancer love",
+    "career astrology",
+    "cosmic energy",
+    "daily horoscope"
   ],
   "type": "daily",
   "target": "Cancer",
-  "date": "August 21, 2026",
+  "date": "August 31, 2026",
   "images": [
     "assets/zodiac_signs/Cancer.jpg"
   ],
