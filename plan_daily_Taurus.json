@@ -1,42 +1,61 @@
 {
-  "script_text": "Stop! Taurus, the cosmos is throwing a blazing lightning bolt straight at your peaceful sanctuary right now today. Saturn in Aries is forming a harsh square to your ruling planet Venus, creating intense friction in your 1st House of Identity. This heavy earth sign transit is violently clashing with your usual steady demeanor, demanding immediate bold action rather than comfortable retreat. If taken, avoid letting stubbornness erode your deep bond today; if single, an unexpected encounter in your daily routine will spark undeniable attraction. Professionally, the Jupiter transit is blessing your 10th House of Status, bringing a lucrative promotion offer that demands your immediate signature. Avoid signing any legal contracts today, because a hidden clause will rebound into your 6th House of Routine and cause severe delays. Subscribe so you don't miss the massive eclipse shift happening this very week.",
+  "script_text": "Stop! Taurus, the cosmos is violently shifting under your feet right now. As an Earth sign governed by your ruling planet Venus, a demanding square to Saturn is pressing heavily on your 10th House of Career. This intense aspect forces practicality over passion, demanding you confront rigid structural limits in your professional world today without any rigid exception whatsoever. If taken, this transit tests your patience with a partner; if single, you must attract absolute stability rather than fleeting excitement. Your 2nd House of Money receives a rare sextile from Mars, signaling a sudden but disciplined opportunity to drastically increase your financial security. Avoid impulsive outbursts at work today, but expect an unexpected blessing in the form of a long awaited salary raise from a respected boss. Subscribe now so you don't miss the massive transit hitting your 1st House tomorrow.",
   "captions_structure": [
     {
-      "text": "TAURUS ALERT",
+      "text": "TAURUS",
       "type": "header"
     },
     {
-      "text": "Stop! Taurus, the cosmos is throwing a blazing lightning bolt straight at your peaceful sanctuary right now today.",
+      "text": "Stop! Taurus, the cosmos is violently shifting under your feet right now.",
+      "type": "normal"
+    },
+    {
+      "text": "As an Earth sign governed by your ruling planet Venus, a demanding square to Saturn is pressing heavily on your 10th House of Career. This intense aspect forces practicality over passion, demanding you confront rigid structural limits in your professional world today without any rigid exception whatsoever.",
+      "type": "normal"
+    },
+    {
+      "text": "If taken, this transit tests your patience with a partner; if single, you must attract absolute stability rather than fleeting excitement.",
+      "type": "normal"
+    },
+    {
+      "text": "Your 2nd House of Money receives a rare sextile from Mars, signaling a sudden but disciplined opportunity to drastically increase your financial security.",
+      "type": "normal"
+    },
+    {
+      "text": "Avoid impulsive outbursts at work today, but expect an unexpected blessing in the form of a long awaited salary raise from a respected boss.",
+      "type": "normal"
+    },
+    {
+      "text": "Subscribe now so you don't miss the massive transit hitting your 1st House tomorrow.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
     "7",
-    "11",
-    "21"
+    "14",
+    "22"
   ],
-  "lucky_color": "Emerald Green",
-  "monthly_vibe": "Intense Focus",
+  "lucky_color": "Forest Green",
+  "monthly_vibe": "Grounded Focus",
   "title": "Taurus \u2014 Don't Ignore This Warning",
-  "youtube_title": "Taurus \u2014 Don't Ignore This Warning #shorts",
-  "youtube_description": "Saturn is hitting your 1st House hard today, Taurus. This transit demands immediate action in your career and love life. Comment your sign below to see how the stars are impacting you!",
+  "youtube_description": "The stars are aligning in a major way for Taurus today. With Venus squaring Saturn in your 10th House, we uncover the exact career shift coming your way. Comment your sign below to see how this transit impacts you!",
   "youtube_tags": [
-    "taurus daily horoscope",
-    "taurus astrology",
-    "saturn transit",
-    "venus square saturn",
-    "taurus love",
-    "taurus career",
-    "zodiac predictions",
-    "astrology forecast",
+    "taurus horoscope",
+    "astrology today",
     "daily horoscope",
-    "taurus money",
-    "astro wisdom",
-    "star signs"
+    "taurus prediction",
+    "venus saturn",
+    "zodiac signs",
+    "cosmic energy",
+    "astrology tips",
+    "taurus love",
+    "monthly forecast",
+    "earth sign",
+    "career astrology"
   ],
   "type": "daily",
   "target": "Taurus",
-  "date": "August 31, 2026",
+  "date": "September 01, 2026",
   "images": [
     "assets/zodiac_signs/Taurus.jpg"
   ],
