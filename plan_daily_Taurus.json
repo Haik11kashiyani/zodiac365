@@ -1,32 +1,36 @@
 {
-  "script_text": "Stop! Taurus, the cosmos is violently shifting under your feet right now. As an Earth sign governed by your ruling planet Venus, a demanding square to Saturn is pressing heavily on your 10th House of Career. This intense aspect forces practicality over passion, demanding you confront rigid structural limits in your professional world today without any rigid exception whatsoever. If taken, this transit tests your patience with a partner; if single, you must attract absolute stability rather than fleeting excitement. Your 2nd House of Money receives a rare sextile from Mars, signaling a sudden but disciplined opportunity to drastically increase your financial security. Avoid impulsive outbursts at work today, but expect an unexpected blessing in the form of a long awaited salary raise from a respected boss. Subscribe now so you don't miss the massive transit hitting your 1st House tomorrow.",
+  "script_text": "Stop, Taurus, the Earth sign, the cosmos just flipped your emotional compass completely upside down right now! Mars is forming a harsh square to your ruling planet Venus, igniting a volatile storm in your 7th House of Partnerships. This intense celestial friction demands you confront hidden tensions within your closest relationships before they inevitably boil over into a public spectacle. If you are currently single, this transit aggressively repels casual flings and forces you to seek a profound, authentic connection; if you are taken, avoid withdrawing into cold silence. Meanwhile, Jupiter is aligning perfectly with your 10th House of Career, promising an unexpected professional promotion that requires bold, decisive action today. Beware of impulsive reactions during these highly tense moments, as your deep patience will transform this friction into an incredible financial blessing. Follow for tomorrow's daily reading to unlock the next phase of your cosmic destiny.",
   "captions_structure": [
     {
-      "text": "TAURUS",
+      "text": "TAURUS ALERT",
       "type": "header"
     },
     {
-      "text": "Stop! Taurus, the cosmos is violently shifting under your feet right now.",
+      "text": "Stop, Taurus, the Earth sign, the cosmos just flipped your emotional compass completely upside down right now!",
       "type": "normal"
     },
     {
-      "text": "As an Earth sign governed by your ruling planet Venus, a demanding square to Saturn is pressing heavily on your 10th House of Career. This intense aspect forces practicality over passion, demanding you confront rigid structural limits in your professional world today without any rigid exception whatsoever.",
+      "text": "Mars is forming a harsh square to your ruling planet Venus, igniting a volatile storm in your 7th House of Partnerships.",
       "type": "normal"
     },
     {
-      "text": "If taken, this transit tests your patience with a partner; if single, you must attract absolute stability rather than fleeting excitement.",
+      "text": "This intense celestial friction demands you confront hidden tensions within your closest relationships before they inevitably boil over into a public spectacle.",
       "type": "normal"
     },
     {
-      "text": "Your 2nd House of Money receives a rare sextile from Mars, signaling a sudden but disciplined opportunity to drastically increase your financial security.",
+      "text": "If you are currently single, this transit aggressively repels casual flings and forces you to seek a profound, authentic connection; if you are taken, avoid withdrawing into cold silence.",
       "type": "normal"
     },
     {
-      "text": "Avoid impulsive outbursts at work today, but expect an unexpected blessing in the form of a long awaited salary raise from a respected boss.",
+      "text": "Meanwhile, Jupiter is aligning perfectly with your 10th House of Career, promising an unexpected professional promotion that requires bold, decisive action today.",
       "type": "normal"
     },
     {
-      "text": "Subscribe now so you don't miss the massive transit hitting your 1st House tomorrow.",
+      "text": "Beware of impulsive reactions during these highly tense moments, as your deep patience will transform this friction into an incredible financial blessing.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for tomorrow's daily reading to unlock the next phase of your cosmic destiny.",
       "type": "normal"
     }
   ],
@@ -36,26 +40,24 @@
     "22"
   ],
   "lucky_color": "Forest Green",
-  "monthly_vibe": "Grounded Focus",
-  "title": "Taurus \u2014 Don't Ignore This Warning",
-  "youtube_description": "The stars are aligning in a major way for Taurus today. With Venus squaring Saturn in your 10th House, we uncover the exact career shift coming your way. Comment your sign below to see how this transit impacts you!",
+  "monthly_vibe": "Reflective & Grounded",
+  "title": "Taurus \u2014 The Stars Warn You Today",
+  "youtube_description": "Taurus, the planets are shifting in ways that will deeply impact your relationships and career this week. This specific transit reveals a hidden opportunity you cannot afford to miss. Comment your sign below and see how the stars are guiding you!",
   "youtube_tags": [
-    "taurus horoscope",
-    "astrology today",
-    "daily horoscope",
-    "taurus prediction",
-    "venus saturn",
-    "zodiac signs",
-    "cosmic energy",
-    "astrology tips",
-    "taurus love",
-    "monthly forecast",
-    "earth sign",
-    "career astrology"
+    "astrology",
+    "horoscope",
+    "taurus",
+    "taurus daily",
+    "venus transit",
+    "mars square",
+    "zodiac advice",
+    "career forecast",
+    "love predictions",
+    "cosmic energy"
   ],
   "type": "daily",
   "target": "Taurus",
-  "date": "September 01, 2026",
+  "date": "September 02, 2026",
   "images": [
     "assets/zodiac_signs/Taurus.jpg"
   ],

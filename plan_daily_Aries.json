@@ -1,57 +1,62 @@
 {
-  "script_text": "Stop! Aries, the stars are screaming a furious warning through your chart right now. Mars, your ruling planet as a Fire sign, is forming a tense square to Pluto today, igniting explosive and unavoidable pressure deep within your 10th House of Career. This powerful transit demands fearless, immediate action and will mercilessly expose any weakness, avoidance, or hidden insecurity hiding in your professional life right now. In love, Venus and Mercury are conjoining in your 7th House of Partnerships, creating an electric magnetic pull that could spark a deepening romantic connection or a surprisingly bold confession of feelings. Career-wise, this Mars-Pluto square is forcing you to confront a powerful rival \u2014 step up and claim your dominance or risk being permanently sidelined and forgotten. Beware: impulsive reactions today could burn bridges you simply cannot rebuild. Follow for tomorrow's reading.",
+  "script_text": "Stop, Aries \u2014 the cosmos just dropped a massive bomb directly in your love life today. Mars, your ruling planet, is locking into a tense square to Venus right now in your 7th House of Partnerships, forcing a critical reckoning in your closest relationships. The Sun transits your 6th House of Daily Work, amplifying tension and deep frustration you've been carrying at your job all week. In love, this square demands brutal honesty you've been desperately avoiding \u2014 if you're taken, a buried hurt surfaces demanding immediate attention; if single, an unexpected encounter could completely rewrite your entire story. Career-wise, Mercury stationed retrograde in your 10th House of Reputation warns against signing any contracts or making major promises today. The unexpected gift heading your way is this: a trusted friend reveals the exact truth you needed to hear. Make sure you follow for tomorrow's reading.",
   "captions_structure": [
     {
       "text": "ARIES",
       "type": "header"
     },
     {
-      "text": "The stars are screaming a furious warning through your chart right now.",
+      "text": "Stop, Aries \u2014 the cosmos just dropped a massive bomb directly in your love life today.",
       "type": "normal"
     },
     {
-      "text": "Mars is forming a tense square to Pluto in your 10th House of Career.",
+      "text": "Mars, your ruling planet, is locking into a tense square to Venus in your 7th House of Partnerships.",
       "type": "normal"
     },
     {
-      "text": "Venus and Mercury are conjoining in your 7th House of Partnerships.",
+      "text": "The Sun transits your 6th House of Daily Work, amplifying deep frustration at your job.",
       "type": "normal"
     },
     {
-      "text": "This Mars-Pluto square is forcing you to confront a powerful rival.",
+      "text": "In love, this demands brutal honesty \u2014 a buried hurt surfaces or an encounter rewrites your story.",
       "type": "normal"
     },
     {
-      "text": "Follow for tomorrow's reading.",
+      "text": "Mercury retrograde in your 10th House warns against signing contracts today.",
+      "type": "normal"
+    },
+    {
+      "text": "A trusted friend reveals the truth you needed to hear. Follow for tomorrow's reading.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
     "7",
     "14",
-    "28"
+    "22"
   ],
   "lucky_color": "Crimson Red",
-  "monthly_vibe": "Intense & Driven",
-  "title": "The Stars Are Screaming at Aries Today",
-  "youtube_description": "Aries, Mars just locked into a dangerous square to Pluto in your 10th House of Career \u2014 and the planets aren't pulling any punches. This transit will expose hidden weaknesses and force a confrontation you've been avoiding. Comment your sign below and subscribe so you don't miss what's coming this week.",
+  "monthly_vibe": "Intense & Passionate",
+  "title": "Aries \u2014 Don't Ignore This Warning",
+  "youtube_title": "Aries \u2014 Don't Ignore This Warning #shorts",
+  "youtube_description": "Mars is slamming into Venus in your 7th House \u2014 and Aries, what it reveals about your love life will shock you. Mercury is also going retrograde in your career sector, so listen closely before you sign anything this week. Comment your sign and I'll tell you how this transit hits YOUR chart.",
   "youtube_tags": [
+    "aries",
     "aries horoscope",
-    "aries daily",
-    "mars transit",
-    "mars square pluto",
-    "zodiac predictions",
-    "fire sign astrology",
-    "career horoscope",
-    "love predictions today",
-    "pluto transit 2026",
-    "7th house astrology",
-    "astrology reading",
-    "daily horoscope september"
+    "daily horoscope",
+    "astrology",
+    "mars square venus",
+    "mercury retrograde",
+    "love prediction",
+    "career astrology",
+    "september 2026",
+    "zodiac aries",
+    "cosmic guidance",
+    "horoscope today"
   ],
   "type": "daily",
   "target": "Aries",
-  "date": "September 01, 2026",
+  "date": "September 02, 2026",
   "images": [
     "assets/zodiac_signs/Aries.jpg"
   ],

@@ -1,39 +1,73 @@
 {
-    "script_text": "Watch out, Taurus, because a shocking planetary alignment is about to violently shake your solid Earth foundation this week. Monday brings a harsh Mercury square Saturn in your 3rd House. Tuesday causes frustrating delays in communication and routines. Wednesday shifts dramatically as Venus enters your 5th House, creating a breathtaking trine with Jupiter that floods your love life with joy. This cosmic transit transforms your Thursday through Sunday into a romantic paradise. Meanwhile, a challenging Mars square Pluto in your 10th House demands strategic patience regarding your career and money. Wednesday is your absolute power day because Venus enters your 5th House to ignite love. Tuesday is your worst day due to the Saturn square blocking all progress. You must firmly trust your Earth element by grounding yourself in practical routines to survive these intense cosmic shifts. Follow for daily astrological updates right now.",
+    "script_text": "The stars are currently building a relentless Saturn square that will violently shake your earthly foundations this week. On Monday, Mercury conjuncts the Sun in your 10th House, demanding urgent career focus. Meanwhile, Saturn heavily squares your Moon in the 4th House, straining your home life by Wednesday. Thursday marks the crucial turning point when Venus enters your 5th House, completely transforming your emotional landscape. From Friday onward, Venus trine Mars in your 5th House brilliantly ignites a passionate new romance, and Jupiter sextile Pluto in your 8th House triggers a lucrative money shift. Friday is your absolute power day because Venus trine Mars brings deep love and passion. Monday is your absolute worst day because Saturn square Moon blocks your core 4th House. You must use your grounded Earth element to practically navigate these intense Venus transits this upcoming week. Follow for daily updates.",
     "captions_structure": [
         {
             "text": "TAURUS",
             "type": "header"
         },
         {
-            "text": "Watch out, Taurus, because a shocking planetary alignment is about to violently shake your solid Earth foundation this week.",
+            "text": "The stars are currently building a relentless Saturn square that will violently shake your earthly foundations this week.",
+            "type": "normal"
+        },
+        {
+            "text": "On Monday, Mercury conjuncts the Sun in your 10th House, demanding urgent career focus.",
+            "type": "normal"
+        },
+        {
+            "text": "Meanwhile, Saturn heavily squares your Moon in the 4th House, straining your home life by Wednesday.",
+            "type": "normal"
+        },
+        {
+            "text": "Thursday marks the crucial turning point when Venus enters your 5th House, completely transforming your emotional landscape.",
+            "type": "normal"
+        },
+        {
+            "text": "From Friday onward, Venus trine Mars in your 5th House brilliantly ignites a passionate new romance, and Jupiter sextile Pluto in your 8th House triggers a lucrative money shift.",
+            "type": "normal"
+        },
+        {
+            "text": "Friday is your absolute power day because Venus trine Mars brings deep love and passion.",
+            "type": "normal"
+        },
+        {
+            "text": "Monday is your absolute worst day because Saturn square Moon blocks your core 4th House.",
+            "type": "normal"
+        },
+        {
+            "text": "You must use your grounded Earth element to practically navigate these intense Venus transits this upcoming week.",
+            "type": "normal"
+        },
+        {
+            "text": "Follow for daily updates.",
             "type": "normal"
         }
     ],
     "lucky_numbers": [
-        7,
-        14,
-        28
+        "7",
+        "11",
+        "21"
     ],
     "lucky_color": "Emerald Green",
     "monthly_vibe": "Reflective & Calm",
-    "title": "Taurus \u2014 Don't Ignore This Warning",
-    "youtube_description": "A shocking planetary alignment is shifting your love and career this week. Venus enters your 5th House to bring romance, while Mars square Pluto challenges your 10th House. Comment your sign to see how you'll be affected.",
+    "title": "The Stars Are Warning Taurus",
+    "youtube_description": "Taurus, the cosmic winds are shifting as Venus trine Mars activates your 5th House of love. Saturn heavily squares your 4th House, demanding emotional stability this week. Comment your sign to see how the transits affect you!",
     "youtube_tags": [
-        "astrology",
-        "horoscope",
-        "taurus weekly",
-        "taurus prediction",
-        "venus transit",
-        "mars square pluto",
-        "earth sign",
-        "cosmic energy",
-        "weekly forecast",
-        "love prophecy"
+        "taurus weekly horoscope",
+        "venus trine mars",
+        "saturn square moon",
+        "taurus love predictions",
+        "taurus career forecast",
+        "astrology september 2026",
+        "zodiac tarot readings",
+        "earth sign energy",
+        "venus enters 5th house",
+        "jupiter sextile pluto",
+        "mercury conjunct sun",
+        "weekly astrology guide"
     ],
     "type": "weekly",
     "target": "Taurus",
-    "date": "Sep 01 - Sep 07",
+    "date": "Sep 02 - Sep 08",
     "images": [
         "assets/zodiac_signs/Taurus.jpg"
     ],
