@@ -1,12 +1,48 @@
 {
-    "script_text": "A sudden cosmic shock is completely resetting your Air element this week. Mercury squares Uranus in your 11th House of friends, causing chaotic communication that makes Monday your absolute worst day. By Wednesday, this intense tension shifts as Venus sextiles your ruling planet Uranus, easing the mental fog. The mid-week turning point arrives when Venus enters your 7th House of love, triggering a passionate new romance. A trine between Saturn in your 10th House of career and Mars brings professional recognition and a significant salary increase. You will finally experience a stable, abundant weekend that your Air element deeply craves. Wednesday is your power day because Venus enters the 7th House. Tuesday is your worst day because the Mercury-Uranus square paralyzes your finances. Write down your biggest dreams immediately to anchor the fleeting Uranian energy into physical reality. Follow for daily updates.",
+    "script_text": "Aquarius, the cosmos ignites your Air element this week as Uranus forms a sudden trine to your ruling planet. Monday brings a harsh Saturn square to your 10th House career sector, demanding extreme patience with your critical professional money matters. By Wednesday, Mercury sextiles your natal Uranus, restoring vital mental clarity to all your workplace communication. The critical shift occurs Thursday when Venus enters your 5th House of romance, creating a joyful sextile to your natal Mars. This love aspect sparks an unexpected connection. The weekend transforms your 7th House of partnerships as the Sun trines Jupiter, opening a loving open door to a significant other. Tuesday is your worst day because Saturn squares your career. Friday is your best day because Venus enters your 5th House. Focus solely on your future goals this week to properly harness this powerful cosmic momentum. Follow for daily updates.",
     "captions_structure": [
         {
-            "text": "AQUARIUS",
+            "text": "AQUARIUS ALERT",
             "type": "header"
         },
         {
-            "text": "A sudden cosmic shock is completely resetting your Air element this week.",
+            "text": "Aquarius, the cosmos ignites your Air element this week as Uranus forms a sudden trine to your ruling planet.",
+            "type": "normal"
+        },
+        {
+            "text": "Monday brings a harsh Saturn square to your 10th House career sector, demanding extreme patience with your critical professional money matters.",
+            "type": "normal"
+        },
+        {
+            "text": "By Wednesday, Mercury sextiles your natal Uranus, restoring vital mental clarity to all your workplace communication.",
+            "type": "normal"
+        },
+        {
+            "text": "The critical shift occurs Thursday when Venus enters your 5th House of romance, creating a joyful sextile to your natal Mars.",
+            "type": "normal"
+        },
+        {
+            "text": "This love aspect sparks an unexpected connection.",
+            "type": "normal"
+        },
+        {
+            "text": "The weekend transforms your 7th House of partnerships as the Sun trines Jupiter, opening a loving open door to a significant other.",
+            "type": "normal"
+        },
+        {
+            "text": "Tuesday is your worst day because Saturn squares your career.",
+            "type": "normal"
+        },
+        {
+            "text": "Friday is your best day because Venus enters your 5th House.",
+            "type": "normal"
+        },
+        {
+            "text": "Focus solely on your future goals this week to properly harness this powerful cosmic momentum.",
+            "type": "normal"
+        },
+        {
+            "text": "Follow for daily updates.",
             "type": "normal"
         }
     ],
@@ -15,25 +51,27 @@
         "11",
         "21"
     ],
-    "lucky_color": "Emerald Green",
-    "monthly_vibe": "Reflective & Calm",
-    "title": "Aquarius \u2014 Don't Ignore This Cosmic Shift",
-    "youtube_description": "Mercury squares Uranus this week, shaking your 11th House of foundations. Venus enters your 7th House, promising a transformative new romance. Comment your sign to see how it impacts you.",
+    "lucky_color": "Teal",
+    "monthly_vibe": "Introspective Flow",
+    "title": "Aquarius \u2014 The Stars Issue a Dire Warning",
+    "youtube_description": "Aquarius, your Air element is about to face a massive cosmic shift this week. Saturn demands professional patience, but Venus brings romantic joy. Comment your sign to see how the stars align for you.",
     "youtube_tags": [
-        "aquarius horoscope",
-        "weekly astrology",
-        "mercury square uranus",
-        "venus in 7th house",
-        "saturn trine mars",
-        "astrology predictions",
-        "air sign energy",
-        "cosmic shifts",
-        "love predictions",
-        "career horoscope"
+        "aquarius",
+        "horoscope",
+        "saturn square",
+        "venus transit",
+        "astrology",
+        "air element",
+        "career",
+        "love",
+        "zodiac",
+        "mercury sextile",
+        "jupiter trine",
+        "weekly forecast"
     ],
     "type": "weekly",
     "target": "Aquarius",
-    "date": "Sep 01 - Sep 07",
+    "date": "Sep 02 - Sep 08",
     "images": [
         "assets/zodiac_signs/Aquarius.jpg"
     ],
