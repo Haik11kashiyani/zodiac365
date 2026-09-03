@@ -1,39 +1,71 @@
 {
-    "script_text": "Something sinister is hovering over your emotional world this week, Cancer. Your ruling Moon is currently square Mars in the 10th House of career, creating intense friction at work from Monday through Wednesday. This Water element feels overwhelmed by professional demands and unexpected financial pressure. However, a crucial shift occurs in the middle of the week as Venus enters your 7th House of partnerships. This transit transforms your love life with profound intimacy while soothing the professional stress. Your sensitive Water nature finds weekend comfort in close romantic relationships and domestic harmony. Thursday is your power day because Venus trines Pluto in your 7th House of love, but Monday is your worst day because Mars squares your natal Moon in the 10th House of career. You must set firm boundaries to protect your energy from manipulative coworkers and demanding bosses. Always follow for daily updates.",
+    "script_text": "Prepare for a massive emotional shift this week, Cancer, because the stars demand absolute truth. Monday through Wednesday, a tense Mars square your Moon in the Fourth House drains your Water element, making Tuesday your worst day. Your ruling planet feels trapped, amplifying deep fatigue across the home sector. Wednesday brings the crucial turning point as Venus enters your Seventh House, igniting a trine with your natal Jupiter in the First House. Thursday through Sunday, this transit transforms your career and money in the Tenth House, bringing a lucrative promotion. Your weekend offers a serene romantic reunion, soothing the pressure of the week. Wednesday is your power day because Venus enters your Seventh House, while Tuesday is your worst day due to Mars squaring your Fourth House Moon. Trust your intuition to navigate these tides and release lingering resentments about finances. Follow for daily updates.",
     "captions_structure": [
         {
             "text": "CANCER",
             "type": "header"
         },
         {
-            "text": "Something sinister is hovering over your emotional world this week, Cancer.",
+            "text": "Prepare for a massive emotional shift this week, Cancer, because the stars demand absolute truth.",
+            "type": "normal"
+        },
+        {
+            "text": "Monday through Wednesday, a tense Mars square your Moon in the Fourth House drains your Water element, making Tuesday your worst day.",
+            "type": "normal"
+        },
+        {
+            "text": "Your ruling planet feels trapped, amplifying deep fatigue across the home sector.",
+            "type": "normal"
+        },
+        {
+            "text": "Wednesday brings the crucial turning point as Venus enters your Seventh House, igniting a trine with your natal Jupiter in the First House.",
+            "type": "normal"
+        },
+        {
+            "text": "Thursday through Sunday, this transit transforms your career and money in the Tenth House, bringing a lucrative promotion.",
+            "type": "normal"
+        },
+        {
+            "text": "Your weekend offers a serene romantic reunion, soothing the pressure of the week.",
+            "type": "normal"
+        },
+        {
+            "text": "Wednesday is your power day because Venus enters your Seventh House, while Tuesday is your worst day due to Mars squaring your Fourth House Moon.",
+            "type": "normal"
+        },
+        {
+            "text": "Trust your intuition to navigate these tides and release lingering resentments about finances.",
+            "type": "normal"
+        },
+        {
+            "text": "Follow for daily updates.",
             "type": "normal"
         }
     ],
     "lucky_numbers": [
         "7",
-        "11",
-        "21"
+        "14",
+        "22"
     ],
-    "lucky_color": "Silver",
+    "lucky_color": "Silver Moonlight",
     "monthly_vibe": "Reflective & Calm",
-    "title": "Cancer \u2014 Don't Ignore This Warning",
-    "youtube_description": "The stars are revealing an intense mid-week shift for Cancer as Venus enters your 7th House of love. Discover how Mars in your 10th House of career demands immediate action. Comment your sign below.",
+    "title": "The Stars Are Warning Cancer",
+    "youtube_description": "The Moon and Venus are aligning for major relationship breakthroughs this week. We reveal how a tricky Mars square will test your patience, but a lucrative promotion is waiting if you stay focused. Comment your sign below.",
     "youtube_tags": [
         "cancer horoscope",
         "weekly forecast",
-        "moon astrology",
-        "venus transit",
+        "moon transit",
+        "venus in libra",
         "mars square",
         "cancer love",
-        "career astrology",
-        "water sign",
-        "astrology prediction",
-        "cancer weekly"
+        "career predictions",
+        "astrology tips",
+        "cancer week",
+        "water sign"
     ],
     "type": "weekly",
     "target": "Cancer",
-    "date": "Aug 31 - Sep 06",
+    "date": "Sep 03 - Sep 09",
     "images": [
         "assets/zodiac_signs/Cancer.jpg"
     ],
