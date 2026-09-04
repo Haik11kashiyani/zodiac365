@@ -1,12 +1,48 @@
 {
-    "script_text": "Something profound and deeply unexpected is shifting the cosmic tides for Water sign Pisces this very same week. Monday through Wednesday, Saturn squares your 10th House of Career, creating frustrating delays and blocking professional ambitions. You must navigate these heavy waters with immense patience to survive this grueling transit. Your ruling planet Jupiter forms a powerful trine to Neptune on Thursday, initiating a crucial midweek turning point. This Water element activation brings profound clarity to your love life and unlocks hidden financial opportunities through your 2nd House of Money. By the weekend, romantic abundance flows freely into your world. Wednesday is your power day because Jupiter enters your 7th House of Love. Monday is your worst day due to that Saturn square. Release your rigid control over your career and trust the universe to handle the rest of your path. Follow for your daily updates.",
+    "script_text": "Wake up, Pisces, because a seismic shift in the cosmos is about to rearrange your life. On Monday, Mercury squares your ruling Jupiter in the First House, making your thoughts scatter and communication clash. Tuesday is your worst day because this tense aspect paralyzes your choices. By Wednesday, Venus enters a profound conjunction with the North Node in your Seventh House, permanently shifting your romantic trajectory. Thursday through Sunday, the Sun forms a harmonious trine with Saturn in your Tenth House, bringing undeniable career stability and financial clarity. Your love life blossoms beautifully under this watery element. Friday is your power day because Venus in the Seventh House ignites passionate love connections. Tuesday remains your worst day due to the harsh Mercury square disrupting mental clarity. Trust your deep intuition to navigate the early chaos and embrace the later week stability. Follow for daily updates.",
     "captions_structure": [
         {
             "text": "PISCES",
             "type": "header"
         },
         {
-            "text": "Something profound and deeply unexpected is shifting the cosmic tides for Water sign Pisces this very same week.",
+            "text": "Wake up, Pisces, because a seismic shift in the cosmos is about to rearrange your life.",
+            "type": "normal"
+        },
+        {
+            "text": "On Monday, Mercury squares your ruling Jupiter in the First House, making your thoughts scatter and communication clash.",
+            "type": "normal"
+        },
+        {
+            "text": "Tuesday is your worst day because this tense aspect paralyzes your choices.",
+            "type": "normal"
+        },
+        {
+            "text": "By Wednesday, Venus enters a profound conjunction with the North Node in your Seventh House, permanently shifting your romantic trajectory.",
+            "type": "normal"
+        },
+        {
+            "text": "Thursday through Sunday, the Sun forms a harmonious trine with Saturn in your Tenth House, bringing undeniable career stability and financial clarity.",
+            "type": "normal"
+        },
+        {
+            "text": "Your love life blossoms beautifully under this watery element.",
+            "type": "normal"
+        },
+        {
+            "text": "Friday is your power day because Venus in the Seventh House ignites passionate love connections.",
+            "type": "normal"
+        },
+        {
+            "text": "Tuesday remains your worst day due to the harsh Mercury square disrupting mental clarity.",
+            "type": "normal"
+        },
+        {
+            "text": "Trust your deep intuition to navigate the early chaos and embrace the later week stability.",
+            "type": "normal"
+        },
+        {
+            "text": "Follow for daily updates.",
             "type": "normal"
         }
     ],
@@ -15,26 +51,25 @@
         "11",
         "21"
     ],
-    "lucky_color": "Emerald Green",
-    "monthly_vibe": "Reflective & Calm",
-    "title": "Pisces: The Stars Warn of a Big Shift",
-    "youtube_description": "Jupiter and Saturn are aligning to drastically shift your love and career this week. This rare transit brings a romantic connection and a financial breakthrough. Comment your sign below to see how it affects you!",
+    "lucky_color": "Jade Green",
+    "monthly_vibe": "Deep Reflection",
+    "title": "The Stars Are Warning Pisces This September",
+    "youtube_description": "The cosmos are aligning in shocking ways for Pisces this week. A rare conjunction in your Seventh House is about to change your love life forever. Comment your sign to see how it affects you!",
     "youtube_tags": [
         "pisces horoscope",
-        "astrology",
-        "weekly forecast",
-        "pisces love",
-        "jupiter transit",
-        "saturn square",
-        "water signs",
-        "horoscope predictions",
-        "cosmic energy",
+        "weekly astrology",
+        "pisces prediction",
+        "mercury in pisces",
+        "seventh house",
         "astrology tips",
-        "weekly horoscope"
+        "jupiter transit",
+        "cosmic energy",
+        "water signs",
+        "horoscope forecast"
     ],
     "type": "weekly",
     "target": "Pisces",
-    "date": "Sep 03 - Sep 09",
+    "date": "Sep 04 - Sep 10",
     "images": [
         "assets/zodiac_signs/Pisces.jpg"
     ],
