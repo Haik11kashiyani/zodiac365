@@ -1,62 +1,61 @@
 {
-  "script_text": "Stop, Taurus \u2014 the Sun is currently transiting your 5th House of Romance and Creativity, forming a radiant trine to your ruling planet Venus right now. Venus, the ruler of your Earth sign, channels an unprecedented wave of abundance directly into your creative self-expression, love life, and personal passions at this very moment. If you are single, a deeply magnetic connection is likely to emerge through a creative social gathering tonight; if taken, this transit invites you to rekindle spark through shared spontaneity and bold adventure. On the career and money front, this Sun-Venus alignment activates your 5th House financial potential \u2014 a passion project or bold creative investment could deliver genuinely unexpected monetary rewards before the week closes. Refuse to scatter your precious energy across too many competing directions right now; instead, choose one path and pour everything into it. Follow for tomorrow's precise daily reading.",
+  "script_text": "Stop! Taurus, the stars are violently rearranging your reality today. Transiting Pluto is creating a brutal opposition to your ruling planet Venus in your 7th House of Partnerships. This alignment is shaking your Earth element foundations and forcing you to confront hidden power dynamics you have ignored for months. If you are taken, this opposition exposes unresolved tensions demanding immediate resolution. If you are single, you are attracting someone who challenges your deepest boundaries rather than offering comfort. Professionally, transiting Mars is activating your 10th House of Public Status, pushing you to demand fair compensation for your intense work. You must assert your authority now to prevent Earth element stability from being undermined by delays. Avoid isolating yourself, because a sudden blessing of unexpected financial clarity is heading your way. Follow for tomorrow's reading to see how this intense energy resolves.",
   "captions_structure": [
     {
       "text": "TAURUS ALERT",
       "type": "header"
     },
     {
-      "text": "Stop, Taurus \u2014 the Sun is currently transiting your 5th House of Romance and Creativity, forming a radiant trine to your ruling planet Venus right now.",
+      "text": "Stop! Taurus, the stars are violently rearranging your reality today.",
       "type": "normal"
     },
     {
-      "text": "Venus, the ruler of your Earth sign, channels an unprecedented wave of abundance directly into your creative self-expression, love life, and personal passions.",
+      "text": "Transiting Pluto is creating a brutal opposition to your ruling planet Venus in your 7th House of Partnerships. This alignment is shaking your Earth element foundations and forcing you to confront hidden power dynamics you have ignored for months.",
       "type": "normal"
     },
     {
-      "text": "If you are single, a deeply magnetic connection is likely to emerge through a creative social gathering tonight.",
-      "type": "highlight"
-    },
-    {
-      "text": "On the career and money front, this Sun-Venus alignment activates your 5th House financial potential.",
+      "text": "If you are taken, this opposition exposes unresolved tensions demanding immediate resolution. If you are single, you are attracting someone who challenges your deepest boundaries rather than offering comfort.",
       "type": "normal"
     },
     {
-      "text": "Refuse to scatter your precious energy across too many competing directions right now.",
-      "type": "warning"
+      "text": "Professionally, transiting Mars is activating your 10th House of Public Status, pushing you to demand fair compensation for your intense work. You must assert your authority now to prevent Earth element stability from being undermined by delays.",
+      "type": "normal"
     },
     {
-      "text": "Follow for tomorrow's precise daily reading.",
-      "type": "cta"
+      "text": "Avoid isolating yourself, because a sudden blessing of unexpected financial clarity is heading your way.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for tomorrow's reading to see how this intense energy resolves.",
+      "type": "normal"
     }
   ],
   "lucky_numbers": [
-    "7",
-    "11",
-    "21"
+    "3",
+    "14",
+    "28"
   ],
-  "lucky_color": "Emerald Green",
-  "monthly_vibe": "Reflective & Calm",
-  "title": "Taurus \u2014 The Sun Just Shifted Your Luck",
-  "youtube_title": "Taurus \u2014 The Sun Just Shifted Your Luck #shorts",
-  "youtube_description": "The Sun is making a rare trine to Venus that could completely shift your love and money fortunes this week. Taurus, this specific transit reveals opportunities hiding in plain sight. Comment your sign below and we'll break down exactly what the stars are targeting for you.",
+  "lucky_color": "Deep Forest Green",
+  "monthly_vibe": "Reflective & Grounded",
+  "title": "Taurus \u2014 The Cosmos Is Demanding Change",
+  "youtube_title": "Taurus: The Planetary Warning You Can't Ignore #shorts",
+  "youtube_description": "The stars are shifting dramatically for Taurus today, bringing intense upheaval to your partnerships and career. Pluto is forcing a massive confrontation with your ruling planet, revealing secrets you've tried to hide. Comment your sign below to find out if you are affected by this transit.",
   "youtube_tags": [
     "taurus horoscope",
-    "daily horoscope",
-    "taurus predictions",
-    "sun venus trine",
+    "pluto opposition",
+    "venus transit",
+    "daily astrology",
+    "earth sign",
+    "september 2026",
+    "astrology prediction",
     "taurus love",
-    "astrology today",
-    "zodiac forecast",
-    "taurus money",
-    "celestial energy",
-    "horoscope daily",
-    "taurus guidance",
-    "sun transit"
+    "career horoscope",
+    "astrology tips",
+    "cosmic energy"
   ],
   "type": "daily",
   "target": "Taurus",
-  "date": "September 03, 2026",
+  "date": "September 04, 2026",
   "images": [
     "assets/zodiac_signs/Taurus.jpg"
   ],

@@ -1,65 +1,72 @@
 {
-    "script_text": "The stars are igniting an explosive power shift for you this very week. On Monday, your ruling planet Mars squares Saturn in your first House of identity, draining your Fire element. This makes action feel incredibly heavy and slow. Wednesday brings the crucial turning point as Venus enters your seventh House of love, triggering a profound romantic awakening that changes your entire relationship paradigm forever. During the late week, Mars forms a trine with Pluto in your tenth House of career, bringing sudden professional authority. This unexpected financial abundance will secure your future. Wednesday is your absolute power day because Venus enters your seventh House. Monday is your worst day due to the Mars square Saturn. You must channel this intense Fire energy into strategic networking rather than impulsive emotional reactions if you truly want to achieve lasting success. Follow for daily horoscope updates today.",
+    "script_text": "Brace yourself, Aries, because Mars ignites your Fire element with an explosive cosmic surge this week. Monday through Wednesday brings a harsh Mercury square Saturn in your 10th House sector. This stalls momentum, while a cruel Mars opposition blocks your 7th House love connections. The turning point arrives Thursday when Jupiter enters your 1st House, replacing doubt with blazing confidence and shifting the Fire element back into your favor. From Thursday through Sunday, a harmonious Mars trine Uranus in your 5th House sparks romantic flair. Creative abundance makes the weekend incredibly magnetic for both love and career opportunities. Tuesday is your worst day because the Saturn square paralyzes your decisions, whereas Friday is your power day because the Jupiter conjunction unlocks your 1st House charisma. Trust your ruling instincts to navigate the chaos and fiercely protect your Fire element from outside interference. Follow for updates.",
     "captions_structure": [
         {
-            "text": "ARIES",
+            "text": "ARIES ALERT",
             "type": "header"
         },
         {
-            "text": "The stars are igniting an explosive power shift for you this very week.",
+            "text": "Brace yourself, Aries, because Mars ignites your Fire element with an explosive cosmic surge this week.",
             "type": "normal"
         },
         {
-            "text": "On Monday, your ruling planet Mars squares Saturn in your first House of identity, draining your Fire element. This makes action feel incredibly heavy and slow.",
+            "text": "Monday through Wednesday brings a harsh Mercury square Saturn in your 10th House sector.",
             "type": "normal"
         },
         {
-            "text": "Wednesday brings the crucial turning point as Venus enters your seventh House of love, triggering a profound romantic awakening that changes your entire relationship paradigm forever.",
+            "text": "This stalls momentum, while a cruel Mars opposition blocks your 7th House love connections.",
             "type": "normal"
         },
         {
-            "text": "During the late week, Mars forms a trine with Pluto in your tenth House of career, bringing sudden professional authority. This unexpected financial abundance will secure your future.",
+            "text": "The turning point arrives Thursday when Jupiter enters your 1st House, replacing doubt with blazing confidence.",
             "type": "normal"
         },
         {
-            "text": "Wednesday is your absolute power day because Venus enters your seventh House. Monday is your worst day due to the Mars square Saturn.",
+            "text": "From Thursday through Sunday, a harmonious Mars trine Uranus in your 5th House sparks romantic flair.",
             "type": "normal"
         },
         {
-            "text": "You must channel this intense Fire energy into strategic networking rather than impulsive emotional reactions if you truly want to achieve lasting success.",
+            "text": "Creative abundance makes the weekend incredibly magnetic for both love and career opportunities.",
             "type": "normal"
         },
         {
-            "text": "Follow for daily horoscope updates today.",
+            "text": "Tuesday is your worst day because the Saturn square paralyzes your decisions, whereas Friday is your power day.",
+            "type": "normal"
+        },
+        {
+            "text": "Trust your ruling instincts to navigate the chaos and fiercely protect your Fire element.",
+            "type": "normal"
+        },
+        {
+            "text": "Follow for updates.",
             "type": "normal"
         }
     ],
     "lucky_numbers": [
-        "7",
-        "11",
-        "21"
+        "9",
+        "14",
+        "22"
     ],
-    "lucky_color": "Blazing Red",
+    "lucky_color": "Royal Crimson",
     "monthly_vibe": "Bold Action",
-    "title": "The Stars Are Warning Aries This Week",
-    "youtube_description": "Mercury and Pluto are aligning to shake your foundation this September. This weekly forecast reveals a shocking career shift and a surprising love connection headed your way. Comment your sign to see how the stars affect you!",
+    "title": "Aries \u2014 Don't Ignore This",
+    "youtube_title": "The Stars Are Warning Aries #shorts",
+    "youtube_description": "Mars is igniting your Fire element this week with explosive shifts in your career and love life. Jupiter enters your 1st House to replace doubt with confidence, but Saturn brings severe challenges. Comment your sign below to see how the stars affect you!",
     "youtube_tags": [
         "aries horoscope",
-        "weekly horoscope",
+        "weekly astrology",
         "mars transit",
-        "venus in libra",
+        "jupiter in aries",
         "astrology predictions",
         "fire sign",
-        "saturn square",
-        "career astrology",
-        "love predictions",
-        "zodiac aries",
         "cosmic energy",
-        "september horoscope"
+        "astrology tips",
+        "mercury square saturn",
+        "love horoscope"
     ],
     "type": "weekly",
     "target": "Aries",
-    "date": "Sep 03 - Sep 09",
+    "date": "Sep 04 - Sep 10",
     "images": [
         "assets/zodiac_signs/Aries.jpg"
     ],
