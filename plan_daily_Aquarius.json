@@ -1,72 +1,74 @@
 {
-  "script_text": "Stop, Aquarius, the cosmic skies are violently shaking your very foundation right now! Jupiter is forming a powerful trine to your ruling planet Uranus, flooding your 7th House of Partnerships with expansive Air energy. This alignment forces sudden revelations into your closest relationships, demanding you confront hidden truths completely. If single, this transit attracts a fiercely intelligent lover who will challenge your mind. If taken, expect a conversation that will completely redefine your dynamic tonight. Meanwhile, Mars is aggressively pushing into your 2nd House of Finances, signaling bold career moves will yield immediate monetary rewards. You must negotiate your salary assertively today to secure the abundance you truly deserve. Avoid impulsive purchases tonight, as your spontaneous nature could easily drain your financial resources. Follow for tomorrow's reading to see exactly how the cosmic stars will continue to rapidly evolve today.",
+  "script_text": "Aquarius, the cosmos just flipped a switch \u2014 you're standing in the crossfire. Mercury is retrograde in your 7th House of Partnerships, squaring Uranus in Taurus, creating sudden tension in relationships and miscommunications today. Transit Pluto is conjunct your natal Sun in the 1st House, making you feel powerful but dangerously stubborn. If single, a past connection resurfaces with urgent energy \u2014 don't ignore it. If taken, pause before you text; Mercury retrograde twists words. Career-wise, Jupiter activates your 10th House, but Mercury is there too \u2014 hold off on contracts until after September 13th. Avoid impulsive spending today; Pluto's conjunction makes every purchase feel justified but it isn't. Air is your element, and right now it's stirring chaos you didn't ask for. Follow for tomorrow's reading \u2014 something shifts for you by midnight.",
   "captions_structure": [
     {
-      "text": "AQUARIUS",
+      "text": "AQUARIUS ALERT",
       "type": "header"
     },
     {
-      "text": "Stop, Aquarius, the cosmic skies are violently shaking your very foundation right now!",
+      "text": "Aquarius, the cosmos just flipped a switch \u2014 you're standing in the crossfire.",
       "type": "normal"
     },
     {
-      "text": "Jupiter is forming a powerful trine to your ruling planet Uranus, flooding your 7th House of Partnerships with expansive Air energy.",
+      "text": "Mercury is retrograde in your 7th House of Partnerships, squaring Uranus in Taurus, creating sudden tension in relationships and miscommunications today.",
       "type": "normal"
     },
     {
-      "text": "This alignment forces sudden revelations into your closest relationships, demanding you confront hidden truths completely.",
+      "text": "Transit Pluto is conjunct your natal Sun in the 1st House, making you feel powerful but dangerously stubborn.",
       "type": "normal"
     },
     {
-      "text": "If single, this transit attracts a fiercely intelligent lover who will challenge your mind.",
+      "text": "If single, a past connection resurfaces with urgent energy \u2014 don't ignore it.",
       "type": "normal"
     },
     {
-      "text": "If taken, expect a conversation that will completely redefine your dynamic tonight.",
+      "text": "If taken, pause before you text; Mercury retrograde twists words.",
       "type": "normal"
     },
     {
-      "text": "Meanwhile, Mars is aggressively pushing into your 2nd House of Finances, signaling bold career moves will yield immediate monetary rewards.",
+      "text": "Career-wise, Jupiter activates your 10th House, but Mercury is there too \u2014 hold off on contracts until after September 13th.",
       "type": "normal"
     },
     {
-      "text": "You must negotiate your salary assertively today to secure the abundance you truly deserve.",
+      "text": "Avoid impulsive spending today; Pluto's conjunction makes every purchase feel justified but it isn't.",
       "type": "normal"
     },
     {
-      "text": "Avoid impulsive purchases tonight, as your spontaneous nature could easily drain your financial resources.",
+      "text": "Air is your element, and right now it's stirring chaos you didn't ask for.",
       "type": "normal"
     },
     {
-      "text": "Follow for tomorrow's reading to see exactly how the cosmic stars will continue to rapidly evolve today.",
+      "text": "Follow for tomorrow's reading \u2014 something shifts for you by midnight.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
-    "3",
+    "7",
     "14",
-    "28"
+    "22"
   ],
   "lucky_color": "Electric Blue",
-  "monthly_vibe": "Disruptive Innovation",
-  "title": "Aquarius: The Stars Are Demanding You Stop",
-  "youtube_description": "The cosmic skies are shifting for Aquarius on September 4th. Jupiter is activating your 7th House of Partnerships, bringing explosive revelations to your love life. Comment your sign to see how this impacts you!",
+  "monthly_vibe": "Transformative & Unpredictable",
+  "title": "Aquarius \u2014 The Stars Are Warning You",
+  "youtube_title": "Aquarius \u2014 The Stars Are Warning You #shorts",
+  "youtube_description": "Mercury is retrograde in your 7th House and Pluto is conjunct your Sun \u2014 this is the most intense day Aquarius will face this month. Comment your sign so I can tell you how this transit hits yours.",
   "youtube_tags": [
     "aquarius horoscope",
-    "astrology september 2026",
+    "mercury retrograde",
+    "pluto conjunct sun",
     "daily horoscope",
     "aquarius love",
-    "uranus transit",
-    "jupiter trine",
-    "astrology predictions",
     "aquarius career",
-    "cosmic energy",
-    "weekly horoscope",
-    "air signs"
+    "astrology predictions",
+    "september astrology",
+    "7th house transit",
+    "air sign energy",
+    "uranus in taurus",
+    "star reading"
   ],
   "type": "daily",
   "target": "Aquarius",
-  "date": "September 04, 2026",
+  "date": "September 05, 2026",
   "images": [
     "assets/zodiac_signs/Aquarius.jpg"
   ],

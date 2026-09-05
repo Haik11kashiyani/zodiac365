@@ -1,39 +1,72 @@
 {
-    "script_text": "A seismic shift is hitting your Air sign this week as Uranus demands you shake off the past. On Monday, the Moon squares your ruling Uranus in your 10th House, causing delays. Wednesday brings Mercury sextile Uranus, clearing mental fog and sparking innovative solutions to your work problems. The turning point occurs Thursday when Venus enters your 7th House of Partnerships, trining your Sun to restore love. From Friday through Sunday, the Sun forms a trine to your Mars, fueling your 5th House of Romance. Your financial investments yield surprising returns as Jupiter aligns with your 2nd House of Wealth this week. Thursday is your power day because Venus trines your 7th House of Love, while Monday is worst because the Moon squares Uranus in the 10th House. Trust this cosmic realignment by taking calculated risks in your romantic life today. Follow for daily updates.",
+    "script_text": "Brace yourself, Aquarius \u2014 this week brings a cosmic shift that will shake your foundations. Monday through Wednesday, Mercury conjunct Saturn in your 10th House creates heavy communication challenges at work \u2014 avoid signing contracts until clarity arrives. The square between Mars and Uranus on Tuesday sparks tension in your Air career sector, so tread carefully. The turning point arrives Wednesday evening when Venus enters your 7th House of partnerships, softening the week's harsh edges. Thursday through Sunday, the Sun trine Neptune in your 12th House brings intuitive clarity and spiritual renewal. Weekend energy favors deep emotional connections \u2014 your love life awakens Saturday under this harmonious aspect. Wednesday is your power day because Venus enters your 7th House, while Monday remains your worst day due to Mercury-Saturn conjunction blocking progress. Trust your intuition \u2014 Uranus amplifies your inner guidance this week. Follow for daily updates.",
     "captions_structure": [
         {
-            "text": "AQUARIUS ALERT",
+            "text": "AQUARIUS",
             "type": "header"
         },
         {
-            "text": "A seismic shift is hitting your Air sign this week as Uranus demands you shake off the past. On Monday, the Moon squares your ruling Uranus in your 10th House, causing delays. Wednesday brings Mercury sextile Uranus, clearing mental fog and sparking innovative solutions to your work problems. The turning point occurs Thursday when Venus enters your 7th House of Partnerships, trining your Sun to restore love. From Friday through Sunday, the Sun forms a trine to your Mars, fueling your 5th House of Romance. Your financial investments yield surprising returns as Jupiter aligns with your 2nd House of Wealth this week. Thursday is your power day because Venus trines your 7th House of Love, while Monday is worst because the Moon squares Uranus in the 10th House. Trust this cosmic realignment by taking calculated risks in your romantic life today. Follow for daily updates.",
+            "text": "Brace yourself, Aquarius \u2014 this week brings a cosmic shift that will shake your foundations.",
+            "type": "normal"
+        },
+        {
+            "text": "Monday through Wednesday, Mercury conjunct Saturn in your 10th House creates heavy communication challenges at work \u2014 avoid signing contracts until clarity arrives.",
+            "type": "normal"
+        },
+        {
+            "text": "The square between Mars and Uranus on Tuesday sparks tension in your Air career sector, so tread carefully.",
+            "type": "normal"
+        },
+        {
+            "text": "The turning point arrives Wednesday evening when Venus enters your 7th House of partnerships, softening the week's harsh edges.",
+            "type": "normal"
+        },
+        {
+            "text": "Thursday through Sunday, the Sun trine Neptune in your 12th House brings intuitive clarity and spiritual renewal.",
+            "type": "normal"
+        },
+        {
+            "text": "Weekend energy favors deep emotional connections \u2014 your love life awakens Saturday under this harmonious aspect.",
+            "type": "normal"
+        },
+        {
+            "text": "Wednesday is your power day because Venus enters your 7th House, while Monday remains your worst day due to Mercury-Saturn conjunction blocking progress.",
+            "type": "normal"
+        },
+        {
+            "text": "Trust your intuition \u2014 Uranus amplifies your inner guidance this week.",
+            "type": "normal"
+        },
+        {
+            "text": "Follow for daily updates.",
             "type": "normal"
         }
     ],
     "lucky_numbers": [
         "7",
-        "11",
-        "21"
+        "14",
+        "23"
     ],
-    "lucky_color": "Emerald Green",
-    "monthly_vibe": "Reflective & Calm",
-    "title": "Aquarius \u2014 Don't Ignore This Shift",
-    "youtube_description": "The stars are aligning for a dramatic shift this week. Mercury and Uranus are creating unexpected opportunities in your career and love life. Comment your sign to see how you'll be affected.",
+    "lucky_color": "Electric Blue",
+    "monthly_vibe": "Transformative Awakening",
+    "title": "Something Big Is Coming for Aquarius",
+    "youtube_title": "Aquarius: Cosmic Shift This Week #shorts",
+    "youtube_description": "This week brings a major cosmic shift for Aquarius as Venus enters your partnership house and Mercury challenges your career sector. Comment your sign below to see how this affects you!",
     "youtube_tags": [
-        "astrology",
-        "horoscope",
-        "aquarius",
-        "weekly horoscope",
-        "september 2026",
-        "uranus transit",
-        "mercury sextile",
-        "love predictions",
-        "career forecast",
-        "astrology tips"
+        "aquarius horoscope",
+        "weekly forecast",
+        "cosmic energy",
+        "star sign",
+        "mercury transit",
+        "venus enter",
+        "career astrology",
+        "love prediction",
+        "uranus influence",
+        "september 2026"
     ],
     "type": "weekly",
     "target": "Aquarius",
-    "date": "Sep 04 - Sep 10",
+    "date": "Sep 05 - Sep 11",
     "images": [
         "assets/zodiac_signs/Aquarius.jpg"
     ],
