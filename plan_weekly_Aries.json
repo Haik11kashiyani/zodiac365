@@ -1,36 +1,40 @@
 {
-    "script_text": "The cosmos is flipping Aries's world upside down this week \u2014 and you won't see it coming. Mars conjunct your ruling planet in the 10th House fuels bold career moves early in the week, but a Mercury square Neptune on Monday clouds judgment \u2014 avoid signing contracts before Wednesday. Wednesday brings Venus trine Pluto into your 8th House \u2014 the energy shifts to deep emotional transformation in love and shared finances. By Thursday, Jupiter enters your 1st House, sparking renewed confidence and a fresh identity shift that carries through the weekend. Wednesday is your power day \u2014 Venus trine Pluto activates your 8th House of intimacy and joint resources. Monday is your worst day \u2014 Mercury square Neptune creates confusion and miscommunication. Trust your instincts on Wednesday but verify every detail on Monday. Follow for daily updates.",
+    "script_text": "Something is shifting in your identity sector this week, Aries \u2014 it won't wait for you to prepare. Mars conjunct your Sun in the 1st House Monday fuels bold action, but Mars-Saturn square Wednesday demands serious patience before you push forward. Venus trine Jupiter Tuesday brings unexpected social opportunities that could change your direction. The Mercury-Uranus trine Wednesday night cracks open new communication channels \u2014 stuck ideas suddenly gain real momentum. The Sun entering your 2nd House Thursday amplifies earning power, and Sunday's Moon lights up your 10th House of career status and public recognition. Tuesday is your power day because Venus enters your 5th House of love, sparking a meaningful romantic connection. Saturday is worst with Mars square Pluto in your 8th House \u2014 avoid power struggles over shared finances. Don't overcommit Monday morning \u2014 let Mars energy build before you strike. Follow for daily updates.",
     "captions_structure": [
         {
-            "text": "ARIES",
+            "text": "ARIES ALERT",
             "type": "header"
         },
         {
-            "text": "The cosmos is flipping Aries's world upside down this week \u2014 and you won't see it coming.",
+            "text": "Something is shifting in your identity sector this week, Aries \u2014 it won't wait for you to prepare.",
             "type": "normal"
         },
         {
-            "text": "Mars conjunct your ruling planet in the 10th House fuels bold career moves early in the week.",
+            "text": "Mars conjunct your Sun in the 1st House Monday fuels bold action, but Mars-Saturn square Wednesday demands serious patience.",
             "type": "normal"
         },
         {
-            "text": "But Mercury square Neptune on Monday clouds judgment \u2014 avoid signing contracts before Wednesday.",
+            "text": "Venus trine Jupiter Tuesday brings unexpected social opportunities that could change your direction.",
             "type": "normal"
         },
         {
-            "text": "Wednesday brings Venus trine Pluto into your 8th House \u2014 deep emotional transformation in love.",
+            "text": "The Mercury-Uranus trine Wednesday night cracks open new communication channels \u2014 stuck ideas suddenly gain real momentum.",
             "type": "normal"
         },
         {
-            "text": "By Thursday, Jupiter enters your 1st House, sparking renewed confidence through the weekend.",
+            "text": "The Sun entering your 2nd House Thursday amplifies earning power, and Sunday's Moon lights up your 10th House of career status.",
             "type": "normal"
         },
         {
-            "text": "Wednesday is your power day \u2014 Venus trine Pluto activates your 8th House of intimacy.",
+            "text": "Tuesday is your power day \u2014 Venus enters your 5th House of love, sparking a meaningful romantic connection.",
             "type": "normal"
         },
         {
-            "text": "Monday is your worst day \u2014 Mercury square Neptune creates confusion. Trust your instincts.",
+            "text": "Saturday is worst with Mars square Pluto in your 8th House \u2014 avoid power struggles over shared finances.",
+            "type": "normal"
+        },
+        {
+            "text": "Don't overcommit Monday \u2014 let Mars energy build before you strike.",
             "type": "normal"
         },
         {
@@ -40,30 +44,31 @@
     ],
     "lucky_numbers": [
         "7",
-        "19",
-        "33"
+        "11",
+        "21"
     ],
-    "lucky_color": "Crimson Red",
-    "monthly_vibe": "Bold Transformation",
-    "title": "Aries: The Stars Are Shifting",
-    "youtube_description": "Aries \u2014 this week brings intense transformation in love and career as Venus trine Pluto activates your 8th House. Jupiter enters your 1st House sparking a fresh identity shift. Comment your sign below \u2014 I'll reveal what the cosmos holds specifically for you.",
+    "lucky_color": "Emerald Green",
+    "monthly_vibe": "Bold Action",
+    "title": "Aries \u2014 Cosmic Shifts Demand Your Attention",
+    "youtube_title": "Aries \u2014 Cosmic Shifts Demand Your Attention #shorts",
+    "youtube_description": "Mars is activating your identity sector this week in ways that demand bold action. Venus entering your 5th House Tuesday sparks a romantic connection you won't expect \u2014 but Saturday brings intense 8th House tensions over shared finances. Comment your sign below for your personalized reading.",
     "youtube_tags": [
-        "aries horoscope",
-        "weekly forecast",
-        "astrology prediction",
-        "venus trine pluto",
-        "mars in 10th house",
-        "fiery energy",
-        "love prediction",
-        "career stars",
-        "jupiter transit",
-        "cosmic energy",
-        "aries weekly",
-        "horoscope reading"
+        "aries weekly horoscope",
+        "mars transit",
+        "venus love",
+        "fire sign energy",
+        "career predictions",
+        "cosmic alignment",
+        "astrology tips",
+        "zodiac forecast",
+        "star wisdom",
+        "planetary transits",
+        "horoscope daily",
+        "astrology reading"
     ],
     "type": "weekly",
     "target": "Aries",
-    "date": "Sep 05 - Sep 11",
+    "date": "Sep 06 - Sep 12",
     "images": [
         "assets/zodiac_signs/Aries.jpg"
     ],

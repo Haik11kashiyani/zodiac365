@@ -1,42 +1,70 @@
 {
-  "script_text": "Stop, Aries \u2014 the cosmos just threw a direct hit at your career sector. The Sun is squaring your ruling planet Mars in Sagittarius right now, activating your 10th House of Career with intense pressure. This fiery tension between Virgo energy and your Cardinal Fire sign is forcing you to confront professional decisions you've been avoiding. If you're single, Venus in Cancer is blessing your 5th House of Romance with unexpected encounters today. If taken, watch for misunderstandings around home life as the Moon activates your 4th House. Jupiter is trining your 2nd House of Wealth, opening doors for financial growth, but Mercury's square to Pluto demands you review contracts carefully before signing. Avoid impulsive spending this afternoon \u2014 an unexpected bonus or gift is heading your way instead. Follow for tomorrow's reading so you don't miss what the stars have planned.",
+  "script_text": "Stop, Aries \u2014 the cosmos is firing up your solar plexus today. Your ruling planet Mars is forming a tense square to Saturn in your 10th House of Career, creating friction between your ambitions and heavy responsibilities. The Sun opposes Neptune in your 4th House of Home, blurring boundaries between family needs and your own desires. Single Aries, Venus dances with Jupiter in your 5th House of Romance \u2014 this is your window to attract someone who matches your fire. Taken Aries, Mercury squares Pluto in your 8th House demanding honesty about hidden tensions. That Mars-Saturn square in your 10th House means don't rush promotions today \u2014 wait for clarity before signing anything. Avoid impulsive spending this afternoon when Mars squares Uranus \u2014 unexpected expenses love to ambush Aries. Subscribe so you don't miss what's coming this week.",
   "captions_structure": [
     {
       "text": "ARIES ALERT",
       "type": "header"
     },
     {
-      "text": "Stop, Aries \u2014 the cosmos just threw a direct hit at your career sector. The Sun is squaring your ruling planet Mars in Sagittarius right now, activating your 10th House of Career with intense pressure. This fiery tension between Virgo energy and your Cardinal Fire sign is forcing you to confront professional decisions you've been avoiding. If you're single, Venus in Cancer is blessing your 5th House of Romance with unexpected encounters today. If taken, watch for misunderstandings around home life as the Moon activates your 4th House. Jupiter is trining your 2nd House of Wealth, opening doors for financial growth, but Mercury's square to Pluto demands you review contracts carefully before signing. Avoid impulsive spending this afternoon \u2014 an unexpected bonus or gift is heading your way instead. Follow for tomorrow's reading so you don't miss what the stars have planned.",
+      "text": "Stop, Aries \u2014 the cosmos is firing up your solar plexus today.",
+      "type": "normal"
+    },
+    {
+      "text": "Your ruling planet Mars is forming a tense square to Saturn in your 10th House of Career, creating friction between your ambitions and heavy responsibilities.",
+      "type": "normal"
+    },
+    {
+      "text": "The Sun opposes Neptune in your 4th House of Home, blurring boundaries between family needs and your own desires.",
+      "type": "normal"
+    },
+    {
+      "text": "Single Aries, Venus dances with Jupiter in your 5th House of Romance \u2014 this is your window to attract someone who matches your fire.",
+      "type": "normal"
+    },
+    {
+      "text": "Taken Aries, Mercury squares Pluto in your 8th House demanding honesty about hidden tensions.",
+      "type": "normal"
+    },
+    {
+      "text": "That Mars-Saturn square in your 10th House means don't rush promotions today \u2014 wait for clarity before signing anything.",
+      "type": "normal"
+    },
+    {
+      "text": "Avoid impulsive spending this afternoon when Mars squares Uranus \u2014 unexpected expenses love to ambush Aries.",
+      "type": "normal"
+    },
+    {
+      "text": "Subscribe so you don't miss what's coming this week.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
     "7",
-    "19",
-    "33"
+    "11",
+    "21"
   ],
-  "lucky_color": "Crimson Red",
-  "monthly_vibe": "Bold Action",
-  "title": "Aries \u2014 The Stars Are Warning You",
-  "youtube_title": "Aries: Cosmic Warning You Can't Ignore #shorts",
-  "youtube_description": "The Sun is creating a tense square to Mars in your career sector today \u2014 this isn't a casual transit, Aries. Something major is shifting in your professional life, and the stars reveal exactly what's at stake. Comment your sign below so I can tell you how this affects you.",
+  "lucky_color": "Emerald Green",
+  "monthly_vibe": "Reflective & Calm",
+  "title": "Aries, the Stars Are Warning You...",
+  "youtube_title": "Aries Warning \u2014 Check Your 10th House #shorts",
+  "youtube_description": "Mars is squaring Saturn in Aries' career sector today \u2014 this transit exposes hidden tensions around authority and ambition. Single Aries gets a Jupiter-Venus connection in romance. Comment your sign below.",
   "youtube_tags": [
-    "aries horoscope",
+    "aries",
+    "horoscope",
     "daily astrology",
-    "aries daily",
     "mars transit",
+    "zodiac energy",
+    "aries love",
     "career astrology",
-    "love prediction",
-    "aries 2026",
-    "cosmic energy",
-    "virgo eclipse",
-    "fire sign astrology",
-    "planetary aspects",
-    "aries fortune"
+    "cosmic vibes",
+    "planet aspects",
+    "zodiac sign",
+    "astrology predictions",
+    "fire sign"
   ],
   "type": "daily",
   "target": "Aries",
-  "date": "September 05, 2026",
+  "date": "September 06, 2026",
   "images": [
     "assets/zodiac_signs/Aries.jpg"
   ],
