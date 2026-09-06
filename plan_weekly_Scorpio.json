@@ -1,43 +1,66 @@
 {
-  "script_text": "Scorpio, this week kicks off with Jupiter squaring your 8th House of transformation \u2014 expect emotional intensity and power struggles that demand your authenticity. Monday-Tuesday feels heavy as the Sun conjuncts Pluto, forcing deep reckonings, but Wednesday brings relief as Venus enters your 5th House of pleasure, lighting up romance and creative projects. Thursday marks a turning point: Mercury trines your 2nd House, making it easier to manifest financial gains and clear communication. By weekend, the Moon opposes your Sun, creating tension but also revealing hidden truths. Wednesday is your power day because Venus enters your 5th House, activating love and joy. Monday is your worst day because Jupiter squares your 8th House, amplifying fears. Weekly advice: release control over outcomes and trust the process. Follow for daily updates.",
-  "captions_structure": [
-    {
-      "text": "SCORPIO",
-      "type": "header"
-    },
-    {
-      "text": "Scorpio, this week kicks off with Jupiter squaring your 8th House of transformation..."
-    }
-  ],
-  "lucky_numbers": [
-    "8",
-    "15",
-    "23"
-  ],
-  "lucky_color": "Deep Burgundy",
-  "monthly_vibe": "Intense Transformation",
-  "title": "Scorpio \u2014 Don't Ignore This Weekly Shift",
-  "youtube_title": "Scorpio Weekly Forecast August 13 #shorts",
-  "youtube_description": "Scorpio, this week brings Jupiter squaring your 8th House, forcing emotional reckonings and power shifts. Venus enters your 5th House mid-week, activating love and creativity. Comment your sign.",
-  "youtube_tags": [
-    "scorpio weekly",
-    "astrology forecast",
-    "8th house transit",
-    "venus 5th house",
-    "jupiter square",
-    "pluto conjunct",
-    "horoscope 2026",
-    "water sign",
-    "zodiac reading",
-    "cosmic guidance"
-  ],
-  "type": "weekly",
-  "target": "Scorpio",
-  "date": "Aug 13 - Aug 19",
-  "images": [
-    "assets/zodiac_signs/Scorpio.jpg"
-  ],
-  "active": true,
-  "status": "uploaded",
-  "file_name": "plan_weekly_Scorpio.json"
+    "script_text": "Pluto stations direct this week, Scorpio \u2014 Water sign energy runs deep and nothing stays hidden. Early week, Mars squares your 8th House of shared resources \u2014 expect unexpected expenses or power struggles in relationships Monday through Wednesday. Jupiter trines your 10th House of career on Tuesday, making it the strongest day for professional moves. Mid-week turning point: Venus enters your 7th House of partnerships on Wednesday, shifting everything about how you connect with others. Late week, the Sun sextiles your 2nd House of income Thursday through Sunday, bringing financial clarity. Weekend energy supports deep emotional bonding. Wednesday is your power day because Venus enters your 7th House, activating love and partnership. Avoid Monday \u2014 Mars square Neptune in your 12th House clouds judgment. Confront hidden fears about money and trust this week. Write down every financial obligation before Thursday. Follow for daily updates.",
+    "captions_structure": [
+        {
+            "text": "SCORPIO",
+            "type": "header"
+        },
+        {
+            "text": "Pluto stations direct this week \u2014 Water sign energy runs deep and nothing stays hidden...",
+            "type": "normal"
+        },
+        {
+            "text": "Early week: Mars squares your 8th House, Jupiter trines your 10th House on Tuesday...",
+            "type": "normal"
+        },
+        {
+            "text": "Mid-week: Venus enters your 7th House Wednesday \u2014 partnership zone activated...",
+            "type": "normal"
+        },
+        {
+            "text": "Late week: Sun sextiles your 2nd House, financial clarity incoming...",
+            "type": "normal"
+        },
+        {
+            "text": "Wednesday = power day. Monday = avoid. Write down obligations before Thursday...",
+            "type": "normal"
+        },
+        {
+            "text": "Follow for daily updates.",
+            "type": "normal"
+        }
+    ],
+    "lucky_numbers": [
+        "7",
+        "19",
+        "42"
+    ],
+    "lucky_color": "Deep Crimson",
+    "monthly_vibe": "Transformation & Trust",
+    "title": "Scorpio \u2014 Pluto Direct Changes Everything",
+    "youtube_title": "Scorpio \u2014 Pluto Direct Changes Everything #shorts",
+    "youtube_description": "Pluto stations direct this week and it's hitting your relational house hard, Scorpio. Venus enters your partnership zone Wednesday \u2014 here's what that means for love and money. Comment your sign below.",
+    "youtube_tags": [
+        "astrology",
+        "horoscope",
+        "scorpio",
+        "pluto direct",
+        "venus transit",
+        "water sign",
+        "weekly forecast",
+        "cosmic energy",
+        "planetary transit",
+        "love prediction",
+        "career astrology",
+        "twin flame"
+    ],
+    "type": "weekly",
+    "target": "Scorpio",
+    "date": "Sep 06 - Sep 12",
+    "images": [
+        "assets/zodiac_signs/Scorpio.jpg"
+    ],
+    "active": true,
+    "status": "pending",
+    "file_name": "plan_weekly_Scorpio.json"
 }

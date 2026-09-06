@@ -1,46 +1,44 @@
 {
-  "script_text": "Libra, air sign, Venus squares Neptune, jolting your 7th House of partnerships this volatile week. Monday Mercury squares Neptune, fogging judgment; delay important decisions. Tuesday Venus squares Saturn, demanding realistic love boundaries in relationships. Wednesday Venus trines 5th House, easing creative romance and creative spark. Wednesday Venus perfects trine, mid-week release igniting proactive action and renewed confidence. Thursday Sun enters 6th House, grounding work routines, health habits, and practical service opportunities. Friday Jupiter sextile Saturn brings career breakthroughs, rewarding disciplined effort with tangible advancement. Weekend Mars 2nd House boosts finances, warns against impulsive spending sprees. Wednesday is your power day because Venus trines your 5th House, amplifying love, creativity, and joyous self-expression. Monday is your worst day because Mercury squares Neptune, clouding judgment with vague illusions. Prioritize key conversations Thursday Sun in 6th House, ensuring clear communication and productive collaborations. Follow for daily updates.",
-  "captions_structure": [
-    {
-      "text": "LIBRA",
-      "type": "header"
-    },
-    {
-      "text": "Libra, air sign, Venus squares Neptune, jolting your 7th House of partnerships this volatile week.",
-      "type": "normal"
-    }
-  ],
-  "lucky_numbers": [
-    "7",
-    "13",
-    "22"
-  ],
-  "lucky_color": "Royal Blue",
-  "monthly_vibe": "Balanced Growth",
-  "title": "Libra: Venus Squares Neptune This Week",
-  "youtube_title": "Libra \u2014 Venus Squares Neptune This Week #shorts",
-  "youtube_description": "Libra, get ready for a week of cosmic shifts as Venus clashes with Neptune, stirring your partnership sector. This forecast reveals exactly when love opportunities peak and career breakthroughs arrive, so you can navigate the stars with confidence.",
-  "youtube_tags": [
-    "libra",
-    "horoscope",
-    "venus",
-    "neptune",
-    "career",
-    "love",
-    "weekly",
-    "astrology",
-    "cosmic",
-    "zodiac",
-    "transits",
-    "balance"
-  ],
-  "type": "weekly",
-  "target": "Libra",
-  "date": "Aug 13 - Aug 19",
-  "images": [
-    "assets/zodiac_signs/Libra.jpg"
-  ],
-  "active": true,
-  "status": "uploaded",
-  "file_name": "plan_weekly_Libra.json"
+    "script_text": "Your world flips upside down this week, Libra. Early week brings Mercury sextile Venus, creating brilliant communication opportunities Monday through Wednesday. Tuesday is golden as Mars trines your 7th House of partnerships, but avoid Thursday when Mercury squares Saturn, blocking your voice in contracts. Mid-week turns powerful as Venus enters your 10th House of career on Wednesday, igniting professional recognition and advancement. Late week shifts to emotional depth as Moon enters Cancer, flooding your 4th House with nostalgic energy. Weekend brings Jupiter opposition Neptune, so don't trust illusions about money or love by Sunday. Wednesday is your power day because Venus enters your 5th House, sparking romance and creative breakthroughs. Thursday demands caution\u2014Mercury squares Saturn in your 8th House of shared finances, risking hidden debts. Trust your Air element intuition this week. Make one bold romantic move before Sunday. Follow for daily updates.",
+    "captions_structure": [
+        {
+            "text": "LIBRA ALERT",
+            "type": "header"
+        },
+        {
+            "text": "Your world flips upside down this week, Libra. Early week brings Mercury sextile Venus...",
+            "type": "normal"
+        }
+    ],
+    "lucky_numbers": [
+        "7",
+        "11",
+        "21"
+    ],
+    "lucky_color": "Emerald Green",
+    "monthly_vibe": "Reflective & Calm",
+    "title": "Libra \u2014 Don't Ignore This",
+    "youtube_title": "Libra's Big Career Shift This Week #shorts",
+    "youtube_description": "Venus enters your career house mid-week, but there's danger about money illusions. Comment your sign to see how this affects YOU.",
+    "youtube_tags": [
+        "libra horoscope",
+        "cosmic energy",
+        "weekly forecast",
+        "venus transit",
+        "career astrology",
+        "love prediction",
+        "air sign",
+        "september astrology",
+        "planetary aspects",
+        "libra weekly"
+    ],
+    "type": "weekly",
+    "target": "Libra",
+    "date": "Sep 06 - Sep 12",
+    "images": [
+        "assets/zodiac_signs/Libra.jpg"
+    ],
+    "active": true,
+    "status": "pending",
+    "file_name": "plan_weekly_Libra.json"
 }

@@ -1,72 +1,61 @@
 {
-  "script_text": "Stop! Scorpio, the stars are screaming at you right now. Mars in Leo is forming a tense square to your ruling planet Pluto, creating friction in your 10th House of career. Meanwhile, Jupiter in Cancer trines your Sun, offering a lucky break in your 9th House of travel and education. Love is hot today as Venus in Taurus lights up your 7th House of partnerships, making you attractive. Single Scorpios should embrace the confident energy, while coupled ones watch for power struggles with their partner. Your 2nd House of finances is blessed by Jupiter, so expect an unexpected windfall or a lucrative opportunity at work. However, the Mars-Pluto square means you'll need to navigate office politics with care. Blessing: A sudden insight will reveal itself during your morning routine. Follow for tomorrow's reading so you don't miss what's coming this week.",
+  "script_text": "Scorpio, you're about to hit a wall the cosmos built on purpose. The Moon is squaring Pluto this morning, then Mars enters a tense opposition to your ruling planet Pluto in the 8th House of Transformation. That's raw emotional pressure meeting buried power \u2014 nothing subtle here, and you can feel it in your bones all day long. If you're single, a sudden conversation after midnight will shift everything in ways you didn't expect. If taken, your partner hides something real \u2014 ask directly before noon, don't wait for hints or wishful thinking. Mercury conjunct Jupiter in your 10th House of Status is pushing a major promotion or visibility opportunity your way \u2014 but only if you speak up before 3 PM sharp. Avoid signing any contract before sunset tonight, the ink isn't dry yet and could cost you dearly. Follow for tomorrow's reading.",
   "captions_structure": [
     {
-      "text": "SCORPIO ALERT",
+      "text": "SCORPIO",
       "type": "header"
     },
     {
-      "text": "Stop! Scorpio, the stars are screaming at you right now.",
+      "text": "you're about to hit a wall the cosmos built on purpose.",
       "type": "normal"
     },
     {
-      "text": "Mars in Leo is forming a tense square to your ruling planet Pluto, creating friction in your 10th House of career.",
+      "text": "The Moon squares Pluto, Mars opposes your ruling planet in the 8th House.",
       "type": "normal"
     },
     {
-      "text": "Meanwhile, Jupiter in Cancer trines your Sun, offering a lucky break in your 9th House of travel and education.",
+      "text": "Single? Midnight conversation changes everything. Taken? Partner hides something \u2014 ask before noon.",
       "type": "normal"
     },
     {
-      "text": "Love is hot today as Venus in Taurus lights up your 7th House of partnerships, making you attractive.",
+      "text": "Mercury conjunct Jupiter in your 10th House = promotion opportunity, speak up by 3 PM.",
       "type": "normal"
     },
     {
-      "text": "Single Scorpios should embrace the confident energy, while coupled ones watch for power struggles with their partner.",
+      "text": "Don't sign contracts before sunset \u2014 the ink isn't dry.",
       "type": "normal"
     },
     {
-      "text": "Your 2nd House of finances is blessed by Jupiter, so expect an unexpected windfall or a lucrative opportunity at work.",
-      "type": "normal"
-    },
-    {
-      "text": "However, the Mars-Pluto square means you'll need to navigate office politics with care.",
-      "type": "normal"
-    },
-    {
-      "text": "Blessing: A sudden insight will reveal itself during your morning routine.",
-      "type": "normal"
-    },
-    {
-      "text": "Follow for tomorrow's reading so you don't miss what's coming this week.",
+      "text": "Follow for tomorrow's reading.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
     "7",
-    "11",
-    "21"
+    "19",
+    "42"
   ],
-  "lucky_color": "Scarlet Red",
-  "monthly_vibe": "Intense & Focused",
-  "title": "Scorpio Daily Horoscope August 26, 2026",
-  "youtube_title": "Scorpio: The Stars Are Warning You Today #shorts",
-  "youtube_description": "Scorpio, today the cosmos is shifting in your career and love life. Mars is clashing with Pluto, creating tension, but Jupiter is sending a lucky break your way. Find out what this means for you and comment your sign below.",
+  "lucky_color": "Deep Crimson",
+  "monthly_vibe": "Transformation & Power",
+  "title": "Scorpio \u2014 The Cosmos Is Warning You",
+  "youtube_description": "The Moon is squaring your ruling planet Pluto today \u2014 this isn't a gentle transit. Something buried is about to surface, and what happens before noon changes everything. Comment your sign and I'll tell you how it hits YOUR chart.",
   "youtube_tags": [
     "scorpio horoscope",
     "daily astrology",
+    "scorpio prediction",
+    "moon square pluto",
+    "8th house transit",
     "scorpio love",
-    "career forecast",
-    "planet transits",
-    "august 2026 horoscope",
-    "scorpio sun sign",
-    "astrology predictions",
-    "cosmic guidance",
-    "scorpio daily"
+    "scorpio career",
+    "jupiter conjunct mercury",
+    "water sign energy",
+    "planetary transit",
+    "astrology reading",
+    "zodiac forecast"
   ],
   "type": "daily",
   "target": "Scorpio",
-  "date": "August 26, 2026",
+  "date": "September 06, 2026",
   "images": [
     "assets/zodiac_signs/Scorpio.jpg"
   ],
