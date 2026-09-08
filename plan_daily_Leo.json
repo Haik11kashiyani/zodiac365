@@ -1,40 +1,61 @@
 {
-  "script_text": "Stop, Leo, the vast cosmic skies are currently igniting a dramatic power struggle within you right now! Saturn is currently forming a punishing square to your ruling planet, the Sun, squarely inside your 1st House, testing your Fire element resilience and demanding intense personal discipline today. Meanwhile, a beautifully blissful trine between Venus and Jupiter in your 7th House of Partnerships draws an incredibly magnetic, captivating romantic partner directly into your current daily life. In your powerful 10th House of Career, Mercury conjuncts the Sun to spotlight a very lucrative job opportunity, but you must resist signing any binding contracts until the afternoon passes. Avoid arguing with stubborn authority figures today, because a hidden financial blessing is waiting just past your current frustration. Follow for tomorrow's detailed reading to see if the stars ultimately align exactly in your favor today!",
+  "script_text": "Stop, Leo \u2014 something massive is shifting in your sky right now. The Sun in Virgo is activating your 12th House of the Unconscious, forming a challenging square to Jupiter in Gemini. This is stirring deep emotional currents you've been ignoring. In love, if you're single, this transit is pulling someone from your past back into your orbit \u2014 don't dismiss them. If you're taken, an unspoken need will demand attention today. Your 10th House of Career is receiving a rare trine from Saturn, meaning a structured opportunity is presenting itself \u2014 but only if you release control. Warning: avoid making impulsive financial decisions before noon. A hidden blessing arrives through a quiet conversation this evening. Follow for tomorrow's reading.",
   "captions_structure": [
     {
       "text": "LEO ALERT",
       "type": "header"
     },
     {
-      "text": "Stop, Leo, the vast cosmic skies are currently igniting a dramatic power struggle within you right now! Saturn is currently forming a punishing square to your ruling planet, the Sun, squarely inside your 1st House, testing your Fire element resilience and demanding intense personal discipline today. Meanwhile, a beautifully blissful trine between Venus and Jupiter in your 7th House of Partnerships draws an incredibly magnetic, captivating romantic partner directly into your current daily life. In your powerful 10th House of Career, Mercury conjuncts the Sun to spotlight a very lucrative job opportunity, but you must resist signing any binding contracts until the afternoon passes. Avoid arguing with stubborn authority figures today, because a hidden financial blessing is waiting just past your current frustration. Follow for tomorrow's detailed reading to see if the stars ultimately align exactly in your favor today!",
+      "text": "Stop, Leo \u2014 something massive is shifting in your sky right now.",
+      "type": "normal"
+    },
+    {
+      "text": "The Sun in Virgo is activating your 12th House, forming a challenging square to Jupiter in Gemini.",
+      "type": "normal"
+    },
+    {
+      "text": "In love, someone from your past is pulling back into your orbit \u2014 don't dismiss them.",
+      "type": "normal"
+    },
+    {
+      "text": "Your 10th House receives a rare trine from Saturn \u2014 a career opportunity demands you release control.",
+      "type": "normal"
+    },
+    {
+      "text": "Avoid impulsive financial decisions before noon. A hidden blessing arrives through quiet conversation tonight.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for tomorrow's reading.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
     "7",
-    "11",
-    "21"
+    "19",
+    "42"
   ],
-  "lucky_color": "Royal Gold",
-  "monthly_vibe": "Bold Action",
-  "title": "Leo \u2014 Don't Ignore This",
-  "youtube_title": "Leo \u2014 Don't Ignore This #shorts",
-  "youtube_description": "Saturn is testing your core strength today, but a beautiful Venus trine brings romance your way. Discover what Mercury conjuncts the Sun means for your career. Comment your sign!",
+  "lucky_color": "Royal Purple",
+  "monthly_vibe": "Shadow Work & Expansion",
+  "title": "Leo \u2014 The Stars Are Warning You",
+  "youtube_description": "Something powerful is moving through Leo's 12th House today. This transit reveals hidden truths about your career path and love life \u2014 but only if you pay attention. Comment your sign and let's see how this plays out for you.",
   "youtube_tags": [
     "leo horoscope",
-    "daily horoscope",
-    "mercury conjunct sun",
-    "saturn square",
-    "leo astrology",
-    "venus trine jupiter",
-    "cosmic energy",
-    "zodiac predictions",
+    "daily astrology",
+    "star sign predictions",
+    "september astrology",
+    "sun square jupiter",
+    "leo career forecast",
+    "love horoscope",
+    "12th house transit",
     "astrology reading",
-    "sign predictions"
+    "zodiac predictions",
+    "saturn trine",
+    "virgo eclipse energy"
   ],
   "type": "daily",
   "target": "Leo",
-  "date": "September 04, 2026",
+  "date": "September 08, 2026",
   "images": [
     "assets/zodiac_signs/Leo.jpg"
   ],
