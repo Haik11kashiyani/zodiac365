@@ -1,39 +1,78 @@
 {
-  "script_text": "Stop, Sagittarius, the cosmos is fiercely demanding your immediate and undivided attention right now! Mars in Leo is forming a tense square to your ruling planet Jupiter in Cancer, sparking intense friction in your 4th House of Home as fiery Mars clashes with your emotional water. This celestial tension forces you to confront unresolved emotional clutter that has been quietly draining your daily vitality. If taken, a passive-aggressive argument over petty household duties threatens your inner peace today; if single, a spontaneous weekend getaway is the only way to attract a truly compatible lover. Professionally, this domestic stress spills directly into your 10th House of Public Standing, so avoid making any major financial investments until next week. Avoid impulsive home purchases today, or you will face severe and lasting financial consequences. Follow for tomorrow's highly detailed cosmic breakdown so you absolutely do not miss this critical transit shift.",
+  "script_text": "Stop, Sagittarius, a fire sign: the cosmic alarm is ringing. Saturn is conjunct Pluto in Aries, your 5th House of creativity, romance, children, and risk. Mercury in Leo squares Saturn, pressing your 10th House of work and reputation. Mars in Libra opposes Pluto, intensifying the 11th House of friendships, networks, and communities. In love, Venus in Libra trines Neptune in Aries, making a romantic or creative connection feel fated; verify promises before believing them. Singles may meet someone through a friend, group, or community. For career and money, Mercury urges you to send the proposal and put all figures in writing before you sign anything. Ruling Jupiter in Gemini activates your 7th House, bringing clients or commissions, while Mars opposite Pluto warns against pressure within partnerships. Avoid emotional leverage; an unexpected partnership may become your blessing. Follow for tomorrow's reading.",
   "captions_structure": [
     {
-      "text": "SAGITTARIUS ALERT",
+      "text": "SAGITTARIUS",
       "type": "header"
     },
     {
-      "text": "Stop, Sagittarius, the cosmos is fiercely demanding your immediate and undivided attention right now!",
+      "text": "Stop, Sagittarius, a fire sign: the cosmic alarm is ringing.",
+      "type": "normal"
+    },
+    {
+      "text": "Saturn is conjunct Pluto in Aries, your 5th House of creativity, romance, children, and risk.",
+      "type": "normal"
+    },
+    {
+      "text": "Mercury in Leo squares Saturn, pressing your 10th House of work and reputation.",
+      "type": "normal"
+    },
+    {
+      "text": "Mars in Libra opposes Pluto, intensifying the 11th House of friendships, networks, and communities.",
+      "type": "normal"
+    },
+    {
+      "text": "In love, Venus in Libra trines Neptune in Aries, making a romantic or creative connection feel fated; verify promises before believing them.",
+      "type": "normal"
+    },
+    {
+      "text": "Singles may meet someone through a friend, group, or community.",
+      "type": "normal"
+    },
+    {
+      "text": "For career and money, Mercury urges you to send the proposal and put all figures in writing before you sign anything.",
+      "type": "normal"
+    },
+    {
+      "text": "Ruling Jupiter in Gemini activates your 7th House, bringing clients or commissions, while Mars opposite Pluto warns against pressure within partnerships.",
+      "type": "normal"
+    },
+    {
+      "text": "Avoid emotional leverage; an unexpected partnership may become your blessing.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for tomorrow's reading.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
-    "7",
+    "5",
     "11",
-    "21"
+    "23"
   ],
-  "lucky_color": "Royal Purple",
-  "monthly_vibe": "Reflective & Calm",
-  "title": "Sagittarius \u2014 Do Not Ignore This Warning",
-  "youtube_description": "The stars are aligning in a way that will disrupt your home life and finances this week. Discover exactly how Mars and Jupiter are forcing a massive shift in your domestic kingdom. Comment your sign below to see how this transit impacts you!",
+  "lucky_color": "Deep Rose",
+  "monthly_vibe": "Powerful Collaboration",
+  "title": "Sagittarius Daily Horoscope September 10, 2026",
+  "youtube_title": "Sagittarius: The Cosmic Power Shift Is Here #shorts",
+  "youtube_description": "Sagittarius, Saturn, Pluto, and Mars are concentrating power in your 5th and 11th Houses, while Mercury tests your 10th House career moves. This reading reveals how Venus trine Neptune can change romance and why Jupiter transiting your 7th House may bring a valuable client or commission. Comment your sign for more daily guidance.",
   "youtube_tags": [
-    "sagittarius",
-    "astrology",
-    "horoscope",
-    "mars square",
-    "jupiter transit",
+    "sagittarius horoscope",
     "daily horoscope",
-    "zodiac prediction",
-    "cancer transit",
-    "house alignment",
-    "cosmic energy"
+    "western astrology",
+    "astrology reading",
+    "cosmic energy",
+    "love forecast",
+    "career forecast",
+    "money forecast",
+    "planetary transits",
+    "sagittarius daily",
+    "relationship horoscope",
+    "fire sign astrology"
   ],
   "type": "daily",
   "target": "Sagittarius",
-  "date": "August 27, 2026",
+  "date": "September 10, 2026",
   "images": [
     "assets/zodiac_signs/Sagittarius.jpg"
   ],
