@@ -1,52 +1,44 @@
 {
-    "script_text": "Tonight, water sign Pisces, destiny pulls your future into focus. Wednesday is tense: Mercury in your 7th House squares Uranus in your 4th House, disrupting conversations. Wednesday is tense: Mars, your 2nd House ruler, squares Jupiter in your 6th House, causing career overload and financial risk. Mars sextiles Saturn in your 1st House, pressure becomes progress. By midweek, the Sun squares Uranus in your 4th House, ending a domestic loop. Venus in your 7th House favors honest love talks; Neptune, your ruling planet in your 1st House, clouds confidence. Friday's Mercury conjuncts the Sun in your 7th House, clarifying decisions. The weekend favors romance and shared finance reviews; Sunday is practical. Friday is your power day: Mercury conjuncts the Sun, clarifying decisions. Wednesday is hardest: Mercury squares Uranus, amplifying confusion. Write down a financial question, verify numbers, act after intuition settles. Follow for daily updates.",
+    "script_text": "Pisces, Neptune, your water ruler, rewires this week's work-and-love chart. Monday through Wednesday, New Moon in Virgo, your 6th House, arrives as Mercury is retrograde; Mercury quincunxes Pluto in 11th House, so verify contracts, messages, and career data. Tuesday is your worst day because Mars squares the Sun and Venus quincunxes Saturn, exposing work errors and romantic tension. Wednesday turns the tide as the New Moon clarifies priorities and Jupiter squares Neptune in your 1st House, exposing romantic projections. Thursday through Sunday, Venus in 7th House sharpens romantic honesty, while Venus trines Pluto in 11th House, bringing real freelance payments this coming weekend. Friday is your power day because Venus supports a love conversation and the transit favors a practical proposal. Saturday stays noisy because Mercury is retrograde in 6th House, but Sunday's direct station offers release. Follow evidence, not mood. Follow for daily updates.",
     "captions_structure": [
         {
             "text": "PISCES",
             "type": "header"
         },
         {
-            "text": "Tonight, water sign Pisces, destiny pulls your future into focus.",
+            "text": "Neptune, your water ruler, rewires this week's work-and-love chart.",
             "type": "normal"
         },
         {
-            "text": "Wednesday is tense: Mercury in your 7th House squares Uranus in your 4th House, disrupting conversations.",
+            "text": "Monday through Wednesday, New Moon in Virgo, your 6th House, arrives as Mercury is retrograde.",
             "type": "normal"
         },
         {
-            "text": "Wednesday is tense: Mars, your 2nd House ruler, squares Jupiter in your 6th House, causing career overload and financial risk.",
+            "text": "Mercury quincunxes Pluto in 11th House, so verify contracts, messages, and career data.",
             "type": "normal"
         },
         {
-            "text": "Mars sextiles Saturn in your 1st House, pressure becomes progress.",
+            "text": "Tuesday is your worst day because Mars squares the Sun and Venus quincunxes Saturn, exposing work errors and romantic tension.",
             "type": "normal"
         },
         {
-            "text": "By midweek, the Sun squares Uranus in your 4th House, ending a domestic loop.",
+            "text": "Wednesday turns the tide as the New Moon clarifies priorities and Jupiter squares Neptune in your 1st House, exposing romantic projections.",
             "type": "normal"
         },
         {
-            "text": "Venus in your 7th House favors honest love talks; Neptune, your ruling planet in your 1st House, clouds confidence.",
+            "text": "Thursday through Sunday, Venus in 7th House sharpens romantic honesty, while Venus trines Pluto in 11th House, bringing real freelance payments this coming weekend.",
             "type": "normal"
         },
         {
-            "text": "Friday's Mercury conjuncts the Sun in your 7th House, clarifying decisions.",
+            "text": "Friday is your power day because Venus supports a love conversation and the transit favors a practical proposal.",
             "type": "normal"
         },
         {
-            "text": "The weekend favors romance and shared finance reviews; Sunday is practical.",
+            "text": "Saturday stays noisy because Mercury is retrograde in 6th House, but Sunday's direct station offers release.",
             "type": "normal"
         },
         {
-            "text": "Friday is your power day: Mercury conjuncts the Sun, clarifying decisions.",
-            "type": "normal"
-        },
-        {
-            "text": "Wednesday is hardest: Mercury squares Uranus, amplifying confusion.",
-            "type": "normal"
-        },
-        {
-            "text": "Write down a financial question, verify numbers, act after intuition settles.",
+            "text": "Follow evidence, not mood.",
             "type": "normal"
         },
         {
@@ -55,32 +47,32 @@
         }
     ],
     "lucky_numbers": [
-        "5",
-        "14",
-        "29"
+        "7",
+        "11",
+        "21"
     ],
-    "lucky_color": "Deep Ocean Blue",
-    "monthly_vibe": "Urgent Clarity",
-    "title": "Pisces: This Week Forces a Choice",
-    "youtube_title": "Pisces: The Stars Demand a Decision #shorts",
-    "youtube_description": "Pisces, Mercury's square to Uranus and Mars's clash with Jupiter put communication, work, and money on high alert this week. I reveal the midweek turning point, the love conversation to prioritize, and the financial check that can prevent a costly mistake. Comment your sign.",
+    "lucky_color": "Deep Teal",
+    "monthly_vibe": "Intuitive Reset",
+    "title": "Pisces: Sep 10-16, 2026 Cosmic Pivot",
+    "youtube_title": "Pisces: This Week's Cosmic Pivot #shorts",
+    "youtube_description": "Pisces, Mercury retrograde in your 6th House and the New Moon in Virgo expose what needs fixing before Friday. I reveal why Tuesday is your toughest day, where Venus opens love, and how the Jupiter-Neptune square and Venus-Pluto trine shape romance and freelance payments. Comment your sign.",
     "youtube_tags": [
         "pisces horoscope",
         "weekly horoscope",
-        "september 2026 horoscope",
-        "western astrology",
-        "pisces transit",
-        "mercury virgo",
-        "mars jupiter",
-        "venus virgo",
-        "sun uranus",
+        "pisces astrology",
+        "mercury retrograde",
+        "virgo new moon",
         "love horoscope",
         "career horoscope",
-        "money horoscope"
+        "money horoscope",
+        "cosmic forecast",
+        "jupiter neptune",
+        "venus pluto",
+        "pisces weekly"
     ],
     "type": "weekly",
     "target": "Pisces",
-    "date": "Sep 09 - Sep 15",
+    "date": "Sep 10 - Sep 16",
     "images": [
         "assets/zodiac_signs/Pisces.jpg"
     ],
