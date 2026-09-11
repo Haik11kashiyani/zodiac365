@@ -1,62 +1,42 @@
 {
-    "script_text": "Stop \u2014 that repeating number you keep seeing isn't a coincidence. Lucky numbers are personal frequencies encoded in your birth chart, ruled by Mercury, swift lord of mathematics and the element of Air. They awaken whenever Mercury aspects your natal placements. This week, Mercury in Virgo forms a rare trine to Uranus in Gemini, electrifying your 3rd House of messages and synchronicity. In love, expect a meaningful text or unexpected reunion arriving under your number \u2014 reply within hours, not days. In money, this same trine ignites your 10th House of career: an offer, contract, or delayed payment marked by sevens lands before September begins. But heed the shadow \u2014 Chiron squares this transit from Aries, reopening old scarcity wounds that tempt you to chase digits instead of trusting them. Your North Node demands surrender: repetition is guidance, never permission to gamble. Journal every sequence for seven days and carry your number written down. Comment the number that keeps haunting you below \u2014 the cosmos already knows why.",
+    "script_text": "The numbers are holding a secret meant only for you. Lucky Numbers, Jupiter \u2014 your ruling planet in the Fire element \u2014 forms a precise trine with the Moon in your 7th House today, aligning probability and connection in your favor. This is the cosmos restructuring fortune at its core. Your intuition sharpens as Jupiter sextiles Mercury in your 10th House. Expect an unexpected financial opportunity linked to communication and numbers. In love, Venus conjunct Neptune in your 4th House draws someone deeply resonant into your emotional world. Repeating number patterns guide you. But Chiron retrograde in your 12th House reveals a karmic wound around trust and risk. The North Node opposes your natal axis, warning that playing safe costs the breakthrough you're manifesting. Write your three most repeated numbers today and sit with their stillness. Comment your lucky number below and let the stars confirm what your soul already knows.",
     "captions_structure": [
         {
-            "text": "LUCKY NUMBERS",
+            "text": "LUCKY NUMBERS ALERT",
             "type": "header"
         },
         {
-            "text": "Stop \u2014 that repeating number you keep seeing isn't a coincidence.",
+            "text": "The numbers are holding a secret meant only for you.",
             "type": "normal"
-        },
-        {
-            "text": "Ruled by Mercury, lord of Air and mathematics",
-            "type": "emphasis"
-        },
-        {
-            "text": "Mercury in Virgo trines Uranus in Gemini",
-            "type": "emphasis"
-        },
-        {
-            "text": "Love arrives through a message \u2014 reply fast",
-            "type": "highlight"
-        },
-        {
-            "text": "Money lands through your 10th House before September",
-            "type": "highlight"
-        },
-        {
-            "text": "Comment the number that keeps finding you",
-            "type": "cta"
         }
     ],
     "lucky_numbers": [
-        "3",
         "7",
-        "23"
+        "11",
+        "21"
     ],
-    "lucky_color": "Midnight Indigo",
-    "monthly_vibe": "Mystic Synchronicity",
-    "title": "Lucky Numbers Special Horoscope August 26, 2026",
-    "youtube_title": "Your Lucky Numbers Are Warning You Now #shorts",
-    "youtube_description": "That repeating number isn't random \u2014 Mercury in Virgo is trining Uranus in Gemini right now, and your 3rd and 10th Houses are wide open. I reveal exactly what your lucky numbers predict for love and money before September arrives. Comment your sign and tell me which number keeps finding you.",
+    "lucky_color": "Emerald Green",
+    "monthly_vibe": "Reflective & Calm",
+    "title": "Lucky Numbers \u2014 The Stars Are Warning",
+    "youtube_title": "Lucky Numbers \u2014 Don't Look Away #shorts",
+    "youtube_description": "Jupiter's powerful trine with the Moon is reshaping fortune for Lucky Numbers in ways most people will miss entirely. A hidden career breakthrough and a deeply soulful love connection are both activating right now. Comment your sign and I'll reveal exactly which areas of your life this transit transforms most.",
     "youtube_tags": [
         "lucky numbers",
         "astrology",
         "horoscope",
-        "mercury transit",
-        "numerology",
+        "jupiter transit",
+        "fortune reading",
+        "love prediction",
+        "career astrology",
         "cosmic energy",
+        "numerology",
+        "karmic transit",
         "zodiac signs",
-        "spiritual guidance",
-        "angel numbers",
-        "astrology forecast",
-        "manifestation",
-        "divine timing"
+        "retrograde effects"
     ],
     "type": "special",
     "target": "Lucky Numbers",
-    "date": "2026-08-26",
+    "date": "2026-09-11",
     "images": [],
     "active": true,
     "status": "pending",
