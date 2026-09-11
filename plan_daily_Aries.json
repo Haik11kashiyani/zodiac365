@@ -1,44 +1,48 @@
 {
-  "script_text": "Stop! Aries, the planets placed a red flare across your path. On September 09, 2026, Saturn in Aries opposes your Virgo Sun, activating your 1st House of identity and 12th House of hidden pressure. Uranus in Taurus squares your Sun from your 2nd House, disrupting income and security assumptions. Jupiter in Capricorn opposes Uranus in Taurus, widening tension between career and money across the 10th and 2nd Houses. Venus in your 5th House favors honesty; single Aries, charm attracts someone, while taken Aries should avoid secrecy or postponed conversations. Mars, Aries's ruling planet, channels fire element into action through your 10th House. Uranus in your 2nd House can alter a budget, invoice, or payment schedule. Avoid signing under pressure; an unexpected opportunity may arrive through a candid conversation. Follow for tomorrow's Aries reading before the next shift arrives right now.",
+  "script_text": "Stop, Aries \u2014 the cosmos just threw a massive curveball your way. Mars, your fiery ruling planet, is lingering in Cancer inside your 4th House of Home and Family, forming a tense square to Uranus in Pisces, stirring up unpredictable domestic tension and deep emotional volatility beneath the surface. With the Sun radiating through your 5th House of Romance, a passionate spark could ignite unexpectedly today \u2014 but if you're in a committed relationship, watch for hidden miscommunications underneath the calm. Meanwhile, Venus gliding near your 10th House of Career brings powerful new recognition, so trust your instincts on that professional project you've poured your heart into. Avoid making impulsive decisions about relocating or major home changes right now \u2014 that Uranus square is destabilizing your foundation. Follow for tomorrow's exclusive reading and subscribe so you don't miss what's coming this weekend.",
   "captions_structure": [
     {
       "text": "ARIES",
       "type": "header"
     },
     {
-      "text": "Stop! Aries, the planets placed a red flare across your path.",
+      "text": "Stop, Aries \u2014 the cosmos just threw a massive curveball your way.",
       "type": "normal"
     },
     {
-      "text": "On September 09, 2026, Saturn in Aries opposes your Virgo Sun, activating your 1st House of identity and 12th House of hidden pressure.",
+      "text": "Mars, your fiery ruling planet, is lingering in Cancer inside your 4th House of Home and Family, forming a tense square to Uranus in Pisces.",
       "type": "normal"
     },
     {
-      "text": "Uranus in Taurus squares your Sun from your 2nd House, disrupting income and security assumptions.",
+      "text": "Stirring up unpredictable domestic tension and deep emotional volatility beneath the surface.",
       "type": "normal"
     },
     {
-      "text": "Jupiter in Capricorn opposes Uranus in Taurus, widening tension between career and money across the 10th and 2nd Houses.",
+      "text": "With the Sun radiating through your 5th House of Romance, a passionate spark could ignite unexpectedly today.",
       "type": "normal"
     },
     {
-      "text": "Venus in your 5th House favors honesty; single Aries, charm attracts someone, while taken Aries should avoid secrecy or postponed conversations.",
+      "text": "But if you're in a committed relationship, watch for hidden miscommunications underneath the calm.",
       "type": "normal"
     },
     {
-      "text": "Mars, Aries's ruling planet, channels fire element into action through your 10th House.",
+      "text": "Meanwhile, Venus gliding near your 10th House of Career brings powerful new recognition.",
       "type": "normal"
     },
     {
-      "text": "Uranus in your 2nd House can alter a budget, invoice, or payment schedule.",
+      "text": "Trust your instincts on that professional project you've poured your heart into.",
       "type": "normal"
     },
     {
-      "text": "Avoid signing under pressure; an unexpected opportunity may arrive through a candid conversation.",
+      "text": "Avoid making impulsive decisions about relocating or major home changes right now.",
       "type": "normal"
     },
     {
-      "text": "Follow for tomorrow's Aries reading before the next shift arrives right now.",
+      "text": "That Uranus square is destabilizing your foundation.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for tomorrow's exclusive reading and subscribe so you don't miss what's coming this weekend.",
       "type": "normal"
     }
   ],
@@ -47,28 +51,27 @@
     "11",
     "21"
   ],
-  "lucky_color": "Crimson Red",
-  "monthly_vibe": "Bold Transformation",
-  "title": "Aries: The Stars Are Warning You",
-  "youtube_title": "Aries: The Stars Are Warning You #shorts",
-  "youtube_description": "Saturn is opposing your Sun while Uranus squares it, Aries, putting identity, money, and hidden pressure on the line. Jupiter's opposition to Uranus and Venus in your 5th House reveal a romance and career test you cannot ignore. Comment your sign and follow for tomorrow's Aries horoscope.",
+  "lucky_color": "Ruby Red",
+  "monthly_vibe": "Restless Momentum",
+  "title": "Aries \u2014 Don't Ignore This",
+  "youtube_title": "Aries \u2014 Don't Ignore This Cosmic Warning #shorts",
+  "youtube_description": "Mars is squaring Uranus in your 4th House right now, and Aries, the ripple effects are hitting harder than you think. September 11 brings a hidden turning point in your love life and career that you won't see coming. Comment your sign below to see how this transit affects your personal chart.",
   "youtube_tags": [
     "aries horoscope",
-    "daily horoscope",
-    "western astrology",
-    "astrology reading",
-    "aries transit",
-    "september horoscope",
-    "saturn opposition",
-    "uranus transit",
-    "love horoscope",
-    "career horoscope",
-    "money horoscope",
-    "cosmic guidance"
+    "aries daily reading",
+    "aries love forecast",
+    "aries career astrology",
+    "september 11 horoscope",
+    "mars square uranus",
+    "aries cosmic warning",
+    "zodiac predictions",
+    "fire sign energy",
+    "aries 2026 forecast",
+    "uranus transit today"
   ],
   "type": "daily",
   "target": "Aries",
-  "date": "September 09, 2026",
+  "date": "September 11, 2026",
   "images": [
     "assets/zodiac_signs/Aries.jpg"
   ],

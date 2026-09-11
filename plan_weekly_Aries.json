@@ -1,48 +1,44 @@
 {
-    "script_text": "Aries, ruled by fiery Mars, faces a fault line this week. Wednesday through Friday, Mars in your 10th House approaches a square with Mercury in the 8th. Jupiter in the 9th sextiles Saturn in the 1st. Expect tension or delayed payment, but support for contract approval. Mercury's station squares the North Node at 22 Libra in the 7th House, forcing a partnership payment issue into the open. Venus enters Virgo in the 6th House, making romance practical. Monday's 8th House Sun square to Pluto at 10 Aquarius in the 11th exposes control struggles; Tuesday brings Saturn's sextile to Pluto, adding influence. Monday is your power day because the 8th House Sun square with Pluto exposes 11th House control. Friday is your worst day because Mercury's station square to the Node can derail agreements. Send one proposal, verify finance details before signing. Follow for daily updates.",
+    "script_text": "Saturn is forcing Aries to finally confront what they've avoided, and the reveal hits hard. Monday begins with Mars squaring Saturn from your ambitious 10th House against your 1st House, creating career friction that tests patience through Wednesday. Venus forms a trine to Jupiter from your 9th House, opening doors for travel and meaningful connections. Thursday shifts dramatically when the Moon enters your 5th House, sparking creativity and relief. Weekend energy softens as Venus settles in your 9th House \u2014 perfect for signing contracts or planning a trip. Love thrives; expect an honest conversation with someone Sunday. Friday is your power day because Mars enters Cancer, igniting your 10th House and supercharging career visibility. Monday is your worst day because Saturn squares your natal Sun in your 1st House, intensifying self-doubt. Channel Aries fire into strategic moves \u2014 Jupiter rewards planning over impulse. Follow for daily updates.",
     "captions_structure": [
         {
-            "text": "ARIES",
+            "text": "ARIES ALERT",
             "type": "header"
         },
         {
-            "text": "Aries, ruled by fiery Mars, faces a fault line this week.",
+            "text": "Saturn is forcing Aries to finally confront what they've avoided, and the reveal hits hard.",
             "type": "normal"
         },
         {
-            "text": "Wednesday through Friday, Mars in your 10th House approaches a square with Mercury in the 8th.",
+            "text": "Monday begins with Mars squaring Saturn from your ambitious 10th House against your 1st House, creating career friction that tests patience through Wednesday.",
             "type": "normal"
         },
         {
-            "text": "Jupiter in the 9th sextiles Saturn in the 1st.",
+            "text": "Venus forms a trine to Jupiter from your 9th House, opening doors for travel and meaningful connections.",
             "type": "normal"
         },
         {
-            "text": "Expect tension or delayed payment, but support for contract approval.",
+            "text": "Thursday shifts dramatically when the Moon enters your 5th House, sparking creativity and relief.",
             "type": "normal"
         },
         {
-            "text": "Mercury's station squares the North Node at 22 Libra in the 7th House, forcing a partnership payment issue into the open.",
+            "text": "Weekend energy softens as Venus settles in your 9th House \u2014 perfect for signing contracts or planning a trip.",
             "type": "normal"
         },
         {
-            "text": "Venus enters Virgo in the 6th House, making romance practical.",
+            "text": "Love thrives; expect an honest conversation with someone Sunday.",
             "type": "normal"
         },
         {
-            "text": "Monday's 8th House Sun square to Pluto at 10 Aquarius in the 11th exposes control struggles; Tuesday brings Saturn's sextile to Pluto, adding influence.",
+            "text": "Friday is your power day because Mars enters Cancer, igniting your 10th House and supercharging career visibility.",
             "type": "normal"
         },
         {
-            "text": "Monday is your power day because the 8th House Sun square with Pluto exposes 11th House control.",
+            "text": "Monday is your worst day because Saturn squares your natal Sun in your 1st House, intensifying self-doubt.",
             "type": "normal"
         },
         {
-            "text": "Friday is your worst day because Mercury's station square to the Node can derail agreements.",
-            "type": "normal"
-        },
-        {
-            "text": "Send one proposal, verify finance details before signing.",
+            "text": "Channel Aries fire into strategic moves \u2014 Jupiter rewards planning over impulse.",
             "type": "normal"
         },
         {
@@ -51,30 +47,32 @@
         }
     ],
     "lucky_numbers": [
-        "6",
+        "7",
         "11",
-        "22"
+        "21"
     ],
-    "lucky_color": "Copper Red",
-    "monthly_vibe": "Pressure to Power",
-    "title": "Aries: Mars Exposes a Hidden Fault Line",
-    "youtube_title": "Aries: Mars Exposes a Hidden Fault Line #shorts",
-    "youtube_description": "This week, Mars, Mercury, and Jupiter expose a career and finance fault line for Aries. I reveal when contract approval is favored, when partnerships become risky, and how to turn workplace pressure into influence. Comment your sign for your personalized transit.",
+    "lucky_color": "Emerald Green",
+    "monthly_vibe": "Reflective & Calm",
+    "title": "Something Big Is Coming for Aries",
+    "youtube_title": "Aries \u2014 Don't Ignore This Week #shorts",
+    "youtube_description": "The stars are aligning in a major way for Aries this week \u2014 Saturn's transit is about to reveal something you've been avoiding. Mars and Jupiter clash in your career houses, and your love life is about to shift dramatically. Comment your sign below for a deeper read.",
     "youtube_tags": [
         "aries horoscope",
+        "aries weekly forecast",
+        "aries astrology",
+        "aries love forecast",
+        "aries career",
         "weekly horoscope",
-        "september 2026 horoscope",
-        "mars transit",
-        "mercury retrograde",
-        "jupiter sextile saturn",
-        "career astrology",
-        "love horoscope",
-        "shared finances",
-        "cosmic forecast"
+        "horoscope september",
+        "aries zodiac",
+        "aries energy",
+        "zodiac predictions",
+        "saturn transit",
+        "mars in cancer"
     ],
     "type": "weekly",
     "target": "Aries",
-    "date": "Sep 09 - Sep 15",
+    "date": "Sep 11 - Sep 17",
     "images": [
         "assets/zodiac_signs/Aries.jpg"
     ],
