@@ -1,57 +1,78 @@
 {
-  "title": "Pisces Daily Horoscope September 12, 2026",
-  "script_text": "Hold on, Pisces \u2014 the cosmos just threw a mirror directly in your face and you need to look now. Venus is forming a sharp opposition to your ruling planet Neptune, with Neptune \u2014 your water sign ruler \u2014 sitting in your 2nd House of Finances and Venus blazing through your 8th House of Shared Resources, creating emotional friction around money and intimacy. You may feel pulled toward someone who challenges your sense of security, and if you're single, this is the energy that attracts a deeply transformative connection. In your career, a negotiation or contract could hit a snag involving joint accounts or shared finances \u2014 trust your gut but verify every detail before committing. Avoid making impulsive purchases or emotional promises you can't back up this evening. Follow for tomorrow's reading and subscribe so you don't miss what's unfolding this week.",
+  "script_text": "Stop, Pisces \u2014 Neptune, your ruling planet as a water sign, is storming into your 1st House of Self, and nothing will ever feel the same again. This is your identity wake-up call. Neptune is forming a tense square to Mars currently in your 10th House of Career, creating fierce friction between your spiritual truth and public ambitions. You must choose authenticity over approval before this week ends. In love, Venus flowing into your 5th House of Romance ignites a magnetic new energy. If you are single, open your heart right now. If taken, revisit what originally sparked your bond. Financially, Jupiter's powerful trine to Mercury in your 2nd House of Resources opens a rare window for unexpected income through contracts or creative partnerships. Avoid signing anything permanent before midnight \u2014 a life-changing blessing arrives at dawn. Subscribe so you don't miss what's coming this week.",
   "captions_structure": [
     {
       "text": "PISCES ALERT",
       "type": "header"
     },
     {
-      "text": "Hold on, Pisces \u2014 the cosmos just threw a mirror directly in your face and you need to look now.",
+      "text": "Stop, Pisces \u2014 Neptune, your ruling planet as a water sign, is storming into your 1st House of Self, and nothing will ever feel the same again.",
       "type": "normal"
     },
     {
-      "text": "Venus is forming a sharp opposition to your ruling planet Neptune, with Neptune \u2014 your water sign ruler \u2014 sitting in your 2nd House of Finances and Venus blazing through your 8th House of Shared Resources.",
+      "text": "This is your identity wake-up call.",
       "type": "normal"
     },
     {
-      "text": "You may feel pulled toward someone who challenges your sense of security, and if you're single, this is the energy that attracts a deeply transformative connection.",
+      "text": "Neptune is forming a tense square to Mars currently in your 10th House of Career, creating fierce friction between your spiritual truth and public ambitions.",
       "type": "normal"
     },
     {
-      "text": "Avoid making impulsive purchases or emotional promises you can't back up this evening.",
+      "text": "You must choose authenticity over approval before this week ends.",
       "type": "normal"
     },
     {
-      "text": "Subscribe so you don't miss what's unfolding this week.",
+      "text": "In love, Venus flowing into your 5th House of Romance ignites a magnetic new energy.",
       "type": "normal"
+    },
+    {
+      "text": "If you are single, open your heart right now.",
+      "type": "normal"
+    },
+    {
+      "text": "If taken, revisit what originally sparked your bond.",
+      "type": "normal"
+    },
+    {
+      "text": "Financially, Jupiter's powerful trine to Mercury in your 2nd House of Resources opens a rare window for unexpected income through contracts or creative partnerships.",
+      "type": "normal"
+    },
+    {
+      "text": "Avoid signing anything permanent before midnight \u2014 a life-changing blessing arrives at dawn.",
+      "type": "warning"
+    },
+    {
+      "text": "Subscribe so you don't miss what's coming this week.",
+      "type": "cta"
     }
   ],
   "lucky_numbers": [
-    "7",
-    "13",
-    "42"
+    "3",
+    "11",
+    "22"
   ],
   "lucky_color": "Sea Green",
-  "monthly_vibe": "Deep Intuition",
-  "youtube_title": "Pisces - See What the Stars Revealed #shorts",
-  "youtube_description": "Pisces, your ruling planet Neptune is in a powerful opposition to Venus right now, and it's stirring up major tension in your 2nd and 8th Houses. I reveal exactly what this means for your money, relationships, and a negotiation heading your way. Comment your sign below and let me know what you feel!",
+  "monthly_vibe": "Transformation & Surrender",
+  "title": "Something Big Is Coming for Pisces",
+  "youtube_title": "Pisces \u2014 The Stars Are Screaming #shorts",
+  "youtube_description": "Neptune is triggering a massive shift in your 1st House of Self this week, Pisces, and the ripple effects are hitting your career and love life hard. A rare trine is about to open a financial window you won't want to miss. Comment your sign below for your personal reading!",
   "youtube_tags": [
     "pisces horoscope",
-    "pisces daily reading",
-    "astrology prediction",
+    "pisces daily",
     "neptune transit",
-    "pisces love forecast",
-    "career horoscope",
-    "cosmic energy",
-    "venus opposition",
-    "zodiac signs",
-    "pisces money",
-    "daily horoscope"
+    "star signs",
+    "love astrology",
+    "career astrology",
+    "pisces 2026",
+    "horoscope today",
+    "water signs",
+    "cosmic predictions",
+    "spiritual signs",
+    "zodiac reading"
   ],
   "type": "daily",
   "target": "Pisces",
-  "date": "September 12, 2026",
+  "date": "September 13, 2026",
   "images": [
     "assets/zodiac_signs/Pisces.jpg"
   ],
