@@ -1,57 +1,64 @@
 {
-  "script_text": "Stop Aquarius, the stars are burning bright tonight and they're telling you something you absolutely cannot ignore. Saturn is forming a powerful trine to your ruling planet Uranus in the 10th House of Career, while Mercury enters your 8th House of Transformation today \u2014 this is a moment of deep shifts in your professional life and identity. Venus is dancing through your 5th House of Romance \u2014 single Aquarius will meet someone unexpectedly at a creative event or social gathering. If you're taken, communicate your deepest dreams clearly before the weekend arrives. Jupiter activates your 2nd House of Wealth \u2014 a financial opportunity arrives midweek but demands quick decisive action. Beware of overcommitting to others' problems \u2014 your 12th House of solitude needs sacred space right now. Follow for tomorrow's reading so you don't miss what the stars have lined up for you.",
+  "script_text": "Stop, Aquarius: Saturn and Uranus, your ruling planets, activate your Air element now! Jupiter is moving through your 7th House and opposing Pluto in your 1st House, intensifying partnerships, contracts, and public identity. The Moon in your 9th House trines Pluto and sextiles Saturn, sharpening insight and communication. For love, a taken relationship may expose an unspoken control issue, while a single Aquarius can attract a confident, ambitious partner through direct conversation. At work, use the 7th House to negotiate a client deal, but get every financial term in writing; your 10th House benefits from an alliance, not a rushed signature. Review budgets and shared expenses before committing; clarity protects your resources from costly, unnecessary future mistakes. Avoid power games, but expect an unexpected endorsement from someone influential. Follow for tomorrow's reading and catch the next transit before it lands.",
   "captions_structure": [
     {
       "text": "AQUARIUS",
       "type": "header"
     },
     {
-      "text": "Stop Aquarius, the stars are burning bright tonight and they're telling you something you absolutely cannot ignore.",
+      "text": "Stop, Aquarius: Saturn and Uranus, your ruling planets, activate your Air element now!",
       "type": "normal"
     },
     {
-      "text": "Saturn is forming a powerful trine to your ruling planet Uranus in the 10th House of Career, while Mercury enters your 8th House of Transformation today.",
+      "text": "Jupiter is moving through your 7th House and opposing Pluto in your 1st House, intensifying partnerships, contracts, and public identity.",
       "type": "normal"
     },
     {
-      "text": "Venus is dancing through your 5th House of Romance \u2014 single Aquarius will meet someone unexpectedly at a creative event.",
+      "text": "The Moon in your 9th House trines Pluto and sextiles Saturn, sharpening insight and communication.",
       "type": "normal"
     },
     {
-      "text": "Jupiter activates your 2nd House of Wealth \u2014 a financial opportunity arrives midweek but demands quick action.",
+      "text": "For love, a taken relationship may expose an unspoken control issue, while a single Aquarius can attract a confident, ambitious partner through direct conversation.",
       "type": "normal"
     },
     {
-      "text": "Beware of overcommitting to others' problems \u2014 your 12th House of solitude needs sacred space.",
+      "text": "At work, use the 7th House to negotiate a client deal, but get every financial term in writing; your 10th House benefits from an alliance, not a rushed signature.",
       "type": "normal"
     },
     {
-      "text": "Follow for tomorrow's reading so you don't miss what the stars have lined up for you.",
+      "text": "Review budgets and shared expenses before committing; clarity protects your resources from costly, unnecessary future mistakes.",
+      "type": "normal"
+    },
+    {
+      "text": "Avoid power games, but expect an unexpected endorsement from someone influential.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for tomorrow's reading and catch the next transit before it lands.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
     "7",
-    "14",
+    "11",
     "28"
   ],
-  "lucky_color": "Electric Violet",
-  "monthly_vibe": "Transformation & Renewal",
-  "title": "Aquarius \u2014 The Stars Are Burning Bright Tonight",
-  "youtube_description": "Saturn and Uranus are creating a rare trine in Aquarius's 10th House of Career \u2014 this changes everything about your professional path. Mercury's entry into your 8th House brings deep emotional transformations. Comment your sign below \u2014 the stars have a message for you too.",
+  "lucky_color": "Deep Sapphire",
+  "monthly_vibe": "Transformative Alliances",
+  "title": "Aquarius: The Power Shift Is Here",
+  "youtube_title": "Aquarius, This Transit Changes Everything #shorts",
+  "youtube_description": "Aquarius, Jupiter in your 7th House is opposing Pluto in your 1st House, bringing partnership decisions and public identity into focus. The Moon's trine to Pluto and sextile to Saturn may reveal an endorsement or negotiation opportunity. Comment your sign and follow for tomorrow's reading.",
   "youtube_tags": [
     "aquarius horoscope",
     "daily horoscope",
-    "saturn transit",
-    "uranus trine",
-    "aquarius love",
-    "career astrology",
-    "venus in aquarius",
-    "jupiter wealth",
-    "mercury transit",
-    "horoscope september",
+    "jupiter transit",
+    "pluto transit",
+    "moon astrology",
+    "air sign",
+    "relationship astrology",
+    "career horoscope",
     "astrology prediction",
-    "zodiac readings"
+    "cosmic energy"
   ],
   "type": "daily",
   "target": "Aquarius",
@@ -60,6 +67,7 @@
     "assets/zodiac_signs/Aquarius.jpg"
   ],
   "active": true,
-  "status": "uploaded",
-  "file_name": "plan_daily_Aquarius.json"
+  "status": "error",
+  "file_name": "plan_daily_Aquarius.json",
+  "error_reason": "Upload failed"
 }
