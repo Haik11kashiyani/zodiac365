@@ -1,32 +1,48 @@
 {
-    "script_text": "The stars are about to completely flip your entire world upside down, Aries. The Sun in Virgo squares explosive Uranus in your 10th House, triggering a sudden career shakeup early on. Your ruling planet Mars, a fire warrior, fuels your courage, but Mercury's friction with Saturn says hold off on big moves until mid-week. Wednesday is your turning point when Venus enters your 7th House of love and partnership. A Moon trine Neptune through your 12th House brings deep healing by Friday. Jupiter's trine to your natal Sun strengthens your career into the weekend. Wednesday is your power day because Venus enters your 7th House, bringing a powerful love connection. Sunday is your hardest day as the Sun-Uranus square in your 10th House threatens a sudden career disruption. Trust an unconventional career move - Uranus rewards bold Aries who break the mold. Follow for daily updates.",
+    "script_text": "Aries, the stars are about to shake your love life to the core. Mars, your fiery ruling planet, conjunct Neptune in your 1st House Monday, clouds your identity and drive. Mercury sextile Saturn in your 7th House Tuesday demands honest partnership talks. Wednesday turns volatile as the Moon squares Pluto in your 11th House, sparking conflict in friendships. Thursday shifts everything: the Moon enters your 10th House and trines Jupiter in your 9th House, unlocking career breakthroughs. Venus enters your 7th House, igniting deep romance through the weekend. Stay bold in your career sector \u2014 opportunities arrive fast. Thursday is your power day because the Moon trines Jupiter in your 9th House. Wednesday is your worst day as the Moon squares Pluto in your 11th House. Have one brave conversation in your 7th House before Friday that could change everything. Follow for daily updates.",
     "captions_structure": [
         {
-            "text": "ARIES ALERT",
+            "text": "ARIES",
             "type": "header"
         },
         {
-            "text": "The stars are about to completely flip your entire world upside down, Aries.",
+            "text": "Aries, the stars are about to shake your love life to the core.",
             "type": "normal"
         },
         {
-            "text": "The Sun in Virgo squares explosive Uranus in your 10th House, triggering a sudden career shakeup early on.",
+            "text": "Mars, your fiery ruling planet, conjunct Neptune in your 1st House Monday, clouds your identity and drive.",
             "type": "normal"
         },
         {
-            "text": "Your ruling planet Mars, a fire warrior, fuels your courage, but Mercury's friction with Saturn says hold off on big moves until mid-week.",
+            "text": "Mercury sextile Saturn in your 7th House Tuesday demands honest partnership talks.",
             "type": "normal"
         },
         {
-            "text": "Wednesday is your turning point when Venus enters your 7th House of love and partnership.",
+            "text": "Wednesday turns volatile as the Moon squares Pluto in your 11th House, sparking conflict in friendships.",
             "type": "normal"
         },
         {
-            "text": "Wednesday is your power day because Venus enters your 7th House, bringing a powerful love connection.",
+            "text": "Thursday shifts everything: the Moon enters your 10th House and trines Jupiter in your 9th House, unlocking career breakthroughs.",
             "type": "normal"
         },
         {
-            "text": "Trust an unconventional career move - Uranus rewards bold Aries who break the mold.",
+            "text": "Venus enters your 7th House, igniting deep romance through the weekend.",
+            "type": "normal"
+        },
+        {
+            "text": "Stay bold in your career sector \u2014 opportunities arrive fast.",
+            "type": "normal"
+        },
+        {
+            "text": "Thursday is your power day because the Moon trines Jupiter in your 9th House.",
+            "type": "normal"
+        },
+        {
+            "text": "Wednesday is your worst day as the Moon squares Pluto in your 11th House.",
+            "type": "normal"
+        },
+        {
+            "text": "Have one brave conversation in your 7th House before Friday that could change everything.",
             "type": "normal"
         },
         {
@@ -35,31 +51,31 @@
         }
     ],
     "lucky_numbers": [
-        7,
-        11,
-        21
+        "7",
+        "11",
+        "21"
     ],
-    "lucky_color": "Bold Crimson",
-    "monthly_vibe": "Bold Action",
-    "title": "Something Big Is Coming for Aries",
-    "youtube_title": "Aries - The Stars Have a Warning #shorts",
-    "youtube_description": "This week flips everything upside down for Aries. A rare Sun-Uranus square in your 10th House is about to shake your career, while Venus slides into your 7th House to ignite an unexpected love connection. Comment your sign below and follow for daily cosmic updates.",
+    "lucky_color": "Emerald Green",
+    "monthly_vibe": "Bold Awakening",
+    "title": "Aries \u2014 Don't Ignore What's Coming",
+    "youtube_title": "Aries, The Stars Have A Warning For You #shorts",
+    "youtube_description": "This week, Mars and Pluto create intense friction in an Aries chart, forcing you to confront hidden truths about friendships and identity. Venus then activates your 7th House with surprising romantic energy that could change everything. Comment your sign below for more cosmic insights.",
     "youtube_tags": [
         "aries horoscope",
         "aries weekly forecast",
-        "aries astrology",
-        "aries career",
         "aries love",
+        "aries career",
+        "astrology predictions",
+        "aries this week",
+        "horoscope september",
         "aries zodiac",
-        "virgo full moon",
-        "venus transit",
-        "uranus transit",
-        "zodiac predictions",
-        "horoscope today"
+        "cosmic energy",
+        "zodiac signs",
+        "aries 2026"
     ],
     "type": "weekly",
     "target": "Aries",
-    "date": "Sep 13 - Sep 19",
+    "date": "Sep 14 - Sep 20",
     "images": [
         "assets/zodiac_signs/Aries.jpg"
     ],
