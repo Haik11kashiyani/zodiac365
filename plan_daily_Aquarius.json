@@ -1,73 +1,74 @@
 {
-  "script_text": "Stop, Aquarius: Saturn and Uranus, your ruling planets, activate your Air element now! Jupiter is moving through your 7th House and opposing Pluto in your 1st House, intensifying partnerships, contracts, and public identity. The Moon in your 9th House trines Pluto and sextiles Saturn, sharpening insight and communication. For love, a taken relationship may expose an unspoken control issue, while a single Aquarius can attract a confident, ambitious partner through direct conversation. At work, use the 7th House to negotiate a client deal, but get every financial term in writing; your 10th House benefits from an alliance, not a rushed signature. Review budgets and shared expenses before committing; clarity protects your resources from costly, unnecessary future mistakes. Avoid power games, but expect an unexpected endorsement from someone influential. Follow for tomorrow's reading and catch the next transit before it lands.",
+  "script_text": "Stop, Aquarius \u2014 Pluto is directly on your Sun in your 1st House right now, igniting a total identity shift the universe won't wait for. Saturn in Taurus forms a heavy opposition from your 4th House of Home, pressuring your foundations or a family decision that cannot be postponed. Your Air sign nature wants to float above it, but Uranus \u2014 your ruling planet \u2014 demands you face reality and rebuild with intention. In love, Mars charges through your 7th House of Partnerships, creating magnetic but volatile energy. If taken, watch for ego clashes. If single, someone commanding enters your orbit this week. For career and money, Jupiter's trine to your natal Sun activates your 3rd House of communication \u2014 a deal or contract lands soon. Don't let fear of upheaval steal the power Pluto is handing you. Subscribe so you don't miss what's coming next.",
   "captions_structure": [
     {
-      "text": "AQUARIUS",
+      "text": "AQUARIUS ALERT",
       "type": "header"
     },
     {
-      "text": "Stop, Aquarius: Saturn and Uranus, your ruling planets, activate your Air element now!",
+      "text": "Stop, Aquarius \u2014 Pluto is directly on your Sun in your 1st House right now, igniting a total identity shift the universe won't wait for.",
       "type": "normal"
     },
     {
-      "text": "Jupiter is moving through your 7th House and opposing Pluto in your 1st House, intensifying partnerships, contracts, and public identity.",
+      "text": "Saturn in Taurus forms a heavy opposition from your 4th House of Home, pressuring your foundations or a family decision that cannot be postponed.",
       "type": "normal"
     },
     {
-      "text": "The Moon in your 9th House trines Pluto and sextiles Saturn, sharpening insight and communication.",
+      "text": "Your Air sign nature wants to float above it, but Uranus \u2014 your ruling planet \u2014 demands you face reality and rebuild with intention.",
       "type": "normal"
     },
     {
-      "text": "For love, a taken relationship may expose an unspoken control issue, while a single Aquarius can attract a confident, ambitious partner through direct conversation.",
+      "text": "In love, Mars charges through your 7th House of Partnerships, creating magnetic but volatile energy.",
       "type": "normal"
     },
     {
-      "text": "At work, use the 7th House to negotiate a client deal, but get every financial term in writing; your 10th House benefits from an alliance, not a rushed signature.",
+      "text": "If taken, watch for ego clashes. If single, someone commanding enters your orbit this week.",
       "type": "normal"
     },
     {
-      "text": "Review budgets and shared expenses before committing; clarity protects your resources from costly, unnecessary future mistakes.",
+      "text": "For career and money, Jupiter's trine to your natal Sun activates your 3rd House of communication \u2014 a deal or contract lands soon.",
       "type": "normal"
     },
     {
-      "text": "Avoid power games, but expect an unexpected endorsement from someone influential.",
+      "text": "Don't let fear of upheaval steal the power Pluto is handing you.",
       "type": "normal"
     },
     {
-      "text": "Follow for tomorrow's reading and catch the next transit before it lands.",
-      "type": "normal"
+      "text": "Subscribe so you don't miss what's coming next.",
+      "type": "cta"
     }
   ],
   "lucky_numbers": [
-    "7",
     "11",
-    "28"
+    "29",
+    "47"
   ],
-  "lucky_color": "Deep Sapphire",
-  "monthly_vibe": "Transformative Alliances",
-  "title": "Aquarius: The Power Shift Is Here",
-  "youtube_title": "Aquarius, This Transit Changes Everything #shorts",
-  "youtube_description": "Aquarius, Jupiter in your 7th House is opposing Pluto in your 1st House, bringing partnership decisions and public identity into focus. The Moon's trine to Pluto and sextile to Saturn may reveal an endorsement or negotiation opportunity. Comment your sign and follow for tomorrow's reading.",
+  "lucky_color": "Electric Violet",
+  "monthly_vibe": "Transform & Lead",
+  "title": "Aquarius \u2014 The Stars Have a Warning",
+  "youtube_title": "Pluto Is Changing Aquarius Forever #shorts",
+  "youtube_description": "Pluto is transiting directly over your Sun this week, Aquarius \u2014 and it's bringing a transformation you didn't see coming. Saturn's opposition from your 4th House is testing your foundation in ways you can't ignore. Comment your sign for your personal reading.",
   "youtube_tags": [
     "aquarius horoscope",
-    "daily horoscope",
-    "jupiter transit",
+    "aquarius daily reading",
     "pluto transit",
-    "moon astrology",
-    "air sign",
-    "relationship astrology",
+    "saturn opposition",
+    "aquarius love forecast",
     "career horoscope",
-    "astrology prediction",
-    "cosmic energy"
+    "aquarius 2026",
+    "mercury trine",
+    "zodiac predictions",
+    "house transits",
+    "uranus energy",
+    "star sign advice"
   ],
   "type": "daily",
   "target": "Aquarius",
-  "date": "September 13, 2026",
+  "date": "September 15, 2026",
   "images": [
     "assets/zodiac_signs/Aquarius.jpg"
   ],
   "active": true,
-  "status": "error",
-  "file_name": "plan_daily_Aquarius.json",
-  "error_reason": "Upload failed"
+  "status": "uploaded",
+  "file_name": "plan_daily_Aquarius.json"
 }
