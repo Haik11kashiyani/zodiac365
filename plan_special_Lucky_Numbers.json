@@ -1,28 +1,48 @@
 {
-    "script_text": "There's a hidden number sequence the universe is planting along your path \u2014 and most will walk past it. Lucky Numbers, Jupiter is conjunct your 9th House of fire-sign intuition, opening a rare doorway to fortune and hidden abundance. This alignment activates your natural gift for attracting lucky breaks through deep intuition. Your 7th House pulses with Venus trine Mars, pulling new romantic partners toward you with magnetic force. Saturn squares your 10th House ruler, demanding precise career moves \u2014 opportunities arrive but only if you act decisively. Chiron retrograde in your 4th House reveals old wounds around belonging that could become karmic debt if ignored. The North Node in your 12th House whispers that your truest luck emerges from surrendering control. Journal three gut instincts before midnight \u2014 Jupiter is speaking only to the subconscious. Comment your lucky number below and let the stars confirm what your soul already knows.",
+    "script_text": "Stop\u2014before you choose a number tonight, listen: the digits are not random; they are a signature. Mercury rules Lucky Numbers, and Air is their ruling element. The number is a timing key, not a guarantee. On this September 20, 2026 transit, the Sun at 27 Virgo conjuncts Mercury near 26 Virgo and inconjuncts Pluto in Aquarius. For every sign, your 1st House sharpens instinct; your 7th House tests trust, so do not pressure a partner with it. Career and money hit your 10th House: contracts or payments may hide conditions. The Retrograde archetype urges certainty; the North Node points to a number appearing after chasing ends, while Chiron reveals fear of being overlooked. A lucky digit is a door, not a debt. Pause before spending, record 7, 11, or 21, and let evidence confirm it before you act. Comment your sign and number, then share.",
     "captions_structure": [
         {
-            "text": "LUCKY NUMBERS ALERT",
+            "text": "LUCKY NUMBERS",
             "type": "header"
         },
         {
-            "text": "There's a hidden number sequence the universe is planting along your path \u2014 and most will walk past it.",
+            "text": "Stop\u2014before you choose a number tonight, listen: the digits are not random; they are a signature.",
             "type": "normal"
         },
         {
-            "text": "Lucky Numbers, Jupiter is conjunct your 9th House of fire-sign intuition, opening a rare doorway to fortune.",
+            "text": "Mercury rules Lucky Numbers, and Air is their ruling element.",
             "type": "normal"
         },
         {
-            "text": "Your 7th House pulses with Venus trine Mars \u2014 new romantic energy is incoming.",
+            "text": "The number is a timing key, not a guarantee.",
             "type": "normal"
         },
         {
-            "text": "Saturn squares your 10th House ruler \u2014 career opportunities demand decisive action now.",
+            "text": "On this September 20, 2026 transit, the Sun at 27 Virgo conjuncts Mercury near 26 Virgo and inconjuncts Pluto in Aquarius.",
             "type": "normal"
         },
         {
-            "text": "Journal three gut instincts before midnight and comment your lucky number below.",
+            "text": "For every sign, your 1st House sharpens instinct; your 7th House tests trust, so do not pressure a partner with it.",
+            "type": "normal"
+        },
+        {
+            "text": "Career and money hit your 10th House: contracts or payments may hide conditions.",
+            "type": "normal"
+        },
+        {
+            "text": "The Retrograde archetype urges certainty; the North Node points to a number appearing after chasing ends, while Chiron reveals fear of being overlooked.",
+            "type": "normal"
+        },
+        {
+            "text": "A lucky digit is a door, not a debt.",
+            "type": "normal"
+        },
+        {
+            "text": "Pause before spending, record 7, 11, or 21, and let evidence confirm it before you act.",
+            "type": "normal"
+        },
+        {
+            "text": "Comment your sign and number, then share.",
             "type": "normal"
         }
     ],
@@ -32,26 +52,26 @@
         "21"
     ],
     "lucky_color": "Emerald Green",
-    "monthly_vibe": "Magnetic Expansion",
-    "title": "Lucky Numbers \u2014 The Stars Are Speaking",
-    "youtube_title": "Lucky Numbers \u2014 The Stars Are Speaking #shorts",
-    "youtube_description": "Jupiter's conjunction in your 9th House is unlocking hidden fortune for Lucky Numbers right now, but Saturn's square to your 10th House is simultaneously reshaping your career in ways you won't expect. Comment your sign below and I'll reveal your personal cosmic blueprint for the rest of September.",
+    "monthly_vibe": "Reflective & Calm",
+    "title": "Lucky Numbers: The Number Pattern Is Warning You",
+    "youtube_title": "Lucky Numbers: The Number Pattern Is Warning You #shorts",
+    "youtube_description": "September 20, 2026 brings a Sun\u2013Mercury conjunction and a Sun\u2013Pluto inconjunct that may expose a hidden condition in love, money, or a career decision. I reveal why 7, 11, and 21 matter to your Lucky Numbers and the warning you should not miss. Comment your sign and tell me which number appeared.",
     "youtube_tags": [
-        "lucky numbers",
-        "horoscope",
         "astrology",
-        "jupiter transit",
-        "fortune telling",
-        "career astrology",
-        "love prediction",
-        "karmic debt",
-        "north node",
-        "chiron retrograde",
-        "lucky color"
+        "horoscope",
+        "lucky numbers",
+        "september horoscope",
+        "numerology",
+        "mercury transit",
+        "sun mercury conjunction",
+        "sun pluto inconjunct",
+        "love horoscope",
+        "career horoscope",
+        "money horoscope"
     ],
     "type": "special",
     "target": "Lucky Numbers",
-    "date": "2026-09-16",
+    "date": "2026-09-20",
     "images": [],
     "active": true,
     "status": "pending",
