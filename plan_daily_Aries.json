@@ -1,62 +1,70 @@
 {
-  "script_text": "Stop! Aries, the cosmos has handed you a deal you can't refuse. Venus enters Libra forming a trine to your ruling planet Mars in Gemini, activating your 7th House of Partnerships. Saturn holds steady position in Taurus within your 2nd House of Finances, demanding real accountability. Your ruling fire planet Mars broadcasts through your 3rd House of Communication. With Venus now in your 7th House, someone from your past could resurface with an unexpected confession \u2014 and if you are single, seize that unusual invitation before it vanishes. Saturn's grip on your 2nd House signals a practical financial crossroads \u2014 resist speculative investments or impulsive purchases that could drain your bank account. Warning: avoid signing contracts before noon when the Moon drifts through a void-of-course window. Subscribe so you don't miss what Jupiter in your 5th House unleashes this week.",
+  "script_text": "Stop, Aries \u2014 the cosmos just hijacked your entire relationship timeline. The Sun glides into Libra, activating your 7th House of Partnerships. Your ruling planet Mars forms a precise trine from your 10th House of Career, fusing your ambitions directly with your romantic destiny in a rare alignment that only happens every few years. In love, your fierce fire element is being channeled into something genuinely lasting \u2014 someone from your professional world is about to make a bold move toward you. Single Aries, lead with fearless confidence; taken Aries, a deep conversation about shared future goals will reshape your entire foundation. Career expansion is accelerating fast as power consolidates in your professional sphere. Warning from Saturn grinding through your 1st House \u2014 don't play small, your authority is being tested and the rewards for standing tall are about to pour in. Subscribe so you don't miss what builds this week.",
   "captions_structure": [
     {
-      "text": "ARIES",
+      "text": "ARIES ALERT",
       "type": "header"
     },
     {
-      "text": "Stop! Aries, the cosmos has handed you a deal you can't refuse.",
+      "text": "Stop, Aries \u2014 the cosmos just hijacked your entire relationship timeline.",
       "type": "normal"
     },
     {
-      "text": "Venus forms a trine to your ruling Mars \u2014 7th House of Partnerships activated.",
+      "text": "The Sun glides into Libra, activating your 7th House of Partnerships.",
       "type": "normal"
     },
     {
-      "text": "Saturn in Taurus hits your 2nd House of Finances \u2014 a real reckoning is here.",
+      "text": "Your ruling planet Mars forms a precise trine from your 10th House of Career, fusing your ambitions directly with your romantic destiny in a rare alignment that only happens every few years.",
       "type": "normal"
     },
     {
-      "text": "Someone from your past could resurface \u2014 single Aries, seize the moment.",
+      "text": "In love, your fierce fire element is being channeled into something genuinely lasting \u2014 someone from your professional world is about to make a bold move toward you.",
       "type": "normal"
     },
     {
-      "text": "Avoid signing contracts before noon \u2014 void-of-course Moon warning.",
+      "text": "Single Aries, lead with fearless confidence; taken Aries, a deep conversation about shared future goals will reshape your entire foundation.",
       "type": "normal"
     },
     {
-      "text": "Subscribe so you don't miss what Jupiter in your 5th House unleashes this week.",
+      "text": "Career expansion is accelerating fast as power consolidates in your professional sphere.",
+      "type": "normal"
+    },
+    {
+      "text": "Warning from Saturn grinding through your 1st House \u2014 don't play small, your authority is being tested and the rewards for standing tall are about to pour in.",
+      "type": "normal"
+    },
+    {
+      "text": "Subscribe so you don't miss what builds this week.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
-    "3",
+    "7",
     "17",
-    "29"
+    "42"
   ],
-  "lucky_color": "Crimson Red",
-  "monthly_vibe": "Focused Power",
-  "title": "Something Big Is Coming for Aries",
-  "youtube_title": "Aries \u2014 The Stars Have a Warning For You #shorts",
-  "youtube_description": "Venus is activating your 7th House of Partnerships in a way you haven't felt before, and Saturn's steady grip on your 2nd House is forcing a financial reckoning. Comment your sign below for your personal reading.",
+  "lucky_color": "Royal Crimson",
+  "monthly_vibe": "Bold Transitions",
+  "title": "Aries \u2014 Don't Ignore This",
+  "youtube_title": "The Stars Have a Warning for Aries #shorts",
+  "youtube_description": "The Sun is activating your 7th House of Partnerships while your ruling planet Mars forms a rare trine from your 10th House of Career \u2014 something major is about to shift in your love life and professional world. If you're an Aries, this is the reading you need. Comment your sign below!",
   "youtube_tags": [
     "aries horoscope",
     "aries daily reading",
-    "aries love today",
-    "aries career advice",
-    "venus in libra",
-    "saturn transit 2026",
-    "jupiter in leo",
-    "zodiac predictions",
-    "astrology forecast",
-    "fire sign energy",
-    "libra full moon",
-    "aries september 21"
+    "aries love prediction",
+    "aries career",
+    "libra transit",
+    "mars trine",
+    "zodiac signs",
+    "astrology predictions",
+    "aries compatibility",
+    "cosmic energy",
+    "daily horoscope",
+    "aries 2026"
   ],
   "type": "daily",
   "target": "Aries",
-  "date": "September 21, 2026",
+  "date": "September 23, 2026",
   "images": [
     "assets/zodiac_signs/Aries.jpg"
   ],
