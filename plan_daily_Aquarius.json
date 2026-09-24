@@ -1,62 +1,66 @@
 {
-  "script_text": "Stop, Aquarius \u2014 Pluto is sitting directly over your sign RIGHT NOW at 3 degrees, and as an air sign ruled by Uranus, you feel this massive cosmic shift in your very bones. Pluto at 3\u00b0 Aquarius is forming a powerful conjunction with your natal Sun in the 1st House of Identity, completely reshaping your sense of self, while Saturn in Aries throws a tense square across your 3rd House of Communication, putting your words, travels, and daily exchanges under serious pressure. In love, Venus is gliding into your 9th House of Expansion, sparking attraction with someone far away or igniting a deep philosophical bond that transforms everything. Career-wise, the Sun's final hours in your 8th House of Shared Resources reveal a hidden financial opening or power dynamic demanding your bold attention. Avoid signing contracts today \u2014 the Aries square will distort the details. Follow for tomorrow's reading.",
+  "script_text": "Stop, Aquarius\u2014the planets are quietly exposing what you\u2019ve been neglecting at home. For Aquarius rising, Uranus, your modern ruler, sits in your 6th House, keeping your fixed Air element adaptable rather than feeling mentally overwhelmed. Today\u2019s Moon in the 12th House trines Neptune in the 11th, then sextiles Pluto in the 4th, favoring deep restoration and one honest home conversation. In love, Neptune\u2019s trine from the 11th House can surface an intuitive connection through friends or an online community; if partnered, an unspoken worry may complicate a bigger relationship decision. At work, Venus in your 11th House can bring an unexpected paid opportunity, but secure the 10th House contract in writing. Avoid rescuing a friend\u2019s financial mess; the surprise gift is a clear boundary that frees your time. Follow for tomorrow\u2019s Aquarius reading, and comment which house is lighting up.",
   "captions_structure": [
     {
       "text": "AQUARIUS ALERT",
       "type": "header"
     },
     {
-      "text": "Stop, Aquarius \u2014 Pluto is sitting directly over your sign RIGHT NOW at 3 degrees, and as an air sign ruled by Uranus, you feel this massive cosmic shift in your very bones.",
+      "text": "Stop, Aquarius\u2014the planets are quietly exposing what you\u2019ve been neglecting at home.",
       "type": "normal"
     },
     {
-      "text": "Pluto at 3\u00b0 Aquarius is forming a powerful conjunction with your natal Sun in the 1st House of Identity, completely reshaping your sense of self, while Saturn in Aries throws a tense square across your 3rd House of Communication, putting your words, travels, and daily exchanges under serious pressure.",
+      "text": "For Aquarius rising, Uranus, your modern ruler, sits in your 6th House, keeping your fixed Air element adaptable rather than feeling mentally overwhelmed.",
       "type": "normal"
     },
     {
-      "text": "In love, Venus is gliding into your 9th House of Expansion, sparking attraction with someone far away or igniting a deep philosophical bond that transforms everything.",
+      "text": "Today\u2019s Moon in the 12th House trines Neptune in the 11th, then sextiles Pluto in the 4th, favoring deep restoration and one honest home conversation.",
       "type": "normal"
     },
     {
-      "text": "Career-wise, the Sun's final hours in your 8th House of Shared Resources reveal a hidden financial opening or power dynamic demanding your bold attention.",
+      "text": "In love, Neptune\u2019s trine from the 11th House can surface an intuitive connection through friends or an online community; if partnered, an unspoken worry may complicate a bigger relationship decision.",
       "type": "normal"
     },
     {
-      "text": "Avoid signing contracts today \u2014 the Aries square will distort the details.",
+      "text": "At work, Venus in your 11th House can bring an unexpected paid opportunity, but secure the 10th House contract in writing.",
       "type": "normal"
     },
     {
-      "text": "Follow for tomorrow's reading.",
+      "text": "Avoid rescuing a friend\u2019s financial mess; the surprise gift is a clear boundary that frees your time.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for tomorrow\u2019s Aquarius reading, and comment which house is lighting up.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
-    "3",
-    "11",
-    "29"
+    "5",
+    "7",
+    "11"
   ],
-  "lucky_color": "Electric Violet",
-  "monthly_vibe": "Rebirth & Amplification",
-  "title": "Something Big Is Coming for Aquarius",
-  "youtube_title": "The Stars Are Scaring Aquarius Right Now #shorts",
-  "youtube_description": "Pluto is sitting on top of Aquarius today, creating a once-in-a-generation identity shift that you will feel in your bones. Saturn's tense square to your communication house is testing every word you say. Comment your sign below and I'll tell you how this transit hits your chart personally.",
+  "lucky_color": "Royal Blue",
+  "monthly_vibe": "Reflective & Calm",
+  "title": "Aquarius: The Hidden Strain Is Surfacing",
+  "youtube_title": "Aquarius: The Hidden Strain Is Surfacing #shorts",
+  "youtube_description": "Aquarius, something is stirring beneath your usual air-sign independence, and it begins at home. For Aquarius rising, Uranus in the 6th House and today\u2019s Moon trine to Neptune and sextile to Pluto point toward honest conversations about relationships, finances, and home life. Comment your sign, then follow for tomorrow\u2019s reading.",
   "youtube_tags": [
-    "aquarius horoscope",
-    "aquarius daily",
-    "pluto in aquarius",
-    "horoscope september 2026",
-    "astrology prediction",
-    "uranus ruling planet",
-    "air sign traits",
-    "saturn square",
-    "love horoscope",
-    "career astrology",
+    "astrology",
+    "horoscope",
+    "aquarius",
+    "daily horoscope",
+    "september 2026",
+    "transit forecast",
+    "fixed air",
     "cosmic energy",
-    "daily horoscope"
+    "planetary guidance",
+    "relationship advice",
+    "career forecast",
+    "aquarius love"
   ],
   "type": "daily",
   "target": "Aquarius",
-  "date": "September 22, 2026",
+  "date": "September 24, 2026",
   "images": [
     "assets/zodiac_signs/Aquarius.jpg"
   ],
