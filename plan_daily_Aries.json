@@ -1,78 +1,67 @@
 {
-  "script_text": "Stop, Aries: bold confidence is colliding with a stern career lesson today. Aries\u2019s Fire sign is ruled by Mars, which is moving through your 5th House in Leo and squaring Saturn in your 10th House today. This square links romance to career authority, forcing a choice between impulsive reaction and professional restraint. Single? 5th-House Mars attracts bold, playful chemistry, but Saturn\u2019s square turns icy when you demand certainty immediately. Taken? Sun in your 7th House in Libra makes a partner\u2019s practical concern feel like a challenge; respond clearly, not defensively. Career-wise, Saturn in the 10th rewards a revised proposal and measured conversation with your manager before recognition arrives. Money-wise, keep 5th-House spending small; today\u2019s indulgence can become next week\u2019s stress. One gift: a creative idea delivered calmly can outshine a louder workplace argument. Follow for tomorrow\u2019s reading as pressure shifts.",
+  "script_text": "Stop! Aries, the stars are flashing red because Mars, your fiery ruling planet, is about to ignite a volatile square that changes everything. Transiting Mars forms a furious square to Pluto in Aquarius, flooding your 8th House with pressure. Meanwhile, the Sun opposes your natal Mars in the 2nd House of Income, creating a power struggle over money. If single, a Scorpio or Capricorn will challenge your ego in a way that sparks attraction. If taken, avoid controlling arguments tonight\u2014your partner's silence is not agreement, it's a boundary. Your 10th House of Career is lit by a trine from Jupiter in Gemini, meaning a promotion arrives through networking. But check contracts\u2014stalled communication in your 6th House could hide fine print. Avoid lending money to family today\u2014the 8th House square demands you protect your resources, not rescue them. Follow for tomorrow's reading so you don't miss the lunar eclipse shifting your foundation.",
   "captions_structure": [
     {
       "text": "ARIES",
       "type": "header"
     },
     {
-      "text": "Stop, Aries: bold confidence is colliding with a stern career lesson today.",
+      "text": "Stop! Aries, the stars are flashing red because Mars, your fiery ruling planet, is about to ignite a volatile square that changes everything.",
       "type": "normal"
     },
     {
-      "text": "Aries\u2019s Fire sign is ruled by Mars, which is moving through your 5th House in Leo and squaring Saturn in your 10th House today.",
+      "text": "Transiting Mars forms a furious square to Pluto in Aquarius, flooding your 8th House with pressure. Meanwhile, the Sun opposes your natal Mars in the 2nd House of Income, creating a power struggle over money.",
       "type": "normal"
     },
     {
-      "text": "This square links romance to career authority, forcing a choice between impulsive reaction and professional restraint.",
+      "text": "If single, a Scorpio or Capricorn will challenge your ego in a way that sparks attraction. If taken, avoid controlling arguments tonight\u2014your partner's silence is not agreement, it's a boundary.",
       "type": "normal"
     },
     {
-      "text": "Single? 5th-House Mars attracts bold, playful chemistry, but Saturn\u2019s square turns icy when you demand certainty immediately.",
+      "text": "Your 10th House of Career is lit by a trine from Jupiter in Gemini, meaning a promotion arrives through networking. But check contracts\u2014stalled communication in your 6th House could hide fine print.",
       "type": "normal"
     },
     {
-      "text": "Taken? Sun in your 7th House in Libra makes a partner\u2019s practical concern feel like a challenge; respond clearly, not defensively.",
+      "text": "Avoid lending money to family today\u2014the 8th House square demands you protect your resources, not rescue them.",
       "type": "normal"
     },
     {
-      "text": "Career-wise, Saturn in the 10th rewards a revised proposal and measured conversation with your manager before recognition arrives.",
-      "type": "normal"
-    },
-    {
-      "text": "Money-wise, keep 5th-House spending small; today\u2019s indulgence can become next week\u2019s stress.",
-      "type": "normal"
-    },
-    {
-      "text": "One gift: a creative idea delivered calmly can outshine a louder workplace argument.",
-      "type": "normal"
-    },
-    {
-      "text": "Follow for tomorrow\u2019s reading as pressure shifts.",
+      "text": "Follow for tomorrow's reading so you don't miss the lunar eclipse shifting your foundation.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
-    "3",
-    "8",
+    "7",
+    "11",
     "21"
   ],
-  "lucky_color": "Royal Blue",
-  "monthly_vibe": "Measured Passion",
-  "title": "Aries: A Career Square Is Closing In",
-  "youtube_title": "Aries: The Square Hitting Your Career #shorts",
-  "youtube_description": "Mars, Aries\u2019s fiery ruler, is crossing your 5th House and squaring Saturn in your 10th, forcing romance and workplace choices into the same pressure cooker. This reading reveals where to act boldly, where to wait, and why an impulse buy could bite back. Comment your sign, then subscribe for tomorrow\u2019s transit forecast.",
+  "lucky_color": "Crimson Red",
+  "monthly_vibe": "Intense Transformation",
+  "title": "Aries \u2014 Don't Ignore This Warning",
+  "youtube_title": "Aries Warning: Mars Ignites a Volatile Square #shorts",
+  "youtube_description": "Transiting Mars is forming a dangerous square to Pluto in Aquarius, flooding your 8th House with intense pressure. The Sun opposes your natal Mars in the 2nd House of Income\u2014this is not a good day to gamble with money. Comment your sign below if you want to know how this affects YOUR chart.",
   "youtube_tags": [
     "aries horoscope",
+    "aries daily",
+    "mars transit",
+    "pluto square",
+    "astrology prediction",
+    "fire sign",
+    "aries love",
+    "aries career",
+    "zodiac signs",
     "daily horoscope",
-    "western astrology",
-    "mars square saturn",
-    "career forecast",
-    "love forecast",
-    "money guidance",
-    "fire sign aries",
-    "transit forecast",
-    "astrology reading",
-    "aries energy",
-    "cosmic alerts"
+    "cosmic energy",
+    "natal mars"
   ],
   "type": "daily",
   "target": "Aries",
-  "date": "September 28, 2026",
+  "date": "September 29, 2026",
   "images": [
     "assets/zodiac_signs/Aries.jpg"
   ],
   "active": true,
-  "status": "uploaded",
-  "file_name": "plan_daily_Aries.json"
+  "status": "error",
+  "file_name": "plan_daily_Aries.json",
+  "error_reason": "Upload failed"
 }
