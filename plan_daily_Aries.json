@@ -1,67 +1,66 @@
 {
-  "script_text": "Stop! Aries, the stars are flashing red because Mars, your fiery ruling planet, is about to ignite a volatile square that changes everything. Transiting Mars forms a furious square to Pluto in Aquarius, flooding your 8th House with pressure. Meanwhile, the Sun opposes your natal Mars in the 2nd House of Income, creating a power struggle over money. If single, a Scorpio or Capricorn will challenge your ego in a way that sparks attraction. If taken, avoid controlling arguments tonight\u2014your partner's silence is not agreement, it's a boundary. Your 10th House of Career is lit by a trine from Jupiter in Gemini, meaning a promotion arrives through networking. But check contracts\u2014stalled communication in your 6th House could hide fine print. Avoid lending money to family today\u2014the 8th House square demands you protect your resources, not rescue them. Follow for tomorrow's reading so you don't miss the lunar eclipse shifting your foundation.",
+  "script_text": "Stop, Aries: nerve wins; capitulation does not. The fire sign Aries is ruled by Mars, which trines Saturn from 49\u00b0 Leo to 16\u00b0 Aries, crossing your 5th House of romance and 1st House of identity. This exchange between fire and earth strengthens your presence and makes ambition persuasive. If single, attract a warm, confident partner by showing initiative without dominating conversations. If partnered, expect a question about future plans; give a clear answer, not a reassuring ambiguity. A colleague or senior leader may bring a major promotion or public assignment into your 10th House today. In your 2nd House, expect a client to revisit fees or payment terms, and counter rather than discount. The unexpected gift is concrete: a colleague sends a referral for your consistency. Follow for tomorrow's reading and subscribe so you don't miss the Aries transit shift.",
   "captions_structure": [
     {
       "text": "ARIES",
       "type": "header"
     },
     {
-      "text": "Stop! Aries, the stars are flashing red because Mars, your fiery ruling planet, is about to ignite a volatile square that changes everything.",
+      "text": "Stop, Aries: nerve wins; capitulation does not.",
       "type": "normal"
     },
     {
-      "text": "Transiting Mars forms a furious square to Pluto in Aquarius, flooding your 8th House with pressure. Meanwhile, the Sun opposes your natal Mars in the 2nd House of Income, creating a power struggle over money.",
+      "text": "Mars in your 5th House trines Saturn in your 1st House.",
       "type": "normal"
     },
     {
-      "text": "If single, a Scorpio or Capricorn will challenge your ego in a way that sparks attraction. If taken, avoid controlling arguments tonight\u2014your partner's silence is not agreement, it's a boundary.",
+      "text": "Romance rewards warm initiative and clear answers.",
       "type": "normal"
     },
     {
-      "text": "Your 10th House of Career is lit by a trine from Jupiter in Gemini, meaning a promotion arrives through networking. But check contracts\u2014stalled communication in your 6th House could hide fine print.",
+      "text": "A major promotion or public assignment enters your 10th House.",
       "type": "normal"
     },
     {
-      "text": "Avoid lending money to family today\u2014the 8th House square demands you protect your resources, not rescue them.",
+      "text": "A client may revisit fees in your 2nd House.",
       "type": "normal"
     },
     {
-      "text": "Follow for tomorrow's reading so you don't miss the lunar eclipse shifting your foundation.",
+      "text": "Follow for tomorrow's reading.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
-    "7",
-    "11",
-    "21"
+    "1",
+    "8",
+    "22"
   ],
-  "lucky_color": "Crimson Red",
-  "monthly_vibe": "Intense Transformation",
-  "title": "Aries \u2014 Don't Ignore This Warning",
-  "youtube_title": "Aries Warning: Mars Ignites a Volatile Square #shorts",
-  "youtube_description": "Transiting Mars is forming a dangerous square to Pluto in Aquarius, flooding your 8th House with intense pressure. The Sun opposes your natal Mars in the 2nd House of Income\u2014this is not a good day to gamble with money. Comment your sign below if you want to know how this affects YOUR chart.",
+  "lucky_color": "Burnished Copper",
+  "monthly_vibe": "Purposeful Romantic Clarity",
+  "title": "Aries: The Mars-Saturn Signal You Need",
+  "youtube_title": "Aries: Mars and Saturn Reveal the Move #shorts",
+  "youtube_description": "Aries, your fire sign ruler Mars near 49\u00b0 Leo is holding a supportive trine to Saturn near 16\u00b0 Aries, linking your 5th House romance to your 1st House confidence. This reading reveals where that fire and earth exchange can trigger a promotion\u2014and why a client may suddenly revisit your fees. Comment your sign.",
   "youtube_tags": [
     "aries horoscope",
-    "aries daily",
+    "daily astrology",
     "mars transit",
-    "pluto square",
-    "astrology prediction",
-    "fire sign",
-    "aries love",
-    "aries career",
-    "zodiac signs",
-    "daily horoscope",
+    "saturn transit",
+    "love forecast",
+    "career money",
+    "fire sign astrology",
+    "planetary guidance",
+    "september 2026",
     "cosmic energy",
-    "natal mars"
+    "aries love",
+    "aries career"
   ],
   "type": "daily",
   "target": "Aries",
-  "date": "September 29, 2026",
+  "date": "September 30, 2026",
   "images": [
     "assets/zodiac_signs/Aries.jpg"
   ],
   "active": true,
-  "status": "error",
-  "file_name": "plan_daily_Aries.json",
-  "error_reason": "Upload failed"
+  "status": "uploaded",
+  "file_name": "plan_daily_Aries.json"
 }
