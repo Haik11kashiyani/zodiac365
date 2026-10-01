@@ -1,42 +1,78 @@
 {
-    "script_text": "Aries, a romantic yes turns into a maybe unless you read the fine print. Fire sign Aries is ruled by Mars in the 4th House, favoring Wednesday home-based income work. Venus in the 8th sextiles Mercury in the 7th, reviving past romance and shared money. Friday pivots as Mercury nears opposition to Saturn at 15\u00b0 Aries, making every contract feel consequential. Sunday's Sun enters the 8th House, redirecting the weekend toward intimacy and joint finances. Venus nears a trine to Jupiter in the 5th, boosting dates, creative deals, and career offers. Tuesday is your power day: the Moon conjoins Jupiter in the 5th, trines the Sun, and opens romance and money opportunities. Saturday brings tension as the Sun opposes Saturn in the 1st, exposing broken promises at work or in love. Draft a proposal, but delay ultimatums until Mercury clears Saturn. Follow for daily updates.",
+    "script_text": "Aries, your fire-sign ruler Mars in Gemini\u2019s 3rd House makes this a love-or-money test. Sun and Mercury occupy your 7th House in Libra, making Thursday strong for relationship talks. The Sun sextiles Jupiter in your 9th House, favoring stronger raises and introductions. October 3 turns negotiations when the Moon sextiles Mars in the 3rd: salary, contract, or invoice. Late week, the Moon enters Leo\u2019s 5th House, lifting romance, then reaches Virgo\u2019s 6th on October 7, favoring edits and precise work. Venus\u2019s separating square to Jupiter warns that weekend promises can outrun budgets. Saturday, October 3, is your power day because the Moon\u2019s sextile to Mars activates Aries\u2019s fire. Tuesday, October 6, is your warning day because the Moon squares Venus in Scorpio\u2019s 6th House, triggering an impulsive romantic text or purchase. Slow one argument down, verify the actual number, then speak. Follow for daily updates.",
     "captions_structure": [
         {
             "text": "ARIES",
             "type": "header"
         },
         {
-            "text": "Aries, a romantic yes turns into a maybe unless you read the fine print.",
+            "text": "Aries, your fire-sign ruler Mars in Gemini\u2019s 3rd House makes this a love-or-money test.",
+            "type": "normal"
+        },
+        {
+            "text": "Sun and Mercury occupy your 7th House in Libra, making Thursday strong for relationship talks.",
+            "type": "normal"
+        },
+        {
+            "text": "The Sun sextiles Jupiter in your 9th House, favoring stronger raises and introductions.",
+            "type": "normal"
+        },
+        {
+            "text": "October 3 turns negotiations when the Moon sextiles Mars in the 3rd: salary, contract, or invoice.",
+            "type": "normal"
+        },
+        {
+            "text": "Late week, the Moon enters Leo\u2019s 5th House, lifting romance, then reaches Virgo\u2019s 6th on October 7, favoring edits and precise work.",
+            "type": "normal"
+        },
+        {
+            "text": "Venus\u2019s separating square to Jupiter warns that weekend promises can outrun budgets.",
+            "type": "normal"
+        },
+        {
+            "text": "Saturday, October 3, is your power day because the Moon\u2019s sextile to Mars activates Aries\u2019s fire.",
+            "type": "normal"
+        },
+        {
+            "text": "Tuesday, October 6, is your warning day because the Moon squares Venus in Scorpio\u2019s 6th House, triggering an impulsive romantic text or purchase.",
+            "type": "normal"
+        },
+        {
+            "text": "Slow one argument down, verify the actual number, then speak.",
+            "type": "normal"
+        },
+        {
+            "text": "Follow for daily updates.",
             "type": "normal"
         }
     ],
     "lucky_numbers": [
+        "3",
         "7",
-        "11",
         "21"
     ],
     "lucky_color": "Royal Blue",
-    "monthly_vibe": "Strategic Intimacy",
-    "title": "Aries Weekly Horoscope September 30, 2026",
-    "youtube_title": "Aries: Why This Deal Suddenly Stalls #shorts",
-    "youtube_description": "Aries, Mercury tightens its opposition to Saturn across your 1st/7th axis as the Sun enters your 8th House on October 4. I reveal which day turns relationship and career tension into an opportunity, when the Moon conjoins Jupiter in your 5th and trines the Sun. Comment your sign.",
+    "monthly_vibe": "Strategic Fire",
+    "title": "Aries Weekly Horoscope: The Mars Test",
+    "youtube_title": "Aries: The Mars Money Test Arrives #shorts",
+    "youtube_description": "Aries, love and money pull in opposite directions this week, and the timing is unusually precise. I reveal the Moon\u2019s sextile to Mars in your 3rd House, the Venus square that can trigger an impulsive text or purchase, and the exact window for a stronger offer\u2014comment your sign.",
     "youtube_tags": [
         "astrology",
-        "horoscope",
-        "aries",
         "aries horoscope",
         "weekly horoscope",
-        "western astrology",
-        "mercury transit",
-        "saturn transit",
-        "venus sextile",
-        "relationship advice",
-        "career astrology",
-        "cosmic energy"
+        "love horoscope",
+        "career horoscope",
+        "money forecast",
+        "mars transit",
+        "moon aspects",
+        "libra season",
+        "scorpio energy",
+        "fire sign",
+        "western astrology"
     ],
     "type": "weekly",
     "target": "Aries",
-    "date": "Sep 30 - Oct 06",
+    "date": "Oct 01 - Oct 07",
     "images": [
         "assets/zodiac_signs/Aries.jpg"
     ],
