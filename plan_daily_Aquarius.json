@@ -1,36 +1,32 @@
 {
-  "script_text": "Stop! Aquarius, the Pluto shift is transforming your identity right now. While Uranus, your modern ruling planet, hums in the 10th House of Career, your public image is under heavy cosmic pressure. The Sun in your 7th House of Partnerships squares Uranus today, sparking sudden clashes with business associates or partners. You are an Air sign, so logic wins, but do not ignore your gut instincts. Single? A mysterious stranger appears in your 5th House of Romance through a creative project or networking event. Taken? Avoid heated power struggles over shared finances; discuss budgets calmly before dinner. Saturn in your 4th House asks you to ground your ambitions before you overextend yourself. Do not sign any legal contracts late today without independent counsel. Watch for an unexpected inheritance gift or refund arriving in your 8th House this evening. Follow for tomorrow's reading.",
+  "script_text": "Stop! Aquarius, the universe is screaming your name loudly before you even scroll past. Pluto has officially anchored in your sign, forming a heavy, transformative conjunction with your 1st House cusp, while Jupiter in Cancer sextiles your ruling planet, Uranus, amplifying your fixed Air energy. This is a genuine cosmic reset. In love, your 7th House activates brightly; a distant partner reaches out unexpectedly, but do not surrender your independence tonight. Trust your intuition deeply regarding this karmic reunion. For career and money, Saturn in your 2nd House secures long-term finances, though Venus in the 12th House hides a subtle expense, so expect a surprise bonus from the 10th House. Review every contract carefully before evening. Avoid arguing over petty budget details before sunset, ignore journal goals, or trust strangers contacting you via social media channels. Follow for tomorrow's reading right here.",
   "captions_structure": [
     {
       "text": "AQUARIUS",
       "type": "header"
     },
     {
-      "text": "Stop! Aquarius, the Pluto shift is transforming your identity right now.",
+      "text": "The universe is screaming your name loudly.",
       "type": "normal"
     },
     {
-      "text": "While Uranus, your modern ruling planet, hums in the 10th House of Career.",
+      "text": "Pluto has anchored in your 1st House.",
       "type": "normal"
     },
     {
-      "text": "The Sun in your 7th House of Partnerships squares Uranus today.",
+      "text": "Jupiter sextiles Uranus right now.",
       "type": "normal"
     },
     {
-      "text": "Single? A mysterious stranger appears in your 5th House of Romance.",
+      "text": "7th House activates for love.",
       "type": "normal"
     },
     {
-      "text": "Taken? Avoid heated power struggles over shared finances.",
+      "text": "Saturn secures your 2nd House finances.",
       "type": "normal"
     },
     {
-      "text": "Do not sign any legal contracts late today without counsel.",
-      "type": "normal"
-    },
-    {
-      "text": "Watch for an unexpected inheritance gift in your 8th House.",
+      "text": "Do not trust strangers today.",
       "type": "normal"
     },
     {
@@ -39,36 +35,37 @@
     }
   ],
   "lucky_numbers": [
-    "4",
-    "8",
-    "27"
+    "7",
+    "11",
+    "21"
   ],
-  "lucky_color": "Midnight Blue",
+  "lucky_color": "Electric Blue",
   "monthly_vibe": "Transformation & Power",
-  "title": "Aquarius \u2014 The Pluto Shift Is Here",
-  "youtube_title": "Aquarius Daily: Pluto Shift Warning #shorts",
-  "youtube_description": "Today, Pluto is reshaping your identity while Uranus triggers sudden career tension for Aquarius. I reveal exactly why signing contracts is dangerous and what financial gift awaits you. Comment your sign below to unlock your full chart reading.",
+  "title": "Aquarius \u2014 Don't Ignore This",
+  "youtube_title": "Aquarius, Stop Scrolling \u2014 Pluto Arrives #shorts",
+  "youtube_description": "Aquarius, Pluto has officially entered your sign and it is changing everything about your identity. I reveal why your 7th House is lighting up for love and where the surprise bonus is coming from today. Comment your sign below so I can check your chart next.",
   "youtube_tags": [
-    "astrology",
     "aquarius horoscope",
     "daily horoscope",
+    "october 2026 astrology",
     "pluto in aquarius",
-    "uranus transit",
-    "october 2026",
-    "air sign",
-    "love prediction",
-    "career advice",
-    "moon transit",
-    "cosmic guidance",
-    "zodiac forecast"
+    "jupiter sextile uranus",
+    "aquarius love forecast",
+    "financial horoscope",
+    "astrology reading",
+    "air sign energy",
+    "cosmic forecast",
+    "zodiac predictions",
+    "horoscope today"
   ],
   "type": "daily",
   "target": "Aquarius",
-  "date": "October 04, 2026",
+  "date": "October 05, 2026",
   "images": [
     "assets/zodiac_signs/Aquarius.jpg"
   ],
   "active": true,
-  "status": "uploaded",
-  "file_name": "plan_daily_Aquarius.json"
+  "status": "error",
+  "file_name": "plan_daily_Aquarius.json",
+  "error_reason": "Upload failed"
 }
