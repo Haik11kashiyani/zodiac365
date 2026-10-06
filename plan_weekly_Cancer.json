@@ -1,62 +1,64 @@
 {
-    "script_text": "Cancer, the Moon is shaking your foundations this week and absolutely nothing will ever stay hidden from you. Monday through Wednesday, Jupiter in your 1st House conjuncts your Sun while Mars pushes your 10th House career forward. You feel unstoppable, but Neptune square your Sun creates early friction. Tuesday brings a tempting financial offer; do not sign yet. By Thursday, Venus sextiles your Moon in your 8th House, unlocking shared funds or a deepening romance that changes everything. The weekend brings a golden trine from your Water ruler to the Midheaven, signaling a promotion or public recognition you truly deserve this year. Wednesday is your power day because Venus sextiles your sensitive Cancer Moon. Friday is your caution day due to Mercury's friction with daily work. Trust your intuition today; the cosmic stars back your next big move completely and without delay. Follow for daily updates.",
+    "script_text": "Cancer, this week the Moon \u2014 your ruling planet \u2014 clashes with Pluto, shaking your foundations. Monday through Wednesday, the Moon squares Saturn in your 10th House, pressuring your career and public standing. Tuesday faces the hardest transit, avoid major decisions. Wednesday afternoon, Venus enters your 5th House of love, forming a trine with Jupiter that opens unexpected romantic connection. Thursday through Sunday, Mars aligns with Neptune in your 12th House, bringing intuitive gains but financial confusion \u2014 especially with money matters. The weekend offers emotional healing. Wednesday is your power day because Venus enters your 5th House and trines Jupiter in your 1st House, boosting love luck. Tuesday is your worst day because the Moon squares Saturn in your 10th House, creating career obstacles. Use Thursday's intuitive energy to review finances before committing. Follow for daily updates.",
     "captions_structure": [
         {
-            "text": "CANCER WEEKLY HOROSCOPE",
+            "text": "CANCER",
             "type": "header"
         },
         {
-            "text": "Cancer, the Moon is shaking your foundations this week and absolutely nothing will ever stay hidden from you.",
+            "text": "Cancer, this week the Moon \u2014 your ruling planet \u2014 clashes with Pluto, shaking your foundations.",
             "type": "normal"
         },
         {
-            "text": "Monday through Wednesday, Jupiter in your 1st House conjuncts your Sun while Mars pushes your 10th House career forward.",
+            "text": "Monday through Wednesday, the Moon squares Saturn in your 10th House, pressuring your career. Tuesday faces the hardest transit.",
             "type": "normal"
         },
         {
-            "text": "By Thursday, Venus sextiles your Moon in your 8th House, unlocking shared funds or a deepening romance that changes everything.",
+            "text": "Wednesday afternoon, Venus enters your 5th House of love, forming a trine with Jupiter that opens unexpected connection.",
             "type": "normal"
         },
         {
-            "text": "The weekend brings a golden trine from your Water ruler to the Midheaven, signaling a promotion you deserve.",
+            "text": "Thursday through Sunday, Mars aligns with Neptune in your 12th House, bringing intuitive gains but financial confusion.",
             "type": "normal"
         },
         {
-            "text": "Wednesday is your power day because Venus sextiles your sensitive Cancer Moon.",
+            "text": "Wednesday is your power day because Venus enters your 5th House and trines Jupiter in your 1st House.",
             "type": "normal"
         },
         {
-            "text": "Follow for daily updates.",
+            "text": "Tuesday is your worst day because the Moon squares Saturn in your 10th House, creating career obstacles.",
+            "type": "normal"
+        },
+        {
+            "text": "Use Thursday's intuitive energy to review finances before committing. Follow for daily updates.",
             "type": "normal"
         }
     ],
     "lucky_numbers": [
         "7",
-        "11",
-        "21"
+        "14",
+        "23"
     ],
-    "lucky_color": "Emerald Green",
-    "monthly_vibe": "Bold & Intuitive",
-    "title": "Cancer: The Moon Is Warning You This Week",
-    "youtube_title": "Cancer: The Moon Is Warning You This Week #shorts",
-    "youtube_description": "This week, Jupiter aligns with your Sun in the 1st House, bringing massive opportunities for Cancer. But Venus moves into your 8th House, revealing secrets in love and career. Comment your sign below to see what the stars predict for you.",
+    "lucky_color": "Silver Blue",
+    "monthly_vibe": "Intuitive & Transformative",
+    "title": "Cancer: The Moon's Dangerous Clash This Week",
+    "youtube_title": "Cancer's Cosmic Warning This Week #shorts",
+    "youtube_description": "This week, Cancer, the Moon squares Saturn in your 10th House, creating intense career pressure \u2014 but Venus entering your 5th House on Wednesday brings unexpected love opportunities. Comment your sign to see how this transit affects you.",
     "youtube_tags": [
         "cancer horoscope",
-        "weekly horoscope",
-        "october horoscope",
-        "astrology",
+        "weekly forecast",
         "moon transit",
-        "cancer week",
-        "venus in libra",
-        "jupiter in cancer",
-        "love forecast",
-        "career advice",
-        "zodiac signs",
-        "horoscope forecast"
+        "venus in 5th house",
+        "cancer love",
+        "cancer career",
+        "astrology predictions",
+        "cosmic energy",
+        "star sign",
+        "horoscope october"
     ],
     "type": "weekly",
     "target": "Cancer",
-    "date": "Oct 05 - Oct 11",
+    "date": "Oct 06 - Oct 12",
     "images": [
         "assets/zodiac_signs/Cancer.jpg"
     ],
