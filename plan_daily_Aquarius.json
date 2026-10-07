@@ -1,42 +1,66 @@
 {
-  "script_text": "Stop! Aquarius, the air element is colliding with cosmic chaos right now. Uranus, your ruling planet, is forming a tense square to your natal Sun in the 10th House of Career, creating sudden volatility in your professional status and reputation. Mercury conjunct Venus in Scorpio is activating your 8th House of Shared Resources, bringing hidden emotional undercurrents to your finances and intimacy. Single Aquarius, the Sagittarius moon is igniting your 5th House of Romance\u2014someone with bold fire sign energy will surprise you after 3 PM today. If you're taken, watch for miscommunication about travel plans or in-law boundaries. Do not sign any contracts or make big financial decisions today\u2014Saturn is creating heavy pressure in your 2nd House of Income that could expose hidden debts or tax issues. Avoid lending money to a coworker or family member. Comment your sign below and subscribe so you don't miss what's coming this week.",
+  "script_text": "Stop! Aquarius, the cosmos is screaming at your bank account right now, and you need to listen. Jupiter is forming a fierce trine to your Sun in your 5th House, amplifying that rebellious Fixed Air energy you were born with to take risks. Single Aquarius: Venus trines your 9th House of Travel, so expect a passionate message from someone overseas tonight about a secret connection. Committed Aquarius: plan the getaway, but Mars in your 8th House demands you clear shared debts before booking any flights. Career-wise, your 10th House of Status is glowing, but Saturn in your 2nd House forces a strict budget review first. Warning: Do not impulse-buy luxury electronics today, or your 2nd House savings will vanish quite quickly. Follow for tomorrow's reading and claim your cosmic edge before it is gone.",
   "captions_structure": [
     {
-      "text": "AQUARIUS",
+      "text": "AQUARIUS ALERT",
       "type": "header"
     },
     {
-      "text": "Stop! Aquarius, the air element is colliding with cosmic chaos right now. Uranus, your ruling planet, is forming a tense square to your natal Sun in the 10th House of Career, creating sudden volatility in your professional status and reputation. Mercury conjunct Venus in Scorpio is activating your 8th House of Shared Resources, bringing hidden emotional undercurrents to your finances and intimacy. Single Aquarius, the Sagittarius moon is igniting your 5th House of Romance\u2014someone with bold fire sign energy will surprise you after 3 PM today. If you're taken, watch for miscommunication about travel plans or in-law boundaries. Do not sign any contracts or make big financial decisions today\u2014Saturn is creating heavy pressure in your 2nd House of Income that could expose hidden debts or tax issues. Avoid lending money to a coworker or family member. Comment your sign below and subscribe so you don't miss what's coming this week.",
+      "text": "Stop! Aquarius, the cosmos is screaming at your bank account right now.",
+      "type": "normal"
+    },
+    {
+      "text": "Jupiter trines your Sun in your 5th House, amplifying Fixed Air energy.",
+      "type": "normal"
+    },
+    {
+      "text": "Single Aquarius: Venus trines your 9th House of Travel tonight.",
+      "type": "normal"
+    },
+    {
+      "text": "Committed Aquarius: clear shared debts before booking flights.",
+      "type": "normal"
+    },
+    {
+      "text": "Career-wise: Saturn in your 2nd House forces a budget review.",
+      "type": "normal"
+    },
+    {
+      "text": "Warning: Do not impulse-buy luxury electronics today.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for tomorrow's reading and claim your cosmic edge.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
     "7",
-    "14",
-    "23"
+    "17",
+    "27"
   ],
-  "lucky_color": "Electric Blue",
-  "monthly_vibe": "Disruptive & Liberating",
-  "title": "Aquarius \u2014 The Stars Are Warning You",
-  "youtube_title": "Aquarius Career Warning Oct 6 #shorts",
-  "youtube_description": "Uranus is squaring your Sun today in the 10th House\u2014this changes everything for your career. Saturn is exposing hidden debts in your finances. Comment your sign below for personalized advice.",
+  "lucky_color": "Silver Lining",
+  "monthly_vibe": "Bold Financial Shift",
+  "title": "Aquarius \u2014 Money & Love Surge",
+  "youtube_title": "Aquarius Oct 07: Love & Money Shock #shorts",
+  "youtube_description": "Aquarius, are you ready for a Venus and Jupiter surge on October 7? This video reveals how the stars are reshaping your love life and bank account today. Comment your sign below to unlock your personalized forecast!",
   "youtube_tags": [
-    "aquarius",
-    "horoscope",
     "astrology",
+    "horoscope",
+    "aquarius",
     "dailyhoroscope",
-    "uranus",
-    "saturn",
-    "mercury",
-    "venus",
-    "moon",
-    "career",
-    "love",
-    "stars"
+    "jupitertrine",
+    "venuslove",
+    "mars8th",
+    "saturn2nd",
+    "fixedair",
+    "cosmicenergy",
+    "zodiacsign",
+    "october2026"
   ],
   "type": "daily",
   "target": "Aquarius",
-  "date": "October 06, 2026",
+  "date": "October 07, 2026",
   "images": [
     "assets/zodiac_signs/Aquarius.jpg"
   ],
