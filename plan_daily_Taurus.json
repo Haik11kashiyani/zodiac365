@@ -1,46 +1,67 @@
 {
-  "script_text": "Stop! Taurus, the cosmic weather just shifted violently beneath your steady feet right now. The Sun in Libra forms a sudden, intense opposition to transiting Uranus in your 1st House of Self, shaking your personal foundation and identity. As the Moon enters your 1st House tonight, emotions run wild. Meanwhile, your ruling planet Venus sits comfortably in your 9th House of Travel and Higher Learning. Singles attract a mysterious foreign connection through intellectual study, deeply meaningful, while committed couples face sudden shared travel plans that change everything. In career and money, a surprise income boost arrives through networking, but guard your 2nd House budget against sudden impulses. Your Earth sign energy secures long-term stability. Avoid signing major contracts this afternoon, but a truly unexpected gift of freedom is coming to your career. Follow for tomorrow's reading so you are prepared.",
+  "script_text": "Stop scrolling, Taurus, your ruling planet is staging a rebellion against you right now. Retrograde Venus has parked herself in Virgo, sitting squarely in your 7th House of Partnerships, while Jupiter sextiles it from your 10th House of Career. Since Venus rules your sign, this transit is intensely personal and demands you weigh every promise before speaking it aloud. Singles attract deep connection through a workplace friend, but taken Taurus must avoid pushing a partner away during a tense Mars square. Money arrives unexpectedly from a past client, opening your 2nd House of Value for a serious negotiation, so sign the papers before nightfall. Guard your savings against impulse buys triggered by the Moon in Pisces. Uranus is jolting your 1st House identity, so embrace the change without panic or delay. Follow for tomorrow's reading so you never miss a cosmic shift.",
   "captions_structure": [
     {
       "text": "TAURUS",
       "type": "header"
     },
     {
-      "text": "Stop! Taurus, the cosmic weather just shifted violently beneath your steady feet right now.",
+      "text": "Stop scrolling, your ruling planet is staging a rebellion.",
+      "type": "normal"
+    },
+    {
+      "text": "Retrograde Venus hits your 7th House of Partnerships.",
+      "type": "normal"
+    },
+    {
+      "text": "Jupiter sextiles from your 10th House of Career.",
+      "type": "normal"
+    },
+    {
+      "text": "Singles find love at work, but taken Taurus watch Mars square.",
+      "type": "normal"
+    },
+    {
+      "text": "Money comes from a past client. Sign before nightfall.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for tomorrow's cosmic shift.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
     "7",
-    "11",
-    "21"
+    "16",
+    "26"
   ],
-  "lucky_color": "Emerald Green",
-  "monthly_vibe": "Bold Shifts",
-  "title": "Taurus \u2014 The Stars Are Warning You",
-  "youtube_title": "Taurus: The Stars Are Warning You #shorts",
-  "youtube_description": "Taurus, the stars are screaming at you on October 7, 2026. The Sun is opposing Uranus in your 1st House, bringing sudden changes you cannot ignore. Comment your sign below to claim your guidance.",
+  "lucky_color": "Deep Emerald",
+  "monthly_vibe": "Bold & Grounded",
+  "title": "Taurus - Stop Ignoring This Cosmic Shift",
+  "youtube_title": "Venus Retrograde Just Hit Taurus Hard #shorts",
+  "youtube_description": "Retrograde Venus just moved into your 7th House, and it is rewriting your love story for October. You need to know how the Mars square impacts your wallet before you sign anything. Comment your sign to see how this transit hits you.",
   "youtube_tags": [
-    "astrology",
-    "horoscope",
-    "taurus",
+    "taurus horoscope",
     "daily horoscope",
+    "venus retrograde",
     "october 2026",
-    "venus transit",
-    "uranus retrograde",
-    "earth sign",
-    "love reading",
-    "money forecast",
-    "zodiac signs",
-    "cosmic update"
+    "earth sign energy",
+    "love forecast",
+    "career advice",
+    "uranus in taurus",
+    "mars square",
+    "zodiac prediction",
+    "cosmic guidance",
+    "daily astrology"
   ],
   "type": "daily",
   "target": "Taurus",
-  "date": "October 07, 2026",
+  "date": "October 08, 2026",
   "images": [
     "assets/zodiac_signs/Taurus.jpg"
   ],
   "active": true,
-  "status": "uploaded",
-  "file_name": "plan_daily_Taurus.json"
+  "status": "error",
+  "file_name": "plan_daily_Taurus.json",
+  "error_reason": "Upload failed"
 }
