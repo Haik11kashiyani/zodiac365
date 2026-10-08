@@ -1,62 +1,90 @@
 {
-  "script_text": "Stop, Leo \u2014 the cosmos just shifted under your feet and you absolutely need to pay attention right now. Jupiter is entering Gemini, lighting up your 10th House of Career with a powerful trine to your ruling Sun, while Saturn in Aries forms a disciplined sextile, letting your fire element fuel meaningful, lasting action. Venus gliding through your 7th House of Partnerships in Libra is deepening intimacy with your committed romantic partner \u2014 single Leos will feel magnetic attraction toward someone beautifully balanced and diplomatic. Your 10th House is alive with Jupiter's expansion \u2014 expect recognition, a promotion conversation, or a long-awaited project finally getting the green light with financial backing. Avoid oversharing personal details at work \u2014 your 12th House is highly active, and what stays hidden always surfaces faster than you expect. Subscribe so you don't miss what's heading your way this week for Leo.",
+  "script_text": "Stop! Leo, the cosmic alarm is blaring loudly through your 3rd House right now, and it will not fade until you truly listen. Transiting Mars is slamming into a tense square with your ruling Sun, and your natural Fire element is sputtering under this sudden pressure in the House of Communication and your daily plans now. In love, Pluto in your 7th House is exposing a hidden truth; speak your truth immediately out loud. In business, Venus in your 2nd House of Money supports a negotiation, but the Mars square demands patience before you sign any contract. Warning: Avoid sending any heated email during retrograde Mercury, because silence is your only shield against regret and potential serious legal trouble this very afternoon. Follow for tomorrow's reading so you never miss this massive cosmic shift coming straight to your doorstep very soon.",
   "captions_structure": [
     {
-      "text": "LEO ALERT",
+      "text": "LEO",
       "type": "header"
     },
     {
-      "text": "Stop, Leo \u2014 the cosmos just shifted under your feet and you absolutely need to pay attention right now.",
+      "text": "Stop! Leo, the cosmic alarm is blaring loudly through your 3rd House right now",
       "type": "normal"
     },
     {
-      "text": "Jupiter is entering Gemini, lighting up your 10th House of Career with a powerful trine to your ruling Sun, while Saturn in Aries forms a disciplined sextile, letting your fire element fuel meaningful, lasting action.",
+      "text": "and it will not fade until you truly listen.",
       "type": "normal"
     },
     {
-      "text": "Venus gliding through your 7th House of Partnerships in Libra is deepening intimacy with your committed romantic partner \u2014 single Leos will feel magnetic attraction toward someone beautifully balanced and diplomatic.",
+      "text": "Transiting Mars is slamming into a tense square with your ruling Sun",
       "type": "normal"
     },
     {
-      "text": "Your 10th House is alive with Jupiter's expansion \u2014 expect recognition, a promotion conversation, or a long-awaited project finally getting the green light with financial backing.",
+      "text": "and your natural Fire element is sputtering under this sudden pressure",
       "type": "normal"
     },
     {
-      "text": "Avoid oversharing personal details at work \u2014 your 12th House is highly active, and what stays hidden always surfaces faster than you expect.",
+      "text": "in the House of Communication and your daily plans now.",
       "type": "normal"
     },
     {
-      "text": "Subscribe so you don't miss what's heading your way this week for Leo.",
+      "text": "In love, Pluto in your 7th House is exposing a hidden truth;",
+      "type": "normal"
+    },
+    {
+      "text": "speak your truth immediately out loud.",
+      "type": "normal"
+    },
+    {
+      "text": "In business, Venus in your 2nd House of Money supports a negotiation",
+      "type": "normal"
+    },
+    {
+      "text": "but the Mars square demands patience before you sign any contract.",
+      "type": "normal"
+    },
+    {
+      "text": "Warning: Avoid sending any heated email during retrograde Mercury",
+      "type": "normal"
+    },
+    {
+      "text": "because silence is your only shield against regret and potential serious legal trouble this very afternoon.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for tomorrow's reading so you never miss this massive cosmic shift",
+      "type": "normal"
+    },
+    {
+      "text": "coming straight to your doorstep very soon.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
-    "5",
-    "14",
-    "29"
+    "7",
+    "11",
+    "21"
   ],
-  "lucky_color": "Royal Gold",
-  "monthly_vibe": "Strategic Expansion",
-  "title": "Leo \u2014 Don't Ignore This",
-  "youtube_title": "The Stars Have a Warning for Leo #shorts",
-  "youtube_description": "Jupiter is exploding into your career house and Saturn is demanding discipline \u2014 the planets are working against and for Leo in ways you haven't seen before. Comment your sign below and I'll reveal exactly what's heading your way this week.",
+  "lucky_color": "Crimson Red",
+  "monthly_vibe": "Intense Clarity",
+  "title": "Leo \u2014 Mars Square Sun Alert",
+  "youtube_title": "Leo Horoscope: Mars Alert Oct 8 #shorts",
+  "youtube_description": "Leo, Mars is square your Sun in your House of Communication on Oct 8, 2026. This transit brings hidden relationship truths and financial friction. Comment your sign below.",
   "youtube_tags": [
     "leo horoscope",
-    "astrology",
-    "daily prediction",
-    "leo zodiac",
-    "career horoscope",
-    "love forecast",
-    "planetary transit",
-    "fire sign energy",
-    "jupiter in gemini",
-    "saturn transit",
-    "september astrology",
-    "zodiac signs"
+    "daily horoscope",
+    "october 2026",
+    "leo transit",
+    "mars square sun",
+    "retrograde mercury",
+    "fire sign",
+    "astrology forecast",
+    "zodiac prediction",
+    "love horoscope",
+    "career advice",
+    "sun sign leo"
   ],
   "type": "daily",
   "target": "Leo",
-  "date": "September 22, 2026",
+  "date": "October 08, 2026",
   "images": [
     "assets/zodiac_signs/Leo.jpg"
   ],

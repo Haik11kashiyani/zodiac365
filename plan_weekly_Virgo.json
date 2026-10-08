@@ -1,40 +1,48 @@
 {
-    "script_text": "The stars are about to shake your foundation this week, Virgo. Sun enters your 7th House of Partnership as the Autumnal Equinox arrives, spotlighting your closest relationships and demanding the honest conversations you've avoided. Mercury, ruling planet of Earth-sign Virgo, forms a tense square with Pluto, stirring buried career dynamics \u2014 a promotion or difficult boss confrontation surfaces Monday through Wednesday. Mid-week, Venus trines Jupiter in your 10th House, opening a golden doorway for professional recognition and financial reward you cannot ignore. By Thursday, the Moon enters your 4th Home sector, softening everything \u2014 love deepens, and a family matter brings unexpected closure by the weekend. Monday is your power day because the Mercury-Pluto square forces career clarity. Thursday is your love day because the Venus-Jupiter trine floods your 10th House with abundance. Trust Mercury's guidance and journal every intuitive thought Tuesday night. Follow for daily updates.",
+    "script_text": "The stars just flipped your financial ledger, Virgo. Ruled by Mercury, the energy of your 2nd House hums as the Sun sextiles Jupiter here all week. However, Tuesday brings a Mars square Venus tension in your 11th House, so avoid impulse spending on social gatherings. As an Earth sign, you ground these cosmic shifts practically. Wednesday\u2019s New Moon in your 2nd House triggers a definitive income reset, locking in new revenue streams. By Friday, Mars in your 10th House empowers a bold career move you\u2019ve been hesitating to make since last summer. The weekend romance blooms with Venus sextile Saturn, deepening emotional commitment for you. Wednesday is your power day because the New Moon aligns directly with your money sector. Tuesday is your weakest day due to the Mars square Venus tension. Review your monthly budget before Wednesday\u2019s light shift arrives. Follow for daily updates.",
     "captions_structure": [
         {
-            "text": "VIRGO ALERT",
+            "text": "VIRGO",
             "type": "header"
         },
         {
-            "text": "The stars are about to shake your foundation this week, Virgo.",
+            "text": "The stars just flipped your financial ledger, Virgo.",
             "type": "normal"
         },
         {
-            "text": "Sun enters your 7th House of Partnership as the Autumnal Equinox arrives, spotlighting your closest relationships and demanding the honest conversations you've avoided.",
+            "text": "Ruled by Mercury, the energy of your 2nd House hums as the Sun sextiles Jupiter here all week.",
             "type": "normal"
         },
         {
-            "text": "Mercury, ruling planet of Earth-sign Virgo, forms a tense square with Pluto, stirring buried career dynamics \u2014 a promotion or difficult boss confrontation surfaces Monday through Wednesday.",
+            "text": "However, Tuesday brings a Mars square Venus tension in your 11th House, so avoid impulse spending on social gatherings.",
             "type": "normal"
         },
         {
-            "text": "Mid-week, Venus trines Jupiter in your 10th House, opening a golden doorway for professional recognition and financial reward you cannot ignore.",
+            "text": "As an Earth sign, you ground these cosmic shifts practically.",
             "type": "normal"
         },
         {
-            "text": "By Thursday, the Moon enters your 4th Home sector, softening everything \u2014 love deepens, and a family matter brings unexpected closure by the weekend.",
+            "text": "Wednesday\u2019s New Moon in your 2nd House triggers a definitive income reset, locking in new revenue streams.",
             "type": "normal"
         },
         {
-            "text": "Monday is your power day because the Mercury-Pluto square forces career clarity.",
+            "text": "By Friday, Mars in your 10th House empowers a bold career move you\u2019ve been hesitating to make since last summer.",
             "type": "normal"
         },
         {
-            "text": "Thursday is your love day because the Venus-Jupiter trine floods your 10th House with abundance.",
+            "text": "The weekend romance blooms with Venus sextile Saturn, deepening emotional commitment for you.",
             "type": "normal"
         },
         {
-            "text": "Trust Mercury's guidance and journal every intuitive thought Tuesday night.",
+            "text": "Wednesday is your power day because the New Moon aligns directly with your money sector.",
+            "type": "normal"
+        },
+        {
+            "text": "Tuesday is your weakest day due to the Mars square Venus tension.",
+            "type": "normal"
+        },
+        {
+            "text": "Review your monthly budget before Wednesday\u2019s light shift arrives.",
             "type": "normal"
         },
         {
@@ -47,27 +55,28 @@
         "11",
         "21"
     ],
-    "lucky_color": "Emerald Green",
-    "monthly_vibe": "Reflective & Calm",
-    "title": "Virgo \u2014 Don't Ignore This",
-    "youtube_title": "Virgo \u2014 The Stars Want Your Attention #shorts",
-    "youtube_description": "This week brings a powerful Mercury-Pluto square shaking your career and a Venus-Jupiter trine opening doors to financial reward. The Autumnal Equinox activates your 7th House of Partnership \u2014 something major is unfolding in your closest relationship. Comment your sign below for a personalized take.",
+    "lucky_color": "Deep Jade",
+    "monthly_vibe": "Financial Growth",
+    "title": "Virgo Weekly Alert: Money & Love Shift",
+    "youtube_title": "Virgo Weekly Alert: Money & Love Shift #shorts",
+    "youtube_description": "The stars are whispering about a new income stream for Virgo this week. Mercury rules your 2nd House while the New Moon triggers a financial reset. Comment your sign below to claim your cosmic guidance.",
     "youtube_tags": [
         "virgo horoscope",
-        "virgo weekly",
-        "astrology virgo",
-        "mercury pluto transit",
-        "horoscope september",
-        "virgo love",
-        "virgo career",
-        "zodiac signs",
-        "cosmic energy",
-        "virgo 2026",
-        "weekly forecast"
+        "weekly horoscope",
+        "october 2026",
+        "astrological forecast",
+        "venus transits",
+        "mars transit",
+        "new moon libra",
+        "earth sign energy",
+        "mercury in libra",
+        "love forecast",
+        "career predictions",
+        "zodiac virgo"
     ],
     "type": "weekly",
     "target": "Virgo",
-    "date": "Sep 22 - Sep 28",
+    "date": "Oct 08 - Oct 14",
     "images": [
         "assets/zodiac_signs/Virgo.jpg"
     ],
