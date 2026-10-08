@@ -1,62 +1,78 @@
 {
-    "script_text": "Wake up, Aquarius, the 7th House is screaming your name this week. Early Monday through Wednesday, Mercury turns direct in your 7th House while the Sun opposes Saturn, both rulers you honor, making negotiations tense and slow for your career goals. Wednesday is rough because Mercury's direct motion stirs 7th House debts. Mid-week the shift is undeniable: Venus conjuncts your Sun in Libra, unlocking romance and professional clarity. By Thursday, Mars sextiles that solar energy, shifting focus to your 5th House of joy and self-expression. Love finds you unexpectedly in a public setting, while a career contract signed Friday brings real money. Friday is your power day because Venus lights up your 7th House. Wednesday is your challenge day due to Saturn's shadow. Breathe deeply, Air sign ruled by Uranus; trust your intuition and wait on signatures until the Moon calms. Follow for daily updates.",
+    "script_text": "Pluto is forcing your identity into the spotlight, Aquarius, this month, and you cannot ignore this electric shift this week. Monday brings a harsh Mars square your Sun, Aquarius, spiking tension in your 10th House career matters. Expect a heated deadline or a colleague pushing too hard against your Air energy throughout the day. Tuesday money flows poorly, so avoid signing financial agreements before noon today. But mid-week, Mercury turns direct, clearing the fog around your contracts and legal paperwork soon enough. Venus enters your 7th House by Friday, igniting romantic chemistry with a committed partner again soon. Wednesday is your power day because direct Mercury brings clarity to negotiations finally today. Tuesday is your danger day because Mars squares your 1st House, triggering impulsive arguments with authority. Channel your Uranian brilliance into strategy, not speed, as Saturn demands patience always. Follow for daily updates.",
     "captions_structure": [
         {
-            "text": "AQUARIUS",
+            "text": "AQUARIUS ALERT",
             "type": "header"
         },
         {
-            "text": "Wake up, Aquarius, the 7th House is screaming your name this week.",
+            "text": "Pluto is forcing your identity into the spotlight, Aquarius, this month, and you cannot ignore this electric shift this week.",
             "type": "normal"
         },
         {
-            "text": "Early Monday through Wednesday, Mercury turns direct in your 7th House while the Sun opposes Saturn, both rulers you honor, making negotiations tense and slow for your career goals.",
+            "text": "Monday brings a harsh Mars square your Sun, Aquarius, spiking tension in your 10th House career matters.",
             "type": "normal"
         },
         {
-            "text": "Mid-week the shift is undeniable: Venus conjuncts your Sun in Libra, unlocking romance and professional clarity.",
+            "text": "Expect a heated deadline or a colleague pushing too hard against your Air energy throughout the day.",
             "type": "normal"
         },
         {
-            "text": "By Thursday, Mars sextiles that solar energy, shifting focus to your 5th House of joy and self-expression. Love finds you unexpectedly in a public setting, while a career contract signed Friday brings real money.",
+            "text": "Tuesday money flows poorly, so avoid signing financial agreements before noon today.",
             "type": "normal"
         },
         {
-            "text": "Friday is your power day because Venus lights up your 7th House. Wednesday is your challenge day due to Saturn's shadow.",
+            "text": "But mid-week, Mercury turns direct, clearing the fog around your contracts and legal paperwork soon enough.",
             "type": "normal"
         },
         {
-            "text": "Breathe deeply, Air sign ruled by Uranus; trust your intuition and wait on signatures until the Moon calms. Follow for daily updates.",
+            "text": "Venus enters your 7th House by Friday, igniting romantic chemistry with a committed partner again soon.",
+            "type": "normal"
+        },
+        {
+            "text": "Wednesday is your power day because direct Mercury brings clarity to negotiations finally today.",
+            "type": "normal"
+        },
+        {
+            "text": "Tuesday is your danger day because Mars squares your 1st House, triggering impulsive arguments with authority.",
+            "type": "normal"
+        },
+        {
+            "text": "Channel your Uranian brilliance into strategy, not speed, as Saturn demands patience always.",
+            "type": "normal"
+        },
+        {
+            "text": "Follow for daily updates.",
             "type": "normal"
         }
     ],
     "lucky_numbers": [
         "7",
         "11",
-        "28"
+        "21"
     ],
-    "lucky_color": "Midnight Blue",
-    "monthly_vibe": "Transformative & Bold",
-    "title": "Aquarius Weekly Forecast: Oct 7-13",
-    "youtube_title": "Aquarius, Stop Ignoring This Sign #shorts",
-    "youtube_description": "Your 7th House Sun is conjunct Venus this week, Aquarius, and it changes everything about your partnerships and paycheck. I reveal exactly which day money flows and when to hold back. Comment your sign to see if your stars align.",
+    "lucky_color": "Emerald Green",
+    "monthly_vibe": "Empowered Flow",
+    "title": "Aquarius Weekly Stars Warning You",
+    "youtube_title": "Aquarius \u2014 Pluto & Mars Warning #shorts",
+    "youtube_description": "This week, Pluto is forcing your identity into the spotlight while Mars squares your Sun. Discover why Tuesday is your danger day and Wednesday is your power day in this detailed Aquarius forecast. Comment your sign to share your energy.",
     "youtube_tags": [
         "astrology",
         "horoscope",
         "aquarius",
         "weekly horoscope",
-        "star signs",
-        "zodiac sign",
-        "cosmic energy",
-        "venus in libra",
-        "mars in leo",
-        "sun in libra",
-        "2026 astrology",
-        "air sign"
+        "planetary transits",
+        "love astrology",
+        "career advice",
+        "air sign",
+        "mars square",
+        "mercury direct",
+        "saturn transit",
+        "zodiac signs"
     ],
     "type": "weekly",
     "target": "Aquarius",
-    "date": "Oct 07 - Oct 13",
+    "date": "Oct 08 - Oct 14",
     "images": [
         "assets/zodiac_signs/Aquarius.jpg"
     ],
