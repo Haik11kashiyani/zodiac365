@@ -1,66 +1,70 @@
 {
-  "script_text": "Stop! Aquarius, your private sector is activating a major financial opportunity right now. Pause whatever you are doing immediately. Saturn forms a harmonious sextile to the Moon in your 8th House, stabilizing shared resources while Mercury and Venus glow bright in the 7th House of Partnerships. As an Air sign ruled by Uranus, you crave truth. For those attached, a deep conversation clears old resentment regarding money or intimacy, finally allowing genuine vulnerability with them. For single Aquarius, a financially stable prospect appears through mutual friends. Career: Your long-term planning finally pays off. Uranus in the 10th House rewards preparation made months ago with a promotion or raise. However, do not lend money before evening or the debt may not return, protecting your peace instead. Follow for tomorrow's reading so you never miss a cosmic alignment coming your way. Stay lucky.",
+  "script_text": "Freeze, Aquarius! The cosmos just rewired your 10th House of Career right now. Mars has just ignited your 10th House of Career, forming a fierce square to your ruling planet Uranus in your 5th House of Creativity. The Sun in Libra opposes your 1st House, amplifying your personal aura, yet as an Air sign, you must stay grounded in reality. If you are taken, schedule a date night immediately; communication flows too well to ignore any red flags. If single, a romantic opportunity arrives through a mutual friend or online connection. Venus brightens your 9th House of Adventure now, signaling profit in foreign ventures. Career opportunities spike, but Saturn in your 4th warns against overworking your home life to pay the bills unexpectedly. Avoid signing any contracts or trusting a stranger offering financial advice before the Moon shifts tonight or tomorrow. Follow for tomorrow's reading before this cosmic window closes and the energy shifts completely right now.",
   "captions_structure": [
     {
       "text": "AQUARIUS",
       "type": "header"
     },
     {
-      "text": "Stop! Aquarius, your private sector is activating a major financial opportunity right now.",
+      "text": "Freeze, Aquarius! The cosmos just rewired your 10th House of Career right now.",
       "type": "normal"
     },
     {
-      "text": "Saturn forms a harmonious sextile to the Moon in your 8th House.",
+      "text": "Mars is forming a fierce square to your ruling planet Uranus in your 5th House of Creativity.",
       "type": "normal"
     },
     {
-      "text": "Mercury and Venus glow bright in the 7th House of Partnerships.",
+      "text": "If you are taken, schedule a date night immediately; communication flows too well to ignore any red flags.",
       "type": "normal"
     },
     {
-      "text": "For those attached, a deep conversation clears old resentment regarding money.",
+      "text": "If single, a romantic opportunity arrives through a mutual friend or online connection.",
       "type": "normal"
     },
     {
-      "text": "Career: Uranus in the 10th House rewards preparation made months ago.",
+      "text": "Venus brightens your 9th House of Adventure now, signaling profit in foreign ventures.",
       "type": "normal"
     },
     {
-      "text": "Do not lend money before evening.",
-      "type": "warning"
+      "text": "Career opportunities spike, but Saturn in your 4th warns against overworking your home life.",
+      "type": "normal"
     },
     {
-      "text": "Follow for tomorrow's reading.",
+      "text": "Avoid signing any contracts before the Moon shifts tonight or tomorrow.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for tomorrow's reading before this cosmic window closes and the energy shifts completely right now.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
-    "5",
+    "7",
     "14",
-    "33"
+    "28"
   ],
-  "lucky_color": "Deep Teal",
-  "monthly_vibe": "Abundant & Clear",
-  "title": "Aquarius: Financial Breakthroughs Are Coming",
-  "youtube_title": "Aquarius Horoscope: Money & Love Shift #shorts",
-  "youtube_description": "Aquarius, the stars reveal a sudden shift in your relationship bank account and career status. This reading covers the Moon sextile Saturn alignment and what it means for your 8th House wealth. Comment your sign below to claim your cosmic update.",
+  "lucky_color": "Electric Blue",
+  "monthly_vibe": "Bold Ambition",
+  "title": "Aquarius Daily: Career Shifts Incoming",
+  "youtube_title": "Aquarius \u2014 Don't Ignore This Career Move #shorts",
+  "youtube_description": "Aquarius, Mars is shaking up your work life on October 9th with a square to your ruler. My reading reveals how Venus affects your love chart and where profit is hiding today. Comment your sign below for a personalized reply.",
   "youtube_tags": [
-    "aquarius horoscope",
+    "astrology",
+    "horoscope",
+    "aquarius",
     "daily horoscope",
-    "astrology forecast",
-    "horoscope prediction",
-    "spiritual growth",
+    "love horoscope",
+    "career horoscope",
     "zodiac signs",
-    "cosmic energy",
-    "moon transit",
-    "love prediction",
-    "career advice",
-    "planetary alignment",
-    "air sign"
+    "astrological forecast",
+    "mars transit",
+    "uranus transit",
+    "air sign",
+    "moon moon"
   ],
   "type": "daily",
   "target": "Aquarius",
-  "date": "October 08, 2026",
+  "date": "October 09, 2026",
   "images": [
     "assets/zodiac_signs/Aquarius.jpg"
   ],
