@@ -1,66 +1,58 @@
 {
-  "script_text": "Stop scrolling, Aries, the cosmos is screaming your name right now. The Sun in Libra forms a sharp opposition to your 1st House today, while Saturn sits heavily conjunct your rising sign. Your fiery ruling planet Mars sits in your 10th House of Career, square to this intense solar energy in your chart. In love, Venus warms your 7th House of Partnerships, urging honest, deep, vulnerable conversation with your soulmate or potential partner tonight. Career-wise, that Mars square pushes you to renegotiate power dynamics at work, but do not force the climb alone or burn bridges. Avoid impulsive arguments with authority figures this evening, before the moon rises, because an unexpected blessing from a very senior mentor is ready to unlock your 10th House ambitions. Follow for tomorrow's daily reading so you never ever miss this massive cosmic shift coming your way.",
+  "script_text": "Stop! Aries, the stars are screaming at you right now. Mercury is officially going retrograde in your 7th House of Partnerships, creating a tense opposition to your fiery Aries Sun. Meanwhile, your ruling planet Mars sits quietly in your 4th House, asking your Fire element to warm the home before you rush out into the cold chaos.\n\nIf you are taken, a misunderstood text message today could reopen a conversation about commitment you thought was closed. If single, expect a familiar face from your past to knock on your door seeking deep emotional clarity.\n\nVenus transits your 6th House of Daily Work, signaling a perfect window to negotiate a raise or finalize a project contract before noon strikes.\n\nWarning: Do not sign any document today under the heavy Mercury shadow, or you will rewrite the painful terms later. Follow for tomorrow's reading.",
   "captions_structure": [
     {
       "text": "ARIES",
       "type": "header"
     },
     {
-      "text": "Stop scrolling, Aries, the cosmos is screaming your name right now.",
+      "text": "Stop! Aries, the stars are screaming at you right now.",
       "type": "normal"
     },
     {
-      "text": "The Sun in Libra forms a sharp opposition to your 1st House today, while Saturn sits heavily conjunct your rising sign.",
+      "text": "Mercury retrograde in your 7th House of Partnerships.",
       "type": "normal"
     },
     {
-      "text": "Your fiery ruling planet Mars sits in your 10th House of Career, square to this intense solar energy in your chart.",
+      "text": "A familiar face knocks on your door seeking emotional clarity.",
       "type": "normal"
     },
     {
-      "text": "In love, Venus warms your 7th House of Partnerships, urging honest, deep, vulnerable conversation with your soulmate or potential partner tonight.",
+      "text": "Venus transits your 6th House of Daily Work today.",
       "type": "normal"
     },
     {
-      "text": "Career-wise, that Mars square pushes you to renegotiate power dynamics at work, but do not force the climb alone or burn bridges.",
-      "type": "normal"
-    },
-    {
-      "text": "Avoid impulsive arguments with authority figures this evening, before the moon rises, because an unexpected blessing from a very senior mentor is ready to unlock your 10th House ambitions.",
-      "type": "normal"
-    },
-    {
-      "text": "Follow for tomorrow's daily reading so you never ever miss this massive cosmic shift coming your way.",
+      "text": "Do not sign any document today under the Mercury shadow.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
     "7",
-    "11",
-    "21"
+    "17",
+    "26"
   ],
-  "lucky_color": "Crimson Red",
-  "monthly_vibe": "Transformation & Power",
-  "title": "Aries \u2014 Don't Ignore This Star Warning",
-  "youtube_title": "Aries \u2014 The Stars Are Warning You Now #shorts",
-  "youtube_description": "Aries, the cosmic energy is shifting fast on October 8th, 2026, and Saturn is moving into your personal house of self. This video reveals how a sharp Mars square could change your career trajectory and what your partner needs to hear right now. Comment your sign below so I can read your forecast.",
+  "lucky_color": "Deep Indigo",
+  "monthly_vibe": "Negotiation & Caution",
+  "title": "Aries Daily: Mercury Retrograde Warning",
+  "youtube_title": "Aries Alert: Mercury Shadow Hits #shorts",
+  "youtube_description": "Mercury goes retrograde in your 7th House today, Aries, and it could change how you love and work. I reveal the one contract you must not sign before noon. Comment your sign below for your own custom insight.",
   "youtube_tags": [
-    "aries",
     "aries horoscope",
     "daily horoscope",
-    "astrology",
-    "horoscope",
-    "october 2026",
-    "sun in libra",
-    "zodiac signs",
-    "cosmic energy",
-    "love forecast",
-    "career advice",
-    "spiritual growth"
+    "mercury retrograde",
+    "october 2026 horoscope",
+    "aries love reading",
+    "career astrology",
+    "fire sign",
+    "7th house transit",
+    "moon in virgo",
+    "zodiac prediction",
+    "planetary transits",
+    "astrology reading"
   ],
   "type": "daily",
   "target": "Aries",
-  "date": "October 08, 2026",
+  "date": "October 09, 2026",
   "images": [
     "assets/zodiac_signs/Aries.jpg"
   ],

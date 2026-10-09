@@ -1,67 +1,82 @@
 {
-  "script_text": "Stop scrolling, Taurus, your ruling planet is staging a rebellion against you right now. Retrograde Venus has parked herself in Virgo, sitting squarely in your 7th House of Partnerships, while Jupiter sextiles it from your 10th House of Career. Since Venus rules your sign, this transit is intensely personal and demands you weigh every promise before speaking it aloud. Singles attract deep connection through a workplace friend, but taken Taurus must avoid pushing a partner away during a tense Mars square. Money arrives unexpectedly from a past client, opening your 2nd House of Value for a serious negotiation, so sign the papers before nightfall. Guard your savings against impulse buys triggered by the Moon in Pisces. Uranus is jolting your 1st House identity, so embrace the change without panic or delay. Follow for tomorrow's reading so you never miss a cosmic shift.",
+  "script_text": "Stop scrolling! Taurus, your ruling planet Venus is throwing a major curveball right now, and the stars refuse to stay silent. The Sun in Libra forms a tense square to your ruling planet Venus, igniting friction in your 7th House of Partnerships. As an Earth sign, you crave stability, but this cosmic tension tests your patience. Single, a magnetic stranger catches your eye near your workplace, but check their intentions first before committing. Taken, avoid money arguments over dinner entirely tonight. Meanwhile, Jupiter blesses your 2nd House of Wealth with a surprise bonus. Career-wise, a boss offers a promotion you aren't fully ready for right now, so pause before signing any documents. Warning: do not overspend on luxury items impulsively when the moon rises. But if you stay grounded, an unexpected financial gift arrives right before sunset. Follow for tomorrow's reading so you never miss the next cosmic shift.",
   "captions_structure": [
     {
       "text": "TAURUS",
       "type": "header"
     },
     {
-      "text": "Stop scrolling, your ruling planet is staging a rebellion.",
+      "text": "Stop scrolling! Taurus, your ruling planet Venus is throwing a major curveball right now.",
       "type": "normal"
     },
     {
-      "text": "Retrograde Venus hits your 7th House of Partnerships.",
+      "text": "The Sun in Libra forms a tense square to your ruling planet Venus.",
       "type": "normal"
     },
     {
-      "text": "Jupiter sextiles from your 10th House of Career.",
+      "text": "This cosmic tension tests your Earth sign patience deeply.",
       "type": "normal"
     },
     {
-      "text": "Singles find love at work, but taken Taurus watch Mars square.",
+      "text": "Single: a magnetic stranger catches your eye near your workplace.",
       "type": "normal"
     },
     {
-      "text": "Money comes from a past client. Sign before nightfall.",
+      "text": "Taken: avoid money arguments over dinner entirely tonight.",
       "type": "normal"
     },
     {
-      "text": "Follow for tomorrow's cosmic shift.",
+      "text": "Jupiter blesses your 2nd House of Wealth with a surprise bonus.",
+      "type": "normal"
+    },
+    {
+      "text": "A boss offers a promotion you aren't ready for right now.",
+      "type": "normal"
+    },
+    {
+      "text": "Warning: do not overspend on luxury items impulsively.",
+      "type": "normal"
+    },
+    {
+      "text": "An unexpected financial gift arrives right before sunset.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for tomorrow's reading so you never miss the shift.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
     "7",
-    "16",
-    "26"
+    "14",
+    "21"
   ],
-  "lucky_color": "Deep Emerald",
-  "monthly_vibe": "Bold & Grounded",
-  "title": "Taurus - Stop Ignoring This Cosmic Shift",
-  "youtube_title": "Venus Retrograde Just Hit Taurus Hard #shorts",
-  "youtube_description": "Retrograde Venus just moved into your 7th House, and it is rewriting your love story for October. You need to know how the Mars square impacts your wallet before you sign anything. Comment your sign to see how this transit hits you.",
+  "lucky_color": "Emerald Green",
+  "monthly_vibe": "Wealth & Balance",
+  "title": "Taurus Alert: Venus Square Hits",
+  "youtube_title": "Taurus: Venus Square Warning! #shorts",
+  "youtube_description": "Taurus, the Sun in Libra is forming a tense square to your ruling planet Venus today, and it's changing everything in your 7th House. This reading reveals exactly what to expect in love, money, and career before the moon rises. Comment your sign below for a personalized response!",
   "youtube_tags": [
-    "taurus horoscope",
+    "astrology",
+    "horoscope",
+    "taurus",
     "daily horoscope",
-    "venus retrograde",
-    "october 2026",
-    "earth sign energy",
+    "venus square",
+    "jupiter gemini",
+    "earth sign",
     "love forecast",
-    "career advice",
-    "uranus in taurus",
-    "mars square",
-    "zodiac prediction",
-    "cosmic guidance",
-    "daily astrology"
+    "money luck",
+    "zodiac signs",
+    "cosmic energy",
+    "star reading"
   ],
   "type": "daily",
   "target": "Taurus",
-  "date": "October 08, 2026",
+  "date": "October 09, 2026",
   "images": [
     "assets/zodiac_signs/Taurus.jpg"
   ],
   "active": true,
-  "status": "error",
-  "file_name": "plan_daily_Taurus.json",
-  "error_reason": "Upload failed"
+  "status": "uploaded",
+  "file_name": "plan_daily_Taurus.json"
 }
