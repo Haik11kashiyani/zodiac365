@@ -1,67 +1,66 @@
 {
-  "script_text": "Stop! Sagittarius, the cosmos is shaking your foundation right now. Your ruling planet Jupiter, traveling through sensitive Cancer, is locking into a volatile square with Saturn, supercharging your 7th House of Partnerships with deep emotional pressure that forces long-buried truths to the surface. As a mutable Fire sign, your natural instinct is to charge ahead boldly, but in love right now, hold that impulse. Someone from your past is about to resurface with a confession that changes your entire perspective \u2014 stay curious but fiercely protect your heart. On the career front, Mars is blazing a powerful path through your 10th House of Professional Status, presenting a bold leadership opportunity that could redefine your trajectory. Do not sign any financial contracts, but brace yourself \u2014 an unexpected alliance is coming that will reshape your future. Subscribe now so you don't miss what's unfolding this week.",
+  "script_text": "Stop right there, Sagittarius! Jupiter, your ruling planet of Fire, is screaming for your attention this morning. Jupiter in Gemini now squares Venus in Leo, lighting up your eleventh House of Friendships while sparking friction in your third House of Communication. You might feel deeply misunderstood by those closest to you. Single? Reject that charming text from someone who only wants temporary fun. Taken? Keep the credit card away from your partner tonight. In business, the Sun blesses your fifth House, so pitch bold creative ideas, but Mars blocks your tenth House until sunset. Wait for Friday. A signed deal today will cause trouble. Warning: Do not invest your savings before the moon enters Cancer and shifts your twelfth House of Spirit. Trust your gut, not a rumor. Follow for tomorrow's reading so you never miss a single cosmic wave.",
   "captions_structure": [
     {
-      "text": "SAGITTARIUS ALERT",
+      "text": "SAGITTARIUS",
       "type": "header"
     },
     {
-      "text": "Stop! Sagittarius, the cosmos are shaking your foundation right now.",
+      "text": "Stop right there, Sagittarius! Jupiter, your ruling planet of Fire, is screaming for your attention this morning.",
       "type": "normal"
     },
     {
-      "text": "Your ruling planet Jupiter is locking into a volatile square with Saturn in your 7th House of Partnerships.",
+      "text": "Jupiter in Gemini now squares Venus in Leo, lighting up your eleventh House of Friendships while sparking friction in your third House of Communication.",
       "type": "normal"
     },
     {
-      "text": "As a mutable Fire sign, hold your impulse in love \u2014 someone from your past is resurfacing.",
+      "text": "Single? Reject that charming text from someone who only wants temporary fun. Taken? Keep the credit card away from your partner tonight.",
       "type": "normal"
     },
     {
-      "text": "Mars is blazing through your 10th House of Professional Status with a bold leadership opportunity.",
+      "text": "In business, the Sun blesses your fifth House, so pitch bold creative ideas, but Mars blocks your tenth House until sunset.",
       "type": "normal"
     },
     {
-      "text": "Do not sign financial contracts \u2014 but an unexpected alliance is reshaping your future.",
+      "text": "Warning: Do not invest your savings before the moon enters Cancer and shifts your twelfth House of Spirit. Trust your gut, not a rumor.",
       "type": "normal"
     },
     {
-      "text": "Subscribe so you don't miss what's unfolding this week.",
+      "text": "Follow for tomorrow's reading so you never miss a single cosmic wave.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
-    "7",
+    "3",
     "11",
-    "21"
+    "28"
   ],
-  "lucky_color": "Royal Purple",
-  "monthly_vibe": "Courageous Transformation",
-  "title": "Sagittarius \u2014 The Stars Have a Warning",
-  "youtube_title": "Sagittarius \u2014 Don't Ignore This Cosmic Shift #shorts",
-  "youtube_description": "Jupiter is clashing with Saturn in your relationship house while Mars ignites major career shifts for Sagittarius. This is the reading you've been waiting for \u2014 I reveal the exact transit that's forcing hidden truths to the surface. Comment your sign below and let me know what resonates!",
+  "lucky_color": "Sapphire Blue",
+  "monthly_vibe": "Bold & Intense",
+  "title": "Sagittarius \u2014 The Stars Warn You",
+  "youtube_title": "Sagittarius \u2014 The Stars Warn You #shorts",
+  "youtube_description": "Sagittarius, Jupiter is forcing a truth in your 11th House today. Discover why signing a contract now could cost you big. Comment your sign below.",
   "youtube_tags": [
-    "sagittarius horoscope",
-    "sagittarius daily",
     "astrology",
     "horoscope",
+    "sagittarius",
+    "daily horoscope",
+    "october 2026",
     "jupiter transit",
-    "sagittarius love",
-    "career astrology",
-    "cosmic energy",
-    "zodiac signs",
-    "sagittarius forecast",
-    "star signs",
-    "astrology reading"
+    "venus square",
+    "fire sign",
+    "zodiac",
+    "love forecast",
+    "money forecast",
+    "moon in cancer"
   ],
   "type": "daily",
   "target": "Sagittarius",
-  "date": "September 19, 2026",
+  "date": "October 10, 2026",
   "images": [
     "assets/zodiac_signs/Sagittarius.jpg"
   ],
   "active": true,
-  "status": "error",
-  "file_name": "plan_daily_Sagittarius.json",
-  "error_reason": "Upload failed"
+  "status": "uploaded",
+  "file_name": "plan_daily_Sagittarius.json"
 }

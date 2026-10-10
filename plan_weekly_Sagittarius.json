@@ -1,77 +1,182 @@
 {
-    "script_text": "A fire-sign reckoning is coming, Sagittarius \u2014 the stars are forcing a confrontation you've been dodging. Mercury stations direct in your 10th House on Monday, unblocking a career project stalled since August. Mars in your 6th House squares Jupiter in your 4th on Tuesday, sparking tension between work and home. On Thursday the Sun enters your 11th House of Libra, shifting your energy from career to shared dreams. Venus enters your 11th House Saturday, forming a trine with Jupiter \u2014 a golden social and romantic window opens. Weekend leans toward connection over solitude. Thursday is your power day because the Sun enters your 11th House, lighting your fire-sign social vision. Tuesday is your worst day as Mars squares Jupiter, straining your work-home balance. Have an honest conversation with a close friend before Friday \u2014 the Libra honesty running through your week demands it. Follow for daily updates.",
+    "script_text": "Your wild Fire sign faces a major cosmic reckoning this coming week, Sagittarius. Monday, Mercury enters your 10th House, forming a tense square with Saturn in the 8th House. You will feel deeply blocked on career moves, but Tuesday reverses this with a surprise cash bonus. Wednesday becomes the peak for high-stakes financial negotiation through your network. Midweek, Venus shifts into Virgo, landing directly in your sacred 7th House of love and commitment. Mars stays in your 12th House until Thursday, urging private action over public drama. Then Jupiter sextiles your career sector, bringing late-night inspiration specifically for Sunday's celebration. Wednesday is your absolute power day because Venus aligns with your ruling planet Jupiter. Monday is your worst day due to Saturn's harsh square. Trust your Fire intuition boldly, but only invest money after verifying legal details carefully. Follow for daily updates every single morning.",
     "captions_structure": [
         {
-            "text": "SAGITTARIUS ALERT",
+            "text": "SAGITTARIUS WEEKLY FORECAST",
             "type": "header"
         },
         {
-            "text": "A fire-sign reckoning is coming, Sagittarius \u2014 the stars are forcing a confrontation you've been dodging.",
+            "text": "Your wild Fire sign faces",
             "type": "normal"
         },
         {
-            "text": "Mercury stations direct in your 10th House on Monday, unblocking a career project stalled since August.",
+            "text": "a major cosmic reckoning this",
             "type": "normal"
         },
         {
-            "text": "Mars in your 6th House squares Jupiter in your 4th on Tuesday, sparking tension between work and home.",
+            "text": "coming week, Sagittarius.",
             "type": "normal"
         },
         {
-            "text": "On Thursday the Sun enters your 11th House of Libra, shifting your energy from career to shared dreams.",
+            "text": "Monday, Mercury enters your",
             "type": "normal"
         },
         {
-            "text": "Venus enters your 11th House Saturday, forming a trine with Jupiter \u2014 a golden social and romantic window opens.",
+            "text": "10th House, forming a tense",
             "type": "normal"
         },
         {
-            "text": "Weekend leans toward connection over solitude.",
+            "text": "square with Saturn in the",
             "type": "normal"
         },
         {
-            "text": "Thursday is your power day because the Sun enters your 11th House, lighting your fire-sign social vision.",
+            "text": "8th House.",
             "type": "normal"
         },
         {
-            "text": "Tuesday is your worst day as Mars squares Jupiter, straining your work-home balance.",
+            "text": "You will feel deeply blocked",
             "type": "normal"
         },
         {
-            "text": "Have an honest conversation with a close friend before Friday \u2014 the Libra honesty running through your week demands it.",
+            "text": "on career moves, but Tuesday",
             "type": "normal"
         },
         {
-            "text": "Follow for daily updates.",
+            "text": "reverses this with a surprise",
+            "type": "normal"
+        },
+        {
+            "text": "cash bonus.",
+            "type": "normal"
+        },
+        {
+            "text": "Wednesday becomes the peak for",
+            "type": "normal"
+        },
+        {
+            "text": "high-stakes financial negotiation",
+            "type": "normal"
+        },
+        {
+            "text": "through your network.",
+            "type": "normal"
+        },
+        {
+            "text": "Midweek, Venus shifts into",
+            "type": "normal"
+        },
+        {
+            "text": "Virgo, landing directly in your",
+            "type": "normal"
+        },
+        {
+            "text": "sacred 7th House of love and",
+            "type": "normal"
+        },
+        {
+            "text": "commitment.",
+            "type": "normal"
+        },
+        {
+            "text": "Mars stays in your 12th House",
+            "type": "normal"
+        },
+        {
+            "text": "until Thursday, urging private",
+            "type": "normal"
+        },
+        {
+            "text": "action over public drama.",
+            "type": "normal"
+        },
+        {
+            "text": "Then Jupiter sextiles your career",
+            "type": "normal"
+        },
+        {
+            "text": "sector, bringing late-night",
+            "type": "normal"
+        },
+        {
+            "text": "inspiration specifically for",
+            "type": "normal"
+        },
+        {
+            "text": "Sunday's celebration.",
+            "type": "normal"
+        },
+        {
+            "text": "Wednesday is your absolute power",
+            "type": "normal"
+        },
+        {
+            "text": "day because Venus aligns with",
+            "type": "normal"
+        },
+        {
+            "text": "your ruling planet Jupiter.",
+            "type": "normal"
+        },
+        {
+            "text": "Monday is your worst day due",
+            "type": "normal"
+        },
+        {
+            "text": "to Saturn's harsh square.",
+            "type": "normal"
+        },
+        {
+            "text": "Trust your Fire intuition",
+            "type": "normal"
+        },
+        {
+            "text": "boldly, but only invest money",
+            "type": "normal"
+        },
+        {
+            "text": "after verifying legal details",
+            "type": "normal"
+        },
+        {
+            "text": "carefully.",
+            "type": "normal"
+        },
+        {
+            "text": "Follow for daily updates every",
+            "type": "normal"
+        },
+        {
+            "text": "single morning.",
             "type": "normal"
         }
     ],
     "lucky_numbers": [
-        "4",
-        "17",
-        "29"
+        "7",
+        "11",
+        "21"
     ],
-    "lucky_color": "Rich Burgundy",
-    "monthly_vibe": "Awakening & Connection",
-    "title": "Sagittarius \u2014 Don't Ignore This Week",
-    "youtube_title": "Sagittarius: The Stars Have a Warning #shorts",
-    "youtube_description": "This week forces Sagittarius into a confrontation they've been avoiding \u2014 and Mercury's direct station in the 10th House unlocks a career breakthrough you didn't see coming. Comment your sign below for your personalized cosmic update.",
+    "lucky_color": "Royal Indigo",
+    "monthly_vibe": "Ambition & Romance",
+    "title": "Sagittarius: The Cosmic Reckoning Is Here",
+    "youtube_title": "Sagittarius \u2014 This Week Changes Everything #shorts",
+    "youtube_description": "Your Fire sign faces a major cosmic reckoning this week, Sagittarius. This video reveals how Venus enters your 7th House to shift your love life and career. Comment your sign below to see if this matches your birth chart.",
     "youtube_tags": [
-        "sagittarius horoscope",
-        "weekly zodiac forecast",
-        "sagittarius weekly",
-        "star signs",
-        "horoscope september 2026",
-        "libra season",
-        "mercury direct",
-        "sagittarius career",
-        "zodiac signs",
-        "cosmic energy",
-        "love forecast"
+        "astrology",
+        "horoscope",
+        "sagittarius",
+        "weekly horoscope",
+        "october 2026",
+        "fire sign",
+        "venus transit",
+        "jupiter sextile",
+        "career advice",
+        "love forecast",
+        "zodiac sign",
+        "planetary transits"
     ],
     "type": "weekly",
     "target": "Sagittarius",
-    "date": "Sep 19 - Sep 25",
+    "date": "Oct 10 - Oct 16",
     "images": [
         "assets/zodiac_signs/Sagittarius.jpg"
     ],
