@@ -1,66 +1,86 @@
 {
-  "script_text": "Stop! Taurus, the cosmic wires are crossed right now and you won't believe what Venus is hiding from your eyes. The Libra Sun squares your 1st House energy, triggering deep identity shifts, yet Venus in Virgo sextiles Jupiter in your 3rd House of Communication, bringing powerful clarity. Singles, an intellectual stranger sparks a fire in a bookstore; taken Taurus, argue with logic, not ego, or silence follows. Money favors your 10th House of Career today, push that very urgent email proposal through before high noon to secure the real final commission for this quarter. Your ruling planet Venus blesses your bank account, but don't let impatience cost you the deal today. Earth energy grounds your ambition, but avoid signing contracts at dusk or regret follows you. Follow for tomorrow's reading now so you truly never miss a cosmic shift today.",
+  "script_text": "Stop scrolling this second, Taurus; the cosmos just flipped a switch on your destiny right now.\nTransiting Mars in Virgo is forming a fierce trine to your ruling planet Venus in Capricorn, igniting your 6th House of daily work and the 9th House of expansion.\nYour Earth element demands practical results, and this energy delivers them hard.\nIf you are single, your confidence radiates from the 7th House, magnetizing a partner who deeply values your stability; if taken, avoid dismissing your significant other's financial concerns over dinner.\nA hidden bonus or promotion path is literally opening in your 10th House, so trust your instincts on any contracts you sign after noon.\nDo not overextend your credit cards after sunset, or your beloved ruler Venus will tighten your purse strings unexpectedly.\nFollow for tomorrow's reading to see exactly how this luck evolves.",
   "captions_structure": [
     {
       "text": "TAURUS",
       "type": "header"
     },
     {
-      "text": "Stop! Taurus, the cosmic wires are crossed right now",
+      "text": "Stop scrolling this second",
       "type": "normal"
     },
     {
-      "text": "The Libra Sun squares your 1st House energy",
+      "text": "the cosmos just flipped a switch",
       "type": "normal"
     },
     {
-      "text": "Venus in Virgo sextiles Jupiter in your 3rd House",
+      "text": "on your destiny right now",
       "type": "normal"
     },
     {
-      "text": "Singles, an intellectual stranger sparks a fire",
+      "text": "Mars in Virgo trines ruling Venus",
       "type": "normal"
     },
     {
-      "text": "Money favors your 10th House of Career today",
+      "text": "igniting your 6th and 9th Houses",
       "type": "normal"
     },
     {
-      "text": "Earth energy grounds your ambition, avoid dusk",
+      "text": "Earth needs practical results",
       "type": "normal"
     },
     {
-      "text": "Follow for tomorrow's reading now",
+      "text": "Single? Confidence magnetizes love",
+      "type": "normal"
+    },
+    {
+      "text": "Taken? Don't ignore money talk",
+      "type": "normal"
+    },
+    {
+      "text": "A bonus opens in your 10th House",
+      "type": "normal"
+    },
+    {
+      "text": "Trust instincts on noon contracts",
+      "type": "normal"
+    },
+    {
+      "text": "Don't overextend credit after sunset",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for tomorrow's reading",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
     "3",
-    "17",
-    "42"
+    "11",
+    "28"
   ],
-  "lucky_color": "Midnight Blue",
-  "monthly_vibe": "Bold & Grounded",
-  "title": "Taurus \u2014 Don't Ignore This Warning",
-  "youtube_title": "Taurus \u2014 The Stars Warn You Today #shorts",
-  "youtube_description": "Taurus, the stars are whispering about a financial shift on October 10. This reading reveals how Venus and Jupiter align in your 3rd House to change your money game. Comment your sign below.",
+  "lucky_color": "Deep Emerald",
+  "monthly_vibe": "Grounded Expansion",
+  "title": "Taurus Daily Horoscope: Mars Money",
+  "youtube_title": "Taurus Alert: Mars Triggers Money #shorts",
+  "youtube_description": "Transiting Mars in Virgo is trining your ruling planet Venus today, unlocking unexpected opportunities in your 10th House of career. If you've been waiting for the stars to align on your financial goals, this is your sign. Comment your sign below and tell me what Mars is doing for you.",
   "youtube_tags": [
-    "taurus",
+    "astrology",
+    "horoscope",
     "taurus horoscope",
     "daily horoscope",
-    "october 2026",
-    "astrology",
-    "love forecast",
-    "money luck",
+    "october 2026 horoscope",
     "venus transit",
-    "jupiter sextile",
+    "mars trine",
+    "financial forecast",
+    "love predictions",
     "earth sign",
     "cosmic energy",
-    "zodiac signs"
+    "zodiac"
   ],
   "type": "daily",
   "target": "Taurus",
-  "date": "October 10, 2026",
+  "date": "October 11, 2026",
   "images": [
     "assets/zodiac_signs/Taurus.jpg"
   ],
