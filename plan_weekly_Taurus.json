@@ -1,60 +1,40 @@
 {
-    "script_text": "Taurus, the cosmos is forcing a relationship reset this week. Monday through Wednesday, your ruling planet Venus in the 5th House sextiles Uranus, sparking electric, unexpected romance right now. Your fixed Earth sign demands honesty now regarding love. Mid-week, a major shift lands when Saturn forms a sextile to Pluto in your 10th House. This alignment unlocks a clear promotion path and secures a true significant salary increase. Thursday through Sunday, calm energy returns as Saturn stabilizes your 11th House of community. Weekend invites deep restorative rest. Best day: Wednesday is your power day because Saturn sextiles Pluto. Worst day: Tuesday is a frustrating friction point as Mercury squares Mars in your 3rd House. Avoid making major debt decisions. Advice: Trust your Earth element intuition fully before signing any important financial contracts. Money favors bold financial action this weekend. Follow for daily astrological updates here.",
+    "script_text": "Taurus, the cosmic currents are shifting your strong earthy stability this week. Early on, your ruler Venus in the 5th House squares Saturn in the 11th, creating friction in romance and social circles, making Monday challenging. However, very quick relief arrives on Tuesday as Mercury in your 6th House trines Jupiter in the 3rd, clearing workplace communication and daily routines. The shift occurs mid-week when Mars in your 4th House forms a supportive trine to Jupiter, bringing harmony to family matters. Late week, the Sun in your 6th House aligns with Pluto in your 10th, signaling major career breakthroughs and professional growth, ideal for weekend career planning. Wednesday is your power day for clear communication, while Monday is your worst due to the Venus-Saturn square. Focus on turning your practical earth element into highly tangible career opportunities. Follow for daily updates to navigate these stars.",
     "captions_structure": [
         {
-            "text": "TAURUS",
+            "text": "TAURUS WEEKLY FORECAST",
             "type": "header"
         },
         {
-            "text": "Taurus, the cosmos is forcing a relationship reset this week.",
+            "text": "Taurus, the cosmic currents are shifting your strong earthy stability this week.",
             "type": "normal"
         },
         {
-            "text": "Monday through Wednesday, your ruling planet Venus in the 5th House sextiles Uranus, sparking electric, unexpected romance right now.",
+            "text": "Early on, your ruler Venus in the 5th House squares Saturn in the 11th, creating friction in romance and social circles, making Monday challenging.",
             "type": "normal"
         },
         {
-            "text": "Your fixed Earth sign demands honesty now regarding love.",
+            "text": "However, very quick relief arrives on Tuesday as Mercury in your 6th House trines Jupiter in the 3rd, clearing workplace communication and daily routines.",
             "type": "normal"
         },
         {
-            "text": "Mid-week, a major shift lands when Saturn forms a sextile to Pluto in your 10th House.",
+            "text": "The shift occurs mid-week when Mars in your 4th House forms a supportive trine to Jupiter, bringing harmony to family matters.",
             "type": "normal"
         },
         {
-            "text": "This alignment unlocks a clear promotion path and secures a true significant salary increase.",
+            "text": "Late week, the Sun in your 6th House aligns with Pluto in your 10th, signaling major career breakthroughs and professional growth, ideal for weekend career planning.",
             "type": "normal"
         },
         {
-            "text": "Thursday through Sunday, calm energy returns as Saturn stabilizes your 11th House of community.",
+            "text": "Wednesday is your power day for clear communication, while Monday is your worst due to the Venus-Saturn square.",
             "type": "normal"
         },
         {
-            "text": "Weekend invites deep restorative rest.",
+            "text": "Focus on turning your practical earth element into highly tangible career opportunities.",
             "type": "normal"
         },
         {
-            "text": "Best day: Wednesday is your power day because Saturn sextiles Pluto.",
-            "type": "normal"
-        },
-        {
-            "text": "Worst day: Tuesday is a frustrating friction point as Mercury squares Mars in your 3rd House.",
-            "type": "normal"
-        },
-        {
-            "text": "Avoid making major debt decisions.",
-            "type": "normal"
-        },
-        {
-            "text": "Advice: Trust your Earth element intuition fully before signing any important financial contracts.",
-            "type": "normal"
-        },
-        {
-            "text": "Money favors bold financial action this weekend.",
-            "type": "normal"
-        },
-        {
-            "text": "Follow for daily astrological updates here.",
+            "text": "Follow for daily updates to navigate these stars.",
             "type": "normal"
         }
     ],
@@ -63,28 +43,28 @@
         "11",
         "21"
     ],
-    "lucky_color": "Deep Emerald",
-    "monthly_vibe": "Calm, Calculated",
-    "title": "Taurus - Don't Ignore This Week's Astrology",
-    "youtube_title": "Taurus - Don't Ignore This Week's Astrology #shorts",
-    "youtube_description": "Taurus, your ruling planet Venus is triggering a secret romance this week. I reveal exactly when the career shift happens. Comment your sign.",
+    "lucky_color": "Rose Gold",
+    "monthly_vibe": "Grounded Transformation",
+    "title": "Taurus \u2014 Don't Ignore This Cosmic Shift",
+    "youtube_title": "Taurus Weekly Forecast: Major Cosmic Shift Ahead #shorts",
+    "youtube_description": "Taurus, the stars are shifting your earthy stability in profound ways this week. Are you ready to embrace the major career breakthroughs and romantic shifts coming your way? Comment your sign below to see what the cosmos has in store for you!",
     "youtube_tags": [
-        "taurus",
-        "horoscope",
+        "taurus horoscope",
+        "taurus weekly forecast",
+        "october 2026 horoscope",
+        "taurus astrology",
         "weekly horoscope",
-        "astrology",
-        "taurean",
+        "taurus love forecast",
+        "taurus career horoscope",
+        "taurus element",
         "venus transit",
-        "earth sign",
-        "love horoscope",
-        "career advice",
-        "lunar forecast",
-        "zodiac weekly",
-        "taurus forecast"
+        "taurus earth sign",
+        "cosmic energy",
+        "astrology predictions"
     ],
     "type": "weekly",
     "target": "Taurus",
-    "date": "Oct 13 - Oct 19",
+    "date": "Oct 15 - Oct 21",
     "images": [
         "assets/zodiac_signs/Taurus.jpg"
     ],
