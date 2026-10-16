@@ -1,74 +1,54 @@
 {
-    "script_text": "Listen closely \u2014 the cosmos is quietly rewinding time right now, and only a few understand why. Mercury, the ruling planet of communication and travel, appears to reverse its orbit through Virgo, the Earth sign it rules, casting its reflective shadow across your 1st House of self and 7th House of partnership. Every sign feels this transit deeply in relationships and professional life. Expect miscommunications in your 10th House career sector as Mercury forms a square to Chiron in Pisces, while old lovers resurface under a Venus trine Neptune alignment in your 4th House. Financial contracts may need revisiting as Mercury opposes Jupiter in your 2nd House of income, demanding renegotiation. This Retrograde mirrors your North Node karmic direction, pulling you toward growth. Chiron's wounded healer energy asks you to heal what was broken in past connections. Pause and review all agreements before signing. Comment your Sun sign below.",
+    "script_text": "Your texts are glitching, contracts are collapsing, and an ex just texted you suddenly \u2014 welcome to Mercury Retrograde. Mercury Retrograde occurs when swift Mercury, ruler of the Air element, appears to reverse course across the sky. Mercury backtracks through the zodiac, scrambling messages, travel, and technology. Watch for crossed wires in your 3rd House of communication, stalled negotiations in your 7th House of relationships, and reputation hiccups in your 10th House of career. Mercury squares Saturn, freezing financial deals, while conjunct Venus in your 5th House, an old flame returns. This Retrograde is a karmic audit, not a punishment, urging you to square old wounds with Chiron and return to your North Node path. What dissolves now was never aligned with your soul\u2019s true direction. Do not sign contracts or launch major projects until Mercury stations direct. Comment your sign and what Mercury is forcing you to revisit.",
     "captions_structure": [
         {
             "text": "MERCURY RETROGRADE",
             "type": "header"
         },
         {
-            "text": "Listen closely \u2014 the cosmos is quietly rewinding time right now, and only a few understand why.",
+            "text": "Your texts are glitching, contracts are collapsing, and an ex just texted you suddenly \u2014 welcome to Mercury Retrograde.",
             "type": "normal"
         },
         {
-            "text": "Mercury, the ruling planet of communication and travel, appears to reverse its orbit through Virgo, the Earth sign it rules, casting its reflective shadow across your 1st House of self and 7th House of partnership.",
+            "text": "Mercury Retrograde occurs when swift Mercury, ruler of the Air element, appears to reverse course across the sky.",
             "type": "normal"
         },
         {
-            "text": "Every sign feels this transit deeply in relationships and professional life.",
+            "text": "Watch for crossed wires in your 3rd House, stalled negotiations in your 7th House, and reputation hiccups in your 10th House.",
             "type": "normal"
         },
         {
-            "text": "Expect miscommunications in your 10th House career sector as Mercury forms a square to Chiron in Pisces, while old lovers resurface under a Venus trine Neptune alignment in your 4th House.",
+            "text": "Comment your sign and what Mercury is forcing you to revisit.",
             "type": "normal"
-        },
-        {
-            "text": "Financial contracts may need revisiting as Mercury opposes Jupiter in your 2nd House of income, demanding renegotiation.",
-            "type": "normal"
-        },
-        {
-            "text": "This Retrograde mirrors your North Node karmic direction, pulling you toward growth.",
-            "type": "normal"
-        },
-        {
-            "text": "Chiron's wounded healer energy asks you to heal what was broken in past connections.",
-            "type": "normal"
-        },
-        {
-            "text": "Pause and review all agreements before signing.",
-            "type": "normal"
-        },
-        {
-            "text": "Comment your Sun sign below.",
-            "type": "cta"
         }
     ],
     "lucky_numbers": [
+        "3",
         "7",
-        "11",
-        "21"
+        "12"
     ],
-    "lucky_color": "Emerald Green",
-    "monthly_vibe": "Deep Reflection",
-    "title": "Mercury Retrograde \u2014 Don't Ignore This",
-    "youtube_title": "Mercury Retrograde Secrets Revealed #shorts",
-    "youtube_description": "Something unusual is unfolding as Mercury Retrograde pushes cosmic secrets to the surface. If you've been avoiding difficult conversations, this transit will force them into the open. Comment your Sun sign to discover your personal forecast.",
+    "lucky_color": "Liquid Silver",
+    "monthly_vibe": "Karmic Review",
+    "title": "Mercury Retrograde \u2014 Your Ex Is Coming Back",
+    "youtube_title": "Mercury Retrograde \u2014 Your Ex Is Coming Back #shorts",
+    "youtube_description": "Mercury Retrograde is hitting your 7th House of love and 10th House of career with a Saturn square. I reveal which old flame returns and why you must freeze that contract right now. Comment your sign and let me know what the cosmos is making you redo.",
     "youtube_tags": [
         "mercury retrograde",
-        "astrology",
-        "horoscope",
-        "virgo transits",
-        "chiron transit",
-        "love prediction",
-        "career astrology",
+        "astrology forecast",
+        "love horoscope",
+        "career money astrology",
+        "karmic lessons",
         "north node",
-        "retrograde season",
+        "chiron healing",
+        "zodiac signs",
         "cosmic energy",
-        "communication issues",
-        "zodiac signs"
+        "star signs",
+        "retrograde shadow",
+        "mercury in retrograde"
     ],
     "type": "special",
     "target": "Mercury Retrograde",
-    "date": "2026-09-15",
+    "date": "2026-10-16",
     "images": [],
     "active": true,
     "status": "pending",
