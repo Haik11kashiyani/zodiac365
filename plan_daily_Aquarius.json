@@ -1,48 +1,40 @@
 {
-  "script_text": "Stop! Aquarius, your ruling planet Uranus is about to crack open your 5th House of romance like a whip. Uranus sits in Gemini, forming a shocking square to Mars in Libra in your 10th House of career, sending mixed signals between passion and ambition. As an Air sign, you\u2019ll try to intellectualize the tension, but your body knows the truth. In love, if you\u2019re taken, expect a sudden revelation about a partner\u2019s hidden motive; if single, attract someone bold now who challenges your usual type. Career-wise, Mars in your 10th House pushes you to claim authority this afternoon, but avoid signing contracts under this square\u2014wait until Mercury stations direct. A surprise bonus could appear through a friend\u2019s referral, your 11th House of networks lighting up. Do not ignore a gut warning about a joint investment tonight. Follow for tomorrow\u2019s reading.",
+  "script_text": "Stop everything, Aquarius\u2014Uranus is about to crack open your hidden 12th House of secrets and solitude. Your ruling planet Uranus stations direct in Taurus while forming a sharp square to Mercury in Leo, activating your 8th House of shared resources, joint debts, and intimate bonds. This electric configuration clashes with your fixed Air nature, demanding sudden adaptation. If taken, expect a startling revelation about your partner's secret financial obligations or concealed debt. If single, an Air sign from your past resurfaces with a proposal that disrupts your usual emotional detachment. Jupiter in Cancer forms a flowing trine to your 10th House of career and public reputation, delivering a lucrative freelance offer through a professional network or group affiliation\u2014read the contract twice before accepting. Avoid co-signing any loan today, no matter how urgent the plea from a close friend may seem. Follow for tomorrow's reading.",
   "captions_structure": [
     {
       "text": "AQUARIUS ALERT",
       "type": "header"
     },
     {
-      "text": "Stop! Aquarius, your ruling planet Uranus is about to crack open your 5th House of romance like a whip.",
+      "text": "Stop everything, Aquarius\u2014Uranus is about to crack open your hidden 12th House of secrets and solitude.",
       "type": "normal"
     },
     {
-      "text": "Uranus sits in Gemini, forming a shocking square to Mars in Libra in your 10th House of career.",
+      "text": "Your ruling planet Uranus stations direct in Taurus while forming a sharp square to Mercury in Leo, activating your 8th House of shared resources, joint debts, and intimate bonds.",
       "type": "normal"
     },
     {
-      "text": "As an Air sign, you\u2019ll try to intellectualize the tension, but your body knows the truth.",
+      "text": "This electric configuration clashes with your fixed Air nature, demanding sudden adaptation.",
       "type": "normal"
     },
     {
-      "text": "In love, if you\u2019re taken, expect a sudden revelation about a partner\u2019s hidden motive.",
+      "text": "If taken, expect a startling revelation about your partner's secret financial obligations or concealed debt.",
       "type": "normal"
     },
     {
-      "text": "If single, attract someone bold now who challenges your usual type.",
+      "text": "If single, an Air sign from your past resurfaces with a proposal that disrupts your usual emotional detachment.",
       "type": "normal"
     },
     {
-      "text": "Mars in your 10th House pushes you to claim authority this afternoon.",
+      "text": "Jupiter in Cancer forms a flowing trine to your 10th House of career and public reputation, delivering a lucrative freelance offer through a professional network or group affiliation\u2014read the contract twice before accepting.",
       "type": "normal"
     },
     {
-      "text": "Avoid signing contracts under this square\u2014wait until Mercury stations direct.",
+      "text": "Avoid co-signing any loan today, no matter how urgent the plea from a close friend may seem.",
       "type": "normal"
     },
     {
-      "text": "A surprise bonus could appear through your 11th House of networks.",
-      "type": "normal"
-    },
-    {
-      "text": "Do not ignore a gut warning about a joint investment tonight.",
-      "type": "normal"
-    },
-    {
-      "text": "Follow for tomorrow\u2019s reading.",
+      "text": "Follow for tomorrow's reading.",
       "type": "normal"
     }
   ],
@@ -51,33 +43,32 @@
     "17",
     "29"
   ],
-  "lucky_color": "Electric Violet",
-  "monthly_vibe": "Sudden Clarity",
-  "title": "Aquarius \u2014 Uranus Square Mars Warning",
-  "youtube_title": "Aquarius \u2014 Uranus Square Mars Warning #shorts",
-  "youtube_description": "Aquarius, your ruler Uranus is squaring Mars in your 10th House today, creating fire between your love life and career. I reveal exactly where surprise money could appear and which joint investment to avoid. Comment your sign if this hits home.",
+  "lucky_color": "Silver",
+  "monthly_vibe": "Sudden Shifts",
+  "title": "Aquarius \u2014 Uranus Shock Hits Your Money House",
+  "youtube_title": "Aquarius Money Shock October 17 #shorts",
+  "youtube_description": "Aquarius, Uranus just stationed direct in Taurus and squared Mercury in Leo\u2014your 8th House of shared money is about to erupt. I reveal exactly which contract to avoid and which secret your partner might be hiding today. Comment your sign if you felt this coming.",
   "youtube_tags": [
     "aquarius horoscope",
-    "daily horoscope",
+    "daily astrology",
     "uranus transit",
-    "mars square",
-    "astrology prediction",
-    "love horoscope",
-    "career horoscope",
-    "zodiac reading",
-    "cosmic forecast",
-    "star signs",
+    "money house",
+    "love prediction",
+    "zodiac warning",
+    "october 2026",
     "western astrology",
-    "horoscope october"
+    "air sign energy",
+    "celestial forecast",
+    "relationship secrets",
+    "career money"
   ],
   "type": "daily",
   "target": "Aquarius",
-  "date": "October 16, 2026",
+  "date": "October 17, 2026",
   "images": [
     "assets/zodiac_signs/Aquarius.jpg"
   ],
   "active": true,
-  "status": "error",
-  "file_name": "plan_daily_Aquarius.json",
-  "error_reason": "Upload failed"
+  "status": "uploaded",
+  "file_name": "plan_daily_Aquarius.json"
 }
