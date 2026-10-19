@@ -1,69 +1,66 @@
 {
-  "script_text": "Stop! Aries, the stars are screaming at you right now, urging you to pay attention to the cosmic signals. Mars, your fiery ruler, is forming a challenging square to Saturn in your 10th House of Career, creating intense friction in your professional life. Meanwhile, Venus in your 7th House of Partnerships is trining Jupiter, opening unexpected opportunities for connection and romance. Additionally, Mercury in your 3rd House of Communication is sextile Neptune, suggesting subtle insights may arrive through dreams or casual conversations. If you're single, this harmonious Venus-Jupiter trine may bring a passionate encounter, while those in relationships should watch for unresolved tensions surfacing. The Mars-Saturn square signals a need for careful negotiation in contracts, and your 2nd House of Income could experience sudden fluctuations. Avoid making impulsive decisions today, Aries, or you might regret the consequences later. Follow for tomorrow's reading so you don't miss what's coming this week.",
+  "script_text": "Stop, Aries, because your 5th House will erupt, and ignoring this cosmic collision could cost you. Mars, your fire-sign ruler, is conjunct Jupiter in your 5th House of Leo, amplifying creativity. Mars sextiles Venus in your 7th House of Libra; Saturn and Neptune are conjunct in your 12th House of Pisces, exposing buried financial costs. If single, you attract someone confident, magnetic, and creative through a social or artistic connection; if taken, watch for pride disguised as honesty when Mars and Venus activate your 7th House. Career and money favor a bold pitch or creative lead in the 10th House, but check 8th-House expenses and contracts before committing. Unexpected gift: a warm introduction may open well-paid opportunities if you resist overpromising under this Mars-Jupiter heat. Follow for tomorrow's reading, and subscribe so you can catch the next Aries shift.",
   "captions_structure": [
     {
-      "text": "ARIES ALERT",
+      "text": "ARIES",
       "type": "header"
     },
     {
-      "text": "Stop! Aries, the stars are screaming at you right now, urging you to pay attention to the cosmic signals.",
+      "text": "Stop, Aries, because your 5th House will erupt, and ignoring this cosmic collision could cost you.",
       "type": "normal"
     },
     {
-      "text": "Mars, your fiery ruler, is forming a challenging square to Saturn in your 10th House of Career, creating intense friction in your professional life.",
+      "text": "Mars, your fire-sign ruler, is conjunct Jupiter in your 5th House of Leo, amplifying creativity.",
       "type": "normal"
     },
     {
-      "text": "Meanwhile, Venus in your 7th House of Partnerships is trining Jupiter, opening unexpected opportunities for connection and romance.",
+      "text": "Mars sextiles Venus in your 7th House of Libra; Saturn and Neptune are conjunct in your 12th House of Pisces, exposing buried financial costs.",
       "type": "normal"
     },
     {
-      "text": "Additionally, Mercury in your 3rd House of Communication is sextile Neptune, suggesting subtle insights may arrive through dreams or casual conversations.",
+      "text": "If single, you attract someone confident, magnetic, and creative through a social or artistic connection; if taken, watch for pride disguised as honesty when Mars and Venus activate your 7th House.",
       "type": "normal"
     },
     {
-      "text": "If you're single, this harmonious Venus-Jupiter trine may bring a passionate encounter, while those in relationships should watch for unresolved tensions surfacing.",
+      "text": "Career and money favor a bold pitch or creative lead in the 10th House, but check 8th-House expenses and contracts before committing.",
       "type": "normal"
     },
     {
-      "text": "The Mars-Saturn square signals a need for careful negotiation in contracts, and your 2nd House of Income could experience sudden fluctuations.",
+      "text": "Unexpected gift: a warm introduction may open well-paid opportunities if you resist overpromising under this Mars-Jupiter heat.",
       "type": "normal"
     },
     {
-      "text": "Avoid making impulsive decisions today, Aries, or you might regret the consequences later.",
-      "type": "normal"
-    },
-    {
-      "text": "Follow for tomorrow's reading so you don't miss what's coming this week.",
+      "text": "Follow for tomorrow's reading, and subscribe so you can catch the next Aries shift.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
-    7,
-    11,
-    21
+    "3",
+    "11",
+    "29"
   ],
-  "lucky_color": "Ruby Red",
-  "monthly_vibe": "Bold Action",
-  "title": "Aries: A Shocking Transit Awaits",
-  "youtube_title": "Aries: A Cosmic Shock Is Coming #shorts",
-  "youtube_description": "Aries, a fierce Mars-Saturn square is lighting up your career house today, promising both challenge and breakthrough. Discover how this cosmic clash affects your love life and finances. Comment your sign to join the cosmic conversation.",
+  "lucky_color": "Royal Blue",
+  "monthly_vibe": "Bold Breakthroughs",
+  "title": "Aries: The 5th House Is About to Erupt",
+  "youtube_title": "Aries: A Fiery Cosmic Collision #shorts",
+  "youtube_description": "Aries, your fire-sign ruler Mars is joining Jupiter in your 5th House of Leo while sextiling Venus in your 7th\u2014an intense trigger for romance and creative work. I also reveal the buried costs exposed by Saturn and Neptune in your 12th House, plus the pride issue that could sabotage a deal. Comment your sign.",
   "youtube_tags": [
+    "astrology",
+    "horoscope",
+    "aries",
+    "daily horoscope",
     "aries horoscope",
-    "daily aries",
-    "mars square saturn",
-    "venus trine jupiter",
-    "love prediction",
+    "western astrology",
+    "zodiac signs",
+    "love forecast",
     "career forecast",
-    "fire sign",
-    "october 18 2026",
-    "astrology today",
-    "cosmic guidance",
-    "aries 2026"
+    "money forecast",
+    "planetary transits",
+    "cosmic energy"
   ],
   "type": "daily",
   "target": "Aries",
-  "date": "October 18, 2026",
+  "date": "October 19, 2026",
   "images": [
     "assets/zodiac_signs/Aries.jpg"
   ],
