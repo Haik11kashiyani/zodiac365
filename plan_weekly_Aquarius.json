@@ -1,42 +1,74 @@
 {
-    "script_text": "Aquarius, volatile Uranus squares Mars in your 10th House this Monday, shaking your career foundation before the week begins. Monday through Wednesday, Mercury in Libra trines your Air element while Venus opposes Uranus in your 7th House. This makes Tuesday best for contracts and Wednesday worst for impulsive love. The turning point hits Thursday when the Sun enters Scorpio and sextiles your ruling planet Uranus, triggering a breakthrough in significant shared finances. This Thursday through Sunday, Jupiter in Cancer trines your 2nd House of money. The Moon crosses your 5th House of romance, perfect for weekend dates. Thursday is your power day because the Sun sextile Uranus activates your 8th House. Wednesday is your danger day because Venus square Uranus sparks conflict in your 7th House. Pause before signing contracts this Tuesday and let your Air intellect lead your money moves. Follow for daily updates.",
+    "script_text": "Aquarius, brace yourself\u2014Uranus, your ruling planet, electrifies your fifth house of love, promising air-sign surprises that defy prediction. Monday and Tuesday bring Venus in your eighth house squaring Uranus, stirring shared finances and intimacy. Monday is best for signing contracts, but Tuesday turns worst as Mars in your seventh house opposes Uranus, risking partnership conflict. The mid-week pivot hits Thursday when Mercury enters your tenth house, shifting energy from romance to career strategy. Late week, the Sun enters Scorpio to spotlight your tenth house of achievement, while Venus in your ninth house eases long-distance love and travel through Sunday. Wednesday is your power day because Jupiter trines your eleventh house of networks, unlocking group income. Thursday is your worst day because that Mercury-Uranus square scrambles communication with authority figures. Consult a mentor before making big financial moves. Follow for daily updates.",
     "captions_structure": [
         {
-            "text": "AQUARIUS ALERT",
+            "text": "AQUARIUS",
             "type": "header"
         },
         {
-            "text": "Aquarius, volatile Uranus squares Mars in your 10th House this Monday, shaking your career foundation before the week begins.",
+            "text": "Aquarius, brace yourself\u2014Uranus, your ruling planet, electrifies your fifth house of love, promising air-sign surprises that defy prediction.",
+            "type": "normal"
+        },
+        {
+            "text": "Monday and Tuesday bring Venus in your eighth house squaring Uranus, stirring shared finances and intimacy.",
+            "type": "normal"
+        },
+        {
+            "text": "Monday is best for signing contracts, but Tuesday turns worst as Mars in your seventh house opposes Uranus, risking partnership conflict.",
+            "type": "normal"
+        },
+        {
+            "text": "The mid-week pivot hits Thursday when Mercury enters your tenth house, shifting energy from romance to career strategy.",
+            "type": "normal"
+        },
+        {
+            "text": "Late week, the Sun enters Scorpio to spotlight your tenth house of achievement, while Venus in your ninth house eases long-distance love and travel through Sunday.",
+            "type": "normal"
+        },
+        {
+            "text": "Wednesday is your power day because Jupiter trines your eleventh house of networks, unlocking group income.",
+            "type": "normal"
+        },
+        {
+            "text": "Thursday is your worst day because that Mercury-Uranus square scrambles communication with authority figures.",
+            "type": "normal"
+        },
+        {
+            "text": "Consult a mentor before making big financial moves.",
+            "type": "normal"
+        },
+        {
+            "text": "Follow for daily updates.",
             "type": "normal"
         }
     ],
     "lucky_numbers": [
-        "7",
-        "11",
-        "21"
+        "3",
+        "14",
+        "28"
     ],
     "lucky_color": "Electric Blue",
-    "monthly_vibe": "Sudden Breakthroughs",
-    "title": "Aquarius: Uranus Shocks Your Career This Week",
-    "youtube_title": "Aquarius: Uranus Shocks Your Career #shorts",
-    "youtube_description": "Aquarius, your ruling planet Uranus is making explosive moves in your 10th House this week. I reveal exactly which day to sign contracts and which day to avoid love drama. Comment your sign and let me know if you feel the shift!",
+    "monthly_vibe": "Sudden Change",
+    "title": "Aquarius Weekly: Uranus Shakes Your Fifth House",
+    "youtube_title": "Aquarius October Forecast: Love Shocks Ahead #shorts",
+    "youtube_description": "This week, Aquarius, Uranus activates your fifth house of love while Mars clashes in your seventh. Expect sudden romantic twists and career moves that could change your financial outlook. Comment your sign and tell me what the stars are revealing for you!",
     "youtube_tags": [
-        "aquarius weekly horoscope",
-        "aquarius october 2026",
-        "uranus transit aquarius",
-        "aquarius career astrology",
-        "aquarius love horoscope",
-        "air sign predictions",
-        "weekly astrology forecast",
-        "zodiac predictions",
-        "october transits",
-        "aquarius money horoscope",
-        "astrology transit reading",
-        "aquarius october forecast"
+        "aquarius horoscope",
+        "weekly forecast",
+        "uranus transit",
+        "love astrology",
+        "career money",
+        "fifth house",
+        "seventh house",
+        "tenth house",
+        "zodiac reading",
+        "air sign energy",
+        "planetary square",
+        "october astrology"
     ],
     "type": "weekly",
     "target": "Aquarius",
-    "date": "Oct 18 - Oct 24",
+    "date": "Oct 19 - Oct 25",
     "images": [
         "assets/zodiac_signs/Aquarius.jpg"
     ],
