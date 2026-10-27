@@ -1,90 +1,70 @@
 {
-  "script_text": "Stop! Leo, the cosmic alarm is blaring loudly through your 3rd House right now, and it will not fade until you truly listen. Transiting Mars is slamming into a tense square with your ruling Sun, and your natural Fire element is sputtering under this sudden pressure in the House of Communication and your daily plans now. In love, Pluto in your 7th House is exposing a hidden truth; speak your truth immediately out loud. In business, Venus in your 2nd House of Money supports a negotiation, but the Mars square demands patience before you sign any contract. Warning: Avoid sending any heated email during retrograde Mercury, because silence is your only shield against regret and potential serious legal trouble this very afternoon. Follow for tomorrow's reading so you never miss this massive cosmic shift coming straight to your doorstep very soon.",
+  "script_text": "Stop! Leo, the cosmos is forcing a turning point in your private sector, stoking your inner fire right now. Pluto is stationing direct in your 12th House of hidden enemies, squaring your ruling Sun in the 8th House of shared resources. Simultaneously, Venus squares Mars in your 10th House of career, igniting friction between your desires and public reputation. If taken, expect a power struggle over joint finances\u2014avoid ultimatums under this volatile Mars-Venus square. If single, you'll attract someone intense but secretive, likely through a karmic connection. The Sun trines Jupiter in your 6th House of daily work, creating a rare window for a raise or new contract if you organize paperwork before Mercury retrograde tightens. Do not sign any legal documents today without a second read, or you'll regret a hidden clause. Subscribe so you don't miss what's coming this week.",
   "captions_structure": [
     {
-      "text": "LEO",
+      "text": "LEO ALERT",
       "type": "header"
     },
     {
-      "text": "Stop! Leo, the cosmic alarm is blaring loudly through your 3rd House right now",
+      "text": "Stop! Leo, the cosmos is forcing a turning point in your private sector, stoking your inner fire right now.",
       "type": "normal"
     },
     {
-      "text": "and it will not fade until you truly listen.",
+      "text": "Pluto is stationing direct in your 12th House of hidden enemies, squaring your ruling Sun in the 8th House of shared resources.",
       "type": "normal"
     },
     {
-      "text": "Transiting Mars is slamming into a tense square with your ruling Sun",
+      "text": "Simultaneously, Venus squares Mars in your 10th House of career, igniting friction between your desires and public reputation.",
       "type": "normal"
     },
     {
-      "text": "and your natural Fire element is sputtering under this sudden pressure",
+      "text": "If taken, expect a power struggle over joint finances\u2014avoid ultimatums under this volatile Mars-Venus square.",
       "type": "normal"
     },
     {
-      "text": "in the House of Communication and your daily plans now.",
+      "text": "If single, you'll attract someone intense but secretive, likely through a karmic connection.",
       "type": "normal"
     },
     {
-      "text": "In love, Pluto in your 7th House is exposing a hidden truth;",
+      "text": "The Sun trines Jupiter in your 6th House of daily work, creating a rare window for a raise or new contract if you organize paperwork before Mercury retrograde tightens.",
       "type": "normal"
     },
     {
-      "text": "speak your truth immediately out loud.",
+      "text": "Do not sign any legal documents today without a second read, or you'll regret a hidden clause.",
       "type": "normal"
     },
     {
-      "text": "In business, Venus in your 2nd House of Money supports a negotiation",
-      "type": "normal"
-    },
-    {
-      "text": "but the Mars square demands patience before you sign any contract.",
-      "type": "normal"
-    },
-    {
-      "text": "Warning: Avoid sending any heated email during retrograde Mercury",
-      "type": "normal"
-    },
-    {
-      "text": "because silence is your only shield against regret and potential serious legal trouble this very afternoon.",
-      "type": "normal"
-    },
-    {
-      "text": "Follow for tomorrow's reading so you never miss this massive cosmic shift",
-      "type": "normal"
-    },
-    {
-      "text": "coming straight to your doorstep very soon.",
+      "text": "Subscribe so you don't miss what's coming this week.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
-    "7",
-    "11",
-    "21"
+    "5",
+    "19",
+    "28"
   ],
-  "lucky_color": "Crimson Red",
-  "monthly_vibe": "Intense Clarity",
-  "title": "Leo \u2014 Mars Square Sun Alert",
-  "youtube_title": "Leo Horoscope: Mars Alert Oct 8 #shorts",
-  "youtube_description": "Leo, Mars is square your Sun in your House of Communication on Oct 8, 2026. This transit brings hidden relationship truths and financial friction. Comment your sign below.",
+  "lucky_color": "Emerald Green",
+  "monthly_vibe": "Intense Transformation",
+  "title": "Leo \u2014 Don't Sign That Contract Today",
+  "youtube_title": "Leo: The Stars Are Warning You Today #shorts",
+  "youtube_description": "Leo, today's Pluto square to your ruling Sun is shaking up your 8th House of shared resources and 12th House of secrets. I reveal exactly how Venus and Mars are clashing in your career sector\u2014and why you must avoid signing legal documents. Comment your sign if you're feeling this intensity.",
   "youtube_tags": [
     "leo horoscope",
-    "daily horoscope",
-    "october 2026",
-    "leo transit",
-    "mars square sun",
-    "retrograde mercury",
-    "fire sign",
-    "astrology forecast",
-    "zodiac prediction",
+    "daily astrology",
+    "leo october 2026",
+    "pluto square sun",
+    "venus mars square",
+    "career astrology",
     "love horoscope",
-    "career advice",
-    "sun sign leo"
+    "zodiac predictions",
+    "sun trine jupiter",
+    "mercury retrograde",
+    "leo daily reading",
+    "cosmic transit"
   ],
   "type": "daily",
   "target": "Leo",
-  "date": "October 08, 2026",
+  "date": "October 27, 2026",
   "images": [
     "assets/zodiac_signs/Leo.jpg"
   ],
