@@ -1,42 +1,78 @@
 {
-    "script_text": "Stop scrolling, Aries, because Mars, your ruling planet in fire, squares Saturn this week, and it means the brakes are off but the road is narrow. Early this week, Mercury sextile Pluto in your 10th House fuels a career breakthrough, though Monday's Moon in your 1st House makes it feel personal. Tuesday and Wednesday need patience; Venus opposition Mars in your 7th House may spark partnership tension. Midweek, the Moon squares Jupiter in your 5th House, shifting desire and risk. Late week, Jupiter trine Uranus in your 2nd House boosts money luck, but Friday's Saturn conjunction in your 12th House asks for quiet boundaries. Best day: Wednesday, because Venus enters your 5th House and softens the Mars square. Worst: Monday, because the Moon opposes your ruling planet. Weekly advice: pause before saying yes to anything that dims your fire. Follow for daily updates.",
+    "script_text": "Aries, your fire sign is tested as Mars squares Pluto in your 11th House while Neptune clouds your 1st House. Monday and Tuesday, the Sun in Scorpio activates your 8th House while Venus sextiles Jupiter in your 5th House\u2014ideal for romance and income. Wednesday, Mercury squares Mars in your 10th House; avoid contracts and career risks. Wednesday night, Venus enters your 8th House, shifting love to deeper intimacy and joint finances. Thursday through Sunday, the Sun trines Neptune in your 1st House, boosting intuition but risking illusion in new bonds. The Moon conjuncts Saturn in your 12th House, favoring private work over public career moves. Tuesday is your power day because Venus sextiles Jupiter, sparking love and income. Wednesday is your danger day because Mercury squares Mars in your 10th House, triggering career conflict. Have love talks Tuesday; delay paperwork until Thursday. Follow for daily updates.",
     "captions_structure": [
         {
             "text": "ARIES",
             "type": "header"
         },
         {
-            "text": "Stop scrolling, Aries, because Mars, your ruling planet in fire, squares Saturn this week...",
+            "text": "Aries, your fire sign is tested as Mars squares Pluto in your 11th House while Neptune clouds your 1st House.",
+            "type": "normal"
+        },
+        {
+            "text": "Monday and Tuesday, the Sun in Scorpio activates your 8th House while Venus sextiles Jupiter in your 5th House\u2014ideal for romance and income.",
+            "type": "normal"
+        },
+        {
+            "text": "Wednesday, Mercury squares Mars in your 10th House; avoid contracts and career risks.",
+            "type": "normal"
+        },
+        {
+            "text": "Wednesday night, Venus enters your 8th House, shifting love to deeper intimacy and joint finances.",
+            "type": "normal"
+        },
+        {
+            "text": "Thursday through Sunday, the Sun trines Neptune in your 1st House, boosting intuition but risking illusion in new bonds.",
+            "type": "normal"
+        },
+        {
+            "text": "The Moon conjuncts Saturn in your 12th House, favoring private work over public career moves.",
+            "type": "normal"
+        },
+        {
+            "text": "Tuesday is your power day because Venus sextiles Jupiter, sparking love and income.",
+            "type": "normal"
+        },
+        {
+            "text": "Wednesday is your danger day because Mercury squares Mars in your 10th House, triggering career conflict.",
+            "type": "normal"
+        },
+        {
+            "text": "Have love talks Tuesday; delay paperwork until Thursday.",
+            "type": "normal"
+        },
+        {
+            "text": "Follow for daily updates.",
             "type": "normal"
         }
     ],
     "lucky_numbers": [
-        "4",
-        "13",
-        "29"
+        "3",
+        "11",
+        "28"
     ],
-    "lucky_color": "Crimson Fire",
-    "monthly_vibe": "Fiery Resolve",
-    "title": "The Stars Are Warning Aries",
-    "youtube_title": "Aries Don't Ignore This Cosmic Shift #shorts",
-    "youtube_description": "Aries, Mars is squaring Saturn this week, and your love life is about to feel the shift. This weekly forecast reveals the Mercury sextile Pluto career boost in your 10th House and the midweek Moon square Jupiter turning point. Comment your sign to get your forecast.",
+    "lucky_color": "Crimson Red",
+    "monthly_vibe": "Fiery Transformation",
+    "title": "Aries \u2014 Don't Ignore This Week",
+    "youtube_title": "Aries \u2014 Don't Ignore This Week #shorts",
+    "youtube_description": "This week, Aries, Mars squares Pluto in your 11th House while Venus moves into your 8th House of intimacy. I reveal which day to sign contracts and which day to stay silent. Comment your sign if you're ready for the truth.",
     "youtube_tags": [
-        "astrology",
-        "horoscope",
-        "aries",
-        "mars saturn",
-        "fire sign",
-        "love horoscope",
+        "aries horoscope",
+        "weekly astrology",
+        "aries weekly",
+        "mars pluto square",
+        "venus in eighth house",
+        "sun trine neptune",
+        "aries love prediction",
         "career astrology",
-        "weekly forecast",
-        "cosmic energy",
-        "zodiac",
-        "midweek magic",
-        "money luck"
+        "zodiac forecast",
+        "october 2026 horoscope",
+        "fire sign astrology",
+        "aries money reading"
     ],
     "type": "weekly",
     "target": "Aries",
-    "date": "Oct 26 - Nov 01",
+    "date": "Oct 28 - Nov 03",
     "images": [
         "assets/zodiac_signs/Aries.jpg"
     ],
