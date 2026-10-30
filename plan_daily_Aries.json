@@ -1,46 +1,55 @@
 {
-  "script_text": "Stop! Aries, the stars are screaming at you right now. Mercury is sextiling your ruling Mars, the red fire of Aries, while the Moon squares your 7th House of Partnerships. That means private tension is heating up before you even speak, and pride may make it worse. This is not the day for impulsive declarations. Love requires emotional honesty, not fiery speed, and if partnered, a small boundary issue could spark a sharp argument, so don't push for resolution while inflamed; if single, your magnetic fire draws intense people but keep your cards close. Career and money need patience. The Moon's square to your 10th House of ambition asks you to delay bold public moves until ego cools. Avoid acting like a bull in a china shop, and expect an unexpected blessing through a creative collaboration. Follow for tomorrow's reading.",
+  "script_text": "Stop! Aries, the stars are screaming at your Fire element right now.\n\nNeptune is stationing retrograde in your 1st House of Self, clouding your identity with doubt and illusion. Your ruling planet Mars in Virgo squares Uranus in your 3rd House of Communication, triggering impulsive speech and work disruptions. The Sun in Scorpio lights up your 8th House of Intimacy, forcing hidden emotions to the surface.\n\nIf you are taken, expect a power struggle over shared finances or secrets. If you are single, you will attract a mysterious Scorpio type who sees through your bold facade.\n\nMars forms a trine to Pluto in your 10th House of Career, giving you dominance over rivals and a chance to reshape your ambitions. Jupiter in your 4th House of Home warns against mixing family loans with business decisions.\n\nAvoid signing any contracts until Mercury clears its shadow period.\n\nFollow for tomorrow's reading.",
   "captions_structure": [
     {
-      "text": "ARIES",
+      "text": "ARIES ALERT",
       "type": "header"
     },
     {
-      "text": "Stop! Aries, the stars are screaming at you right now.",
+      "text": "Stop! Aries, the stars are screaming at your Fire element right now.",
+      "type": "normal"
+    },
+    {
+      "text": "Neptune is stationing retrograde in your 1st House of Self.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for tomorrow's reading.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
-    "7",
-    "11",
-    "21"
+    "9",
+    "14",
+    "22"
   ],
-  "lucky_color": "Emerald Green",
-  "monthly_vibe": "Fiery Tension",
-  "title": "The Stars Are Screaming Aries Now",
-  "youtube_title": "Aries Warning From The Red Planet #shorts",
-  "youtube_description": "Aries, Mars is sextiling your ruling planet while the Moon squares your 7th House, and I'm breaking down what it means for your love and career right now. Discover the exact moment your fire gets complicated and the unexpected blessing coming your way. Comment your sign to get your daily reading.",
+  "lucky_color": "Crimson Red",
+  "monthly_vibe": "Fiery Reckoning",
+  "title": "Aries \u2014 Don't Ignore This Transit",
+  "youtube_title": "Aries: Neptune Retrograde in Your 1st House #shorts",
+  "youtube_description": "Aries, your ruling planet Mars is clashing with Uranus today while Neptune clouds your first house. I reveal exactly how this affects your love life, career moves, and the one contract you must avoid signing. Comment your sign and tell me what you're feeling.",
   "youtube_tags": [
     "aries horoscope",
-    "daily horoscope",
-    "mars astrology",
-    "fire sign",
-    "astrology today",
-    "cosmic energy",
-    "horoscope reading",
-    "aries love",
-    "aries career",
-    "moon transit",
-    "zodiac forecast",
-    "scorpio season"
+    "daily astrology",
+    "aries october 2026",
+    "neptune retrograde",
+    "mars in virgo",
+    "astrology predictions",
+    "zodiac advice",
+    "love horoscope",
+    "career astrology",
+    "fire sign energy",
+    "planetary transits",
+    "aries daily"
   ],
   "type": "daily",
   "target": "Aries",
-  "date": "October 29, 2026",
+  "date": "October 30, 2026",
   "images": [
     "assets/zodiac_signs/Aries.jpg"
   ],
   "active": true,
-  "status": "uploaded",
-  "file_name": "plan_daily_Aries.json"
+  "status": "error",
+  "file_name": "plan_daily_Aries.json",
+  "error_reason": "Upload failed"
 }
