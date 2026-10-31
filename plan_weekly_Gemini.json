@@ -1,70 +1,37 @@
 {
-    "script_text": "Attention Gemini: a shocking reversal in your 11th house hits by Friday. Mercury, your airy ruler, trines Jupiter in your 9th house Monday through Wednesday, making travel deals flow. Tuesday is your peak day. Avoid Thursday when Mars squares Saturn in your 2nd house of money. The mid-week turning point arrives as Venus enters your 5th house of romance, shifting energy from career grinding to heartfelt connection. Thursday through Sunday, the Sun in your 6th house opposes Uranus in your 12th, sparking unexpected love news. The weekend brings hidden work revelations. Wednesday is your power day because Venus enters your 5th house, igniting a passionate new flirtation. Sunday is your worst day due to Mercury squaring Neptune in your 6th house, clouding financial judgment. Keep your air sign curiosity but double-check every contract before signing. Follow for daily cosmic updates.",
+    "script_text": "Mercury forms a precise sextile to Uranus in your 9th House this Monday, sparking an Airy intellectual rebellion that will shake loose stuck conversations. Tuesday brings challenging Mercury-Saturn square in your 10th House, testing career communication, whereas Wednesday\u2019s helpful trine to Neptune softens the blow, making Wednesday your best early week day because the energy aligns. Thursday shifts momentum as Jupiter stations direct in your 11th House, igniting fresh networking and financial optimism. Friday features a tensioning Venus square Mars through your 5th House, sparking lively romantic debates; keep weekends constructive as the Sun squares Jupiter in your 7th House. Saturday is your power day because Venus blesses your 5th House, while Monday remains your worst day due to this 10th House conflict. Always guard finances by avoiding impulsive investments, while also choosing words to protect your love life. Stay tuned for daily cosmic updates.",
     "captions_structure": [
         {
             "text": "GEMINI",
             "type": "header"
-        },
-        {
-            "text": "Attention Gemini: a shocking reversal in your 11th house hits by Friday.",
-            "type": "normal"
-        },
-        {
-            "text": "Mercury, your airy ruler, trines Jupiter in your 9th house Monday through Wednesday.",
-            "type": "normal"
-        },
-        {
-            "text": "Tuesday is your peak day. Avoid Thursday when Mars squares Saturn in your 2nd house of money.",
-            "type": "normal"
-        },
-        {
-            "text": "Venus enters your 5th house of romance, shifting energy from career to heartfelt connection.",
-            "type": "normal"
-        },
-        {
-            "text": "The Sun opposes Uranus, sparking unexpected love news and hidden work revelations.",
-            "type": "normal"
-        },
-        {
-            "text": "Wednesday is your power day because Venus enters your 5th house.",
-            "type": "normal"
-        },
-        {
-            "text": "Sunday is your worst day due to Mercury squaring Neptune.",
-            "type": "normal"
-        },
-        {
-            "text": "Follow for daily cosmic updates.",
-            "type": "normal"
         }
     ],
     "lucky_numbers": [
         "7",
         "11",
-        "22"
+        "21"
     ],
-    "lucky_color": "Electric Blue",
-    "monthly_vibe": "Unexpected Shift",
-    "title": "Gemini \u2014 A Shocking 11th House Shift",
-    "youtube_title": "Gemini \u2014 The Stars Are Warning You #shorts",
-    "youtube_description": "Gemini, your ruling planet Mercury is making wild moves this week. I see Venus entering your 5th house, sparking a love surprise you cannot ignore, plus a money square that could cost you if you are not careful. Comment your sign if you want the full breakdown!",
+    "lucky_color": "Emerald Green",
+    "monthly_vibe": "Strategic Clarity",
+    "title": "The Stars Are Warning Gemini...",
+    "youtube_title": "Something Big Is Coming for Gemini #shorts",
+    "youtube_description": "Mercury squares Saturn this week and Jupiter goes direct \u2014 your 10th House career communications could face a wall, but the 11th House suddenly lights up your money outlook. Here\u2019s exactly when to speak up to protect your finances and your love life this week. Comment your sign!",
     "youtube_tags": [
-        "gemini weekly horoscope",
-        "gemini astrology",
-        "mercury retrograde",
-        "venus in gemini",
-        "love horoscope",
-        "money astrology",
-        "zodiac forecast",
-        "weekly astrology",
-        "gemini love life",
-        "gemini career",
-        "october horoscope",
-        "cosmic guidance"
+        "astrology",
+        "horoscope",
+        "gemini",
+        "mercury transit",
+        "jupiter station",
+        "air sign horoscope",
+        "weekly gemini",
+        "gemini predictions",
+        "cosmic forecast",
+        "gemini nov 6",
+        "astrological week"
     ],
     "type": "weekly",
     "target": "Gemini",
-    "date": "Oct 28 - Nov 03",
+    "date": "Oct 31 - Nov 06",
     "images": [
         "assets/zodiac_signs/Gemini.jpg"
     ],

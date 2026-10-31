@@ -1,44 +1,67 @@
 {
-  "script_text": "Stop! Gemini, the stars are screaming at you right now. Mercury is retrograde in your 3rd House of Communication, squaring your ruling planet and opposing your 10th House of Career with tense friction. This air-born mind is racing, but old thoughts are circling back. Your ruling planet demands honesty before you speak. Love now means an old message resurfaces; if partnered, watch for defensive silence instead of honest words. If single, attraction comes through restless curiosity, so keep your options open but your intentions clear. Career or money needs patience: review contracts and emails before sending, especially with this square heating your 10th House. Avoid signing anything before noon, and don't force a friendship-ending talk after lunch. Instead, let unexpected clarity gift you a fresh perspective tonight. The cosmic noise will settle by midnight. Follow for tomorrow's reading.",
+  "script_text": "Stop! Gemini, the stars are screaming right now \u2014 Mercury is about to flip your script. Mercury, your ruling air planet, sits in Virgo in your 4th House of Home and forms a tense square to Saturn in Sagittarius in your 7th House of Partnerships, creating friction between domestic duties and relationship demands. In love, Venus in Libra in your 5th House of Romance sextiles Mars in Leo in your 3rd House of Communication, so single Geminis should accept a spontaneous invite while attached Geminis plan a weekend getaway. For career and money, Jupiter in Cancer in your 2nd House of Money trines Mercury, signaling a modest but unexpected financial gain linked to a family property or home investment. Avoid signing a lease after dark\u2014hidden clauses could cost you later. Subscribe so you don't miss what's coming this week and weekend.",
   "captions_structure": [
     {
       "text": "GEMINI",
       "type": "header"
     },
     {
-      "text": "Stop! Gemini, the stars are screaming at you right now.",
+      "text": "Stop! Gemini, the stars are screaming right now",
+      "type": "normal"
+    },
+    {
+      "text": "Mercury, your ruling air planet, sits in Virgo in your 4th House of Home",
+      "type": "normal"
+    },
+    {
+      "text": "and forms a tense square to Saturn in Sagittarius in your 7th House of Partnerships",
+      "type": "normal"
+    },
+    {
+      "text": "Venus in Libra in your 5th House of Romance sextiles Mars in Leo in your 3rd House of Communication",
+      "type": "normal"
+    },
+    {
+      "text": "Jupiter in Cancer in your 2nd House of Money trines Mercury for an unexpected financial gain",
+      "type": "normal"
+    },
+    {
+      "text": "Avoid signing a lease after dark\u2014hidden clauses could cost you later",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
-    "7",
-    "11",
-    "21"
+    "3",
+    "9",
+    "14"
   ],
-  "lucky_color": "Emerald Green",
-  "monthly_vibe": "Reflective Tension",
-  "title": "The Stars Are Warning Gemini Tonight",
-  "youtube_title": "Gemini, Don't Ignore This Cosmic Warning #shorts",
-  "youtube_description": "Mercury retrograde is squaring your ruling planet in your 3rd House, and I just revealed the love and career fallout. If you ignored the cosmic noise, you'll feel it by midnight. Comment your sign and tell me what you're avoiding.",
+  "lucky_color": "Silver Mist",
+  "monthly_vibe": "Domestic Tension",
+  "title": "Gemini \u2014 Don't Sign That Lease",
+  "youtube_title": "Gemini: Mercury Square Saturn Warning #shorts",
+  "youtube_description": "Gemini, your ruling planet Mercury is squaring Saturn in your partnership house today. I reveal exactly why a lease or contract could backfire if you sign after dark. Comment your sign and tell me what the stars are saying to you.",
   "youtube_tags": [
-    "astrology",
-    "horoscope",
-    "gemini",
+    "gemini horoscope",
+    "daily astrology",
     "mercury retrograde",
-    "daily horoscope",
-    "love horoscope",
-    "career astrology",
-    "cosmic warning",
-    "gemini today",
-    "astrology daily"
+    "venus mars sextile",
+    "jupiter in cancer",
+    "saturn square mercury",
+    "love astrology",
+    "money horoscope",
+    "zodiac forecast",
+    "astrology reading",
+    "gemini love",
+    "gemini career"
   ],
   "type": "daily",
   "target": "Gemini",
-  "date": "October 28, 2026",
+  "date": "October 31, 2026",
   "images": [
     "assets/zodiac_signs/Gemini.jpg"
   ],
   "active": true,
-  "status": "uploaded",
-  "file_name": "plan_daily_Gemini.json"
+  "status": "error",
+  "file_name": "plan_daily_Gemini.json",
+  "error_reason": "Upload failed"
 }
