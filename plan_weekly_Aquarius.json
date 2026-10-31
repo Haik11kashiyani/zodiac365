@@ -1,42 +1,74 @@
 {
-    "script_text": "Here's your personal cosmic alarm: Uranus, Aquarius's air-ruler, squares Mercury in your seventh house today, and it will not let you ignore the spark. Monday through Wednesday fuel that restless square, making communication electric and sixth-house routines feel chaotic. Early week is best; Wednesday evening is worst. Then midweek, Venus enters your fifth house, turning a Saturn square into a soft sextile. That's the shift. Late week, Thursday through Sunday, love turns playful while career momentum stalls. For love, Mercury square Uranus in the seventh asks for radical honesty. For career, Uranus sextile Pluto in the tenth could spark a risky promotion or funding. Best day: Thursday, because Venus enters your fifth house and sextile Saturn. Worst: Wednesday, because Mercury squares Uranus. Your air identity craves freedom, yet discipline keeps it safe. Weekly advice: set one boundary around sixth-house busyness. Follow for your daily updates.",
+    "script_text": "Pluto transits your first house, shaking your air-sign identity loose with a shock. Monday and Tuesday, Uranus, your ruling planet, in your fifth trines Mars in Leo in your seventh, sparking romantic chemistry and creative risks. Wednesday, Mercury in Scorpio in your tenth squares Saturn in Aries in your third, so do not sign contracts or send emails; career talks stall. Thursday is the turning point as the Sun conjuncts Mercury in your tenth house, putting career recognition in your lap. Friday through Sunday, Venus enters your eleventh house of networks. A Venus-Jupiter sextile to your sixth house expands income through collaboration, ideal for group money moves. Thursday is your power day because the Sun-Mercury conjunction activates your tenth house of career. Wednesday is your worst day because Mercury squares Saturn in your third, blocking communication. Send your important proposal Thursday morning. Follow for daily updates.",
     "captions_structure": [
         {
             "text": "AQUARIUS",
             "type": "header"
         },
         {
-            "text": "Here's your personal cosmic alarm: Uranus, Aquarius's air-ruler, squares Mercury in your seventh house today, and it will not let you ignore the spark.",
+            "text": "Pluto transits your first house, shaking your air-sign identity loose with a shock.",
+            "type": "normal"
+        },
+        {
+            "text": "Monday and Tuesday, Uranus, your ruling planet, in your fifth trines Mars in Leo in your seventh, sparking romantic chemistry and creative risks.",
+            "type": "normal"
+        },
+        {
+            "text": "Wednesday, Mercury in Scorpio in your tenth squares Saturn in Aries in your third, so do not sign contracts or send emails; career talks stall.",
+            "type": "normal"
+        },
+        {
+            "text": "Thursday is the turning point as the Sun conjuncts Mercury in your tenth house, putting career recognition in your lap.",
+            "type": "normal"
+        },
+        {
+            "text": "Friday through Sunday, Venus enters your eleventh house of networks.",
+            "type": "normal"
+        },
+        {
+            "text": "A Venus-Jupiter sextile to your sixth house expands income through collaboration, ideal for group money moves.",
+            "type": "normal"
+        },
+        {
+            "text": "Thursday is your power day because the Sun-Mercury conjunction activates your tenth house of career.",
+            "type": "normal"
+        },
+        {
+            "text": "Wednesday is your worst day because Mercury squares Saturn in your third, blocking communication.",
+            "type": "normal"
+        },
+        {
+            "text": "Send your important proposal Thursday morning. Follow for daily updates.",
             "type": "normal"
         }
     ],
     "lucky_numbers": [
-        "7",
-        "11",
-        "21"
+        "4",
+        "17",
+        "29"
     ],
-    "lucky_color": "Emerald Green",
-    "monthly_vibe": "Electric Reflection",
-    "title": "The Stars Are Warning Aquarius...",
-    "youtube_title": "Aquarius: Don't Ignore This Signal #shorts",
-    "youtube_description": "Aquarius, Uranus is squaring Mercury in your seventh house today, and the fallout could hit your love life hard. I reveal how the midweek Venus shift changes your romantic luck and the tenth-house career spark you can't miss. Comment your sign and follow for daily updates.",
+    "lucky_color": "Electric Violet",
+    "monthly_vibe": "Sudden Shifts",
+    "title": "Aquarius: Pluto Shakes Your Identity",
+    "youtube_title": "Aquarius: The Stars Are Shifting #shorts",
+    "youtube_description": "This week, Pluto rocks your first house while Uranus sparks romance in your fifth. I reveal exactly which day to sign contracts and which to avoid. Comment your sign and let me know what the stars reveal for you!",
     "youtube_tags": [
-        "astrology",
-        "horoscope",
-        "aquarius",
-        "weekly forecast",
-        "cosmic energy",
+        "aquarius horoscope",
+        "weekly astrology",
+        "uranus transit",
+        "pluto in aquarius",
         "love astrology",
-        "career astrology",
-        "uranus",
-        "mercury",
-        "zodiac",
-        "daily horoscope",
-        "love horoscope"
+        "career horoscope",
+        "air sign",
+        "scorpio season",
+        "venus sextile",
+        "zodiac forecast",
+        "planetary aspects",
+        "astrology update"
     ],
     "type": "weekly",
     "target": "Aquarius",
-    "date": "Oct 23 - Oct 29",
+    "date": "Oct 31 - Nov 06",
     "images": [
         "assets/zodiac_signs/Aquarius.jpg"
     ],

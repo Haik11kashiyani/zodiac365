@@ -1,46 +1,79 @@
 {
-  "script_text": "Stop! Aquarius, the stars are screaming at you right now. Pluto in Aquarius is squaring your 10th House career ambitions while Saturn in Pisces squares your fixed air ruler Uranus, stalling your public path. This friction hits your 2nd House of money and your 6th House health routines, and Mercury in Libra may stir your 4th House home. This square asks for patience with your 12th House hidden fears. In love, Uranus in Taurus opposes your 7th House partnerships, so expect a loyal but unpredictable bond; avoid power struggles tonight. Your 8th House intimacy may feel electrified. Career and money demand you release one old identity role before chasing a promotion, or your 10th House goals stall. A warning: do not bulldoze a stubborn coworker, but an unexpected gift arrives through an old ally\u2019s invitation. Follow for tomorrow\u2019s reading, and stay open, Aquarius.",
+  "script_text": "Stop scrolling, Aquarius\u2014Pluto is cracking open your Air-ruled 1st House and everything about your identity is shifting right now. Mars in your 7th House of Partnerships is squaring your ruling planet Uranus, creating sharp friction between who you are and who you love. Meanwhile, Pluto remains locked in your 1st House of self, forcing a deep rebirth of your personal image. In love, expect a sudden confrontation or revelation with a partner. If single, you'll attract someone rebellious who challenges your need for freedom. Saturn in your 2nd House of Money tightens your financial budget. Jupiter in your 10th House of Career offers a sudden visibility boost\u2014say yes to the spotlight. Avoid signing contracts under today's lunar haze, or you could regret the fine print by next week. Follow for tomorrow's reading so you don't miss what's coming this week.",
   "captions_structure": [
     {
-      "text": "AQUARIUS",
+      "text": "AQUARIUS ALERT",
       "type": "header"
     },
     {
-      "text": "Stop! Aquarius, the stars are screaming at you right now.",
+      "text": "Stop scrolling, Aquarius\u2014Pluto is cracking open your Air-ruled 1st House.",
+      "type": "normal"
+    },
+    {
+      "text": "Mars in your 7th House of Partnerships is squaring your ruling planet Uranus.",
+      "type": "normal"
+    },
+    {
+      "text": "Pluto remains locked in your 1st House of self, forcing a deep rebirth.",
+      "type": "normal"
+    },
+    {
+      "text": "Expect a sudden confrontation or revelation with a partner.",
+      "type": "normal"
+    },
+    {
+      "text": "If single, you'll attract someone rebellious who challenges your freedom.",
+      "type": "normal"
+    },
+    {
+      "text": "Saturn in your 2nd House of Money tightens your financial budget.",
+      "type": "normal"
+    },
+    {
+      "text": "Jupiter in your 10th House of Career offers a sudden visibility boost.",
+      "type": "normal"
+    },
+    {
+      "text": "Avoid signing contracts under today's lunar haze.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for tomorrow's reading so you don't miss what's coming this week.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
-    "7",
-    "11",
-    "21"
+    "4",
+    "17",
+    "29"
   ],
-  "lucky_color": "Emerald Green",
-  "monthly_vibe": "Reflective & Calm",
-  "title": "The Stars Are Screaming Aquarius",
-  "youtube_title": "Aquarius Warning From The Stars #shorts",
-  "youtube_description": "Aquarius, Pluto in your sign is squaring your 10th House while Saturn hits your ruling planet Uranus. I reveal the exact love and career shift the stars have planned for you today. Comment your sign and tell me what you're refusing to release.",
+  "lucky_color": "Electric Blue",
+  "monthly_vibe": "Electric Transformation",
+  "title": "Aquarius Identity Shift Warning",
+  "youtube_title": "Aquarius: Your Identity Is Shifting #shorts",
+  "youtube_description": "Aquarius, Pluto is moving through your 1st House of self while Mars squares Uranus in your 7th House of love. This combination could trigger a breakthrough or a breakdown depending on your choices. Comment your sign and let me know how it lands.",
   "youtube_tags": [
-    "astrology",
-    "horoscope",
-    "aquarius",
-    "daily horoscope",
-    "pluto aquarius",
-    "saturn uranus",
-    "career astrology",
-    "love horoscope",
-    "cosmic warning",
-    "aquarius love",
-    "daily cosmic",
-    "astrology today"
+    "aquarius horoscope",
+    "daily astrology",
+    "pluto transit",
+    "mars square uranus",
+    "zodiac predictions",
+    "love and career",
+    "first house astrology",
+    "seventh house love",
+    "air sign energy",
+    "astrological warning",
+    "cosmic shift",
+    "weekly horoscope"
   ],
   "type": "daily",
   "target": "Aquarius",
-  "date": "October 23, 2026",
+  "date": "October 31, 2026",
   "images": [
     "assets/zodiac_signs/Aquarius.jpg"
   ],
   "active": true,
-  "status": "uploaded",
-  "file_name": "plan_daily_Aquarius.json"
+  "status": "error",
+  "file_name": "plan_daily_Aquarius.json",
+  "error_reason": "Upload failed"
 }

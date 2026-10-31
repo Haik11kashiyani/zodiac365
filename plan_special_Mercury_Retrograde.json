@@ -1,41 +1,58 @@
 {
-    "script_text": "Mercury Retrograde isn't a computer glitch \u2014 it's the universe filing your inner documents. When Mercury goes backward, communication turns inward, letting you rewrite old contracts you sealed long ago. For you, the signs will feel the tug of retrogrades in Houses 1st through 3rd: your self-identity stutters, your second house tells you to audit emotional assets, and your third house asks you to re-examine every belief you've absorbed from childhood. The shadow side is karmic: retrograde Mercury here echoes past lives where intellect was buried under confusion, and it reveals your North Node demanding you renegotiate unfinished business with Chiron's wounded mind before healing can begin. Survival Tip: journal three wrong decisions this cycle, list what hidden truth each one uncovered, then burn that page in a fire where no one will find it until the next Mercury station returns forward. The cosmos are calling to you right now \u2014 answer.",
+    "script_text": "There is a glitch in the cosmic signal, and it starts with your inbox. Mercury Retrograde happens when Mercury appears to reverse orbit. Ruled by Mercury and tied to Air, it governs communication while backtracking through your chart. Expect crossed wires in your 3rd House and delayed contracts in your 7th House. A Mercury square Saturn freezes decisions, while Mercury conjunct Venus stirs up old flames. In love, a Mercury retrograde trine to Neptune in your 7th House brings an ex back with confusing messages. For career and money, Mercury squaring Pluto in your 10th House warns of contract struggles. This Retrograde is a karmic loop forcing you to review unresolved North Node lessons tied to how you speak your truth. Chiron reveals where past words caused wounds demanding healing. Do not sign binding contracts until Mercury stations direct. Comment your sign below so I can reveal which house this activates.",
     "captions_structure": [
         {
             "text": "MERCURY RETROGRADE",
             "type": "header"
         },
         {
-            "text": "Mercury Retrograde isn't a computer glitch \u2014 it's the universe filing your inner documents."
+            "text": "There is a glitch in the cosmic signal, and it starts with your inbox.",
+            "type": "normal"
+        },
+        {
+            "text": "Mercury Retrograde happens when Mercury appears to reverse orbit.",
+            "type": "normal"
+        },
+        {
+            "text": "Expect crossed wires in your 3rd House and delayed contracts in your 7th House.",
+            "type": "normal"
+        },
+        {
+            "text": "In love, a Mercury retrograde trine to Neptune in your 7th House brings an ex back.",
+            "type": "normal"
+        },
+        {
+            "text": "Comment your sign below so I can reveal which house this activates.",
+            "type": "normal"
         }
     ],
     "lucky_numbers": [
-        "4",
-        "12",
-        "24"
+        "3",
+        "9",
+        "22"
     ],
-    "lucky_color": "Deep Violet",
-    "monthly_vibe": "Inner Revision",
-    "title": "Mercury Retrograde \u2014 Don't Ignore This",
-    "youtube_title": "Mercury Retrograde Is Rewriting Your Inner Documents #shorts",
-    "youtube_description": "Mercury retrograde on October 17 isn't a glitch \u2014 it's the universe filing your inner contracts for revision. What specific karmic pattern does your sign reveal? Find out today and check what your career and love life say about hidden wounds waiting to surface. Comment your name below so the cosmos can tell us where to dig first.",
+    "lucky_color": "Electric Yellow",
+    "monthly_vibe": "Review & Release",
+    "title": "Mercury Retrograde \u2014 The Hidden Warning",
+    "youtube_title": "Mercury Retrograde Is Lying to You #shorts",
+    "youtube_description": "Mercury Retrograde, are you ready for what your 7th House is hiding? I see an ex returning through a Neptune trine and contract struggles in your 10th House. Comment your sign and let me decode your chart.",
     "youtube_tags": [
         "mercury retrograde",
-        "astrology predictions",
+        "astrology forecast",
+        "horoscope october",
         "love horoscope",
         "career astrology",
-        "retrograde mercury",
-        "sign based reading",
-        "karmic astrology",
-        "chiron transit",
-        "north node personality",
-        "october 2026",
-        "planet retrograde",
-        "cosmic reading"
+        "north node",
+        "chiron healing",
+        "mercury square saturn",
+        "mercury conjunct venus",
+        "10th house career",
+        "7th house love",
+        "retrograde survival"
     ],
     "type": "special",
     "target": "Mercury Retrograde",
-    "date": "2026-10-17",
+    "date": "2026-10-31",
     "images": [],
     "active": true,
     "status": "pending",
