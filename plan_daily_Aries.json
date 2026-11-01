@@ -1,16 +1,36 @@
 {
-  "script_text": "Stop! Aries, the stars are screaming at your Fire element right now.\n\nNeptune is stationing retrograde in your 1st House of Self, clouding your identity with doubt and illusion. Your ruling planet Mars in Virgo squares Uranus in your 3rd House of Communication, triggering impulsive speech and work disruptions. The Sun in Scorpio lights up your 8th House of Intimacy, forcing hidden emotions to the surface.\n\nIf you are taken, expect a power struggle over shared finances or secrets. If you are single, you will attract a mysterious Scorpio type who sees through your bold facade.\n\nMars forms a trine to Pluto in your 10th House of Career, giving you dominance over rivals and a chance to reshape your ambitions. Jupiter in your 4th House of Home warns against mixing family loans with business decisions.\n\nAvoid signing any contracts until Mercury clears its shadow period.\n\nFollow for tomorrow's reading.",
+  "script_text": "Stop! Aries, your ruling planet Mars is throwing a tantrum in your domestic zone.\n\nMars, your Fire-sign ruler, sits in Cancer in your 4th House of Home, forming a harsh square to your natal Sun in the 1st House. This pits your personal drive against family responsibilities, creating irritability at the doorstep. Venus in Virgo sextiles Jupiter in your 3rd House of Communication, softening words just enough to negotiate a truce.\n\nSingle Aries, attract love through a family gathering or household introduction tonight. If taken, leave office stress outside the bedroom\u2014your partner needs your presence, not your problems.\n\nMoney flows through your 10th House of Career via a casual conversation, so speak up at work and document every agreement\u2014even a forgotten invoice may resurface.\n\nAvoid signing any lease or property contract or making impulsive real estate moves under this square.\n\nFollow for tomorrow's reading.",
   "captions_structure": [
     {
-      "text": "ARIES ALERT",
+      "text": "ARIES",
       "type": "header"
     },
     {
-      "text": "Stop! Aries, the stars are screaming at your Fire element right now.",
+      "text": "Stop! Aries, your ruling planet Mars is throwing a tantrum in your domestic zone.",
       "type": "normal"
     },
     {
-      "text": "Neptune is stationing retrograde in your 1st House of Self.",
+      "text": "Mars, your Fire-sign ruler, sits in Cancer in your 4th House of Home, forming a harsh square to your natal Sun in the 1st House.",
+      "type": "normal"
+    },
+    {
+      "text": "Venus in Virgo sextiles Jupiter in your 3rd House of Communication, softening words just enough to negotiate a truce.",
+      "type": "normal"
+    },
+    {
+      "text": "Single Aries, attract love through a family gathering or household introduction tonight.",
+      "type": "normal"
+    },
+    {
+      "text": "If taken, leave office stress outside the bedroom.",
+      "type": "normal"
+    },
+    {
+      "text": "Money flows through your 10th House of Career via a casual conversation.",
+      "type": "normal"
+    },
+    {
+      "text": "Avoid signing any lease or property contract under this square.",
       "type": "normal"
     },
     {
@@ -19,37 +39,36 @@
     }
   ],
   "lucky_numbers": [
-    "9",
-    "14",
-    "22"
+    "7",
+    "19",
+    "31"
   ],
   "lucky_color": "Crimson Red",
-  "monthly_vibe": "Fiery Reckoning",
-  "title": "Aries \u2014 Don't Ignore This Transit",
-  "youtube_title": "Aries: Neptune Retrograde in Your 1st House #shorts",
-  "youtube_description": "Aries, your ruling planet Mars is clashing with Uranus today while Neptune clouds your first house. I reveal exactly how this affects your love life, career moves, and the one contract you must avoid signing. Comment your sign and tell me what you're feeling.",
+  "monthly_vibe": "Fiery Homefront",
+  "title": "Aries: The Mars Square Warning",
+  "youtube_title": "Aries: The Mars Square Warning Today #shorts",
+  "youtube_description": "Aries, your ruling planet Mars is squaring your Sun today, creating tension between home and ambition. I reveal exactly which house is affected and how to protect your money and love life. Comment your sign if you felt this energy.",
   "youtube_tags": [
     "aries horoscope",
-    "daily astrology",
-    "aries october 2026",
-    "neptune retrograde",
-    "mars in virgo",
-    "astrology predictions",
-    "zodiac advice",
-    "love horoscope",
-    "career astrology",
+    "daily horoscope",
+    "mars transit",
+    "aries astrology",
+    "zodiac predictions",
     "fire sign energy",
-    "planetary transits",
-    "aries daily"
+    "mars square sun",
+    "4th house astrology",
+    "venus sextile jupiter",
+    "aries love career",
+    "november horoscope",
+    "western astrology"
   ],
   "type": "daily",
   "target": "Aries",
-  "date": "October 30, 2026",
+  "date": "November 01, 2026",
   "images": [
     "assets/zodiac_signs/Aries.jpg"
   ],
   "active": true,
-  "status": "error",
-  "file_name": "plan_daily_Aries.json",
-  "error_reason": "Upload failed"
+  "status": "uploaded",
+  "file_name": "plan_daily_Aries.json"
 }
