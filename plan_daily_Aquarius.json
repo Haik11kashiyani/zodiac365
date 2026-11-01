@@ -1,44 +1,44 @@
 {
-  "script_text": "Stop scrolling, Aquarius\u2014Pluto is cracking open your Air-ruled 1st House and everything about your identity is shifting right now. Mars in your 7th House of Partnerships is squaring your ruling planet Uranus, creating sharp friction between who you are and who you love. Meanwhile, Pluto remains locked in your 1st House of self, forcing a deep rebirth of your personal image. In love, expect a sudden confrontation or revelation with a partner. If single, you'll attract someone rebellious who challenges your need for freedom. Saturn in your 2nd House of Money tightens your financial budget. Jupiter in your 10th House of Career offers a sudden visibility boost\u2014say yes to the spotlight. Avoid signing contracts under today's lunar haze, or you could regret the fine print by next week. Follow for tomorrow's reading so you don't miss what's coming this week.",
+  "script_text": "Hold your breath, Aquarius\u2014Uranus is about to crack open your sky. This is a real cosmic crossroads, not generic noise. Mars in Leo forms a tense square to your ruling planet, Uranus retrograde in Taurus, sparking friction between your 7th House of Partnerships and your 4th House of Home. At the same time, Mercury in Scorpio squares your Sun in your 10th House of Career, so expect mixed messages at work. But Venus in Libra trines your Air-sign Sun, bringing harmony to romance and social circles. If you're taken, watch for a partner demanding more freedom than you can give. If single, you'll attract someone through travel or shared ideals. Financially, avoid joint investments\u2014your 8th House is under pressure. Trust a sudden intuitive hit about money instead. Warning: do not sign a lease or contract under this Mars-Uranus square. Follow for tomorrow's reading.",
   "captions_structure": [
     {
       "text": "AQUARIUS ALERT",
       "type": "header"
     },
     {
-      "text": "Stop scrolling, Aquarius\u2014Pluto is cracking open your Air-ruled 1st House.",
+      "text": "Hold your breath, Aquarius\u2014Uranus is about to crack open your sky.",
       "type": "normal"
     },
     {
-      "text": "Mars in your 7th House of Partnerships is squaring your ruling planet Uranus.",
+      "text": "This is a real cosmic crossroads, not generic noise.",
       "type": "normal"
     },
     {
-      "text": "Pluto remains locked in your 1st House of self, forcing a deep rebirth.",
+      "text": "Mars in Leo squares your ruling planet, Uranus retrograde in Taurus, hitting your 7th House of Partnerships and 4th House of Home.",
       "type": "normal"
     },
     {
-      "text": "Expect a sudden confrontation or revelation with a partner.",
+      "text": "Mercury in Scorpio squares your Sun in the 10th House of Career.",
       "type": "normal"
     },
     {
-      "text": "If single, you'll attract someone rebellious who challenges your freedom.",
+      "text": "Venus in Libra trines your Air-sign Sun, bringing romance and social harmony.",
       "type": "normal"
     },
     {
-      "text": "Saturn in your 2nd House of Money tightens your financial budget.",
+      "text": "Taken? Watch for a partner demanding too much freedom. Single? You'll attract someone through travel.",
       "type": "normal"
     },
     {
-      "text": "Jupiter in your 10th House of Career offers a sudden visibility boost.",
+      "text": "Financially, avoid joint investments\u2014your 8th House is under pressure.",
       "type": "normal"
     },
     {
-      "text": "Avoid signing contracts under today's lunar haze.",
+      "text": "Warning: do not sign a lease or contract under this Mars-Uranus square.",
       "type": "normal"
     },
     {
-      "text": "Follow for tomorrow's reading so you don't miss what's coming this week.",
+      "text": "Follow for tomorrow's reading.",
       "type": "normal"
     }
   ],
@@ -48,32 +48,31 @@
     "29"
   ],
   "lucky_color": "Electric Blue",
-  "monthly_vibe": "Electric Transformation",
-  "title": "Aquarius Identity Shift Warning",
-  "youtube_title": "Aquarius: Your Identity Is Shifting #shorts",
-  "youtube_description": "Aquarius, Pluto is moving through your 1st House of self while Mars squares Uranus in your 7th House of love. This combination could trigger a breakthrough or a breakdown depending on your choices. Comment your sign and let me know how it lands.",
+  "monthly_vibe": "Electric Awakening",
+  "title": "Aquarius, Your Sky Is Cracking Open",
+  "youtube_title": "Aquarius \u2014 Don't Sign That Contract #shorts",
+  "youtube_description": "Aquarius, your ruler Uranus is making waves this November. I see a tense Mars-Uranus square between your 7th and 4th houses, plus a career-shaking Mercury square. Comment your sign and tell me if you're feeling the shift.",
   "youtube_tags": [
     "aquarius horoscope",
     "daily astrology",
-    "pluto transit",
+    "venus in libra",
     "mars square uranus",
-    "zodiac predictions",
-    "love and career",
-    "first house astrology",
-    "seventh house love",
-    "air sign energy",
-    "astrological warning",
-    "cosmic shift",
-    "weekly horoscope"
+    "aquarius november",
+    "western astrology",
+    "love horoscope",
+    "career astrology",
+    "mercury retrograde",
+    "astrology forecast",
+    "zodiac signs",
+    "cosmic energy"
   ],
   "type": "daily",
   "target": "Aquarius",
-  "date": "October 31, 2026",
+  "date": "November 01, 2026",
   "images": [
     "assets/zodiac_signs/Aquarius.jpg"
   ],
   "active": true,
-  "status": "error",
-  "file_name": "plan_daily_Aquarius.json",
-  "error_reason": "Upload failed"
+  "status": "uploaded",
+  "file_name": "plan_daily_Aquarius.json"
 }
