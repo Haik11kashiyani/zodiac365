@@ -1,42 +1,62 @@
 {
-  "script_text": "Stop! Libra, the stars are screaming at you right now. Venus, your air ruling planet, is squaring Saturn in your seventh House of Partnerships, a tense alignment that stirs old commitment fears. This cardinal air element wants harmony, but Saturn demands boundaries, so don't ignore the friction. This is a wake-up call, not a verdict. In love, with Venus square Saturn in your seventh House, your partner may test loyalty; avoid cold silences and speak your needs before resentment builds. Your charm may not be enough to soften Saturn. In career and money, Saturn's square to Venus in your tenth House is delaying a promotion or funding decision, so negotiate a compromise timeline instead of forcing an authority battle. Your finances need patient restructuring. Avoid over-apologizing to keep peace; an unexpected offer may arrive through a neutral third party. Follow for tomorrow's reading.",
+  "script_text": "Stop! Libra, your ruling planet is about to betray your peace.\n\nVenus, your Air element ruler, is squaring aggressive Mars in your 10th House of Career and Public Image, creating a clash between charm and ambition. Meanwhile, Mercury in your 2nd House of Money sextiles disciplined Saturn, giving you a rare edge in financial negotiations.\n\nIn love, if you're partnered, expect a power struggle over who calls the shots\u2014don't let career stress spill into the bedroom. If you're single, you'll attract someone bold and competitive, but they may prioritize work over romance.\n\nFinancially, this is the day to sign contracts or ask for that raise; your 10th House visibility is high, but your 2nd House money sector is protected by Saturn's structure.\n\nAvoid sending heated emails to your boss before lunch\u2014Mars square Venus makes you say things you can't unsay.\n\nFollow for tomorrow's reading.",
   "captions_structure": [
     {
-      "text": "LIBRA",
+      "text": "LIBRA ALERT",
       "type": "header"
     },
     {
-      "text": "Stop! Libra, the stars are screaming at you right now.",
+      "text": "Stop! Libra, your ruling planet is about to betray your peace.",
+      "type": "normal"
+    },
+    {
+      "text": "Venus squares Mars in your 10th House of Career.",
+      "type": "normal"
+    },
+    {
+      "text": "Mercury sextiles Saturn in your 2nd House of Money.",
+      "type": "normal"
+    },
+    {
+      "text": "Love: power struggle over who calls the shots.",
+      "type": "normal"
+    },
+    {
+      "text": "Career: sign contracts or ask for that raise.",
+      "type": "normal"
+    },
+    {
+      "text": "Avoid heated emails to your boss before lunch.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
-    "7",
-    "11",
-    "21"
+    "4",
+    "16",
+    "29"
   ],
-  "lucky_color": "Emerald Green",
-  "monthly_vibe": "Reflective & Calm",
-  "title": "The Stars Are Warning Libra...",
-  "youtube_title": "Libra Has A Warning From The Stars #shorts",
-  "youtube_description": "The cosmos is putting your air-ruler Venus to the test. On October 29, 2026, Venus squares Saturn in your 7th House, and I'm breaking down what it means for your love and career. Comment your sign and tell me where you need boundaries.",
+  "lucky_color": "Silver Mist",
+  "monthly_vibe": "Ambitious Tension",
+  "title": "Libra, Your Career Is Under Attack",
+  "youtube_title": "Libra: Don't Ignore This Mars Square #shorts",
+  "youtube_description": "Libra, your ruling planet Venus is clashing with Mars today, and it's hitting your 10th House of career hard. Should you push for that promotion or protect your relationship first? The stars have a very specific answer. Comment your sign and tell me what you're feeling.",
   "youtube_tags": [
-    "astrology",
-    "horoscope",
     "libra",
-    "libra daily",
-    "love horoscope",
-    "career astrology",
-    "cosmic energy",
+    "libra horoscope",
     "daily horoscope",
-    "relationship advice",
-    "money astrology",
-    "personal growth",
-    "moon transit"
+    "venus mars square",
+    "career astrology",
+    "love prediction",
+    "money forecast",
+    "western astrology",
+    "zodiac reading",
+    "cosmic guidance",
+    "star transit",
+    "natal chart"
   ],
   "type": "daily",
   "target": "Libra",
-  "date": "October 29, 2026",
+  "date": "November 02, 2026",
   "images": [
     "assets/zodiac_signs/Libra.jpg"
   ],
