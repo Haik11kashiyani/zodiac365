@@ -1,67 +1,74 @@
 {
-  "script_text": "Stop! Gemini, the stars are screaming right now \u2014 Mercury is about to flip your script. Mercury, your ruling air planet, sits in Virgo in your 4th House of Home and forms a tense square to Saturn in Sagittarius in your 7th House of Partnerships, creating friction between domestic duties and relationship demands. In love, Venus in Libra in your 5th House of Romance sextiles Mars in Leo in your 3rd House of Communication, so single Geminis should accept a spontaneous invite while attached Geminis plan a weekend getaway. For career and money, Jupiter in Cancer in your 2nd House of Money trines Mercury, signaling a modest but unexpected financial gain linked to a family property or home investment. Avoid signing a lease after dark\u2014hidden clauses could cost you later. Subscribe so you don't miss what's coming this week and weekend.",
+  "script_text": "Stop! Gemini, Mercury is pulling back in your 3rd House of communication, and your words carry explosive power right now. Mars in Scorpio squares Jupiter in your 7th House of Partnerships, while Venus in Libra sextiles Mercury, sharpening your Air sign charm. The Moon conjunct Saturn in your 9th House forces a serious talk about long-term promises. In love, if taken, that 7th House square warns of a jealous argument when honesty feels like criticism, so choose timing carefully. If single, Venus sextile your ruler attracts a witty stranger who challenges your mind before your heart. For money, Mercury in your 2nd House of income trine Mars pushes you to negotiate a raise, but double-check every written detail. Warning: do not sign or send anything impulsive after sunset, or a hidden clause will cost you. Follow for tomorrow's reading, Gemini, before this tension builds into next week.",
   "captions_structure": [
     {
       "text": "GEMINI",
       "type": "header"
     },
     {
-      "text": "Stop! Gemini, the stars are screaming right now",
+      "text": "Stop! Gemini, Mercury is pulling back in your 3rd House of communication, and your words carry explosive power right now.",
       "type": "normal"
     },
     {
-      "text": "Mercury, your ruling air planet, sits in Virgo in your 4th House of Home",
+      "text": "Mars in Scorpio squares Jupiter in your 7th House of Partnerships, while Venus in Libra sextiles Mercury, sharpening your Air sign charm.",
       "type": "normal"
     },
     {
-      "text": "and forms a tense square to Saturn in Sagittarius in your 7th House of Partnerships",
+      "text": "The Moon conjunct Saturn in your 9th House forces a serious talk about long-term promises.",
       "type": "normal"
     },
     {
-      "text": "Venus in Libra in your 5th House of Romance sextiles Mars in Leo in your 3rd House of Communication",
+      "text": "In love, if taken, that 7th House square warns of a jealous argument when honesty feels like criticism, so choose timing carefully.",
       "type": "normal"
     },
     {
-      "text": "Jupiter in Cancer in your 2nd House of Money trines Mercury for an unexpected financial gain",
+      "text": "If single, Venus sextile your ruler attracts a witty stranger who challenges your mind before your heart.",
       "type": "normal"
     },
     {
-      "text": "Avoid signing a lease after dark\u2014hidden clauses could cost you later",
+      "text": "For money, Mercury in your 2nd House of income trine Mars pushes you to negotiate a raise, but double-check every written detail.",
+      "type": "normal"
+    },
+    {
+      "text": "Warning: do not sign or send anything impulsive after sunset, or a hidden clause will cost you.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for tomorrow's reading, Gemini, before this tension builds into next week.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
-    "3",
-    "9",
-    "14"
+    "7",
+    "11",
+    "21"
   ],
-  "lucky_color": "Silver Mist",
-  "monthly_vibe": "Domestic Tension",
-  "title": "Gemini \u2014 Don't Sign That Lease",
-  "youtube_title": "Gemini: Mercury Square Saturn Warning #shorts",
-  "youtube_description": "Gemini, your ruling planet Mercury is squaring Saturn in your partnership house today. I reveal exactly why a lease or contract could backfire if you sign after dark. Comment your sign and tell me what the stars are saying to you.",
+  "lucky_color": "Emerald Green",
+  "monthly_vibe": "Reflective & Calm",
+  "title": "Gemini Daily Horoscope November 04, 2026",
+  "youtube_title": "Gemini \u2014 Don't Ignore Mercury's Warning #shorts",
+  "youtube_description": "Gemini, Mercury in your 3rd House is shifting every conversation, and Mars square Jupiter could trigger a partnership clash. This reading reveals where a hidden contract clause and a jealous love argument may surface. Comment your sign and share this with another Gemini who needs the warning.",
   "youtube_tags": [
     "gemini horoscope",
-    "daily astrology",
-    "mercury retrograde",
-    "venus mars sextile",
-    "jupiter in cancer",
-    "saturn square mercury",
-    "love astrology",
-    "money horoscope",
-    "zodiac forecast",
-    "astrology reading",
-    "gemini love",
-    "gemini career"
+    "gemini daily horoscope",
+    "gemini november 2026",
+    "gemini love horoscope",
+    "gemini career horoscope",
+    "gemini mercury transit",
+    "gemini lucky numbers",
+    "daily horoscope nov 4",
+    "gemini zodiac sign",
+    "gemini air sign",
+    "gemini relationships",
+    "gemini money horoscope"
   ],
   "type": "daily",
   "target": "Gemini",
-  "date": "October 31, 2026",
+  "date": "November 04, 2026",
   "images": [
     "assets/zodiac_signs/Gemini.jpg"
   ],
   "active": true,
-  "status": "error",
-  "file_name": "plan_daily_Gemini.json",
-  "error_reason": "Upload failed"
+  "status": "uploaded",
+  "file_name": "plan_daily_Gemini.json"
 }
