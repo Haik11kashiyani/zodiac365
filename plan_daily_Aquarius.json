@@ -1,41 +1,78 @@
 {
-  "script_text": "Stop! Aquarius, the stars are screaming at you right now. Uranus, your air ruling planet, is forming a sharp sextile to Neptune in your 10th House, igniting career ambition. This airy aspect stirs your 7th House of partnership, asking for honest, unconventional intimacy. This sextile asks you to trust your intuition while your public reputation grows. If you are single, you may attract a magnetic rebel who challenges your independence; if partnered, watch for ego battles before real connection deepens, and keep dates playful and free for single Aquarius. Financially, your 10th House luck runs through networking tonight, so pitch that bold idea. Your 2nd House of money may also feel unstable, but a sudden expense or windfall could balance it. Avoid stubborn pride in negotiations. Unexpectedly, a small grant or bonus lands from an unexpected source. Follow for tomorrow\u2019s reading.",
+  "script_text": "Stop everything, Aquarius \u2014 the stars are rewriting you right now. Pluto, your modern ruler, is retrograde at three degrees Aquarius in your First House of self, throwing a square at Saturn, your traditional ruler, in your Third House of words. Expect conversations to twist against you. In your Fifth House of romance, retrograde Uranus in Gemini keeps flipping love into surprises \u2014 a familiar face resurfaces, or a quirky stranger stops you mid-sentence. Your Tenth House of career is on fire: Sun square Pluto from Scorpio forces a power standoff with a boss or client \u2014 hold your ground, but document everything. Mercury is slowing in late Scorpio, one week from its retrograde station. So do not sign, send, or swear anything this week. Follow for tomorrow's reading, when Venus stations direct.",
   "captions_structure": [
     {
-      "text": "AQUARIUS",
+      "text": "AQUARIUS ALERT",
       "type": "header"
     },
     {
-      "text": "Stop! Aquarius, the stars are screaming at you right now.",
+      "text": "Stop everything, Aquarius \u2014 the stars are rewriting you right now.",
+      "type": "normal"
+    },
+    {
+      "text": "Pluto, your modern ruler, is retrograde at 3\u00b0 Aquarius in your 1st House of self, throwing a square at Saturn, your traditional ruler, in your 3rd House of words.",
+      "type": "normal"
+    },
+    {
+      "text": "Expect conversations to twist against you.",
+      "type": "normal"
+    },
+    {
+      "text": "LOVE // 5th House of Romance",
+      "type": "header"
+    },
+    {
+      "text": "Retrograde Uranus in Gemini keeps flipping love into surprises \u2014 a familiar face resurfaces, or a quirky stranger stops you mid-sentence.",
+      "type": "normal"
+    },
+    {
+      "text": "CAREER // 10th House",
+      "type": "header"
+    },
+    {
+      "text": "Your 10th House of career is on fire: Sun square Pluto from Scorpio forces a power standoff with a boss or client \u2014 hold your ground, but document everything.",
+      "type": "normal"
+    },
+    {
+      "text": "WARNING",
+      "type": "header"
+    },
+    {
+      "text": "Mercury is slowing in late Scorpio, one week from its retrograde station. So do not sign, send, or swear anything this week.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for tomorrow's reading, when Venus stations direct.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
-    "7",
+    "4",
     "11",
-    "21"
+    "22"
   ],
-  "lucky_color": "Emerald Green",
-  "monthly_vibe": "Reflective & Calm",
-  "title": "Stars Are Screaming Aquarius...",
-  "youtube_title": "Aquarius: Don't Ignore This Warning #shorts",
-  "youtube_description": "Aquarius, Uranus is making a sharp sextile to Neptune in your 10th House today, and it's shaking your career luck. Find out what this air-powered transit means for your love life and wallet. Comment your sign to get your daily reading.",
+  "lucky_color": "Electric Violet",
+  "monthly_vibe": "Electric Reinvention",
+  "title": "Aquarius Daily Horoscope November 12, 2026",
+  "youtube_title": "Aquarius: Pluto's Hidden Truth Exposed #shorts",
+  "youtube_description": "Aquarius, Pluto in your 1st House is clashing with Saturn \u2014 and a hidden truth is about to surface. This reading reveals who's really testing your power, plus a romance surprise Uranus has been holding back for you. Comment your sign.",
   "youtube_tags": [
-    "astrology",
-    "horoscope",
     "aquarius",
+    "aquarius horoscope",
     "daily horoscope",
-    "uranus neptune",
-    "career astrology",
-    "love horoscope",
-    "aquarius love",
-    "cosmic energy",
-    "astrology today",
-    "mercury uranus"
+    "astrology",
+    "horoscope today",
+    "pluto retrograde",
+    "saturn in aries",
+    "uranus in gemini",
+    "zodiac signs",
+    "air signs",
+    "astrology reading",
+    "cosmic energy"
   ],
   "type": "daily",
   "target": "Aquarius",
-  "date": "November 11, 2026",
+  "date": "November 12, 2026",
   "images": [
     "assets/zodiac_signs/Aquarius.jpg"
   ],

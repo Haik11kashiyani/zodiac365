@@ -1,58 +1,78 @@
 {
-    "script_text": "There is a glitch in the cosmic signal, and it starts with your inbox. Mercury Retrograde happens when Mercury appears to reverse orbit. Ruled by Mercury and tied to Air, it governs communication while backtracking through your chart. Expect crossed wires in your 3rd House and delayed contracts in your 7th House. A Mercury square Saturn freezes decisions, while Mercury conjunct Venus stirs up old flames. In love, a Mercury retrograde trine to Neptune in your 7th House brings an ex back with confusing messages. For career and money, Mercury squaring Pluto in your 10th House warns of contract struggles. This Retrograde is a karmic loop forcing you to review unresolved North Node lessons tied to how you speak your truth. Chiron reveals where past words caused wounds demanding healing. Do not sign binding contracts until Mercury stations direct. Comment your sign below so I can reveal which house this activates.",
+    "script_text": "Stop scrolling\u2014the messenger is eating its tail. Mercury retrograde is Mercury appearing to move backward from Earth as it swings around the Sun. Mercury, air element, reverses through Mars-ruled water Scorpio, hiding words. From November 12, Mercury in Scorpio squares Pluto in Aquarius, pulling secrets into your 1st House, 7th House, and 10th House. Love returns in the 7th House under that square\u2014an ex or Scorpio-era secret\u2014but it is a test, not a guarantee. Career and money stall in the 10th House: a contract or invoice waits while Pluto makes fantasies look like facts. The shadow is Retrograde karma: rewriting the past to control the future. Your North Node demands honest release, while Chiron in Aries exposes the wound where you rush to prove you're right. Verify texts and contracts until Mercury stations direct. Follow the messenger and save this before the trap snaps shut.",
     "captions_structure": [
         {
             "text": "MERCURY RETROGRADE",
             "type": "header"
         },
         {
-            "text": "There is a glitch in the cosmic signal, and it starts with your inbox.",
+            "text": "Stop scrolling\u2014the messenger is eating its tail.",
             "type": "normal"
         },
         {
-            "text": "Mercury Retrograde happens when Mercury appears to reverse orbit.",
+            "text": "Mercury retrograde is Mercury appearing to move backward from Earth as it swings around the Sun.",
             "type": "normal"
         },
         {
-            "text": "Expect crossed wires in your 3rd House and delayed contracts in your 7th House.",
+            "text": "Mercury, air element, reverses through Mars-ruled water Scorpio, hiding words.",
             "type": "normal"
         },
         {
-            "text": "In love, a Mercury retrograde trine to Neptune in your 7th House brings an ex back.",
+            "text": "From November 12, Mercury in Scorpio squares Pluto in Aquarius, pulling secrets into your 1st House, 7th House, and 10th House.",
             "type": "normal"
         },
         {
-            "text": "Comment your sign below so I can reveal which house this activates.",
+            "text": "Love returns in the 7th House under that square\u2014an ex or Scorpio-era secret\u2014but it is a test, not a guarantee.",
+            "type": "normal"
+        },
+        {
+            "text": "Career and money stall in the 10th House: a contract or invoice waits while Pluto makes fantasies look like facts.",
+            "type": "normal"
+        },
+        {
+            "text": "The shadow is Retrograde karma: rewriting the past to control the future.",
+            "type": "normal"
+        },
+        {
+            "text": "Your North Node demands honest release, while Chiron in Aries exposes the wound where you rush to prove you're right.",
+            "type": "normal"
+        },
+        {
+            "text": "Verify texts and contracts until Mercury stations direct.",
+            "type": "normal"
+        },
+        {
+            "text": "Follow the messenger and save this before the trap snaps shut.",
             "type": "normal"
         }
     ],
     "lucky_numbers": [
-        "3",
-        "9",
+        "7",
+        "13",
         "22"
     ],
-    "lucky_color": "Electric Yellow",
-    "monthly_vibe": "Review & Release",
-    "title": "Mercury Retrograde \u2014 The Hidden Warning",
-    "youtube_title": "Mercury Retrograde Is Lying to You #shorts",
-    "youtube_description": "Mercury Retrograde, are you ready for what your 7th House is hiding? I see an ex returning through a Neptune trine and contract struggles in your 10th House. Comment your sign and let me decode your chart.",
+    "lucky_color": "Smoky Amethyst",
+    "monthly_vibe": "Rewind and Reveal",
+    "title": "Mercury Retrograde: 7th House Warning",
+    "youtube_title": "Mercury Retrograde: 7th House Warning #shorts",
+    "youtube_description": "Mercury Retrograde, your November 12 square to Pluto exposes the 1st, 7th, and 10th Houses, revealing who returns in love and which career contract stalls. Comment your sign so I can tell you where your personal retrograde trap is hiding.",
     "youtube_tags": [
+        "astrology",
+        "horoscope",
         "mercury retrograde",
-        "astrology forecast",
-        "horoscope october",
+        "scorpio season",
         "love horoscope",
-        "career astrology",
+        "career horoscope",
+        "planetary transit",
         "north node",
-        "chiron healing",
-        "mercury square saturn",
-        "mercury conjunct venus",
-        "10th house career",
-        "7th house love",
-        "retrograde survival"
+        "chiron",
+        "daily horoscope",
+        "cosmic energy",
+        "zodiac signs"
     ],
     "type": "special",
     "target": "Mercury Retrograde",
-    "date": "2026-10-31",
+    "date": "2026-11-12",
     "images": [],
     "active": true,
     "status": "pending",
