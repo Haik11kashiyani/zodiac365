@@ -1,29 +1,45 @@
 {
-    "script_text": "Stop. Those repeating numbers are a code, and Jupiter is decoding it in your 7th House through a trine to Neptune today. Jupiter, your ruling planet, transits your 1st House of self, while the Moon sextiles Mercury in your 10th House of career. This air element surge sharpens intuition and makes patterns impossible to ignore. In love, Venus conjunct Mars in your 7th House pulls an ex back for one decisive conversation this week. In career and money, Saturn squares the Sun in your 2nd House, so a delayed contract finally moves if you document everything by Friday. Chiron in your 4th House aspects your North Node, exposing the wound of never feeling lucky enough. Mercury Retrograde energy replays that lesson until you trust your own timing over chance. Write your numbers down and act after sunset when the Moon waxes. Comment your sign below and follow for tomorrow's transit.",
+    "script_text": "Seven, eleven, twenty-one keep finding you \u2014 on clocks, receipts, license plates \u2014 and the universe is not being playful. Lucky Numbers is a Mercury-ruled, Air-element signature: repeating numerical patterns your mind is being trained to notice. This week Mercury at 24\u00b0 Sagittarius trines Jupiter in Leo, the luckiest alignment of the year. Jupiter sits in your 10th House, so a contract, raise, or lottery ticket lands after November 20. Meanwhile Venus in Scorpio opens your 7th House, and a former lover texts at midnight. But Saturn in Pisces squares that Mercury, and Chiron in your 1st House wounds you when you gamble for escape; the North Node in Virgo says heal, not chase. Survival tip: bet one dollar, write the numbers down, then walk away and breathe. Comment your sign below, and I will map your personal lucky window before December.",
     "captions_structure": [
         {
-            "text": "LUCKY NUMBERS ALERT",
+            "text": "LUCKY NUMBERS",
             "type": "header"
         },
         {
-            "text": "Stop. Those repeating numbers are a code, and Jupiter is decoding it in your 7th House through a trine to Neptune today.",
+            "text": "Seven, eleven, twenty-one keep finding you \u2014 on clocks, receipts, license plates \u2014 and the universe is not being playful.",
             "type": "normal"
         },
         {
-            "text": "Jupiter, your ruling planet, transits your 1st House of self, while the Moon sextiles Mercury in your 10th House of career.",
+            "text": "Lucky Numbers is a Mercury-ruled, Air-element signature: repeating numerical patterns your mind is being trained to notice.",
             "type": "normal"
         },
         {
-            "text": "In love, Venus conjunct Mars in your 7th House pulls an ex back for one decisive conversation this week.",
+            "text": "This week Mercury at 24\u00b0 Sagittarius trines Jupiter in Leo, the luckiest alignment of the year.",
             "type": "normal"
         },
         {
-            "text": "In career and money, Saturn squares the Sun in your 2nd House, so a delayed contract finally moves if you document everything by Friday.",
+            "text": "Jupiter sits in your 10th House, so a contract, raise, or lottery ticket lands after November 20.",
             "type": "normal"
         },
         {
-            "text": "Comment your sign below and follow for tomorrow's transit.",
+            "text": "Meanwhile Venus in Scorpio opens your 7th House, and a former lover texts at midnight.",
             "type": "normal"
+        },
+        {
+            "text": "But Saturn in Pisces squares that Mercury, and Chiron in your 1st House wounds you when you gamble for escape.",
+            "type": "normal"
+        },
+        {
+            "text": "The North Node in Virgo says heal, not chase.",
+            "type": "normal"
+        },
+        {
+            "text": "Survival tip: bet one dollar, write the numbers down, then walk away and breathe.",
+            "type": "normal"
+        },
+        {
+            "text": "Comment your sign below, and I will map your personal lucky window before December.",
+            "type": "cta"
         }
     ],
     "lucky_numbers": [
@@ -32,26 +48,27 @@
         "21"
     ],
     "lucky_color": "Emerald Green",
-    "monthly_vibe": "Deep Reflection",
-    "title": "Something Big Is Coming for Lucky Numbers",
-    "youtube_title": "Lucky Numbers \u2014 Don't Ignore This Cosmic Sign #shorts",
-    "youtube_description": "Jupiter trining Neptune in your 7th House is activating a hidden code for Lucky Numbers today, and the Moon's sextile to Mercury reveals a career twist you won't expect. In love, Venus conjunct Mars brings an ex back with a message. Comment your sign and tell me which numbers keep finding you.",
+    "monthly_vibe": "Reflective & Calm",
+    "title": "Lucky Numbers \u2014 The Universe Is Signaling You",
+    "youtube_title": "Lucky Numbers \u2014 Why You Keep Seeing 7:11 #shorts",
+    "youtube_description": "Lucky Numbers, those repeating digits are not random \u2014 Mercury at 24\u00b0 Sagittarius is trining Jupiter in Leo on November 14, 2026, and it is activating your 10th House of income. I reveal the exact date a money offer arrives and why Venus in Scorpio is reopening your 7th House. Comment your sign for your personal lucky window.",
     "youtube_tags": [
-        "lucky numbers horoscope",
+        "astrology",
+        "horoscope",
         "lucky numbers",
-        "astrology today",
-        "jupiter transit",
-        "venus in 7th house",
-        "saturn square sun",
-        "mercury retrograde",
-        "north node astrology",
+        "numerology",
+        "mercury transit",
+        "jupiter leo",
+        "love prediction",
+        "money luck",
+        "north node",
         "chiron healing",
-        "daily horoscope",
-        "cosmic energy"
+        "november 2026",
+        "cosmic guidance"
     ],
     "type": "special",
     "target": "Lucky Numbers",
-    "date": "2026-11-04",
+    "date": "2026-11-14",
     "images": [],
     "active": true,
     "status": "pending",

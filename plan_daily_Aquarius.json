@@ -1,32 +1,32 @@
 {
-  "script_text": "Stop! Aquarius, the cosmos is tightening the screws in your favor now. The Moon in your 11th House is trining Jupiter in your 7th House, while Saturn, your air-sign ruling planet in the 3rd House, sextiles Pluto in your 1st House. This is a rare reset for partnerships, promises, and your public name, and this air-sign current favors practical intuition, not impulse. In love, a friend or group chat may introduce a magnetic, serious-minded person; if you are taken, your partner wants a conversation about the future. If single, wear your uniqueness like a flag; if coupled, define exclusivity before midnight. For career and money, Saturn in your 3rd House rewards clear contracts, edits, and short trips. Do not sign vague terms. A mentor or editor can become a financial door-opener. Avoid assuming silence means agreement, and watch for a sudden ally from your past returning. Follow for tomorrow's reading.",
+  "script_text": "Stop, Aquarius \u2014 Pluto has been quietly remodeling your 1st House of Self, and November 14 demands you stop sleepwalking through your own reinvention. As an Air sign ruled by Uranus, you live for sudden breakthroughs, and right now Saturn in Aries forms a grounding sextile to Uranus in Gemini, locking discipline into your 3rd House of Communication and sparking your 5th House of Creativity, while the Sun anchors your 10th House of Career. In love, Jupiter expanding your 7th House of Partnerships draws a bold, warm-hearted Leo energy close \u2014 possibly someone already inside your circle \u2014 so singles, say yes to that unexpected invitation tonight. Career-wise, with the Sun blazing your 10th, that stalled promotion conversation finally gets a real date, and money favors written agreements. Warning: Neptune fogs your 3rd House, so never sign anything unread. Follow for tomorrow's reading.",
   "captions_structure": [
     {
-      "text": "AQUARIUS ALERT",
+      "text": "AQUARIUS",
       "type": "header"
     },
     {
-      "text": "Stop! Aquarius, the cosmos is tightening the screws in your favor now.",
+      "text": "Stop, Aquarius \u2014 Pluto is quietly remodeling your 1st House of Self.",
       "type": "normal"
     },
     {
-      "text": "The Moon in your 11th House is trining Jupiter in your 7th House.",
+      "text": "Saturn in Aries forms a grounding sextile to Uranus in Gemini right now.",
       "type": "normal"
     },
     {
-      "text": "Saturn, your air-sign ruling planet, sextiles Pluto in your 1st House.",
+      "text": "It locks discipline into your 3rd House and sparks your 5th House of Creativity.",
       "type": "normal"
     },
     {
-      "text": "In love, a friend or group chat may introduce a serious-minded person.",
+      "text": "Meanwhile, the Sun anchors your 10th House of Career.",
       "type": "normal"
     },
     {
-      "text": "For career and money, Saturn rewards clear contracts and edits.",
+      "text": "Jupiter expanding your 7th House draws a bold Leo energy close \u2014 someone already in your circle.",
       "type": "normal"
     },
     {
-      "text": "Avoid assuming silence means agreement.",
+      "text": "Warning: Neptune fogs your 3rd House \u2014 never sign anything unread.",
       "type": "normal"
     },
     {
@@ -37,35 +37,34 @@
   "lucky_numbers": [
     "7",
     "11",
-    "21"
+    "29"
   ],
-  "lucky_color": "Electric Aqua",
-  "monthly_vibe": "Visionary Rebirth",
-  "title": "Aquarius: The Stars Are Calling",
-  "youtube_title": "Aquarius: The Stars Are Calling #shorts",
-  "youtube_description": "Aquarius, the Moon is trining Jupiter in your 7th House while Saturn sextiles Pluto in your 1st House. This reveals the person entering your circle and the contract you must not sign vaguely. Comment your sign.",
+  "lucky_color": "Electric Blue",
+  "monthly_vibe": "Electric Reinvention",
+  "title": "Pluto Is Waking Aquarius Up Right Now",
+  "youtube_title": "Pluto Is Waking Aquarius Up Right Now #shorts",
+  "youtube_description": "Saturn just formed a rare sextile to Uranus, locking discipline straight into Aquarius's 3rd and 5th Houses while Jupiter expands the 7th House of Partnerships. One bold invitation could change everything, but Neptune is fogging your 3rd House. Comment your sign if you want the full breakdown.",
   "youtube_tags": [
+    "aquarius",
+    "aquarius horoscope",
+    "aquarius daily",
+    "aquarius love",
+    "november 2026 horoscope",
     "astrology",
     "horoscope",
-    "aquarius",
-    "daily horoscope",
-    "aquarius horoscope",
-    "cosmic energy",
-    "love prediction",
-    "career prediction",
-    "astrology reading",
-    "november 2026",
+    "uranus energy",
     "saturn transit",
-    "jupiter transit"
+    "jupiter in leo",
+    "cosmic guidance",
+    "star signs"
   ],
   "type": "daily",
   "target": "Aquarius",
-  "date": "November 13, 2026",
+  "date": "November 14, 2026",
   "images": [
     "assets/zodiac_signs/Aquarius.jpg"
   ],
   "active": true,
-  "status": "error",
-  "file_name": "plan_daily_Aquarius.json",
-  "error_reason": "Upload failed"
+  "status": "uploaded",
+  "file_name": "plan_daily_Aquarius.json"
 }
