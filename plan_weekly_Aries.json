@@ -1,42 +1,58 @@
 {
-    "script_text": "Aries, this week turns quiet pressure into decisive power. Early on, the Moon in your 11th House squares Saturn in your 1st, so don't let friends pressure your self-image. Tuesday is tough because the Moon in your 12th House squares Jupiter in your 5th, inflating drama over a crush. Midweek, Venus enters Sagittarius and activates your 9th House, bringing love through travel or someone with a bold worldview. Late week, Pluto in your 11th House sextiles Neptune in your 1st, giving career allies invisible influence; ask for the introduction. Thursday through Sunday favor focused ambition over emotional detours, and Sunday restores energy. Wednesday is your power day because Venus in Sagittarius boosts romance in your 9th House. Tuesday is your worst day because Moon square Jupiter overpromises in your 5th House. Your ruler Mars adds fire-sign courage; act early, ask directly. Follow for daily updates.",
+    "script_text": "Get ready, Aries \u2014 the universe is finally handing you the keys this week. Early on, the Sun in Scorpio activates your 8th House of shared resources, making Tuesday prime for a debt, investment, or salary negotiation, though Venus in Capricorn, your 10th House of career, squares your Aries Sun, stirring pride battles with a partner over ambition and money. Mid-week turning point: Mercury enters Sagittarius, your 9th House, unlocking contracts, travel, and higher study. Late week, Fire rules: Sunday, the Sun enters Sagittarius, trining your natal Sun and Jupiter in Leo, your 5th House, supercharging romance, passion, and creative luck. Best day: Sunday, when Sun trine Jupiter expands your 5th House of love. Worst day: Wednesday, when Venus square your Sun sparks stubborn standoffs. Tip: as a Fire sign ruled by Mars, negotiate Tuesday but sign nothing until Sunday. Follow now for daily cosmic updates!",
     "captions_structure": [
         {
-            "text": "ARIES",
+            "text": "ARIES WEEKLY FORECAST",
             "type": "header"
         },
         {
-            "text": "Aries, this week turns quiet pressure into decisive power.",
+            "text": "Get ready, Aries \u2014 the universe is finally handing you the keys this week.",
+            "type": "normal"
+        },
+        {
+            "text": "Early on, the Sun in Scorpio activates your 8th House of shared resources, making Tuesday prime for a debt, investment, or salary negotiation...",
+            "type": "normal"
+        },
+        {
+            "text": "Mid-week turning point: Mercury enters Sagittarius, your 9th House, unlocking contracts, travel, and higher study.",
+            "type": "normal"
+        },
+        {
+            "text": "Late week, Fire rules: Sunday, the Sun enters Sagittarius, trining your natal Sun and Jupiter in Leo, your 5th House.",
+            "type": "normal"
+        },
+        {
+            "text": "Best day: Sunday. Worst day: Wednesday. Negotiate Tuesday, but sign nothing until Sunday. Follow now for daily cosmic updates!",
             "type": "normal"
         }
     ],
     "lucky_numbers": [
-        "9",
-        "21",
-        "36"
+        "7",
+        "19",
+        "44"
     ],
-    "lucky_color": "Scarlet Flame",
-    "monthly_vibe": "Magnetic Courage",
-    "title": "Aries Weekly Horoscope November 16, 2026",
-    "youtube_title": "Aries - Don't Ignore This Week #shorts",
-    "youtube_description": "Aries, Venus entering Sagittarius activates your 9th House, sparking romance through adventure and bold beliefs. Pluto's sextile to Neptune in your 1st House can turn quiet allies into career gold\u2014comment your sign if you felt this coming.",
+    "lucky_color": "Crimson Red",
+    "monthly_vibe": "Bold Expansion",
+    "title": "Aries: The Universe Is Handing You the Keys",
+    "youtube_title": "Aries, Your Keys to This Week Just Dropped #shorts",
+    "youtube_description": "This week the Sun enters Sagittarius and fires a trine to your Aries Sun while Jupiter expands your 5th House of romance \u2014 but Venus square your Sun could spark a power struggle over money and pride. I'll reveal why Tuesday is your negotiation day and why you must wait until Sunday to sign anything. Comment your sign for a personal reading.",
     "youtube_tags": [
-        "astrology",
-        "horoscope",
-        "aries",
         "aries horoscope",
+        "aries weekly",
         "weekly horoscope",
-        "venus sagittarius",
-        "ninth house",
-        "pluto neptune",
-        "career astrology",
-        "fire sign",
-        "cosmic energy",
-        "aries weekly"
+        "astrology",
+        "horoscope this week",
+        "aries love",
+        "aries career",
+        "venus square",
+        "jupiter in leo",
+        "sun in sagittarius",
+        "fire signs",
+        "mars energy"
     ],
     "type": "weekly",
     "target": "Aries",
-    "date": "Nov 16 - Nov 22",
+    "date": "Nov 17 - Nov 23",
     "images": [
         "assets/zodiac_signs/Aries.jpg"
     ],
