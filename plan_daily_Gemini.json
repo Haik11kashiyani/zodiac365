@@ -1,58 +1,66 @@
 {
-  "script_text": "Stop\u2014Gemini, your chart is cracking open right now. Your ruling planet Mercury stations direct in your 6th House of daily work, while the Sun there forms a stabilizing trine to Saturn in your 11th House of alliances. Delayed tasks, confusing messages, and stuck schedules begin to move, and a friend or group gives you practical support. As an air sign, you think in words, so ask for the missing detail instead of guessing. Taken Gemini, a relationship settles when you stop letting work stress become distance. Single Gemini, you attract someone through routine, class, or a shared project. In your 2nd House of money, Jupiter square Neptune warns against vague offers from teams\u2014get every number in writing. Avoid signing anything you cannot explain out loud, and watch for an unexpected mentor through a friend. Follow for tomorrow\u2019s reading so you don\u2019t miss what the stars reveal next.",
+  "script_text": "Stop scrolling right now, Gemini \u2014 Uranus just flipped the switch on your identity, and nothing feels normal after five p.m. today. Uranus, parked in your 1st House of Self, is locking into a powerful trine with Pluto in your 9th House of Expansion, wiring your mind for sudden breakthroughs. But your ruler Mercury is forming a tight conjunction with the Sun in your 6th House of Work, so reread every message before you send it. Your Air element is magnetic: Venus in your 7th House of Partnerships pulls one witty stranger straight toward you; if you're taken, one honest sentence rebuilds a broken bridge. Saturn in your 10th House of Career rewards one disciplined move \u2014 send that proposal or name your rate today. Warning: never sign or lend money before midnight. Follow for tomorrow's reading so you don't miss the morning window.",
   "captions_structure": [
     {
       "text": "GEMINI ALERT",
       "type": "header"
     },
     {
-      "text": "Stop\u2014Gemini, your chart is cracking open right now.",
+      "text": "Stop scrolling right now, Gemini \u2014 Uranus just flipped the switch on your identity, and nothing feels normal after five p.m. today.",
       "type": "normal"
     },
     {
-      "text": "Mercury direct in the 6th House; Sun trine Saturn in the 11th.",
+      "text": "Uranus, parked in your 1st House of Self, is locking into a powerful trine with Pluto in your 9th House of Expansion, wiring your mind for sudden breakthroughs.",
       "type": "normal"
     },
     {
-      "text": "Love settles when work stress stops creating distance.",
+      "text": "But your ruler Mercury is forming a tight conjunction with the Sun in your 6th House of Work, so reread every message before you send it.",
       "type": "normal"
     },
     {
-      "text": "Jupiter square Neptune in the 2nd House: get money in writing.",
+      "text": "Your Air element is magnetic: Venus in your 7th House of Partnerships pulls one witty stranger straight toward you; if you're taken, one honest sentence rebuilds a broken bridge.",
       "type": "normal"
     },
     {
-      "text": "Avoid unclear signatures. Follow for tomorrow\u2019s reading.",
+      "text": "Saturn in your 10th House of Career rewards one disciplined move \u2014 send that proposal or name your rate today.",
+      "type": "normal"
+    },
+    {
+      "text": "Warning: never sign or lend money before midnight.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for tomorrow's reading so you don't miss the morning window.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
-    "6",
-    "11",
-    "23"
+    "7",
+    "14",
+    "27"
   ],
-  "lucky_color": "Sunlit Yellow",
-  "monthly_vibe": "Clarity & Momentum",
-  "title": "Gemini: The Message You\u2019ve Been Waiting For",
-  "youtube_title": "Gemini\u2019s Message Finally Lands #shorts",
-  "youtube_description": "Mercury stations direct in your 6th House while the Sun trines Saturn, and the clarity is about to hit your work and love life. This reading shows Gemini exactly where to ask for what you need and where money must be verified. Comment your sign so the stars know you heard them.",
+  "lucky_color": "Sky Blue",
+  "monthly_vibe": "Electric Reinvention",
+  "title": "Gemini Daily Horoscope November 18, 2026",
+  "youtube_title": "Gemini, Read This Before Midnight #shorts",
+  "youtube_description": "Uranus just locked into a rare trine with Pluto across Gemini's 1st and 9th houses, and the shift peaks after 5 p.m. today. Your ruler Mercury is also forming a conjunction with the Sun, so one careless message could cost you. Comment your sign to see how this lands for you.",
   "youtube_tags": [
+    "gemini",
     "gemini horoscope",
+    "daily horoscope",
     "gemini daily",
     "astrology",
     "horoscope",
-    "mercury direct",
-    "6th house",
-    "11th house",
-    "gemini love",
-    "gemini career",
-    "air sign",
-    "zodiac",
-    "cosmic clarity"
+    "uranus transit",
+    "mercury transit",
+    "venus love",
+    "saturn career",
+    "cosmic energy",
+    "star reading"
   ],
   "type": "daily",
   "target": "Gemini",
-  "date": "November 14, 2026",
+  "date": "November 18, 2026",
   "images": [
     "assets/zodiac_signs/Gemini.jpg"
   ],
