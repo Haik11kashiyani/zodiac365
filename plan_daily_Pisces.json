@@ -1,36 +1,40 @@
 {
-  "script_text": "Stop scrolling, Pisces: your Water heart is being tested, and Jupiter in Cancer in your 5th House is pulling you toward emotional honesty. The Moon in Pisces is moving through your 1st House. It squares Uranus in Gemini in your 4th House, so sudden tension around home, family, or your inner foundation can flare fast. If you're single, Venus in Libra in your 8th House makes you magnetic to someone who speaks in secrets, so don't chase mystery blindly now. If you're taken, choose directness over silent sulking. In career, the Scorpio Sun in your 9th House favors bold outreach, but Saturn in Aries in your 2nd House asks you to guard steady savings and delay risky purchases. Avoid impulsive home changes or emotional messages; the unexpected blessing is a clear truth that resets your direction. Follow for tomorrow's reading.",
+  "script_text": "Stop! Pisces, your water element is feeling every ripple in the sky now. Saturn and Neptune are conjunct in Aries, your 2nd House of money, while the Moon joins them, sharpening every financial feeling. This is not vague anxiety; it is a real test of what you value. Jupiter, your traditional ruler, is retrograde in Leo, your 6th House, trining that Aries stellium and rewarding patient, practical work. In love, Venus in Libra, your 8th House, asks for honest intimacy, not fantasy; taken Pisces should name what they need, while singles attract through calm emotional depth. Career-wise, the 6th House Jupiter blesses disciplined routines, but the 2nd House Saturn-Neptune fog warns against vague budgets or secret deals. Avoid signing anything now until the numbers are crystal clear. Unexpected gift: a Virgo coworker offers a practical fix. Follow for tomorrow's reading.",
   "captions_structure": [
     {
-      "text": "PISCES",
+      "text": "PISCES ALERT",
       "type": "header"
     },
     {
-      "text": "Stop scrolling, Pisces: your Water heart is being tested, and Jupiter in Cancer in your 5th House is pulling you toward emotional honesty.",
+      "text": "Stop! Pisces, your water element is feeling every ripple in the sky now.",
       "type": "normal"
     },
     {
-      "text": "The Moon in Pisces is moving through your 1st House.",
+      "text": "Saturn and Neptune are conjunct in Aries, your 2nd House of money, while the Moon joins them, sharpening every financial feeling.",
       "type": "normal"
     },
     {
-      "text": "It squares Uranus in Gemini in your 4th House, so sudden tension around home, family, or your inner foundation can flare fast.",
+      "text": "This is not vague anxiety; it is a real test of what you value.",
       "type": "normal"
     },
     {
-      "text": "If you're single, Venus in Libra in your 8th House makes you magnetic to someone who speaks in secrets, so don't chase mystery blindly now.",
+      "text": "Jupiter, your traditional ruler, is retrograde in Leo, your 6th House, trining that Aries stellium and rewarding patient, practical work.",
       "type": "normal"
     },
     {
-      "text": "If you're taken, choose directness over silent sulking.",
+      "text": "In love, Venus in Libra, your 8th House, asks for honest intimacy, not fantasy; taken Pisces should name what they need, while singles attract through calm emotional depth.",
       "type": "normal"
     },
     {
-      "text": "In career, the Scorpio Sun in your 9th House favors bold outreach, but Saturn in Aries in your 2nd House asks you to guard steady savings and delay risky purchases.",
+      "text": "Career-wise, the 6th House Jupiter blesses disciplined routines, but the 2nd House Saturn-Neptune fog warns against vague budgets or secret deals.",
       "type": "normal"
     },
     {
-      "text": "Avoid impulsive home changes or emotional messages; the unexpected blessing is a clear truth that resets your direction.",
+      "text": "Avoid signing anything now until the numbers are crystal clear.",
+      "type": "normal"
+    },
+    {
+      "text": "Unexpected gift: a Virgo coworker offers a practical fix.",
       "type": "normal"
     },
     {
@@ -40,30 +44,31 @@
   ],
   "lucky_numbers": [
     "7",
-    "11",
-    "21"
+    "12",
+    "23"
   ],
-  "lucky_color": "Deep Sea Teal",
-  "monthly_vibe": "Dreamy Clarity",
-  "title": "Pisces - The Stars Are Warning You",
-  "youtube_title": "Pisces - The Stars Are Warning You #shorts",
-  "youtube_description": "Pisces, the Moon in Pisces is squaring Uranus in Gemini, lighting up your 1st and 4th Houses with sudden emotional tension. This reading reveals where a surprising truth can reset your home, love, and money direction. Comment your sign and follow for tomorrow's reading.",
+  "lucky_color": "Deep Ocean Blue",
+  "monthly_vibe": "Practical Depth",
+  "title": "Pisces Daily Horoscope November 20, 2026",
+  "youtube_title": "Pisces: The Moon Exposes Your Money #shorts",
+  "youtube_description": "Pisces, Saturn and Neptune are meeting in your 2nd House of money, and the Moon is turning up the emotional volume. I reveal how Jupiter's trine from your 6th House can turn quiet work into real reward. Comment your sign if you felt this shift.",
   "youtube_tags": [
     "astrology",
     "horoscope",
     "pisces",
     "pisces horoscope",
     "daily horoscope",
-    "moon in pisces",
-    "uranus transit",
-    "water sign",
+    "moon astrology",
+    "saturn transit",
+    "neptune transit",
+    "jupiter transit",
     "zodiac signs",
-    "cosmic energy",
-    "november 2026"
+    "water signs",
+    "cosmic energy"
   ],
   "type": "daily",
   "target": "Pisces",
-  "date": "November 17, 2026",
+  "date": "November 20, 2026",
   "images": [
     "assets/zodiac_signs/Pisces.jpg"
   ],
