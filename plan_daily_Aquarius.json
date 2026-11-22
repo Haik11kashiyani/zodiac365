@@ -1,68 +1,83 @@
 {
-  "script_text": "Stop\u2014Aquarius, your modern ruler Uranus is lighting up your 5th House, and the air is electric. Pluto in your 1st House is trining Uranus in Gemini in your 5th House, giving you magnetic confidence and fast, experimental ideas. This air-sign trine connects your identity to romance, creativity, and risk, so you can think three moves ahead. In love, Jupiter in your 7th House of partnerships encourages a bold, honest conversation; singles can attract someone through a group chat or creative project, while couples should avoid guessing games. For career, this same Pluto-Uranus trine favors your 10th House if you pitch the unconventional proposal; money improves in the 2nd House when you cancel one recurring fee. Avoid dramatic ultimatums after sunset; the unexpected gift is a message reopening a door you thought closed. Follow for tomorrow's reading and subscribe so you don't miss what's coming this week.",
+  "script_text": "Stop! Aquarius, your ruling planet Uranus is firing a rare trine to Pluto in your 1st House. As an Air sign, you are built for this electric current. Uranus in Gemini activates your 5th House of romance and creativity, while Pluto in Aquarius deepens your 1st House identity. That trine makes you magnetic and decisive. Venus in Scorpio in your 10th House makes attraction visible, so singles may meet through work or status. Taken? Keep desire private and let loyalty do the talking. Mercury and Venus in your 10th House favor bold pitches and public praise. But Mercury in Scorpio squares Mars in Leo in your 7th House, warning against rushed partner contracts. Avoid revealing your price before the other side blinks; the blessing is sudden senior recognition. Follow for tomorrow's reading so you don't miss Aquarius's next cosmic twist.",
   "captions_structure": [
     {
       "text": "AQUARIUS",
       "type": "header"
     },
     {
-      "text": "Stop\u2014Aquarius, your modern ruler Uranus is lighting up your 5th House, and the air is electric.",
+      "text": "Stop! Aquarius, your ruling planet Uranus is firing a rare trine to Pluto in your 1st House.",
       "type": "normal"
     },
     {
-      "text": "Pluto in your 1st House is trining Uranus in Gemini in your 5th House, giving you magnetic confidence and fast, experimental ideas.",
+      "text": "As an Air sign, you are built for this electric current.",
       "type": "normal"
     },
     {
-      "text": "This air-sign trine connects your identity to romance, creativity, and risk, so you can think three moves ahead.",
+      "text": "Uranus in Gemini activates your 5th House of romance and creativity.",
       "type": "normal"
     },
     {
-      "text": "In love, Jupiter in your 7th House of partnerships encourages a bold, honest conversation; singles can attract someone through a group chat or creative project, while couples should avoid guessing games.",
+      "text": "Pluto in Aquarius deepens your 1st House identity.",
       "type": "normal"
     },
     {
-      "text": "For career, this same Pluto-Uranus trine favors your 10th House if you pitch the unconventional proposal; money improves in the 2nd House when you cancel one recurring fee.",
+      "text": "That trine makes you magnetic and decisive.",
       "type": "normal"
     },
     {
-      "text": "Avoid dramatic ultimatums after sunset; the unexpected gift is a message reopening a door you thought closed.",
+      "text": "Venus in Scorpio in your 10th House makes attraction visible.",
       "type": "normal"
     },
     {
-      "text": "Follow for tomorrow's reading and subscribe so you don't miss what's coming this week.",
+      "text": "Mercury and Venus in your 10th House favor bold pitches and public praise.",
+      "type": "normal"
+    },
+    {
+      "text": "Mercury in Scorpio squares Mars in Leo in your 7th House.",
+      "type": "normal"
+    },
+    {
+      "text": "Avoid revealing your price before the other side blinks.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for tomorrow's reading so you don't miss Aquarius's next cosmic twist.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
-    "7",
-    "21",
-    "4"
+    "11",
+    "22",
+    "29"
   ],
-  "lucky_color": "Electric Cyan",
-  "monthly_vibe": "Electric Air",
-  "title": "Aquarius: Don't Ignore This Transit",
-  "youtube_title": "Aquarius: The Stars Are Warning You #shorts",
-  "youtube_description": "Aquarius, Pluto in your 1st House is trining Uranus in Gemini, and it is waking up your 5th House of love and creativity. This reading reveals the exact moment to pitch, flirt, or reset your boundaries. Comment your sign if you felt the shift.",
+  "lucky_color": "Electric Blue",
+  "monthly_vibe": "Electric Recognition",
+  "title": "Aquarius Daily Horoscope November 22, 2026",
+  "youtube_title": "Aquarius, Don't Miss This Uranus Trine #shorts",
+  "youtube_description": "Aquarius, Uranus is trining Pluto from your 5th House to your 1st House, while Mercury in Scorpio squares Mars in your 7th House. This reading reveals where sudden recognition arrives and which partner contract to avoid. Comment your sign and follow for tomorrow's reading.",
   "youtube_tags": [
-    "astrology",
-    "horoscope",
     "aquarius",
+    "aquarius horoscope",
     "daily horoscope",
-    "air sign",
+    "astrology",
     "uranus transit",
-    "pluto trine",
-    "love prediction",
-    "career money",
-    "cosmic guidance"
+    "pluto transit",
+    "mercury square mars",
+    "air signs",
+    "zodiac signs",
+    "love horoscope",
+    "career astrology",
+    "november horoscope"
   ],
   "type": "daily",
   "target": "Aquarius",
-  "date": "November 21, 2026",
+  "date": "November 22, 2026",
   "images": [
     "assets/zodiac_signs/Aquarius.jpg"
   ],
   "active": true,
-  "status": "uploaded",
-  "file_name": "plan_daily_Aquarius.json"
+  "status": "error",
+  "file_name": "plan_daily_Aquarius.json",
+  "error_reason": "Upload failed"
 }
