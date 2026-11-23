@@ -1,44 +1,32 @@
 {
-    "script_text": "Aries, your Fire element gets a cosmic test from Mars, your ruler, this week. Early week, the Sun enters Sagittarius and lights your 9th House. Saturn in your 1st House squares Uranus in your 3rd, making plans and messages feel unstable. Wednesday is your power day because the Sun sextiles Pluto in your 11th House, helping you network for money and contracts. Midweek, Venus in Libra enters your 7th House and sextiles Mars in Leo, heating romance and collaboration. Thursday is the hardest day because the Moon squares Mars in your 5th House, bringing tension. Late week, Saturn in your 1st House keeps you disciplined, but avoid signing anything until you sleep on it. The weekend requires patience as the Moon moves through Cancer, yet Venus still asks for fairness in partnerships. Your best move: delay decisions and protect your energy. Follow for daily updates.",
+    "script_text": "Aries, a Full Moon in Gemini is about to crack your Ninth House open. Monday through Wednesday, Sun in Sagittarius trines Saturn in your First House, giving authority traction, while the Full Moon conjuncts Uranus in your Third House, delivering sudden messages. Venus in Scorpio in your Eighth House intensifies love and shared-money talks; avoid jealous power plays. Midweek, Mars in Leo in your Fifth House trines Saturn, turning romantic boldness into commitment. Thursday through Sunday, Mercury in Sagittarius sextiles Pluto in your Eleventh House, connecting you with influential allies; a career offer can advance if you speak first. Weekend favors playful dates, but watch impulsive spending. Wednesday is your power day because the Full Moon activates your Third House with insight. Friday is your weakest day because Venus squares Pluto, exposing control issues. Use your Mars-ruled Fire to act boldly. Follow for daily updates.",
     "captions_structure": [
         {
             "text": "ARIES",
             "type": "header"
         },
         {
-            "text": "Aries, your Fire element gets a cosmic test from Mars, your ruler, this week.",
+            "text": "Aries, a Full Moon in Gemini is about to crack your Ninth House open.",
             "type": "normal"
         },
         {
-            "text": "Early week, the Sun enters Sagittarius and lights your 9th House.",
+            "text": "Monday through Wednesday, Sun in Sagittarius trines Saturn in your First House, giving authority traction.",
             "type": "normal"
         },
         {
-            "text": "Saturn in your 1st House squares Uranus in your 3rd, making plans and messages feel unstable.",
+            "text": "Venus in Scorpio in your Eighth House intensifies love and shared-money talks.",
             "type": "normal"
         },
         {
-            "text": "Wednesday is your power day because the Sun sextiles Pluto in your 11th House, helping you network for money and contracts.",
+            "text": "Midweek, Mars in Leo in your Fifth House trines Saturn.",
             "type": "normal"
         },
         {
-            "text": "Midweek, Venus in Libra enters your 7th House and sextiles Mars in Leo, heating romance and collaboration.",
+            "text": "Thursday through Sunday, Mercury in Sagittarius sextiles Pluto in your Eleventh House.",
             "type": "normal"
         },
         {
-            "text": "Thursday is the hardest day because the Moon squares Mars in your 5th House, bringing tension.",
-            "type": "normal"
-        },
-        {
-            "text": "Late week, Saturn in your 1st House keeps you disciplined, but avoid signing anything until you sleep on it.",
-            "type": "normal"
-        },
-        {
-            "text": "The weekend requires patience as the Moon moves through Cancer, yet Venus still asks for fairness in partnerships.",
-            "type": "normal"
-        },
-        {
-            "text": "Your best move: delay decisions and protect your energy.",
+            "text": "Wednesday is your power day; Friday is your weakest day.",
             "type": "normal"
         },
         {
@@ -47,32 +35,32 @@
         }
     ],
     "lucky_numbers": [
-        "9",
-        "5",
+        "7",
+        "11",
         "21"
     ],
-    "lucky_color": "Molten Copper",
-    "monthly_vibe": "Focused Courage",
-    "title": "Aries Weekly Horoscope November 22, 2026",
-    "youtube_title": "Aries: The Week Tests Your Fire #shorts",
-    "youtube_description": "Aries, Mars puts your Fire element to the test as Saturn square Uranus shakes your 1st and 3rd Houses. The Sun sextile Pluto in your 11th House can turn networking into money, while Venus in Libra heats romance and Thursday's Moon square Mars brings tension. Comment your sign and tell me what you're manifesting.",
+    "lucky_color": "Ruby Red",
+    "monthly_vibe": "Bold Momentum",
+    "title": "Aries Weekly Horoscope November 23, 2026",
+    "youtube_title": "Aries: Something Big Hits Your 9th House #shorts",
+    "youtube_description": "Aries, the Full Moon in Gemini is lighting up your Third House with sudden news, while Mars in Leo heats your Fifth House romance. This forecast reveals your power day and the one money warning you can't ignore. Comment your sign.",
     "youtube_tags": [
-        "aries",
         "aries horoscope",
         "weekly horoscope",
-        "astrology",
-        "mars transit",
-        "venus transit",
-        "saturn square uranus",
-        "zodiac signs",
+        "aries today",
+        "aries love",
+        "aries career",
+        "full moon gemini",
+        "mars in leo",
+        "astrology forecast",
         "cosmic energy",
-        "fire signs",
-        "love horoscope",
-        "career horoscope"
+        "aries traits",
+        "zodiac weekly",
+        "aries fire sign"
     ],
     "type": "weekly",
     "target": "Aries",
-    "date": "Nov 22 - Nov 28",
+    "date": "Nov 23 - Nov 29",
     "images": [
         "assets/zodiac_signs/Aries.jpg"
     ],
