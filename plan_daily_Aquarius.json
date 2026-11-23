@@ -1,83 +1,46 @@
 {
-  "script_text": "Stop! Aquarius, your ruling planet Uranus is firing a rare trine to Pluto in your 1st House. As an Air sign, you are built for this electric current. Uranus in Gemini activates your 5th House of romance and creativity, while Pluto in Aquarius deepens your 1st House identity. That trine makes you magnetic and decisive. Venus in Scorpio in your 10th House makes attraction visible, so singles may meet through work or status. Taken? Keep desire private and let loyalty do the talking. Mercury and Venus in your 10th House favor bold pitches and public praise. But Mercury in Scorpio squares Mars in Leo in your 7th House, warning against rushed partner contracts. Avoid revealing your price before the other side blinks; the blessing is sudden senior recognition. Follow for tomorrow's reading so you don't miss Aquarius's next cosmic twist.",
+  "script_text": "Stop! Aquarius, the stars are screaming at you right now.\n\nSaturn, your air-forged ruling planet, is squaring your 10th House of career while Pluto in your sign sextiles your 7th House of intimacy, forcing a power shift.\n\nYour air element craves freedom, yet Saturn demands mature structure before you release control.\n\nIn love, a tense Saturn-Uranus aspect means your partner may test independence tonight; do not abandon the bond before you communicate your needs clearly. If single, this sextile makes you magnetize someone fiercely unconventional.\n\nFinancially, that Saturn square in your 2nd House asks you to audit your resources before bold moves, but the Pluto sextile in the 8th House could unlock a valuable joint opportunity. The 10th House tension may redirect your public path toward reinvention.\n\nAvoid impulsive promises, and watch for an unexpected blessing through trusted allies.\n\nFollow for tomorrow's reading.",
   "captions_structure": [
     {
       "text": "AQUARIUS",
       "type": "header"
     },
     {
-      "text": "Stop! Aquarius, your ruling planet Uranus is firing a rare trine to Pluto in your 1st House.",
-      "type": "normal"
-    },
-    {
-      "text": "As an Air sign, you are built for this electric current.",
-      "type": "normal"
-    },
-    {
-      "text": "Uranus in Gemini activates your 5th House of romance and creativity.",
-      "type": "normal"
-    },
-    {
-      "text": "Pluto in Aquarius deepens your 1st House identity.",
-      "type": "normal"
-    },
-    {
-      "text": "That trine makes you magnetic and decisive.",
-      "type": "normal"
-    },
-    {
-      "text": "Venus in Scorpio in your 10th House makes attraction visible.",
-      "type": "normal"
-    },
-    {
-      "text": "Mercury and Venus in your 10th House favor bold pitches and public praise.",
-      "type": "normal"
-    },
-    {
-      "text": "Mercury in Scorpio squares Mars in Leo in your 7th House.",
-      "type": "normal"
-    },
-    {
-      "text": "Avoid revealing your price before the other side blinks.",
-      "type": "normal"
-    },
-    {
-      "text": "Follow for tomorrow's reading so you don't miss Aquarius's next cosmic twist.",
+      "text": "Stop! Aquarius, the stars are screaming at you right now.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
-    "11",
-    "22",
-    "29"
+    "7",
+    "14",
+    "23"
   ],
-  "lucky_color": "Electric Blue",
-  "monthly_vibe": "Electric Recognition",
-  "title": "Aquarius Daily Horoscope November 22, 2026",
-  "youtube_title": "Aquarius, Don't Miss This Uranus Trine #shorts",
-  "youtube_description": "Aquarius, Uranus is trining Pluto from your 5th House to your 1st House, while Mercury in Scorpio squares Mars in your 7th House. This reading reveals where sudden recognition arrives and which partner contract to avoid. Comment your sign and follow for tomorrow's reading.",
+  "lucky_color": "Deep Ocean Blue",
+  "monthly_vibe": "Electric Clarity",
+  "title": "The Stars Are Warning Aquarius Now",
+  "youtube_title": "Aquarius: Don't Trust This Energy #shorts",
+  "youtube_description": "The stars are putting pressure on your 10th House through Saturn squaring your career zone. I\u2019m showing you how Pluto sextile your 7th House shifts love and power tonight. Comment your sign and tell me where you feel the tension.",
   "youtube_tags": [
-    "aquarius",
-    "aquarius horoscope",
-    "daily horoscope",
     "astrology",
-    "uranus transit",
-    "pluto transit",
-    "mercury square mars",
-    "air signs",
-    "zodiac signs",
+    "horoscope",
+    "aquarius",
+    "daily horoscope",
+    "cosmic energy",
+    "saturn square",
+    "pluto sextile",
     "love horoscope",
     "career astrology",
-    "november horoscope"
+    "zodiac",
+    "star signs",
+    "celestial energy"
   ],
   "type": "daily",
   "target": "Aquarius",
-  "date": "November 22, 2026",
+  "date": "November 23, 2026",
   "images": [
     "assets/zodiac_signs/Aquarius.jpg"
   ],
   "active": true,
-  "status": "error",
-  "file_name": "plan_daily_Aquarius.json",
-  "error_reason": "Upload failed"
+  "status": "uploaded",
+  "file_name": "plan_daily_Aquarius.json"
 }
