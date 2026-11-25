@@ -1,66 +1,70 @@
 {
-  "script_text": "Stop scrolling, Aries\u2014Mars is putting your entire chart under a microscope. Your fiery ruler Mars at 5 degrees Virgo in your 6th House of Work is forming a tight square to Uranus at 8 degrees Gemini in your 3rd House of Communication. Expect sudden schedule shifts, tech glitches, and blunt feedback that forces repairs and hidden health issues. Venus in Libra is lighting your 7th House of Partnership, so taken Aries should avoid cold silence, while single Aries, wear one bold unexpected piece and let a flirty Gemini-type conversation surprise you. Your 10th House of Career is stressed because Saturn in Aries is squaring Pluto in your 11th\u2014document everything, and do not sign anything today, especially financial contracts. Avoid sending the angry text; an unexpected gift may arrive through a colleague or group chat. Follow for tomorrow's reading before Mercury shifts the mood and your luck turns.",
+  "script_text": "Stop \u2014 Aries, Saturn is about to stop dead in your 1st House. Right now Saturn sits at 6 degrees Aries retrograde, stationing direct within days, fused with Neptune in your 1st House \u2014 your identity is being rebuilt. Meanwhile, though Fire never stalls, your ruling planet Mars is buried in Scorpio in your 8th House, trine Jupiter in Cancer in your 4th. Love: Venus in the 8th House trine Jupiter means an unfinished intimacy talk with your partner finally lands \u2014 say the honest thing. Single? You magnetize someone guarded and magnetic, never casual. Career and money: with the Sun and Mercury in Sagittarius lighting your 9th House, pitch the long shot; a shared-money or family inheritance matter in the 8th resolves favorably. Avoid signing contracts while Neptune blurs your 1st House \u2014 read every clause twice. Your blessing: Saturn direct makes your word law. Follow for tomorrow's reading.",
   "captions_structure": [
     {
       "text": "ARIES ALERT",
       "type": "header"
     },
     {
-      "text": "Stop scrolling, Aries\u2014Mars is putting your entire chart under a microscope.",
+      "text": "Stop \u2014 Aries, Saturn is about to stop dead in your 1st House.",
       "type": "normal"
     },
     {
-      "text": "Your fiery ruler Mars at 5 degrees Virgo in your 6th House of Work is forming a tight square to Uranus at 8 degrees Gemini in your 3rd House of Communication.",
+      "text": "Saturn 6\u00b0 Aries retrograde, stationing direct, fused with Neptune.",
       "type": "normal"
     },
     {
-      "text": "Expect sudden schedule shifts, tech glitches, and blunt feedback that forces repairs and hidden health issues.",
+      "text": "Mars in Scorpio, 8th House, trine Jupiter in the 4th.",
       "type": "normal"
     },
     {
-      "text": "Venus in Libra is lighting your 7th House of Partnership, so taken Aries should avoid cold silence, while single Aries, wear one bold unexpected piece and let a flirty Gemini-type conversation surprise you.",
+      "text": "Love: Venus trine Jupiter \u2014 the intimacy talk finally lands.",
       "type": "normal"
     },
     {
-      "text": "Your 10th House of Career is stressed because Saturn in Aries is squaring Pluto in your 11th\u2014document everything, and do not sign anything today, especially financial contracts.",
+      "text": "Money: Sun and Mercury in Sagittarius light your 9th House.",
       "type": "normal"
     },
     {
-      "text": "Avoid sending the angry text; an unexpected gift may arrive through a colleague or group chat.",
+      "text": "A shared-money or family matter in the 8th resolves.",
       "type": "normal"
     },
     {
-      "text": "Follow for tomorrow's reading before Mercury shifts the mood and your luck turns.",
+      "text": "Avoid signing anything \u2014 Neptune blurs your 1st House.",
+      "type": "normal"
+    },
+    {
+      "text": "Saturn direct makes your word law. Follow for tomorrow.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
-    "5",
-    "8",
-    "21"
+    "6",
+    "21",
+    "38"
   ],
-  "lucky_color": "Electric Indigo",
-  "monthly_vibe": "Strategic Rebuild",
-  "title": "Aries Daily Horoscope November 24, 2026",
-  "youtube_title": "Aries, Mars Just Slammed Your Chart #shorts",
-  "youtube_description": "Aries, Mars is squaring Uranus in your chart today, and the tension is not subtle. I reveal the exact house hits in love, career, and what to avoid before Mercury shifts the mood\u2014comment your sign below.",
+  "lucky_color": "Molten Copper",
+  "monthly_vibe": "Rebuild & Reclaim",
+  "title": "Aries Daily Horoscope November 25, 2026",
+  "youtube_title": "Saturn Stalls In Aries \u2014 Identity Rebuilt #shorts",
+  "youtube_description": "Aries, Saturn is stationing direct at 6 degrees of your 1st House, fused with Neptune, while your ruler Mars sits buried in Scorpio's 8th House. This reading reveals which intimacy conversation finally lands and the 8th House money matter that resolves. Comment your sign and I'll read yours next.",
   "youtube_tags": [
+    "aries",
     "aries horoscope",
     "daily horoscope",
-    "aries love",
-    "aries career",
-    "mars square uranus",
-    "zodiac daily",
-    "astrology today",
-    "aries november",
-    "cosmic energy",
-    "horoscope reading",
-    "aries transit",
-    "mercury shift"
+    "astrology",
+    "saturn in aries",
+    "neptune in aries",
+    "fire signs",
+    "mars in scorpio",
+    "zodiac signs",
+    "love horoscope",
+    "career astrology",
+    "cosmic energy"
   ],
   "type": "daily",
   "target": "Aries",
-  "date": "November 24, 2026",
+  "date": "November 25, 2026",
   "images": [
     "assets/zodiac_signs/Aries.jpg"
   ],
