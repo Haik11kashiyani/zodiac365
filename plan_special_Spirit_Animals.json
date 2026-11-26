@@ -1,78 +1,90 @@
 {
-    "script_text": "They're not cute tattoos \u2014 your spirit animal is clawing at a Neptune gateway tonight. Spirit animals are the totem guides bound to your Moon-ruled Water nature, the primal instinct your subconscious channels through the shadowy 12th House of dreams. They surface as symbols when Neptune and the Moon awaken your inner world. As the Moon trines Jupiter across your 12th and 4th Houses, your instincts sharpen. In love, a soul-recognition moment arrives through your 7th House \u2014 someone mirrors your animal's energy within days. In career and money, a warning pulses through your 2nd House: trust the gut pull over the spreadsheet. But Chiron retrograde in your 8th House exposes an old fear of your own raw power. Your North Node demands you stop silencing the wild self calling across lifetimes. Keep a dream journal this week. Comment your spirit animal below, and I'll reveal what the cosmos whispers.",
+    "script_text": "You've been dreaming of the same animal for three nights. That is not random. The Moon rules you \u2014 water element, keeper of instinct \u2014 and Saturn sits retrograde at 7 degrees Aries in your 1st House, stripping your instincts bare. Venus at 8 degrees Scorpio in your 8th House trines Jupiter at 13 degrees Cancer in your 4th: love turns domestic and permanent, and someone's family claims you. In career, Mars in your 8th House pushes money through other people's hands, so a commission or partner's bonus lands, but Jupiter square Saturn says wait for tomorrow's direct station before you sign. Shadow side: Chiron retrograde in your 1st House exposes the wound of trusting instinct, while your North Node in Aquarius demands you serve the pack, not the ego. At dawn, name your animal aloud, then walk nine minutes in silence. Comment your sign and follow for tomorrow's station.",
     "captions_structure": [
         {
-            "text": "SPIRIT ANIMALS ALERT",
+            "text": "SPIRIT ANIMALS",
             "type": "header"
         },
         {
-            "text": "They're not cute tattoos \u2014 your spirit animal is clawing at a Neptune gateway tonight.",
+            "text": "You've been dreaming of the same animal for three nights.",
             "type": "normal"
         },
         {
-            "text": "Spirit animals are the totem guides bound to your Moon-ruled Water nature, the primal instinct your subconscious channels through the shadowy 12th House of dreams.",
+            "text": "That is not random.",
             "type": "normal"
         },
         {
-            "text": "They surface as symbols when Neptune and the Moon awaken your inner world.",
+            "text": "The Moon rules you \u2014 water element, keeper of instinct \u2014",
             "type": "normal"
         },
         {
-            "text": "As the Moon trines Jupiter across your 12th and 4th Houses, your instincts sharpen.",
+            "text": "and Saturn sits retrograde at 7\u00b0 Aries in your 1st House, stripping your instincts bare.",
             "type": "normal"
         },
         {
-            "text": "In love, a soul-recognition moment arrives through your 7th House \u2014 someone mirrors your animal's energy within days.",
+            "text": "Venus at 8\u00b0 Scorpio in your 8th House trines Jupiter at 13\u00b0 Cancer in your 4th:",
             "type": "normal"
         },
         {
-            "text": "In career and money, a warning pulses through your 2nd House: trust the gut pull over the spreadsheet.",
+            "text": "love turns domestic and permanent, and someone's family claims you.",
             "type": "normal"
         },
         {
-            "text": "But Chiron retrograde in your 8th House exposes an old fear of your own raw power.",
+            "text": "In career, Mars in your 8th House pushes money through other people's hands,",
             "type": "normal"
         },
         {
-            "text": "Your North Node demands you stop silencing the wild self calling across lifetimes.",
+            "text": "so a commission or partner's bonus lands \u2014",
             "type": "normal"
         },
         {
-            "text": "Keep a dream journal this week.",
+            "text": "but Jupiter square Saturn says wait for tomorrow's direct station before you sign.",
             "type": "normal"
         },
         {
-            "text": "Comment your spirit animal below, and I'll reveal what the cosmos whispers.",
+            "text": "Shadow side: Chiron retrograde in your 1st House exposes the wound of trusting instinct,",
+            "type": "normal"
+        },
+        {
+            "text": "while your North Node in Aquarius demands you serve the pack, not the ego.",
+            "type": "normal"
+        },
+        {
+            "text": "At dawn, name your animal aloud, then walk nine minutes in silence.",
+            "type": "normal"
+        },
+        {
+            "text": "Comment your sign and follow for tomorrow's station.",
             "type": "normal"
         }
     ],
     "lucky_numbers": [
-        "2",
         "7",
-        "11"
+        "8",
+        "29"
     ],
-    "lucky_color": "Moonlit Silver",
-    "monthly_vibe": "Primal Awakening",
-    "title": "Spirit Animals Special Horoscope November 15, 2026",
-    "youtube_title": "Spirit Animals Are Trying to Tell You #shorts",
-    "youtube_description": "The Moon is trining Jupiter across your 12th House tonight, and your spirit animal has a message it can no longer hide. This transit reveals a soul-recognition moment in your 7th House and a money warning buried in your 2nd House \u2014 plus the Chiron wound keeping you from your power. Comment your sign below to unlock what the cosmos is whispering to you.",
+    "lucky_color": "Midnight Indigo",
+    "monthly_vibe": "Instinctive Rebirth",
+    "title": "Spirit Animals \u2014 The Dream Returns Tonight",
+    "youtube_title": "Spirit Animals: Saturn Strips Your Instincts #shorts",
+    "youtube_description": "The animal circling your dreams is not coincidence \u2014 Saturn is stationing in your 1st House while the Moon's water element pulls your totem forward. This reading reveals exactly when the Venus-Jupiter trine turns love permanent, and which money must wait until Saturn turns direct. Comment your sign so I know whose instincts to decode next.",
     "youtube_tags": [
         "spirit animals",
-        "spirit animal meaning",
-        "astrology",
-        "horoscope",
-        "moon trine jupiter",
-        "north node",
+        "spirit animal astrology",
+        "moon ruled signs",
+        "water element signs",
+        "saturn retrograde 2026",
         "chiron retrograde",
+        "north node aquarius",
+        "venus trine jupiter",
+        "8th house money",
+        "horoscope today",
         "spiritual awakening",
-        "cosmic energy",
-        "zodiac signs",
-        "12th house astrology",
-        "totem animal"
+        "totem wisdom"
     ],
     "type": "special",
     "target": "Spirit Animals",
-    "date": "2026-11-15",
+    "date": "2026-11-26",
     "images": [],
     "active": true,
     "status": "pending",
