@@ -1,62 +1,74 @@
 {
-  "script_text": "Stop! Aquarius, the sky is cracking open a new timeline for you. Uranus, your modern ruler, is retrograde in your 5th House, while Pluto in your 1st House sextiles it, demanding reinvention over routine. Your air element wants freedom, not safety, and this transit makes boredom feel like a locked door. Love: if taken, a bold conversation about freedom versus commitment surfaces; if single, attraction comes through unconventional, tech-savvy people, especially near evening. Career and money: Jupiter in your 7th House expands partnerships, but Saturn's 3rd-House pressure says delay signing contracts, travel plans, or shared budgets until the numbers are clear. Double-check all terms now. Avoid impulsive purchases while Mercury in your 11th House trines Neptune in your 3rd House, blurring the fine print, but expect a creative idea from an unexpected friend to become income. Follow for tomorrow's reading.",
+  "script_text": "Stop scrolling, Aquarius \u2014 the sky just tightened a knot in your 7th House. Mars is conjunct Jupiter across 26\u201330 degrees of Leo, both in your 7th House of Partnerships. That conjunction squares Uranus at 3 degrees Gemini in your 5th House, so your Air-element ruler Uranus is buzzing against fixed fire. Saturn at 8 degrees Aries sextiles Pluto in your 1st, giving discipline to the reinvention. If you're single, the 7th House Mars-Jupiter conjunction hands you magnetic confidence\u2014say yes to the bold Leo-type who matches your Air. If you're taken, avoid turning a playful disagreement into a power struggle; the 5th House Uranus square can spark jealousy. In your 10th House, Mercury in Scorpio at 16 degrees pushes you to renegotiate a contract with research, not charm. Blessing: Uranus trine Pluto across your 5th and 1st Houses delivers an unexpected creative breakthrough, so don't ignore the strange idea. Follow for tomorrow's reading, Aquarius.",
   "captions_structure": [
     {
-      "text": "AQUARIUS",
+      "text": "AQUARIUS ALERT",
       "type": "header"
     },
     {
-      "text": "Stop! Aquarius, the sky is cracking open a new timeline for you.",
+      "text": "Stop scrolling, Aquarius \u2014 the sky just tightened a knot in your 7th House.",
       "type": "normal"
     },
     {
-      "text": "Uranus, your modern ruler, is retrograde in your 5th House, while Pluto in your 1st House sextiles it, demanding reinvention over routine.",
+      "text": "Mars is conjunct Jupiter across 26\u201330 degrees of Leo, both in your 7th House of Partnerships.",
       "type": "normal"
     },
     {
-      "text": "Your air element wants freedom, not safety, and this transit makes boredom feel like a locked door.",
+      "text": "That conjunction squares Uranus at 3 degrees Gemini in your 5th House, so your Air-element ruler Uranus is buzzing against fixed fire.",
       "type": "normal"
     },
     {
-      "text": "Love: if taken, a bold conversation about freedom versus commitment surfaces; if single, attraction comes through unconventional, tech-savvy people, especially near evening.",
+      "text": "Saturn at 8 degrees Aries sextiles Pluto in your 1st, giving discipline to the reinvention.",
       "type": "normal"
     },
     {
-      "text": "Career and money: Jupiter in your 7th House expands partnerships, but Saturn's 3rd-House pressure says delay signing contracts, travel plans, or shared budgets until the numbers are clear. Double-check all terms now.",
+      "text": "If you're single, the 7th House Mars-Jupiter conjunction hands you magnetic confidence\u2014say yes to the bold Leo-type who matches your Air.",
       "type": "normal"
     },
     {
-      "text": "Avoid impulsive purchases while Mercury in your 11th House trines Neptune in your 3rd House, blurring the fine print, but expect a creative idea from an unexpected friend to become income. Follow for tomorrow's reading.",
+      "text": "If you're taken, avoid turning a playful disagreement into a power struggle; the 5th House Uranus square can spark jealousy.",
+      "type": "normal"
+    },
+    {
+      "text": "In your 10th House, Mercury in Scorpio at 16 degrees pushes you to renegotiate a contract with research, not charm.",
+      "type": "normal"
+    },
+    {
+      "text": "Blessing: Uranus trine Pluto across your 5th and 1st Houses delivers an unexpected creative breakthrough, so don't ignore the strange idea.",
+      "type": "normal"
+    },
+    {
+      "text": "Follow for tomorrow's reading, Aquarius.",
       "type": "normal"
     }
   ],
   "lucky_numbers": [
+    "3",
     "7",
-    "11",
-    "21"
+    "26"
   ],
-  "lucky_color": "Electric Violet",
-  "monthly_vibe": "Electric Reinvention",
-  "title": "Aquarius Daily Horoscope November 26, 2026",
-  "youtube_title": "Aquarius, the Sky Is Cracking Open #shorts",
-  "youtube_description": "Aquarius, Uranus retrograde in your 5th House is shaking your routine, and Pluto in your 1st House is giving you reinvention energy. The reading reveals where a bold love choice meets a career delay, plus one income idea you should not ignore. Comment your sign.",
+  "lucky_color": "Electric Indigo",
+  "monthly_vibe": "Electric Clarity",
+  "title": "Aquarius, Mars Just Lit Your 7th House",
+  "youtube_title": "Aquarius, Mars Just Lit Your 7th House #shorts",
+  "youtube_description": "Aquarius, Mars is conjunct Jupiter in your 7th House while Uranus squares from the 5th\u2014this is a partnership pressure cooker. I reveal the exact degrees, the love warning, and the 10th House career move Mercury in Scorpio wants you to make. Comment your sign and follow for tomorrow's Aquarius reading.",
   "youtube_tags": [
+    "aquarius",
     "aquarius horoscope",
-    "aquarius energy",
     "daily horoscope",
     "astrology",
-    "zodiac signs",
-    "air sign",
-    "uranus transit",
-    "pluto transit",
-    "love prediction",
+    "zodiac",
+    "mars conjunct jupiter",
+    "7th house",
+    "uranus square",
+    "love horoscope",
     "career astrology",
-    "cosmic energy",
-    "horoscope 2026"
+    "air sign",
+    "november 2026"
   ],
   "type": "daily",
   "target": "Aquarius",
-  "date": "November 26, 2026",
+  "date": "November 27, 2026",
   "images": [
     "assets/zodiac_signs/Aquarius.jpg"
   ],
