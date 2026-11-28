@@ -1,46 +1,86 @@
 {
-  "script_text": "Aquarius, the sky is forcing you to choose between going solo and letting someone see you. Early week, the Full Moon in Gemini lights your 5th House while the Sun in Sagittarius opposes from your 11th, so Monday heats friendship and romance. Tuesday's Moon in Cancer in your 6th asks for rest, especially because Mercury conjunct the Sun in Sagittarius can overload your 11th House chats. Midweek, Mercury sextile Saturn in your 3rd House is the turning point; talk turns ambition into a plan. Late week, Moon in Leo meets Jupiter in your 7th House, boosting love and money through collaboration. Thursday is your power day because Moon conjunct Jupiter in your 7th House blesses partnership. Saturday is your worst day because Moon in Libra squares Pluto in your 1st House. As Air ruled by Saturn, ground your brilliance with boundaries. Follow for daily updates.",
-  "captions_structure": [
-    {
-      "text": "AQUARIUS",
-      "type": "header"
-    },
-    {
-      "text": "Aquarius, the sky is forcing you to choose between going solo and letting someone see you.",
-      "type": "normal"
-    }
-  ],
-  "lucky_numbers": [
-    "7",
-    "11",
-    "21"
-  ],
-  "lucky_color": "Royal Blue",
-  "monthly_vibe": "Deep Transformation",
-  "title": "Aquarius Weekly Horoscope November 24, 2026",
-  "youtube_title": "Aquarius: Don't Ignore This #shorts",
-  "youtube_description": "Aquarius, this week Mercury sextile Saturn in your 3rd House and Moon conjunct Jupiter in your 7th House reveal a powerful opening in love and shared money. Watch for the Saturday Moon square Pluto warning before you try to control everything. Comment your sign.",
-  "youtube_tags": [
-    "astrology",
-    "horoscope",
-    "aquarius",
-    "aquarius horoscope",
-    "weekly horoscope",
-    "moon conjunct jupiter",
-    "mercury sextile saturn",
-    "full moon gemini",
-    "zodiac signs",
-    "cosmic energy",
-    "love prediction",
-    "career prediction"
-  ],
-  "type": "weekly",
-  "target": "Aquarius",
-  "date": "Nov 24 - Nov 30",
-  "images": [
-    "assets/zodiac_signs/Aquarius.jpg"
-  ],
-  "active": true,
-  "status": "uploaded",
-  "file_name": "plan_weekly_Aquarius.json"
+    "script_text": "Aquarius, the Sun in your 11th House opposes Uranus in your 5th this week, and your social script shatters. Ruled by Uranus, Air-sign Aquarius feels it. Early week, Monday's Sun-Uranus opposition pits group goals against sudden romantic urges; Venus in your 5th squares Neptune in your 3rd, blurring crushes. Tuesday's Mercury in Sagittarius trine Saturn in Aries sharpens contracts and career conversations. Midweek, Tuesday's Moon enters Aquarius, your 1st House, shifting focus to your own needs. Late week, Thursday's Moon in Aquarius energizes you; by Friday it enters Pisces, your 2nd House, improving money talks if you stick to facts. Weekend, Jupiter in your 7th House sextiles Uranus in your 5th, keeping romance electric. Wednesday is your power day because Mercury trines Saturn for career wins. Monday is hardest because Sun opposes Uranus. Back up work and avoid impulsive group spending. Follow for daily updates.",
+    "captions_structure": [
+        {
+            "text": "AQUARIUS",
+            "type": "header"
+        },
+        {
+            "text": "Aquarius, the Sun in your 11th House opposes Uranus in your 5th this week, and your social script shatters.",
+            "type": "normal"
+        },
+        {
+            "text": "Ruled by Uranus, Air-sign Aquarius feels it.",
+            "type": "normal"
+        },
+        {
+            "text": "Early week, Monday's Sun-Uranus opposition pits group goals against sudden romantic urges; Venus in your 5th squares Neptune in your 3rd, blurring crushes.",
+            "type": "normal"
+        },
+        {
+            "text": "Tuesday's Mercury in Sagittarius trine Saturn in Aries sharpens contracts and career conversations.",
+            "type": "normal"
+        },
+        {
+            "text": "Midweek, Tuesday's Moon enters Aquarius, your 1st House, shifting focus to your own needs.",
+            "type": "normal"
+        },
+        {
+            "text": "Late week, Thursday's Moon in Aquarius energizes you; by Friday it enters Pisces, your 2nd House, improving money talks if you stick to facts.",
+            "type": "normal"
+        },
+        {
+            "text": "Weekend, Jupiter in your 7th House sextiles Uranus in your 5th, keeping romance electric.",
+            "type": "normal"
+        },
+        {
+            "text": "Wednesday is your power day because Mercury trines Saturn for career wins.",
+            "type": "normal"
+        },
+        {
+            "text": "Monday is hardest because Sun opposes Uranus.",
+            "type": "normal"
+        },
+        {
+            "text": "Back up work and avoid impulsive group spending.",
+            "type": "normal"
+        },
+        {
+            "text": "Follow for daily updates.",
+            "type": "normal"
+        }
+    ],
+    "lucky_numbers": [
+        "7",
+        "11",
+        "21"
+    ],
+    "lucky_color": "Electric Violet",
+    "monthly_vibe": "Electric Shift",
+    "title": "Aquarius Weekly Horoscope November 28, 2026",
+    "youtube_title": "Aquarius: Uranus Cracks Your Script #shorts",
+    "youtube_description": "Aquarius, Uranus in your 5th House is detonating your social script this week, and Venus square Neptune could blur a crush. I break down the exact Monday and Wednesday turning points, plus the money window on Friday. Comment your sign and tell me if you feel the shift.",
+    "youtube_tags": [
+        "aquarius horoscope",
+        "aquarius weekly",
+        "weekly horoscope",
+        "astrology",
+        "uranus transit",
+        "venus square neptune",
+        "aquarius love",
+        "aquarius career",
+        "zodiac forecast",
+        "november horoscope",
+        "air sign energy",
+        "cosmic guidance"
+    ],
+    "type": "weekly",
+    "target": "Aquarius",
+    "date": "Nov 28 - Dec 04",
+    "images": [
+        "assets/zodiac_signs/Aquarius.jpg"
+    ],
+    "active": true,
+    "status": "pending",
+    "file_name": "plan_weekly_Aquarius.json"
 }
